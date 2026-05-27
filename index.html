@@ -229,12 +229,7 @@
   <header>
     <h1>📱 Buyback Quote Tool <span style="font-size:11px;color:#64748b;font-weight:500;">v2.3</span></h1>
     <div class="sub">Rajdhani Telecom · Last calibrated 2026-05-01</div>
-    <div class="stat-row">
-      <div class="stat-pill">📦 581 phones</div>
-      <div class="stat-pill">🚫 310 discontinued</div>
-      <div class="stat-pill">✅ 4 verified</div>
-      <div class="stat-pill">⚠ 577 estimated</div>
-    </div>
+    <div class="stat-row" id="stat-row"></div>
   </header>
 
   <div class="card">
@@ -354,6 +349,23 @@ function fullQuote(entry) {
 const $search = document.getElementById("search");
 const $results = document.getElementById("results");
 const $output = document.getElementById("quote-output");
+
+(function renderStats() {
+  let total = 0, disc = 0, verified = 0, estimated = 0;
+  for (const k in DB) {
+    if (k === "_meta") continue;
+    const p = DB[k];
+    total++;
+    if (p.discontinued === true) disc++;
+    if (p.calibration_status === "verified") verified++;
+    if (p.calibration_status === "estimated") estimated++;
+  }
+  document.getElementById("stat-row").innerHTML =
+    `<div class="stat-pill">📦 ${total} phones</div>` +
+    `<div class="stat-pill">🚫 ${disc} discontinued</div>` +
+    `<div class="stat-pill">✅ ${verified} verified</div>` +
+    `<div class="stat-pill">⚠ ${estimated} estimated</div>`;
+})();
 
 let activeFilter = "all";
 
