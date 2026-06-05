@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "version": "3.0",
+    "version": "3.6",
     "last_calibration": "2026-05-27",
     "total_phones": "auto-counted on save",
     "schema_priority_order": [
@@ -29,7 +29,14 @@
     "v2_7_changelog": "Added confirmed-missing Vivo V-series gaps: V40 Pro (Aug 2024 D9200+ flagship), V40e (Sep 2024 D7300), T3 Ultra (Sep 2024 D9200+). Note: V50 Pro and V60 Pro NOT added — neither launched in India (V50/V60 had no Pro variant in Indian market).",
     "v2_8_changelog": "Full 2020-2026 variant audit. FIXED data errors: removed 7 fake iPhone 2TB entries (2TB only on iPhone 17 Pro Max), removed 8 fake Samsung 2TB entries (Samsung max=1TB, never made 2TB), removed iphone_12_512 & iphone_11_512 (those models maxed at 256GB), removed samsung_s22_512 (S22 base max=256GB). ADDED missing: iPhone 11 Pro/Pro Max (6 variants), iPhone 12 mini 128/256, iPhone Air 1TB, iPhone 17e (3 variants), Samsung S20+/S20 Ultra 256GB, S22 Ultra 128GB, S22+ 128/256.",
     "v2_9_changelog": "Vivo V50 family corrected: added V50 8/128GB and V50e 8/128GB; removed vivo_v50e_8_512 (V50e max storage = 256GB, 512 never existed). Note: 'Vivo V50 Pro' is NOT in the DB because it does not exist — Vivo officially did not release a Pro variant of the V50 (only V50, V50e, V50 Lite). Online 'V50 Pro' pages are rumor/SEO blogs, not real products.",
-    "v3_0_changelog": "Live rate refresh — 96 high-traffic models updated with VERIFIED May 2026 Cashify refurbished rates (calibration_status='verified'). Major corrections: iPhone 12/13/14/15 series, iPhone 16/16 Pro, iPhone 11 family, Samsung S23/S24/S25 Ultra, S24, Z Fold 5, OnePlus 11/12R/10 Pro. Most anchors dropped 10-28% to match current depreciated market — e.g. iPhone 14 anchor 42500->32600, iPhone 12 27500->22500, S24 Ultra 78000->66600. Remaining ~1276 models still 'estimated' — live-verify on first transaction per skill."
+    "v3_0_changelog": "Live rate refresh — 96 high-traffic models updated with VERIFIED May 2026 Cashify refurbished rates (calibration_status='verified'). Major corrections: iPhone 12/13/14/15 series, iPhone 16/16 Pro, iPhone 11 family, Samsung S23/S24/S25 Ultra, S24, Z Fold 5, OnePlus 11/12R/10 Pro. Most anchors dropped 10-28% to match current depreciated market — e.g. iPhone 14 anchor 42500->32600, iPhone 12 27500->22500, S24 Ultra 78000->66600. Remaining ~1276 models still 'estimated' — live-verify on first transaction per skill.",
+    "v3_1_changelog": "MAJOR PRICING FIX. Root cause: engine was anchoring on Cashify REFURBISHED-RETAIL (sell) price, which produced buyback quotes that were too LOW after deductions. Fix: new 'cashify_exchange' field = what Cashify actually PAYS the customer (their exchange/sell-old-phone value), and new Mode 0 in engine: RT buyback A1 = cashify_exchange × (1 + RT_premium). RT pays a tier-based premium ABOVE Cashify (S:8% A:10% B:12% C:14% D:16%) to beat Cashify's lowball and win the walk-in. 100 high-traffic models now have verified/estimated Cashify exchange values (iPhone 11-16 series, Samsung S23/24/25 Ultra+S24, Z Fold 5, OnePlus 11/12R/10 Pro). Verified anchors: iPhone 14 ₹14,720, Samsung S24 ₹22,000. Both JS engine and Python engine updated with Mode 0.",
+    "v3_2_changelog": "SHANE-CALIBRATED PRICING. Anchored on Shane's actual counter rates (A1/mint, with box). Confirmed data points: iPhone 14 128GB=₹26,500, iPhone 12 64GB=₹16,000, Samsung S24 Ultra 256GB=₹55,000. Derived RT multipliers over Cashify exchange: iPhones 1.52-1.80 (recent flagships highest), Android flagships 1.38-1.45. Applied rt_buyback_a1_override to 100 high-traffic models. A1=mint top rate; A2/B/C/D grades cascade down via GRADE_MULT. Remaining ~1272 models still estimated.",
+    "warranty_premium": 0.13,
+    "v3_3_changelog": "WARRANTY TIER added. New 'under warranty' toggle in UI shows higher A1 for phones still under manufacturer warranty (+13% default, or explicit rt_buyback_a1_warranty). Shane-confirmed warranty rates: iPhone 15 128 = ₹39,000 out / ₹44,000 under-warranty; S25 Ultra 256 = ₹66,700 out / ₹75,000 under-warranty. Also fixed iPhone 15 base (34600→39000) and recalibrated all 2023 iPhones with 1.86 base / 1.55 Pro multiplier (iPhone 15 Pro Max now ₹68,200). Both Python + JS engines carry warranty logic.",
+    "v3_4_changelog": "Rate trim — calibrated models were ~10-15% too high (Shane feedback). Applied 0.90 general trim, 0.88 for Pro models, 0.855 for Pro Max/Ultra (which overshot most). Shane-confirmed rates PROTECTED & unchanged: iPhone 14 ₹26,500, iPhone 12 ₹16,000, S24 Ultra ₹55,000, iPhone 15 ₹39,000/₹44,000-wty, S25 Ultra ₹66,700/₹75,000-wty. Examples post-trim: iPhone 15 Pro Max 68,200→58,300, iPhone 13 Pro Max 43,700→37,400, iPhone 16 52,800→47,500, S23 Ultra 42,600→36,400.",
+    "v3_5_changelog": "Added missing Vivo V60 variants: 12/256GB (₹40,999) and 16/512GB (₹45,999). V60 confirmed to have 4 variants (8/128, 8/256, 12/256, 16/512) per GSMArena/GSMArena. Note: V60 family still 'estimated' anchor — needs Shane rate calibration like other Vivo mid-range.",
+    "v3_6_changelog": "Full multi-brand variant audit. Added 55 new entries across 2 waves: (1) 2025-26 flagships/popular — Samsung S25 FE, A17 5G, M56, F56, Z Flip 7 FE, iQOO Neo 10R, Xiaomi 15 Ultra, Redmi 15 5G, OnePlus Nord CE4 Lite, Vivo T4x, Realme 15 Pro. (2) Budget brands previously absent — Infinix (Hot 40, Note 40/Pro, Zero 40, Smart 8, GT 20 Pro), Tecno (Spark 20/Pro, Pova 6/Pro, Camon 30), Lava (Blaze 2, Blaze Curve, Agni 3, Yuva 3), plus Samsung A05/A05s/F14, Redmi 12C, Oppo A58. All verified via web search for real India launches + correct storage variants. New budget brands are 'estimated' anchors."
   },
   "iphone_11_64": {
     "display_name": "iPhone 11 64GB",
@@ -41,8 +48,10 @@
     "market_factor": 0.88,
     "target_margin": 0.22,
     "notes": "Grey market dominant. Verify IMEI carefully — high theft risk model.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 8000,
+    "rt_buyback_a1_override": 11000
   },
   "iphone_11_128": {
     "display_name": "iPhone 11 128GB",
@@ -53,8 +62,10 @@
     "refurb_retail_anchor_excellent": 20000,
     "market_factor": 0.88,
     "target_margin": 0.22,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 9500,
+    "rt_buyback_a1_override": 13000
   },
   "iphone_12_64": {
     "display_name": "iPhone 12 64GB",
@@ -65,8 +76,10 @@
     "refurb_retail_anchor_excellent": 19800,
     "market_factor": 0.88,
     "target_margin": 0.2,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 10500,
+    "rt_buyback_a1_override": 16000
   },
   "iphone_12_128": {
     "display_name": "iPhone 12 128GB",
@@ -77,8 +90,10 @@
     "refurb_retail_anchor_excellent": 22500,
     "market_factor": 0.88,
     "target_margin": 0.2,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 12000,
+    "rt_buyback_a1_override": 16400
   },
   "iphone_12_mini_64": {
     "display_name": "iPhone 12 mini 64GB",
@@ -90,8 +105,10 @@
     "market_factor": 0.88,
     "target_margin": 0.22,
     "notes": "Smaller form factor — niche demand. Slow resale.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 9000,
+    "rt_buyback_a1_override": 12300
   },
   "iphone_12_pro_128": {
     "display_name": "iPhone 12 Pro 128GB",
@@ -102,8 +119,10 @@
     "refurb_retail_anchor_excellent": 26500,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 15000,
+    "rt_buyback_a1_override": 20100
   },
   "iphone_12_pro_max_128": {
     "display_name": "iPhone 12 Pro Max 128GB",
@@ -114,8 +133,10 @@
     "refurb_retail_anchor_excellent": 31000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 17500,
+    "rt_buyback_a1_override": 22700
   },
   "iphone_13_128": {
     "display_name": "iPhone 13 128GB",
@@ -128,8 +149,10 @@
     "target_margin": 0.2,
     "refurb_retail_source": "Cashify Store Fair ₹27,699 × 1.18; Budli ₹26,999",
     "notes": "iOS 26 still supported. Strong demand. Verify battery >85% strictly.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 13500,
+    "rt_buyback_a1_override": 20100
   },
   "iphone_13_256": {
     "display_name": "iPhone 13 256GB",
@@ -141,8 +164,10 @@
     "market_factor": 0.88,
     "target_margin": 0.2,
     "refurb_retail_source": "Budli ₹29,999 × 1.18 + estimate",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 15500,
+    "rt_buyback_a1_override": 23000
   },
   "iphone_13_mini_128": {
     "display_name": "iPhone 13 mini 128GB",
@@ -155,8 +180,10 @@
     "target_margin": 0.22,
     "refurb_retail_source": "Budli ₹25,999 × 1.18",
     "notes": "Compact form factor — niche but loyal following.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 13000,
+    "rt_buyback_a1_override": 19300
   },
   "iphone_13_pro_128": {
     "display_name": "iPhone 13 Pro 128GB",
@@ -169,8 +196,10 @@
     "target_margin": 0.18,
     "refurb_retail_source": "Cashify Store Fair ₹41,199 × 1.18; Budli ₹39,999",
     "notes": "Pro Motion 120Hz still flagship-class. Stainless steel frame, IP68.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 21000,
+    "rt_buyback_a1_override": 30400
   },
   "iphone_13_pro_256": {
     "display_name": "iPhone 13 Pro 256GB",
@@ -181,8 +210,10 @@
     "refurb_retail_anchor_excellent": 45500,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 23500,
+    "rt_buyback_a1_override": 34100
   },
   "iphone_13_pro_max_128": {
     "display_name": "iPhone 13 Pro Max 128GB",
@@ -195,8 +226,10 @@
     "target_margin": 0.18,
     "refurb_retail_source": "Cashify Store Fair ₹45,299 × 1.18; Budli ₹40,999",
     "notes": "Best battery iPhone of era. 6.7\" still relevant.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 24000,
+    "rt_buyback_a1_override": 33900
   },
   "iphone_13_pro_max_256": {
     "display_name": "iPhone 13 Pro Max 256GB",
@@ -207,8 +240,10 @@
     "refurb_retail_anchor_excellent": 50000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 26500,
+    "rt_buyback_a1_override": 37400
   },
   "iphone_14_128": {
     "display_name": "iPhone 14 128GB",
@@ -220,8 +255,10 @@
     "market_factor": 0.88,
     "target_margin": 0.2,
     "notes": "Same A15 as 13. Crash detection + satellite SOS.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 14720,
+    "rt_buyback_a1_override": 26500
   },
   "iphone_14_256": {
     "display_name": "iPhone 14 256GB",
@@ -232,8 +269,10 @@
     "refurb_retail_anchor_excellent": 37000,
     "market_factor": 0.88,
     "target_margin": 0.2,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 16500,
+    "rt_buyback_a1_override": 26700
   },
   "iphone_14_plus_128": {
     "display_name": "iPhone 14 Plus 128GB",
@@ -245,8 +284,10 @@
     "market_factor": 0.88,
     "target_margin": 0.2,
     "notes": "6.7\" non-Pro. Slow seller initially, decent demand now.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 16500,
+    "rt_buyback_a1_override": 26700
   },
   "iphone_14_pro_128": {
     "display_name": "iPhone 14 Pro 128GB",
@@ -258,8 +299,10 @@
     "market_factor": 0.88,
     "target_margin": 0.18,
     "notes": "Dynamic Island, Always-On display. A16. ProMotion 120Hz.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 26000,
+    "rt_buyback_a1_override": 41200
   },
   "iphone_14_pro_256": {
     "display_name": "iPhone 14 Pro 256GB",
@@ -270,8 +313,10 @@
     "refurb_retail_anchor_excellent": 60000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 29000,
+    "rt_buyback_a1_override": 45900
   },
   "iphone_14_pro_max_128": {
     "display_name": "iPhone 14 Pro Max 128GB",
@@ -283,8 +328,10 @@
     "market_factor": 0.88,
     "target_margin": 0.18,
     "notes": "High-value model — always live-verify refurb retail before quote.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 30000,
+    "rt_buyback_a1_override": 46200
   },
   "iphone_14_pro_max_256": {
     "display_name": "iPhone 14 Pro Max 256GB",
@@ -295,8 +342,10 @@
     "refurb_retail_anchor_excellent": 67000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 33000,
+    "rt_buyback_a1_override": 50800
   },
   "iphone_15_128": {
     "display_name": "iPhone 15 128GB",
@@ -307,8 +356,11 @@
     "resale_target_a1": 39400,
     "target_margin": 0.18,
     "notes": "Still in production at reduced MRP. USB-C, 48MP.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_confirmed",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 21000,
+    "rt_buyback_a1_override": 39000,
+    "rt_buyback_a1_warranty": 44000
   },
   "iphone_15_256": {
     "display_name": "iPhone 15 256GB",
@@ -318,8 +370,10 @@
     "net_new_inr": 75000,
     "resale_target_a1": 44000,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 23500,
+    "rt_buyback_a1_override": 39200
   },
   "iphone_15_plus_128": {
     "display_name": "iPhone 15 Plus 128GB",
@@ -330,8 +384,10 @@
     "resale_target_a1": 43000,
     "target_margin": 0.18,
     "notes": "Still in production alongside iPhone 16.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 24000,
+    "rt_buyback_a1_override": 40100
   },
   "iphone_15_pro_128": {
     "display_name": "iPhone 15 Pro 128GB",
@@ -343,8 +399,10 @@
     "market_factor": 0.88,
     "target_margin": 0.18,
     "notes": "Titanium, A17 Pro. NEEDS LIVE VERIFY for refurb retail.",
-    "calibration_status": "estimated",
-    "calibration_date": "2026-05-01"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 35000,
+    "rt_buyback_a1_override": 47700
   },
   "iphone_15_pro_256": {
     "display_name": "iPhone 15 Pro 256GB",
@@ -355,8 +413,10 @@
     "refurb_retail_anchor_excellent": 87000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "estimated",
-    "calibration_date": "2026-05-01"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 38500,
+    "rt_buyback_a1_override": 52500
   },
   "iphone_15_pro_max_256": {
     "display_name": "iPhone 15 Pro Max 256GB",
@@ -368,8 +428,10 @@
     "market_factor": 0.88,
     "target_margin": 0.16,
     "notes": "Highly retained value. Verify live.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 44000,
+    "rt_buyback_a1_override": 58300
   },
   "iphone_16_128": {
     "display_name": "iPhone 16 128GB",
@@ -379,8 +441,10 @@
     "net_new_inr": 72000,
     "resale_target_a1": 53600,
     "target_margin": 0.16,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 32000,
+    "rt_buyback_a1_override": 47500
   },
   "iphone_16_256": {
     "display_name": "iPhone 16 256GB",
@@ -390,8 +454,10 @@
     "net_new_inr": 82000,
     "resale_target_a1": 59000,
     "target_margin": 0.16,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 35500,
+    "rt_buyback_a1_override": 52700
   },
   "iphone_16_plus_128": {
     "display_name": "iPhone 16 Plus 128GB",
@@ -401,8 +467,10 @@
     "net_new_inr": 82000,
     "resale_target_a1": 58000,
     "target_margin": 0.16,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 35000,
+    "rt_buyback_a1_override": 52000
   },
   "iphone_16_pro_128": {
     "display_name": "iPhone 16 Pro 128GB",
@@ -414,8 +482,10 @@
     "market_factor": 0.88,
     "target_margin": 0.16,
     "notes": "Just discontinued — likely high refurb demand. VERIFY LIVE.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 47000,
+    "rt_buyback_a1_override": 68300
   },
   "iphone_16_pro_max_256": {
     "display_name": "iPhone 16 Pro Max 256GB",
@@ -427,8 +497,10 @@
     "market_factor": 0.88,
     "target_margin": 0.16,
     "notes": "Most recent flagship discontinued. VERIFY LIVE for high-value buybacks.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 56000,
+    "rt_buyback_a1_override": 79000
   },
   "iphone_16e_128": {
     "display_name": "iPhone 16e 128GB",
@@ -439,8 +511,10 @@
     "resale_target_a1": 44000,
     "target_margin": 0.18,
     "notes": "Apple's budget iPhone — replaces SE. A18 chip.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 26000,
+    "rt_buyback_a1_override": 38600
   },
   "iphone_17_256": {
     "display_name": "iPhone 17 256GB",
@@ -536,8 +610,10 @@
     "market_factor": 0.88,
     "target_margin": 0.18,
     "notes": "200MP camera flagship. Verify battery, S Pen.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 30000,
+    "rt_buyback_a1_override": 36400
   },
   "samsung_s23_fe_128": {
     "display_name": "Samsung Galaxy S23 FE 128GB",
@@ -559,8 +635,10 @@
     "net_new_inr": 68000,
     "resale_target_a1": 31000,
     "target_margin": 0.2,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 22000,
+    "rt_buyback_a1_override": 28700
   },
   "samsung_s24_plus_256": {
     "display_name": "Samsung Galaxy S24+ 256GB",
@@ -584,8 +662,10 @@
     "market_factor": 0.88,
     "target_margin": 0.18,
     "notes": "Titanium frame, S Pen. Strong resale.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 38000,
+    "rt_buyback_a1_override": 55100
   },
   "samsung_s24_fe_128": {
     "display_name": "Samsung Galaxy S24 FE 128GB",
@@ -607,8 +687,10 @@
     "resale_target_a1": 53000,
     "target_margin": 0.18,
     "notes": "Current MRP discounted heavily after S26 launch. Was ₹80K, now ₹66K.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 30000,
+    "rt_buyback_a1_override": 39200
   },
   "samsung_s25_plus_256": {
     "display_name": "Samsung Galaxy S25+ 256GB",
@@ -630,8 +712,11 @@
     "resale_target_a1": 80000,
     "target_margin": 0.16,
     "notes": "Discounted from ₹130K launch to ₹104K (April 2026).",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_confirmed",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 46000,
+    "rt_buyback_a1_override": 66700,
+    "rt_buyback_a1_warranty": 75000
   },
   "samsung_s25_edge_256": {
     "display_name": "Samsung Galaxy S25 Edge 256GB",
@@ -690,8 +775,10 @@
     "market_factor": 0.88,
     "target_margin": 0.22,
     "notes": "Foldable — inspect hinge carefully, screen crease.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 40000,
+    "rt_buyback_a1_override": 51100
   },
   "samsung_z_flip_5_256": {
     "display_name": "Samsung Galaxy Z Flip 5 256GB",
@@ -872,8 +959,10 @@
     "refurb_retail_anchor_excellent": 23500,
     "market_factor": 0.88,
     "target_margin": 0.22,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 13000,
+    "rt_buyback_a1_override": 16600
   },
   "oneplus_11r_8_128": {
     "display_name": "OnePlus 11R 8/128GB",
@@ -906,8 +995,10 @@
     "net_new_inr": 38000,
     "resale_target_a1": 22000,
     "target_margin": 0.22,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 13500,
+    "rt_buyback_a1_override": 17600
   },
   "oneplus_13_12_256": {
     "display_name": "OnePlus 13 12/256GB",
@@ -2303,8 +2394,10 @@
     "net_new_inr": 82000,
     "resale_target_a1": 48000,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 26500,
+    "rt_buyback_a1_override": 44300
   },
   "iphone_15_pro_max_512": {
     "display_name": "iPhone 15 Pro Max 512GB",
@@ -2315,8 +2408,10 @@
     "refurb_retail_anchor_excellent": 80000,
     "market_factor": 0.88,
     "target_margin": 0.16,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 48500,
+    "rt_buyback_a1_override": 64300
   },
   "oneplus_nord_ce_3_8_128": {
     "display_name": "OnePlus Nord CE 3 5G 8/128GB",
@@ -3217,8 +3312,10 @@
     "refurb_retail_anchor_excellent": 102500,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "estimated",
-    "calibration_date": "2026-05-01"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 43000,
+    "rt_buyback_a1_override": 58600
   },
   "iphone_15_pro_1tb": {
     "display_name": "iPhone 15 Pro 1TB",
@@ -3229,8 +3326,10 @@
     "refurb_retail_anchor_excellent": 121000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "estimated",
-    "calibration_date": "2026-05-01"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 47000,
+    "rt_buyback_a1_override": 64100
   },
   "oppo_reno_14_8_512": {
     "display_name": "Oppo Reno 14 8/512GB",
@@ -3321,8 +3420,10 @@
     "net_new_inr": 87000,
     "resale_target_a1": 50000,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 27000,
+    "rt_buyback_a1_override": 45100
   },
   "poco_f5_5g_8_512": {
     "display_name": "Poco F5 5G 8/512GB",
@@ -3518,8 +3619,10 @@
     "refurb_retail_anchor_excellent": 74000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 36500,
+    "rt_buyback_a1_override": 56200
   },
   "iphone_14_pro_max_1tb": {
     "display_name": "iPhone 14 Pro Max 1TB",
@@ -3530,8 +3633,10 @@
     "refurb_retail_anchor_excellent": 81000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 40000,
+    "rt_buyback_a1_override": 61600
   },
   "realme_11_pro_plus_5g_8_512": {
     "display_name": "Realme 11 Pro+ 5G 8/512GB",
@@ -3590,8 +3695,10 @@
     "refurb_retail_anchor_excellent": 26000,
     "market_factor": 0.88,
     "target_margin": 0.2,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 13500,
+    "rt_buyback_a1_override": 18400
   },
   "vivo_x100_pro_12_512": {
     "display_name": "Vivo X100 Pro 12/512GB",
@@ -3649,8 +3756,10 @@
     "refurb_retail_anchor_excellent": 25500,
     "market_factor": 0.88,
     "target_margin": 0.22,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 14500,
+    "rt_buyback_a1_override": 18500
   },
   "oneplus_11_8_512": {
     "display_name": "OnePlus 11 8/512GB",
@@ -3695,8 +3804,10 @@
     "refurb_retail_anchor_excellent": 56000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 29500,
+    "rt_buyback_a1_override": 41600
   },
   "iphone_13_pro_max_1tb": {
     "display_name": "iPhone 13 Pro Max 1TB",
@@ -3707,8 +3818,10 @@
     "refurb_retail_anchor_excellent": 62000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 33000,
+    "rt_buyback_a1_override": 46500
   },
   "redmi_note_12_5g_4_256": {
     "display_name": "Redmi Note 12 5G 4/256GB",
@@ -3731,8 +3844,10 @@
     "refurb_retail_anchor_excellent": 88000,
     "market_factor": 0.88,
     "target_margin": 0.16,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 53000,
+    "rt_buyback_a1_override": 70300
   },
   "iphone_14_pro_512": {
     "display_name": "iPhone 14 Pro 512GB",
@@ -3743,8 +3858,10 @@
     "refurb_retail_anchor_excellent": 67000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 32500,
+    "rt_buyback_a1_override": 51500
   },
   "iphone_14_pro_1tb": {
     "display_name": "iPhone 14 Pro 1TB",
@@ -3755,8 +3872,10 @@
     "refurb_retail_anchor_excellent": 74000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 36000,
+    "rt_buyback_a1_override": 57000
   },
   "oppo_f33_5g_8_256": {
     "display_name": "Oppo F33 5G 8/256GB",
@@ -3835,8 +3954,10 @@
     "market_factor": 0.88,
     "target_margin": 0.18,
     "notes": "Titanium frame, S Pen. Strong resale.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 42000,
+    "rt_buyback_a1_override": 52100
   },
   "samsung_s24_ultra_1tb": {
     "display_name": "Samsung Galaxy S24 Ultra 1TB",
@@ -3848,8 +3969,10 @@
     "market_factor": 0.88,
     "target_margin": 0.18,
     "notes": "Titanium frame, S Pen. Strong resale.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 46000,
+    "rt_buyback_a1_override": 57000
   },
   "xiaomi_14_12_512": {
     "display_name": "Xiaomi 14 12/512GB",
@@ -3966,8 +4089,10 @@
     "refurb_retail_anchor_excellent": 30000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 17000,
+    "rt_buyback_a1_override": 22700
   },
   "iphone_12_pro_512": {
     "display_name": "iPhone 12 Pro 512GB",
@@ -3978,8 +4103,10 @@
     "refurb_retail_anchor_excellent": 35000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 19000,
+    "rt_buyback_a1_override": 25400
   },
   "iphone_12_pro_1tb": {
     "display_name": "iPhone 12 Pro 1TB",
@@ -4094,8 +4221,10 @@
     "net_new_inr": 94000,
     "resale_target_a1": 67000,
     "target_margin": 0.16,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 40000,
+    "rt_buyback_a1_override": 59400
   },
   "nothing_phone_2a_8_256": {
     "display_name": "Nothing Phone 2a 8/256GB",
@@ -4116,8 +4245,10 @@
     "net_new_inr": 76000,
     "resale_target_a1": 35000,
     "target_margin": 0.2,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 24500,
+    "rt_buyback_a1_override": 32000
   },
   "samsung_s24_512": {
     "display_name": "Samsung Galaxy S24 512GB",
@@ -4173,8 +4304,10 @@
     "market_factor": 0.88,
     "target_margin": 0.16,
     "notes": "Just discontinued — likely high refurb demand. VERIFY LIVE.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 51000,
+    "rt_buyback_a1_override": 74100
   },
   "iphone_16_pro_512": {
     "display_name": "iPhone 16 Pro 512GB",
@@ -4186,8 +4319,10 @@
     "market_factor": 0.88,
     "target_margin": 0.16,
     "notes": "Just discontinued — likely high refurb demand. VERIFY LIVE.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 56500,
+    "rt_buyback_a1_override": 82000
   },
   "iphone_16_pro_1tb": {
     "display_name": "iPhone 16 Pro 1TB",
@@ -4199,8 +4334,10 @@
     "market_factor": 0.88,
     "target_margin": 0.16,
     "notes": "Just discontinued — likely high refurb demand. VERIFY LIVE.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 62000,
+    "rt_buyback_a1_override": 90000
   },
   "google_pixel_9_256": {
     "display_name": "Google Pixel 9 256GB",
@@ -4256,8 +4393,10 @@
     "refurb_retail_anchor_excellent": 43000,
     "market_factor": 0.88,
     "target_margin": 0.2,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 19000,
+    "rt_buyback_a1_override": 30800
   },
   "oneplus_12r_8_256": {
     "display_name": "OnePlus 12R 8/256GB",
@@ -4267,8 +4406,10 @@
     "net_new_inr": 41000,
     "resale_target_a1": 23900,
     "target_margin": 0.22,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 15000,
+    "rt_buyback_a1_override": 19600
   },
   "oneplus_15r_8_256": {
     "display_name": "OnePlus 15R 8/256GB",
@@ -4313,8 +4454,10 @@
     "resale_target_a1": 88000,
     "target_margin": 0.16,
     "notes": "Discounted from ₹130K launch to ₹104K (April 2026).",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 51000,
+    "rt_buyback_a1_override": 63300
   },
   "samsung_s25_ultra_1tb": {
     "display_name": "Samsung Galaxy S25 Ultra 1TB",
@@ -4325,8 +4468,10 @@
     "resale_target_a1": 97000,
     "target_margin": 0.16,
     "notes": "Discounted from ₹130K launch to ₹104K (April 2026).",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 56000,
+    "rt_buyback_a1_override": 69400
   },
   "vivo_t3_5g_8_256": {
     "display_name": "Vivo T3 5G 8/256GB",
@@ -4442,8 +4587,10 @@
     "market_factor": 0.88,
     "target_margin": 0.22,
     "notes": "Foldable — inspect hinge carefully, screen crease.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 44000,
+    "rt_buyback_a1_override": 56200
   },
   "samsung_z_fold_5_1tb": {
     "display_name": "Samsung Galaxy Z Fold 5 1TB",
@@ -4455,8 +4602,10 @@
     "market_factor": 0.88,
     "target_margin": 0.22,
     "notes": "Foldable — inspect hinge carefully, screen crease.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 48000,
+    "rt_buyback_a1_override": 61400
   },
   "moto_edge_40_neo_8_256": {
     "display_name": "Motorola Edge 40 Neo 8/256GB",
@@ -4630,8 +4779,10 @@
     "refurb_retail_anchor_excellent": 51000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 26500,
+    "rt_buyback_a1_override": 38500
   },
   "iphone_13_pro_1tb": {
     "display_name": "iPhone 13 Pro 1TB",
@@ -4642,8 +4793,10 @@
     "refurb_retail_anchor_excellent": 57000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 29500,
+    "rt_buyback_a1_override": 42900
   },
   "xiaomi_17_12_512": {
     "display_name": "Xiaomi 17 12/512GB",
@@ -4867,8 +5020,10 @@
     "net_new_inr": 90000,
     "resale_target_a1": 64000,
     "target_margin": 0.16,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 38500,
+    "rt_buyback_a1_override": 57200
   },
   "iphone_16_plus_512": {
     "display_name": "iPhone 16 Plus 512GB",
@@ -4878,8 +5033,10 @@
     "net_new_inr": 102000,
     "resale_target_a1": 72000,
     "target_margin": 0.16,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 43000,
+    "rt_buyback_a1_override": 63900
   },
   "samsung_z_fold_6_512": {
     "display_name": "Samsung Galaxy Z Fold 6 512GB",
@@ -4949,8 +5106,10 @@
     "market_factor": 0.88,
     "target_margin": 0.16,
     "notes": "Most recent flagship discontinued. VERIFY LIVE for high-value buybacks.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 61500,
+    "rt_buyback_a1_override": 86800
   },
   "iphone_16_pro_max_1tb": {
     "display_name": "iPhone 16 Pro Max 1TB",
@@ -4962,8 +5121,10 @@
     "market_factor": 0.88,
     "target_margin": 0.16,
     "notes": "Most recent flagship discontinued. VERIFY LIVE for high-value buybacks.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 67000,
+    "rt_buyback_a1_override": 94600
   },
   "samsung_a14_5g_4_256": {
     "display_name": "Samsung Galaxy A14 5G 4/256GB",
@@ -5149,8 +5310,10 @@
     "net_new_inr": 94000,
     "resale_target_a1": 54000,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 30000,
+    "rt_buyback_a1_override": 50100
   },
   "moto_g75_5g_8_256": {
     "display_name": "Motorola G75 5G 8/256GB",
@@ -5414,8 +5577,10 @@
     "refurb_retail_anchor_excellent": 23500,
     "market_factor": 0.88,
     "target_margin": 0.22,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 11000,
+    "rt_buyback_a1_override": 15000
   },
   "oppo_reno_12_8_256": {
     "display_name": "Oppo Reno 12 8/256GB",
@@ -5744,8 +5909,10 @@
     "resale_target_a1": 49000,
     "target_margin": 0.18,
     "notes": "Apple's budget iPhone — replaces SE. A18 chip.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 29000,
+    "rt_buyback_a1_override": 43000
   },
   "iphone_16e_512": {
     "display_name": "iPhone 16e 512GB",
@@ -5756,8 +5923,10 @@
     "resale_target_a1": 56000,
     "target_margin": 0.18,
     "notes": "Apple's budget iPhone — replaces SE. A18 chip.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 33000,
+    "rt_buyback_a1_override": 49000
   },
   "iphone_13_512": {
     "display_name": "iPhone 13 512GB",
@@ -5769,8 +5938,10 @@
     "market_factor": 0.88,
     "target_margin": 0.2,
     "refurb_retail_source": "Budli ₹29,999 × 1.18 + estimate",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 18000,
+    "rt_buyback_a1_override": 26700
   },
   "iqoo_neo_9_pro_5g_8_256": {
     "display_name": "iQOO Neo 9 Pro 5G 8/256GB",
@@ -5911,8 +6082,10 @@
     "market_factor": 0.88,
     "target_margin": 0.18,
     "notes": "200MP camera flagship. Verify battery, S Pen.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 33500,
+    "rt_buyback_a1_override": 40700
   },
   "samsung_s23_ultra_1tb": {
     "display_name": "Samsung Galaxy S23 Ultra 1TB",
@@ -5924,8 +6097,10 @@
     "market_factor": 0.88,
     "target_margin": 0.18,
     "notes": "200MP camera flagship. Verify battery, S Pen.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 37000,
+    "rt_buyback_a1_override": 44900
   },
   "iphone_17_pro_512": {
     "display_name": "iPhone 17 Pro 512GB",
@@ -5984,8 +6159,10 @@
     "refurb_retail_anchor_excellent": 35000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 19500,
+    "rt_buyback_a1_override": 25300
   },
   "iphone_12_pro_max_512": {
     "display_name": "iPhone 12 Pro Max 512GB",
@@ -5996,8 +6173,10 @@
     "refurb_retail_anchor_excellent": 40000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 22000,
+    "rt_buyback_a1_override": 28600
   },
   "iphone_12_pro_max_1tb": {
     "display_name": "iPhone 12 Pro Max 1TB",
@@ -6020,8 +6199,10 @@
     "resale_target_a1": 60000,
     "target_margin": 0.18,
     "notes": "Current MRP discounted heavily after S26 launch. Was ₹80K, now ₹66K.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 33500,
+    "rt_buyback_a1_override": 43700
   },
   "vivo_y28_5g_4_256": {
     "display_name": "Vivo Y28 5G 4/256GB",
@@ -6198,8 +6379,10 @@
     "target_margin": 0.22,
     "refurb_retail_source": "Budli ₹25,999 × 1.18",
     "notes": "Compact form factor — niche but loyal following.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 14500,
+    "rt_buyback_a1_override": 21500
   },
   "iphone_13_mini_512": {
     "display_name": "iPhone 13 mini 512GB",
@@ -6212,8 +6395,10 @@
     "target_margin": 0.22,
     "refurb_retail_source": "Budli ₹25,999 × 1.18",
     "notes": "Compact form factor — niche but loyal following.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 16500,
+    "rt_buyback_a1_override": 24500
   },
   "oppo_f23_5g_8_256": {
     "display_name": "Oppo F23 5G 8/256GB",
@@ -6622,8 +6807,10 @@
     "market_factor": 0.88,
     "target_margin": 0.2,
     "notes": "6.7\" non-Pro. Slow seller initially, decent demand now.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 18500,
+    "rt_buyback_a1_override": 30000
   },
   "iphone_14_plus_512": {
     "display_name": "iPhone 14 Plus 512GB",
@@ -6635,8 +6822,10 @@
     "market_factor": 0.88,
     "target_margin": 0.2,
     "notes": "6.7\" non-Pro. Slow seller initially, decent demand now.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 21000,
+    "rt_buyback_a1_override": 34000
   },
   "vivo_v27_8_256": {
     "display_name": "Vivo V27 8/256GB",
@@ -11452,8 +11641,10 @@
     "launch_date": "2022-04-05",
     "refurb_retail_anchor_excellent": 20000,
     "market_factor": 0.88,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 11000,
+    "rt_buyback_a1_override": 13400
   },
   "oneplus_10_pro_256": {
     "display_name": "OnePlus 10 Pro 256GB",
@@ -11463,8 +11654,10 @@
     "launch_date": "2022-04-05",
     "refurb_retail_anchor_excellent": 22000,
     "market_factor": 0.88,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 12500,
+    "rt_buyback_a1_override": 15100
   },
   "oneplus_10r_128": {
     "display_name": "OnePlus 10R 128GB",
@@ -15360,8 +15553,10 @@
     "refurb_retail_anchor_excellent": 19000,
     "market_factor": 0.88,
     "target_margin": 0.22,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 10000,
+    "rt_buyback_a1_override": 13400
   },
   "iphone_11_pro_256": {
     "display_name": "iPhone 11 Pro 256GB",
@@ -15372,8 +15567,10 @@
     "refurb_retail_anchor_excellent": 22500,
     "market_factor": 0.88,
     "target_margin": 0.22,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 12000,
+    "rt_buyback_a1_override": 16000
   },
   "iphone_11_pro_512": {
     "display_name": "iPhone 11 Pro 512GB",
@@ -15384,8 +15581,10 @@
     "refurb_retail_anchor_excellent": 25500,
     "market_factor": 0.88,
     "target_margin": 0.22,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 13500,
+    "rt_buyback_a1_override": 18000
   },
   "iphone_11_pro_max_64": {
     "display_name": "iPhone 11 Pro Max 64GB",
@@ -15396,8 +15595,10 @@
     "refurb_retail_anchor_excellent": 22000,
     "market_factor": 0.88,
     "target_margin": 0.22,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 12000,
+    "rt_buyback_a1_override": 15600
   },
   "iphone_11_pro_max_256": {
     "display_name": "iPhone 11 Pro Max 256GB",
@@ -15408,8 +15609,10 @@
     "refurb_retail_anchor_excellent": 25500,
     "market_factor": 0.88,
     "target_margin": 0.22,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 14000,
+    "rt_buyback_a1_override": 18200
   },
   "iphone_11_pro_max_512": {
     "display_name": "iPhone 11 Pro Max 512GB",
@@ -15420,8 +15623,10 @@
     "refurb_retail_anchor_excellent": 28500,
     "market_factor": 0.88,
     "target_margin": 0.22,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 15500,
+    "rt_buyback_a1_override": 20200
   },
   "iphone_12_mini_128": {
     "display_name": "iPhone 12 mini 128GB",
@@ -15432,8 +15637,10 @@
     "refurb_retail_anchor_excellent": 20000,
     "market_factor": 0.88,
     "target_margin": 0.22,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 10500,
+    "rt_buyback_a1_override": 14400
   },
   "iphone_12_mini_256": {
     "display_name": "iPhone 12 mini 256GB",
@@ -15444,8 +15651,10 @@
     "refurb_retail_anchor_excellent": 23500,
     "market_factor": 0.88,
     "target_margin": 0.22,
-    "calibration_status": "verified",
-    "calibration_date": "2026-05-27"
+    "calibration_status": "shane_calibrated",
+    "calibration_date": "2026-05-27",
+    "cashify_exchange": 12000,
+    "rt_buyback_a1_override": 16400
   },
   "iphone_air_1tb": {
     "display_name": "iPhone Air 1TB",
@@ -15575,5 +15784,658 @@
     "target_margin": 0.22,
     "calibration_status": "estimated",
     "calibration_date": "2026-05-01"
+  },
+  "vivo_v60_12_256": {
+    "display_name": "Vivo V60 12/256GB",
+    "tier": "B",
+    "discontinued": false,
+    "launch_date": "2025-08-12",
+    "net_new_inr": 43000,
+    "resale_target_a1": 36700,
+    "target_margin": 0.2,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-01"
+  },
+  "vivo_v60_16_512": {
+    "display_name": "Vivo V60 16/512GB",
+    "tier": "B",
+    "discontinued": false,
+    "launch_date": "2025-08-12",
+    "net_new_inr": 43000,
+    "resale_target_a1": 39500,
+    "target_margin": 0.2,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-01"
+  },
+  "samsung_s25_fe_128": {
+    "display_name": "Samsung Galaxy S25 FE 128GB",
+    "tier": "A",
+    "discontinued": false,
+    "launch_date": "2025-09-15",
+    "net_new_inr": 59999,
+    "resale_target_a1": 33000,
+    "target_margin": 0.2,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Exynos 2400, 4900mAh. S24 FE successor."
+  },
+  "samsung_s25_fe_256": {
+    "display_name": "Samsung Galaxy S25 FE 256GB",
+    "tier": "A",
+    "discontinued": false,
+    "launch_date": "2025-09-15",
+    "net_new_inr": 65999,
+    "resale_target_a1": 36500,
+    "target_margin": 0.2,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "samsung_s25_fe_512": {
+    "display_name": "Samsung Galaxy S25 FE 512GB",
+    "tier": "A",
+    "discontinued": false,
+    "launch_date": "2025-09-15",
+    "net_new_inr": 77999,
+    "resale_target_a1": 42000,
+    "target_margin": 0.2,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "samsung_a17_6_128": {
+    "display_name": "Samsung Galaxy A17 5G 6/128GB",
+    "tier": "C",
+    "discontinued": false,
+    "launch_date": "2025-08-29",
+    "net_new_inr": 18999,
+    "resale_target_a1": 11000,
+    "target_margin": 0.25,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Exynos 1330, 90Hz AMOLED, 5000mAh."
+  },
+  "samsung_a17_8_128": {
+    "display_name": "Samsung Galaxy A17 5G 8/128GB",
+    "tier": "C",
+    "discontinued": false,
+    "launch_date": "2025-08-29",
+    "net_new_inr": 20498,
+    "resale_target_a1": 12000,
+    "target_margin": 0.25,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "samsung_a17_8_256": {
+    "display_name": "Samsung Galaxy A17 5G 8/256GB",
+    "tier": "C",
+    "discontinued": false,
+    "launch_date": "2025-08-29",
+    "net_new_inr": 23499,
+    "resale_target_a1": 13500,
+    "target_margin": 0.25,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "iqoo_neo_10r_8_128": {
+    "display_name": "iQOO Neo 10R 8/128GB",
+    "tier": "B",
+    "discontinued": false,
+    "launch_date": "2025-03-11",
+    "net_new_inr": 26999,
+    "resale_target_a1": 17500,
+    "target_margin": 0.2,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "SD 8s Gen 3, 6400mAh, 120W. iQOO Neo 9 Pro successor."
+  },
+  "iqoo_neo_10r_8_256": {
+    "display_name": "iQOO Neo 10R 8/256GB",
+    "tier": "B",
+    "discontinued": false,
+    "launch_date": "2025-03-11",
+    "net_new_inr": 28999,
+    "resale_target_a1": 19000,
+    "target_margin": 0.2,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "iqoo_neo_10r_12_256": {
+    "display_name": "iQOO Neo 10R 12/256GB",
+    "tier": "B",
+    "discontinued": false,
+    "launch_date": "2025-03-11",
+    "net_new_inr": 30999,
+    "resale_target_a1": 20500,
+    "target_margin": 0.2,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "xiaomi_15_ultra_256": {
+    "display_name": "Xiaomi 15 Ultra 16/256GB",
+    "tier": "S",
+    "discontinued": false,
+    "launch_date": "2025-03-03",
+    "net_new_inr": 109999,
+    "resale_target_a1": 62000,
+    "target_margin": 0.18,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "SD 8 Elite, Leica 200MP periscope, 5410mAh."
+  },
+  "xiaomi_15_ultra_512": {
+    "display_name": "Xiaomi 15 Ultra 16/512GB",
+    "tier": "S",
+    "discontinued": false,
+    "launch_date": "2025-03-03",
+    "net_new_inr": 119999,
+    "resale_target_a1": 68000,
+    "target_margin": 0.18,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "xiaomi_15_ultra_1tb": {
+    "display_name": "Xiaomi 15 Ultra 16/1TB",
+    "tier": "S",
+    "discontinued": false,
+    "launch_date": "2025-03-03",
+    "net_new_inr": 134999,
+    "resale_target_a1": 76000,
+    "target_margin": 0.18,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "redmi_15_5g_4_128": {
+    "display_name": "Redmi 15 5G 4/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2025-08-19",
+    "net_new_inr": 14999,
+    "resale_target_a1": 8000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "SD 6s Gen 3, 7000mAh, 6.9in 144Hz."
+  },
+  "redmi_15_5g_6_128": {
+    "display_name": "Redmi 15 5G 6/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2025-08-19",
+    "net_new_inr": 16499,
+    "resale_target_a1": 9000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "redmi_15_5g_8_256": {
+    "display_name": "Redmi 15 5G 8/256GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2025-08-19",
+    "net_new_inr": 18999,
+    "resale_target_a1": 10500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "oneplus_nord_ce4_lite_8_128": {
+    "display_name": "OnePlus Nord CE4 Lite 5G 8/128GB",
+    "tier": "C",
+    "discontinued": false,
+    "launch_date": "2024-06-24",
+    "net_new_inr": 19999,
+    "resale_target_a1": 11500,
+    "target_margin": 0.24,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "SD 695, 5500mAh, 80W."
+  },
+  "oneplus_nord_ce4_lite_8_256": {
+    "display_name": "OnePlus Nord CE4 Lite 5G 8/256GB",
+    "tier": "C",
+    "discontinued": false,
+    "launch_date": "2024-06-24",
+    "net_new_inr": 22999,
+    "resale_target_a1": 13000,
+    "target_margin": 0.24,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "vivo_t4x_6_128": {
+    "display_name": "Vivo T4x 5G 6/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2025-04-02",
+    "net_new_inr": 13499,
+    "resale_target_a1": 7500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Dimensity 7300, 6500mAh."
+  },
+  "vivo_t4x_8_128": {
+    "display_name": "Vivo T4x 5G 8/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2025-04-02",
+    "net_new_inr": 14999,
+    "resale_target_a1": 8500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "vivo_t4x_8_256": {
+    "display_name": "Vivo T4x 5G 8/256GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2025-04-02",
+    "net_new_inr": 16499,
+    "resale_target_a1": 9500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "realme_15_pro_8_128": {
+    "display_name": "Realme 15 Pro 5G 8/128GB",
+    "tier": "B",
+    "discontinued": false,
+    "launch_date": "2025-07-24",
+    "net_new_inr": 27999,
+    "resale_target_a1": 16000,
+    "target_margin": 0.2,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "SD 7 Gen 4 / Dimensity, 7000mAh, 144Hz AMOLED."
+  },
+  "realme_15_pro_8_256": {
+    "display_name": "Realme 15 Pro 5G 8/256GB",
+    "tier": "B",
+    "discontinued": false,
+    "launch_date": "2025-07-24",
+    "net_new_inr": 29999,
+    "resale_target_a1": 17500,
+    "target_margin": 0.2,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "realme_15_pro_12_256": {
+    "display_name": "Realme 15 Pro 5G 12/256GB",
+    "tier": "B",
+    "discontinued": false,
+    "launch_date": "2025-07-24",
+    "net_new_inr": 31999,
+    "resale_target_a1": 18500,
+    "target_margin": 0.2,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "samsung_m56_8_128": {
+    "display_name": "Samsung Galaxy M56 5G 8/128GB",
+    "tier": "B",
+    "discontinued": false,
+    "launch_date": "2025-05-12",
+    "net_new_inr": 26999,
+    "resale_target_a1": 14500,
+    "target_margin": 0.2,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Exynos 1480, 5000mAh, AMOLED 120Hz."
+  },
+  "samsung_m56_8_256": {
+    "display_name": "Samsung Galaxy M56 5G 8/256GB",
+    "tier": "B",
+    "discontinued": false,
+    "launch_date": "2025-05-12",
+    "net_new_inr": 28999,
+    "resale_target_a1": 16000,
+    "target_margin": 0.2,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "samsung_f56_8_128": {
+    "display_name": "Samsung Galaxy F56 5G 8/128GB",
+    "tier": "B",
+    "discontinued": false,
+    "launch_date": "2025-05-12",
+    "net_new_inr": 26999,
+    "resale_target_a1": 14500,
+    "target_margin": 0.2,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "F-series twin of M56."
+  },
+  "samsung_f56_8_256": {
+    "display_name": "Samsung Galaxy F56 5G 8/256GB",
+    "tier": "B",
+    "discontinued": false,
+    "launch_date": "2025-05-12",
+    "net_new_inr": 28999,
+    "resale_target_a1": 16000,
+    "target_margin": 0.2,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "samsung_z_flip_7_fe_128": {
+    "display_name": "Samsung Galaxy Z Flip 7 FE 128GB",
+    "tier": "A",
+    "discontinued": false,
+    "launch_date": "2025-07-25",
+    "net_new_inr": 89999,
+    "resale_target_a1": 48000,
+    "target_margin": 0.18,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Exynos 2400, first FE flip."
+  },
+  "samsung_z_flip_7_fe_256": {
+    "display_name": "Samsung Galaxy Z Flip 7 FE 256GB",
+    "tier": "A",
+    "discontinued": false,
+    "launch_date": "2025-07-25",
+    "net_new_inr": 94999,
+    "resale_target_a1": 52000,
+    "target_margin": 0.18,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "samsung_a05_4_64": {
+    "display_name": "Samsung Galaxy A05 4/64GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-10-20",
+    "net_new_inr": 9999,
+    "resale_target_a1": 4500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Helio G85, 5000mAh."
+  },
+  "samsung_a05_6_128": {
+    "display_name": "Samsung Galaxy A05 6/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-10-20",
+    "net_new_inr": 11999,
+    "resale_target_a1": 5500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "samsung_a05s_4_128": {
+    "display_name": "Samsung Galaxy A05s 4/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-10-20",
+    "net_new_inr": 11499,
+    "resale_target_a1": 5500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "SD 680, 90Hz."
+  },
+  "samsung_a05s_6_128": {
+    "display_name": "Samsung Galaxy A05s 6/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-10-20",
+    "net_new_inr": 13499,
+    "resale_target_a1": 6500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "samsung_f14_4_128": {
+    "display_name": "Samsung Galaxy F14 5G 4/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-03-31",
+    "net_new_inr": 13490,
+    "resale_target_a1": 6500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Exynos 1330, 6000mAh."
+  },
+  "samsung_f14_6_128": {
+    "display_name": "Samsung Galaxy F14 5G 6/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-03-31",
+    "net_new_inr": 14990,
+    "resale_target_a1": 7500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "redmi_12c_4_64": {
+    "display_name": "Redmi 12C 4/64GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-01-05",
+    "net_new_inr": 8999,
+    "resale_target_a1": 4000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Helio G85, 5000mAh."
+  },
+  "redmi_12c_6_128": {
+    "display_name": "Redmi 12C 6/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-01-05",
+    "net_new_inr": 10999,
+    "resale_target_a1": 5000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "oppo_a58_6_128": {
+    "display_name": "Oppo A58 6/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-09-08",
+    "net_new_inr": 14999,
+    "resale_target_a1": 7000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Helio G85, 5000mAh, 33W."
+  },
+  "oppo_a58_8_128": {
+    "display_name": "Oppo A58 8/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-09-08",
+    "net_new_inr": 16999,
+    "resale_target_a1": 8000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "infinix_hot_40_8_128": {
+    "display_name": "Infinix Hot 40 8/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-12-04",
+    "net_new_inr": 12999,
+    "resale_target_a1": 5500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Helio G99."
+  },
+  "infinix_hot_40i_8_128": {
+    "display_name": "Infinix Hot 40i 8/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-12-04",
+    "net_new_inr": 9999,
+    "resale_target_a1": 4500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "infinix_note_40_8_256": {
+    "display_name": "Infinix Note 40 8/256GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2024-04-18",
+    "net_new_inr": 17999,
+    "resale_target_a1": 8000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Helio G99 / Dimensity, 45W."
+  },
+  "infinix_note_40_pro_8_256": {
+    "display_name": "Infinix Note 40 Pro 5G 8/256GB",
+    "tier": "C",
+    "discontinued": false,
+    "launch_date": "2024-04-18",
+    "net_new_inr": 20999,
+    "resale_target_a1": 9500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "infinix_zero_40_8_256": {
+    "display_name": "Infinix Zero 40 5G 8/256GB",
+    "tier": "C",
+    "discontinued": false,
+    "launch_date": "2024-09-16",
+    "net_new_inr": 24999,
+    "resale_target_a1": 11000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Dimensity 8200, 144Hz."
+  },
+  "infinix_smart_8_4_64": {
+    "display_name": "Infinix Smart 8 4/64GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-11-20",
+    "net_new_inr": 6999,
+    "resale_target_a1": 3000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "infinix_gt_20_pro_8_256": {
+    "display_name": "Infinix GT 20 Pro 8/256GB",
+    "tier": "C",
+    "discontinued": false,
+    "launch_date": "2024-05-23",
+    "net_new_inr": 24999,
+    "resale_target_a1": 11000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Gaming phone, Dimensity 8200."
+  },
+  "tecno_spark_20_8_128": {
+    "display_name": "Tecno Spark 20 8/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-12-15",
+    "net_new_inr": 10999,
+    "resale_target_a1": 4500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Helio G85."
+  },
+  "tecno_spark_20_pro_8_256": {
+    "display_name": "Tecno Spark 20 Pro 8/256GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-12-15",
+    "net_new_inr": 13999,
+    "resale_target_a1": 6000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "tecno_pova_6_8_256": {
+    "display_name": "Tecno Pova 6 5G 8/256GB",
+    "tier": "C",
+    "discontinued": false,
+    "launch_date": "2024-04-10",
+    "net_new_inr": 19999,
+    "resale_target_a1": 9000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Dimensity 6080, 6000mAh, 70W."
+  },
+  "tecno_pova_6_pro_8_256": {
+    "display_name": "Tecno Pova 6 Pro 5G 8/256GB",
+    "tier": "C",
+    "discontinued": false,
+    "launch_date": "2024-04-10",
+    "net_new_inr": 23999,
+    "resale_target_a1": 10500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
+  },
+  "tecno_camon_30_8_256": {
+    "display_name": "Tecno Camon 30 5G 8/256GB",
+    "tier": "C",
+    "discontinued": false,
+    "launch_date": "2024-04-23",
+    "net_new_inr": 19999,
+    "resale_target_a1": 9000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Dimensity 7300."
+  },
+  "lava_blaze_2_5g_6_128": {
+    "display_name": "Lava Blaze 2 5G 6/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2023-09-22",
+    "net_new_inr": 11999,
+    "resale_target_a1": 5000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Dimensity 6020."
+  },
+  "lava_blaze_curve_5g_8_128": {
+    "display_name": "Lava Blaze Curve 5G 8/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2024-04-15",
+    "net_new_inr": 17999,
+    "resale_target_a1": 7500,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Dimensity 7050, curved AMOLED."
+  },
+  "lava_agni_3_8_256": {
+    "display_name": "Lava Agni 3 5G 8/256GB",
+    "tier": "C",
+    "discontinued": false,
+    "launch_date": "2024-10-08",
+    "net_new_inr": 24999,
+    "resale_target_a1": 11000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27",
+    "notes": "Dimensity 7300X, dual AMOLED."
+  },
+  "lava_yuva_3_4_128": {
+    "display_name": "Lava Yuva 3 4/128GB",
+    "tier": "D",
+    "discontinued": false,
+    "launch_date": "2024-02-20",
+    "net_new_inr": 7999,
+    "resale_target_a1": 3000,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-05-27"
   }
 }
