@@ -489,9 +489,10 @@ $results.addEventListener("click", e => {
 let _currentEntry = null;
 let _underWarranty = false;
 let _damages = {};
+let _damageBaseGrade = "A1";
 
 function renderQuote(entry) {
-  if (_currentEntry !== entry) _damages = {};
+  if (_currentEntry !== entry) { _damages = {}; _damageBaseGrade = "A1"; }
   _currentEntry = entry;
   const q = fullQuote(entry, _underWarranty);
   const sourceLabel = {
@@ -583,23 +584,30 @@ function renderQuote(entry) {
           const selected = Object.keys(_damages).filter(k => _damages[k]);
           const totalDeduct = selected.reduce((s,k) => s + partCost(entry,k), 0);
           if (selected.length === 0) return `<div style="margin-top:10px;font-size:11px;color:#64748b;">No damages selected — quote above is for clean phone.</div>`;
-          const baseA1 = q.grades.A1.with_kit;
-          const baseA1NoKit = q.grades.A1.no_box_bill;
-          const damagedKit = Math.max(0, baseA1 - totalDeduct);
-          const damagedNoKit = Math.max(0, baseA1NoKit - totalDeduct);
+          const g = _damageBaseGrade;
+          const baseKit = q.grades[g].with_kit;
+          const baseNoKit = q.grades[g].no_box_bill;
+          const damagedKit = Math.max(0, baseKit - totalDeduct);
+          const damagedNoKit = Math.max(0, baseNoKit - totalDeduct);
+          const gradePicker = ["A1","A2","B","C","D"].map(gg => {
+            const on = gg === g;
+            return `<button data-base-grade="${gg}" style="cursor:pointer;padding:5px 10px;border-radius:6px;font-size:11px;font-weight:700;border:1px solid ${on?'#22c55e':'#334155'};background:${on?'#14532d':'transparent'};color:#fff;">${gg} · ${fmt(q.grades[gg].with_kit)}</button>`;
+          }).join("");
           return `
             <div style="margin-top:12px;padding-top:10px;border-top:1px dashed #334155;">
+              <div style="font-size:11px;color:#f59e0b;font-weight:700;margin-bottom:6px;">📐 Base grade (phone ki condition damage se pehle):</div>
+              <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;">${gradePicker}</div>
               <div style="display:flex;justify-content:space-between;font-size:11px;color:#94a3b8;margin-bottom:4px;">
-                <span>A1 (clean) ${fmt(baseA1)} − damages ${fmt(totalDeduct)}</span>
+                <span>${g} (clean) ${fmt(baseKit)} − damages ${fmt(totalDeduct)}</span>
                 <span>${selected.length} part${selected.length>1?'s':''}</span>
               </div>
               <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px;">
                 <div style="background:linear-gradient(135deg,#7f1d1d 0%,#991b1b 100%);border:1px solid #ef4444;border-radius:8px;padding:10px;text-align:center;">
-                  <div style="font-size:10px;color:#fecaca;font-weight:700;letter-spacing:0.05em;">DAMAGED + KIT</div>
+                  <div style="font-size:10px;color:#fecaca;font-weight:700;letter-spacing:0.05em;">DAMAGED + KIT (from ${g})</div>
                   <div style="font-size:18px;font-weight:800;color:#fff;margin-top:3px;">${fmt(damagedKit)}</div>
                 </div>
                 <div style="background:linear-gradient(135deg,#78350f 0%,#92400e 100%);border:1px solid #f59e0b;border-radius:8px;padding:10px;text-align:center;">
-                  <div style="font-size:10px;color:#fde68a;font-weight:700;letter-spacing:0.05em;">DAMAGED, NO KIT</div>
+                  <div style="font-size:10px;color:#fde68a;font-weight:700;letter-spacing:0.05em;">DAMAGED, NO KIT (from ${g})</div>
                   <div style="font-size:18px;font-weight:800;color:#fff;margin-top:3px;">${fmt(damagedNoKit)}</div>
                 </div>
               </div>
@@ -638,6 +646,12 @@ function renderQuote(entry) {
       if (e.target.tagName === "INPUT") return;
       const k = el.dataset.dmg;
       _damages[k] = !_damages[k];
+      renderQuote(_currentEntry);
+    });
+  });
+  document.querySelectorAll("[data-base-grade]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      _damageBaseGrade = btn.dataset.baseGrade;
       renderQuote(_currentEntry);
     });
   });
