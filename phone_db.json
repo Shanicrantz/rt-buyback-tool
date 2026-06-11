@@ -8692,6 +8692,42 @@
     "calibration_status": "estimated",
     "calibration_date": "2026-05-01"
   },
+  "oppo_a5x_5g_4_64": {
+    "display_name": "Oppo A5x 5G 4/64GB",
+    "tier": "C",
+    "discontinued": false,
+    "launch_date": "2025-05-23",
+    "net_new_inr": 11999,
+    "resale_target_a1": 7500,
+    "target_margin": 0.25,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-06-11",
+    "notes": "Dimensity 6300, 6000mAh, 45W, IP65. Launched May 2025."
+  },
+  "oppo_a5x_5g_4_128": {
+    "display_name": "Oppo A5x 5G 4/128GB",
+    "tier": "C",
+    "discontinued": false,
+    "launch_date": "2025-05-23",
+    "net_new_inr": 13999,
+    "resale_target_a1": 8500,
+    "target_margin": 0.25,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-06-11",
+    "notes": "Dimensity 6300, 6000mAh, 45W, IP65. Launch MRP 13999, street ~12499 (Feb 2026)."
+  },
+  "oppo_a5x_5g_6_128": {
+    "display_name": "Oppo A5x 5G 6/128GB",
+    "tier": "C",
+    "discontinued": false,
+    "launch_date": "2025-05-23",
+    "net_new_inr": 14999,
+    "resale_target_a1": 9200,
+    "target_margin": 0.25,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-06-11",
+    "notes": "Dimensity 6300, 6000mAh, 45W, IP65."
+  },
   "oppo_a5s": {
     "display_name": "Oppo A5s",
     "tier": "D",
