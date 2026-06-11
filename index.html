@@ -272,6 +272,30 @@ const FAIR_TO_EXCELLENT = 1.18;
 const DEFAULT_MARKET_FACTOR = 0.88;
 const DEPRECIATION_CURVE = [[3,0.65],[6,0.58],[12,0.50],[18,0.43],[24,0.35],[36,0.27],[48,0.20],[999,0.15]];
 
+const DAMAGE_PARTS = {
+  display:       { label: "Display broken",    icon: "📱", pct: {S:0.22, A:0.20, B:0.18, C:0.16, D:0.15} },
+  back_panel:    { label: "Back panel cracked",icon: "🪞", pct: {S:0.07, A:0.06, B:0.05, C:0.05, D:0.04} },
+  rear_camera:   { label: "Rear camera dead",  icon: "📷", pct: {S:0.10, A:0.08, B:0.07, C:0.06, D:0.05} },
+  front_camera:  { label: "Front camera dead", icon: "🤳", pct: {S:0.05, A:0.04, B:0.04, C:0.03, D:0.03} },
+  battery:       { label: "Battery weak/dead", icon: "🔋", pct: {S:0.05, A:0.05, B:0.05, C:0.06, D:0.07} },
+  charging_port: { label: "Charging port bad", icon: "🔌", pct: {S:0.04, A:0.04, B:0.03, C:0.03, D:0.03} },
+  speaker:       { label: "Speaker / mic bad", icon: "🔊", pct: {S:0.03, A:0.03, B:0.03, C:0.03, D:0.03} },
+  frame_dent:    { label: "Frame bent / dent", icon: "🧱", pct: {S:0.10, A:0.08, B:0.07, C:0.06, D:0.05} },
+};
+
+function damageBaseValue(entry) {
+  if (entry.net_new_inr) return entry.net_new_inr;
+  if (entry.refurb_retail_anchor_excellent) return entry.refurb_retail_anchor_excellent;
+  if (entry.resale_target_a1) return entry.resale_target_a1 * 1.20;
+  return 0;
+}
+function partCost(entry, damageKey) {
+  const dp = DAMAGE_PARTS[damageKey];
+  if (!dp) return 0;
+  const pct = dp.pct[entry.tier] ?? dp.pct.C;
+  return round100(damageBaseValue(entry) * pct);
+}
+
 const round100 = n => Math.round(n / 100) * 100;
 const fmt = n => "₹" + n.toLocaleString("en-IN");
 
@@ -464,8 +488,10 @@ $results.addEventListener("click", e => {
 
 let _currentEntry = null;
 let _underWarranty = false;
+let _damages = {};
 
 function renderQuote(entry) {
+  if (_currentEntry !== entry) _damages = {};
   _currentEntry = entry;
   const q = fullQuote(entry, _underWarranty);
   const sourceLabel = {
@@ -534,6 +560,56 @@ function renderQuote(entry) {
         <div class="row"><span>🟡 Walk-away ceiling (A2 + kit)</span><b>${fmt(q.walk_away)}</b></div>
         <div class="row"><span>🔴 Hard floor (Grade C)</span><b>${fmt(q.floor)}</b></div>
       </div>
+
+      <div class="damage-box" style="margin-top:14px;padding:12px;background:#0f172a;border:1px solid #1e293b;border-radius:10px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:8px;">
+          <span style="font-size:12px;color:#f59e0b;font-weight:700;">🛠 DAMAGES — tick what's broken</span>
+          <span style="font-size:10px;color:#64748b;">Part costs estimated from tier — adjust manually if known</span>
+        </div>
+        <div id="damage-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:6px;">
+          ${Object.entries(DAMAGE_PARTS).map(([k,dp]) => {
+            const cost = partCost(entry, k);
+            const on = !!_damages[k];
+            return `<label class="dmg-item" data-dmg="${k}" style="display:flex;align-items:center;justify-content:space-between;gap:8px;padding:7px 10px;background:${on?'#7f1d1d':'#1e293b'};border:1px solid ${on?'#ef4444':'#334155'};border-radius:6px;cursor:pointer;font-size:11px;">
+              <span style="display:flex;align-items:center;gap:6px;color:#e2e8f0;">
+                <input type="checkbox" data-dmg-cb="${k}" ${on?'checked':''} style="cursor:pointer;margin:0;">
+                <span>${dp.icon} ${dp.label}</span>
+              </span>
+              <b style="color:#fca5a5;">−${fmt(cost)}</b>
+            </label>`;
+          }).join("")}
+        </div>
+        ${(() => {
+          const selected = Object.keys(_damages).filter(k => _damages[k]);
+          const totalDeduct = selected.reduce((s,k) => s + partCost(entry,k), 0);
+          if (selected.length === 0) return `<div style="margin-top:10px;font-size:11px;color:#64748b;">No damages selected — quote above is for clean phone.</div>`;
+          const baseA1 = q.grades.A1.with_kit;
+          const baseA1NoKit = q.grades.A1.no_box_bill;
+          const damagedKit = Math.max(0, baseA1 - totalDeduct);
+          const damagedNoKit = Math.max(0, baseA1NoKit - totalDeduct);
+          return `
+            <div style="margin-top:12px;padding-top:10px;border-top:1px dashed #334155;">
+              <div style="display:flex;justify-content:space-between;font-size:11px;color:#94a3b8;margin-bottom:4px;">
+                <span>A1 (clean) ${fmt(baseA1)} − damages ${fmt(totalDeduct)}</span>
+                <span>${selected.length} part${selected.length>1?'s':''}</span>
+              </div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px;">
+                <div style="background:linear-gradient(135deg,#7f1d1d 0%,#991b1b 100%);border:1px solid #ef4444;border-radius:8px;padding:10px;text-align:center;">
+                  <div style="font-size:10px;color:#fecaca;font-weight:700;letter-spacing:0.05em;">DAMAGED + KIT</div>
+                  <div style="font-size:18px;font-weight:800;color:#fff;margin-top:3px;">${fmt(damagedKit)}</div>
+                </div>
+                <div style="background:linear-gradient(135deg,#78350f 0%,#92400e 100%);border:1px solid #f59e0b;border-radius:8px;padding:10px;text-align:center;">
+                  <div style="font-size:10px;color:#fde68a;font-weight:700;letter-spacing:0.05em;">DAMAGED, NO KIT</div>
+                  <div style="font-size:18px;font-weight:800;color:#fff;margin-top:3px;">${fmt(damagedNoKit)}</div>
+                </div>
+              </div>
+              <div style="margin-top:8px;font-size:10px;color:#94a3b8;font-style:italic;">
+                ⚠ Agar 2+ major damages hain (display + back/frame), phone scrap-grade ho sakta hai — final offer Grade D floor (${fmt(q.grades.D.with_kit)}) se neeche mat jao.
+              </div>
+            </div>`;
+        })()}
+      </div>
+
       ${q.notes ? `<div style="margin-top:10px;font-size:11px;color:#94a3b8;font-style:italic;">📝 ${q.notes}</div>` : ""}
       <div class="meta-row">
         <span class="meta-item">🛡 CEIR + FRP/iCloud check</span>
@@ -548,6 +624,23 @@ function renderQuote(entry) {
   const btnIn = document.getElementById("wty-in");
   if (btnOut) btnOut.onclick = () => { _underWarranty = false; renderQuote(_currentEntry); };
   if (btnIn) btnIn.onclick = () => { _underWarranty = true; renderQuote(_currentEntry); };
+
+  // Wire damage checkboxes
+  document.querySelectorAll("[data-dmg-cb]").forEach(cb => {
+    cb.addEventListener("change", e => {
+      const k = e.target.dataset.dmgCb;
+      _damages[k] = e.target.checked;
+      renderQuote(_currentEntry);
+    });
+  });
+  document.querySelectorAll(".dmg-item").forEach(el => {
+    el.addEventListener("click", e => {
+      if (e.target.tagName === "INPUT") return;
+      const k = el.dataset.dmg;
+      _damages[k] = !_damages[k];
+      renderQuote(_currentEntry);
+    });
+  });
 }
 
 document.addEventListener("click", e => {
