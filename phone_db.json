@@ -8347,6 +8347,32 @@
     "calibration_status": "estimated",
     "calibration_date": "2026-05-01"
   },
+  "vivo_y90": {
+    "display_name": "Vivo Y90 2/16GB",
+    "tier": "D",
+    "discontinued": true,
+    "discontinued_date": "2021-01-01",
+    "launch_date": "2019-03-25",
+    "refurb_retail_anchor_excellent": 3200,
+    "market_factor": 0.88,
+    "target_margin": 0.32,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-06-14",
+    "notes": "MediaTek A22, 2GB/16GB budget entry-level. Scrap-grade by now."
+  },
+  "vivo_y91c": {
+    "display_name": "Vivo Y91c 2/32GB",
+    "tier": "D",
+    "discontinued": true,
+    "discontinued_date": "2021-01-01",
+    "launch_date": "2019-04-19",
+    "refurb_retail_anchor_excellent": 3500,
+    "market_factor": 0.88,
+    "target_margin": 0.32,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-06-14",
+    "notes": "MediaTek P22, very budget. India Y91 family."
+  },
   "vivo_y11": {
     "display_name": "Vivo Y11",
     "tier": "D",
@@ -10728,6 +10754,31 @@
     "calibration_status": "estimated",
     "calibration_date": "2026-05-01"
   },
+  "vivo_y55_5g_4_128": {
+    "display_name": "Vivo Y55 5G 4/128GB",
+    "tier": "C",
+    "discontinued": true,
+    "discontinued_date": "2023-06-01",
+    "launch_date": "2022-01-13",
+    "refurb_retail_anchor_excellent": 9000,
+    "market_factor": 0.88,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-06-14",
+    "notes": "Dimensity 700, 5000mAh, 18W. Launch ₹20,640."
+  },
+  "vivo_y55_5g_6_128": {
+    "display_name": "Vivo Y55 5G 6/128GB",
+    "tier": "C",
+    "discontinued": true,
+    "discontinued_date": "2023-06-01",
+    "launch_date": "2022-01-13",
+    "refurb_retail_anchor_excellent": 9800,
+    "market_factor": 0.88,
+    "target_margin": 0.28,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-06-14"
+  },
   "vivo_y72": {
     "display_name": "Vivo Y72",
     "tier": "C",
@@ -12531,6 +12582,31 @@
     "market_factor": 0.88,
     "calibration_status": "estimated",
     "calibration_date": "2026-05-01"
+  },
+  "vivo_y78_5g_8_128": {
+    "display_name": "Vivo Y78 5G 8/128GB",
+    "tier": "C",
+    "discontinued": true,
+    "discontinued_date": "2024-06-01",
+    "launch_date": "2023-09-08",
+    "refurb_retail_anchor_excellent": 13500,
+    "market_factor": 0.88,
+    "target_margin": 0.25,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-06-14",
+    "notes": "Snapdragon 695, AMOLED 120Hz, 44W. India launch Sep 2023."
+  },
+  "vivo_y78_5g_8_256": {
+    "display_name": "Vivo Y78 5G 8/256GB",
+    "tier": "C",
+    "discontinued": true,
+    "discontinued_date": "2024-06-01",
+    "launch_date": "2023-09-08",
+    "refurb_retail_anchor_excellent": 14800,
+    "market_factor": 0.88,
+    "target_margin": 0.25,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-06-14"
   },
   "oppo_reno_8": {
     "display_name": "Oppo Reno 8 5G",
