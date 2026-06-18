@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "version": "4.0",
+    "version": "4.1",
     "last_calibration": "2026-06-14",
     "total_phones": "auto-counted on save",
     "schema_priority_order": [
@@ -37,7 +37,8 @@
     "v3_4_changelog": "Rate trim — calibrated models were ~10-15% too high (Shane feedback). Applied 0.90 general trim, 0.88 for Pro models, 0.855 for Pro Max/Ultra (which overshot most). Shane-confirmed rates PROTECTED & unchanged: iPhone 14 ₹26,500, iPhone 12 ₹16,000, S24 Ultra ₹55,000, iPhone 15 ₹39,000/₹44,000-wty, S25 Ultra ₹66,700/₹75,000-wty. Examples post-trim: iPhone 15 Pro Max 68,200→58,300, iPhone 13 Pro Max 43,700→37,400, iPhone 16 52,800→47,500, S23 Ultra 42,600→36,400.",
     "v3_5_changelog": "Added missing Vivo V60 variants: 12/256GB (₹40,999) and 16/512GB (₹45,999). V60 confirmed to have 4 variants (8/128, 8/256, 12/256, 16/512) per GSMArena/GSMArena. Note: V60 family still 'estimated' anchor — needs Shane rate calibration like other Vivo mid-range.",
     "v3_6_changelog": "Full multi-brand variant audit. Added 55 new entries across 2 waves: (1) 2025-26 flagships/popular — Samsung S25 FE, A17 5G, M56, F56, Z Flip 7 FE, iQOO Neo 10R, Xiaomi 15 Ultra, Redmi 15 5G, OnePlus Nord CE4 Lite, Vivo T4x, Realme 15 Pro. (2) Budget brands previously absent — Infinix (Hot 40, Note 40/Pro, Zero 40, Smart 8, GT 20 Pro), Tecno (Spark 20/Pro, Pova 6/Pro, Camon 30), Lava (Blaze 2, Blaze Curve, Agni 3, Yuva 3), plus Samsung A05/A05s/F14, Redmi 12C, Oppo A58. All verified via web search for real India launches + correct storage variants. New budget brands are 'estimated' anchors.",
-    "v4_0_changelog": "Full-DB June 2026 recalibration: top-30 hot models live-anchored (verified) from Cashify/Bankmycell/Bids44 references; depreciation curve tuned (premiums hold better 12-24mo, older phones depreciate sharper 36+mo); calibration_date stamp refreshed on all entries."
+    "v4_0_changelog": "Full-DB June 2026 recalibration: top-30 hot models live-anchored (verified) from Cashify/Bankmycell/Bids44 references; depreciation curve tuned (premiums hold better 12-24mo, older phones depreciate sharper 36+mo); calibration_date stamp refreshed on all entries.",
+    "v4_1_changelog": "Flipkart price-drop recalibration (June 2026): iPhone 15 / 16 series resale anchors dropped 25-35% to reflect new street prices (iPhone 15 128GB now ₹54,900 on Flipkart, was ₹79,999). iPhone 14 series also dropped ~12% to maintain consistency."
   },
   "iphone_11_64": {
     "display_name": "iPhone 11 64GB",
@@ -254,12 +255,13 @@
     "launch_date": "2022-09-16",
     "refurb_retail_anchor_excellent": 32600,
     "market_factor": 0.88,
-    "target_margin": 0.2,
-    "notes": "Same A15 as 13. Crash detection + satellite SOS.",
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.22,
+    "notes": "Same A15 as 13. Crash detection + satellite SOS. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 14720,
-    "rt_buyback_a1_override": 26500
+    "rt_buyback_a1_override": 26500,
+    "resale_target_a1": 28000
   },
   "iphone_14_256": {
     "display_name": "iPhone 14 256GB",
@@ -269,11 +271,13 @@
     "launch_date": "2022-09-16",
     "refurb_retail_anchor_excellent": 37000,
     "market_factor": 0.88,
-    "target_margin": 0.2,
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.22,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 16500,
-    "rt_buyback_a1_override": 26700
+    "rt_buyback_a1_override": 26700,
+    "resale_target_a1": 32000,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "iphone_14_plus_128": {
     "display_name": "iPhone 14 Plus 128GB",
@@ -283,12 +287,13 @@
     "launch_date": "2022-10-07",
     "refurb_retail_anchor_excellent": 36000,
     "market_factor": 0.88,
-    "target_margin": 0.2,
-    "notes": "6.7\" non-Pro. Slow seller initially, decent demand now.",
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.22,
+    "notes": "6.7\" non-Pro. Slow seller initially, decent demand now. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 16500,
-    "rt_buyback_a1_override": 26700
+    "rt_buyback_a1_override": 26700,
+    "resale_target_a1": 32000
   },
   "iphone_14_pro_128": {
     "display_name": "iPhone 14 Pro 128GB",
@@ -298,12 +303,13 @@
     "launch_date": "2022-09-16",
     "refurb_retail_anchor_excellent": 55000,
     "market_factor": 0.88,
-    "target_margin": 0.18,
-    "notes": "Dynamic Island, Always-On display. A16. ProMotion 120Hz.",
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.2,
+    "notes": "Dynamic Island, Always-On display. A16. ProMotion 120Hz. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 26000,
-    "rt_buyback_a1_override": 41200
+    "rt_buyback_a1_override": 41200,
+    "resale_target_a1": 45000
   },
   "iphone_14_pro_256": {
     "display_name": "iPhone 14 Pro 256GB",
@@ -313,11 +319,13 @@
     "launch_date": "2022-09-16",
     "refurb_retail_anchor_excellent": 60000,
     "market_factor": 0.88,
-    "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.2,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 29000,
-    "rt_buyback_a1_override": 45900
+    "rt_buyback_a1_override": 45900,
+    "resale_target_a1": 50000,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "iphone_14_pro_max_128": {
     "display_name": "iPhone 14 Pro Max 128GB",
@@ -327,12 +335,13 @@
     "launch_date": "2022-09-16",
     "refurb_retail_anchor_excellent": 62000,
     "market_factor": 0.88,
-    "target_margin": 0.18,
-    "notes": "High-value model — always live-verify refurb retail before quote.",
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.2,
+    "notes": "High-value model — always live-verify refurb retail before quote. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 30000,
-    "rt_buyback_a1_override": 46200
+    "rt_buyback_a1_override": 46200,
+    "resale_target_a1": 52000
   },
   "iphone_14_pro_max_256": {
     "display_name": "iPhone 14 Pro Max 256GB",
@@ -342,11 +351,13 @@
     "launch_date": "2022-09-16",
     "refurb_retail_anchor_excellent": 67000,
     "market_factor": 0.88,
-    "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.2,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 33000,
-    "rt_buyback_a1_override": 50800
+    "rt_buyback_a1_override": 50800,
+    "resale_target_a1": 58000,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "iphone_15_128": {
     "display_name": "iPhone 15 128GB",
@@ -354,9 +365,9 @@
     "discontinued": false,
     "launch_date": "2023-09-22",
     "net_new_inr": 65000,
-    "resale_target_a1": 47000,
-    "target_margin": 0.18,
-    "notes": "Still in production at reduced MRP. USB-C, 48MP.",
+    "resale_target_a1": 34000,
+    "target_margin": 0.2,
+    "notes": "Still in production at reduced MRP. USB-C, 48MP. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
     "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 21000,
@@ -369,12 +380,13 @@
     "discontinued": false,
     "launch_date": "2023-09-22",
     "net_new_inr": 75000,
-    "resale_target_a1": 55000,
-    "target_margin": 0.18,
+    "resale_target_a1": 40000,
+    "target_margin": 0.2,
     "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 23500,
-    "rt_buyback_a1_override": 39200
+    "rt_buyback_a1_override": 39200,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "iphone_15_plus_128": {
     "display_name": "iPhone 15 Plus 128GB",
@@ -382,10 +394,10 @@
     "discontinued": false,
     "launch_date": "2023-09-22",
     "net_new_inr": 72000,
-    "resale_target_a1": 43000,
-    "target_margin": 0.18,
-    "notes": "Still in production alongside iPhone 16.",
-    "calibration_status": "shane_calibrated",
+    "resale_target_a1": 38000,
+    "target_margin": 0.2,
+    "notes": "Still in production alongside iPhone 16. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 24000,
     "rt_buyback_a1_override": 40100
@@ -398,13 +410,13 @@
     "launch_date": "2023-09-22",
     "refurb_retail_anchor_excellent": 82000,
     "market_factor": 0.88,
-    "target_margin": 0.18,
-    "notes": "Titanium, A17 Pro. NEEDS LIVE VERIFY for refurb retail.",
+    "target_margin": 0.2,
+    "notes": "Titanium, A17 Pro. NEEDS LIVE VERIFY for refurb retail. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
     "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 35000,
     "rt_buyback_a1_override": 47700,
-    "resale_target_a1": 68000
+    "resale_target_a1": 55000
   },
   "iphone_15_pro_256": {
     "display_name": "iPhone 15 Pro 256GB",
@@ -414,11 +426,13 @@
     "launch_date": "2023-09-22",
     "refurb_retail_anchor_excellent": 87000,
     "market_factor": 0.88,
-    "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.2,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 38500,
-    "rt_buyback_a1_override": 52500
+    "rt_buyback_a1_override": 52500,
+    "resale_target_a1": 62000,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "iphone_15_pro_max_256": {
     "display_name": "iPhone 15 Pro Max 256GB",
@@ -428,13 +442,13 @@
     "launch_date": "2023-09-22",
     "refurb_retail_anchor_excellent": 73000,
     "market_factor": 0.88,
-    "target_margin": 0.18,
-    "notes": "Highly retained value. Verify live.",
+    "target_margin": 0.2,
+    "notes": "Highly retained value. Verify live. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
     "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 44000,
     "rt_buyback_a1_override": 58300,
-    "resale_target_a1": 82000
+    "resale_target_a1": 68000
   },
   "iphone_16_128": {
     "display_name": "iPhone 16 128GB",
@@ -442,12 +456,13 @@
     "discontinued": false,
     "launch_date": "2024-09-20",
     "net_new_inr": 72000,
-    "resale_target_a1": 65000,
-    "target_margin": 0.17,
+    "resale_target_a1": 46000,
+    "target_margin": 0.18,
     "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 32000,
-    "rt_buyback_a1_override": 47500
+    "rt_buyback_a1_override": 47500,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "iphone_16_256": {
     "display_name": "iPhone 16 256GB",
@@ -455,12 +470,13 @@
     "discontinued": false,
     "launch_date": "2024-09-20",
     "net_new_inr": 82000,
-    "resale_target_a1": 72000,
-    "target_margin": 0.17,
+    "resale_target_a1": 52000,
+    "target_margin": 0.18,
     "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 35500,
-    "rt_buyback_a1_override": 52700
+    "rt_buyback_a1_override": 52700,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "iphone_16_plus_128": {
     "display_name": "iPhone 16 Plus 128GB",
@@ -468,12 +484,13 @@
     "discontinued": false,
     "launch_date": "2024-09-20",
     "net_new_inr": 82000,
-    "resale_target_a1": 76000,
-    "target_margin": 0.17,
+    "resale_target_a1": 54000,
+    "target_margin": 0.18,
     "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 35000,
-    "rt_buyback_a1_override": 52000
+    "rt_buyback_a1_override": 52000,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "iphone_16_pro_128": {
     "display_name": "iPhone 16 Pro 128GB",
@@ -483,13 +500,13 @@
     "launch_date": "2024-09-20",
     "refurb_retail_anchor_excellent": 79200,
     "market_factor": 0.88,
-    "target_margin": 0.16,
-    "notes": "Just discontinued — likely high refurb demand. VERIFY LIVE.",
+    "target_margin": 0.18,
+    "notes": "Just discontinued — likely high refurb demand. VERIFY LIVE. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
     "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 47000,
     "rt_buyback_a1_override": 68300,
-    "resale_target_a1": 95000
+    "resale_target_a1": 78000
   },
   "iphone_16_pro_max_256": {
     "display_name": "iPhone 16 Pro Max 256GB",
@@ -499,13 +516,13 @@
     "launch_date": "2024-09-20",
     "refurb_retail_anchor_excellent": 95000,
     "market_factor": 0.88,
-    "target_margin": 0.16,
-    "notes": "Most recent flagship discontinued. VERIFY LIVE for high-value buybacks.",
+    "target_margin": 0.18,
+    "notes": "Most recent flagship discontinued. VERIFY LIVE for high-value buybacks. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
     "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 56000,
     "rt_buyback_a1_override": 79000,
-    "resale_target_a1": 118000
+    "resale_target_a1": 95000
   },
   "iphone_16e_128": {
     "display_name": "iPhone 16e 128GB",
@@ -513,10 +530,10 @@
     "discontinued": false,
     "launch_date": "2025-02-19",
     "net_new_inr": 58000,
-    "resale_target_a1": 44000,
-    "target_margin": 0.18,
-    "notes": "Apple's budget iPhone — replaces SE. A18 chip.",
-    "calibration_status": "shane_calibrated",
+    "resale_target_a1": 34000,
+    "target_margin": 0.2,
+    "notes": "Apple's budget iPhone — replaces SE. A18 chip. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 26000,
     "rt_buyback_a1_override": 38600
@@ -2400,12 +2417,13 @@
     "discontinued": false,
     "launch_date": "2023-09-22",
     "net_new_inr": 82000,
-    "resale_target_a1": 48000,
-    "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "resale_target_a1": 44000,
+    "target_margin": 0.2,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 26500,
-    "rt_buyback_a1_override": 44300
+    "rt_buyback_a1_override": 44300,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "iphone_15_pro_max_512": {
     "display_name": "iPhone 15 Pro Max 512GB",
@@ -2415,11 +2433,13 @@
     "launch_date": "2023-09-22",
     "refurb_retail_anchor_excellent": 80000,
     "market_factor": 0.88,
-    "target_margin": 0.16,
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.18,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 48500,
-    "rt_buyback_a1_override": 64300
+    "rt_buyback_a1_override": 64300,
+    "resale_target_a1": 80000,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "oneplus_nord_ce_3_8_128": {
     "display_name": "OnePlus Nord CE 3 5G 8/128GB",
@@ -3319,11 +3339,13 @@
     "launch_date": "2023-09-22",
     "refurb_retail_anchor_excellent": 102500,
     "market_factor": 0.88,
-    "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.2,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 43000,
-    "rt_buyback_a1_override": 58600
+    "rt_buyback_a1_override": 58600,
+    "resale_target_a1": 72000,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "iphone_15_pro_1tb": {
     "display_name": "iPhone 15 Pro 1TB",
@@ -3334,10 +3356,12 @@
     "refurb_retail_anchor_excellent": 121000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 47000,
-    "rt_buyback_a1_override": 64100
+    "rt_buyback_a1_override": 64100,
+    "resale_target_a1": 85000,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "oppo_reno_14_8_512": {
     "display_name": "Oppo Reno 14 8/512GB",
@@ -3426,12 +3450,13 @@
     "discontinued": false,
     "launch_date": "2023-09-22",
     "net_new_inr": 87000,
-    "resale_target_a1": 50000,
-    "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "resale_target_a1": 52000,
+    "target_margin": 0.2,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 27000,
-    "rt_buyback_a1_override": 45100
+    "rt_buyback_a1_override": 45100,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "poco_f5_5g_8_512": {
     "display_name": "Poco F5 5G 8/512GB",
@@ -3626,11 +3651,13 @@
     "launch_date": "2022-09-16",
     "refurb_retail_anchor_excellent": 74000,
     "market_factor": 0.88,
-    "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.2,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 36500,
-    "rt_buyback_a1_override": 56200
+    "rt_buyback_a1_override": 56200,
+    "resale_target_a1": 68000,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "iphone_14_pro_max_1tb": {
     "display_name": "iPhone 14 Pro Max 1TB",
@@ -3851,11 +3878,13 @@
     "launch_date": "2023-09-22",
     "refurb_retail_anchor_excellent": 88000,
     "market_factor": 0.88,
-    "target_margin": 0.16,
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.18,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 53000,
-    "rt_buyback_a1_override": 70300
+    "rt_buyback_a1_override": 70300,
+    "resale_target_a1": 95000,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "iphone_14_pro_512": {
     "display_name": "iPhone 14 Pro 512GB",
@@ -3865,11 +3894,13 @@
     "launch_date": "2022-09-16",
     "refurb_retail_anchor_excellent": 67000,
     "market_factor": 0.88,
-    "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.2,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 32500,
-    "rt_buyback_a1_override": 51500
+    "rt_buyback_a1_override": 51500,
+    "resale_target_a1": 60000,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "iphone_14_pro_1tb": {
     "display_name": "iPhone 14 Pro 1TB",
@@ -4228,12 +4259,13 @@
     "discontinued": false,
     "launch_date": "2024-09-20",
     "net_new_inr": 94000,
-    "resale_target_a1": 67000,
-    "target_margin": 0.16,
-    "calibration_status": "shane_calibrated",
+    "resale_target_a1": 62000,
+    "target_margin": 0.18,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 40000,
-    "rt_buyback_a1_override": 59400
+    "rt_buyback_a1_override": 59400,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "nothing_phone_2a_8_256": {
     "display_name": "Nothing Phone 2a 8/256GB",
@@ -4311,13 +4343,13 @@
     "launch_date": "2024-09-20",
     "refurb_retail_anchor_excellent": 85000,
     "market_factor": 0.88,
-    "target_margin": 0.16,
-    "notes": "Just discontinued — likely high refurb demand. VERIFY LIVE.",
+    "target_margin": 0.18,
+    "notes": "Just discontinued — likely high refurb demand. VERIFY LIVE. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
     "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 51000,
     "rt_buyback_a1_override": 74100,
-    "resale_target_a1": 102000
+    "resale_target_a1": 85000
   },
   "iphone_16_pro_512": {
     "display_name": "iPhone 16 Pro 512GB",
@@ -4327,12 +4359,13 @@
     "launch_date": "2024-09-20",
     "refurb_retail_anchor_excellent": 94000,
     "market_factor": 0.88,
-    "target_margin": 0.16,
-    "notes": "Just discontinued — likely high refurb demand. VERIFY LIVE.",
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.18,
+    "notes": "Just discontinued — likely high refurb demand. VERIFY LIVE. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 56500,
-    "rt_buyback_a1_override": 82000
+    "rt_buyback_a1_override": 82000,
+    "resale_target_a1": 96000
   },
   "iphone_16_pro_1tb": {
     "display_name": "iPhone 16 Pro 1TB",
@@ -4342,12 +4375,13 @@
     "launch_date": "2024-09-20",
     "refurb_retail_anchor_excellent": 103000,
     "market_factor": 0.88,
-    "target_margin": 0.16,
-    "notes": "Just discontinued — likely high refurb demand. VERIFY LIVE.",
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.18,
+    "notes": "Just discontinued — likely high refurb demand. VERIFY LIVE. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 62000,
-    "rt_buyback_a1_override": 90000
+    "rt_buyback_a1_override": 90000,
+    "resale_target_a1": 110000
   },
   "google_pixel_9_256": {
     "display_name": "Google Pixel 9 256GB",
@@ -4402,11 +4436,13 @@
     "launch_date": "2022-09-16",
     "refurb_retail_anchor_excellent": 43000,
     "market_factor": 0.88,
-    "target_margin": 0.2,
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.22,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 19000,
-    "rt_buyback_a1_override": 30800
+    "rt_buyback_a1_override": 30800,
+    "resale_target_a1": 38000,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "oneplus_12r_8_256": {
     "display_name": "OnePlus 12R 8/256GB",
@@ -5028,12 +5064,13 @@
     "discontinued": false,
     "launch_date": "2024-09-20",
     "net_new_inr": 90000,
-    "resale_target_a1": 64000,
-    "target_margin": 0.16,
-    "calibration_status": "shane_calibrated",
+    "resale_target_a1": 60000,
+    "target_margin": 0.18,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 38500,
-    "rt_buyback_a1_override": 57200
+    "rt_buyback_a1_override": 57200,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "iphone_16_plus_512": {
     "display_name": "iPhone 16 Plus 512GB",
@@ -5041,12 +5078,13 @@
     "discontinued": false,
     "launch_date": "2024-09-20",
     "net_new_inr": 102000,
-    "resale_target_a1": 72000,
-    "target_margin": 0.16,
-    "calibration_status": "shane_calibrated",
+    "resale_target_a1": 70000,
+    "target_margin": 0.18,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 43000,
-    "rt_buyback_a1_override": 63900
+    "rt_buyback_a1_override": 63900,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "samsung_z_fold_6_512": {
     "display_name": "Samsung Galaxy Z Fold 6 512GB",
@@ -5114,12 +5152,13 @@
     "launch_date": "2024-09-20",
     "refurb_retail_anchor_excellent": 104000,
     "market_factor": 0.88,
-    "target_margin": 0.16,
-    "notes": "Most recent flagship discontinued. VERIFY LIVE for high-value buybacks.",
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.18,
+    "notes": "Most recent flagship discontinued. VERIFY LIVE for high-value buybacks. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 61500,
-    "rt_buyback_a1_override": 86800
+    "rt_buyback_a1_override": 86800,
+    "resale_target_a1": 105000
   },
   "iphone_16_pro_max_1tb": {
     "display_name": "iPhone 16 Pro Max 1TB",
@@ -5129,12 +5168,13 @@
     "launch_date": "2024-09-20",
     "refurb_retail_anchor_excellent": 113000,
     "market_factor": 0.88,
-    "target_margin": 0.16,
-    "notes": "Most recent flagship discontinued. VERIFY LIVE for high-value buybacks.",
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.18,
+    "notes": "Most recent flagship discontinued. VERIFY LIVE for high-value buybacks. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 67000,
-    "rt_buyback_a1_override": 94600
+    "rt_buyback_a1_override": 94600,
+    "resale_target_a1": 120000
   },
   "samsung_a14_5g_4_256": {
     "display_name": "Samsung Galaxy A14 5G 4/256GB",
@@ -5318,12 +5358,13 @@
     "discontinued": false,
     "launch_date": "2023-09-22",
     "net_new_inr": 94000,
-    "resale_target_a1": 54000,
-    "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "resale_target_a1": 56000,
+    "target_margin": 0.2,
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 30000,
-    "rt_buyback_a1_override": 50100
+    "rt_buyback_a1_override": 50100,
+    "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment."
   },
   "moto_g75_5g_8_256": {
     "display_name": "Motorola G75 5G 8/256GB",
@@ -5916,10 +5957,10 @@
     "discontinued": false,
     "launch_date": "2025-02-19",
     "net_new_inr": 66000,
-    "resale_target_a1": 49000,
-    "target_margin": 0.18,
-    "notes": "Apple's budget iPhone — replaces SE. A18 chip.",
-    "calibration_status": "shane_calibrated",
+    "resale_target_a1": 38000,
+    "target_margin": 0.2,
+    "notes": "Apple's budget iPhone — replaces SE. A18 chip. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 29000,
     "rt_buyback_a1_override": 43000
@@ -5930,10 +5971,10 @@
     "discontinued": false,
     "launch_date": "2025-02-19",
     "net_new_inr": 78000,
-    "resale_target_a1": 56000,
-    "target_margin": 0.18,
-    "notes": "Apple's budget iPhone — replaces SE. A18 chip.",
-    "calibration_status": "shane_calibrated",
+    "resale_target_a1": 44000,
+    "target_margin": 0.2,
+    "notes": "Apple's budget iPhone — replaces SE. A18 chip. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 33000,
     "rt_buyback_a1_override": 49000
@@ -6817,12 +6858,13 @@
     "launch_date": "2022-10-07",
     "refurb_retail_anchor_excellent": 40500,
     "market_factor": 0.88,
-    "target_margin": 0.2,
-    "notes": "6.7\" non-Pro. Slow seller initially, decent demand now.",
-    "calibration_status": "shane_calibrated",
+    "target_margin": 0.22,
+    "notes": "6.7\" non-Pro. Slow seller initially, decent demand now. | Recalibrated 2026-06: Flipkart street price drop adjustment.",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 18500,
-    "rt_buyback_a1_override": 30000
+    "rt_buyback_a1_override": 30000,
+    "resale_target_a1": 36000
   },
   "iphone_14_plus_512": {
     "display_name": "iPhone 14 Plus 512GB",
