@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "version": "4.1",
+    "version": "4.2",
     "last_calibration": "2026-06-14",
     "total_phones": "auto-counted on save",
     "schema_priority_order": [
@@ -38,7 +38,8 @@
     "v3_5_changelog": "Added missing Vivo V60 variants: 12/256GB (₹40,999) and 16/512GB (₹45,999). V60 confirmed to have 4 variants (8/128, 8/256, 12/256, 16/512) per GSMArena/GSMArena. Note: V60 family still 'estimated' anchor — needs Shane rate calibration like other Vivo mid-range.",
     "v3_6_changelog": "Full multi-brand variant audit. Added 55 new entries across 2 waves: (1) 2025-26 flagships/popular — Samsung S25 FE, A17 5G, M56, F56, Z Flip 7 FE, iQOO Neo 10R, Xiaomi 15 Ultra, Redmi 15 5G, OnePlus Nord CE4 Lite, Vivo T4x, Realme 15 Pro. (2) Budget brands previously absent — Infinix (Hot 40, Note 40/Pro, Zero 40, Smart 8, GT 20 Pro), Tecno (Spark 20/Pro, Pova 6/Pro, Camon 30), Lava (Blaze 2, Blaze Curve, Agni 3, Yuva 3), plus Samsung A05/A05s/F14, Redmi 12C, Oppo A58. All verified via web search for real India launches + correct storage variants. New budget brands are 'estimated' anchors.",
     "v4_0_changelog": "Full-DB June 2026 recalibration: top-30 hot models live-anchored (verified) from Cashify/Bankmycell/Bids44 references; depreciation curve tuned (premiums hold better 12-24mo, older phones depreciate sharper 36+mo); calibration_date stamp refreshed on all entries.",
-    "v4_1_changelog": "Flipkart price-drop recalibration (June 2026): iPhone 15 / 16 series resale anchors dropped 25-35% to reflect new street prices (iPhone 15 128GB now ₹54,900 on Flipkart, was ₹79,999). iPhone 14 series also dropped ~12% to maintain consistency."
+    "v4_1_changelog": "Flipkart price-drop recalibration (June 2026): iPhone 15 / 16 series resale anchors dropped 25-35% to reflect new street prices (iPhone 15 128GB now ₹54,900 on Flipkart, was ₹79,999). iPhone 14 series also dropped ~12% to maintain consistency.",
+    "v4_2_changelog": "iPhone 13 family switched from refurb_anchored (double-discount: market_factor × margin → buyback too low) to clean resale_anchored. Buyback raised ~15-20% to match June 2026 market (Cashify refurb ₹28,999 base / ₹43,399 Pro Max 128)."
   },
   "iphone_11_64": {
     "display_name": "iPhone 11 64GB",
@@ -151,10 +152,11 @@
     "target_margin": 0.2,
     "refurb_retail_source": "Cashify Store Fair ₹27,699 × 1.18; Budli ₹26,999",
     "notes": "iOS 26 still supported. Strong demand. Verify battery >85% strictly.",
-    "calibration_status": "shane_calibrated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 13500,
-    "rt_buyback_a1_override": 20100
+    "rt_buyback_a1_override": 20100,
+    "resale_target_a1": 29000
   },
   "iphone_13_256": {
     "display_name": "iPhone 13 256GB",
@@ -166,10 +168,11 @@
     "market_factor": 0.88,
     "target_margin": 0.2,
     "refurb_retail_source": "Budli ₹29,999 × 1.18 + estimate",
-    "calibration_status": "shane_calibrated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 15500,
-    "rt_buyback_a1_override": 23000
+    "rt_buyback_a1_override": 23000,
+    "resale_target_a1": 34000
   },
   "iphone_13_mini_128": {
     "display_name": "iPhone 13 mini 128GB",
@@ -182,10 +185,11 @@
     "target_margin": 0.22,
     "refurb_retail_source": "Budli ₹25,999 × 1.18",
     "notes": "Compact form factor — niche but loyal following.",
-    "calibration_status": "shane_calibrated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 13000,
-    "rt_buyback_a1_override": 19300
+    "rt_buyback_a1_override": 19300,
+    "resale_target_a1": 24000
   },
   "iphone_13_pro_128": {
     "display_name": "iPhone 13 Pro 128GB",
@@ -198,10 +202,11 @@
     "target_margin": 0.18,
     "refurb_retail_source": "Cashify Store Fair ₹41,199 × 1.18; Budli ₹39,999",
     "notes": "Pro Motion 120Hz still flagship-class. Stainless steel frame, IP68.",
-    "calibration_status": "shane_calibrated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 21000,
-    "rt_buyback_a1_override": 30400
+    "rt_buyback_a1_override": 30400,
+    "resale_target_a1": 43000
   },
   "iphone_13_pro_256": {
     "display_name": "iPhone 13 Pro 256GB",
@@ -212,10 +217,11 @@
     "refurb_retail_anchor_excellent": 45500,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 23500,
-    "rt_buyback_a1_override": 34100
+    "rt_buyback_a1_override": 34100,
+    "resale_target_a1": 48000
   },
   "iphone_13_pro_max_128": {
     "display_name": "iPhone 13 Pro Max 128GB",
@@ -228,10 +234,11 @@
     "target_margin": 0.18,
     "refurb_retail_source": "Cashify Store Fair ₹45,299 × 1.18; Budli ₹40,999",
     "notes": "Best battery iPhone of era. 6.7\" still relevant.",
-    "calibration_status": "shane_calibrated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 24000,
-    "rt_buyback_a1_override": 33900
+    "rt_buyback_a1_override": 33900,
+    "resale_target_a1": 47000
   },
   "iphone_13_pro_max_256": {
     "display_name": "iPhone 13 Pro Max 256GB",
@@ -242,10 +249,11 @@
     "refurb_retail_anchor_excellent": 50000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 26500,
-    "rt_buyback_a1_override": 37400
+    "rt_buyback_a1_override": 37400,
+    "resale_target_a1": 53000
   },
   "iphone_14_128": {
     "display_name": "iPhone 14 128GB",
@@ -3839,10 +3847,11 @@
     "refurb_retail_anchor_excellent": 56000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 29500,
-    "rt_buyback_a1_override": 41600
+    "rt_buyback_a1_override": 41600,
+    "resale_target_a1": 60000
   },
   "iphone_13_pro_max_1tb": {
     "display_name": "iPhone 13 Pro Max 1TB",
@@ -3853,10 +3862,11 @@
     "refurb_retail_anchor_excellent": 62000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 33000,
-    "rt_buyback_a1_override": 46500
+    "rt_buyback_a1_override": 46500,
+    "resale_target_a1": 68000
   },
   "redmi_note_12_5g_4_256": {
     "display_name": "Redmi Note 12 5G 4/256GB",
@@ -4825,10 +4835,11 @@
     "refurb_retail_anchor_excellent": 51000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 26500,
-    "rt_buyback_a1_override": 38500
+    "rt_buyback_a1_override": 38500,
+    "resale_target_a1": 54000
   },
   "iphone_13_pro_1tb": {
     "display_name": "iPhone 13 Pro 1TB",
@@ -4839,10 +4850,11 @@
     "refurb_retail_anchor_excellent": 57000,
     "market_factor": 0.88,
     "target_margin": 0.18,
-    "calibration_status": "shane_calibrated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 29500,
-    "rt_buyback_a1_override": 42900
+    "rt_buyback_a1_override": 42900,
+    "resale_target_a1": 62000
   },
   "xiaomi_17_12_512": {
     "display_name": "Xiaomi 17 12/512GB",
@@ -5989,10 +6001,11 @@
     "market_factor": 0.88,
     "target_margin": 0.2,
     "refurb_retail_source": "Budli ₹29,999 × 1.18 + estimate",
-    "calibration_status": "shane_calibrated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 18000,
-    "rt_buyback_a1_override": 26700
+    "rt_buyback_a1_override": 26700,
+    "resale_target_a1": 40000
   },
   "iqoo_neo_9_pro_5g_8_256": {
     "display_name": "iQOO Neo 9 Pro 5G 8/256GB",
@@ -6431,10 +6444,11 @@
     "target_margin": 0.22,
     "refurb_retail_source": "Budli ₹25,999 × 1.18",
     "notes": "Compact form factor — niche but loyal following.",
-    "calibration_status": "shane_calibrated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 14500,
-    "rt_buyback_a1_override": 21500
+    "rt_buyback_a1_override": 21500,
+    "resale_target_a1": 28000
   },
   "iphone_13_mini_512": {
     "display_name": "iPhone 13 mini 512GB",
@@ -6447,10 +6461,11 @@
     "target_margin": 0.22,
     "refurb_retail_source": "Budli ₹25,999 × 1.18",
     "notes": "Compact form factor — niche but loyal following.",
-    "calibration_status": "shane_calibrated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14",
     "cashify_exchange": 16500,
-    "rt_buyback_a1_override": 24500
+    "rt_buyback_a1_override": 24500,
+    "resale_target_a1": 33000
   },
   "oppo_f23_5g_8_256": {
     "display_name": "Oppo F23 5G 8/256GB",
