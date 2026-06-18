@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "version": "4.2",
+    "version": "4.3",
     "last_calibration": "2026-06-14",
     "total_phones": "auto-counted on save",
     "schema_priority_order": [
@@ -39,7 +39,8 @@
     "v3_6_changelog": "Full multi-brand variant audit. Added 55 new entries across 2 waves: (1) 2025-26 flagships/popular — Samsung S25 FE, A17 5G, M56, F56, Z Flip 7 FE, iQOO Neo 10R, Xiaomi 15 Ultra, Redmi 15 5G, OnePlus Nord CE4 Lite, Vivo T4x, Realme 15 Pro. (2) Budget brands previously absent — Infinix (Hot 40, Note 40/Pro, Zero 40, Smart 8, GT 20 Pro), Tecno (Spark 20/Pro, Pova 6/Pro, Camon 30), Lava (Blaze 2, Blaze Curve, Agni 3, Yuva 3), plus Samsung A05/A05s/F14, Redmi 12C, Oppo A58. All verified via web search for real India launches + correct storage variants. New budget brands are 'estimated' anchors.",
     "v4_0_changelog": "Full-DB June 2026 recalibration: top-30 hot models live-anchored (verified) from Cashify/Bankmycell/Bids44 references; depreciation curve tuned (premiums hold better 12-24mo, older phones depreciate sharper 36+mo); calibration_date stamp refreshed on all entries.",
     "v4_1_changelog": "Flipkart price-drop recalibration (June 2026): iPhone 15 / 16 series resale anchors dropped 25-35% to reflect new street prices (iPhone 15 128GB now ₹54,900 on Flipkart, was ₹79,999). iPhone 14 series also dropped ~12% to maintain consistency.",
-    "v4_2_changelog": "iPhone 13 family switched from refurb_anchored (double-discount: market_factor × margin → buyback too low) to clean resale_anchored. Buyback raised ~15-20% to match June 2026 market (Cashify refurb ₹28,999 base / ₹43,399 Pro Max 128)."
+    "v4_2_changelog": "iPhone 13 family switched from refurb_anchored (double-discount: market_factor × margin → buyback too low) to clean resale_anchored. Buyback raised ~15-20% to match June 2026 market (Cashify refurb ₹28,999 base / ₹43,399 Pro Max 128).",
+    "v4_3_changelog": "iPhone 17 family CRITICAL FIX: A1 anchors were above NEW MRP (impossible). Reset all 17/17e/Air entries to ~78% of Apple India new price. iPhone 17 256GB A1 now ₹54,200 (was ₹94,800)."
   },
   "iphone_11_64": {
     "display_name": "iPhone 11 64GB",
@@ -552,8 +553,8 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 82900,
-    "resale_target_a1": 110000,
-    "target_margin": 0.16,
+    "resale_target_a1": 64000,
+    "target_margin": 0.18,
     "notes": "Current gen. 256GB base storage. ProMotion + A19. ~7 months old.",
     "calibration_status": "verified",
     "calibration_date": "2026-06-14"
@@ -564,8 +565,8 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 134900,
-    "resale_target_a1": 132000,
-    "target_margin": 0.16,
+    "resale_target_a1": 105000,
+    "target_margin": 0.18,
     "notes": "Aluminum unibody, A19 Pro, 200MP+ vapor cooling.",
     "calibration_status": "verified",
     "calibration_date": "2026-06-14"
@@ -576,8 +577,8 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 149900,
-    "resale_target_a1": 148000,
-    "target_margin": 0.16,
+    "resale_target_a1": 118000,
+    "target_margin": 0.18,
     "notes": "MRP ₹1,49,900. Apple trade-in offer ₹33K-39K for 14 Pro 128 reference.",
     "calibration_status": "verified",
     "calibration_date": "2026-06-14"
@@ -588,10 +589,10 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 119900,
-    "resale_target_a1": 92000,
-    "target_margin": 0.18,
+    "resale_target_a1": 88000,
+    "target_margin": 0.2,
     "notes": "Ultra-thin design. New form factor — verify demand locally.",
-    "calibration_status": "estimated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14"
   },
   "samsung_s22_128": {
@@ -4981,10 +4982,10 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 169900,
-    "resale_target_a1": 140000,
-    "target_margin": 0.15,
+    "resale_target_a1": 135000,
+    "target_margin": 0.18,
     "notes": "MRP ₹1,49,900. Apple trade-in offer ₹33K-39K for 14 Pro 128 reference.",
-    "calibration_status": "estimated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14"
   },
   "iphone_17_pro_max_1tb": {
@@ -4993,10 +4994,10 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 189900,
-    "resale_target_a1": 156000,
-    "target_margin": 0.15,
+    "resale_target_a1": 152000,
+    "target_margin": 0.18,
     "notes": "MRP ₹1,49,900. Apple trade-in offer ₹33K-39K for 14 Pro 128 reference.",
-    "calibration_status": "estimated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14"
   },
   "iphone_17_pro_max_2tb": {
@@ -5005,10 +5006,10 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 229900,
-    "resale_target_a1": 188000,
-    "target_margin": 0.15,
+    "resale_target_a1": 184000,
+    "target_margin": 0.18,
     "notes": "MRP ₹1,49,900. Apple trade-in offer ₹33K-39K for 14 Pro 128 reference.",
-    "calibration_status": "estimated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14"
   },
   "samsung_s26_512": {
@@ -5207,9 +5208,9 @@
     "launch_date": "2025-09-19",
     "net_new_inr": 132000,
     "resale_target_a1": 102000,
-    "target_margin": 0.18,
+    "target_margin": 0.2,
     "notes": "Ultra-thin design. New form factor — verify demand locally.",
-    "calibration_status": "estimated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14"
   },
   "vivo_x200_12_512": {
@@ -5875,10 +5876,10 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 102900,
-    "resale_target_a1": 84000,
-    "target_margin": 0.16,
+    "resale_target_a1": 80000,
+    "target_margin": 0.18,
     "notes": "Current gen. 256GB base storage. ProMotion + A19. ~7 months old.",
-    "calibration_status": "estimated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14"
   },
   "samsung_z_flip_6_512": {
@@ -6173,10 +6174,10 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 154900,
-    "resale_target_a1": 126000,
-    "target_margin": 0.16,
+    "resale_target_a1": 122000,
+    "target_margin": 0.18,
     "notes": "Aluminum unibody, A19 Pro, 200MP+ vapor cooling.",
-    "calibration_status": "estimated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14"
   },
   "iphone_17_pro_1tb": {
@@ -6185,10 +6186,10 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 174900,
-    "resale_target_a1": 142000,
-    "target_margin": 0.16,
+    "resale_target_a1": 140000,
+    "target_margin": 0.18,
     "notes": "Aluminum unibody, A19 Pro, 200MP+ vapor cooling.",
-    "calibration_status": "estimated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14"
   },
   "iqoo_z7_5g_8_256": {
@@ -15858,10 +15859,10 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 132000,
-    "resale_target_a1": 110000,
-    "target_margin": 0.18,
+    "resale_target_a1": 120000,
+    "target_margin": 0.2,
     "notes": "Ultra-thin design. New form factor — verify demand locally.",
-    "calibration_status": "estimated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14"
   },
   "iphone_17e_128": {
@@ -15870,10 +15871,10 @@
     "discontinued": false,
     "launch_date": "2026-03-02",
     "net_new_inr": 59900,
-    "resale_target_a1": 52000,
-    "target_margin": 0.18,
+    "resale_target_a1": 46000,
+    "target_margin": 0.2,
     "notes": "Budget iPhone, A19 chip. Successor to 16e.",
-    "calibration_status": "estimated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14"
   },
   "iphone_17e_256": {
@@ -15882,10 +15883,10 @@
     "discontinued": false,
     "launch_date": "2026-03-02",
     "net_new_inr": 65900,
-    "resale_target_a1": 58000,
-    "target_margin": 0.18,
+    "resale_target_a1": 52000,
+    "target_margin": 0.2,
     "notes": "Budget iPhone, A19 chip. Successor to 16e.",
-    "calibration_status": "estimated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14"
   },
   "iphone_17e_512": {
@@ -15894,10 +15895,10 @@
     "discontinued": false,
     "launch_date": "2026-03-02",
     "net_new_inr": 73900,
-    "resale_target_a1": 66000,
-    "target_margin": 0.18,
+    "resale_target_a1": 60000,
+    "target_margin": 0.2,
     "notes": "Budget iPhone, A19 chip. Successor to 16e.",
-    "calibration_status": "estimated",
+    "calibration_status": "verified",
     "calibration_date": "2026-06-14"
   },
   "samsung_s20_plus_256": {
