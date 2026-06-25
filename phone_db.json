@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "version": "4.3",
+    "version": "4.4",
     "last_calibration": "2026-06-14",
     "total_phones": "auto-counted on save",
     "schema_priority_order": [
@@ -15233,6 +15233,39 @@
     "discontinued": false,
     "resale_target_a1": 9000,
     "target_margin": 0.22
+  },
+  "samsung_f17_5g_4_128": {
+    "display_name": "Samsung Galaxy F17 5G 4/128GB",
+    "tier": "B",
+    "launch_date": "2025-10-13",
+    "discontinued": false,
+    "resale_target_a1": 8000,
+    "target_margin": 0.22,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-06-14",
+    "notes": "Exynos 1330, 6.7\" Super AMOLED + Gorilla Glass Victus, 50MP OIS, 5000mAh 25W. Launch MRP ₹13,999 (13 Oct 2025)."
+  },
+  "samsung_f17_5g_6_128": {
+    "display_name": "Samsung Galaxy F17 5G 6/128GB",
+    "tier": "B",
+    "launch_date": "2025-10-13",
+    "discontinued": false,
+    "resale_target_a1": 9000,
+    "target_margin": 0.22,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-06-14",
+    "notes": "Launch MRP ₹15,499."
+  },
+  "samsung_f17_5g_8_128": {
+    "display_name": "Samsung Galaxy F17 5G 8/128GB",
+    "tier": "B",
+    "launch_date": "2025-10-13",
+    "discontinued": false,
+    "resale_target_a1": 10500,
+    "target_margin": 0.22,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-06-14",
+    "notes": "Launch MRP ₹16,999."
   },
   "samsung_m17_5g_4_128": {
     "display_name": "Samsung Galaxy M17 5G 4/128GB",
