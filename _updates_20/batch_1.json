@@ -1,0 +1,82 @@
+{
+ "batch_index": 1,
+ "updates": [
+  {
+   "key": "asus_rog_phone_8_pro_16_512",
+   "status": "live",
+   "anchor_field": "refurb_retail_anchor_excellent",
+   "new_value": 58000,
+   "old_value": 58000,
+   "new_price_ceiling": 94999,
+   "source": "Cashify page (cashify.in/asus-rog-phone-8-pro-price-in-india) confirmed unchanged: Approx buyback ~Rs 38,000, new retail Rs 94,999, 20-Jul-2026. Refurb-retail estimate held at existing Rs 58,000.",
+   "confidence": "medium",
+   "override_review": null
+  },
+  {
+   "key": "asus_rog_phone_8_pro_24_1024",
+   "status": "live",
+   "anchor_field": "refurb_retail_anchor_excellent",
+   "new_value": 75000,
+   "old_value": 75000,
+   "new_price_ceiling": 119999,
+   "source": "Same Cashify page confirms new retail range Rs 94,999-1,19,999 unchanged (24/1TB at top of range ~Rs 1,19,999); no distinct buyback figure surfaced for this specific variant today, held at existing Rs 75,000 estimate, 20-Jul-2026.",
+   "confidence": "medium",
+   "override_review": null
+  },
+  {
+   "key": "asus_rog_phone_9_12_256",
+   "status": "no_live_data",
+   "anchor_field": "resale_target_a1",
+   "new_value": null,
+   "old_value": 51600,
+   "new_price_ceiling": null,
+   "source": "No credible India price found. Amazon.in/Flipkart fetches blocked (503), Smartprix/91mobiles blocked (403), DuckDuckGo/Bing searches returned only unreliable aggregator numbers (Rs 77k-103k spread across MobileAna/PhoneAqua/Mobile92, not credible) or no phone-specific results.",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "asus_rog_phone_9_pro_16_512",
+   "status": "no_live_data",
+   "anchor_field": "resale_target_a1",
+   "new_value": null,
+   "old_value": 74400,
+   "new_price_ceiling": null,
+   "source": "No credible India price found. Same search attempts as ROG Phone 9 base model returned no usable Amazon/Flipkart/Cashify data for the Pro variant.",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "asus_zenfone_11_ultra_12_256",
+   "status": "no_live_data",
+   "anchor_field": "resale_target_a1",
+   "new_value": null,
+   "old_value": 41800,
+   "new_price_ceiling": null,
+   "source": "No credible India price found. Amazon/Smartprix/91mobiles blocked, Bing/DuckDuckGo returned only inconsistent aggregator estimates (Rs 60k-86k spread, non-credible sources) or unrelated results.",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "cmf_phone_2_pro_8_128",
+   "status": "live",
+   "anchor_field": "resale_target_a1",
+   "new_value": 13700,
+   "old_value": 14500,
+   "new_price_ceiling": 18999,
+   "source": "Cashify refurb retail (cashify.in/buy-refurbished-mobile-phones/renewed-cmf-by-nothing-phone-2-pro) 8/128GB: regular Rs 22,999, Cashify price Rs 13,699 (Best Value tier, condition grade ambiguous - not confirmed as top/Superb tier), Gold membership Rs 13,099. Used as-is without further markup since tier is likely below A1/Superb. 20-Jul-2026.",
+   "confidence": "medium",
+   "override_review": null
+  },
+  {
+   "key": "cmf_phone_2_pro_8_256",
+   "status": "live",
+   "anchor_field": "resale_target_a1",
+   "new_value": 15600,
+   "old_value": 16500,
+   "new_price_ceiling": 21000,
+   "source": "No direct 256GB price surfaced on Cashify refurb page (only 128GB SKU priced). Extrapolated from 128GB live move (Rs 14,500 -> Rs 13,700, -5.5%) applied proportionally to prior 256GB value; storage non-inversion checked (256GB >= 128GB). 20-Jul-2026.",
+   "confidence": "low",
+   "override_review": null
+  }
+ ]
+}

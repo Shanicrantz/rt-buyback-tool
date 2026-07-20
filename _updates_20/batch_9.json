@@ -1,0 +1,203 @@
+{
+ "batch_index": 9,
+ "updates": [
+  {
+   "key": "iphone_11_pro_256",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 16000,
+   "old_value": 16000,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-11-pro) showed only a single aggregate 'base price' ~Rs 57,000 for the whole model, no per-variant/condition breakdown; that figure is ~3.5x the current override band, fails 0.45x-1.7x sanity check, rejected as non-credible for comparison, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_11_pro_512",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 18000,
+   "old_value": 18000,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-11-pro) showed only a single aggregate 'base price' ~Rs 57,000, no per-variant breakdown; fails sanity band vs current override, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_11_pro_64",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 13400,
+   "old_value": 13400,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-11-pro) labeled its single ~Rs 57,000 figure as the 64GB base price on one fetch, but that is ~4.3x the current override, well outside 0.45x-1.7x sanity band; rejected as non-credible, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_11_pro_max_256",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 18200,
+   "old_value": 18200,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-11-pro-max) showed only a single aggregate 'base price' ~Rs 56,710, no per-variant breakdown; fails sanity band vs current override, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_11_pro_max_512",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 20200,
+   "old_value": 20200,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-11-pro-max) showed only a single aggregate ~Rs 56,710 figure, no per-variant breakdown; fails sanity band, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_11_pro_max_64",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 15600,
+   "old_value": 15600,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-11-pro-max) showed only a single aggregate ~Rs 56,710 figure, no per-variant breakdown; fails sanity band, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_12_mini_128",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 14400,
+   "old_value": 14400,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-12-mini) showed only a single aggregate 'base price' ~Rs 34,390, no per-variant breakdown; ~2.4-2.9x current override, fails 0.45x-1.7x sanity band, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_12_mini_256",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 16400,
+   "old_value": 16400,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-12-mini) showed only a single aggregate ~Rs 34,390 figure, no per-variant breakdown; fails sanity band, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_12_mini_64",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 12300,
+   "old_value": 12300,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-12-mini) showed only a single aggregate ~Rs 34,390 figure, no per-variant breakdown; ~2.8x current override, fails sanity band, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_12_pro_128",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 20100,
+   "old_value": 20100,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-12-pro) showed only a single aggregate 'base price' ~Rs 76,030, no per-variant breakdown; ~3.8x current override, fails 0.45x-1.7x sanity band, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_12_pro_256",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 22700,
+   "old_value": 22700,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-12-pro) showed only a single aggregate ~Rs 76,030 figure, no per-variant breakdown; fails sanity band, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_12_pro_512",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 25400,
+   "old_value": 25400,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-12-pro) showed only a single aggregate ~Rs 76,030 figure, no per-variant breakdown; fails sanity band, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_12_pro_max_128",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 22700,
+   "old_value": 22700,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-12-pro-max) showed only a single aggregate 'base price' ~Rs 81,350, no per-variant breakdown; ~3.6x current override, fails 0.45x-1.7x sanity band, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_12_pro_max_256",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 25300,
+   "old_value": 25300,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-12-pro-max) showed only a single aggregate ~Rs 81,350 figure, no per-variant breakdown; fails sanity band, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_12_pro_max_512",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 28600,
+   "old_value": 28600,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-12-pro-max) showed only a single aggregate ~Rs 81,350 figure, no per-variant breakdown; fails sanity band, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_13_mini_128",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 19300,
+   "old_value": 19300,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-13-mini) showed only a single aggregate 'base price' ~Rs 62,660, no per-variant breakdown; ~2.9x current override, fails 0.45x-1.7x sanity band, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_13_mini_256",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 21500,
+   "old_value": 21500,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-13-mini) showed only a single aggregate ~Rs 62,660 figure, no per-variant breakdown; fails sanity band, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "iphone_13_mini_512",
+   "status": "no_live_data",
+   "anchor_field": "rt_buyback_a1_override",
+   "new_value": 24500,
+   "old_value": 24500,
+   "new_price_ceiling": null,
+   "source": "Override present, not changed. Cashify PDP (used-apple-iphone-13-mini) showed only a single aggregate ~Rs 62,660 figure, no per-variant breakdown; fails sanity band, rejected, 20-Jul-2026",
+   "confidence": "low",
+   "override_review": null
+  }
+ ]
+}

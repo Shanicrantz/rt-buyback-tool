@@ -1,0 +1,249 @@
+#!/usr/bin/env python3
+import os
+
+proj_dir = "/Users/shane/Documents/Claude/Projects/rt buyback tool/ios_app/RTBuyback.xcodeproj"
+os.makedirs(proj_dir, exist_ok=True)
+
+pbxproj_content = """// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100100012C50000100000001 /* RTBuybackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100100012C50000100000000 /* RTBuybackApp.swift */; };
+		100100022C50000100000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100100022C50000100000000 /* ContentView.swift */; };
+		100100032C50000100000001 /* LocalWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100100032C50000100000000 /* LocalWebView.swift */; };
+		100100042C50000100000001 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 100100042C50000100000000 /* www */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		100100002C50000100000000 /* RTBuyback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTBuyback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		100100012C50000100000000 /* RTBuybackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTBuybackApp.swift; sourceTree = "<group>"; };
+		100100022C50000100000000 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		100100032C50000100000000 /* LocalWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalWebView.swift; sourceTree = "<group>"; };
+		100100042C50000100000000 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		100100052C50000100000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100100062C50000100000000 = {
+			isa = PBXGroup;
+			children = (
+				100100072C50000100000000 /* RTBuyback */,
+				100100002C50000100000000 /* RTBuyback.app */,
+			);
+			sourceTree = "<group>";
+		};
+		100100072C50000100000000 /* RTBuyback */ = {
+			isa = PBXGroup;
+			children = (
+				100100012C50000100000000 /* RTBuybackApp.swift */,
+				100100022C50000100000000 /* ContentView.swift */,
+				100100032C50000100000000 /* LocalWebView.swift */,
+				100100042C50000100000000 /* www */,
+			);
+			path = RTBuyback;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100100082C50000100000000 /* RTBuyback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100100092C50000100000000 /* Build configuration list for PBXNativeTarget "RTBuyback" */;
+			buildPhases = (
+				1001000A2C50000100000000 /* Sources */,
+				100100052C50000100000000 /* Frameworks */,
+				1001000B2C50000100000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTBuyback;
+			productName = RTBuyback;
+			productReference = 100100002C50000100000000 /* RTBuyback.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1001000C2C50000100000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					100100082C50000100000000 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 1001000D2C50000100000000 /* Build configuration list for PBXProject "RTBuyback" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 100100062C50000100000000;
+			productRefGroup = 100100062C50000100000000;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				100100082C50000100000000 /* RTBuyback */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1001000B2C50000100000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100100042C50000100000001 /* www in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1001000A2C50000100000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100100012C50000100000001 /* RTBuybackApp.swift in Sources */,
+				100100022C50000100000001 /* ContentView.swift in Sources */,
+				100100032C50000100000001 /* LocalWebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1001000E2C50000100000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_PROTOTYPES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "RT Buyback";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajdhanitelecom.rtbuyback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1001000F2C50000100000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_PROTOTYPES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "RT Buyback";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajdhanitelecom.rtbuyback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		100100102C50000100000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		100100112C50000100000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100100092C50000100000000 /* Build configuration list for PBXNativeTarget "RTBuyback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1001000E2C50000100000000 /* Debug */,
+				1001000F2C50000100000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1001000D2C50000100000000 /* Build configuration list for PBXProject "RTBuyback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100100102C50000100000000 /* Debug */,
+				100100112C50000100000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1001000C2C50000100000000 /* Project object */;
+}
+"""
+
+with open(os.path.join(proj_dir, "project.pbxproj"), "w") as f:
+    f.write(pbxproj_content)
+
+print("Generated project.pbxproj successfully!")

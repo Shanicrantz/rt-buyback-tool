@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('phone_db.json'\\)\\); print\\(type\\(d\\)\\); print\\('keys/len:', list\\(d.keys\\(\\)\\)[:20] if isinstance\\(d,dict\\) else len\\(d\\)\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(cp phone_db.json \"phone_db.backup-2026-07-03.json\")",
+      "Bash(cp index.html \"index.backup-2026-07-03.html\")",
+      "Read(//Users/shane/.claude/**)",
+      "Bash(cp phone_db.json phone_db.backup-2026-07-20.json)",
+      "Bash(cp index.html index.backup-2026-07-20.html)"
+    ]
+  }
+}

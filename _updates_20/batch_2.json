@@ -1,0 +1,203 @@
+{
+ "batch_index": 2,
+ "updates": [
+  {
+   "key": "google_pixel_10_128",
+   "status": "live",
+   "anchor_field": "resale_target_a1",
+   "new_value": 44000,
+   "old_value": 44000,
+   "new_price_ceiling": null,
+   "source": "Cashify Pixel 10 buyback ~Rs 22,320, 20-Jul-2026 (cashify.in/google-pixel-10-price-in-india), essentially flat vs prior ~Rs 22,160 baseline; A1 resale kept at Rs 44,000.",
+   "confidence": "medium",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_10_256",
+   "status": "live",
+   "anchor_field": "resale_target_a1",
+   "new_value": 50000,
+   "old_value": 50000,
+   "new_price_ceiling": null,
+   "source": "Cashify Pixel 10 exchange ~Rs 22,320, 20-Jul-2026 (cashify.in/google-pixel-10-price-in-india), consistent with prior refurb-retail ~Rs 52,999 basis; A1 resale kept at Rs 50,000.",
+   "confidence": "medium",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_10_512",
+   "status": "live",
+   "anchor_field": "resale_target_a1",
+   "new_value": 55000,
+   "old_value": 55000,
+   "new_price_ceiling": null,
+   "source": "No distinct India confirmation for 512GB variant; scaled from 256GB base (Cashify exchange ~Rs 22,320, 20-Jul-2026), kept unchanged at Rs 55,000.",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_3_128",
+   "status": "live",
+   "anchor_field": "refurb_retail_anchor_excellent",
+   "new_value": 15200,
+   "old_value": 15000,
+   "new_price_ceiling": null,
+   "source": "Cashify Pixel 3 retail starting price Rs 11,899, 20-Jul-2026 (cashify.in/google-pixel-3-price-in-india), up from ~Rs 11,699 baseline; 128GB excellent anchor scaled +1.7% to Rs 15,200.",
+   "confidence": "medium",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_3_64",
+   "status": "live",
+   "anchor_field": "refurb_retail_anchor_excellent",
+   "new_value": 13700,
+   "old_value": 13500,
+   "new_price_ceiling": null,
+   "source": "Cashify Pixel 3 retail starting price Rs 11,899, 20-Jul-2026 (cashify.in/google-pixel-3-price-in-india), up from ~Rs 11,699 baseline; excellent anchor scaled to Rs 13,700.",
+   "confidence": "medium",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_4_64",
+   "status": "no_live_data",
+   "anchor_field": "refurb_retail_anchor_excellent",
+   "new_value": null,
+   "old_value": 9500,
+   "new_price_ceiling": null,
+   "source": "Cashify Pixel 4 India page returned inconsistent figures (buyback Rs 11,188 exceeding stated retail, 'starting price' Rs 27,970 -- outside 0.45x-1.7x sanity band vs current Rs 9,500; page also states Pixel 4 'never officially launched in India'). Rejected per sanity rule as likely wrong/contaminated match; no credible number found.",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_5_128",
+   "status": "live",
+   "anchor_field": "refurb_retail_anchor_excellent",
+   "new_value": 20800,
+   "old_value": 20600,
+   "new_price_ceiling": null,
+   "source": "Cashify Pixel 5 buyback Rs 10,880 / starting price Rs 27,199, 20-Jul-2026 (cashify.in/google-pixel-5-price-in-india), up ~1.1% from prior Rs 10,760/Rs 26,899 baseline; excellent anchor scaled to Rs 20,800.",
+   "confidence": "medium",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_6_128",
+   "status": "live",
+   "anchor_field": "refurb_retail_anchor_excellent",
+   "new_value": 20500,
+   "old_value": 20500,
+   "new_price_ceiling": null,
+   "source": "Cashify Pixel 6 refurb Fair starting price confirmed exactly Rs 19,499, 20-Jul-2026 (cashify.in/google-pixel-6-price-in-india), matching prior baseline; buyback now shown Rs 7,800. Excellent anchor kept at Rs 20,500.",
+   "confidence": "high",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_6_256",
+   "status": "live",
+   "anchor_field": "refurb_retail_anchor_excellent",
+   "new_value": 23500,
+   "old_value": 23500,
+   "new_price_ceiling": null,
+   "source": "Base 128GB Fair price confirmed stable at Rs 19,499, 20-Jul-2026 (cashify.in/google-pixel-6-price-in-india); 256GB kept at Rs 23,500 (no separate storage breakdown found).",
+   "confidence": "medium",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_7_128",
+   "status": "live",
+   "anchor_field": "refurb_retail_anchor_excellent",
+   "new_value": 24400,
+   "old_value": 24000,
+   "new_price_ceiling": null,
+   "source": "Cashify Pixel 7 (128GB) exchange 'up to' Rs 14,480, 20-Jul-2026 (cashify.in/sell-old-mobile-phone/used-google-pixel-7-8-gb-128-gb), up from prior Rs 14,240 baseline; excellent anchor scaled +1.7% to Rs 24,400.",
+   "confidence": "medium",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_7_256",
+   "status": "live",
+   "anchor_field": "refurb_retail_anchor_excellent",
+   "new_value": 28000,
+   "old_value": 27500,
+   "new_price_ceiling": null,
+   "source": "No direct 256GB page found; scaled from confirmed 128GB Cashify move (+1.7%, Rs 14,240 to Rs 14,480, 20-Jul-2026) applied to prior 256GB anchor.",
+   "confidence": "medium",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_7_512",
+   "status": "live",
+   "anchor_field": "refurb_retail_anchor_excellent",
+   "new_value": 30200,
+   "old_value": 29700,
+   "new_price_ceiling": null,
+   "source": "Extrapolated from 128GB confirmed Cashify move (+1.7%, 20-Jul-2026); no direct 512GB India data available.",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_8_128",
+   "status": "live",
+   "anchor_field": "resale_target_a1",
+   "new_value": 26400,
+   "old_value": 26400,
+   "new_price_ceiling": null,
+   "source": "Cashify Pixel 8 refurb retail starting price confirmed exactly Rs 29,299, 20-Jul-2026 (cashify.in/google-pixel-8-price-in-india), unchanged from prior baseline; approx buyback now shown Rs 11,720. A1 resale kept at Rs 26,400.",
+   "confidence": "high",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_8_256",
+   "status": "live",
+   "anchor_field": "resale_target_a1",
+   "new_value": 29100,
+   "old_value": 29100,
+   "new_price_ceiling": null,
+   "source": "Base 128GB refurb Fair confirmed stable at Rs 29,299, 20-Jul-2026; 256GB kept at Rs 29,100 (no separate storage breakdown found).",
+   "confidence": "medium",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_8_512",
+   "status": "live",
+   "anchor_field": "refurb_retail_anchor_excellent",
+   "new_value": 38900,
+   "old_value": 35800,
+   "new_price_ceiling": null,
+   "source": "No direct 512GB data; scaled +8% storage premium from 256GB refurb_retail_anchor_excellent reference (Rs 36,000) to correct a pre-existing 512<256 inversion, 20-Jul-2026.",
+   "confidence": "low",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_9_128",
+   "status": "live",
+   "anchor_field": "resale_target_a1",
+   "new_value": 48500,
+   "old_value": 49600,
+   "new_price_ceiling": null,
+   "source": "Cashify Pixel 9 256GB exchange 'Get Upto' Rs 36,960, 20-Jul-2026 (cashify.in/sell-old-mobile-phone/used-google-pixel-9-12-gb-256-gb), down ~1.8% from prior Rs 37,630 baseline; 128GB scaled proportionally to Rs 48,500 (no direct 128GB price found).",
+   "confidence": "medium",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_9_256",
+   "status": "live",
+   "anchor_field": "resale_target_a1",
+   "new_value": 47000,
+   "old_value": 48000,
+   "new_price_ceiling": null,
+   "source": "Cashify Pixel 9 256GB exchange 'Get Upto' Rs 36,960, 20-Jul-2026 (cashify.in/sell-old-mobile-phone/used-google-pixel-9-12-gb-256-gb), down from prior Rs 37,630 baseline; A1 resale scaled to Rs 47,000.",
+   "confidence": "medium",
+   "override_review": null
+  },
+  {
+   "key": "google_pixel_9_512",
+   "status": "live",
+   "anchor_field": "resale_target_a1",
+   "new_value": 50000,
+   "old_value": 51000,
+   "new_price_ceiling": null,
+   "source": "Extrapolated from confirmed 256GB Cashify move (-1.8%, 20-Jul-2026); no direct 512GB India data available.",
+   "confidence": "low",
+   "override_review": null
+  }
+ ]
+}
