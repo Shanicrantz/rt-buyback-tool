@@ -1,0 +1,17 @@
+# transient workflow I/O & scratch
+_ov_updates/
+_updates/
+_gaps/
+_ov_batches.json
+_override_keys.json
+_batches.json
+_db_inventory.json
+_audit_units.json
+*.bak
+.netlify/
+# large audit data dumps (provenance only)
+*_audit_*.json
+# local safety backups (git history is the real backup)
+*.backup-*.json
+*.backup-*.html
+*.prefill-backup.*

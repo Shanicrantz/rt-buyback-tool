@@ -7,7 +7,7 @@ export const meta = {
 }
 
 const DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
-const N = 167
+const N = 50
 
 const UPDATE_SCHEMA = {
   type: 'object',
@@ -45,7 +45,7 @@ const UPDATE_SCHEMA = {
 }
 
 function promptFor(i) {
-  return `You are refreshing live market resale/buyback rates for Rajdhani Telecom's (Moradabad, India) used-phone buyback database. TODAY is 25 June 2026. You handle ONE batch of phones.
+  return `You are refreshing live market resale/buyback rates for Rajdhani Telecom's (Moradabad, India) used-phone buyback database. TODAY is 2026-08-05. You handle ONE batch of phones.
 
 WORKING DIR: ${DIR}
 
@@ -54,8 +54,8 @@ Run:
   python3 -c "import json; ks=json.load(open('${DIR}/_batches.json'))[${i}]; d=json.load(open('${DIR}/phone_db.json')); print(json.dumps({k:d[k] for k in ks}, ensure_ascii=False, indent=1))"
 This prints your batch's phone keys with their full current entries. These keys are your ENTIRE job — do not touch any other phone.
 
-STEP 2 — For each DISTINCT base model in your batch (storage variants of the same model share one lookup), research TODAY'S (June 2026) India market using your web search / web fetch tools. Look up, in priority order:
-  (a) Cashify "sell old mobile" / exchange value = what Cashify actually PAYS the seller. URL pattern: https://cashify.in/sell-old-mobile-phone/<brand>/<model-slug>  (fallback: web_search "Cashify <model> <storage> sell price June 2026").
+STEP 2 — For each DISTINCT base model in your batch (storage variants of the same model share one lookup), research TODAY'S (current, latest 2026) India market using your web search / web fetch tools. Look up, in priority order:
+  (a) Cashify "sell old mobile" / exchange value = what Cashify actually PAYS the seller. URL pattern: https://cashify.in/sell-old-mobile-phone/<brand>/<model-slug>  (fallback: web_search "Cashify <model> <storage> sell price latest").
   (b) Cashify refurbished RETAIL price (cashify.in/buy-refurbished...) OR current used price on OLX/Amazon Renewed — used as resale-retail anchor.
   (c) Current NEW price on Amazon.in / Flipkart (for in-production models) — this is the hard CEILING; a used phone's resale can NEVER exceed new net price.
 Use 1-3 searches per base model. If after a quick attempt you find NO credible India price for that specific model+era, immediately mark it no_live_data (do NOT grind, do NOT guess — long-tail/old/budget phones often have no data and that is expected).
@@ -76,7 +76,7 @@ HONESTY RULES:
 - NEVER fabricate a price from memory. No data = no_live_data.
 - old_value = the current value of that anchor field in the entry (or null if field absent).
 - new_a1_estimate = your best estimate of the resulting A1 mint buyback (optional, for sanity), new_price_ceiling = the new/refurb ceiling you found (optional).
-- source = short note naming where the number came from (e.g. "Cashify exchange iPhone 13 128 ₹14,500, 25-Jun-2026"). One source line per model is fine.
+- source = short note naming where the number came from (e.g. "Cashify exchange iPhone 13 128 ₹14,500, 2026-08-05"). One source line per model is fine.
 
 STEP 4 — Write your result to a file AND return it. Write valid JSON to: ${DIR}/_updates/batch_${i}.json  (use your file-write tool). The JSON must match this shape exactly:
   {"batch_index": ${i}, "updates": [ {"key":..., "status":..., "anchor_field":..., "new_value":..., "old_value":..., "new_a1_estimate":..., "new_price_ceiling":..., "source":..., "confidence":"high|medium|low", "override_review": null}, ... ] }
@@ -84,7 +84,7 @@ Include EVERY key from your batch exactly once. Then return the same JSON object
 }
 
 phase('Live Refresh')
-log(`Refreshing ${N} batches (~1566 phones) with today's live India market rates...`)
+log(`Refreshing ${N} batches (449 hot flagship/premium models) with today's live India market rates...`)
 
 const results = await parallel(
   Array.from({ length: N }, (_, i) => () =>

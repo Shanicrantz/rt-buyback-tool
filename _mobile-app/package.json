@@ -1,0 +1,24 @@
+{
+  "name": "rt-buyback-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rajdhani Telecom Buyback — iOS + Android native shell (Capacitor) over the live web app",
+  "scripts": {
+    "init": "cap init",
+    "add:ios": "cap add ios",
+    "add:android": "cap add android",
+    "sync": "cap sync",
+    "open:ios": "cap open ios",
+    "open:android": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/ios": "^6.1.2",
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/splash-screen": "^6.0.2",
+    "@capacitor/status-bar": "^6.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}

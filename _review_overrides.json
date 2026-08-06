@@ -1,495 +1,282 @@
 [
   {
-    "key": "iphone_11_64",
-    "display": "iPhone 11 64GB",
-    "current": 11000.0,
-    "live_suggestion": 13220.0,
-    "pct_diff": 20.2,
-    "source": "Cashify exchange iPhone 11 64GB up to ₹13,220, 25-Jun-2026 (cashify.in/sell-old-mobile-phone/used-apple-iphone-11-4-gb-64-gb)"
-  },
-  {
-    "key": "iphone_12_64",
-    "display": "iPhone 12 64GB",
-    "current": 16000.0,
-    "live_suggestion": 18535.0,
-    "pct_diff": 15.8,
-    "source": "Cashify exchange iPhone 12 64GB 'Get Upto ₹16,850' (cashify.in/sell-old-mobile-phone/used-apple-iphone-12-4-gb-64-gb, 25-Jun-2026); Cashify refurb retail iPhone 12 from ₹19,999 (Fair condition base)"
-  },
-  {
-    "key": "iphone_12_128",
-    "display": "iPhone 12 128GB",
-    "current": 16400.0,
-    "live_suggestion": 19338.0,
-    "pct_diff": 17.9,
-    "source": "Cashify exchange iPhone 12 128GB 'Get Upto ₹17,580' (cashify.in/sell-old-mobile-phone/used-apple-iphone-12-4-gb-128-gb, 25-Jun-2026); Cashify refurb retail from ₹19,999"
-  },
-  {
-    "key": "iphone_12_mini_64",
-    "display": "iPhone 12 mini 64GB",
-    "current": 12300.0,
-    "live_suggestion": 15246.0,
-    "pct_diff": 24.0,
-    "source": "Cashify exchange iPhone 12 mini 64GB 'Get Upto ₹13,860' (cashify.in/sell-old-mobile-phone/used-apple-iphone-12-mini-4-gb-64-gb, 25-Jun-2026); Cashify refurb retail mini from ₹19,399"
-  },
-  {
     "key": "iphone_12_pro_128",
     "display": "iPhone 12 Pro 128GB",
     "current": 20100.0,
-    "live_suggestion": 25795.0,
-    "pct_diff": 28.3,
-    "source": "Cashify exchange iPhone 12 Pro 128GB 'Get Upto ₹23,450' (cashify.in/sell-old-mobile-phone/used-apple-iphone-12-pro-6-gb-128-gb, 25-Jun-2026); Cashify refurb retail ₹32,599 (Fair condition base, cashify.in/buy-refurbished-mobile-phones/renewed-apple-iphone-12-pro)"
-  },
-  {
-    "key": "iphone_12_pro_max_128",
-    "display": "iPhone 12 Pro Max 128GB",
-    "current": 22700.0,
-    "live_suggestion": 28160.0,
-    "pct_diff": 24.1,
-    "source": "Cashify exchange iPhone 12 Pro Max 128GB ₹25,600; Cashify refurb retail 128GB ₹36,199 — 25-Jun-2026"
-  },
-  {
-    "key": "iphone_13_128",
-    "display": "iPhone 13 128GB",
-    "current": 20100.0,
-    "live_suggestion": 26345.0,
-    "pct_diff": 31.1,
-    "source": "Cashify exchange iPhone 13 128GB ₹23,950; Cashify refurb retail ₹29,199 — 25-Jun-2026"
-  },
-  {
-    "key": "iphone_13_256",
-    "display": "iPhone 13 256GB",
-    "current": 23000.0,
-    "live_suggestion": 28039.0,
-    "pct_diff": 21.9,
-    "source": "Cashify exchange iPhone 13 256GB ₹25,490 — 25-Jun-2026"
-  },
-  {
-    "key": "iphone_13_mini_128",
-    "display": "iPhone 13 mini 128GB",
-    "current": 19300.0,
-    "live_suggestion": 23881.0,
-    "pct_diff": 23.7,
-    "source": "Cashify exchange iPhone 13 mini 128GB ₹21,710; Cashify refurb retail 128GB ₹27,799 — 25-Jun-2026"
-  },
-  {
-    "key": "iphone_13_pro_128",
-    "display": "iPhone 13 Pro 128GB",
-    "current": 30400.0,
-    "live_suggestion": 36410.0,
-    "pct_diff": 19.8,
-    "source": "Cashify exchange iPhone 13 Pro 128GB up to ₹33,100 (cashify.in/sell-old-mobile-phone/used-apple-iphone-13-pro-6-gb-128-gb, 25-Jun-2026); Cashify refurb retail ₹41,999"
-  },
-  {
-    "key": "iphone_13_pro_256",
-    "display": "iPhone 13 Pro 256GB",
-    "current": 34100.0,
-    "live_suggestion": 38368.0,
-    "pct_diff": 12.5,
-    "source": "Cashify exchange iPhone 13 Pro 256GB up to ₹34,880 (cashify.in/sell-old-mobile-phone/used-apple-iphone-13-pro-6-gb-256-gb, 25-Jun-2026); refurb retail estimated ₹47,699 (₹41,999 + ~₹5,700 tier premium)"
-  },
-  {
-    "key": "iphone_13_pro_max_128",
-    "display": "iPhone 13 Pro Max 128GB",
-    "current": 33900.0,
-    "live_suggestion": 39479.0,
-    "pct_diff": 16.5,
-    "source": "Cashify exchange iPhone 13 Pro Max 128GB up to ₹35,890 (cashify.in/sell-old-mobile-phone/used-apple-iphone-13-pro-max-6-gb-128-gb, 25-Jun-2026); Cashify refurb retail ₹46,699"
-  },
-  {
-    "key": "iphone_13_pro_max_256",
-    "display": "iPhone 13 Pro Max 256GB",
-    "current": 37400.0,
-    "live_suggestion": 41437.0,
-    "pct_diff": 10.8,
-    "source": "Cashify exchange iPhone 13 Pro Max 256GB up to ₹37,670 (cashify.in/sell-old-mobile-phone/used-apple-iphone-13-pro-max-6-gb-256-gb, 25-Jun-2026)"
-  },
-  {
-    "key": "iphone_14_128",
-    "display": "iPhone 14 128GB",
-    "current": 26500.0,
-    "live_suggestion": 29400.0,
-    "pct_diff": 10.9,
-    "source": "Cashify sell page used-apple-iphone-14-6-gb-128-gb: Get Upto ₹26,730 (Excellent). Refurb retail ₹33,299 (Fair). Fetched 25-Jun-2026."
-  },
-  {
-    "key": "iphone_14_256",
-    "display": "iPhone 14 256GB",
-    "current": 26700.0,
-    "live_suggestion": 31450.0,
-    "pct_diff": 17.8,
-    "source": "Cashify sell page used-apple-iphone-14-6-gb-256-gb: Get Upto ₹28,590 (Excellent). Refurb retail anchor (DB) ₹37,000. Fetched 25-Jun-2026."
-  },
-  {
-    "key": "iphone_14_plus_128",
-    "display": "iPhone 14 Plus 128GB",
-    "current": 26700.0,
-    "live_suggestion": 32050.0,
-    "pct_diff": 20.0,
-    "source": "Cashify sell page used-apple-iphone-14-plus-6-gb-128-gb: Get Upto ₹29,120 (Excellent). Refurb retail ₹37,499 (Fair, Cashify store). Fetched 25-Jun-2026."
-  },
-  {
-    "key": "iphone_15_256",
-    "display": "iPhone 15 256GB",
-    "current": 39200.0,
-    "live_suggestion": 47960.0,
-    "pct_diff": 22.3,
-    "source": "Cashify exchange iPhone 15 256GB 'Get Upto ₹43,600', 25-Jun-2026. New price ₹59,990 (Cashify/Flipkart). RT A1 implied = 43,600 × 1.10 = ₹47,960."
-  },
-  {
-    "key": "iphone_15_plus_128",
-    "display": "iPhone 15 Plus 128GB",
-    "current": 40100.0,
-    "live_suggestion": 49203.0,
-    "pct_diff": 22.7,
-    "source": "Cashify exchange iPhone 15 Plus 128GB 'Get Upto ₹44,730', 25-Jun-2026. New MRP ₹69,900. Cashify refurb retail (Fair) ₹44,799. RT A1 implied = 44,730 × 1.10 = ₹49,203."
-  },
-  {
-    "key": "iphone_15_pro_128",
-    "display": "iPhone 15 Pro 128GB",
-    "current": 47700.0,
-    "live_suggestion": 62600.0,
-    "pct_diff": 31.2,
-    "source": "Cashify sell page 'Get Up To' ₹62,600 for iPhone 15 Pro 8GB/128GB (25-Jun-2026); Cashify refurb retail ₹64,599 (excellent, 128GB)"
-  },
-  {
-    "key": "iphone_15_pro_256",
-    "display": "iPhone 15 Pro 256GB",
-    "current": 52500.0,
-    "live_suggestion": 66790.0,
-    "pct_diff": 27.2,
-    "source": "Cashify sell page 'Get Up To' ₹66,790 for iPhone 15 Pro 8GB/256GB (25-Jun-2026); Cashify refurb retail 128GB base ₹64,599 + ~₹3,400 storage premium est."
-  },
-  {
-    "key": "iphone_15_pro_max_256",
-    "display": "iPhone 15 Pro Max 256GB",
-    "current": 58300.0,
-    "live_suggestion": 73610.0,
-    "pct_diff": 26.3,
-    "source": "Cashify sell page 'Get Up To' ₹73,610 for iPhone 15 Pro Max 8GB/256GB; Cashify refurb retail ₹75,099 (25-Jun-2026)."
-  },
-  {
-    "key": "samsung_s23_ultra_256",
-    "display": "Samsung Galaxy S23 Ultra 256GB",
-    "current": 36400.0,
-    "live_suggestion": 40458.0,
-    "pct_diff": 11.1,
-    "source": "Cashify sell S23 Ultra 5G 256GB: ₹36,780 (direct Cashify page used-samsung-galaxy-s23-ultra-5g-12-gb-256-gb). Cashify refurb S23 Ultra 256GB Fair ₹53,899 → Excellent ~₹58,000. Cashify.in, 25-Jun-2026."
-  },
-  {
-    "key": "samsung_s24_128",
-    "display": "Samsung Galaxy S24 128GB",
-    "current": 28700.0,
-    "live_suggestion": 37136.0,
-    "pct_diff": 29.4,
-    "source": "Cashify sell S24 5G base listing ₹33,760 (likely 128GB default). New price: Amazon ₹49,798, Flipkart ₹49,999 (Beebom/gadgets.beebom.com, updated 25-Jun-2026). Cashify.in, 25-Jun-2026."
-  },
-  {
-    "key": "samsung_s24_ultra_256",
-    "display": "Samsung Galaxy S24 Ultra 256GB",
-    "current": 55100.0,
-    "live_suggestion": 61340.0,
-    "pct_diff": 11.3,
-    "source": "Cashify sells up to ₹61,340 for S24 Ultra 256GB; Cashify refurb fair ₹68,599. RT override ₹55,100 held. Jun 2026."
-  },
-  {
-    "key": "samsung_s25_256",
-    "display": "Samsung Galaxy S25 256GB",
-    "current": 39200.0,
-    "live_suggestion": 44060.0,
-    "pct_diff": 12.4,
-    "source": "Cashify sells up to ₹44,060 for S25 256GB; Cashify refurb ₹53,599; new net ~₹66,000. RT override ₹39,200 held. Jun 2026."
-  },
-  {
-    "key": "oneplus_11_8_128",
-    "display": "OnePlus 11 8/128GB",
-    "current": 16600.0,
-    "live_suggestion": 25466.0,
-    "pct_diff": 53.4,
-    "source": "Cashify sell price OnePlus 11 5G 8GB/128GB up to ₹23,580 (cashify.in/sell-old-mobile-phone/used-oneplus-11-5g-8-gb-128-gb, 25-Jun-2026); Cashify refurb retail ₹24,999"
-  },
-  {
-    "key": "oneplus_12r_8_128",
-    "display": "OnePlus 12R 8/128GB",
-    "current": 17600.0,
-    "live_suggestion": 24700.0,
-    "pct_diff": 40.3,
-    "source": "Cashify sell page: OnePlus 12R 8GB/128GB 'Get Upto ₹24,200'; Cashify refurb retail ~₹26,000 (8GB/128 tier). Override unchanged per protocol. Fetched 25-Jun-2026."
-  },
-  {
-    "key": "iphone_15_plus_256",
-    "display": "iPhone 15 Plus 256GB",
-    "current": 44300.0,
-    "live_suggestion": 53328.0,
-    "pct_diff": 20.4,
-    "source": "Cashify exchange iPhone 15 Plus 256GB 'Get Upto ₹48,480', 25-Jun-2026. New MRP ₹79,900. RT A1 implied = 48,480 × 1.10 = ₹53,328."
-  },
-  {
-    "key": "iphone_15_pro_max_512",
-    "display": "iPhone 15 Pro Max 512GB",
-    "current": 64300.0,
-    "live_suggestion": 75950.0,
-    "pct_diff": 18.1,
-    "source": "Cashify sell page 'Get Up To' ₹75,950 for iPhone 15 Pro Max 8GB/512GB (25-Jun-2026); refurb ceiling estimated ₹82,000."
-  },
-  {
-    "key": "iphone_15_pro_512",
-    "display": "iPhone 15 Pro 512GB",
-    "current": 58600.0,
-    "live_suggestion": 69030.0,
-    "pct_diff": 17.8,
-    "source": "Cashify sell page 'Get Up To' ₹69,030 for iPhone 15 Pro 8GB/512GB (25-Jun-2026); refurb ceiling estimated at ₹72,000 (128GB refurb ₹64,599 + 512 premium)."
-  },
-  {
-    "key": "iphone_15_512",
-    "display": "iPhone 15 512GB",
-    "current": 45100.0,
-    "live_suggestion": 53900.0,
-    "pct_diff": 19.5,
-    "source": "No direct Cashify page for iPhone 15 512GB. Estimated exchange ≈ ₹49,000 by scaling from 256GB (₹43,600) + ₹5,400 storage premium, consistent with Plus-series 256→512 gap of ₹770. RT A1 implied ≈ 49,000 × 1.10 = ₹53,900. New price on Cashify ₹87,000 (MRP anchor)."
-  },
-  {
-    "key": "iphone_14_pro_max_1tb",
-    "display": "iPhone 14 Pro Max 1TB",
-    "current": 61600.0,
-    "live_suggestion": 53053.0,
-    "pct_diff": -13.9,
-    "source": "Cashify exchange iPhone 14 Pro Max 1TB 'Get Upto ₹48,230', 25-Jun-2026. Cashify refurb retail anchor ₹81,000. RT A1 implied = 48,230 × 1.10 = ₹53,053."
-  },
-  {
-    "key": "iphone_12_256",
-    "display": "iPhone 12 256GB",
-    "current": 18400.0,
-    "live_suggestion": 21252.0,
-    "pct_diff": 15.5,
-    "source": "Cashify exchange iPhone 12 256GB 'Get Upto ₹19,320' (cashify.in/sell-old-mobile-phone/used-apple-iphone-12-4-gb-256-gb, 25-Jun-2026); refurb_retail_anchor_excellent ₹26,000"
-  },
-  {
-    "key": "oneplus_11_8_256",
-    "display": "OnePlus 11 8/256GB",
-    "current": 18500.0,
-    "live_suggestion": 26730.0,
-    "pct_diff": 44.5,
-    "source": "Cashify sell price OnePlus 11 5G 16GB/256GB up to ₹24,750 (cashify.in/sell-old-mobile-phone/used-Oneplus-11-5g-16-gb-256-gb, 25-Jun-2026); Cashify refurb retail ~₹24,999"
-  },
-  {
-    "key": "iphone_15_pro_max_1tb",
-    "display": "iPhone 15 Pro Max 1TB",
-    "current": 70300.0,
-    "live_suggestion": 79070.0,
-    "pct_diff": 12.5,
-    "source": "Cashify sell page 'Get Up To' ₹79,070 for iPhone 15 Pro Max 8GB/1TB (25-Jun-2026); refurb ceiling estimated ₹90,000."
-  },
-  {
-    "key": "iphone_14_pro_1tb",
-    "display": "iPhone 14 Pro 1TB",
-    "current": 57000.0,
-    "live_suggestion": 51240.0,
-    "pct_diff": -10.1,
-    "source": "Cashify sell page used-apple-iphone-14-pro-6-gb-1-tb: Get Upto ₹46,580 (Excellent). Refurb retail anchor (DB) ₹74,000. Fetched 25-Jun-2026."
-  },
-  {
-    "key": "samsung_s24_ultra_512",
-    "display": "Samsung Galaxy S24 Ultra 512GB",
-    "current": 52100.0,
-    "live_suggestion": 63240.0,
-    "pct_diff": 21.4,
-    "source": "Cashify sells up to ₹63,240 for S24 Ultra 512GB; Amazon refurb 512GB ~₹84,099. RT override ₹52,100 held. Jun 2026."
-  },
-  {
-    "key": "samsung_s24_ultra_1tb",
-    "display": "Samsung Galaxy S24 Ultra 1TB",
-    "current": 57000.0,
-    "live_suggestion": 63810.0,
-    "pct_diff": 11.9,
-    "source": "Cashify sells up to ₹63,810 for S24 Ultra 1TB. RT override ₹57,000 held. Jun 2026."
+    "live_suggestion": 25300.0,
+    "pct_diff": 25.9,
+    "source": "Cashify sell page used-apple-iphone-12-pro-6-gb-128-gb: 'Get Upto ₹23,400', 2026-08-05"
   },
   {
     "key": "iphone_12_pro_256",
     "display": "iPhone 12 Pro 256GB",
     "current": 22700.0,
-    "live_suggestion": 27621.0,
-    "pct_diff": 21.7,
-    "source": "Cashify exchange iPhone 12 Pro 256GB 'Get Upto ₹25,110' (cashify.in/sell-old-mobile-phone/used-apple-iphone-12-pro-6-gb-256-gb, 25-Jun-2026); Cashify refurb retail 128GB base ₹32,599 (256GB est. higher)"
+    "live_suggestion": 26900.0,
+    "pct_diff": 18.5,
+    "source": "Cashify sell page used-apple-iphone-12-pro-6-gb-256-gb: 'Get Upto ₹24,950', 2026-08-05"
   },
   {
     "key": "iphone_12_pro_512",
     "display": "iPhone 12 Pro 512GB",
     "current": 25400.0,
-    "live_suggestion": 29040.0,
-    "pct_diff": 14.3,
-    "source": "Cashify exchange iPhone 12 Pro 512GB 'Get Upto ₹26,400' (cashify.in/sell-old-mobile-phone/used-apple-iphone-12-pro-6-gb-512-gb, 25-Jun-2026); refurb_retail_anchor_excellent ₹35,000"
+    "live_suggestion": 29000.0,
+    "pct_diff": 14.2,
+    "source": "Cashify sell page used-apple-iphone-12-pro-6-gb-512-gb: 'Get Upto ₹26,820', 2026-08-05"
   },
   {
-    "key": "iphone_16_512",
-    "display": "iPhone 16 512GB",
-    "current": 59400.0,
-    "live_suggestion": 52470.0,
-    "pct_diff": -11.7,
-    "source": "Cashify sell page 'Get Up To' ₹52,470 for iPhone 16 8GB/512GB; Flipkart MRP ₹99,900 (25-Jun-2026)."
-  },
-  {
-    "key": "samsung_s24_256",
-    "display": "Samsung Galaxy S24 256GB",
-    "current": 32000.0,
-    "live_suggestion": 37851.0,
-    "pct_diff": 18.3,
-    "source": "Cashify sell S24 5G 256GB: ₹34,410 (direct page used-samsung-galaxy-s24-5g-8-gb-256-gb). New price: ₹55,999 Flipkart/Smartprix (last changed 11-Jun-2026). Cashify.in, 25-Jun-2026."
-  },
-  {
-    "key": "iphone_14_512",
-    "display": "iPhone 14 512GB",
-    "current": 30800.0,
-    "live_suggestion": 34100.0,
-    "pct_diff": 10.7,
-    "source": "No dedicated Cashify sell page found for iPhone 14 512GB. Estimated Cashify Excellent ~₹31,000 by scaling from 128GB (₹26,730) and 256GB (₹28,590) delta patterns. RT A1 at +10% ≈ ₹34,100. Refurb retail anchor (DB) ₹43,000. 25-Jun-2026."
-  },
-  {
-    "key": "oneplus_12r_8_256",
-    "display": "OnePlus 12R 8/256GB",
-    "current": 19600.0,
-    "live_suggestion": 27400.0,
-    "pct_diff": 39.8,
-    "source": "Cashify sell page: OnePlus 12R 16GB/256GB 'Get Upto ₹26,420'; Cashify refurb retail ₹28,899 (8GB/256GB range). Override unchanged per protocol. Fetched 25-Jun-2026."
-  },
-  {
-    "key": "samsung_s25_ultra_512",
-    "display": "Samsung Galaxy S25 Ultra 512GB",
-    "current": 63300.0,
-    "live_suggestion": 72000.0,
-    "pct_diff": 13.7,
-    "source": "rt_buyback_a1_override preserved (Shane-set). Cashify refurb retail 256GB ₹74,299; 512GB refurb estimated ~₹80,000-82,000 (+₹6-8k storage premium). Override ₹63,300 is ~77% of estimated 512GB refurb retail. WARNING: 512GB override (₹63,300) is BELOW 256GB override (₹66,700) — storage inversion flagged for review."
-  },
-  {
-    "key": "iphone_16_pro_max_1tb",
-    "display": "iPhone 16 Pro Max 1TB",
-    "current": 94600.0,
-    "live_suggestion": 106600.0,
-    "pct_diff": 12.7,
-    "source": "Flipkart iPhone 16 Pro Max 1TB ₹170,900 (street); Cashify refurb est ~₹130,000 (256GB refurb ₹99,599 + ~₹30k tier); live A1 buyback est ₹106,600; 25-Jun-2026"
-  },
-  {
-    "key": "iphone_16e_256",
-    "display": "iPhone 16e 256GB",
-    "current": 43000.0,
-    "live_suggestion": 49400.0,
-    "pct_diff": 14.9,
-    "source": "Cashify sell page: get-upto ₹39,000 for 16e 256GB (max/mint). Cashify refurb retail 128GB=₹44,799; 256GB refurb est. ~₹52,000 (25-Jun-2026). Override unchanged per protocol."
-  },
-  {
-    "key": "iphone_16e_512",
-    "display": "iPhone 16e 512GB",
-    "current": 49000.0,
-    "live_suggestion": 55100.0,
-    "pct_diff": 12.4,
-    "source": "Cashify sell page: get-upto ₹41,600 for 16e 512GB (max/mint). 16e 512 refurb est. ~₹58,000 based on storage premium from 128GB ₹44,799 (25-Jun-2026). Override unchanged per protocol."
-  },
-  {
-    "key": "samsung_s23_ultra_512",
-    "display": "Samsung Galaxy S23 Ultra 512GB",
-    "current": 40700.0,
-    "live_suggestion": 45100.0,
-    "pct_diff": 10.8,
-    "source": "Cashify sell S23 Ultra base listing ₹37,610 (general page, all variants); 512GB scaled +₹4-5k over 256GB (₹36,780) → ~₹41,000. RT A1 at +10% = ₹45,100. Refurb ceiling from 256GB Fair ₹53,899 extrapolated. Cashify.in, 25-Jun-2026."
-  },
-  {
-    "key": "samsung_s23_ultra_1tb",
-    "display": "Samsung Galaxy S23 Ultra 1TB",
-    "current": 44900.0,
-    "live_suggestion": 50600.0,
-    "pct_diff": 12.7,
-    "source": "Cashify sell S23 Ultra 256GB ₹36,780 (direct page); 512GB ~₹41,000 (+₹4-5k tier); 1TB ~₹46,000 (+₹5k tier). Cashify refurb S23 Ultra 256GB Fair ₹53,899. Cashify.in, 25-Jun-2026."
+    "key": "iphone_12_pro_max_128",
+    "display": "iPhone 12 Pro Max 128GB",
+    "current": 22700.0,
+    "live_suggestion": 27300.0,
+    "pct_diff": 20.3,
+    "source": "Cashify sell page used-apple-iphone-12-pro-max-6-gb-128-gb: 'Get Upto ₹25,270', 2026-08-05"
   },
   {
     "key": "iphone_12_pro_max_256",
     "display": "iPhone 12 Pro Max 256GB",
     "current": 25300.0,
-    "live_suggestion": 29315.0,
-    "pct_diff": 15.9,
-    "source": "Cashify exchange iPhone 12 Pro Max 256GB ₹26,650 — 25-Jun-2026"
+    "live_suggestion": 28100.0,
+    "pct_diff": 11.1,
+    "source": "Cashify sell page used-apple-iphone-12-pro-max-6-gb-256-gb: 'Get Upto ₹26,040', 2026-08-05"
+  },
+  {
+    "key": "iphone_13_mini_128",
+    "display": "iPhone 13 mini 128GB",
+    "current": 19300.0,
+    "live_suggestion": 23200.0,
+    "pct_diff": 20.2,
+    "source": "Cashify sell page used-apple-iphone-13-mini-4-gb-128-gb: 'Get Upto ₹21,510', 2026-08-05"
   },
   {
     "key": "iphone_13_mini_256",
     "display": "iPhone 13 mini 256GB",
     "current": 21500.0,
-    "live_suggestion": 24288.0,
-    "pct_diff": 13.0,
-    "source": "Cashify exchange iPhone 13 mini 256GB ₹22,080 — 25-Jun-2026"
+    "live_suggestion": 24100.0,
+    "pct_diff": 12.1,
+    "source": "Cashify sell page used-apple-iphone-13-mini-4-gb-256-gb: 'Get Upto ₹22,280', 2026-08-05"
   },
   {
-    "key": "iphone_14_plus_256",
-    "display": "iPhone 14 Plus 256GB",
-    "current": 30000.0,
-    "live_suggestion": 34300.0,
-    "pct_diff": 14.3,
-    "source": "No dedicated Cashify sell page found for iPhone 14 Plus 256GB. Estimated Cashify Excellent ~₹31,200 by scaling from 128GB (₹29,120) + ~₹2,100 storage premium (consistent with iPhone 14 128→256 delta). RT A1 at +10% ≈ ₹34,300. Refurb retail anchor (DB) ₹40,500. 25-Jun-2026."
+    "key": "iphone_14_pro_max_1tb",
+    "display": "iPhone 14 Pro Max 1TB",
+    "current": 61600.0,
+    "live_suggestion": 52900.0,
+    "pct_diff": -14.1,
+    "source": "Cashify exchange (sell) iPhone 14 Pro Max 1TB 'Get Upto ₹48,070', cashify.in/sell-old-mobile-phone/used-apple-iphone-14-pro-max-6-gb-1-tb, fetched 2026-08-05"
   },
   {
-    "key": "iphone_11_pro_64",
-    "display": "iPhone 11 Pro 64GB",
-    "current": 13400.0,
-    "live_suggestion": 15840.0,
-    "pct_diff": 18.2,
-    "source": "Cashify exchange iPhone 11 Pro 64GB up to ₹15,840, 25-Jun-2026 (cashify.in/sell-old-mobile-phone/used-apple-iphone-11-pro-4-gb-64-gb)"
+    "key": "iphone_15_plus_128",
+    "display": "iPhone 15 Plus 128GB",
+    "current": 40100.0,
+    "live_suggestion": 48900.0,
+    "pct_diff": 21.9,
+    "source": "Cashify exchange (sell) iPhone 15 Plus 128GB 'Get Upto ₹44,410', cashify.in/sell-old-mobile-phone/used-apple-iphone-15-plus-6-gb-128-gb; Flipkart new 128GB ₹69,900 (pricehistory-confirmed), fetched 2026-08-05"
   },
   {
-    "key": "iphone_12_mini_128",
-    "display": "iPhone 12 mini 128GB",
-    "current": 14400.0,
-    "live_suggestion": 17391.0,
-    "pct_diff": 20.8,
-    "source": "Cashify exchange iPhone 12 mini 128GB 'Get Upto ₹15,810' (cashify.in/sell-old-mobile-phone/used-apple-iphone-12-mini-4-gb-128-gb, 25-Jun-2026); refurb_retail_anchor_excellent ₹20,000"
+    "key": "iphone_15_plus_256",
+    "display": "iPhone 15 Plus 256GB",
+    "current": 44300.0,
+    "live_suggestion": 51200.0,
+    "pct_diff": 15.6,
+    "source": "Cashify exchange (sell) iPhone 15 Plus 256GB 'Get Upto ₹46,500', cashify.in/sell-old-mobile-phone/used-apple-iphone-15-plus-6-gb-256-gb, fetched 2026-08-05"
   },
   {
-    "key": "iphone_12_mini_256",
-    "display": "iPhone 12 mini 256GB",
-    "current": 16400.0,
-    "live_suggestion": 18139.0,
+    "key": "iphone_15_pro_128",
+    "display": "iPhone 15 Pro 128GB",
+    "current": 47700.0,
+    "live_suggestion": 59000.0,
+    "pct_diff": 23.7,
+    "source": "Cashify sell page 'Get Upto ₹60,670' (2026-08-05) for used iPhone 15 Pro 128GB; Cashify refurb-retail Fair-grade ₹62,799 (from ₹1,34,900 MRP). Applied ~10% condition haircut + 8% S-tier premium → live-implied A1 ~₹59,000."
+  },
+  {
+    "key": "iphone_15_pro_256",
+    "display": "iPhone 15 Pro 256GB",
+    "current": 52500.0,
+    "live_suggestion": 63300.0,
+    "pct_diff": 20.6,
+    "source": "Cashify sell page 'Get Upto ₹65,090' (2026-08-05) for used iPhone 15 Pro 256GB. ~10% haircut + 8% premium → live-implied A1 ~₹63,300."
+  },
+  {
+    "key": "iphone_15_pro_512",
+    "display": "iPhone 15 Pro 512GB",
+    "current": 58600.0,
+    "live_suggestion": 65300.0,
+    "pct_diff": 11.4,
+    "source": "Cashify sell page 'Get Upto ₹67,200' (2026-08-05) for used iPhone 15 Pro 512GB. ~10% haircut + 8% premium → live-implied A1 ~₹65,300."
+  },
+  {
+    "key": "iphone_15_pro_max_256",
+    "display": "iPhone 15 Pro Max 256GB",
+    "current": 58300.0,
+    "live_suggestion": 68300.0,
+    "pct_diff": 17.2,
+    "source": "Cashify sell page 'Get Upto ₹70,270' (2026-08-05) for used iPhone 15 Pro Max 256GB. ~10% haircut + 8% premium → live-implied A1 ~₹68,300."
+  },
+  {
+    "key": "iphone_15_pro_max_512",
+    "display": "iPhone 15 Pro Max 512GB",
+    "current": 64300.0,
+    "live_suggestion": 71100.0,
     "pct_diff": 10.6,
-    "source": "Cashify exchange iPhone 12 mini 256GB 'Get Upto ₹16,490' (cashify.in/sell-old-mobile-phone/used-apple-iphone-12-mini-4-gb-256-gb, 25-Jun-2026); refurb_retail_anchor_excellent ₹23,500"
+    "source": "Cashify sell page 'Get Upto ₹73,150' (2026-08-05) for used iPhone 15 Pro Max 512GB. ~10% haircut + 8% premium → live-implied A1 ~₹71,100."
   },
   {
-    "key": "samsung_s25_ultra_256",
-    "display": "Samsung Galaxy S25 Ultra 256GB",
-    "current": 66700,
-    "live_suggestion": 66700,
-    "pct_diff": 5.5,
-    "source": "HOLD. Prime Day flash Rs84,999 (MRP 1,29,999) is TEMPORARY (ends Jul 6); durable street ~Rs93,500 (declining post-S26). Live Cashify exchange ~Rs65,140 -> RT+premium ~Rs70,300, so override Rs66,700 is safe/conservative. net_new_inr 104000 now stale (~93,500).",
-    "flagged_date": "2026-07-06"
+    "key": "iphone_16_plus_256",
+    "display": "iPhone 16 Plus 256GB",
+    "current": 57200.0,
+    "live_suggestion": 51000.0,
+    "pct_diff": -10.8,
+    "source": "Cashify sell page 'Get Upto ₹52,420' (2026-08-05) for used iPhone 16 Plus 256GB — nearly identical to the 128GB figure (₹52,080), so storage differentiation on this listing looks unreliable. ~10% haircut + 8% premium → live-implied A1 ~₹51,000."
   },
   {
-    "key": "samsung_s25_ultra_512",
-    "display": "Samsung Galaxy S25 Ultra 512GB",
-    "current": 63300,
-    "live_suggestion": 68000,
-    "pct_diff": 7.4,
-    "source": "DATA ERROR: 512 override (63,300) is BELOW 256 (66,700) and 1TB (69,400) -> storage inversion. Recommend raise 512 to ~Rs68,000 (between 256 and 1TB). Shane to confirm.",
-    "flagged_date": "2026-07-06"
+    "key": "iphone_16_plus_512",
+    "display": "iPhone 16 Plus 512GB",
+    "current": 63900.0,
+    "live_suggestion": 51300.0,
+    "pct_diff": -19.7,
+    "source": "Cashify sell page 'Get Upto ₹52,800' (2026-08-05) for used iPhone 16 Plus 512GB — same flat-storage anomaly as 256GB (barely above 128GB/256GB figures). ~10% haircut + 8% premium → live-implied A1 ~₹51,300."
+  },
+  {
+    "key": "samsung_s23_ultra_256",
+    "display": "Samsung Galaxy S23 Ultra 256GB",
+    "current": 36400.0,
+    "live_suggestion": 43150.0,
+    "pct_diff": 18.5,
+    "source": "Cashify direct scrape 2026-08-05 (cashify.in/sell-old-mobile-phone/used-samsung-galaxy-s23-ultra-5g-12-gb-256-gb): Get Upto ₹35,570 (prior baseline ₹30,000, +18.6%). Override left unchanged per rule; flagged below for review since implied A1 diverges >10%."
+  },
+  {
+    "key": "samsung_s24_128",
+    "display": "Samsung Galaxy S24 128GB",
+    "current": 28700.0,
+    "live_suggestion": 42900.0,
+    "pct_diff": 49.5,
+    "source": "Cashify direct scrape 2026-08-05 (cashify.in/sell-old-mobile-phone/used-samsung-galaxy-s24-5g-8-gb-128-gb): Get Upto ₹32,890 (prior baseline ₹22,000, +49.5%). Re-fetched to confirm — no bonus/coupon add-on mentioned on page, appears to be the plain headline figure. Override left unchanged per rule; flagged below given the large jump."
+  },
+  {
+    "key": "samsung_s24_256",
+    "display": "Samsung Galaxy S24 256GB",
+    "current": 32000.0,
+    "live_suggestion": 46250.0,
+    "pct_diff": 44.5,
+    "source": "Cashify direct scrape 2026-08-05 (cashify.in/sell-old-mobile-phone/used-samsung-galaxy-s24-5g-8-gb-256-gb): Get Upto ₹35,400 (prior baseline ₹24,500, +44.5%). Re-fetched to confirm — no bonus/coupon add-on mentioned. Override left unchanged per rule; flagged below given the large jump."
   },
   {
     "key": "samsung_s25_ultra_1tb",
     "display": "Samsung Galaxy S25 Ultra 1TB",
-    "current": 69400,
-    "live_suggestion": 69400,
-    "pct_diff": 0.0,
-    "source": "HOLD. Consistent as top variant once 512 inversion fixed. Prime Day/temp-sale context same as 256.",
-    "flagged_date": "2026-07-06"
+    "current": 69400.0,
+    "live_suggestion": 80000.0,
+    "pct_diff": 15.3,
+    "source": "rt_buyback_a1_override is Shane's hand-set rate -- left unchanged. Live check: Cashify refurb retail 'Samsung Galaxy S25 Ultra' Rs90,699 w/ 6-month warranty (cashify.in/samsung-galaxy-s25-ultra-price-in-india, 2026-08-05, likely 256GB base). Approx buyback teaser Rs29,720 found but is far below prior Jun-2026 cashify_exchange figures (46-56k) -- treated as an unreliable generic teaser, not used. New launch MRP live: 1TB Rs1,65,999."
   },
   {
-    "key": "samsung_s25_256",
-    "display": "Samsung Galaxy S25 256GB",
-    "current": 39200,
-    "live_suggestion": 39200,
-    "pct_diff": 16.0,
-    "source": "HOLD (conservative). Live Cashify refurb 256 Rs53,599 -> resale-implied A1 ~Rs45,400; override Rs39,200 sits ~16% below (safe). Prev-gen (S26 out), declining. No overpay risk.",
-    "flagged_date": "2026-07-06"
+    "key": "samsung_s25_ultra_512",
+    "display": "Samsung Galaxy S25 Ultra 512GB",
+    "current": 63300.0,
+    "live_suggestion": 74000.0,
+    "pct_diff": 16.9,
+    "source": "rt_buyback_a1_override is Shane's hand-set rate -- left unchanged. Live check: Cashify refurb retail 'Samsung Galaxy S25 Ultra' Rs90,699 w/ 6-month warranty (cashify.in/samsung-galaxy-s25-ultra-price-in-india, 2026-08-05, likely 256GB base). Approx buyback teaser Rs29,720 far below prior Jun-2026 cashify_exchange (Rs51,000) -- treated as unreliable, not used. New launch MRP live: 512GB Rs1,41,999."
   },
   {
-    "key": "samsung_z_fold_5_256",
-    "display": "Samsung Galaxy Z Fold 5 256GB",
-    "current": 51100,
-    "live_suggestion": 51100,
-    "pct_diff": 9.0,
-    "source": "HOLD. Live Cashify exchange 256 Rs52,030 -> RT+premium ~Rs56,200; override Rs51,100 ~9% below (safe). Fold 8 imminent (Jul 22) -> extra reason to keep low.",
-    "flagged_date": "2026-07-06"
+    "key": "iphone_11_64",
+    "display": "iPhone 11 64GB",
+    "current": 11000.0,
+    "live_suggestion": 16620.0,
+    "pct_diff": 51.1,
+    "source": "Cashify sell-old-mobile-phone page, 'Get Upto' Rs 12,730, fetched 2026-08-05 (cashify.in/sell-old-mobile-phone/used-apple-iphone-11-gb-64-gb style URL); override left untouched per protocol (Shane's counter-rate is source of truth)."
+  },
+  {
+    "key": "iphone_11_128",
+    "display": "iPhone 11 128GB",
+    "current": 13000.0,
+    "live_suggestion": 19000.0,
+    "pct_diff": 46.2,
+    "source": "Cashify sell-old-mobile-phone page, 'Get Upto' Rs 14,180, fetched 2026-08-05 (cashify.in/sell-old-mobile-phone/used-apple-iphone-11-gb-128-gb style URL); override left untouched per protocol (Shane's counter-rate is source of truth)."
+  },
+  {
+    "key": "iphone_11_256",
+    "display": "iPhone 11 256GB",
+    "current": 15000.0,
+    "live_suggestion": 20240.0,
+    "pct_diff": 34.9,
+    "source": "Cashify sell-old-mobile-phone page, 'Get Upto' Rs 14,840, fetched 2026-08-05 (cashify.in/sell-old-mobile-phone/used-apple-iphone-11-gb-256-gb style URL); override left untouched per protocol (Shane's counter-rate is source of truth)."
+  },
+  {
+    "key": "iphone_12_64",
+    "display": "iPhone 12 64GB",
+    "current": 16000.0,
+    "live_suggestion": 18810.0,
+    "pct_diff": 17.6,
+    "source": "Cashify sell-old-mobile-phone page, 'Get Upto' Rs 16,610, fetched 2026-08-05 (cashify.in/sell-old-mobile-phone/used-apple-iphone-12-gb-64-gb style URL); override left untouched per protocol (Shane's counter-rate is source of truth)."
+  },
+  {
+    "key": "iphone_12_128",
+    "display": "iPhone 12 128GB",
+    "current": 16400.0,
+    "live_suggestion": 21380.0,
+    "pct_diff": 30.4,
+    "source": "Cashify sell-old-mobile-phone page, 'Get Upto' Rs 17,580, fetched 2026-08-05 (cashify.in/sell-old-mobile-phone/used-apple-iphone-12-gb-128-gb style URL); override left untouched per protocol (Shane's counter-rate is source of truth)."
+  },
+  {
+    "key": "iphone_12_256",
+    "display": "iPhone 12 256GB",
+    "current": 18400.0,
+    "live_suggestion": 24700.0,
+    "pct_diff": 34.2,
+    "source": "Cashify sell-old-mobile-phone page, 'Get Upto' Rs 19,400, fetched 2026-08-05 (cashify.in/sell-old-mobile-phone/used-apple-iphone-12-gb-256-gb style URL); override left untouched per protocol (Shane's counter-rate is source of truth)."
+  },
+  {
+    "key": "iphone_13_128",
+    "display": "iPhone 13 128GB",
+    "current": 20100.0,
+    "live_suggestion": 26320.0,
+    "pct_diff": 30.9,
+    "source": "Cashify sell-old-mobile-phone page, 'Get Upto' Rs 23,550, fetched 2026-08-05 (cashify.in/sell-old-mobile-phone/used-apple-iphone-13-gb-128-gb style URL); override left untouched per protocol (Shane's counter-rate is source of truth)."
+  },
+  {
+    "key": "iphone_13_256",
+    "display": "iPhone 13 256GB",
+    "current": 23000.0,
+    "live_suggestion": 29450.0,
+    "pct_diff": 28.0,
+    "source": "Cashify sell-old-mobile-phone page, 'Get Upto' Rs 24,840, fetched 2026-08-05 (cashify.in/sell-old-mobile-phone/used-apple-iphone-13-gb-256-gb style URL); override left untouched per protocol (Shane's counter-rate is source of truth)."
+  },
+  {
+    "key": "iphone_13_512",
+    "display": "iPhone 13 512GB",
+    "current": 26700.0,
+    "live_suggestion": 34200.0,
+    "pct_diff": 28.1,
+    "source": "Cashify sell-old-mobile-phone page, 'Get Upto' Rs 25,330, fetched 2026-08-05 (cashify.in/sell-old-mobile-phone/used-apple-iphone-13-gb-512-gb style URL); override left untouched per protocol (Shane's counter-rate is source of truth)."
+  },
+  {
+    "key": "iphone_14_128",
+    "display": "iPhone 14 128GB",
+    "current": 26500.0,
+    "live_suggestion": 30970.0,
+    "pct_diff": 16.9,
+    "source": "Cashify sell-old-mobile-phone page, 'Get Upto' Rs 27,540, fetched 2026-08-05 (cashify.in/sell-old-mobile-phone/used-apple-iphone-14-gb-128-gb style URL); override left untouched per protocol (Shane's counter-rate is source of truth)."
+  },
+  {
+    "key": "iphone_14_256",
+    "display": "iPhone 14 256GB",
+    "current": 26700.0,
+    "live_suggestion": 35150.0,
+    "pct_diff": 31.6,
+    "source": "Cashify sell-old-mobile-phone page, 'Get Upto' Rs 27,890, fetched 2026-08-05 (cashify.in/sell-old-mobile-phone/used-apple-iphone-14-gb-256-gb style URL); override left untouched per protocol (Shane's counter-rate is source of truth)."
+  },
+  {
+    "key": "iphone_14_512",
+    "display": "iPhone 14 512GB",
+    "current": 30800.0,
+    "live_suggestion": 40850.0,
+    "pct_diff": 32.6,
+    "source": "Cashify sell-old-mobile-phone page, 'Get Upto' Rs 28,430, fetched 2026-08-05 (cashify.in/sell-old-mobile-phone/used-apple-iphone-14-gb-512-gb style URL); override left untouched per protocol (Shane's counter-rate is source of truth)."
+  },
+  {
+    "key": "iphone_15_512",
+    "display": "iPhone 15 512GB",
+    "current": 45100.0,
+    "live_suggestion": 52000.0,
+    "pct_diff": 15.3,
+    "source": "Cashify sell-old-mobile-phone page, 'Get Upto' Rs 46,260, fetched 2026-08-05 (cashify.in/sell-old-mobile-phone/used-apple-iphone-15-gb-512-gb style URL); override left untouched per protocol (Shane's counter-rate is source of truth)."
   }
 ]

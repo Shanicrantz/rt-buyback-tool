@@ -1,0 +1,20 @@
+{
+  "appId": "com.rajdhanitelecom.buyback",
+  "appName": "RT Buyback",
+  "webDir": "www",
+  "backgroundColor": "#0f172a",
+  "server": {
+    "url": "https://buyback.rajdhanitelecom.com",
+    "androidScheme": "https",
+    "iosScheme": "https",
+    "cleartext": false,
+    "errorPath": "offline.html"
+  },
+  "ios": {
+    "contentInset": "always",
+    "backgroundColor": "#0f172a"
+  },
+  "android": {
+    "backgroundColor": "#0f172a"
+  }
+}
