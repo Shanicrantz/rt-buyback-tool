@@ -8,7 +8,7 @@ export const meta = {
 }
 
 const DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
-const N = 15
+const N = 12
 
 const BRAIN = `RT (Rajdhani Telecom, Moradabad) BUYBACK BRAIN — how Shane actually prices:
 - RESALE price = what RT can ACTUALLY re-sell a mint (A1) used unit for in the LOCAL Indian second-hand market. This is NOT Cashify's "buy refurbished" retail price for older phones — Cashify's refurb price includes their warranty + brand premium and is INFLATED vs what a local shop gets. Real resale for older/less-popular phones is BELOW Cashify refurb retail. For current hot phones (in demand) real resale is close to Cashify refurb retail. Triangulate from OLX recent SOLD (not asking) + local used-market + Cashify refurb (as an upper bound).
@@ -60,7 +60,7 @@ const CRITIC_SCHEMA = {
 }
 
 function fetchPrompt(i) {
-  return `You research the REAL Indian second-hand market for Rajdhani Telecom. TODAY is 2026-08-05.
+  return `You research the REAL Indian second-hand market for Rajdhani Telecom. TODAY is 2026-08-10.
 
 ${BRAIN}
 
@@ -73,13 +73,18 @@ For EACH distinct model (storage variants share one lookup, then scale), find TW
   2) BUYBACK_MARKET = what sellers are actually PAID today: Cashify "sell old phone" / exchange value is the primary benchmark (web_search "Cashify <model> <storage> sell price" or fetch cashify.in/sell-old-mobile-phone/...). Note if other buyers differ.
 Scale storage variants (256 > 128). Only report numbers you actually find; null if none.
 
+CRITICAL — BRAND-NEW / LEAK-PRICED MODELS: some of these entries (esp. Samsung Galaxy Z Fold8 / Z Fold8 Ultra / Z Flip8, Motorola Razr Fold, and other mid-2026 launches) were added from PRE-LAUNCH LEAKS and have never been checked against reality. For any model launched in the last ~6 months you MUST:
+  (a) CONFIRM the model actually exists and is ON SALE IN INDIA under that exact name. If the product does NOT exist (e.g. a rumoured 'Ultra' variant that Samsung never shipped), set resale_price AND buyback_market to null and write 'DOES NOT EXIST IN INDIA — <evidence>' in resale_sources. This matters more than any price.
+  (b) Find the OFFICIAL India launch price from the brand's own India site / mainstream India coverage, and report it in resale_sources as 'NEW=<num>'.
+  (c) A phone launched <3 months ago has a THIN used market — real resale is roughly 78-85% of official new price, and buyback_market is often not yet quoted by Cashify (null is fine).
+
 Write ${DIR}/_ov_updates/fetch_${i}.json AND return:
 {"batch_index":${i},"models":[{"key":...,"display_name":...,"resale_price":<num|null>,"resale_low":<num|null>,"resale_high":<num|null>,"resale_sources":"<olx/cashify/... + numbers>","buyback_market":<num|null>,"buyback_source":"<cashify sell + number>","confidence":"high|medium|low"}, ...]}
 Every key exactly once.`
 }
 
 function criticPrompt(i, fetchJson) {
-  return `You are an adversarial MARKET-PRICE CRITIC for Rajdhani Telecom. TODAY is 2026-08-05. Assume the fetcher may have erred — catch it.
+  return `You are an adversarial MARKET-PRICE CRITIC for Rajdhani Telecom. TODAY is 2026-08-10. Assume the fetcher may have erred — catch it.
 
 ${BRAIN}
 
@@ -89,7 +94,8 @@ ${JSON.stringify(fetchJson)}
 For EACH model, independently sanity-check and CORRECT:
 1. RESALE_FINAL: Is resale_price a REALISTIC local re-sale price (what a Moradabad shop actually gets), NOT (a) an OLX ASKING price (inflated ~10%), NOR (b) Cashify's warranty-inflated refurb-retail for an OLDER phone. For older/unpopular models pull it DOWN toward real used value. For current hot models it can sit near refurb retail.
 2. BUYBACK_FINAL: Is it a real current Cashify/market buyback (what sellers get paid)?
-3. Hard sanity: RESALE_FINAL > BUYBACK_FINAL (a reseller must buy below resale). If violated, fix. Typical gap: buyback ≈ 55-80% of resale.
+3. EXISTENCE (highest priority for 2026 launches): does this exact model actually ship in India? Rumoured/never-shipped variants must be rejected (real_india_launch false is signalled by setting BOTH finals to null and verdict 'rejected', note starting 'DOES NOT EXIST'). Also report the official India NEW price in the note field as 'NEW=<num>' whenever you can confirm it.
+4. Hard sanity: RESALE_FINAL > BUYBACK_FINAL (a reseller must buy below resale). If violated, fix. Typical gap: buyback ≈ 55-80% of resale.
 Set *_final to the correct value (yours if fetcher wrong -> 'corrected', theirs if right -> 'confirmed', null -> 'rejected').
 
 Write ${DIR}/_ov_updates/verified_${i}.json AND return:

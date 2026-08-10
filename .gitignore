@@ -15,3 +15,6 @@ _audit_units.json
 *.backup-*.json
 *.backup-*.html
 *.prefill-backup.*
+_brain_refresh_*.json
+_scope_keys.json
+_ov_updates_prev_*/

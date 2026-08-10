@@ -4,7 +4,7 @@ A1 = resale/(1+margin_by_age), capped at new*0.85. Merges finder (launch/tier/na
 Dedupes vs existing keys + display names. --apply to write; default dry-run."""
 import json, glob, re, sys, statistics
 DIR='/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY='2026-08-07'
+TODAY='2026-08-10'
 APPLY='--apply' in sys.argv
 def r100(n): return int(round(n/100.0))*100
 KNOWN={'iphone','apple','samsung','vivo','iqoo','realme','oppo','redmi','xiaomi','poco','oneplus','google',
@@ -59,12 +59,10 @@ for key,v in ver.items():
     db[key]=e; existing.add(key); exsig.add(sig(f['display_name']))
     added.append((key,f['display_name'],ld,a1,r100(resale))); bybrand[brand]+=1
 
-if added:
-    ph=[k for k in db if k!='_meta']
-    db['_meta']['version']='5.8'
-    db['_meta']['v5_8_changelog']=(f"Gap-audit ({TODAY}): added {len(added)} missing India models (2026 launches + gaps), critic-verified, "
-      f"priced via BRAIN (A1=resale÷(1+margin_by_age), cap new×0.85). {skipped} dup skipped, {rejected} rejected (fake/no-price). Total {len(ph)}.")
+# (version + changelog are set once by _finalize_meta.py after both brain-refresh and gap-add)
 
+json.dump([{'key':k,'name':nm,'launch':ld,'a1':a1,'resale':rs} for k,nm,ld,a1,rs in added],
+          open(f'{DIR}/_added_{TODAY}.json','w'), ensure_ascii=False, indent=1)
 print('=== ADD GAPS ===')
 print(f'proposed(verified files): {len(ver)} | ADDED: {len(added)} | skipped dup: {skipped} | rejected: {rejected}')
 print('by brand:', dict(bybrand.most_common()))

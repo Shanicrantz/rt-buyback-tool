@@ -1,0 +1,23 @@
+[
+ {
+  "key": "moto_g77_power_8_128",
+  "name": "Motorola Moto G77 Power 5G 8/128",
+  "launch": "2026-07-08",
+  "a1": 18900,
+  "resale": 20800
+ },
+ {
+  "key": "moto_g06_power_4_64",
+  "name": "Motorola Moto G06 Power 4/64",
+  "launch": "2025-10-07",
+  "a1": 7000,
+  "resale": 7700
+ },
+ {
+  "key": "lava_blaze_duo3_6_128",
+  "name": "Lava Blaze Duo 3 6/128GB",
+  "launch": "2026-01-19",
+  "a1": 13300,
+  "resale": 14600
+ }
+]
