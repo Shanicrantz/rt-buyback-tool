@@ -19,7 +19,7 @@ import json, glob, sys, re
 from collections import defaultdict
 
 DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY = '2026-08-10'
+TODAY = '2026-08-17'
 APPLY = '--apply' in sys.argv
 WEEK_CAP = 0.20      # max single-week DROP in A1 (market softening = safe direction)
 INCREASE_CAP = 0.08  # max single-week RISE in A1 — deliberately tighter than the drop cap.
@@ -30,14 +30,15 @@ RESALE_CAP = 0.92    # never pay above 92% of resale (>=8% margin)
 NEW_CAP = 0.85       # never pay above 85% of new price
 SUSPECT_RATIO = 0.55 # buyback_market below this share of resale => resale is probably inflated
 
-# --- manual verification, 2026-08-10 (I checked these myself; the critic was wrong on 5 of 6) ---
+# --- manual verification, carried forward from 2026-08-10 (critic was wrong on 5 of 6) ---
 # Critic said "DOES NOT EXIST" but the model is REAL and stays in the DB:
 VERIFIED_REAL = {
     'moto_razr_fold_12_256', 'moto_razr_fold_16_512',      # India 2026-05-13, Rs1,49,999 / Rs1,59,999
     'moto_signature_12_256', 'moto_signature_16_512', 'moto_signature_16_1tb',  # India, Rs59,999/64,999/69,999
 }
-# Critic was RIGHT — Apple dropped the 128GB base trim; the 17e ships 256GB/512GB only:
-CONFIRMED_PHANTOM = {'iphone_17e_128'}
+# Confirmed-phantom variants to REMOVE. iphone_17e_128 was removed on 2026-08-10; this week's
+# "does not exist" claims start empty and are only added after I verify them by hand.
+CONFIRMED_PHANTOM = set()
 # Official India new prices confirmed first-hand today (used as the new*0.85 ceiling):
 VERIFIED_NEW = {
     'moto_razr_fold_12_256': 149999, 'moto_razr_fold_16_512': 159999,
@@ -162,6 +163,17 @@ for key, v in ver.items():
                               'pct_wanted': (a1 - cur) / cur * 100, 'resale': r100(rs),
                               'buyback': r100(bm) if bm else None, 'conf': v.get('confidence')})
         a1, capped_by = hi, 'rise-cap+flagged'
+
+    # The ±week caps only damp research NOISE — they must never override the two hard economic
+    # ceilings. The -20% floor is applied after the caps above, so when research says resale
+    # collapsed by more than 20% the floor can land ABOVE resale×0.92, i.e. RT would pay more
+    # than it can re-sell for and lose money on every unit. Re-assert the ceilings last.
+    hard = rs * RESALE_CAP
+    if isinstance(new, (int, float)) and new > 0:
+        hard = min(hard, new * NEW_CAP)
+    if a1 > hard:
+        a1, capped_by = hard, capped_by + '+hard-ceiling'
+
     if suspect and a1 > cur:
         a1, capped_by = cur, 'held: resale looks inflated vs buyback'
         flags.append(('inflated-resale-hold', key,

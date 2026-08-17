@@ -60,7 +60,7 @@ const CRITIC_SCHEMA = {
 }
 
 function fetchPrompt(i) {
-  return `You research the REAL Indian second-hand market for Rajdhani Telecom. TODAY is 2026-08-10.
+  return `You research the REAL Indian second-hand market for Rajdhani Telecom. TODAY is 2026-08-17.
 
 ${BRAIN}
 
@@ -73,7 +73,7 @@ For EACH distinct model (storage variants share one lookup, then scale), find TW
   2) BUYBACK_MARKET = what sellers are actually PAID today: Cashify "sell old phone" / exchange value is the primary benchmark (web_search "Cashify <model> <storage> sell price" or fetch cashify.in/sell-old-mobile-phone/...). Note if other buyers differ.
 Scale storage variants (256 > 128). Only report numbers you actually find; null if none.
 
-CRITICAL — BRAND-NEW / LEAK-PRICED MODELS: some of these entries (esp. Samsung Galaxy Z Fold8 / Z Fold8 Ultra / Z Flip8, Motorola Razr Fold, and other mid-2026 launches) were added from PRE-LAUNCH LEAKS and have never been checked against reality. For any model launched in the last ~6 months you MUST:
+CRITICAL — BRAND-NEW / LEAK-PRICED MODELS: some of these entries (esp. Samsung Galaxy Z Fold8 / Z Fold8 Ultra / Z Flip8, Samsung S26 series, Motorola Razr Fold / Signature, iPhone 17 series and other 2026 launches) were added from PRE-LAUNCH LEAKS and have never been checked against reality. For any model launched in the last ~6 months you MUST:
   (a) CONFIRM the model actually exists and is ON SALE IN INDIA under that exact name. If the product does NOT exist (e.g. a rumoured 'Ultra' variant that Samsung never shipped), set resale_price AND buyback_market to null and write 'DOES NOT EXIST IN INDIA — <evidence>' in resale_sources. This matters more than any price.
   (b) Find the OFFICIAL India launch price from the brand's own India site / mainstream India coverage, and report it in resale_sources as 'NEW=<num>'.
   (c) A phone launched <3 months ago has a THIN used market — real resale is roughly 78-85% of official new price, and buyback_market is often not yet quoted by Cashify (null is fine).
@@ -84,7 +84,7 @@ Every key exactly once.`
 }
 
 function criticPrompt(i, fetchJson) {
-  return `You are an adversarial MARKET-PRICE CRITIC for Rajdhani Telecom. TODAY is 2026-08-10. Assume the fetcher may have erred — catch it.
+  return `You are an adversarial MARKET-PRICE CRITIC for Rajdhani Telecom. TODAY is 2026-08-17. Assume the fetcher may have erred — catch it.
 
 ${BRAIN}
 

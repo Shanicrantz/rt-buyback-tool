@@ -5,8 +5,8 @@ run the invariant checks. --apply to write; default dry-run."""
 import json, sys, re
 
 DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY = '2026-08-10'
-VERSION = '5.9'
+TODAY = '2026-08-17'
+VERSION = '6.0'
 APPLY = '--apply' in sys.argv
 
 db = json.load(open(f'{DIR}/phone_db.json'))
@@ -29,15 +29,23 @@ meta['pricing_brain'] = ("A1 buyback = resale ÷ (1+margin_by_age), capped at re
                          "phones keep a sane absolute buffer. buyback_market shown as competitiveness "
                          "reference. Refreshed weekly from live resale + buyback research.")
 meta[f'v{VERSION.replace(".", "_")}_changelog'] = (
-    f"Weekly brain refresh ({TODAY}): re-anchored {len(changes)} high-value models "
-    f"({len(moved)} moved ≥0.5%) from live India resale + buyback-market research, batched 12×8 and "
-    f"adversarially critic-verified. Scope = top value-at-risk S/A-tier + recent launches, weighted to "
-    f"models previously priced from pre-launch leaks (Galaxy Z Fold8/Flip8 family, Razr Fold, 2026 "
-    f"flagships); deep budget/long-tail left on existing values 5 days after the 2026-08-05 full refresh. "
-    f"A1 = resale÷(1+margin_by_age), caps resale×0.92 / new×0.85, single-week move capped ±20%. "
-    f"Gap-audit added {len(added)} verified India launches; a phantom 'Galaxy F70 Pro' (3 variants) was "
-    f"rejected by the critic. Motorola Razr Fold was falsely flagged non-existent by a low-confidence "
-    f"critic and independently RE-VERIFIED as real (India 2026-05-13, ₹1,49,999 / ₹1,59,999) — kept.")
+    f"Weekly brain refresh ({TODAY}): re-anchored {len(changes)} models "
+    f"({len(moved)} moved \u22650.5%) from live India resale + buyback-market research, batched 12\u00d78 and "
+    f"adversarially critic-verified (44 of 96 prices corrected by the critic). Scope = 48 highest "
+    f"value-at-risk S/A models + 32 high-value entries still on their 2026-06-25 calibration + 16 "
+    f"launches under 9 months old; hand-set overrides and the budget long-tail untouched. "
+    f"A1 = resale\u00f7(1+margin_by_age), caps resale\u00d70.92 / new\u00d70.85, week move capped -20%/+8% (asymmetric: "
+    f"web research reliably anchors to OLX asking prices and over-raises). "
+    f"GUARDRAIL FIX this run: the -20% week floor was being applied AFTER the hard caps, so a "
+    f"model whose resale collapsed >20% could be floored ABOVE resale\u00d70.92 \u2014 i.e. RT would pay more "
+    f"than it could re-sell for. The resale/new ceilings are now re-asserted last and bind over the "
+    f"week floor (corrected Vivo X200 FE 12/256, Realme GT 7 Dream Edition, iPad Pro M4 13\" 512). "
+    f"Gap-audit added {len(added)} verified India launches, headlined by the Google Pixel 11 family "
+    f"(11 / 11 Pro / Pro XL / Pro Fold, India 2026-08-12) plus Realme 16x 5G, Motorola G Max 5G, "
+    f"Samsung Galaxy F70 Pro 5G and three real Infinix GT 30 SKUs; a phantom F70 Pro 6GB trim was "
+    f"rejected (Samsung India ships 8GB only). 34 rises wanted more than +8% and were capped and "
+    f"flagged for Shane; 9 storage variants drew a \"does not exist in India\" verdict and were left "
+    f"in place pending hand verification, never auto-removed.")
 
 # --- market signals: the Jul-22 Unpacked has happened; the pre-launch haircut rule is spent ---
 meta['market_signals'] = {
@@ -104,34 +112,67 @@ for k, e in ph.items():
         a1 = a1_of(e)
         if a1: fams.setdefault(m.group(1), []).append((RANK[m.group(2)], k, a1))
 # Repair storage inversions: a higher-storage variant must never compute BELOW its smaller
-# sibling. Level the bigger one UP to the sibling's A1 — the minimum conservative fix (never
-# worth less, but we do not invent a premium either) — and never past its own new*0.85 ceiling.
-inv_fixed = []
+# sibling. Preferred fix is to level the bigger one UP to the sibling's A1 (never worth less,
+# but we do not invent a premium either), bounded by its OWN ceilings — new*0.85 and, when this
+# week's research observed a real resale for it, market_resale_observed*0.92.
+#
+# That upward fix is only valid when the smaller sibling's number is trustworthy. In a weekly
+# refresh the common case is the opposite: the big variant was just researched DOWN while the
+# small one still carries a stale anchor from an earlier calibration. Levelling up there would
+# propagate the stale figure onto fresh research and can push A1 above observed resale — a
+# guaranteed loss per unit. So when the raise is blocked (or does not fully clear the
+# inversion), resolve it by pulling the SMALLER sibling DOWN to the bigger one's A1 instead.
+# Both directions are conservative; RT never ends up paying more than the market supports.
+# Shane's hand-set rt_buyback_a1_override entries are never touched in either direction.
+def set_a1(e, target):
+    """Write `target` A1 onto an entry via whichever anchor field the engine reads. False if none."""
+    mg = margin_of(e)
+    if e.get('resale_target_a1'):
+        e['resale_target_a1'] = int(round(target * (1 + mg) / 100)) * 100
+    elif e.get('refurb_retail_anchor_excellent'):
+        mf = e.get('market_factor', meta.get('default_market_factor', 0.88))
+        e['refurb_retail_anchor_excellent'] = int(round(target * (1 + mg) / mf / 100)) * 100
+    else:
+        return False
+    return True
+
+def ceiling_for(e):
+    c = float('inf')
+    nn = e.get('net_new_inr')
+    if isinstance(nn, (int, float)) and nn > 0: c = min(c, nn * 0.85)
+    ob = e.get('market_resale_observed')
+    if isinstance(ob, (int, float)) and ob > 0: c = min(c, ob * 0.92)
+    return c
+
+inv_fixed, inv_lowered = [], []
 for fam, items in fams.items():
     items.sort()
     for i in range(1, len(items)):
-        if items[i][2] < items[i-1][2] - 1:
-            k, target = items[i][1], items[i-1][2]
-            e = ph[k]
-            nn = e.get('net_new_inr')
-            if isinstance(nn, (int, float)) and nn > 0: target = min(target, nn * 0.85)
-            if target <= items[i][2]:
-                problems['storage_inversion'].append((k, round(items[i][2]), items[i-1][1], round(items[i-1][2])))
+        if items[i][2] >= items[i-1][2] - 1: continue
+        big_k, big_a1 = items[i][1], items[i][2]
+        small_k, small_a1 = items[i-1][1], items[i-1][2]
+        big, small = ph[big_k], ph[small_k]
+
+        # 1) try raising the bigger variant, bounded by its own ceilings
+        target = min(small_a1, ceiling_for(big))
+        if target > big_a1 and not big.get('rt_buyback_a1_override') and set_a1(big, target):
+            inv_fixed.append((big_k, round(big_a1), round(a1_of(big))))
+            items[i] = (items[i][0], big_k, a1_of(big))
+            big_a1 = items[i][2]
+
+        # 2) still inverted -> pull the smaller sibling down to the bigger's A1
+        if big_a1 < small_a1 - 1:
+            if small.get('rt_buyback_a1_override') or not set_a1(small, big_a1):
+                problems['storage_inversion'].append((big_k, round(big_a1), small_k, round(small_a1)))
                 continue
-            mg = margin_of(e)
-            if e.get('resale_target_a1'):
-                e['resale_target_a1'] = int(round(target * (1 + mg) / 100)) * 100
-            elif e.get('refurb_retail_anchor_excellent'):
-                mf = e.get('market_factor', meta.get('default_market_factor', 0.88))
-                e['refurb_retail_anchor_excellent'] = int(round(target * (1 + mg) / mf / 100)) * 100
-            else:
-                problems['storage_inversion'].append((k, round(items[i][2]), items[i-1][1], round(items[i-1][2])))
-                continue
-            inv_fixed.append((k, round(items[i][2]), round(a1_of(e))))
-            items[i] = (items[i][0], k, a1_of(e))
+            inv_lowered.append((small_k, round(small_a1), round(a1_of(small))))
+            items[i-1] = (items[i-1][0], small_k, a1_of(small))
 if inv_fixed:
-    print(f'  storage inversions repaired: {len(inv_fixed)}')
+    print(f'  storage inversions — bigger variant raised: {len(inv_fixed)}')
     for k, before, after in inv_fixed: print(f'      {k}: {before:,} -> {after:,}')
+if inv_lowered:
+    print(f'  storage inversions — stale smaller variant lowered: {len(inv_lowered)}')
+    for k, before, after in inv_lowered: print(f'      {k}: {before:,} -> {after:,}')
 
 print('=' * 72)
 print(f'FINALIZE v{VERSION}  {TODAY}   phones={len(ph)}')

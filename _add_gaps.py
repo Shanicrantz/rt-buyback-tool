@@ -4,7 +4,7 @@ A1 = resale/(1+margin_by_age), capped at new*0.85. Merges finder (launch/tier/na
 Dedupes vs existing keys + display names. --apply to write; default dry-run."""
 import json, glob, re, sys, statistics
 DIR='/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY='2026-08-10'
+TODAY='2026-08-17'
 APPLY='--apply' in sys.argv
 def r100(n): return int(round(n/100.0))*100
 KNOWN={'iphone','apple','samsung','vivo','iqoo','realme','oppo','redmi','xiaomi','poco','oneplus','google',

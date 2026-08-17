@@ -1,0 +1,114 @@
+[
+ {
+  "key": "realme_16x_5g_4_128",
+  "name": "Realme 16x 5G 4/128GB",
+  "launch": "2026-08-12",
+  "a1": 18900,
+  "resale": 20800
+ },
+ {
+  "key": "realme_16x_5g_6_128",
+  "name": "Realme 16x 5G 6/128GB",
+  "launch": "2026-08-12",
+  "a1": 20400,
+  "resale": 22400
+ },
+ {
+  "key": "realme_16x_5g_6_256",
+  "name": "Realme 16x 5G 6/256GB",
+  "launch": "2026-08-12",
+  "a1": 22600,
+  "resale": 24800
+ },
+ {
+  "key": "moto_g_max_5g_6_128",
+  "name": "Motorola G Max 5G 6/128GB",
+  "launch": "2026-08-14",
+  "a1": 20400,
+  "resale": 22400
+ },
+ {
+  "key": "infinix_gt_30_pro_5g_12_256",
+  "name": "Infinix GT 30 Pro 5G 12/256GB",
+  "launch": "2025-06-12",
+  "a1": 18000,
+  "resale": 19800
+ },
+ {
+  "key": "infinix_gt_30_5g_8_128",
+  "name": "Infinix GT 30 5G+ 8/128GB",
+  "launch": "2025-08-08",
+  "a1": 10900,
+  "resale": 12000
+ },
+ {
+  "key": "infinix_gt_30_5g_8_256",
+  "name": "Infinix GT 30 5G+ 8/256GB",
+  "launch": "2025-08-08",
+  "a1": 12000,
+  "resale": 13200
+ },
+ {
+  "key": "google_pixel_11_256",
+  "name": "Google Pixel 11 256GB",
+  "launch": "2026-08-12",
+  "a1": 65500,
+  "resale": 72000
+ },
+ {
+  "key": "google_pixel_11_512",
+  "name": "Google Pixel 11 512GB",
+  "launch": "2026-08-12",
+  "a1": 76400,
+  "resale": 84000
+ },
+ {
+  "key": "google_pixel_11_pro_256",
+  "name": "Google Pixel 11 Pro 256GB",
+  "launch": "2026-08-12",
+  "a1": 87400,
+  "resale": 96000
+ },
+ {
+  "key": "google_pixel_11_pro_512",
+  "name": "Google Pixel 11 Pro 512GB",
+  "launch": "2026-08-12",
+  "a1": 98300,
+  "resale": 108000
+ },
+ {
+  "key": "google_pixel_11_pro_xl_256",
+  "name": "Google Pixel 11 Pro XL 256GB",
+  "launch": "2026-08-12",
+  "a1": 98300,
+  "resale": 108000
+ },
+ {
+  "key": "google_pixel_11_pro_xl_512",
+  "name": "Google Pixel 11 Pro XL 512GB",
+  "launch": "2026-08-12",
+  "a1": 109200,
+  "resale": 120000
+ },
+ {
+  "key": "google_pixel_11_pro_fold_16_512",
+  "name": "Google Pixel 11 Pro Fold 16/512GB",
+  "launch": "2026-08-12",
+  "a1": 136100,
+  "resale": 149600
+ },
+ {
+  "key": "samsung_f70_pro_5g_8_128",
+  "name": "Samsung Galaxy F70 Pro 5G 8/128GB",
+  "launch": "2026-08-08",
+  "a1": 26900,
+  "resale": 29600
+ },
+ {
+  "key": "samsung_f70_pro_5g_8_256",
+  "name": "Samsung Galaxy F70 Pro 5G 8/256GB",
+  "launch": "2026-08-08",
+  "a1": 30600,
+  "resale": 33600
+ }
+]

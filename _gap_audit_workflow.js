@@ -54,12 +54,12 @@ const CRITIC_SCHEMA = {
 }
 
 function findPrompt(i) {
-  return `You audit Rajdhani Telecom's used-phone DB for MISSING models. TODAY is 2026-08-10. Find India phones that SHOULD be in the DB but are MISSING. The DB was gap-audited on 2026-08-07, so the PRIMARY target is anything that launched or went on sale in India from 2026-07-25 onward (the last ~2-3 weeks) — new launches, new storage/RAM variants of recent phones, and India availability of models announced earlier. SECONDARY: any notable 2025-2026 model still absent. Do not re-propose models already in the DB.
+  return `You audit Rajdhani Telecom's used-phone DB for MISSING models. TODAY is 2026-08-17. Find India phones that SHOULD be in the DB but are MISSING. The DB was gap-audited on 2026-08-17 (prev run 2026-08-10), so the PRIMARY target is anything that launched or went on sale in India from 2026-08-01 onward (the last ~2-3 weeks) — new launches, new storage/RAM variants of recent phones, and India availability of models announced earlier. SECONDARY: any notable 2025-2026 model still absent. Do not re-propose models already in the DB.
 
 Get your unit scope + what's already in the DB:
   python3 -c "import json; u=json.load(open('${DIR}/_audit_units.json'))[${i}]; inv=json.load(open('${DIR}/_db_inventory.json')); print('SCOPE:',u[2]); [print('---',b,'MODELS:',inv.get(b,{}).get('models')) for b in u[1]]"
 
-Web-research the India lineup for your scope with heavy emphasis on LATE JULY and AUGUST 2026 launches (GSMArena/91mobiles/Smartprix/official brand India sites; check 'launched in India August 2026' style queries). Diff against the MODELS already listed. A model is MISSING only if not already present (account for name variants).
+Web-research the India lineup for your scope with heavy emphasis on AUGUST 2026 launches (GSMArena/91mobiles/Smartprix/official brand India sites; check 'launched in India August 2026' style queries). Diff against the MODELS already listed. A model is MISSING only if not already present (account for name variants).
 
 For each MISSING model, output one entry per REAL India storage/RAM variant with PRICING for RT's brain:
   - key: match existing key-naming for that brand (lowercase, e.g. samsung_s26_ultra_256, oppo_reno16_8_256, iphone_17_pro_256). NO phantom variants — verify real India storage configs.
@@ -71,7 +71,7 @@ For each MISSING model, output one entry per REAL India storage/RAM variant with
 Write ${DIR}/_gaps/find_${i}.json AND return: {"unit_id":"<name>","missing":[{...}]}. If none missing, missing:[].`
 }
 function criticPrompt(i, findJson) {
-  return `Adversarial CRITIC for Rajdhani Telecom gap-audit. TODAY is 2026-08-10. A finder proposed missing India models with prices; independently VERIFY each.
+  return `Adversarial CRITIC for Rajdhani Telecom gap-audit. TODAY is 2026-08-17. A finder proposed missing India models with prices; independently VERIFY each.
 Finder output:
 ${JSON.stringify(findJson)}
 
