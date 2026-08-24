@@ -54,8 +54,20 @@ for f in sorted(glob.glob(f'{DIR}/_pending/rp_verified_*.json')):
     for it in json.load(open(f)).get('items', []):
         ver[it['key']] = it
 
+# Idempotence guard. Batch 12 of the audit landed after the first apply, so this script has to
+# run twice. The rise cap is a limit on a SINGLE move — re-computing an already-applied key from
+# its new (already-raised) value would stack a second +20% on top of the first. Keys this audit
+# has already moved are therefore skipped outright on a re-run.
+# Ground truth is the DB, not the outcome file: a dry run overwrites the outcome file, so it
+# cannot be trusted to say what was actually written. Every entry this audit has already moved
+# carries an "ANCHOR AUDIT <today>" live_source stamp.
+already = {k for k, e in ph.items()
+           if (e.get('live_source') or '').startswith(f'ANCHOR AUDIT {TODAY}')}
+
 changes, held = [], []
 for key, v in ver.items():
+    if key in already:
+        held.append((key, 'already applied earlier in this run — not re-stacked')); continue
     e = ph.get(key)
     if e is None: held.append((key, 'not in DB')); continue
     act = v.get('action'); rs = v.get('resale_final_inr'); new = v.get('new_final_inr')
@@ -111,8 +123,15 @@ if held:
     print(f'\n--- HELD ({len(held)}) ---')
     for k, r in held: print(f'  {k}: {r}')
 
-json.dump({'today': TODAY, 'changes': changes, 'held': [{'key': k, 'reason': r} for k, r in held]},
-          open(f'{DIR}/_pending/roundprice_outcome_{TODAY}.json', 'w'), ensure_ascii=False, indent=1)
+prev_changes = []
+try:
+    prev_changes = json.load(open(f'{DIR}/_pending/roundprice_outcome_{TODAY}.json')).get('changes', [])
+except FileNotFoundError:
+    pass
+if APPLY:
+    json.dump({'today': TODAY, 'changes': prev_changes + changes,
+               'held': [{'key': k, 'reason': r} for k, r in held]},
+              open(f'{DIR}/_pending/roundprice_outcome_{TODAY}.json', 'w'), ensure_ascii=False, indent=1)
 
 if not APPLY:
     print('\n(dry-run — no files written)'); sys.exit(0)

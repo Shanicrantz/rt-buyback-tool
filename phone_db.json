@@ -1147,10 +1147,10 @@
     "launch_date": "2025-03-05",
     "net_new_inr": 22000,
     "resale_target_a1": 18000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell A26 5G 8GB/128GB upto ₹12,350; Cashify refurb 8GB/128GB Fair=₹17,199; Flipkart new 128GB=₹23,999; resale_target_a1 = refurb Excellent×0.95 ~₹18,000"
+    "live_source": "Cashify sell A26 5G 8GB/128GB upto ₹12,350; Cashify refurb 8GB/128GB Fair=₹17,199; Flipkart new 128GB=₹23,999; resale_target_a1 = refurb Excellent×0.95 ~₹18,000 | margin floored to"
   },
   "samsung_m35_5g_8_128": {
     "display_name": "Samsung Galaxy M35 5G 8/128GB",
@@ -1159,10 +1159,10 @@
     "launch_date": "2024-07-23",
     "net_new_inr": 17000,
     "resale_target_a1": 11500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify exchange 8GB/128GB ₹9,950 (max); new price ₹21,499 (Samsung.in/Flipkart); A1 resale set above exchange with dealer premium; cashify.in/sell-old-mobile-p"
+    "live_source": "Cashify exchange 8GB/128GB ₹9,950 (max); new price ₹21,499 (Samsung.in/Flipkart); A1 resale set above exchange with dealer premium; cashify.in/sell-old-mobile-p | margin floored to"
   },
   "samsung_m15_5g_4_128": {
     "display_name": "Samsung Galaxy M15 5G 4/128GB",
@@ -1328,10 +1328,10 @@
     "launch_date": "2025-07-08",
     "net_new_inr": 24000,
     "resale_target_a1": 17000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell page up to ₹18,050 for Nord CE 5 (base variant, excellent). Flipkart net new ₹21,375 (₹22,500 listed minus ₹1,125 bank offer). Sanity ceiling: ₹21,"
+    "live_source": "Cashify sell page up to ₹18,050 for Nord CE 5 (base variant, excellent). Flipkart net new ₹21,375 (₹22,500 listed minus ₹1,125 bank offer). Sanity ceiling: ₹21, | margin floored to"
   },
   "vivo_x100_pro_12_256": {
     "display_name": "Vivo X100 Pro 12/256GB",
@@ -1505,10 +1505,10 @@
     "launch_date": "2024-03-21",
     "net_new_inr": 18000,
     "resale_target_a1": 12700,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify refurb retail Vivo T3 5G 8GB/128GB ₹13,399; new price ₹18,499; Cashify sell base ₹11,150; resale_target_a1 = ₹13,399 × 0.95 ≈ ₹12,700. cashify.in, 25-Ju"
+    "live_source": "Cashify refurb retail Vivo T3 5G 8GB/128GB ₹13,399; new price ₹18,499; Cashify sell base ₹11,150; resale_target_a1 = ₹13,399 × 0.95 ≈ ₹12,700. cashify.in, 25-Ju | margin floored to"
   },
   "vivo_t4_5g_8_128": {
     "display_name": "Vivo T4 5G 8/128GB",
@@ -1592,10 +1592,10 @@
     "launch_date": "2024-11-21",
     "net_new_inr": 20000,
     "resale_target_a1": 12000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify price page: approx buyback ₹6,560; new retail ₹20,999. OLX used ~₹14,700 (display-changed unit, discounted). Resale A1 ₹12,000 < ceiling ₹20,999×0.80=₹1"
+    "live_source": "Cashify price page: approx buyback ₹6,560; new retail ₹20,999. OLX used ~₹14,700 (display-changed unit, discounted). Resale A1 ₹12,000 < ceiling ₹20,999×0.80=₹1 | margin floored to"
   },
   "vivo_y300_plus_5g_8_128": {
     "display_name": "Vivo Y300 Plus 5G 8/128GB",
@@ -1604,13 +1604,13 @@
     "launch_date": "2024-10-15",
     "net_new_inr": 23000,
     "resale_target_a1": 15000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "cashify_calibration_excellent": 10400,
     "refurb_retail_source": "Shane verified Cashify SELL flow ₹10,400",
     "notes": "Curved AMOLED, SD695. Slow resell.",
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify price page: approx buyback ₹6,920 (vs Shane's previous verify ₹10,400 — see override_review). Cashify refurb retail Fair ₹17,499; Superb est. ₹20,000-21"
+    "live_source": "Cashify price page: approx buyback ₹6,920 (vs Shane's previous verify ₹10,400 — see override_review). Cashify refurb retail Fair ₹17,499; Superb est. ₹20,000-21 | margin floored to"
   },
   "vivo_y400_5g_8_128": {
     "display_name": "Vivo Y400 5G 8/128GB",
@@ -1619,10 +1619,10 @@
     "launch_date": "2025-06-18",
     "net_new_inr": 22000,
     "resale_target_a1": 17000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Vivo Y400 5G 8GB/128GB new price = ₹21,999 confirmed (Cashify, Amazon, Flipkart, Vivo India, June 2026). Cashify approx buyback = ₹7,920. Cashify refurb fair = "
+    "live_source": "Vivo Y400 5G 8GB/128GB new price = ₹21,999 confirmed (Cashify, Amazon, Flipkart, Vivo India, June 2026). Cashify approx buyback = ₹7,920. Cashify refurb fair =  | margin floored to"
   },
   "vivo_y31_pro_5g_8_128": {
     "display_name": "Vivo Y31 Pro 5G 8/128GB",
@@ -1631,10 +1631,10 @@
     "launch_date": "2025-09-12",
     "net_new_inr": 25500,
     "resale_target_a1": 17500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Flipkart 8/128GB current: ₹23,499 (vs DB net_new ₹25,500 — price has dropped since launch). Cashify approx buyback ₹7,280. Prior resale_target ₹20,000 EXCEEDED "
+    "live_source": "Flipkart 8/128GB current: ₹23,499 (vs DB net_new ₹25,500 — price has dropped since launch). Cashify approx buyback ₹7,280. Prior resale_target ₹20,000 EXCEEDED  | margin floored to"
   },
   "oppo_find_x7_ultra_16_256": {
     "display_name": "Oppo Find X7 Ultra 16/256GB",
@@ -1773,10 +1773,10 @@
     "launch_date": "2024-09-04",
     "net_new_inr": 21000,
     "resale_target_a1": 16000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell F27 5G ₹13,030 (base, 128GB); Cashify refurb retail Fair ₹14,999 (128GB, out of stock); new price ₹22,999 (8/128GB, Flipkart/Amazon/OPPO official)."
+    "live_source": "Cashify sell F27 5G ₹13,030 (base, 128GB); Cashify refurb retail Fair ₹14,999 (128GB, out of stock); new price ₹22,999 (8/128GB, Flipkart/Amazon/OPPO official). | margin floored to"
   },
   "oppo_f29_5g_8_128": {
     "display_name": "Oppo F29 5G 8/128GB",
@@ -1785,10 +1785,10 @@
     "launch_date": "2025-03-20",
     "net_new_inr": 24000,
     "resale_target_a1": 17000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell F29 5G ₹15,530 (base/128GB); Cashify refurb retail 8/128GB ₹15,799 (Fair); new price ₹23,999 (official OPPO; Flipkart 256GB effective ₹20,870). A1 "
+    "live_source": "Cashify sell F29 5G ₹15,530 (base/128GB); Cashify refurb retail 8/128GB ₹15,799 (Fair); new price ₹23,999 (official OPPO; Flipkart 256GB effective ₹20,870). A1  | margin floored to"
   },
   "oppo_f33_5g_8_128": {
     "display_name": "Oppo F33 5G 8/128GB",
@@ -1797,10 +1797,10 @@
     "launch_date": "2026-02-04",
     "net_new_inr": 31999,
     "resale_target_a1": 28000,
-    "target_margin": 0.2,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify refurb F33 5G 8/128 ₹29,299; RT resale ~₹28,000 (≈refurb×0.95). New retail 8/128 ₹34,999. Cashify.in, 25-Jun-2026."
+    "live_source": "Cashify refurb F33 5G 8/128 ₹29,299; RT resale ~₹28,000 (≈refurb×0.95). New retail 8/128 ₹34,999. Cashify.in, 25-Jun-2026. | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "oppo_a3x_5g_4_64": {
     "display_name": "Oppo A3x 5G 4/64GB",
@@ -1912,10 +1912,10 @@
     "launch_date": "2024-12-09",
     "net_new_inr": 18000,
     "resale_target_a1": 11000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell 8GB/128GB up to ₹10,630; Cashify refurb 128GB at ₹12,999; Flipkart new price ₹14,990 with ₹750 bank offer = NET ₹14,240. Resale A1 ₹12,999×0.95=₹12"
+    "live_source": "Cashify sell 8GB/128GB up to ₹10,630; Cashify refurb 128GB at ₹12,999; Flipkart new price ₹14,990 with ₹750 bank offer = NET ₹14,240. Resale A1 ₹12,999×0.95=₹12 | margin floored to"
   },
   "redmi_note_14_pro_5g_8_128": {
     "display_name": "Redmi Note 14 Pro 5G 8/128GB",
@@ -1948,10 +1948,10 @@
     "launch_date": "2026-04-09",
     "net_new_inr": 18000,
     "resale_target_a1": 14000,
-    "target_margin": 0.2,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-07-06",
-    "live_source": "Redmi Note 15 SE 5G 6/128GB = real India BASE variant, MRP Rs24,999 (Flipkart/Mi.in/91mobiles/Beebom; launched Apr 2026, SD 6 Gen 3). Effective new ~Rs18,000 after intro/bank offers. Resale A1 set just below the 8/128 sibling. Shane-flagged missing variant."
+    "live_source": "Redmi Note 15 SE 5G 6/128GB = real India BASE variant, MRP Rs24,999 (Flipkart/Mi.in/91mobiles/Beebom; launched Apr 2026, SD 6 Gen 3). Effective new ~Rs18,000 after intro/bank offer"
   },
   "redmi_note_15_se_5g_8_128": {
     "display_name": "Redmi Note 15 SE 5G 8/128GB",
@@ -1960,10 +1960,10 @@
     "launch_date": "2026-04-09",
     "net_new_inr": 18999,
     "resale_target_a1": 14500,
-    "target_margin": 0.2,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Flipkart/Xiaomi.in: Redmi Note 15 SE 5G 8/128GB effective new price ~₹19,999 (MRP ₹25,999 minus ₹4,000 intro + ₹2,000 ICICI offer); Cashify approx buyback ₹8,00"
+    "live_source": "Flipkart/Xiaomi.in: Redmi Note 15 SE 5G 8/128GB effective new price ~₹19,999 (MRP ₹25,999 minus ₹4,000 intro + ₹2,000 ICICI offer); Cashify approx buyback ₹8,00 | margin floored to"
   },
   "redmi_a4_5g_4_64": {
     "display_name": "Redmi A4 5G 4/64GB",
@@ -1997,10 +1997,10 @@
     "launch_date": "2025-01-09",
     "net_new_inr": 21000,
     "resale_target_a1": 14500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Poco X7 5G 8GB/128GB: Flipkart ₹17,999 − ₹900 bank offer = ₹17,099 net new (flipkart.com, 25-Jun-2026). Cashify refurb retail Fair 8GB/128GB = ₹13,799. Excellen"
+    "live_source": "Poco X7 5G 8GB/128GB: Flipkart ₹17,999 − ₹900 bank offer = ₹17,099 net new (flipkart.com, 25-Jun-2026). Cashify refurb retail Fair 8GB/128GB = ₹13,799. Excellen | margin floored to"
   },
   "poco_x7_pro_5g_8_256": {
     "display_name": "Poco X7 Pro 5G 8/256GB",
@@ -2095,10 +2095,10 @@
     "launch_date": "2025-02-18",
     "net_new_inr": 17000,
     "resale_target_a1": 13500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell used-realme-p3-5g-8-gb-128-gb: upto ₹11,420 exchange; Cashify refurb 6GB/128GB = ₹13,699; resale A1 (8GB/128GB mint w/box) estimated ₹13,500 (≈ ref"
+    "live_source": "Cashify sell used-realme-p3-5g-8-gb-128-gb: upto ₹11,420 exchange; Cashify refurb 6GB/128GB = ₹13,699; resale A1 (8GB/128GB mint w/box) estimated ₹13,500 (≈ ref | margin floored to"
   },
   "realme_p3_ultra_5g_8_256": {
     "display_name": "Realme P3 Ultra 5G 8/256GB",
@@ -2131,10 +2131,10 @@
     "launch_date": "2025-03-26",
     "net_new_inr": 19000,
     "resale_target_a1": 12500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Flipkart Narzo 80 Pro 5G 8/128GB current ₹16,996 with ₹850 bank offer → NET ₹16,146; Cashify approx buyback ₹6,820; Cashify refurb 12GB/256GB at ₹17,799 as ceil"
+    "live_source": "Flipkart Narzo 80 Pro 5G 8/128GB current ₹16,996 with ₹850 bank offer → NET ₹16,146; Cashify approx buyback ₹6,820; Cashify refurb 12GB/256GB at ₹17,799 as ceil | margin floored to"
   },
   "realme_c75_5g_4_128": {
     "display_name": "Realme C75 5G 4/128GB",
@@ -2155,11 +2155,11 @@
     "launch_date": "2026-03-25",
     "net_new_inr": 31999,
     "resale_target_a1": 24500,
-    "target_margin": 0.2,
+    "target_margin": 0.25,
     "notes": "Just launched. Limited resale data.",
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "New price ₹31,999 (Flipkart/Cashify, launch April 2026). No direct Cashify sell data found — phone ~3 months old. Resale target = new × 0.77 = ₹24,639 → ₹24,500"
+    "live_source": "New price ₹31,999 (Flipkart/Cashify, launch April 2026). No direct Cashify sell data found — phone ~3 months old. Resale target = new × 0.77 = ₹24,639 → ₹24,500 | margin floored to"
   },
   "moto_edge_50_pro_12_256": {
     "display_name": "Motorola Edge 50 Pro 12/256GB",
@@ -2280,10 +2280,10 @@
     "launch_date": "2024-07-10",
     "net_new_inr": 18000,
     "resale_target_a1": 13000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell base price ₹12,320 (all variants); G85 5G 8/128 new on Flipkart ₹15,999 (Jun 2026). G85 5G 12/256 Cashify refurb Fair ₹15,199. Scaling to 8/128 Exc"
+    "live_source": "Cashify sell base price ₹12,320 (all variants); G85 5G 8/128 new on Flipkart ₹15,999 (Jun 2026). G85 5G 12/256 Cashify refurb Fair ₹15,199. Scaling to 8/128 Exc | margin floored to"
   },
   "moto_g86_5g_8_128": {
     "display_name": "Motorola G86 5G 8/128GB",
@@ -2292,10 +2292,10 @@
     "launch_date": "2025-06-23",
     "net_new_inr": 18000,
     "resale_target_a1": 13500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Moto G86 5G not launched in India — Motorola launched G86 Power 5G instead (8/128GB ₹17,999 MRP, Amazon ₹17,499). No Cashify sell/refurb data yet for this model"
+    "live_source": "Moto G86 5G not launched in India — Motorola launched G86 Power 5G instead (8/128GB ₹17,999 MRP, Amazon ₹17,499). No Cashify sell/refurb data yet for this model | margin floored to"
   },
   "moto_g96_5g_8_128": {
     "display_name": "Motorola G96 5G 8/128GB",
@@ -2304,10 +2304,10 @@
     "launch_date": "2025-09-08",
     "net_new_inr": 18999,
     "resale_target_a1": 14500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell up to ₹12,200 for G96 5G 8/128 (25-Jun-2026). New price ₹17,999 (Flipkart). Cashify refurb Fair (128GB) ₹13,899; Excellent ~₹15,300. resale_target_"
+    "live_source": "Cashify sell up to ₹12,200 for G96 5G 8/128 (25-Jun-2026). New price ₹17,999 (Flipkart). Cashify refurb Fair (128GB) ₹13,899; Excellent ~₹15,300. resale_target_ | margin floored to"
   },
   "moto_razr_50_8_256": {
     "display_name": "Motorola Razr 50 8/256GB",
@@ -2429,10 +2429,10 @@
     "launch_date": "2025-04-28",
     "net_new_inr": 18999,
     "resale_target_a1": 13700,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-07-20",
-    "live_source": "Cashify refurb retail (cashify.in/buy-refurbished-mobile-phones/renewed-cmf-by-nothing-phone-2-pro) 8/128GB: regular Rs 22,999, Cashify price Rs 13,699 (Best Value tier, condition grade ambiguous - no"
+    "live_source": "Cashify refurb retail (cashify.in/buy-refurbished-mobile-phones/renewed-cmf-by-nothing-phone-2-pro) 8/128GB: regular Rs 22,999, Cashify price Rs 13,699 (Best Value tier, condition "
   },
   "google_pixel_8_128": {
     "display_name": "Google Pixel 8 128GB",
@@ -2583,10 +2583,10 @@
     "launch_date": "2025-04-22",
     "net_new_inr": 21999,
     "resale_target_a1": 16500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell page iQOO Z10 5G base exchange Rs.17,100; new price 8/128 = Rs.20,998 (Cashify/Flipkart); Cashify refurb 12/256 = Rs.20,299; A1 resale 8/128 estima"
+    "live_source": "Cashify sell page iQOO Z10 5G base exchange Rs.17,100; new price 8/128 = Rs.20,998 (Cashify/Flipkart); Cashify refurb 12/256 = Rs.20,299; A1 resale 8/128 estima | margin floored to"
   },
   "iqoo_z11x_5g_8_128": {
     "display_name": "iQOO Z11x 5G 8/128GB",
@@ -2711,10 +2711,10 @@
     "launch_date": "2024-01-08",
     "refurb_retail_anchor_excellent": 17000,
     "market_factor": 0.88,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell A25 5G 8GB/128GB upto ₹11,520; Cashify refurb 6GB/128GB Fair=₹14,699; 8GB/128GB Excellent extrapolated ~₹17,000 (Jun 2026)"
+    "live_source": "Cashify sell A25 5G 8GB/128GB upto ₹11,520; Cashify refurb 6GB/128GB Fair=₹14,699; 8GB/128GB Excellent extrapolated ~₹17,000 (Jun 2026) | margin floored to tier C default 0.25 on 2"
   },
   "samsung_f15_5g_4_128": {
     "display_name": "Samsung Galaxy F15 5G 4/128GB",
@@ -3777,10 +3777,10 @@
     "launch_date": "2024-07-10",
     "net_new_inr": 20000,
     "resale_target_a1": 15000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "G85 5G 12/256 Cashify sell up to ₹12,970; new price ₹17,999 (Smartprix/Flipkart Jun 2026). Cashify refurb retail Fair 12/256 = ₹15,199; Excellent ~₹17,500. 8/25"
+    "live_source": "G85 5G 12/256 Cashify sell up to ₹12,970; new price ₹17,999 (Smartprix/Flipkart Jun 2026). Cashify refurb retail Fair 12/256 = ₹15,199; Excellent ~₹17,500. 8/25 | margin floored to"
   },
   "samsung_a57_5g_8_256": {
     "display_name": "Samsung Galaxy A57 5G 8/256GB",
@@ -3912,10 +3912,10 @@
     "launch_date": "2025-03-05",
     "net_new_inr": 24000,
     "resale_target_a1": 20000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell A26 5G 8GB/256GB upto ₹13,300; Flipkart new 256GB=₹27,999; 256GB Excellent refurb ~₹21,000 extrapolated; resale_target_a1 ~₹20,000 (Jun 2026)"
+    "live_source": "Cashify sell A26 5G 8GB/256GB upto ₹13,300; Flipkart new 256GB=₹27,999; 256GB Excellent refurb ~₹21,000 extrapolated; resale_target_a1 ~₹20,000 (Jun 2026) | margin floored to tier "
   },
   "samsung_s26_plus_512": {
     "display_name": "Samsung Galaxy S26+ 512GB",
@@ -4260,10 +4260,10 @@
     "launch_date": "2025-06-23",
     "net_new_inr": 20000,
     "resale_target_a1": 15000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "G86 Power 5G 8/256 new price ₹19,999 (Flipkart/Amazon Jun 2026). No Cashify sell page found yet. Current resale_target_a1 ₹15,000 (~75% of new) is reasonable fo"
+    "live_source": "G86 Power 5G 8/256 new price ₹19,999 (Flipkart/Amazon Jun 2026). No Cashify sell page found yet. Current resale_target_a1 ₹15,000 (~75% of new) is reasonable fo | margin floored to"
   },
   "iphone_13_pro_max_512": {
     "display_name": "iPhone 13 Pro Max 512GB",
@@ -4385,10 +4385,10 @@
     "launch_date": "2024-12-09",
     "net_new_inr": 20000,
     "resale_target_a1": 12000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell 8GB/256GB up to ₹11,440; new price on Cashify page ₹21,999 (Flipkart likely ~₹18,000 after discounts). Resale A1 ~₹12,000 (≈Cashify sell × 1.05). c"
+    "live_source": "Cashify sell 8GB/256GB up to ₹11,440; new price on Cashify page ₹21,999 (Flipkart likely ~₹18,000 after discounts). Resale A1 ~₹12,000 (≈Cashify sell × 1.05). c | margin floored to"
   },
   "google_pixel_10_pro_xl_512": {
     "display_name": "Google Pixel 10 Pro XL 512GB",
@@ -5017,10 +5017,10 @@
     "launch_date": "2024-03-21",
     "net_new_inr": 20000,
     "resale_target_a1": 14500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "New price Vivo T3 5G 8GB/256GB ₹20,499 (Cashify); refurb excellent est ₹15,500 (scaled from 128GB ₹13,399 + ₹2,100 storage premium); resale_target_a1 ≈ ₹15,500 "
+    "live_source": "New price Vivo T3 5G 8GB/256GB ₹20,499 (Cashify); refurb excellent est ₹15,500 (scaled from 128GB ₹13,399 + ₹2,100 storage premium); resale_target_a1 ≈ ₹15,500  | margin floored to"
   },
   "oneplus_nord_5_8_256": {
     "display_name": "OnePlus Nord 5 8/256GB",
@@ -5068,10 +5068,10 @@
     "launch_date": "2024-11-21",
     "net_new_inr": 22000,
     "resale_target_a1": 13500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify approx buyback ₹6,560 (8/128 base); 256GB premium +₹1,500. New retail ₹23,999. Resale A1 ₹13,500 < ceiling ₹23,999×0.80=₹19,199. 25-Jun-2026."
+    "live_source": "Cashify approx buyback ₹6,560 (8/128 base); 256GB premium +₹1,500. New retail ₹23,999. Resale A1 ₹13,500 < ceiling ₹23,999×0.80=₹19,199. 25-Jun-2026. | margin floored to tier C def"
   },
   "redmi_12_5g_4_256": {
     "display_name": "Redmi 12 5G 4/256GB",
@@ -5218,10 +5218,10 @@
     "launch_date": "2025-06-18",
     "net_new_inr": 24000,
     "resale_target_a1": 18500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Vivo Y400 5G 8GB/256GB new price = ₹23,999 confirmed (Cashify, multiple retailers, June 2026). Scaled from 128GB resale target (₹17,000) + ₹1,500 storage premiu"
+    "live_source": "Vivo Y400 5G 8GB/256GB new price = ₹23,999 confirmed (Cashify, multiple retailers, June 2026). Scaled from 128GB resale target (₹17,000) + ₹1,500 storage premiu | margin floored to"
   },
   "poco_x7_5g_8_256": {
     "display_name": "Poco X7 5G 8/256GB",
@@ -5230,10 +5230,10 @@
     "launch_date": "2025-01-09",
     "net_new_inr": 23000,
     "resale_target_a1": 16700,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-07-20",
-    "live_source": "Poco X7 5G 8GB/256GB: Flipkart ₹19,999 − ₹1,000 bank offer = ₹18,999 net new (flipkart.com, 25-Jun-2026). 256GB tier premium ≈ +₹2,500 over 128GB; resale A1 ≈ ₹"
+    "live_source": "Poco X7 5G 8GB/256GB: Flipkart ₹19,999 − ₹1,000 bank offer = ₹18,999 net new (flipkart.com, 25-Jun-2026). 256GB tier premium ≈ +₹2,500 over 128GB; resale A1 ≈ ₹ | margin floored to"
   },
   "iqoo_z10_5g_8_256": {
     "display_name": "iQOO Z10 5G 8/256GB",
@@ -5242,10 +5242,10 @@
     "launch_date": "2025-04-22",
     "net_new_inr": 24000,
     "resale_target_a1": 18000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Scaled from 8/128 A1 resale Rs.16,500; 256GB premium ~Rs.1,500; new price 8/256 = Rs.23,999; Cashify refurb 12/256 = Rs.20,299 (ceiling reference), 25-Jun-2026"
+    "live_source": "Scaled from 8/128 A1 resale Rs.16,500; 256GB premium ~Rs.1,500; new price 8/256 = Rs.23,999; Cashify refurb 12/256 = Rs.20,299 (ceiling reference), 25-Jun-2026 | margin floored to "
   },
   "google_pixel_7_256": {
     "display_name": "Google Pixel 7 256GB",
@@ -5602,10 +5602,10 @@
     "launch_date": "2025-04-28",
     "net_new_inr": 21000,
     "resale_target_a1": 15600,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-07-20",
-    "live_source": "No direct 256GB price surfaced on Cashify refurb page (only 128GB SKU priced). Extrapolated from 128GB live move (Rs 14,500 -> Rs 13,700, -5.5%) applied proportionally to prior 256GB value; storage no"
+    "live_source": "No direct 256GB price surfaced on Cashify refurb page (only 128GB SKU priced). Extrapolated from 128GB live move (Rs 14,500 -> Rs 13,700, -5.5%) applied proportionally to prior 256"
   },
   "iphone_16_plus_256": {
     "display_name": "iPhone 16 Plus 256GB",
@@ -5688,10 +5688,10 @@
     "launch_date": "2025-03-20",
     "net_new_inr": 26000,
     "resale_target_a1": 18500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell F29 5G 128GB ₹15,530 → 256GB ~₹17,000 scaled; Cashify refurb 128GB Fair ₹15,799 → 256GB excellent ~₹19,500; new price 8/256GB ₹25,000 (Flipkart eff"
+    "live_source": "Cashify sell F29 5G 128GB ₹15,530 → 256GB ~₹17,000 scaled; Cashify refurb 128GB Fair ₹15,799 → 256GB excellent ~₹19,500; new price 8/256GB ₹25,000 (Flipkart eff | margin floored to"
   },
   "moto_razr_40_8_512": {
     "display_name": "Motorola Razr 40 8/512GB",
@@ -5859,10 +5859,10 @@
     "launch_date": "2024-01-08",
     "refurb_retail_anchor_excellent": 18500,
     "market_factor": 0.88,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell A25 5G 8GB/256GB upto ₹11,810; 256GB Excellent ~₹18,500 extrapolated from 128GB refurb data (Jun 2026)"
+    "live_source": "Cashify sell A25 5G 8GB/256GB upto ₹11,810; 256GB Excellent ~₹18,500 extrapolated from 128GB refurb data (Jun 2026) | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "samsung_s25_plus_512": {
     "display_name": "Samsung Galaxy S25+ 512GB",
@@ -5910,13 +5910,13 @@
     "launch_date": "2024-10-15",
     "net_new_inr": 25000,
     "resale_target_a1": 16500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "cashify_calibration_excellent": 10400,
     "refurb_retail_source": "Shane verified Cashify SELL flow ₹10,400",
     "notes": "Curved AMOLED, SD695. Slow resell.",
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify only lists 8/128GB officially for Y300 Plus; 256GB not sold separately in India. Estimated +₹1,500 storage premium over 128GB resale. Net new ceiling es"
+    "live_source": "Cashify only lists 8/128GB officially for Y300 Plus; 256GB not sold separately in India. Estimated +₹1,500 storage premium over 128GB resale. Net new ceiling es | margin floored to"
   },
   "xiaomi_13_8_512": {
     "display_name": "Xiaomi 13 8/512GB",
@@ -5994,11 +5994,11 @@
     "launch_date": "2026-03-25",
     "net_new_inr": 34000,
     "resale_target_a1": 26000,
-    "target_margin": 0.2,
+    "target_margin": 0.25,
     "notes": "Just launched. Limited resale data.",
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "New price ₹33,999 (8/256GB, search data Jun-2026). No Cashify sell data found — phone ~3 months old. Resale target = new × 0.77 = ₹26,179 → ₹26,000. Mandatory c"
+    "live_source": "New price ₹33,999 (8/256GB, search data Jun-2026). No Cashify sell data found — phone ~3 months old. Resale target = new × 0.77 = ₹26,179 → ₹26,000. Mandatory c | margin floored to"
   },
   "google_pixel_10_256": {
     "display_name": "Google Pixel 10 256GB",
@@ -6110,10 +6110,10 @@
     "launch_date": "2024-07-23",
     "net_new_inr": 19000,
     "resale_target_a1": 13000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "New price 8GB/256GB ₹24,499 (Samsung.in); A1 resale scaled +₹1,500 from 128GB estimate; well below new price ceiling; 25-Jun-2026"
+    "live_source": "New price 8GB/256GB ₹24,499 (Samsung.in); A1 resale scaled +₹1,500 from 128GB estimate; well below new price ceiling; 25-Jun-2026 | margin floored to tier C default 0.25 on 2026-08"
   },
   "nothing_phone_3a_pro_12_512": {
     "display_name": "Nothing Phone 3a Pro 12/512GB",
@@ -6145,10 +6145,10 @@
     "launch_date": "2025-07-08",
     "net_new_inr": 26000,
     "resale_target_a1": 18500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Scaled from 128GB CE5 data (+₹1,500 storage premium). New 256GB MRP ₹26,999; net sale price est. ₹22,500-24,999. Sanity: ₹18,500 < ₹22,500 × 0.80 = ₹18,000 — ma"
+    "live_source": "Scaled from 128GB CE5 data (+₹1,500 storage premium). New 256GB MRP ₹26,999; net sale price est. ₹22,500-24,999. Sanity: ₹18,500 < ₹22,500 × 0.80 = ₹18,000 — ma | margin floored to"
   },
   "vivo_t3x_5g_4_256": {
     "display_name": "Vivo T3x 5G 4/256GB",
@@ -6238,10 +6238,10 @@
     "launch_date": "2026-04-09",
     "net_new_inr": 21000,
     "resale_target_a1": 16000,
-    "target_margin": 0.2,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Flipkart/Xiaomi.in: Redmi Note 15 SE 5G 8/256GB effective new price ~₹21,999 (MRP ₹27,999 minus ₹4,000 intro + ₹2,000 ICICI offer); resale A1 set at ~73% of net"
+    "live_source": "Flipkart/Xiaomi.in: Redmi Note 15 SE 5G 8/256GB effective new price ~₹21,999 (MRP ₹27,999 minus ₹4,000 intro + ₹2,000 ICICI offer); resale A1 set at ~73% of net | margin floored to"
   },
   "samsung_a54_5g_8_256": {
     "display_name": "Samsung Galaxy A54 5G 8/256GB",
@@ -6276,10 +6276,10 @@
     "launch_date": "2024-09-04",
     "net_new_inr": 23000,
     "resale_target_a1": 17500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell F27 5G 128GB ₹13,030 → 256GB ~₹14,500 scaled; refurb retail 128GB Fair ₹14,999 → 256GB excellent ~₹18,500; new price 8/256GB ₹24,999. A1 resale tar"
+    "live_source": "Cashify sell F27 5G 128GB ₹13,030 → 256GB ~₹14,500 scaled; refurb retail 128GB Fair ₹14,999 → 256GB excellent ~₹18,500; new price 8/256GB ₹24,999. A1 resale tar | margin floored to"
   },
   "moto_edge_40_8_512": {
     "display_name": "Motorola Edge 40 8/512GB",
@@ -6313,10 +6313,10 @@
     "launch_date": "2025-09-08",
     "net_new_inr": 21000,
     "resale_target_a1": 16000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell up to ₹13,130 for G96 5G 8/256 (25-Jun-2026). New price ₹19,999 (Flipkart). Excellent refurb estimated ~₹16,800. resale_target_a1 = ₹16,000 (below "
+    "live_source": "Cashify sell up to ₹13,130 for G96 5G 8/256 (25-Jun-2026). New price ₹19,999 (Flipkart). Excellent refurb estimated ~₹16,800. resale_target_a1 = ₹16,000 (below  | margin floored to"
   },
   "moto_razr_40_ultra_8_512": {
     "display_name": "Motorola Razr 40 Ultra 8/512GB",
@@ -6915,10 +6915,10 @@
     "launch_date": "2025-03-26",
     "net_new_inr": 21000,
     "resale_target_a1": 14000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Realme Narzo 80 Pro 5G 8GB/256GB launch ₹21,499; Flipkart 12GB/256GB at ₹26,599 (higher tier); 8GB/256GB est. NET ₹20,500-21,000; Cashify refurb 12GB/256GB ₹17,"
+    "live_source": "Realme Narzo 80 Pro 5G 8GB/256GB launch ₹21,499; Flipkart 12GB/256GB at ₹26,599 (higher tier); 8GB/256GB est. NET ₹20,500-21,000; Cashify refurb 12GB/256GB ₹17, | margin floored to"
   },
   "vivo_v27_pro_8_256": {
     "display_name": "Vivo V27 Pro 8/256GB",
@@ -6940,10 +6940,10 @@
     "launch_date": "2025-09-12",
     "net_new_inr": 27500,
     "resale_target_a1": 19000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Flipkart 8/256GB current: ~₹25,499 (Smartprix). +₹1,500 storage premium over 128GB resale. Prior ₹21,500 exceeded ceiling ₹25,499×0.80=₹20,399 — corrected to ₹1"
+    "live_source": "Flipkart 8/256GB current: ~₹25,499 (Smartprix). +₹1,500 storage premium over 128GB resale. Prior ₹21,500 exceeded ceiling ₹25,499×0.80=₹20,399 — corrected to ₹1 | margin floored to"
   },
   "poco_x5_5g_6_256": {
     "display_name": "Poco X5 5G 6/256GB",
@@ -7053,10 +7053,10 @@
     "launch_date": "2025-02-18",
     "net_new_inr": 19000,
     "resale_target_a1": 15000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell used-realme-p3-5g-8-gb-256-gb: upto ₹11,930 exchange; 8GB/256GB resale A1 estimated ₹15,000 (+₹1,500 over 128GB, consistent with new price gap of ₹"
+    "live_source": "Cashify sell used-realme-p3-5g-8-gb-256-gb: upto ₹11,930 exchange; 8GB/256GB resale A1 estimated ₹15,000 (+₹1,500 over 128GB, consistent with new price gap of ₹ | margin floored to"
   },
   "iphone_13_mini_256": {
     "display_name": "iPhone 13 mini 256GB",
@@ -14637,11 +14637,11 @@
     "launch_date": "2023-07-20",
     "refurb_retail_anchor_excellent": 9400,
     "market_factor": 0.88,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
     "notes": "Helio G85, 5000mAh, 44W, 90Hz LCD. Launch MRP 14999, July 2023.",
-    "live_source": "Cashify refurb store shows Vivo Y27 6GB/128GB Fair condition at Rs.10,099 (currently out of stock, Cashify Store page fetched 25-Jun-2026). Cashify buyback valu"
+    "live_source": "Cashify refurb store shows Vivo Y27 6GB/128GB Fair condition at Rs.10,099 (currently out of stock, Cashify Store page fetched 25-Jun-2026). Cashify buyback valu | margin floored to"
   },
   "vivo_t2_5g_8_128": {
     "display_name": "Vivo T2 5G 8/128GB",
@@ -15700,8 +15700,8 @@
     "calibration_date": "2026-06-25",
     "discontinued": false,
     "resale_target_a1": 7000,
-    "target_margin": 0.25,
-    "live_source": "Cashify sell base (4/64 implied) = ₹7,540 max; RT resale_target_a1 = ₹7,000 (below ceiling ₹9,999×0.80=₹7,999). New price ₹9,999. Cashify.in, 25-Jun-2026."
+    "target_margin": 0.3,
+    "live_source": "Cashify sell base (4/64 implied) = ₹7,540 max; RT resale_target_a1 = ₹7,000 (below ceiling ₹9,999×0.80=₹7,999). New price ₹9,999. Cashify.in, 25-Jun-2026. | margin floored to tier "
   },
   "redmi_14c_5g_4_128": {
     "display_name": "Redmi 14C 5G 4/128GB",
@@ -15711,8 +15711,8 @@
     "calibration_date": "2026-06-25",
     "discontinued": false,
     "resale_target_a1": 7900,
-    "target_margin": 0.25,
-    "live_source": "Cashify sell 6/128 = ₹7,940 max; base variant (4/128) ~₹7,540; Cashify refurb 4/128 Fair = ₹9,199 → excellent ~₹10,500; RT resale_target_a1 = ₹8,000 (below ceil"
+    "target_margin": 0.3,
+    "live_source": "Cashify sell 6/128 = ₹7,940 max; base variant (4/128) ~₹7,540; Cashify refurb 4/128 Fair = ₹9,199 → excellent ~₹10,500; RT resale_target_a1 = ₹8,000 (below ceil | margin floored to"
   },
   "redmi_14c_5g_6_128": {
     "display_name": "Redmi 14C 5G 6/128GB",
@@ -15722,8 +15722,8 @@
     "calibration_date": "2026-06-25",
     "discontinued": false,
     "resale_target_a1": 8600,
-    "target_margin": 0.25,
-    "live_source": "Cashify sell 6/128 = ₹7,940 max; comparison article shows Cashify buyback ₹7,400; RT resale_target_a1 = ₹9,000 (below ceiling ₹11,999×0.80=₹9,599). New price ₹1"
+    "target_margin": 0.3,
+    "live_source": "Cashify sell 6/128 = ₹7,940 max; comparison article shows Cashify buyback ₹7,400; RT resale_target_a1 = ₹9,000 (below ceiling ₹11,999×0.80=₹9,599). New price ₹1 | margin floored to"
   },
   "redmi_14c_4g_4_128": {
     "display_name": "Redmi 14C 4G 4/128GB",
@@ -16297,10 +16297,10 @@
     "launch_date": "2025-09-16",
     "net_new_inr": 22999,
     "resale_target_a1": 15500,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "estimated",
     "calibration_date": "2026-07-02",
-    "live_source": "Added 02-Jul-2026. Base Oppo F31 5G (Dimensity 6300, 7000mAh, IP66/68/69) launched India 16-Sep-2025 at Rs.22,999 (8/128); street ~Rs.18,599. Cashify buyback ~Rs.7,720. RT resale est ~Rs.15,500 (below F29 5G & F31 Pro, <90% of new). Live-verify refurb retail on first deal. Src: OPPO India newsroom, Cashify, 91mobiles."
+    "live_source": "Added 02-Jul-2026. Base Oppo F31 5G (Dimensity 6300, 7000mAh, IP66/68/69) launched India 16-Sep-2025 at Rs.22,999 (8/128); street ~Rs.18,599. Cashify buyback ~Rs.7,720. RT resale e"
   },
   "oppo_f31_5g_8_256": {
     "display_name": "Oppo F31 5G 8/256GB",
@@ -16309,10 +16309,10 @@
     "launch_date": "2025-09-16",
     "net_new_inr": 24999,
     "resale_target_a1": 17000,
-    "target_margin": 0.22,
+    "target_margin": 0.25,
     "calibration_status": "estimated",
     "calibration_date": "2026-07-02",
-    "live_source": "Added 02-Jul-2026. Base Oppo F31 5G 8/256 launched India 16-Sep-2025 at Rs.24,999; street ~Rs.20,999. RT resale est ~Rs.17,000 (+Rs.1,500 storage over 128GB, below F31 Pro, <90% of new). Live-verify on first deal. Src: OPPO India, Cashify."
+    "live_source": "Added 02-Jul-2026. Base Oppo F31 5G 8/256 launched India 16-Sep-2025 at Rs.24,999; street ~Rs.20,999. RT resale est ~Rs.17,000 (+Rs.1,500 storage over 128GB, below F31 Pro, <90% of"
   },
   "oppo_f31_pro_8_128": {
     "display_name": "Oppo F31 Pro 5G 8/128GB",
@@ -16436,8 +16436,8 @@
     "calibration_date": "2026-06-25",
     "discontinued": false,
     "resale_target_a1": 17500,
-    "target_margin": 0.22,
-    "live_source": "Cashify refurb A6s 5G (4GB/128 Fair) ₹16,599; 8GB/128 refurb estimated ₹18,500; A1 ≈₹17,575 → ₹17,500. New 6GB/128 ₹20,999 per Cashify; 8GB/128 new estimated ₹2"
+    "target_margin": 0.25,
+    "live_source": "Cashify refurb A6s 5G (4GB/128 Fair) ₹16,599; 8GB/128 refurb estimated ₹18,500; A1 ≈₹17,575 → ₹17,500. New 6GB/128 ₹20,999 per Cashify; 8GB/128 new estimated ₹2 | margin floored to"
   },
   "oppo_a6s_8_256": {
     "display_name": "Oppo A6s 8/256GB",
@@ -16447,8 +16447,8 @@
     "calibration_date": "2026-06-25",
     "discontinued": false,
     "resale_target_a1": 18500,
-    "target_margin": 0.22,
-    "live_source": "Cashify refurb A6s 5G (4GB/128 Fair) ₹16,599; 8GB/256 refurb estimated ₹20,000; A1 ≈₹19,000 → ₹18,500. New 8GB/256 estimated ₹24,999 (scaled from 6GB/128 ₹20,99"
+    "target_margin": 0.25,
+    "live_source": "Cashify refurb A6s 5G (4GB/128 Fair) ₹16,599; 8GB/256 refurb estimated ₹20,000; A1 ≈₹19,000 → ₹18,500. New 8GB/256 estimated ₹24,999 (scaled from 6GB/128 ₹20,99 | margin floored to"
   },
   "oppo_a6_pro_8_128": {
     "display_name": "Oppo A6 Pro 5G 8/128GB",
@@ -16458,8 +16458,8 @@
     "calibration_date": "2026-06-25",
     "discontinued": false,
     "resale_target_a1": 17500,
-    "target_margin": 0.22,
-    "live_source": "Cashify refurb Fair 8GB/128GB ₹18,799 (Jun-2026). A1 resale ≈ ₹18,799×0.95 ≈ ₹17,859 → ₹17,500. New price ₹21,999 per Cashify/Smartprix Jun-2026. Cashify buybac"
+    "target_margin": 0.25,
+    "live_source": "Cashify refurb Fair 8GB/128GB ₹18,799 (Jun-2026). A1 resale ≈ ₹18,799×0.95 ≈ ₹17,859 → ₹17,500. New price ₹21,999 per Cashify/Smartprix Jun-2026. Cashify buybac | margin floored to"
   },
   "oppo_a6_pro_8_256": {
     "display_name": "Oppo A6 Pro 5G 8/256GB",
@@ -16469,8 +16469,8 @@
     "calibration_date": "2026-06-25",
     "discontinued": false,
     "resale_target_a1": 18500,
-    "target_margin": 0.22,
-    "live_source": "Cashify refurb Fair 8GB/128GB ₹18,799 confirmed; 256GB tier +₹2,000-3,000 → refurb ≈₹20,000; A1 ≈₹19,000 → ₹18,500 (conservative). New price 256GB ₹23,999 per C"
+    "target_margin": 0.25,
+    "live_source": "Cashify refurb Fair 8GB/128GB ₹18,799 confirmed; 256GB tier +₹2,000-3,000 → refurb ≈₹20,000; A1 ≈₹19,000 → ₹18,500 (conservative). New price 256GB ₹23,999 per C | margin floored to"
   },
   "oppo_find_n5_16_512": {
     "display_name": "Oppo Find N5 16/512GB",
@@ -16718,8 +16718,8 @@
     "calibration_date": "2026-06-25",
     "discontinued": false,
     "resale_target_a1": 5500,
-    "target_margin": 0.25,
-    "live_source": "Cashify approx buyback ₹2,800; Realme C71 4/64 new price ₹7,699 (Flipkart Jun 2026); A1 resale ₹5,500 is 71% of ceiling — sane; flipkart.com/realme-c71, 25-Jun-"
+    "target_margin": 0.3,
+    "live_source": "Cashify approx buyback ₹2,800; Realme C71 4/64 new price ₹7,699 (Flipkart Jun 2026); A1 resale ₹5,500 is 71% of ceiling — sane; flipkart.com/realme-c71, 25-Jun- | margin floored to"
   },
   "realme_c71_4_128": {
     "display_name": "Realme C71 4/128GB",
@@ -16729,8 +16729,8 @@
     "calibration_date": "2026-06-25",
     "discontinued": false,
     "resale_target_a1": 6200,
-    "target_margin": 0.25,
-    "live_source": "Cashify approx buyback ₹2,800; Realme C71 new price 4/128 ~₹8,699-8,999 (Pricekeeda/91mobiles Jun 2026); A1 resale ₹6,200 is 69% of ceiling — sane; cashify.in/r"
+    "target_margin": 0.3,
+    "live_source": "Cashify approx buyback ₹2,800; Realme C71 new price 4/128 ~₹8,699-8,999 (Pricekeeda/91mobiles Jun 2026); A1 resale ₹6,200 is 69% of ceiling — sane; cashify.in/r | margin floored to"
   },
   "realme_c71_6_128": {
     "display_name": "Realme C71 6/128GB",
@@ -16740,8 +16740,8 @@
     "calibration_date": "2026-06-25",
     "discontinued": false,
     "resale_target_a1": 7000,
-    "target_margin": 0.25,
-    "live_source": "Cashify approx buyback ₹2,800; Realme C71 6/128 new price ₹8,699 (91mobiles/Pricekeeda Jun 2026); A1 resale ₹7,000 is 80% of new ceiling — sane; cashify.in/real"
+    "target_margin": 0.3,
+    "live_source": "Cashify approx buyback ₹2,800; Realme C71 6/128 new price ₹8,699 (91mobiles/Pricekeeda Jun 2026); A1 resale ₹7,000 is 80% of new ceiling — sane; cashify.in/real | margin floored to"
   },
   "realme_p3_pro_5g_8_128": {
     "display_name": "Realme P3 Pro 5G 8/128GB",
@@ -17033,7 +17033,8 @@
     "calibration_date": "2026-06-25",
     "discontinued": false,
     "resale_target_a1": 6900,
-    "target_margin": 0.25
+    "target_margin": 0.3,
+    "live_source": " | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "vivo_y19s_pro_6_128": {
     "display_name": "Vivo Y19s Pro 6/128GB",
@@ -17043,7 +17044,8 @@
     "calibration_date": "2026-06-25",
     "discontinued": false,
     "resale_target_a1": 7700,
-    "target_margin": 0.25
+    "target_margin": 0.3,
+    "live_source": " | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "vivo_y29_5g_4_128": {
     "display_name": "Vivo Y29 5G 4/128GB",
@@ -17625,11 +17627,11 @@
     "launch_date": "2025-08-19",
     "net_new_inr": 14999,
     "resale_target_a1": 11000,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
     "notes": "SD 6s Gen 3, 7000mAh, 6.9in 144Hz.",
-    "live_source": "Note: Redmi 15 5G has no 4GB variant — base is 6GB/128GB at ₹20,499 (post-May 2026 hike from ₹14,999). DB net_new_inr ₹14,999 is stale. Cashify comparison artic"
+    "live_source": "Note: Redmi 15 5G has no 4GB variant — base is 6GB/128GB at ₹20,499 (post-May 2026 hike from ₹14,999). DB net_new_inr ₹14,999 is stale. Cashify comparison artic | margin floored to"
   },
   "redmi_15_5g_6_128": {
     "display_name": "Redmi 15 5G 6/128GB",
@@ -17638,10 +17640,10 @@
     "launch_date": "2025-08-19",
     "net_new_inr": 16499,
     "resale_target_a1": 13000,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Redmi 15 5G 6/128 new price = ₹20,499 (post-May 2026 hike; was ₹14,999 at launch Aug 2025). Cashify comparison article: buyback ₹9,900; RT resale_target_a1 = ₹1"
+    "live_source": "Redmi 15 5G 6/128 new price = ₹20,499 (post-May 2026 hike; was ₹14,999 at launch Aug 2025). Cashify comparison article: buyback ₹9,900; RT resale_target_a1 = ₹1 | margin floored to"
   },
   "redmi_15_5g_8_256": {
     "display_name": "Redmi 15 5G 8/256GB",
@@ -17650,10 +17652,10 @@
     "launch_date": "2025-08-19",
     "net_new_inr": 18999,
     "resale_target_a1": 14000,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify exchange Redmi 15 5G 8GB/256GB ₹13,340 (cashify.in/sell-old-mobile-phone/used-xiaomi-redmi-15-5g-8-gb-256-gb, 25-Jun-2026); new price ₹18,999 (Flipkart/"
+    "live_source": "Cashify exchange Redmi 15 5G 8GB/256GB ₹13,340 (cashify.in/sell-old-mobile-phone/used-xiaomi-redmi-15-5g-8-gb-256-gb, 25-Jun-2026); new price ₹18,999 (Flipkart/ | margin floored to"
   },
   "oneplus_nord_ce4_lite_8_128": {
     "display_name": "OnePlus Nord CE4 Lite 5G 8/128GB",
@@ -17662,11 +17664,11 @@
     "launch_date": "2024-06-24",
     "net_new_inr": 19999,
     "resale_target_a1": 15500,
-    "target_margin": 0.24,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
     "notes": "SD 695, 5500mAh, 80W.",
-    "live_source": "Cashify exchange Nord CE4 Lite 5G 8/128GB up to ₹13,120 (fetch) / ₹12,830 (search). Resale A1 target = exchange × ~1.18 ≈ ₹15,500. New price ₹19,999 (net_new ce"
+    "live_source": "Cashify exchange Nord CE4 Lite 5G 8/128GB up to ₹13,120 (fetch) / ₹12,830 (search). Resale A1 target = exchange × ~1.18 ≈ ₹15,500. New price ₹19,999 (net_new ce | margin floored to"
   },
   "oneplus_nord_ce4_lite_8_256": {
     "display_name": "OnePlus Nord CE4 Lite 5G 8/256GB",
@@ -17675,10 +17677,10 @@
     "launch_date": "2024-06-24",
     "net_new_inr": 22999,
     "resale_target_a1": 17000,
-    "target_margin": 0.24,
+    "target_margin": 0.25,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify exchange Nord CE4 Lite 5G 8/256GB up to ₹13,810 (fetch) / ₹13,370 (search). Resale A1 target = exchange × ~1.23 ≈ ₹17,000. New price ₹22,999 (net_new ce"
+    "live_source": "Cashify exchange Nord CE4 Lite 5G 8/256GB up to ₹13,810 (fetch) / ₹13,370 (search). Resale A1 target = exchange × ~1.23 ≈ ₹17,000. New price ₹22,999 (net_new ce | margin floored to"
   },
   "vivo_t4x_6_128": {
     "display_name": "Vivo T4x 5G 6/128GB",
@@ -17687,11 +17689,11 @@
     "launch_date": "2025-04-02",
     "net_new_inr": 13499,
     "resale_target_a1": 11000,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
     "notes": "Dimensity 7300, 6500mAh.",
-    "live_source": "Cashify refurb retail 6/128 ₹11,999 (fair); A1 excellent = 11,999×0.95≈11,399→11,000. Cashify buyback base ₹4,720 (worn). New price ₹13,999 (Cashify Jun 2026)"
+    "live_source": "Cashify refurb retail 6/128 ₹11,999 (fair); A1 excellent = 11,999×0.95≈11,399→11,000. Cashify buyback base ₹4,720 (worn). New price ₹13,999 (Cashify Jun 2026) | margin floored to t"
   },
   "vivo_t4x_8_128": {
     "display_name": "Vivo T4x 5G 8/128GB",
@@ -17700,10 +17702,10 @@
     "launch_date": "2025-04-02",
     "net_new_inr": 14999,
     "resale_target_a1": 11000,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify general T4x listing ~₹10,830 buyback (aggregate); 8/256 variant shows ₹11,400; 8/128 extrapolated ~₹9,500. New price ₹14,999 (Cashify/91mobiles Jun 2026"
+    "live_source": "Cashify general T4x listing ~₹10,830 buyback (aggregate); 8/256 variant shows ₹11,400; 8/128 extrapolated ~₹9,500. New price ₹14,999 (Cashify/91mobiles Jun 2026 | margin floored to"
   },
   "vivo_t4x_8_256": {
     "display_name": "Vivo T4x 5G 8/256GB",
@@ -17712,10 +17714,10 @@
     "launch_date": "2025-04-02",
     "net_new_inr": 16499,
     "resale_target_a1": 12500,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify T4x 5G 8/256GB sell up to ₹11,400. New price ₹16,999 (MRP). Ceiling 16999×0.80=13,599. cashify.in/sell-old-mobile-phone/used-vivo-t4x-5g-8-gb-256-gb, 25"
+    "live_source": "Cashify T4x 5G 8/256GB sell up to ₹11,400. New price ₹16,999 (MRP). Ceiling 16999×0.80=13,599. cashify.in/sell-old-mobile-phone/used-vivo-t4x-5g-8-gb-256-gb, 25 | margin floored to"
   },
   "realme_15_pro_8_128": {
     "display_name": "Realme 15 Pro 5G 8/128GB",
@@ -17836,11 +17838,11 @@
     "launch_date": "2023-10-20",
     "net_new_inr": 9999,
     "resale_target_a1": 6500,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
     "notes": "Helio G85, 5000mAh.",
-    "live_source": "Cashify refurb A05 4/64 Fair ₹7,799 (Cashify store, Jun-2026); Flipkart current new ₹7,924 net ~₹7,527 after bank offer; Cashify approx buyback ₹3,040. A1 resal"
+    "live_source": "Cashify refurb A05 4/64 Fair ₹7,799 (Cashify store, Jun-2026); Flipkart current new ₹7,924 net ~₹7,527 after bank offer; Cashify approx buyback ₹3,040. A1 resal | margin floored to"
   },
   "samsung_a05_6_128": {
     "display_name": "Samsung Galaxy A05 6/128GB",
@@ -17849,10 +17851,10 @@
     "launch_date": "2023-10-20",
     "net_new_inr": 11999,
     "resale_target_a1": 7400,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Flipkart A05 6/128 current new ₹8,699 net ~₹8,264 after bank offer (Jun-2026); Cashify approx buyback ₹3,040 general; refurb fair ~₹9,000 (scaled from 4/64). A1"
+    "live_source": "Flipkart A05 6/128 current new ₹8,699 net ~₹8,264 after bank offer (Jun-2026); Cashify approx buyback ₹3,040 general; refurb fair ~₹9,000 (scaled from 4/64). A1 | margin floored to"
   },
   "samsung_a05s_4_128": {
     "display_name": "Samsung Galaxy A05s 4/128GB",
@@ -17861,11 +17863,11 @@
     "launch_date": "2023-10-20",
     "net_new_inr": 11499,
     "resale_target_a1": 8500,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
     "notes": "SD 680, 90Hz.",
-    "live_source": "Cashify refurb A05s 4/128 Fair ₹10,299 (Cashify store, Jun-2026); Flipkart current new ₹10,030 net ~₹9,502 after bank offer; Cashify approx buyback ₹4,600. A1 r"
+    "live_source": "Cashify refurb A05s 4/128 Fair ₹10,299 (Cashify store, Jun-2026); Flipkart current new ₹10,030 net ~₹9,502 after bank offer; Cashify approx buyback ₹4,600. A1 r | margin floored to"
   },
   "samsung_a05s_6_128": {
     "display_name": "Samsung Galaxy A05s 6/128GB",
@@ -17874,10 +17876,10 @@
     "launch_date": "2023-10-20",
     "net_new_inr": 13499,
     "resale_target_a1": 9400,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Flipkart A05s 6/128 current new ₹10,999 net ~₹10,449 after bank offer (Jun-2026); Cashify refurb 4/128 fair ₹10,299, excellent ~₹11,000, scaled +₹1,500 for 6/12"
+    "live_source": "Flipkart A05s 6/128 current new ₹10,999 net ~₹10,449 after bank offer (Jun-2026); Cashify refurb 4/128 fair ₹10,299, excellent ~₹11,000, scaled +₹1,500 for 6/12 | margin floored to"
   },
   "samsung_f14_4_128": {
     "display_name": "Samsung Galaxy F14 5G 4/128GB",
@@ -17886,11 +17888,11 @@
     "launch_date": "2023-03-31",
     "net_new_inr": 13490,
     "resale_target_a1": 6700,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
     "notes": "Exynos 1330, 6000mAh.",
-    "live_source": "Cashify sell-old page (used-samsung-galaxy-f14-5g): listing value ₹6,740 for 4/128GB; updated A1 resale from ₹6,500 to ₹6,700 to align with Cashify market data "
+    "live_source": "Cashify sell-old page (used-samsung-galaxy-f14-5g): listing value ₹6,740 for 4/128GB; updated A1 resale from ₹6,500 to ₹6,700 to align with Cashify market data  | margin floored to"
   },
   "samsung_f14_6_128": {
     "display_name": "Samsung Galaxy F14 5G 6/128GB",
@@ -17899,10 +17901,10 @@
     "launch_date": "2023-03-31",
     "net_new_inr": 14990,
     "resale_target_a1": 7500,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell-old page (used-samsung-galaxy-f14-5g): showed ₹6,740 with no variant differentiation; 6/128 held at ₹7,500 to maintain ordering above 4/128 (₹6,700"
+    "live_source": "Cashify sell-old page (used-samsung-galaxy-f14-5g): showed ₹6,740 with no variant differentiation; 6/128 held at ₹7,500 to maintain ordering above 4/128 (₹6,700 | margin floored to"
   },
   "redmi_12c_4_64": {
     "display_name": "Redmi 12C 4/64GB",
@@ -17911,11 +17913,11 @@
     "launch_date": "2023-01-05",
     "net_new_inr": 8999,
     "resale_target_a1": 5500,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
     "notes": "Helio G85, 5000mAh.",
-    "live_source": "Cashify sell Redmi 12C 4GB/64GB: Get Upto ₹5,190. Cashify refurb retail 4GB/128GB = ₹7,199; resale target A1 set at ₹5,500 (above Cashify sell ₹5,190, below new"
+    "live_source": "Cashify sell Redmi 12C 4GB/64GB: Get Upto ₹5,190. Cashify refurb retail 4GB/128GB = ₹7,199; resale target A1 set at ₹5,500 (above Cashify sell ₹5,190, below new | margin floored to"
   },
   "redmi_12c_6_128": {
     "display_name": "Redmi 12C 6/128GB",
@@ -17924,10 +17926,10 @@
     "launch_date": "2023-01-05",
     "net_new_inr": 10999,
     "resale_target_a1": 6200,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell Redmi 12C 6GB/128GB: Get Upto ₹5,640. Cashify refurb retail 4GB/128GB = ₹7,199 (6GB/128GB refurb ~₹7,500 estimated); resale target A1 set at ₹6,200"
+    "live_source": "Cashify sell Redmi 12C 6GB/128GB: Get Upto ₹5,640. Cashify refurb retail 4GB/128GB = ₹7,199 (6GB/128GB refurb ~₹7,500 estimated); resale target A1 set at ₹6,200 | margin floored to"
   },
   "oppo_a58_6_128": {
     "display_name": "Oppo A58 6/128GB",
@@ -17936,11 +17938,11 @@
     "launch_date": "2023-09-08",
     "net_new_inr": 14999,
     "resale_target_a1": 6000,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
     "notes": "Helio G85, 5000mAh, 33W.",
-    "live_source": "Cashify price page: A58 4G estimated buyback ~₹4,040 (Jun 2026). New price ₹14,999 (Flipkart/Amazon). Resale target = ₹4,040 × 1.20 ≈ ₹4,848 → ₹6,000 (adjusted "
+    "live_source": "Cashify price page: A58 4G estimated buyback ~₹4,040 (Jun 2026). New price ₹14,999 (Flipkart/Amazon). Resale target = ₹4,040 × 1.20 ≈ ₹4,848 → ₹6,000 (adjusted  | margin floored to"
   },
   "oppo_a58_8_128": {
     "display_name": "Oppo A58 8/128GB",
@@ -17949,9 +17951,10 @@
     "launch_date": "2023-09-08",
     "net_new_inr": 16999,
     "resale_target_a1": 8000,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "estimated",
-    "calibration_date": "2026-06-25"
+    "calibration_date": "2026-06-25",
+    "live_source": " | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "infinix_hot_40_8_128": {
     "display_name": "Infinix Hot 40 8/128GB",
@@ -17960,10 +17963,11 @@
     "launch_date": "2023-12-04",
     "net_new_inr": 12999,
     "resale_target_a1": 5500,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "estimated",
     "calibration_date": "2026-06-25",
-    "notes": "Helio G99."
+    "notes": "Helio G99.",
+    "live_source": " | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "infinix_hot_40i_8_128": {
     "display_name": "Infinix Hot 40i 8/128GB",
@@ -17972,10 +17976,10 @@
     "launch_date": "2023-12-04",
     "net_new_inr": 9999,
     "resale_target_a1": 4000,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify buyback approx ₹3,800 for Hot 40i (infinix-hot-40i-price-in-india, Jun-2026). Cashify refurb retail for 8/256 variant ₹9,699. 8/128 A1 resale set slight"
+    "live_source": "Cashify buyback approx ₹3,800 for Hot 40i (infinix-hot-40i-price-in-india, Jun-2026). Cashify refurb retail for 8/256 variant ₹9,699. 8/128 A1 resale set slight | margin floored to"
   },
   "infinix_note_40_8_256": {
     "display_name": "Infinix Note 40 8/256GB",
@@ -17984,10 +17988,11 @@
     "launch_date": "2024-04-18",
     "net_new_inr": 17999,
     "resale_target_a1": 8000,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "estimated",
     "calibration_date": "2026-06-25",
-    "notes": "Helio G99 / Dimensity, 45W."
+    "notes": "Helio G99 / Dimensity, 45W.",
+    "live_source": " | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "infinix_note_40_pro_8_256": {
     "display_name": "Infinix Note 40 Pro 5G 8/256GB",
@@ -18021,9 +18026,10 @@
     "launch_date": "2023-11-20",
     "net_new_inr": 6999,
     "resale_target_a1": 3000,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "estimated",
-    "calibration_date": "2026-06-25"
+    "calibration_date": "2026-06-25",
+    "live_source": " | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "infinix_gt_20_pro_8_256": {
     "display_name": "Infinix GT 20 Pro 8/256GB",
@@ -18045,11 +18051,11 @@
     "launch_date": "2023-12-15",
     "net_new_inr": 10999,
     "resale_target_a1": 5000,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
     "notes": "Helio G85.",
-    "live_source": "Cashify approx buyback Tecno Spark 20 ₹4,200; new price ₹10,499 (cashify.in/tecno-spark-20-price-in-india, Jun 2026); resale_target = buyback×1.19 ≈ ₹5,000; san"
+    "live_source": "Cashify approx buyback Tecno Spark 20 ₹4,200; new price ₹10,499 (cashify.in/tecno-spark-20-price-in-india, Jun 2026); resale_target = buyback×1.19 ≈ ₹5,000; san | margin floored to"
   },
   "tecno_spark_20_pro_8_256": {
     "display_name": "Tecno Spark 20 Pro 8/256GB",
@@ -18058,10 +18064,10 @@
     "launch_date": "2023-12-15",
     "net_new_inr": 13999,
     "resale_target_a1": 6000,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "New price Tecno Spark 20 Pro ₹12,999 (cashify.in/tecno-spark-20-pro-price-in-india, Jun 2026); no direct Cashify exchange shown; scaled from Spark 20 (₹5,000 re"
+    "live_source": "New price Tecno Spark 20 Pro ₹12,999 (cashify.in/tecno-spark-20-pro-price-in-india, Jun 2026); no direct Cashify exchange shown; scaled from Spark 20 (₹5,000 re | margin floored to"
   },
   "tecno_pova_6_8_256": {
     "display_name": "Tecno Pova 6 5G 8/256GB",
@@ -18108,11 +18114,11 @@
     "launch_date": "2023-09-22",
     "net_new_inr": 11999,
     "resale_target_a1": 6000,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
     "notes": "Dimensity 6020.",
-    "live_source": "Cashify approx buyback ₹4,000 (base model); 6/128 new price ₹11,699 Flipkart Jun 2026. Storage premium ~+₹1,000 over 4/64 variant resale. Sanity: ₹6,000 < ₹11,6"
+    "live_source": "Cashify approx buyback ₹4,000 (base model); 6/128 new price ₹11,699 Flipkart Jun 2026. Storage premium ~+₹1,000 over 4/64 variant resale. Sanity: ₹6,000 < ₹11,6 | margin floored to"
   },
   "lava_blaze_curve_5g_8_128": {
     "display_name": "Lava Blaze Curve 5G 8/128GB",
@@ -18121,11 +18127,11 @@
     "launch_date": "2024-04-15",
     "net_new_inr": 17999,
     "resale_target_a1": 11000,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
     "notes": "Dimensity 7050, curved AMOLED.",
-    "live_source": "Cashify approx buyback ₹7,200 (cashify.in/lava-blaze-curve-5g-price-in-india); new price ₹14,899 Smartprix/Pricekeeda Apr 2026 (dropped from ₹17,999); OLX listi"
+    "live_source": "Cashify approx buyback ₹7,200 (cashify.in/lava-blaze-curve-5g-price-in-india); new price ₹14,899 Smartprix/Pricekeeda Apr 2026 (dropped from ₹17,999); OLX listi | margin floored to"
   },
   "lava_agni_3_8_256": {
     "display_name": "Lava Agni 3 5G 8/256GB",
@@ -18147,10 +18153,10 @@
     "launch_date": "2024-02-20",
     "net_new_inr": 7999,
     "resale_target_a1": 3800,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify approx buyback ₹2,720 for Lava Yuva 3 (cashify.in/lava-yuva-3-price-in-india); new price ₹6,699 Amazon/Smartprix Jun 2026. Resale target ≈ Cashify refur"
+    "live_source": "Cashify approx buyback ₹2,720 for Lava Yuva 3 (cashify.in/lava-yuva-3-price-in-india); new price ₹6,699 Amazon/Smartprix Jun 2026. Resale target ≈ Cashify refur | margin floored to"
   },
   "macbook_air_m1_2020_8_256": {
     "display_name": "MacBook Air M1 (2020) 8/256GB",
@@ -18709,9 +18715,9 @@
     "launch_date": "2024-04-09",
     "net_new_inr": 14999,
     "resale_target_a1": 8000,
-    "target_margin": 0.28,
+    "target_margin": 0.3,
     "notes": "Snapdragon 680, 6000mAh.",
-    "live_source": "Cashify new price ₹20,890; Smartprix/multiple sources ₹19,990. No direct Cashify exchange found. A1 resale estimated ~40% off new for budget 4G phone ~2 yrs old"
+    "live_source": "Cashify new price ₹20,890; Smartprix/multiple sources ₹19,990. No direct Cashify exchange found. A1 resale estimated ~40% off new for budget 4G phone ~2 yrs old | margin floored to"
   },
   "honor_x8b_8_128": {
     "calibration_status": "verified",
@@ -19082,7 +19088,8 @@
     "launch_date": "2024-10-04",
     "net_new_inr": 12999,
     "resale_target_a1": 6500,
-    "target_margin": 0.28
+    "target_margin": 0.3,
+    "live_source": " | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "infinix_smart_9_4_64": {
     "calibration_status": "estimated",
@@ -19146,8 +19153,8 @@
     "launch_date": "2024-10-15",
     "net_new_inr": 13999,
     "resale_target_a1": 7000,
-    "target_margin": 0.28,
-    "live_source": "New price Tecno Spark 30 Pro ₹13,990 confirmed multiple sources Jun 2026; ~8 months old; no direct Cashify exchange; resale ~50% of new for relatively recent Te"
+    "target_margin": 0.3,
+    "live_source": "New price Tecno Spark 30 Pro ₹13,990 confirmed multiple sources Jun 2026; ~8 months old; no direct Cashify exchange; resale ~50% of new for relatively recent Te | margin floored to"
   },
   "tecno_phantom_v_fold2_5g_12_512": {
     "calibration_status": "verified",
@@ -26382,92 +26389,92 @@
     "tier": "C",
     "launch_date": "2026-08-06",
     "resale_target_a1": 22400,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 28000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹22,400/new ₹28,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹22,400/new ₹28,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "redmi_note_17_5g_8_128": {
     "display_name": "Redmi Note 17 5G (8GB/128GB)",
     "tier": "C",
     "launch_date": "2026-08-06",
     "resale_target_a1": 24800,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 31000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹24,800/new ₹31,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹24,800/new ₹31,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "poco_m8_power_5g_6_128": {
     "display_name": "Poco M8 Power 5G 6/128GB",
     "tier": "C",
     "launch_date": "2026-08-04",
     "resale_target_a1": 20000,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 25000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹20,000/new ₹25,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹20,000/new ₹25,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "poco_m8_power_5g_8_128": {
     "display_name": "Poco M8 Power 5G 8/128GB",
     "tier": "C",
     "launch_date": "2026-08-04",
     "resale_target_a1": 22400,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 28000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹22,400/new ₹28,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹22,400/new ₹28,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "redmi_15c_5g_4_128": {
     "display_name": "Redmi 15C 5G 4/128GB",
     "tier": "D",
     "launch_date": "2025-12-03",
     "resale_target_a1": 10100,
-    "target_margin": 0.099,
+    "target_margin": 0.3,
     "net_new_inr": 12500,
     "buyback_market": 9200,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹10,100/new ₹12,500/buy ₹9,200. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹10,100/new ₹12,500/buy ₹9,200. A1=resale÷(1+0.099). | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "redmi_15c_5g_6_128": {
     "display_name": "Redmi 15C 5G 6/128GB",
     "tier": "D",
     "launch_date": "2025-12-03",
     "resale_target_a1": 11600,
-    "target_margin": 0.099,
+    "target_margin": 0.3,
     "net_new_inr": 14000,
     "buyback_market": 10400,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹11,600/new ₹14,000/buy ₹10,400. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹11,600/new ₹14,000/buy ₹10,400. A1=resale÷(1+0.099). | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "redmi_15c_5g_8_128": {
     "display_name": "Redmi 15C 5G 8/128GB",
     "tier": "D",
     "launch_date": "2025-12-03",
     "resale_target_a1": 12400,
-    "target_margin": 0.099,
+    "target_margin": 0.3,
     "net_new_inr": 15500,
     "buyback_market": 11300,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹12,400/new ₹15,500/buy ₹11,300. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹12,400/new ₹15,500/buy ₹11,300. A1=resale÷(1+0.099). | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "redmi_a5_3_64": {
     "display_name": "Redmi A5 3/64GB",
     "tier": "D",
     "launch_date": "2025-04-15",
     "resale_target_a1": 5100,
-    "target_margin": 0.099,
+    "target_margin": 0.3,
     "net_new_inr": 6500,
     "buyback_market": 4700,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹5,100/new ₹6,500/buy ₹4,700. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹5,100/new ₹6,500/buy ₹4,700. A1=resale÷(1+0.099). | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "realme_16_pro_5g_8_128": {
     "display_name": "Realme 16 Pro 5G (8GB/128GB)",
@@ -26552,11 +26559,11 @@
     "tier": "C",
     "launch_date": "2026-07-20",
     "resale_target_a1": 12000,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 15000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹12,000/new ₹15,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹12,000/new ₹15,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "vivo_s2_8_128": {
     "display_name": "Vivo S2 5G 8/128GB",
@@ -26587,160 +26594,161 @@
     "tier": "C",
     "launch_date": "2026-07-16",
     "resale_target_a1": 16000,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 20000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹16,000/new ₹20,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹16,000/new ₹20,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "vivo_t5_lite_5g_6_128": {
     "display_name": "Vivo T5 Lite 5G 6/128GB",
     "tier": "C",
     "launch_date": "2026-07-16",
     "resale_target_a1": 17600,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 22000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹17,600/new ₹22,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹17,600/new ₹22,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "vivo_t5_lite_5g_6_256": {
     "display_name": "Vivo T5 Lite 5G 6/256GB",
     "tier": "C",
     "launch_date": "2026-07-16",
     "resale_target_a1": 20000,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 25000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹20,000/new ₹25,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹20,000/new ₹25,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "iqoo_z11_lite_5g_4_128": {
     "display_name": "iQOO Z11 Lite 5G 4/128GB",
     "tier": "C",
     "launch_date": "2026-07-24",
     "resale_target_a1": 15600,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 19500,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹15,600/new ₹19,500. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹15,600/new ₹19,500. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "iqoo_z11_lite_5g_6_128": {
     "display_name": "iQOO Z11 Lite 5G 6/128GB",
     "tier": "C",
     "launch_date": "2026-07-24",
     "resale_target_a1": 17200,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 21500,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹17,200/new ₹21,500. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹17,200/new ₹21,500. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "iqoo_z11_lite_5g_6_256": {
     "display_name": "iQOO Z11 Lite 5G 6/256GB",
     "tier": "C",
     "launch_date": "2026-07-24",
     "resale_target_a1": 19600,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 24500,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹19,600/new ₹24,500. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹19,600/new ₹24,500. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "vivo_y400_pro_5g_8_128": {
     "display_name": "Vivo Y400 Pro 5G 8/128GB",
     "tier": "C",
     "launch_date": "2025-06-27",
     "resale_target_a1": 19200,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 25000,
     "buyback_market": 16500,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹19,200/new ₹25,000/buy ₹16,500. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹19,200/new ₹25,000/buy ₹16,500. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "vivo_y400_pro_5g_8_256": {
     "display_name": "Vivo Y400 Pro 5G 8/256GB",
     "tier": "C",
     "launch_date": "2025-06-27",
-    "resale_target_a1": 20800,
-    "target_margin": 0.099,
-    "net_new_inr": 27000,
-    "buyback_market": 17800,
+    "resale_target_a1": 21800,
+    "target_margin": 0.25,
+    "net_new_inr": 31999,
+    "buyback_market": 18200,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹20,800/new ₹27,000/buy ₹17,800. A1=resale÷(1+0.099)."
+    "calibration_date": "2026-08-24",
+    "live_source": "ANCHOR AUDIT 2026-08-24 (lower): resale ₹20,000 / new ₹31,999 -> A1 ₹16,000 = resale÷(1+0.25) [margin] marketplace_used/medium",
+    "market_resale_observed": 20000
   },
   "oneplus_n6x_4_64": {
     "display_name": "OnePlus N6x 4/64GB",
     "tier": "C",
     "launch_date": "2026-07-31",
     "resale_target_a1": 15200,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 19000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹15,200/new ₹19,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹15,200/new ₹19,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "oneplus_n6x_4_128": {
     "display_name": "OnePlus N6x 4/128GB",
     "tier": "C",
     "launch_date": "2026-07-31",
     "resale_target_a1": 16800,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 21000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹16,800/new ₹21,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹16,800/new ₹21,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "oppo_a5_pro_8_128": {
     "display_name": "Oppo A5 Pro 5G 8/128GB",
     "tier": "C",
     "launch_date": "2025-04-24",
     "resale_target_a1": 13900,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 18000,
     "buyback_market": 12200,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹13,900/new ₹18,000/buy ₹12,200. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹13,900/new ₹18,000/buy ₹12,200. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "oppo_a5_pro_8_256": {
     "display_name": "Oppo A5 Pro 5G 8/256GB",
     "tier": "C",
     "launch_date": "2025-04-24",
     "resale_target_a1": 14800,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 20000,
     "buyback_market": 13000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹14,800/new ₹20,000/buy ₹13,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹14,800/new ₹20,000/buy ₹13,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "oppo_a5_5g_6_128": {
     "display_name": "Oppo A5 5G 6/128GB",
     "tier": "C",
     "launch_date": "2025-06-20",
     "resale_target_a1": 11200,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 15500,
     "buyback_market": 9800,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹11,200/new ₹15,500/buy ₹9,800. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹11,200/new ₹15,500/buy ₹9,800. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "oppo_a5_5g_8_128": {
     "display_name": "Oppo A5 5G 8/128GB",
     "tier": "C",
     "launch_date": "2025-06-20",
     "resale_target_a1": 12000,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 17000,
     "buyback_market": 10400,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹12,000/new ₹17,000/buy ₹10,400. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹12,000/new ₹17,000/buy ₹10,400. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "samsung_z_fold_8_256": {
     "display_name": "Samsung Galaxy Z Fold8 12GB/256GB",
@@ -26843,12 +26851,12 @@
     "tier": "C",
     "launch_date": "2025-10-02",
     "resale_target_a1": 3800,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 10200,
     "buyback_market": 2800,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹3,800/new ₹10,200/buy ₹2,800. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹3,800/new ₹10,200/buy ₹2,800. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "moto_edge_70_max_8_256": {
     "display_name": "Motorola Edge 70 Max (8GB+256GB)",
@@ -26919,33 +26927,33 @@
     "tier": "C",
     "launch_date": "2026-05-19",
     "resale_target_a1": 11200,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 14000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹11,200/new ₹14,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹11,200/new ₹14,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "moto_g37_power_5g_4_128": {
     "display_name": "Moto G37 Power 5G (4GB+128GB)",
     "tier": "C",
     "launch_date": "2026-05-19",
     "resale_target_a1": 12800,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 16000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹12,800/new ₹16,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹12,800/new ₹16,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "moto_g37_power_5g_8_128": {
     "display_name": "Moto G37 Power 5G (8GB+128GB)",
     "tier": "C",
     "launch_date": "2026-05-19",
     "resale_target_a1": 15200,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 19000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹15,200/new ₹19,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹15,200/new ₹19,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "moto_razr_fold_12_256": {
     "display_name": "Motorola Razr Fold (12GB+256GB)",
@@ -27063,56 +27071,56 @@
     "tier": "D",
     "launch_date": "2026-06-12",
     "resale_target_a1": 9800,
-    "target_margin": 0.099,
+    "target_margin": 0.3,
     "net_new_inr": 12500,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹9,800/new ₹12,500. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹9,800/new ₹12,500. A1=resale÷(1+0.099). | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "infinix_smart_20_4_128": {
     "display_name": "Infinix Smart 20 4/128GB",
     "tier": "D",
     "launch_date": "2026-06-12",
     "resale_target_a1": 10900,
-    "target_margin": 0.099,
+    "target_margin": 0.3,
     "net_new_inr": 14000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹10,900/new ₹14,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹10,900/new ₹14,000. A1=resale÷(1+0.099). | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "infinix_smart_10_4_64": {
     "display_name": "Infinix Smart 10 4/64GB",
     "tier": "D",
     "launch_date": "2025-07-25",
     "resale_target_a1": 6200,
-    "target_margin": 0.099,
+    "target_margin": 0.3,
     "net_new_inr": 12000,
     "buyback_market": 4100,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹6,200/new ₹12,000/buy ₹4,100. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹6,200/new ₹12,000/buy ₹4,100. A1=resale÷(1+0.099). | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "tecno_spark_50_5g_4_128": {
     "display_name": "Tecno Spark 50 5G 4/128GB",
     "tier": "D",
     "launch_date": "2026-03-27",
     "resale_target_a1": 13700,
-    "target_margin": 0.099,
+    "target_margin": 0.3,
     "net_new_inr": 19000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹13,700/new ₹19,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹13,700/new ₹19,000. A1=resale÷(1+0.099). | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "tecno_spark_50_5g_6_128": {
     "display_name": "Tecno Spark 50 5G 6/128GB",
     "tier": "D",
     "launch_date": "2026-03-27",
     "resale_target_a1": 15800,
-    "target_margin": 0.099,
+    "target_margin": 0.3,
     "net_new_inr": 22000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹15,800/new ₹22,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹15,800/new ₹22,000. A1=resale÷(1+0.099). | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "tecno_camon_50_ultra_5g_8_256": {
     "display_name": "Tecno Camon 50 Ultra 5G 8/256GB",
@@ -27131,78 +27139,78 @@
     "tier": "D",
     "launch_date": "2026-07-24",
     "resale_target_a1": 8000,
-    "target_margin": 0.099,
+    "target_margin": 0.3,
     "net_new_inr": 10000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹8,000/new ₹10,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹8,000/new ₹10,000. A1=resale÷(1+0.099). | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "lava_virat_v1_5g_4_64": {
     "display_name": "Lava Virat V1 5G 4/64GB",
     "tier": "D",
     "launch_date": "2026-07-24",
     "resale_target_a1": 10400,
-    "target_margin": 0.099,
+    "target_margin": 0.3,
     "net_new_inr": 13000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹10,400/new ₹13,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹10,400/new ₹13,000. A1=resale÷(1+0.099). | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "lava_bold_n2_pro_4_128": {
     "display_name": "Lava Bold N2 Pro 4/128GB",
     "tier": "D",
     "launch_date": "2026-04-06",
     "resale_target_a1": 5200,
-    "target_margin": 0.099,
+    "target_margin": 0.3,
     "net_new_inr": 8000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹5,200/new ₹8,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹5,200/new ₹8,000. A1=resale÷(1+0.099). | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "lava_bold_n2_5g_4_64": {
     "display_name": "Lava Bold N2 5G 4/64GB",
     "tier": "D",
     "launch_date": "2026-06-09",
     "resale_target_a1": 10400,
-    "target_margin": 0.099,
+    "target_margin": 0.3,
     "net_new_inr": 13000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-07",
-    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹10,400/new ₹13,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-07 (gap-audit+critic). resale ₹10,400/new ₹13,000. A1=resale÷(1+0.099). | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "moto_g77_power_8_128": {
     "display_name": "Motorola Moto G77 Power 5G 8/128",
     "tier": "C",
     "launch_date": "2026-07-08",
     "resale_target_a1": 20800,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 26000,
     "buyback_market": 18000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-10",
-    "live_source": "Added 2026-08-10 (gap-audit+critic). resale ₹20,800/new ₹26,000/buy ₹18,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-10 (gap-audit+critic). resale ₹20,800/new ₹26,000/buy ₹18,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "moto_g06_power_4_64": {
     "display_name": "Motorola Moto G06 Power 4/64",
     "tier": "D",
     "launch_date": "2025-10-07",
     "resale_target_a1": 7700,
-    "target_margin": 0.099,
+    "target_margin": 0.3,
     "net_new_inr": 14000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-10",
-    "live_source": "Added 2026-08-10 (gap-audit+critic). resale ₹7,700/new ₹14,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-10 (gap-audit+critic). resale ₹7,700/new ₹14,000. A1=resale÷(1+0.099). | margin floored to tier D default 0.3 on 2026-08-24"
   },
   "lava_blaze_duo3_6_128": {
     "display_name": "Lava Blaze Duo 3 6/128GB",
     "tier": "C",
     "launch_date": "2026-01-19",
     "resale_target_a1": 14600,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 20000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-10",
-    "live_source": "Added 2026-08-10 (gap-audit+critic). resale ₹14,600/new ₹20,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-10 (gap-audit+critic). resale ₹14,600/new ₹20,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "realme_16x_5g_4_128": {
     "display_name": "Realme 16x 5G 4/128GB",
@@ -27245,44 +27253,44 @@
     "tier": "C",
     "launch_date": "2026-08-14",
     "resale_target_a1": 22400,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 28000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-17",
-    "live_source": "Added 2026-08-17 (gap-audit+critic). resale ₹22,400/new ₹28,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-17 (gap-audit+critic). resale ₹22,400/new ₹28,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "infinix_gt_30_pro_5g_12_256": {
     "display_name": "Infinix GT 30 Pro 5G 12/256GB",
     "tier": "C",
     "launch_date": "2025-06-12",
     "resale_target_a1": 19800,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 33000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-17",
-    "live_source": "Added 2026-08-17 (gap-audit+critic). resale ₹19,800/new ₹33,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-17 (gap-audit+critic). resale ₹19,800/new ₹33,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "infinix_gt_30_5g_8_128": {
     "display_name": "Infinix GT 30 5G+ 8/128GB",
     "tier": "C",
     "launch_date": "2025-08-08",
     "resale_target_a1": 12000,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 22000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-17",
-    "live_source": "Added 2026-08-17 (gap-audit+critic). resale ₹12,000/new ₹22,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-17 (gap-audit+critic). resale ₹12,000/new ₹22,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "infinix_gt_30_5g_8_256": {
     "display_name": "Infinix GT 30 5G+ 8/256GB",
     "tier": "C",
     "launch_date": "2025-08-08",
     "resale_target_a1": 13200,
-    "target_margin": 0.099,
+    "target_margin": 0.25,
     "net_new_inr": 24000,
     "calibration_status": "verified",
     "calibration_date": "2026-08-17",
-    "live_source": "Added 2026-08-17 (gap-audit+critic). resale ₹13,200/new ₹24,000. A1=resale÷(1+0.099)."
+    "live_source": "Added 2026-08-17 (gap-audit+critic). resale ₹13,200/new ₹24,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
   },
   "google_pixel_11_256": {
     "display_name": "Google Pixel 11 256GB",
