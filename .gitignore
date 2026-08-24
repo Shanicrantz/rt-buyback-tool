@@ -21,3 +21,8 @@ _ov_updates_prev_*/
 _gaps_prev_*/
 _scope_2026-*.json
 _pending/
+_pending_prev_*/
+# file-sync duplicates ("index 2.html", "_apply_brain 2.py") — every one is a twin of a tracked file
+* 2.*
+* 2/
+* 2

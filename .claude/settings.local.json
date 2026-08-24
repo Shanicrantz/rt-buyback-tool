@@ -12,7 +12,9 @@
       "Bash(cp phone_db.json phone_db.backup-2026-08-10.json)",
       "Bash(cp index.html index.backup-2026-08-10.html)",
       "Bash(cp phone_db.json phone_db.backup-2026-08-17.json)",
-      "Bash(cp index.html index.backup-2026-08-17.html)"
+      "Bash(cp index.html index.backup-2026-08-17.html)",
+      "Bash(cp phone_db.json phone_db.json.backup-2026-08-24)",
+      "Bash(cp index.html index.html.backup-2026-08-24)"
     ]
   }
 }

@@ -19,7 +19,7 @@ import json, glob, sys, re
 from collections import defaultdict
 
 DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY = '2026-08-17'
+TODAY = '2026-08-24'
 APPLY = '--apply' in sys.argv
 WEEK_CAP = 0.20      # max single-week DROP in A1 (market softening = safe direction)
 INCREASE_CAP = 0.08  # max single-week RISE in A1 — deliberately tighter than the drop cap.
@@ -30,20 +30,32 @@ RESALE_CAP = 0.92    # never pay above 92% of resale (>=8% margin)
 NEW_CAP = 0.85       # never pay above 85% of new price
 SUSPECT_RATIO = 0.55 # buyback_market below this share of resale => resale is probably inflated
 
-# --- manual verification, carried forward from 2026-08-10 (critic was wrong on 5 of 6) ---
-# Critic said "DOES NOT EXIST" but the model is REAL and stays in the DB:
+# --- manual verification carried forward (2026-08-10 + 2026-08-17 hand-verified) ---
+# Critics have repeatedly claimed "DOES NOT EXIST" for models that are demonstrably real.
+# These are confirmed shipping in India and are never dropped on a critic's say-so:
 VERIFIED_REAL = {
     'moto_razr_fold_12_256', 'moto_razr_fold_16_512',      # India 2026-05-13, Rs1,49,999 / Rs1,59,999
-    'moto_signature_12_256', 'moto_signature_16_512', 'moto_signature_16_1tb',  # India, Rs59,999/64,999/69,999
+    'moto_signature_12_256', 'moto_signature_16_512', 'moto_signature_16_1tb',  # Rs59,999/64,999/69,999
+    'samsung_z_fold_8_256', 'samsung_z_fold_8_512', 'samsung_z_fold_8_1tb',     # India 2026-07-22
+    'samsung_z_fold_8_ultra_256', 'samsung_z_fold_8_ultra_512', 'samsung_z_fold_8_ultra_1tb',
+    'samsung_z_flip_8_256', 'samsung_z_flip_8_512',        # India 2026-07-22, Rs1,24,999 (12/256)
+    'google_pixel_11_128', 'google_pixel_11_256',          # India 2026-08-12 (gap-audit verified)
+    'google_pixel_11_pro_128', 'google_pixel_11_pro_256', 'google_pixel_11_pro_512',
+    'google_pixel_11_pro_xl_256', 'google_pixel_11_pro_xl_512',
+    'google_pixel_11_pro_fold_256', 'google_pixel_11_pro_fold_512',
+    'asus_rog_phone_9_12_256',                             # undisproved 2026-08-17 — kept
 }
-# Confirmed-phantom variants to REMOVE. iphone_17e_128 was removed on 2026-08-10; this week's
-# "does not exist" claims start empty and are only added after I verify them by hand.
+# Confirmed-phantom variants to REMOVE. Seven were removed on 2026-08-17 after a dedicated
+# verification pass; this week's list starts empty and only grows on hand-verified evidence.
 CONFIRMED_PHANTOM = set()
-# Official India new prices confirmed first-hand today (used as the new*0.85 ceiling):
+# Official India new prices confirmed first-hand (used as the new*0.85 ceiling). Anything not
+# listed here falls back to net_new_inr already stored on the entry.
 VERIFIED_NEW = {
     'moto_razr_fold_12_256': 149999, 'moto_razr_fold_16_512': 159999,
     'moto_signature_12_256': 59999, 'moto_signature_16_512': 64999, 'moto_signature_16_1tb': 69999,
-    'samsung_z_fold_8_256': 179999, 'samsung_z_fold_8_ultra_256': 199999,
+    'samsung_z_fold_8_256': 179999, 'samsung_z_fold_8_512': 199999, 'samsung_z_fold_8_1tb': 239999,
+    'samsung_z_fold_8_ultra_256': 199999, 'samsung_z_fold_8_ultra_512': 219999,
+    'samsung_z_fold_8_ultra_1tb': 259999,
     'samsung_z_flip_8_256': 124999,
 }
 
@@ -123,6 +135,15 @@ for key, v in ver.items():
         flags.append(('echoed-estimate', key, f'resale {r100(rs)} == existing anchor and buyback is exactly 50% — not real research'))
         bm = None
         held_estimate.add(key)
+
+    # Cashify's "Approx. Buyback Value" widget is a TEMPLATE that always prints 40% of the price
+    # it lists — verified identical across Fold8, Fold8 Ultra and iPhone 17 Pro Max on 2026-08-17.
+    # It is not a quote, so any buyback landing on exactly 40% of the known new price is discarded.
+    if bm and isinstance(new_hint := e.get('net_new_inr'), (int, float)) and new_hint > 0 \
+       and abs(bm / new_hint - 0.40) < 0.01:
+        flags.append(('cashify-template-40pct', key,
+                      f'buyback {r100(bm)} is exactly 40% of new {new_hint} — Cashify widget template, dropped'))
+        bm = None
 
     # A competitor cannot pay ~90% of resale and still run a business. When the reported
     # buyback sits that close to resale, one of the two numbers is wrong, so the pair is

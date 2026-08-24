@@ -1,0 +1,112 @@
+[
+ {
+  "key": "poco_m8x_5g_4_128",
+  "name": "Poco M8x 5G 4/128GB",
+  "launch": "2026-08-21",
+  "tier": "C",
+  "a1": 13400,
+  "resale": 16800,
+  "new": 20999,
+  "prov": "press_coverage",
+  "conf": "medium"
+ },
+ {
+  "key": "poco_m8x_5g_6_128",
+  "name": "Poco M8x 5G 6/128GB",
+  "launch": "2026-08-21",
+  "tier": "C",
+  "a1": 14700,
+  "resale": 18400,
+  "new": 22999,
+  "prov": "press_coverage",
+  "conf": "medium"
+ },
+ {
+  "key": "iqoo_z11_5g_6_128",
+  "name": "iQOO Z11 5G 6/128GB",
+  "launch": "2026-08-20",
+  "tier": "C",
+  "a1": 22400,
+  "resale": 28000,
+  "new": 34999,
+  "prov": "official_brand_india",
+  "conf": "high"
+ },
+ {
+  "key": "iqoo_z11_5g_8_128",
+  "name": "iQOO Z11 5G 8/128GB",
+  "launch": "2026-08-20",
+  "tier": "C",
+  "a1": 25600,
+  "resale": 32000,
+  "new": 39999,
+  "prov": "press_coverage",
+  "conf": "medium"
+ },
+ {
+  "key": "iqoo_z11_5g_8_256",
+  "name": "iQOO Z11 5G 8/256GB",
+  "launch": "2026-08-20",
+  "tier": "C",
+  "a1": 28800,
+  "resale": 36000,
+  "new": 44999,
+  "prov": "press_coverage",
+  "conf": "medium"
+ },
+ {
+  "key": "iqoo_z11_5g_12_256",
+  "name": "iQOO Z11 5G 12/256GB",
+  "launch": "2026-08-20",
+  "tier": "C",
+  "a1": 32000,
+  "resale": 40000,
+  "new": 49999,
+  "prov": "press_coverage",
+  "conf": "medium"
+ },
+ {
+  "key": "oneplus_15r_12_256",
+  "name": "OnePlus 15R 12/256GB",
+  "launch": "2025-12-17",
+  "tier": "B",
+  "a1": 39100,
+  "resale": 43000,
+  "new": 59999,
+  "prov": "official_brand_india",
+  "conf": "high"
+ },
+ {
+  "key": "oneplus_15r_12_512",
+  "name": "OnePlus 15R 12/512GB",
+  "launch": "2025-12-17",
+  "tier": "B",
+  "a1": 42500,
+  "resale": 46700,
+  "new": 64999,
+  "prov": "official_brand_india",
+  "conf": "high"
+ },
+ {
+  "key": "tecno_pova_8_pro_5g_8_256",
+  "name": "Tecno Pova 8 Pro 5G 8/256GB",
+  "launch": "2026-08-18",
+  "tier": "C",
+  "a1": 32800,
+  "resale": 41000,
+  "new": 49999,
+  "prov": "major_retailer",
+  "conf": "high"
+ },
+ {
+  "key": "tecno_pova_8_pro_5g_12_512",
+  "name": "Tecno Pova 8 Pro 5G 12/512GB",
+  "launch": "2026-08-18",
+  "tier": "C",
+  "a1": 35200,
+  "resale": 44000,
+  "new": 54999,
+  "prov": "press_coverage",
+  "conf": "medium"
+ }
+]
