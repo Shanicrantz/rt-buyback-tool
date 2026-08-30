@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "version": "6.2",
-    "last_calibration": "2026-08-24",
+    "version": "6.3",
+    "last_calibration": "2026-08-30",
     "total_phones": "auto-counted on save",
     "schema_priority_order": [
       "1. rt_buyback_a1_override (direct number, Shane sets)",
@@ -49,7 +49,7 @@
     "v5_0_changelog": "Weekly refresh (2026-07-06). Added 4 new India launch variants: Samsung Galaxy M47 5G (Jun 29 launch, on sale Jul 4 Prime Day; Snapdragon 6 Gen 3; 6/128 Rs 25,999 + 8/256 Rs 31,999; tier B) and Redmi Turbo 5 (Jun 19, first Turbo under Redmi brand; Dimensity 8500 Ultra; 8/256 Rs 37,999 + 12/256 Rs 40,999; tier B). No mass price refresh: only 3 days since v4.9 calibration (drift = noise) and Prime Day discounts are temporary, so permanent anchors left intact to avoid chasing sale lows. Flagged for next run (verify then add): Xiaomi 17T (Jun 4, Dimensity 8500 Ultra; price unconfirmed vs same-chip Turbo 5), Redmi A7/A7 Pro 5G (Apr, budget), Redmi 17 5G, Oppo A6c. Skipped rumored: Vivo T5 Lite, iQOO Z11 (non-x).",
     "v5_1_changelog": "Same-day gap fill (2026-07-06, Shane-flagged): added Vivo T4 Lite 5G 4/128 + 6/128 + 8/256 (launched India Jul 2 2025, Dimensity 6300 budget; MRP Rs 9,999/10,999/12,999; tier D, A1 anchored below the T4x sibling). T4 family now complete (T4, T4x, T4 Lite, T4 Ultra).",
     "market_signals": {
-      "updated": "2026-08-24",
+      "updated": "2026-08-30",
       "resolved": {
         "samsung_z_fold_8__z_flip_8": {
           "event": "Galaxy Z Fold8 / Fold8 Ultra / Flip8 LAUNCHED in India 2026-07-22. Official India pricing confirmed: Fold8 ₹1,79,999, Fold8 Ultra ₹1,99,999, Flip8 ₹1,24,999 (12/256).",
@@ -91,7 +91,8 @@
     "v5_9_changelog": "Weekly brain refresh (2026-08-10): re-anchored 86 high-value models (76 moved ≥0.5%) from live India resale + buyback-market research, batched 12×8 and adversarially critic-verified. Scope = top value-at-risk S/A-tier + recent launches, weighted to models previously priced from pre-launch leaks (Galaxy Z Fold8/Flip8 family, Razr Fold, 2026 flagships); deep budget/long-tail left on existing values 5 days after the 2026-08-05 full refresh. A1 = resale÷(1+margin_by_age), caps resale×0.92 / new×0.85, single-week move capped ±20%. Gap-audit added 3 verified India launches; a phantom 'Galaxy F70 Pro' (3 variants) was rejected by the critic. Motorola Razr Fold was falsely flagged non-existent by a low-confidence critic and independently RE-VERIFIED as real (India 2026-05-13, ₹1,49,999 / ₹1,59,999) — kept.",
     "v6_0_changelog": "Weekly brain refresh (2026-08-17): re-anchored 87 models (71 moved ≥0.5%) from live India resale + buyback-market research, batched 12×8 and adversarially critic-verified (44 of 96 prices corrected by the critic). Scope = 48 highest value-at-risk S/A models + 32 high-value entries still on their 2026-06-25 calibration + 16 launches under 9 months old; hand-set overrides and the budget long-tail untouched. A1 = resale÷(1+margin_by_age), caps resale×0.92 / new×0.85, week move capped -20%/+8% (asymmetric: web research reliably anchors to OLX asking prices and over-raises). GUARDRAIL FIX this run: the -20% week floor was being applied AFTER the hard caps, so a model whose resale collapsed >20% could be floored ABOVE resale×0.92 — i.e. RT would pay more than it could re-sell for. The resale/new ceilings are now re-asserted last and bind over the week floor (corrected Vivo X200 FE 12/256, Realme GT 7 Dream Edition, iPad Pro M4 13\" 512). Gap-audit added 16 verified India launches, headlined by the Google Pixel 11 family (11 / 11 Pro / Pro XL / Pro Fold, India 2026-08-12) plus Realme 16x 5G, Motorola G Max 5G, Samsung Galaxy F70 Pro 5G and three real Infinix GT 30 SKUs; a phantom F70 Pro 6GB trim was rejected (Samsung India ships 8GB only). 34 rises wanted more than +8% and were capped and flagged for Shane; 9 storage variants drew a \"does not exist in India\" verdict and were left in place pending hand verification, never auto-removed.",
     "v6_1_changelog": "Hand-verification follow-up to the v6.0 weekly refresh (2026-08-17), resolving the three items that run left open. (1) Removed 7 phantom RAM/storage variants that a dedicated find+critic pass positively disproved at high confidence, each with the real India line-up named (OnePlus 15R 8GB \\u00d72, OnePlus 13T 16/512 — India got the 13s instead, Oppo Reno 15 8/512, Nothing Phone (3) 12/512, Vivo X200 FE 12/512, Moto Edge 70 Pro 12/512). Asus ROG Phone 9 12/256 could not be disproved and was KEPT; Galaxy Z Flip8 12/256 was confirmed real. (2) Z Fold8 + Fold8 Ultra confirmed real on Samsung India's own buy page with official prices stamped (\\u20b91,79,999 / 1,99,999 / 2,39,999 and \\u20b91,99,999 / 2,19,999 / 2,59,999); their anchors were already correct, and all competitor buyback figures were DROPPED after the verifier proved Cashify's 'Approx. Buyback Value' widget is a template printing a flat 40% of the listed price — identical ratio reproduced on Fold8, Fold8 Ultra and iPhone 17 Pro Max. Because resale sits near 80% of new, that template lands at exactly 50% of resale, which is what the echo-detector had been catching for two weeks. Entries promoted estimated -> verified. (3) Nine of the largest rise-capped models were re-checked: the iPhone 17 Pro cluster was NOT confirmed (low confidence, buyback/resale ratios of 85-90% that RT's own guardrail treats as junk, and Cashify pages quoting \\u20b91,37,900 against Apple's real \\u20b91,49,900), so no iPhone rise was granted and iPhone 17 Pro 256 was trimmed to the lower verified figure. 5 models re-anchored on hand-verified resale.",
-    "v6_2_changelog": "Weekly brain refresh (2026-08-24). Live market research on 96 high-value/recent models (12x8 batches, fetch + adversarial critic, 29 prices corrected by the critic) re-anchored 86 of them (80 moved ≥0.5%). A1 = resale÷(1+margin_by_age), caps resale×0.92 / new×0.85, week move -20%/+8% asymmetric. THREE VERIFICATION PASSES ran on top of the refresh this week, all find+adversarial-refute: (1) OUTLIERS — 51 items (33 rises the +8% cap had blocked, 8 collapses, 7 existence claims, 3 missing prices) were re-researched blind. 15 re-priced, 10 rises rolled back to where they started the week (the refuter caught an iPhone 16 256GB quote that was really the 128GB price, a Pixel 10a priced off its ₹49,999 MRP sticker, and three stale net_new_inr ceilings), and 6 phantom variants removed on positive line-up evidence: Samsung A57 8/512, Xiaomi 15 Ultra 1TB, OnePlus Nord 6 8/128, OnePlus 13R 8/128, Vivo X200 Pro 12/512, Realme GT 7 8/512. A 7th (iQOO 15R 12/256) rested on an absence-of-listing argument and was KEPT. (2) ANCHOR AUDIT — 47 entries created by earlier gap audits carried suspiciously round new prices with resale at exactly 80% of them (a fabricated-estimate signature). The 38 with real money at stake were re-sourced: 16 corrected, net ₹48,200 of buyback removed, headlined by Samsung F70 Pro and Infinix Note Edge (round ₹25-29k ‘prices’ that were really ₹19,999-23,999) and three Realme 16 Pro variants that were under-anchored. The whole Pixel 11 family was re-verified against store.google.com/in and Flipkart and CONFIRMED correct. (3) GAP PRICE-CHECK + TIE-BREAK PANEL — the gap audit’s own prices looked 2-3x their series’ historical band, so a 3-lens panel (brand India store / major retailer / India tech press) was run on the disputed families. All 9 agents agreed the prices are REAL — 2026 India budget pricing has genuinely stepped up (iQOO Z10 ₹21,999 → Z11 ₹34,999; Tecno Pova 7 Pro ₹19,999 → Pova 8 Pro ₹49,999; Poco M7 ₹10,499 → M8x ₹20,999). The band heuristic was wrong, not the research. 10 launches added (iQOO Z11 x4, Tecno Pova 8 Pro x2, Poco M8x x2, OnePlus 15R x2); Lava Virat V1 Pro held back because it is announced but not yet on sale. New-entry tiers are now normalised to whatever tier the DB already uses for that series — the finder had put the iQOO Z11 and Tecno Pova 8 Pro in tier B against 14/14 and 22/22 existing C entries, which silently changed the margin floor and gave one phone two different margins across its variants."
+    "v6_2_changelog": "Weekly brain refresh (2026-08-24). Live market research on 96 high-value/recent models (12x8 batches, fetch + adversarial critic, 29 prices corrected by the critic) re-anchored 86 of them (80 moved ≥0.5%). A1 = resale÷(1+margin_by_age), caps resale×0.92 / new×0.85, week move -20%/+8% asymmetric. THREE VERIFICATION PASSES ran on top of the refresh this week, all find+adversarial-refute: (1) OUTLIERS — 51 items (33 rises the +8% cap had blocked, 8 collapses, 7 existence claims, 3 missing prices) were re-researched blind. 15 re-priced, 10 rises rolled back to where they started the week (the refuter caught an iPhone 16 256GB quote that was really the 128GB price, a Pixel 10a priced off its ₹49,999 MRP sticker, and three stale net_new_inr ceilings), and 6 phantom variants removed on positive line-up evidence: Samsung A57 8/512, Xiaomi 15 Ultra 1TB, OnePlus Nord 6 8/128, OnePlus 13R 8/128, Vivo X200 Pro 12/512, Realme GT 7 8/512. A 7th (iQOO 15R 12/256) rested on an absence-of-listing argument and was KEPT. (2) ANCHOR AUDIT — 47 entries created by earlier gap audits carried suspiciously round new prices with resale at exactly 80% of them (a fabricated-estimate signature). The 38 with real money at stake were re-sourced: 16 corrected, net ₹48,200 of buyback removed, headlined by Samsung F70 Pro and Infinix Note Edge (round ₹25-29k ‘prices’ that were really ₹19,999-23,999) and three Realme 16 Pro variants that were under-anchored. The whole Pixel 11 family was re-verified against store.google.com/in and Flipkart and CONFIRMED correct. (3) GAP PRICE-CHECK + TIE-BREAK PANEL — the gap audit’s own prices looked 2-3x their series’ historical band, so a 3-lens panel (brand India store / major retailer / India tech press) was run on the disputed families. All 9 agents agreed the prices are REAL — 2026 India budget pricing has genuinely stepped up (iQOO Z10 ₹21,999 → Z11 ₹34,999; Tecno Pova 7 Pro ₹19,999 → Pova 8 Pro ₹49,999; Poco M7 ₹10,499 → M8x ₹20,999). The band heuristic was wrong, not the research. 10 launches added (iQOO Z11 x4, Tecno Pova 8 Pro x2, Poco M8x x2, OnePlus 15R x2); Lava Virat V1 Pro held back because it is announced but not yet on sale. New-entry tiers are now normalised to whatever tier the DB already uses for that series — the finder had put the iQOO Z11 and Tecno Pova 8 Pro in tier B against 14/14 and 22/22 existing C entries, which silently changed the margin floor and gave one phone two different margins across its variants.",
+    "v6_3_changelog": "Weekly brain refresh (2026-08-30). Live market research on 96 high-value/recent models (12x8 batches, fetch + adversarial critic; the critic corrected 33 prices) re-anchored 89 of them (75 moved ≥0.5%). A1 = resale÷(1+margin_by_age), caps resale×0.92 / new×0.85, week move -20%/+8% asymmetric. 7 India launches added (Realme P4s 5G x3, Tecno Spark Go 3 Pro x2, Lava Virat V1 Pro 5G, Infinix Note 60 Pro Pininfarina Edition). The Lava Virat V1 Pro was correctly HELD BACK last week as announced-but-not-on-sale and is now genuinely shipping — the hold worked as intended. OUTLIER VERIFICATION (run on Opus this week, find + adversarial-refute over 26 items: 14 capped rises, 5 collapses, 3 existence claims, 4 missing prices): 16 lowered, 2 rolled back to week-start, 8 removed. NOTABLE — every single one of the 14 rises that the +8% cap had blocked was then REFUSED or LOWERED by independent research; not one survived as a genuine rise. The asymmetric cap is doing real work, and the systematic upward bias of the weekly research is re-confirmed rather than assumed. PHANTOM VARIANTS REMOVED (8) — each hand-verified against the brand's own India line-up before deletion, never on an absence-of-listing argument: Oppo Find X9 12/512 (India ships 12/256 + 16/512 only), iQOO Neo 10 Pro 12/512 (no Neo 10 Pro sold in India at all), Nothing Phone 3a Pro 12/512 (tops out at 12/256), Oppo Reno 13 8/512 (8/128 + 8/256 only; the 12/512 belongs to the Reno13 Pro), Pixel 10 Pro 16/1TB (real global SKU, never sold in India), Poco F7 Ultra 12/512 (512GB pairs only with 16GB), Vivo V50 8/512 (512GB pairs only with 12GB), Realme 14 Pro+ 8/512 (512GB pairs only with 12GB). ALL EIGHT share one signature: a 512GB or 1TB tier paired with the WRONG RAM size. ROOT-CAUSE FINDING: the phantom-variant bug and the round-number-price fabrication signature are the SAME failure — a past gap audit invented a next-storage-tier variant and priced it by extrapolation, which is why 5 of the 8 phantoms carried prices like Rs35,000 / Rs43,000 / Rs90,000. Two follow-ups: (a) _add_gaps.py was rounding net_new_inr to the nearest Rs100, manufacturing the very round-number signature the audit hunts for (Rs34,999 stored as Rs35,000) — fixed, and this week's 7 new entries carry exact prices; (b) 7 surviving entries had their net_new_inr corrected against brand primary sources, headlined by Oppo Find X9 12/256 (stored Rs82,000, really Rs74,999) and both Vivo V50 trims (both stored Rs38,000, really Rs34,999 / Rs36,999). No A1 was riding a corrected ceiling, so nothing RT pays moved; ceilings that ROSE were applied without letting any A1 follow them up. 233 round-price entries remain DB-wide, but 0 of them currently bind an A1 — latent hygiene, not a live pricing error, and many are merely Rs1 rounding artifacts of the bug just fixed. SIBLING REPAIR: removing a phantom leaves a hole where a REAL variant belongs, so the 6 real configs the phantoms were standing in for were researched (Opus, research + adversarial refute) and added: Oppo Find X9 16/512GB (A1 Rs51,000), Vivo V50 12/512GB (A1 Rs22,700), Oppo Reno 13 8/128GB (A1 Rs15,500), Realme 14 Pro+ 5G 12/512GB (A1 Rs18,300), Realme 14 Pro+ 5G 8/128GB (A1 Rs14,700), Realme 14 Pro+ 5G 12/256GB (A1 Rs16,900). "
   },
   "iphone_11_64": {
     "display_name": "iPhone 11 64GB",
@@ -695,13 +696,14 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 134900,
-    "resale_target_a1": 112000,
+    "resale_target_a1": 113000,
     "target_margin": 0.099,
     "notes": "Aluminum unibody, A19 Pro, 200MP+ vapor cooling.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "HAND-VERIFIED 2026-08-17: resale ₹112,000 -> A1 ₹101,900 = resale÷(1+0.099).",
-    "market_resale_observed": 112000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹113,000 / market buys ₹90,000 -> A1 ₹102,800 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 113000,
+    "buyback_market": 90000
   },
   "iphone_17_pro_max_256": {
     "display_name": "iPhone 17 Pro Max 256GB",
@@ -709,13 +711,13 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 149900,
-    "resale_target_a1": 118800,
+    "resale_target_a1": 120000,
     "target_margin": 0.099,
     "notes": "MRP ₹1,49,900. Apple trade-in offer ₹33K-39K for 14 Pro 128 reference.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹126,000 -> A1 ₹108,100 = resale÷(1+0.099) [rise-cap+flagged]",
-    "market_resale_observed": 126000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹120,000 -> A1 ₹109,200 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 120000
   },
   "iphone_air_256": {
     "display_name": "iPhone Air 256GB",
@@ -926,26 +928,27 @@
     "discontinued": false,
     "launch_date": "2026-01-22",
     "net_new_inr": 87999,
-    "resale_target_a1": 59300,
+    "resale_target_a1": 63000,
     "target_margin": 0.099,
     "notes": "Current flagship. ~3 months old.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹65,000 -> A1 ₹54,000 = resale÷(1+0.099) [rise-cap+flagged]",
-    "market_resale_observed": 65000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹63,000 / market buys ₹52,000 -> A1 ₹57,300 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 63000,
+    "buyback_market": 52000
   },
   "samsung_s26_plus_256": {
     "display_name": "Samsung Galaxy S26+ 256GB",
     "tier": "S",
     "discontinued": false,
     "launch_date": "2026-01-22",
-    "net_new_inr": 119999,
-    "resale_target_a1": 77000,
+    "net_new_inr": 74999,
+    "resale_target_a1": 50600,
     "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹77,000 -> A1 ₹70,100 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 77000
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹50,000 -> A1 ₹46,000 = resale÷(1+0.099) [margin+band-20%+hard-ceiling] conf=high",
+    "market_resale_observed": 50000
   },
   "samsung_s26_ultra_256": {
     "display_name": "Samsung Galaxy S26 Ultra 256GB",
@@ -953,14 +956,13 @@
     "discontinued": false,
     "launch_date": "2026-01-22",
     "net_new_inr": 130999,
-    "resale_target_a1": 101000,
+    "resale_target_a1": 95000,
     "target_margin": 0.099,
     "notes": "Current top flagship.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹101,000 / market buys ₹83,000 -> A1 ₹91,900 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 101000,
-    "buyback_market": 83000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹95,000 -> A1 ₹86,400 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 95000
   },
   "samsung_z_fold_5_256": {
     "display_name": "Samsung Galaxy Z Fold 5 256GB",
@@ -1028,14 +1030,14 @@
     "discontinued": false,
     "launch_date": "2025-07-09",
     "net_new_inr": 164999,
-    "resale_target_a1": 113200,
+    "resale_target_a1": 110000,
     "target_margin": 0.099,
     "notes": "Latest fold. Inspect hinge + crease before buyback.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹118,000 / market buys ₹94,000 -> A1 ₹106,600 = resale÷(1+0.099) [rise-cap+flagged]",
-    "market_resale_observed": 118000,
-    "buyback_market": 94000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹110,000 / market buys ₹92,800 -> A1 ₹100,100 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 110000,
+    "buyback_market": 92800
   },
   "samsung_z_flip_7_256": {
     "display_name": "Samsung Galaxy Z Flip 7 256GB",
@@ -1105,13 +1107,14 @@
     "tier": "B",
     "discontinued": false,
     "launch_date": "2026-03-15",
-    "net_new_inr": 33000,
-    "resale_target_a1": 27000,
-    "target_margin": 0.2,
+    "net_new_inr": 41999,
+    "resale_target_a1": 25500,
+    "target_margin": 0.099,
     "notes": "Just launched April 2026. Limited resale data.",
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "Cashify new price A37 5G 8/128 = ₹41,999; Cashify refurb (12/256 Fair) ₹39,999; Cashify approx buyback ~₹12,976 (likely blended/conservative); resale_target_a1 "
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹25,500 -> A1 ₹23,200 = resale÷(1+0.099) [margin] conf=medium",
+    "market_resale_observed": 25500
   },
   "samsung_a57_5g_8_128": {
     "display_name": "Samsung Galaxy A57 5G 8/128GB",
@@ -1444,23 +1447,25 @@
     "discontinued": false,
     "launch_date": "2024-08-13",
     "net_new_inr": 35000,
-    "resale_target_a1": 25500,
-    "target_margin": 0.22,
+    "resale_target_a1": 23400,
+    "target_margin": 0.19,
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "Cashify refurb Vivo V40 12/256 Fair ₹27,499 (Jun 2026); OLX Vivo V40 8/256 listings ₹26,000–27,000; new price Flipkart ₹37,999 (8/256). A1 resale ≈ Cashify refu"
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹23,500 -> A1 ₹19,700 = resale÷(1+0.19) [margin]",
+    "market_resale_observed": 23500
   },
   "vivo_v50_8_256": {
     "display_name": "Vivo V50 8/256GB",
     "tier": "B",
     "discontinued": false,
     "launch_date": "2025-02-17",
-    "net_new_inr": 38000,
-    "resale_target_a1": 26000,
-    "target_margin": 0.2,
+    "net_new_inr": 36999,
+    "resale_target_a1": 23500,
+    "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "New price Vivo V50 8/256 ₹36,999 (Cashify/Flipkart Jun 2026); Cashify refurb estimated ~₹27,000–28,000 for 256 variant; A1 resale ≈ ₹26,000. Current ₹28,000 sli"
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹23,500 -> A1 ₹21,400 = resale÷(1+0.099) [margin] conf=high | new price corrected 2026-08-30: Rs36,999 (vivo India line-up: 8/256 Rs36,999)",
+    "market_resale_observed": 23500
   },
   "vivo_v50e_8_256": {
     "display_name": "Vivo V50e 5G 8/256GB",
@@ -1479,12 +1484,13 @@
     "tier": "B",
     "discontinued": false,
     "launch_date": "2025-08-12",
-    "net_new_inr": 40000,
-    "resale_target_a1": 26000,
-    "target_margin": 0.2,
+    "net_new_inr": 36999,
+    "resale_target_a1": 20000,
+    "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "Vivo V60 8/128 new ₹36,999 MRP; Amazon effective ₹32,700 (with cashback). Cashify buyback approx ₹10,800. Cashify refurb 12/256 at ₹31,999; 8/128 refurb est ~₹2"
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹20,000 -> A1 ₹18,200 = resale÷(1+0.099) [margin] conf=medium",
+    "market_resale_observed": 20000
   },
   "vivo_v60e_8_128": {
     "display_name": "Vivo V60e 8/128GB",
@@ -1667,13 +1673,13 @@
     "tier": "A",
     "discontinued": false,
     "launch_date": "2026-04-15",
-    "net_new_inr": 82000,
+    "net_new_inr": 74999,
     "resale_target_a1": 52000,
     "target_margin": 0.099,
     "notes": "Just launched April 2026.",
     "calibration_status": "verified",
     "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹52,000 / market buys ₹43,000 -> A1 ₹47,300 = resale÷(1+0.099) [margin]",
+    "live_source": "BRAIN 2026-08-17: resale ₹52,000 / market buys ₹43,000 -> A1 ₹47,300 = resale÷(1+0.099) [margin] | new price corrected 2026-08-30: Rs74,999 (OPPO India newsroom: Find X9 12/256 Rs7",
     "buyback_market": 43000,
     "market_resale_observed": 52000
   },
@@ -1683,12 +1689,13 @@
     "discontinued": false,
     "launch_date": "2026-04-15",
     "net_new_inr": 119999,
-    "resale_target_a1": 67000,
+    "resale_target_a1": 63500,
     "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹67,000 -> A1 ₹61,000 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 67000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹63,500 / market buys ₹52,500 -> A1 ₹57,800 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 63500,
+    "buyback_market": 52500
   },
   "oppo_reno_11_8_128": {
     "display_name": "Oppo Reno 11 8/128GB",
@@ -1734,24 +1741,25 @@
     "tier": "B",
     "discontinued": false,
     "launch_date": "2025-01-09",
-    "net_new_inr": 38000,
+    "net_new_inr": 39999,
     "resale_target_a1": 25000,
     "target_margin": 0.22,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Oppo Reno 13 8/256 new price ₹37,999 on Flipkart Jun 2026; Cashify refurb ~₹18,699 (128GB base), sell exchange approx ₹19,190-21,000 for 256GB; resale A1 set at"
+    "live_source": "Oppo Reno 13 8/256 new price ₹37,999 on Flipkart Jun 2026; Cashify refurb ~₹18,699 (128GB base), sell exchange approx ₹19,190-21,000 for 256GB; resale A1 set at | new price correct"
   },
   "oppo_reno_14_8_256": {
     "display_name": "Oppo Reno 14 8/256GB",
     "tier": "B",
     "discontinued": false,
     "launch_date": "2025-07-12",
-    "net_new_inr": 39000,
-    "resale_target_a1": 27500,
-    "target_margin": 0.2,
+    "net_new_inr": 39999,
+    "resale_target_a1": 19700,
+    "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell page cashify.in/sell-old-mobile-phone/used-oppo-reno14 — 8GB/256GB: ₹26,320. Cashify refurb retail ₹30,299. New price ₹34,999 (Cashify price page, "
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹19,500 -> A1 ₹17,900 = resale÷(1+0.099) [margin+band-20%+hard-ceiling] conf=medium",
+    "market_resale_observed": 19500
   },
   "oppo_reno_15_8_256": {
     "display_name": "Oppo Reno 15 8/256GB",
@@ -1796,11 +1804,13 @@
     "discontinued": false,
     "launch_date": "2026-02-04",
     "net_new_inr": 31999,
-    "resale_target_a1": 28000,
+    "resale_target_a1": 27500,
     "target_margin": 0.25,
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "Cashify refurb F33 5G 8/128 ₹29,299; RT resale ~₹28,000 (≈refurb×0.95). New retail 8/128 ₹34,999. Cashify.in, 25-Jun-2026. | margin floored to tier C default 0.25 on 2026-08-24"
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹27,500 / market buys ₹20,000 -> A1 ₹22,000 = resale÷(1+0.25) [margin]",
+    "buyback_market": 20000,
+    "market_resale_observed": 27500
   },
   "oppo_a3x_5g_4_64": {
     "display_name": "Oppo A3x 5G 4/64GB",
@@ -2070,23 +2080,24 @@
     "discontinued": false,
     "launch_date": "2025-06-16",
     "net_new_inr": 39000,
-    "resale_target_a1": 29000,
-    "target_margin": 0.22,
+    "resale_target_a1": 24900,
+    "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "Cashify price page shows approx buyback ₹10,480 (base condition); new price 8/256 = ₹39,999 MRP (effective ₹36,999 with offers on Flipkart). Resale A1 ₹29,000 i"
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹25,000 -> A1 ₹22,700 = resale÷(1+0.099) [margin] conf=medium",
+    "market_resale_observed": 25000
   },
   "realme_14_pro_plus_5g_8_256": {
     "display_name": "Realme 14 Pro+ 5G 8/256GB",
     "tier": "B",
     "discontinued": false,
     "launch_date": "2025-01-16",
-    "net_new_inr": 29999,
+    "net_new_inr": 31999,
     "resale_target_a1": 23000,
     "target_margin": 0.22,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify sell page (used-realme-14-pro-plus): headline ₹19,870; Cashify blog: ₹22,790 exchange. New price ₹29,999 (Flipkart 8/256GB, Jun-2026). Resale target = ₹"
+    "live_source": "Cashify sell page (used-realme-14-pro-plus): headline ₹19,870; Cashify blog: ₹22,790 exchange. New price ₹29,999 (Flipkart 8/256GB, Jun-2026). Resale target = ₹ | new price correct"
   },
   "realme_p3_5g_8_128": {
     "display_name": "Realme P3 5G 8/128GB",
@@ -2205,12 +2216,13 @@
     "tier": "B",
     "discontinued": false,
     "launch_date": "2025-04-23",
-    "net_new_inr": 38000,
-    "resale_target_a1": 26000,
-    "target_margin": 0.22,
+    "net_new_inr": 33999,
+    "resale_target_a1": 18700,
+    "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "New price 12/256 = ₹32,999-33,999; Cashify exchange up to ₹22,000; Cashify refurb Fair = ₹27,099; A1 resale (Excellent) ≈ refurb Fair × 0.97 ≈ ₹26,000; Cashify "
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹18,500 -> A1 ₹17,000 = resale÷(1+0.099) [margin+band-20%+hard-ceiling] conf=medium",
+    "market_resale_observed": 18500
   },
   "moto_edge_60_fusion_8_256": {
     "display_name": "Motorola Edge 60 Fusion 8/256GB",
@@ -2403,12 +2415,13 @@
     "tier": "B",
     "discontinued": false,
     "launch_date": "2025-03-04",
-    "net_new_inr": 29999,
-    "resale_target_a1": 25000,
-    "target_margin": 0.2,
+    "net_new_inr": 33999,
+    "resale_target_a1": 17700,
+    "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "Flipkart price Rs 31,999 for 12GB/256GB as of Jun 2026 (MRP Rs 34,999). Cashify refurb 8/128GB: Rs 22,599 — 12/256 refurb estimated ~Rs 27,000. Resale Rs 25,000"
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹17,500 -> A1 ₹16,100 = resale÷(1+0.099) [margin+band-20%+hard-ceiling] conf=low",
+    "market_resale_observed": 17500
   },
   "cmf_phone_1_8_128": {
     "display_name": "CMF Phone 1 (Nothing) 8/128GB",
@@ -2517,14 +2530,13 @@
     "discontinued": false,
     "launch_date": "2025-08-20",
     "net_new_inr": 124999,
-    "resale_target_a1": 89000,
+    "resale_target_a1": 79000,
     "target_margin": 0.099,
     "notes": "Niche in India. Verify region settings + warranty.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹89,000 / market buys ₹70,600 -> A1 ₹81,000 = resale÷(1+0.099) [margin]",
-    "buyback_market": 70600,
-    "market_resale_observed": 89000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹79,000 -> A1 ₹71,900 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 79000
   },
   "iqoo_neo_9_pro_5g_8_128": {
     "display_name": "iQOO Neo 9 Pro 5G 8/128GB",
@@ -3923,12 +3935,13 @@
     "discontinued": false,
     "launch_date": "2026-01-22",
     "net_new_inr": 132000,
-    "resale_target_a1": 85500,
+    "resale_target_a1": 76100,
     "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹112,000 -> A1 ₹77,800 = resale÷(1+0.099) [rise-cap+flagged]",
-    "market_resale_observed": 112000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹76,000 / market buys ₹60,500 -> A1 ₹69,200 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 76000,
+    "buyback_market": 60500
   },
   "vivo_y56_5g_4_256": {
     "display_name": "Vivo Y56 5G 4/256GB",
@@ -4125,9 +4138,10 @@
     "target_margin": 0.099,
     "notes": "Latest fold. Inspect hinge + crease before buyback.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹112,000 -> A1 ₹103,000 = resale÷(1+0.099) [margin+inv-fix]",
-    "market_resale_observed": 112000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹117,000 / market buys ₹97,000 -> A1 ₹106,500 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 117000,
+    "buyback_market": 97000
   },
   "samsung_z_fold_7_1tb": {
     "display_name": "Samsung Galaxy Z Fold 7 1TB",
@@ -4135,14 +4149,13 @@
     "discontinued": false,
     "launch_date": "2025-07-09",
     "net_new_inr": 205000,
-    "resale_target_a1": 124000,
+    "resale_target_a1": 113200,
     "target_margin": 0.099,
     "notes": "Latest fold. Inspect hinge + crease before buyback.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹124,000 / market buys ₹98,200 -> A1 ₹112,800 = resale÷(1+0.099) [margin]",
-    "buyback_market": 98200,
-    "market_resale_observed": 124000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹112,000 -> A1 ₹103,000 = resale÷(1+0.099) [margin+inv-fix]",
+    "market_resale_observed": 112000
   },
   "iphone_12_256": {
     "display_name": "iPhone 12 256GB",
@@ -4247,11 +4260,12 @@
     "discontinued": false,
     "launch_date": "2026-02-10",
     "net_new_inr": 35000,
-    "resale_target_a1": 25500,
-    "target_margin": 0.2,
+    "resale_target_a1": 24000,
+    "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "Vivo V60e 8/256 new ₹31,999. 256GB premium +₹2,500 over 128GB resale. Derived from 8/128 resale ₹23,000 + ₹2,500. Below ceiling: ₹31,999 × 0.80 = ₹25,599 ✓. Cas"
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹24,000 -> A1 ₹21,800 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 24000
   },
   "moto_g86_5g_8_256": {
     "display_name": "Motorola G86 5G 8/256GB",
@@ -4396,14 +4410,13 @@
     "discontinued": false,
     "launch_date": "2025-08-20",
     "net_new_inr": 133000,
-    "resale_target_a1": 95000,
+    "resale_target_a1": 88000,
     "target_margin": 0.099,
     "notes": "Niche in India. Verify region settings + warranty.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹95,000 / market buys ₹76,000 -> A1 ₹86,400 = resale÷(1+0.099) [margin]",
-    "buyback_market": 76000,
-    "market_resale_observed": 95000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹88,000 -> A1 ₹80,100 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 88000
   },
   "samsung_a55_5g_8_256": {
     "display_name": "Samsung Galaxy A55 5G 8/256GB",
@@ -4899,12 +4912,13 @@
     "tier": "B",
     "discontinued": false,
     "launch_date": "2025-05-26",
-    "net_new_inr": 33000,
-    "resale_target_a1": 26000,
-    "target_margin": 0.22,
+    "net_new_inr": 37999,
+    "resale_target_a1": 25200,
+    "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "Cashify Neo 10 price page: new 8/256GB ₹33,999; resale article cites 256GB up to ₹23,200 (older article ref) — updated to ₹26,000 reflecting ₹4k storage premium"
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹25,200 -> A1 ₹22,900 = resale÷(1+0.099) [margin] | new price corrected 2026-08-30: Rs37,999 (iQOO India: Neo 10 8/256 Rs37,999, 12/256 Rs42,999)",
+    "market_resale_observed": 25200
   },
   "moto_edge_50_8_512": {
     "display_name": "Motorola Edge 50 8/512GB",
@@ -4999,16 +5013,15 @@
     "discontinued": false,
     "launch_date": "2025-01-22",
     "net_new_inr": 116000,
-    "resale_target_a1": 88600,
+    "resale_target_a1": 85000,
     "target_margin": 0.099,
     "notes": "Discounted from ₹130K launch to ₹104K (April 2026).",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
+    "calibration_date": "2026-08-30",
     "cashify_exchange": 56000,
     "_override_prev": 69400,
-    "live_source": "BRAIN 2026-08-17: resale ₹97,000 / market buys ₹76,000 -> A1 ₹80,600 = resale÷(1+0.099) [rise-cap+flagged]",
-    "market_resale_observed": 97000,
-    "buyback_market": 76000
+    "live_source": "BRAIN 2026-08-30: resale ₹85,000 -> A1 ₹77,300 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 85000
   },
   "vivo_t3_5g_8_256": {
     "display_name": "Vivo T3 5G 8/256GB",
@@ -5506,13 +5519,13 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 169900,
-    "resale_target_a1": 126600,
+    "resale_target_a1": 128000,
     "target_margin": 0.099,
     "notes": "MRP ₹1,49,900. Apple trade-in offer ₹33K-39K for 14 Pro 128 reference.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹134,000 -> A1 ₹115,200 = resale÷(1+0.099) [rise-cap+flagged]",
-    "market_resale_observed": 134000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹128,000 -> A1 ₹116,500 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 128000
   },
   "iphone_17_pro_max_1tb": {
     "display_name": "iPhone 17 Pro Max 1TB",
@@ -5520,13 +5533,13 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 189900,
-    "resale_target_a1": 128700,
+    "resale_target_a1": 134000,
     "target_margin": 0.099,
     "notes": "MRP ₹1,49,900. Apple trade-in offer ₹33K-39K for 14 Pro 128 reference.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "2026-08-17: hand-verified resale ₹140,000, but the +8.8% grant was WITHDRAWN — it inverted against the 2TB sibling whose rise was refused for circular evidence. Held at the weekly ",
-    "market_resale_observed": 140000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹134,000 -> A1 ₹121,900 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 134000
   },
   "iphone_17_pro_max_2tb": {
     "display_name": "iPhone 17 Pro Max 2TB",
@@ -5534,14 +5547,13 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 229900,
-    "resale_target_a1": 135700,
+    "resale_target_a1": 134000,
     "target_margin": 0.099,
     "notes": "MRP ₹1,49,900. Apple trade-in offer ₹33K-39K for 14 Pro 128 reference.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹156,000 / market buys ₹125,000 -> A1 ₹123,500 = resale÷(1+0.099) [rise-cap+flagged]",
-    "buyback_market": 125000,
-    "market_resale_observed": 156000
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹133,000 -> A1 ₹121,000 = resale÷(1+0.099) [margin] conf=medium",
+    "market_resale_observed": 133000
   },
   "samsung_s26_512": {
     "display_name": "Samsung Galaxy S26 512GB",
@@ -5549,13 +5561,14 @@
     "discontinued": false,
     "launch_date": "2026-01-22",
     "net_new_inr": 100000,
-    "resale_target_a1": 68200,
+    "resale_target_a1": 65000,
     "target_margin": 0.099,
     "notes": "Current flagship. ~3 months old.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹75,000 -> A1 ₹62,100 = resale÷(1+0.099) [rise-cap+flagged]",
-    "market_resale_observed": 75000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹65,000 / market buys ₹52,000 -> A1 ₹59,100 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 65000,
+    "buyback_market": 52000
   },
   "realme_c51_4_128": {
     "display_name": "Realme C51 4/128GB",
@@ -5766,14 +5779,13 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 132000,
-    "resale_target_a1": 95000,
+    "resale_target_a1": 86100,
     "target_margin": 0.099,
     "notes": "Ultra-thin design. New form factor — verify demand locally.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹95,000 / market buys ₹76,000 -> A1 ₹86,400 = resale÷(1+0.099) [margin]",
-    "buyback_market": 76000,
-    "market_resale_observed": 95000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹86,000 -> A1 ₹78,300 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 86000
   },
   "vivo_x200_12_512": {
     "display_name": "Vivo X200 12/512GB",
@@ -5931,21 +5943,6 @@
     "calibration_date": "2026-07-20",
     "live_source": "Scaled from 256GB anchor ₹18,000 + ~₹4,000 storage premium (budget-mid tier). Previous ₹39,000 overstated for grey-market 3-yr-old device."
   },
-  "oppo_find_x9_12_512": {
-    "display_name": "Oppo Find X9 12/512GB",
-    "tier": "A",
-    "discontinued": false,
-    "launch_date": "2026-04-15",
-    "net_new_inr": 90000,
-    "resale_target_a1": 54000,
-    "target_margin": 0.099,
-    "notes": "Just launched April 2026.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹54,000 / market buys ₹45,000 -> A1 ₹49,100 = resale÷(1+0.099) [margin]",
-    "buyback_market": 45000,
-    "market_resale_observed": 54000
-  },
   "iphone_15_plus_512": {
     "display_name": "iPhone 15 Plus 512GB",
     "tier": "S",
@@ -5993,12 +5990,13 @@
     "discontinued": false,
     "launch_date": "2026-03-25",
     "net_new_inr": 34000,
-    "resale_target_a1": 26000,
+    "resale_target_a1": 25500,
     "target_margin": 0.25,
     "notes": "Just launched. Limited resale data.",
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "New price ₹33,999 (8/256GB, search data Jun-2026). No Cashify sell data found — phone ~3 months old. Resale target = new × 0.77 = ₹26,179 → ₹26,000. Mandatory c | margin floored to"
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹25,500 -> A1 ₹20,400 = resale÷(1+0.25) [margin]",
+    "market_resale_observed": 25500
   },
   "google_pixel_10_256": {
     "display_name": "Google Pixel 10 256GB",
@@ -6032,13 +6030,14 @@
     "discontinued": false,
     "launch_date": "2026-01-22",
     "net_new_inr": 149000,
-    "resale_target_a1": 102000,
+    "resale_target_a1": 105000,
     "target_margin": 0.099,
     "notes": "Current top flagship.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹102,000 -> A1 ₹92,800 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 102000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹105,000 / market buys ₹88,000 -> A1 ₹95,500 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 105000,
+    "buyback_market": 88000
   },
   "samsung_s26_ultra_1tb": {
     "display_name": "Samsung Galaxy S26 Ultra 1TB",
@@ -6046,13 +6045,13 @@
     "discontinued": false,
     "launch_date": "2026-01-22",
     "net_new_inr": 171000,
-    "resale_target_a1": 122000,
+    "resale_target_a1": 116100,
     "target_margin": 0.099,
     "notes": "Current top flagship.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹122,000 -> A1 ₹111,000 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 122000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹116,000 -> A1 ₹105,600 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 116000
   },
   "moto_edge_60_pro_12_512": {
     "display_name": "Motorola Edge 60 Pro 12/512GB",
@@ -6114,17 +6113,6 @@
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
     "live_source": "New price 8GB/256GB ₹24,499 (Samsung.in); A1 resale scaled +₹1,500 from 128GB estimate; well below new price ceiling; 25-Jun-2026 | margin floored to tier C default 0.25 on 2026-08"
-  },
-  "nothing_phone_3a_pro_12_512": {
-    "display_name": "Nothing Phone 3a Pro 12/512GB",
-    "tier": "B",
-    "discontinued": false,
-    "launch_date": "2025-03-04",
-    "net_new_inr": 35000,
-    "resale_target_a1": 26800,
-    "target_margin": 0.2,
-    "calibration_status": "estimated",
-    "calibration_date": "2026-06-25"
   },
   "vivo_y28s_5g_4_256": {
     "display_name": "Vivo Y28s 5G 4/256GB",
@@ -6786,13 +6774,13 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 154900,
-    "resale_target_a1": 117800,
+    "resale_target_a1": 117000,
     "target_margin": 0.099,
     "notes": "Aluminum unibody, A19 Pro, 200MP+ vapor cooling.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹119,000 -> A1 ₹107,200 = resale÷(1+0.099) [rise-cap+flagged]",
-    "market_resale_observed": 119000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹117,000 -> A1 ₹106,500 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 117000
   },
   "iphone_17_pro_1tb": {
     "display_name": "iPhone 17 Pro 1TB",
@@ -6800,13 +6788,13 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 174900,
-    "resale_target_a1": 121700,
+    "resale_target_a1": 125900,
     "target_margin": 0.099,
     "notes": "Aluminum unibody, A19 Pro, 200MP+ vapor cooling.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹129,000 -> A1 ₹110,700 = resale÷(1+0.099) [rise-cap+flagged]",
-    "market_resale_observed": 129000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹126,000 -> A1 ₹114,600 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 126000
   },
   "iqoo_z7_5g_8_256": {
     "display_name": "iQOO Z7 5G 8/256GB",
@@ -7260,18 +7248,6 @@
     "calibration_status": "estimated",
     "calibration_date": "2026-06-25"
   },
-  "realme_14_pro_plus_5g_8_512": {
-    "display_name": "Realme 14 Pro+ 5G 8/512GB",
-    "tier": "B",
-    "discontinued": false,
-    "launch_date": "2025-01-16",
-    "net_new_inr": 35000,
-    "resale_target_a1": 26000,
-    "target_margin": 0.22,
-    "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "New price 12/512GB: ₹37,999 per search (Flipkart); 8/512GB not explicitly listed — using 12/512GB as proxy ceiling ₹34,999 (lower of variants). Cashify sell (12"
-  },
   "realme_narzo_60_8_256": {
     "display_name": "Realme Narzo 60 5G 8/256GB",
     "tier": "C",
@@ -7309,18 +7285,6 @@
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
     "live_source": "Cashify refurb Moto G54 5G 12GB/256GB discounted ₹12,599; Flipkart NET 12GB/256GB ₹20,899 (₹21,999 − ₹1,100); 8/256 refurb excellent anchored at ₹12,500; 25-Jun"
-  },
-  "oppo_reno_13_8_512": {
-    "display_name": "Oppo Reno 13 8/512GB",
-    "tier": "B",
-    "discontinued": false,
-    "launch_date": "2025-01-09",
-    "net_new_inr": 43000,
-    "resale_target_a1": 27000,
-    "target_margin": 0.22,
-    "calibration_status": "estimated",
-    "calibration_date": "2026-06-25",
-    "live_source": "derived from lower-storage sibling +8% storage premium (no live data for this variant)"
   },
   "samsung_s23_256": {
     "display_name": "Samsung Galaxy S23 256GB",
@@ -7474,18 +7438,6 @@
     "calibration_status": "estimated",
     "calibration_date": "2026-06-25",
     "live_source": "derived from lower-storage sibling +8% storage premium (no live data for this variant)"
-  },
-  "vivo_v50_8_512": {
-    "display_name": "Vivo V50 8/512GB",
-    "tier": "B",
-    "discontinued": false,
-    "launch_date": "2025-02-17",
-    "net_new_inr": 43000,
-    "resale_target_a1": 29000,
-    "target_margin": 0.2,
-    "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "New price Vivo V50 12/512 ₹40,999 (Cashify/Flipkart Jun 2026); scaled up ~₹3,000 from 8/256 (₹26,000). Cashify refurb for 512GB ~₹29,000–30,000. Current ₹32,000"
   },
   "iqoo_neo_9_5g_8_256": {
     "display_name": "iQOO Neo 9 5G 8/256GB",
@@ -16685,16 +16637,6 @@
     "resale_target_a1": 23300,
     "target_margin": 0.2
   },
-  "iqoo_neo_10_pro_12_512": {
-    "display_name": "iQOO Neo 10 Pro 5G 12/512GB",
-    "tier": "A",
-    "launch_date": "2025-03-11",
-    "calibration_status": "estimated",
-    "calibration_date": "2026-06-25",
-    "discontinued": false,
-    "resale_target_a1": 26300,
-    "target_margin": 0.2
-  },
   "oneplus_13t_12_256": {
     "display_name": "OnePlus 13T 12/256GB",
     "tier": "S",
@@ -16893,40 +16835,26 @@
     "tier": "S",
     "launch_date": "2025-08-20",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
+    "calibration_date": "2026-08-30",
     "discontinued": false,
-    "resale_target_a1": 86800,
+    "resale_target_a1": 87000,
     "target_margin": 0.099,
-    "live_source": "BRAIN 2026-08-17: resale ₹87,000 / market buys ₹68,000 -> A1 ₹79,000 = resale÷(1+0.099) [rise-cap+flagged]",
+    "live_source": "BRAIN 2026-08-30: resale ₹87,000 / market buys ₹68,000 -> A1 ₹79,200 = resale÷(1+0.099) [margin]",
     "buyback_market": 68000,
     "market_resale_observed": 87000
-  },
-  "google_pixel_10_pro_16_1tb": {
-    "display_name": "Google Pixel 10 Pro 16/1TB",
-    "tier": "S",
-    "launch_date": "2025-08-20",
-    "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "discontinued": false,
-    "resale_target_a1": 95600,
-    "target_margin": 0.099,
-    "live_source": "BRAIN 2026-08-17: resale ₹96,000 / market buys ₹76,000 -> A1 ₹87,000 = resale÷(1+0.099) [rise-cap+flagged]",
-    "buyback_market": 76000,
-    "market_resale_observed": 96000
   },
   "google_pixel_10_pro_fold_16_256": {
     "display_name": "Google Pixel 10 Pro Fold 16/256GB",
     "tier": "S",
     "launch_date": "2025-08-20",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
+    "calibration_date": "2026-08-30",
     "discontinued": false,
-    "resale_target_a1": 113400,
+    "resale_target_a1": 106100,
     "target_margin": 0.099,
     "notes": "Foldable. Hinge inspection mandatory.",
-    "live_source": "BRAIN 2026-08-17: resale ₹114,000 / market buys ₹96,000 -> A1 ₹103,200 = resale÷(1+0.099) [rise-cap+flagged]",
-    "buyback_market": 96000,
-    "market_resale_observed": 114000
+    "live_source": "BRAIN 2026-08-30: resale ₹106,000 -> A1 ₹96,500 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 106000
   },
   "poco_f7_5g_12_256": {
     "display_name": "Poco F7 5G 12/256GB",
@@ -16954,21 +16882,13 @@
     "display_name": "Poco F7 Ultra 5G 12/256GB",
     "tier": "S",
     "launch_date": "2025-03-27",
-    "calibration_status": "estimated",
-    "calibration_date": "2026-06-25",
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
     "discontinued": false,
-    "resale_target_a1": 32300,
-    "target_margin": 0.2
-  },
-  "poco_f7_ultra_12_512": {
-    "display_name": "Poco F7 Ultra 5G 12/512GB",
-    "tier": "S",
-    "launch_date": "2025-03-27",
-    "calibration_status": "estimated",
-    "calibration_date": "2026-06-25",
-    "discontinued": false,
-    "resale_target_a1": 36200,
-    "target_margin": 0.2
+    "resale_target_a1": 30600,
+    "target_margin": 0.099,
+    "market_resale_observed": 30500,
+    "live_source": "BRAIN 2026-08-30: resale ₹30,500 -> A1 ₹27,800 = resale÷(1+0.099) [margin]"
   },
   "poco_m7_5g_4_128": {
     "display_name": "Poco M7 5G 4/128GB",
@@ -17329,13 +17249,13 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 132000,
-    "resale_target_a1": 108500,
+    "resale_target_a1": 112000,
     "target_margin": 0.099,
     "notes": "Ultra-thin design. New form factor — verify demand locally.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹112,000 / market buys ₹86,000 -> A1 ₹98,700 = resale÷(1+0.099) [rise-cap+flagged]",
-    "buyback_market": 86000,
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹112,000 / market buys ₹85,000 -> A1 ₹101,900 = resale÷(1+0.099) [margin]",
+    "buyback_market": 85000,
     "market_resale_observed": 112000
   },
   "iphone_17e_256": {
@@ -17358,14 +17278,14 @@
     "tier": "S",
     "discontinued": false,
     "launch_date": "2026-03-02",
-    "net_new_inr": 73900,
-    "resale_target_a1": 55800,
+    "net_new_inr": 84900,
+    "resale_target_a1": 55000,
     "target_margin": 0.099,
     "notes": "Budget iPhone, A19 chip. Successor to 16e.",
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹59,000 -> A1 ₹50,800 = resale÷(1+0.099) [rise-cap+flagged]",
-    "market_resale_observed": 59000
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹55,000 -> A1 ₹50,000 = resale÷(1+0.099) [margin] conf=medium",
+    "market_resale_observed": 55000
   },
   "samsung_s20_plus_256": {
     "display_name": "Samsung Galaxy S20+ 256GB",
@@ -17436,12 +17356,12 @@
     "tier": "B",
     "discontinued": false,
     "launch_date": "2025-02-17",
-    "net_new_inr": 38000,
+    "net_new_inr": 34999,
     "resale_target_a1": 23000,
     "target_margin": 0.2,
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
-    "live_source": "Cashify refurb Vivo V50 ~₹24,099–24,899 (Jun 2026); new price ₹32,999 (8/128). A1 resale ≈ ₹24,099×0.95 = ₹22,894 → ₹23,000. Current ₹26,000 was above Cashify r"
+    "live_source": "Cashify refurb Vivo V50 ~₹24,099–24,899 (Jun 2026); new price ₹32,999 (8/128). A1 resale ≈ ₹24,099×0.95 = ₹22,894 → ₹23,000. Current ₹26,000 was above Cashify r | new price correct"
   },
   "vivo_v50e_8_128": {
     "display_name": "Vivo V50e 5G 8/128GB",
@@ -17750,11 +17670,13 @@
     "discontinued": false,
     "launch_date": "2025-07-24",
     "net_new_inr": 31999,
-    "resale_target_a1": 26500,
-    "target_margin": 0.2,
+    "resale_target_a1": 23000,
+    "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "Cashify buyback blog: 12/256GB exchange up to ₹22,300. Flipkart exchange value shown ₹22,300. New price 12/256GB ₹35,999 (search data Jun-2026). Resale = ₹22,30"
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹23,000 / market buys ₹19,500 -> A1 ₹20,900 = resale÷(1+0.099) [margin]",
+    "buyback_market": 19500,
+    "market_resale_observed": 23000
   },
   "samsung_m56_8_128": {
     "display_name": "Samsung Galaxy M56 5G 8/128GB",
@@ -18296,13 +18218,13 @@
     "discontinued": false,
     "launch_date": "2025-03-12",
     "net_new_inr": 119900,
-    "resale_target_a1": 94400,
+    "resale_target_a1": 85000,
     "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹100,000 / market buys ₹78,000 -> A1 ₹85,900 = resale÷(1+0.099) [rise-cap+flagged]",
-    "buyback_market": 78000,
-    "market_resale_observed": 100000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹85,000 / market buys ₹66,000 -> A1 ₹77,300 = resale÷(1+0.099) [margin]",
+    "buyback_market": 66000,
+    "market_resale_observed": 85000
   },
   "macbook_air_m4_15_2025_16_256": {
     "display_name": "MacBook Air M4 15\" (2025) 16/256GB",
@@ -18311,13 +18233,12 @@
     "discontinued": false,
     "launch_date": "2025-03-12",
     "net_new_inr": 124900,
-    "resale_target_a1": 90000,
+    "resale_target_a1": 66700,
     "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹90,000 / market buys ₹70,000 -> A1 ₹81,900 = resale÷(1+0.099) [margin]",
-    "buyback_market": 70000,
-    "market_resale_observed": 90000
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹66,000 -> A1 ₹60,700 = resale÷(1+0.099) [margin+band-20%+hard-ceiling] conf=medium",
+    "market_resale_observed": 66000
   },
   "macbook_pro_14_m3_2023_8_512": {
     "display_name": "MacBook Pro 14\" M3 (2023) 8/512GB",
@@ -18356,13 +18277,13 @@
     "discontinued": false,
     "launch_date": "2024-10-30",
     "net_new_inr": 169900,
-    "resale_target_a1": 115000,
+    "resale_target_a1": 108000,
     "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹115,000 / market buys ₹68,000 -> A1 ₹104,600 = resale÷(1+0.099) [margin]",
-    "buyback_market": 68000,
-    "market_resale_observed": 115000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹108,000 / market buys ₹66,000 -> A1 ₹98,300 = resale÷(1+0.099) [margin]",
+    "buyback_market": 66000,
+    "market_resale_observed": 108000
   },
   "macbook_pro_14_m4_pro_2024_24_512": {
     "display_name": "MacBook Pro 14\" M4 Pro (2024) 24/512GB",
@@ -18371,13 +18292,12 @@
     "discontinued": false,
     "launch_date": "2024-10-30",
     "net_new_inr": 199900,
-    "resale_target_a1": 142000,
+    "resale_target_a1": 140000,
     "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹142,000 / market buys ₹108,000 -> A1 ₹129,200 = resale÷(1+0.099) [margin]",
-    "buyback_market": 108000,
-    "market_resale_observed": 142000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹140,000 -> A1 ₹127,400 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 140000
   },
   "macbook_pro_16_m4_pro_2024_24_512": {
     "display_name": "MacBook Pro 16\" M4 Pro (2024) 24/512GB",
@@ -18386,12 +18306,12 @@
     "discontinued": false,
     "launch_date": "2024-10-30",
     "net_new_inr": 249900,
-    "resale_target_a1": 155900,
+    "resale_target_a1": 148000,
     "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "BRAIN 2026-08-24: resale ₹156,000 -> A1 ₹141,900 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 156000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹148,000 -> A1 ₹134,700 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 148000
   },
   "macbook_pro_16_m4_max_2024_36_1024": {
     "display_name": "MacBook Pro 16\" M4 Max (2024) 36/1TB",
@@ -18400,12 +18320,12 @@
     "discontinued": false,
     "launch_date": "2024-10-30",
     "net_new_inr": 349900,
-    "resale_target_a1": 219000,
+    "resale_target_a1": 220000,
     "target_margin": 0.099,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "BRAIN 2026-08-24: resale ₹219,000 -> A1 ₹199,300 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 219000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹220,000 -> A1 ₹200,200 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 220000
   },
   "ipad_9_64_wifi": {
     "calibration_status": "verified",
@@ -20296,10 +20216,13 @@
     "display_name": "Oppo F33 Pro 5G 8/128GB",
     "tier": "C",
     "launch_date": "2026-04-22",
-    "resale_target_a1": 30000,
-    "calibration_status": "estimated",
-    "calibration_date": "2026-06-25",
-    "live_source": "F33 Pro 5G launched India Apr 22 2026 at Rs37,999 (8GB/128GB); went on sale Apr 23 confirmed mymobileindia/digit.in; A1 resale est ~₹30,000 (new × ~0.79); Dimen"
+    "resale_target_a1": 29500,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹29,500 / market buys ₹24,500 -> A1 ₹23,600 = resale÷(1+0.25) [margin]",
+    "target_margin": 0.25,
+    "buyback_market": 24500,
+    "market_resale_observed": 29500
   },
   "oppo_f33_pro_5g_8_256": {
     "display_name": "Oppo F33 Pro 5G 8/256GB",
@@ -20524,10 +20447,13 @@
     "display_name": "Redmi Note 15 Pro 5G (8GB/256GB)",
     "tier": "C",
     "launch_date": "2026-01-29",
-    "resale_target_a1": 27500,
+    "resale_target_a1": 26500,
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "Launched India Jan 29 2026 at ₹31,999 (8GB/256GB); Cashify refurb good condition listed ₹28,199 — A1 mint estimated ₹27,500 (cashify.in)"
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹26,500 / market buys ₹22,500 -> A1 ₹21,200 = resale÷(1+0.25) [margin]",
+    "target_margin": 0.25,
+    "buyback_market": 22500,
+    "market_resale_observed": 26500
   },
   "redmi_note_15_pro_plus_5g_12_256": {
     "display_name": "Redmi Note 15 Pro+ 5G (12GB/256GB)",
@@ -20675,13 +20601,13 @@
     "display_name": "Xiaomi 17 Ultra (16GB/512GB)",
     "tier": "B",
     "launch_date": "2026-03-11",
-    "resale_target_a1": 97300,
+    "resale_target_a1": 96100,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹98,000 / market buys ₹56,000 -> A1 ₹88,500 = resale÷(1+0.099) [rise-cap+flagged]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹96,000 / market buys ₹76,600 -> A1 ₹87,400 = resale÷(1+0.099) [margin]",
     "target_margin": 0.099,
-    "buyback_market": 56000,
-    "market_resale_observed": 98000
+    "buyback_market": 76600,
+    "market_resale_observed": 96000
   },
   "poco_m4_5g_4_64": {
     "display_name": "Poco M4 5G 4GB/64GB",
@@ -20949,10 +20875,13 @@
     "display_name": "Poco X8 Pro 12GB/256GB",
     "tier": "B",
     "launch_date": "2026-03-17",
-    "resale_target_a1": 27500,
-    "calibration_status": "estimated",
-    "calibration_date": "2026-06-25",
-    "live_source": "91mobiles: 12GB/256GB India Rs35,999; A1 resale ~Rs27,500"
+    "resale_target_a1": 24900,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹25,000 / market buys ₹18,500 -> A1 ₹22,700 = resale÷(1+0.099) [margin]",
+    "target_margin": 0.099,
+    "buyback_market": 18500,
+    "market_resale_observed": 25000
   },
   "poco_x8_pro_max_12_256": {
     "display_name": "Poco X8 Pro Max 12GB/256GB",
@@ -21431,19 +21360,25 @@
     "display_name": "Nothing Phone (4a) 8GB/128GB",
     "tier": "B",
     "launch_date": "2026-03-05",
-    "resale_target_a1": 27000,
-    "calibration_status": "estimated",
-    "calibration_date": "2026-06-25",
-    "live_source": "India launch Mar 5 2026 at ₹31,999; hiked to ₹37,999 from Jun 1 2026 (xarkas.com/91mobiles); Cashify buyback baseline ~₹24,320; A1 resale ~₹27,000 (71% of new)."
+    "resale_target_a1": 22000,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹22,000 / market buys ₹15,000 -> A1 ₹20,000 = resale÷(1+0.099) [margin]",
+    "target_margin": 0.099,
+    "buyback_market": 15000,
+    "market_resale_observed": 22000
   },
   "nothing_phone_4a_8_256": {
     "display_name": "Nothing Phone (4a) 8GB/256GB",
     "tier": "B",
     "launch_date": "2026-03-05",
-    "resale_target_a1": 29000,
-    "calibration_status": "estimated",
-    "calibration_date": "2026-06-25",
-    "live_source": "India launch Mar 5 2026 at ₹34,999; hiked to ₹40,999 from Jun 1 2026; A1 resale ~₹29,000 (71% of new). https://blog.xarkas.com/nothing-phone-4a-and-4a-pro-price"
+    "resale_target_a1": 26000,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹26,000 -> A1 ₹23,700 = resale÷(1+0.099) [margin] conf=low",
+    "target_margin": 0.099,
+    "market_resale_observed": 26000,
+    "net_new_inr": 39900
   },
   "nothing_phone_4a_12_256": {
     "display_name": "Nothing Phone (4a) 12GB/256GB",
@@ -22504,10 +22439,13 @@
     "display_name": "Tecno Phantom V Flip2 5G (8GB/256GB)",
     "tier": "A",
     "launch_date": "2024-12-06",
-    "resale_target_a1": 26000,
-    "calibration_status": "estimated",
-    "calibration_date": "2026-06-25",
-    "live_source": "India launch Dec 6 2024 at Rs 34,999 for 8GB/256GB (techlusive.in, thequint.com)"
+    "resale_target_a1": 16200,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹16,000 -> A1 ₹14,700 = resale÷(1+0.099) [margin+band-20%+hard-ceiling] conf=medium",
+    "target_margin": 0.099,
+    "market_resale_observed": 16000,
+    "net_new_inr": 34999
   },
   "lava_agni_5g_8_128": {
     "display_name": "Lava Agni 5G (8GB/128GB)",
@@ -23611,27 +23549,26 @@
     "display_name": "iPad Air M4 11\" 128GB WiFi",
     "tier": "S",
     "launch_date": "2026-03-11",
-    "resale_target_a1": 53000,
+    "resale_target_a1": 52000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹53,000 / market buys ₹45,000 -> A1 ₹48,200 = resale÷(1+0.099) [margin]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹52,000 -> A1 ₹47,300 = resale÷(1+0.099) [margin]",
     "category": "tablet",
     "target_margin": 0.099,
-    "buyback_market": 45000,
-    "market_resale_observed": 53000
+    "market_resale_observed": 52000
   },
   "ipad_air_m4_13_128_wifi": {
     "display_name": "iPad Air M4 13\" 128GB WiFi",
     "tier": "S",
     "launch_date": "2026-03-11",
-    "resale_target_a1": 63000,
+    "resale_target_a1": 68000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹63,000 / market buys ₹53,000 -> A1 ₹57,300 = resale÷(1+0.099) [margin]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹68,000 / market buys ₹53,000 -> A1 ₹61,900 = resale÷(1+0.099) [margin]",
     "category": "tablet",
     "target_margin": 0.099,
     "buyback_market": 53000,
-    "market_resale_observed": 63000
+    "market_resale_observed": 68000
   },
   "ipad_mini_5_64_wifi": {
     "display_name": "iPad mini 5 (A12) 64GB WiFi",
@@ -23747,26 +23684,26 @@
     "display_name": "iPad Pro M4 11\" 512GB WiFi",
     "tier": "S",
     "launch_date": "2024-05-15",
-    "resale_target_a1": 96000,
+    "resale_target_a1": 86000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹96,000 / market buys ₹72,000 -> A1 ₹80,700 = resale÷(1+0.19) [margin]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹86,000 -> A1 ₹72,300 = resale÷(1+0.19) [margin]",
     "category": "tablet",
     "target_margin": 0.19,
-    "buyback_market": 72000,
-    "market_resale_observed": 96000
+    "market_resale_observed": 86000
   },
   "ipad_pro_m4_13_512_wifi": {
     "display_name": "iPad Pro M4 13\" 512GB WiFi",
     "tier": "S",
     "launch_date": "2024-05-15",
-    "resale_target_a1": 93100,
+    "resale_target_a1": 74500,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹85,000 -> A1 ₹78,200 = resale÷(1+0.19) [week-cap-down+hard-ceiling]",
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹68,000 -> A1 ₹62,600 = resale÷(1+0.19) [margin+band-20%] conf=medium",
     "category": "tablet",
     "target_margin": 0.19,
-    "market_resale_observed": 85000
+    "market_resale_observed": 68000,
+    "net_new_inr": 149900
   },
   "ipad_pro_m5_11_256_wifi": {
     "display_name": "iPad Pro M5 11\" 256GB WiFi",
@@ -23788,8 +23725,8 @@
     "launch_date": "2025-10-22",
     "resale_target_a1": 108000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "HAND-VERIFIED 2026-08-17: resale ₹108,000 / market buys ₹86,200 -> A1 ₹98,300 = resale÷(1+0.099).",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹108,000 / market buys ₹86,200 -> A1 ₹98,300 = resale÷(1+0.099) [margin]",
     "category": "tablet",
     "target_margin": 0.099,
     "buyback_market": 86200,
@@ -24186,14 +24123,14 @@
     "display_name": "Samsung Galaxy Tab S11 Ultra WiFi 256GB",
     "tier": "A",
     "launch_date": "2025-09-20",
-    "resale_target_a1": 96900,
+    "resale_target_a1": 73900,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹98,000 / market buys ₹65,600 -> A1 ₹88,200 = resale÷(1+0.099) [rise-cap+flagged]",
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹73,000 -> A1 ₹67,200 = resale÷(1+0.099) [margin+band-20%+hard-ceiling] conf=low",
     "category": "tablet",
     "target_margin": 0.099,
-    "buyback_market": 65600,
-    "market_resale_observed": 98000
+    "market_resale_observed": 73000,
+    "net_new_inr": 135999
   },
   "samsung_galaxy_tab_s11_wifi_128": {
     "display_name": "Samsung Galaxy Tab S11 WiFi 128GB",
@@ -24666,13 +24603,13 @@
     "display_name": "Vivo X300 16GB/512GB",
     "tier": "B",
     "launch_date": "2025-12-02",
-    "resale_target_a1": 56400,
+    "resale_target_a1": 58000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹62,500 / market buys ₹49,000 -> A1 ₹51,300 = resale÷(1+0.099) [rise-cap+flagged]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹58,000 / market buys ₹49,000 -> A1 ₹52,800 = resale÷(1+0.099) [margin]",
     "target_margin": 0.099,
     "buyback_market": 49000,
-    "market_resale_observed": 62500
+    "market_resale_observed": 58000
   },
   "vivo_x300_ultra_16_512": {
     "display_name": "Vivo X300 Ultra 16GB/512GB",
@@ -24680,8 +24617,8 @@
     "launch_date": "2026-05-06",
     "resale_target_a1": 100000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹100,000 / market buys ₹79,000 -> A1 ₹91,000 = resale÷(1+0.099) [margin]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹100,000 / market buys ₹79,000 -> A1 ₹91,000 = resale÷(1+0.099) [margin]",
     "target_margin": 0.099,
     "buyback_market": 79000,
     "market_resale_observed": 100000
@@ -24690,24 +24627,24 @@
     "display_name": "Vivo X300 FE 12GB/256GB",
     "tier": "B",
     "launch_date": "2026-05-06",
-    "resale_target_a1": 55500,
+    "resale_target_a1": 59000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹62,000 / market buys ₹48,700 -> A1 ₹50,500 = resale÷(1+0.099) [rise-cap+flagged]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹59,000 / market buys ₹48,700 -> A1 ₹53,700 = resale÷(1+0.099) [margin]",
     "target_margin": 0.099,
     "buyback_market": 48700,
-    "market_resale_observed": 62000
+    "market_resale_observed": 59000
   },
   "vivo_x300_fe_12_512": {
     "display_name": "Vivo X300 FE 12GB/512GB",
     "tier": "B",
     "launch_date": "2026-05-06",
-    "resale_target_a1": 61000,
+    "resale_target_a1": 62000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹61,000 -> A1 ₹55,500 = resale÷(1+0.099) [margin]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹62,000 -> A1 ₹56,400 = resale÷(1+0.099) [margin]",
     "target_margin": 0.099,
-    "market_resale_observed": 61000
+    "market_resale_observed": 62000
   },
   "vivo_v70_8_256": {
     "display_name": "Vivo V70 8GB/256GB",
@@ -24782,19 +24719,24 @@
     "display_name": "Vivo V70 FE 8GB/256GB",
     "tier": "B",
     "launch_date": "2026-04-02",
-    "resale_target_a1": 26000,
-    "calibration_status": "estimated",
-    "calibration_date": "2026-06-25",
-    "live_source": "91mobiles.com hub/vivo-v70-fe-launch; 8GB/256GB at Rs40,999 confirmed; three variants per sirphire.in"
+    "resale_target_a1": 23400,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹31,000 / market buys ₹25,700 -> A1 ₹23,000 = resale÷(1+0.099) [rise-cap+flagged]",
+    "target_margin": 0.099,
+    "buyback_market": 25700,
+    "market_resale_observed": 31000
   },
   "vivo_v70_fe_12_256": {
     "display_name": "Vivo V70 FE 12GB/256GB",
     "tier": "B",
     "launch_date": "2026-04-02",
-    "resale_target_a1": 29000,
-    "calibration_status": "estimated",
-    "calibration_date": "2026-06-25",
-    "live_source": "91mobiles.com hub/vivo-v70-fe-launch; 12GB/256GB at Rs44,999 confirmed India launch Apr 9 2026"
+    "resale_target_a1": 26200,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹36,500 -> A1 ₹25,700 = resale÷(1+0.099) [rise-cap+flagged]",
+    "target_margin": 0.099,
+    "market_resale_observed": 36500
   },
   "vivo_y19_5g_4_64": {
     "display_name": "Vivo Y19 5G (4GB/64GB)",
@@ -24935,19 +24877,24 @@
     "display_name": "Vivo T4 Ultra (8GB/256GB)",
     "tier": "B",
     "launch_date": "2025-06-11",
-    "resale_target_a1": 27000,
+    "resale_target_a1": 26000,
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "Launched 11 Jun 2025; 8/256 at Rs 37,999 confirmed (telecomtalk.info/vivo-t4-ultra-launched-in-india); Cashify refurb fair Rs 30,199 for 12/256 (cashify.in/buy-"
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹26,000 / market buys ₹18,500 -> A1 ₹23,700 = resale÷(1+0.099) [margin]",
+    "target_margin": 0.099,
+    "buyback_market": 18500,
+    "market_resale_observed": 26000
   },
   "vivo_t4_ultra_12_256": {
     "display_name": "Vivo T4 Ultra (12GB/256GB)",
     "tier": "B",
     "launch_date": "2025-06-11",
-    "resale_target_a1": 28500,
+    "resale_target_a1": 26800,
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "12/256 at Rs 39,999 confirmed (telecomtalk.info); Cashify refurb fair Rs 30,199 for 12/256 (cashify.in/buy-refurbished-mobile-phones/renewed-vivo-t4-ultra-5g); "
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹26,800 -> A1 ₹24,400 = resale÷(1+0.099) [margin]",
+    "target_margin": 0.099,
+    "market_resale_observed": 26800
   },
   "vivo_t4_ultra_12_512": {
     "display_name": "Vivo T4 Ultra (12GB/512GB)",
@@ -25155,10 +25102,13 @@
     "display_name": "iQOO Neo 10 5G 12/256GB",
     "tier": "B",
     "launch_date": "2025-05-26",
-    "resale_target_a1": 26500,
-    "calibration_status": "estimated",
-    "calibration_date": "2026-06-25",
-    "live_source": "Launched India May 26 2025; 4 variants: 8/128 (31,999), 8/256 (33,999), 12/256 (35,999), 16/512 (40,999). Current price June 2026: 12/256 at Rs 35,999. Resale A"
+    "resale_target_a1": 24000,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "VERIFIED 2026-08-30 (lower): resale ₹24,000 -> A1 ₹21,800 = resale÷(1+0.099) [margin] conf=medium | new price corrected 2026-08-30: Rs42,999 (iQOO India: Neo 10 12/256 Rs42,999 (DB",
+    "target_margin": 0.099,
+    "market_resale_observed": 24000,
+    "net_new_inr": 42999
   },
   "iqoo_neo_10_5g_16_512": {
     "display_name": "iQOO Neo 10 5G 16/512GB",
@@ -25566,10 +25516,12 @@
     "display_name": "Realme GT 7T 5G (12GB/256GB)",
     "tier": "B",
     "launch_date": "2025-05-27",
-    "resale_target_a1": 26000,
+    "resale_target_a1": 23500,
     "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "Cashify refurb Realme GT 7T Fair 12GB/256GB at Rs 25,899; new Rs 37,999. A1 resale ~26,000 estimated. Source: cashify.in/buy-refurbished-mobile-phones/renewed-r"
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹23,500 -> A1 ₹21,400 = resale÷(1+0.099) [margin]",
+    "target_margin": 0.099,
+    "market_resale_observed": 23500
   },
   "realme_gt_7t_5g_12_512": {
     "display_name": "Realme GT 7T 5G (12GB/512GB)",
@@ -25596,13 +25548,13 @@
     "display_name": "Realme GT 8 Pro 5G (16GB/512GB)",
     "tier": "B",
     "launch_date": "2025-11-20",
-    "resale_target_a1": 54000,
+    "resale_target_a1": 52000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹54,000 / market buys ₹43,600 -> A1 ₹49,100 = resale÷(1+0.099) [margin]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹52,000 / market buys ₹43,200 -> A1 ₹47,300 = resale÷(1+0.099) [margin]",
     "target_margin": 0.099,
-    "buyback_market": 43600,
-    "market_resale_observed": 54000
+    "buyback_market": 43200,
+    "market_resale_observed": 52000
   },
   "realme_narzo_70_turbo_5g_6_128": {
     "display_name": "Realme Narzo 70 Turbo 5G 6GB 128GB",
@@ -26165,13 +26117,13 @@
     "display_name": "Oppo Find X9 Ultra 12/512GB",
     "tier": "S",
     "launch_date": "2026-05-21",
-    "resale_target_a1": 100600,
+    "resale_target_a1": 102000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹108,000 / market buys ₹68,000 -> A1 ₹91,500 = resale÷(1+0.099) [rise-cap+flagged]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹102,000 / market buys ₹79,000 -> A1 ₹92,800 = resale÷(1+0.099) [margin]",
     "target_margin": 0.099,
-    "buyback_market": 68000,
-    "market_resale_observed": 108000
+    "buyback_market": 79000,
+    "market_resale_observed": 102000
   },
   "oppo_find_x9s_12_256": {
     "display_name": "Oppo Find X9s 12/256GB",
@@ -26189,13 +26141,13 @@
     "display_name": "Oppo Find X9s 12/512GB",
     "tier": "A",
     "launch_date": "2026-05-21",
-    "resale_target_a1": 56500,
+    "resale_target_a1": 57000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹56,500 / market buys ₹44,500 -> A1 ₹51,400 = resale÷(1+0.099) [margin]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹57,000 / market buys ₹44,500 -> A1 ₹51,900 = resale÷(1+0.099) [margin]",
     "target_margin": 0.099,
     "buyback_market": 44500,
-    "market_resale_observed": 56500
+    "market_resale_observed": 57000
   },
   "hmd_crest_5g_6_128": {
     "display_name": "HMD Crest 5G 6/128GB",
@@ -26754,13 +26706,14 @@
     "display_name": "Samsung Galaxy Z Fold8 12GB/256GB",
     "tier": "S",
     "launch_date": "2026-07-22",
-    "resale_target_a1": 144000,
+    "resale_target_a1": 147000,
     "target_margin": 0.099,
     "net_new_inr": 179999,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "HAND-VERIFIED 2026-08-17: Samsung India new ₹179,999; thin used market (on sale 2026-08-07) resale ₹144,000 -> A1 ₹131,000. No real competitor buyback exists yet — Cashify's widget",
-    "market_resale_observed": 144000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹147,000 / market buys ₹97,000 -> A1 ₹133,800 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 147000,
+    "buyback_market": 97000
   },
   "samsung_z_fold_8_512": {
     "display_name": "Samsung Galaxy Z Fold8 12GB/512GB",
@@ -26770,8 +26723,8 @@
     "target_margin": 0.099,
     "net_new_inr": 199999,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "BRAIN 2026-08-24: resale ₹160,000 -> A1 ₹145,600 = resale÷(1+0.099) [margin]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹160,000 -> A1 ₹145,600 = resale÷(1+0.099) [margin]",
     "market_resale_observed": 160000
   },
   "samsung_z_fold_8_1tb": {
@@ -26782,8 +26735,8 @@
     "target_margin": 0.099,
     "net_new_inr": 239999,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "BRAIN 2026-08-24: resale ₹192,000 -> A1 ₹174,700 = resale÷(1+0.099) [margin]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹192,000 -> A1 ₹174,700 = resale÷(1+0.099) [margin]",
     "market_resale_observed": 192000
   },
   "samsung_z_fold_8_ultra_256": {
@@ -26794,8 +26747,8 @@
     "target_margin": 0.099,
     "net_new_inr": 199999,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "BRAIN 2026-08-24: resale ₹160,000 -> A1 ₹145,600 = resale÷(1+0.099) [margin]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹160,000 -> A1 ₹145,600 = resale÷(1+0.099) [margin]",
     "market_resale_observed": 160000
   },
   "samsung_z_fold_8_ultra_512": {
@@ -26806,8 +26759,8 @@
     "target_margin": 0.099,
     "net_new_inr": 219999,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "BRAIN 2026-08-24: resale ₹176,000 -> A1 ₹160,100 = resale÷(1+0.099) [margin]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹176,000 -> A1 ₹160,100 = resale÷(1+0.099) [margin]",
     "market_resale_observed": 176000
   },
   "samsung_z_fold_8_ultra_1tb": {
@@ -26818,8 +26771,8 @@
     "target_margin": 0.099,
     "net_new_inr": 259999,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "BRAIN 2026-08-24: resale ₹208,000 -> A1 ₹189,300 = resale÷(1+0.099) [margin]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹208,000 -> A1 ₹189,300 = resale÷(1+0.099) [margin]",
     "market_resale_observed": 208000
   },
   "samsung_z_flip_8_256": {
@@ -26838,13 +26791,14 @@
     "display_name": "Samsung Galaxy Z Flip8 12GB/512GB",
     "tier": "S",
     "launch_date": "2026-07-22",
-    "resale_target_a1": 120000,
+    "resale_target_a1": 118000,
     "target_margin": 0.099,
     "net_new_inr": 145000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹120,000 -> A1 ₹109,200 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 120000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹118,000 / market buys ₹80,000 -> A1 ₹107,400 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 118000,
+    "buyback_market": 80000
   },
   "samsung_f07_4_64": {
     "display_name": "Samsung Galaxy F07 4GB/64GB",
@@ -26959,25 +26913,25 @@
     "display_name": "Motorola Razr Fold (12GB+256GB)",
     "tier": "S",
     "launch_date": "2026-05-13",
-    "resale_target_a1": 120000,
+    "resale_target_a1": 122000,
     "target_margin": 0.099,
     "net_new_inr": 149999,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹120,000 -> A1 ₹109,200 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 120000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹122,000 -> A1 ₹111,000 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 122000
   },
   "moto_razr_fold_16_512": {
     "display_name": "Motorola Razr Fold (16GB+512GB)",
     "tier": "S",
     "launch_date": "2026-05-13",
-    "resale_target_a1": 128000,
+    "resale_target_a1": 123000,
     "target_margin": 0.099,
     "net_new_inr": 159999,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹128,000 -> A1 ₹116,500 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 128000
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹123,000 -> A1 ₹111,900 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 123000
   },
   "nothing_phone_4b_8_128": {
     "display_name": "Nothing Phone (4b) 8GB/128GB",
@@ -27300,8 +27254,9 @@
     "target_margin": 0.099,
     "net_new_inr": 90000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "Added 2026-08-17 (gap-audit+critic). resale ₹72,000/new ₹90,000. A1=resale÷(1+0.099)."
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹72,000 -> A1 ₹65,500 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 72000
   },
   "google_pixel_11_512": {
     "display_name": "Google Pixel 11 512GB",
@@ -27311,30 +27266,33 @@
     "target_margin": 0.099,
     "net_new_inr": 105000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "Added 2026-08-17 (gap-audit+critic). resale ₹84,000/new ₹105,000. A1=resale÷(1+0.099)."
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹84,000 -> A1 ₹76,400 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 84000
   },
   "google_pixel_11_pro_256": {
     "display_name": "Google Pixel 11 Pro 256GB",
     "tier": "S",
     "launch_date": "2026-08-12",
-    "resale_target_a1": 96000,
+    "resale_target_a1": 98000,
     "target_margin": 0.099,
     "net_new_inr": 120000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "Added 2026-08-17 (gap-audit+critic). resale ₹96,000/new ₹120,000. A1=resale÷(1+0.099)."
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹98,000 -> A1 ₹89,200 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 98000
   },
   "google_pixel_11_pro_512": {
     "display_name": "Google Pixel 11 Pro 512GB",
     "tier": "S",
     "launch_date": "2026-08-12",
-    "resale_target_a1": 108000,
+    "resale_target_a1": 110000,
     "target_margin": 0.099,
     "net_new_inr": 135000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "Added 2026-08-17 (gap-audit+critic). resale ₹108,000/new ₹135,000. A1=resale÷(1+0.099)."
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹110,000 -> A1 ₹100,100 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 110000
   },
   "google_pixel_11_pro_xl_256": {
     "display_name": "Google Pixel 11 Pro XL 256GB",
@@ -27344,19 +27302,21 @@
     "target_margin": 0.099,
     "net_new_inr": 135000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "Added 2026-08-17 (gap-audit+critic). resale ₹108,000/new ₹135,000. A1=resale÷(1+0.099)."
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹108,000 -> A1 ₹98,300 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 108000
   },
   "google_pixel_11_pro_xl_512": {
     "display_name": "Google Pixel 11 Pro XL 512GB",
     "tier": "A",
     "launch_date": "2026-08-12",
-    "resale_target_a1": 120000,
+    "resale_target_a1": 122000,
     "target_margin": 0.099,
     "net_new_inr": 150000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "Added 2026-08-17 (gap-audit+critic). resale ₹120,000/new ₹150,000. A1=resale÷(1+0.099)."
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹122,000 -> A1 ₹111,000 = resale÷(1+0.099) [margin]",
+    "market_resale_observed": 122000
   },
   "google_pixel_11_pro_fold_16_512": {
     "display_name": "Google Pixel 11 Pro Fold 16/512GB",
@@ -27366,8 +27326,8 @@
     "target_margin": 0.099,
     "net_new_inr": 187000,
     "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "BRAIN 2026-08-24: resale ₹148,000 -> A1 ₹134,700 = resale÷(1+0.099) [margin]",
+    "calibration_date": "2026-08-30",
+    "live_source": "BRAIN 2026-08-30: resale ₹148,000 -> A1 ₹134,700 = resale÷(1+0.099) [margin]",
     "market_resale_observed": 148000
   },
   "samsung_f70_pro_5g_8_128": {
@@ -27515,5 +27475,154 @@
     "calibration_status": "verified",
     "calibration_date": "2026-08-24",
     "live_source": "Added 2026-08-24 (gap-audit + price-check). resale ₹44,000 / new ₹54,999 -> A1 ₹35,200 = resale÷(1+0.25) [margin] press_coverage/medium"
+  },
+  "realme_p4s_5g_8_128": {
+    "display_name": "Realme P4s 5G (8GB/128GB)",
+    "tier": "B",
+    "launch_date": "2026-08-26",
+    "resale_target_a1": 28000,
+    "target_margin": 0.099,
+    "net_new_inr": 34999,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "Added 2026-08-30 (gap-audit+critic). resale ₹28,000/new ₹35,000. A1=resale÷(1+0.099)."
+  },
+  "realme_p4s_5g_8_256": {
+    "display_name": "Realme P4s 5G (8GB/256GB)",
+    "tier": "B",
+    "launch_date": "2026-08-26",
+    "resale_target_a1": 30400,
+    "target_margin": 0.099,
+    "net_new_inr": 37999,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "Added 2026-08-30 (gap-audit+critic). resale ₹30,400/new ₹38,000. A1=resale÷(1+0.099)."
+  },
+  "realme_p4s_5g_12_256": {
+    "display_name": "Realme P4s 5G (12GB/256GB)",
+    "tier": "B",
+    "launch_date": "2026-08-26",
+    "resale_target_a1": 33600,
+    "target_margin": 0.099,
+    "net_new_inr": 41999,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "Added 2026-08-30 (gap-audit+critic). resale ₹33,600/new ₹42,000. A1=resale÷(1+0.099)."
+  },
+  "lava_virat_v1_pro_5g_6_128": {
+    "display_name": "Lava Virat V1 Pro 5G 6/128GB",
+    "tier": "D",
+    "launch_date": "2026-08-24",
+    "resale_target_a1": 12800,
+    "target_margin": 0.3,
+    "net_new_inr": 15999,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "Added 2026-08-30 (gap-audit+critic). resale ₹12,800/new ₹16,000. A1=resale÷(1+0.3)."
+  },
+  "tecno_spark_go_3_pro_4_64": {
+    "display_name": "Tecno Spark Go 3 Pro 4/64GB",
+    "tier": "D",
+    "launch_date": "2026-08-28",
+    "resale_target_a1": 12800,
+    "target_margin": 0.3,
+    "net_new_inr": 15999,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "Added 2026-08-30 (gap-audit+critic). resale ₹12,800/new ₹16,000. A1=resale÷(1+0.3)."
+  },
+  "tecno_spark_go_3_pro_4_128": {
+    "display_name": "Tecno Spark Go 3 Pro 4/128GB",
+    "tier": "D",
+    "launch_date": "2026-08-28",
+    "resale_target_a1": 13600,
+    "target_margin": 0.3,
+    "net_new_inr": 16999,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "Added 2026-08-30 (gap-audit+critic). resale ₹13,600/new ₹17,000. A1=resale÷(1+0.3)."
+  },
+  "infinix_note_60_pro_pininfarina_8_256": {
+    "display_name": "Infinix Note 60 Pro Pininfarina Edition 8/256GB",
+    "tier": "C",
+    "launch_date": "2026-06-29",
+    "resale_target_a1": 31600,
+    "target_margin": 0.25,
+    "net_new_inr": 40999,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "Added 2026-08-30 (gap-audit+critic). resale ₹31,600/new ₹41,000. A1=resale÷(1+0.25)."
+  },
+  "oppo_find_x9_16_512": {
+    "display_name": "Oppo Find X9 16/512GB",
+    "tier": "A",
+    "launch_date": "2025-11-18",
+    "resale_target_a1": 56000,
+    "target_margin": 0.099,
+    "market_resale_observed": 56000,
+    "net_new_inr": 84999,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-08-30",
+    "live_source": "SIBLING REPAIR 2026-08-30: real variant replacing a removed phantom. resale Rs56,000 -> A1 Rs51,000 = resale/(1+0.099) [margin] (resale extrapolated - re-research)"
+  },
+  "vivo_v50_12_512": {
+    "display_name": "Vivo V50 12/512GB",
+    "tier": "B",
+    "launch_date": "2025-02-17",
+    "resale_target_a1": 24900,
+    "target_margin": 0.099,
+    "market_resale_observed": 25000,
+    "net_new_inr": 40999,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-08-30",
+    "live_source": "SIBLING REPAIR 2026-08-30: real variant replacing a removed phantom. resale Rs25,000 -> A1 Rs22,700 = resale/(1+0.099) [margin] (resale extrapolated - re-research)"
+  },
+  "oppo_reno_13_8_128": {
+    "display_name": "Oppo Reno 13 8/128GB",
+    "tier": "B",
+    "launch_date": "2025-01-09",
+    "resale_target_a1": 17000,
+    "target_margin": 0.099,
+    "market_resale_observed": 17000,
+    "net_new_inr": 37999,
+    "calibration_status": "verified",
+    "calibration_date": "2026-08-30",
+    "live_source": "SIBLING REPAIR 2026-08-30: real variant replacing a removed phantom. resale Rs17,000 -> A1 Rs15,500 = resale/(1+0.099) [margin]"
+  },
+  "realme_14_pro_plus_5g_12_512": {
+    "display_name": "Realme 14 Pro+ 5G 12/512GB",
+    "tier": "B",
+    "launch_date": "2025-03-05",
+    "resale_target_a1": 20100,
+    "target_margin": 0.099,
+    "market_resale_observed": 20100,
+    "net_new_inr": 37999,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-08-30",
+    "live_source": "SIBLING REPAIR 2026-08-30: real variant replacing a removed phantom. resale Rs20,100 -> A1 Rs18,300 = resale/(1+0.099) [margin] (resale extrapolated - re-research)"
+  },
+  "realme_14_pro_plus_5g_8_128": {
+    "display_name": "Realme 14 Pro+ 5G 8/128GB",
+    "tier": "B",
+    "launch_date": "2025-01-16",
+    "resale_target_a1": 16200,
+    "target_margin": 0.099,
+    "market_resale_observed": 16200,
+    "net_new_inr": 29999,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-08-30",
+    "live_source": "SIBLING REPAIR 2026-08-30: real variant replacing a removed phantom. resale Rs16,200 -> A1 Rs14,700 = resale/(1+0.099) [margin] (resale extrapolated - re-research)"
+  },
+  "realme_14_pro_plus_5g_12_256": {
+    "display_name": "Realme 14 Pro+ 5G 12/256GB",
+    "tier": "B",
+    "launch_date": "2025-01-16",
+    "resale_target_a1": 18600,
+    "target_margin": 0.099,
+    "market_resale_observed": 18600,
+    "net_new_inr": 34999,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-08-30",
+    "live_source": "SIBLING REPAIR 2026-08-30: real variant replacing a removed phantom. resale Rs18,600 -> A1 Rs16,900 = resale/(1+0.099) [margin] (resale extrapolated - re-research)"
   }
 }

@@ -54,7 +54,7 @@ const CRITIC_SCHEMA = {
 }
 
 function findPrompt(i) {
-  return `You audit Rajdhani Telecom's used-phone DB for MISSING models. TODAY is 2026-08-24. Find India phones that SHOULD be in the DB but are MISSING. The DB was gap-audited on 2026-08-17 (prev run 2026-08-10), so the PRIMARY target is anything that launched or went on sale in India from 2026-08-15 onward (the last ~10 days) — new launches, new storage/RAM variants of recent phones, and India availability of models announced earlier. SECONDARY: any notable 2025-2026 model still absent. Do not re-propose models already in the DB.
+  return `You audit Rajdhani Telecom's used-phone DB for MISSING models. TODAY is 2026-08-30. Find India phones that SHOULD be in the DB but are MISSING. The DB was gap-audited on 2026-08-24 (prev run 2026-08-17), so the PRIMARY target is anything that launched or went on sale in India from 2026-08-22 onward (the last ~8 days) — new launches, new storage/RAM variants of recent phones, and India availability of models announced earlier. SECONDARY: any notable 2025-2026 model still absent. Do not re-propose models already in the DB.
 
 Get your unit scope + what's already in the DB:
   python3 -c "import json; u=json.load(open('${DIR}/_audit_units.json'))[${i}]; inv=json.load(open('${DIR}/_db_inventory.json')); print('SCOPE:',u[2]); [print('---',b,'MODELS:',inv.get(b,{}).get('models')) for b in u[1]]"
@@ -71,7 +71,7 @@ For each MISSING model, output one entry per REAL India storage/RAM variant with
 Write ${DIR}/_gaps/find_${i}.json AND return: {"unit_id":"<name>","missing":[{...}]}. If none missing, missing:[].`
 }
 function criticPrompt(i, findJson) {
-  return `Adversarial CRITIC for Rajdhani Telecom gap-audit. TODAY is 2026-08-24. A finder proposed missing India models with prices; independently VERIFY each.
+  return `Adversarial CRITIC for Rajdhani Telecom gap-audit. TODAY is 2026-08-30. A finder proposed missing India models with prices; independently VERIFY each.
 Finder output:
 ${JSON.stringify(findJson)}
 

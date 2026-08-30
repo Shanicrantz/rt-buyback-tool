@@ -1,0 +1,68 @@
+[
+ {
+  "key": "oppo_find_x9_16_512",
+  "name": "Oppo Find X9 16/512GB",
+  "tier": "A",
+  "launch": "2025-11-18",
+  "a1": 51000,
+  "resale": 56000,
+  "new": 84999,
+  "cap": "margin",
+  "status": "estimated"
+ },
+ {
+  "key": "vivo_v50_12_512",
+  "name": "Vivo V50 12/512GB",
+  "tier": "B",
+  "launch": "2025-02-17",
+  "a1": 22700,
+  "resale": 25000,
+  "new": 40999,
+  "cap": "margin",
+  "status": "estimated"
+ },
+ {
+  "key": "oppo_reno_13_8_128",
+  "name": "Oppo Reno 13 8/128GB",
+  "tier": "B",
+  "launch": "2025-01-09",
+  "a1": 15500,
+  "resale": 17000,
+  "new": 37999,
+  "cap": "margin",
+  "status": "verified"
+ },
+ {
+  "key": "realme_14_pro_plus_5g_12_512",
+  "name": "Realme 14 Pro+ 5G 12/512GB",
+  "tier": "B",
+  "launch": "2025-03-05",
+  "a1": 18300,
+  "resale": 20100,
+  "new": 37999,
+  "cap": "margin",
+  "status": "estimated"
+ },
+ {
+  "key": "realme_14_pro_plus_5g_8_128",
+  "name": "Realme 14 Pro+ 5G 8/128GB",
+  "tier": "B",
+  "launch": "2025-01-16",
+  "a1": 14700,
+  "resale": 16200,
+  "new": 29999,
+  "cap": "margin",
+  "status": "estimated"
+ },
+ {
+  "key": "realme_14_pro_plus_5g_12_256",
+  "name": "Realme 14 Pro+ 5G 12/256GB",
+  "tier": "B",
+  "launch": "2025-01-16",
+  "a1": 16900,
+  "resale": 18600,
+  "new": 34999,
+  "cap": "margin",
+  "status": "estimated"
+ }
+]

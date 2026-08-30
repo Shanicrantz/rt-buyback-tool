@@ -60,7 +60,7 @@ const CRITIC_SCHEMA = {
 }
 
 function fetchPrompt(i) {
-  return `You research the REAL Indian second-hand market for Rajdhani Telecom. TODAY is 2026-08-24.
+  return `You research the REAL Indian second-hand market for Rajdhani Telecom. TODAY is 2026-08-30.
 
 ${BRAIN}
 
@@ -85,7 +85,7 @@ Every key exactly once.`
 }
 
 function criticPrompt(i, fetchJson) {
-  return `You are an adversarial MARKET-PRICE CRITIC for Rajdhani Telecom. TODAY is 2026-08-24. Assume the fetcher may have erred — catch it.
+  return `You are an adversarial MARKET-PRICE CRITIC for Rajdhani Telecom. TODAY is 2026-08-30. Assume the fetcher may have erred — catch it.
 
 ${BRAIN}
 

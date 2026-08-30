@@ -1,0 +1,51 @@
+[
+ {
+  "key": "realme_p4s_5g_8_128",
+  "name": "Realme P4s 5G (8GB/128GB)",
+  "launch": "2026-08-26",
+  "a1": 25500,
+  "resale": 28000
+ },
+ {
+  "key": "realme_p4s_5g_8_256",
+  "name": "Realme P4s 5G (8GB/256GB)",
+  "launch": "2026-08-26",
+  "a1": 27700,
+  "resale": 30400
+ },
+ {
+  "key": "realme_p4s_5g_12_256",
+  "name": "Realme P4s 5G (12GB/256GB)",
+  "launch": "2026-08-26",
+  "a1": 30600,
+  "resale": 33600
+ },
+ {
+  "key": "lava_virat_v1_pro_5g_6_128",
+  "name": "Lava Virat V1 Pro 5G 6/128GB",
+  "launch": "2026-08-24",
+  "a1": 9800,
+  "resale": 12800
+ },
+ {
+  "key": "tecno_spark_go_3_pro_4_64",
+  "name": "Tecno Spark Go 3 Pro 4/64GB",
+  "launch": "2026-08-28",
+  "a1": 9800,
+  "resale": 12800
+ },
+ {
+  "key": "tecno_spark_go_3_pro_4_128",
+  "name": "Tecno Spark Go 3 Pro 4/128GB",
+  "launch": "2026-08-28",
+  "a1": 10500,
+  "resale": 13600
+ },
+ {
+  "key": "infinix_note_60_pro_pininfarina_8_256",
+  "name": "Infinix Note 60 Pro Pininfarina Edition 8/256GB",
+  "launch": "2026-06-29",
+  "a1": 25300,
+  "resale": 31600
+ }
+]

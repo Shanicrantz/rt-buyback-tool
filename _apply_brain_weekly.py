@@ -19,7 +19,7 @@ import json, glob, sys, re
 from collections import defaultdict
 
 DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY = '2026-08-24'
+TODAY = '2026-08-30'
 APPLY = '--apply' in sys.argv
 WEEK_CAP = 0.20      # max single-week DROP in A1 (market softening = safe direction)
 INCREASE_CAP = 0.08  # max single-week RISE in A1 — deliberately tighter than the drop cap.

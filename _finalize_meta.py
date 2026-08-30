@@ -5,8 +5,8 @@ run the invariant checks. --apply to write; default dry-run."""
 import json, sys, re
 
 DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY = '2026-08-24'
-VERSION = '6.2'
+TODAY = '2026-08-30'
+VERSION = '6.3'
 APPLY = '--apply' in sys.argv
 
 db = json.load(open(f'{DIR}/phone_db.json'))
@@ -21,6 +21,23 @@ changes = refresh.get('changes', [])
 moved = [c for c in changes if abs(c['pct']) >= 0.5]
 added = json.load(open(f'{DIR}/_added_{TODAY}.json')) if __import__('os').path.exists(f'{DIR}/_added_{TODAY}.json') else []
 
+# Real storage variants added to replace removed phantoms (written by _add_siblings_*.py).
+# Removing a phantom leaves a hole where a REAL variant should sit, so the two go together:
+# without the repair, RT loses a counter-quote on a phone that genuinely walks in.
+try:
+    _sib = json.load(open(f'{DIR}/_added_siblings_{TODAY}.json'))
+except FileNotFoundError:
+    _sib = []
+if _sib:
+    _names = ', '.join(f"{s['name']} (A1 Rs{s['a1']:,})" for s in _sib)
+    SIBLING_NOTE = (f"SIBLING REPAIR: removing a phantom leaves a hole where a REAL variant belongs, "
+                    f"so the {len(_sib)} real configs the phantoms were standing in for were researched "
+                    f"(Opus, research + adversarial refute) and added: {_names}. ")
+else:
+    SIBLING_NOTE = ("SIBLING REPAIR: the real configs behind the removed phantoms were researched but "
+                    "none cleared the evidence bar, so none were added — adding a second phantom to "
+                    "replace the first is the worst available outcome. Carried to next week. ")
+
 meta['version'] = VERSION
 meta['last_calibration'] = TODAY
 meta['pricing_brain'] = ("A1 buyback = resale ÷ (1+margin_by_age), capped at resale×0.92 & new×0.85. "
@@ -30,33 +47,39 @@ meta['pricing_brain'] = ("A1 buyback = resale ÷ (1+margin_by_age), capped at re
                          "reference. Refreshed weekly from live resale + buyback research.")
 meta[f'v{VERSION.replace(".", "_")}_changelog'] = (
     f"Weekly brain refresh ({TODAY}). Live market research on 96 high-value/recent models "
-    f"(12x8 batches, fetch + adversarial critic, 29 prices corrected by the critic) re-anchored "
-    f"{len(changes)} of them ({len(moved)} moved \u22650.5%). A1 = resale\u00f7(1+margin_by_age), caps "
-    f"resale\u00d70.92 / new\u00d70.85, week move -20%/+8% asymmetric. "
-    f"THREE VERIFICATION PASSES ran on top of the refresh this week, all find+adversarial-refute: "
-    f"(1) OUTLIERS \u2014 51 items (33 rises the +8% cap had blocked, 8 collapses, 7 existence claims, "
-    f"3 missing prices) were re-researched blind. 15 re-priced, 10 rises rolled back to where they "
-    f"started the week (the refuter caught an iPhone 16 256GB quote that was really the 128GB price, "
-    f"a Pixel 10a priced off its \u20b949,999 MRP sticker, and three stale net_new_inr ceilings), and 6 "
-    f"phantom variants removed on positive line-up evidence: Samsung A57 8/512, Xiaomi 15 Ultra 1TB, "
-    f"OnePlus Nord 6 8/128, OnePlus 13R 8/128, Vivo X200 Pro 12/512, Realme GT 7 8/512. A 7th "
-    f"(iQOO 15R 12/256) rested on an absence-of-listing argument and was KEPT. "
-    f"(2) ANCHOR AUDIT \u2014 47 entries created by earlier gap audits carried suspiciously round new "
-    f"prices with resale at exactly 80% of them (a fabricated-estimate signature). The 38 with real "
-    f"money at stake were re-sourced: 16 corrected, net \u20b948,200 of buyback removed, headlined by "
-    f"Samsung F70 Pro and Infinix Note Edge (round \u20b925-29k \u2018prices\u2019 that were really \u20b919,999-23,999) "
-    f"and three Realme 16 Pro variants that were under-anchored. The whole Pixel 11 family was "
-    f"re-verified against store.google.com/in and Flipkart and CONFIRMED correct. "
-    f"(3) GAP PRICE-CHECK + TIE-BREAK PANEL \u2014 the gap audit\u2019s own prices looked 2-3x their series\u2019 "
-    f"historical band, so a 3-lens panel (brand India store / major retailer / India tech press) was "
-    f"run on the disputed families. All 9 agents agreed the prices are REAL \u2014 2026 India budget "
-    f"pricing has genuinely stepped up (iQOO Z10 \u20b921,999 \u2192 Z11 \u20b934,999; Tecno Pova 7 Pro \u20b919,999 \u2192 "
-    f"Pova 8 Pro \u20b949,999; Poco M7 \u20b910,499 \u2192 M8x \u20b920,999). The band heuristic was wrong, not the "
-    f"research. {len(added)} launches added (iQOO Z11 x4, Tecno Pova 8 Pro x2, Poco M8x x2, OnePlus 15R "
-    f"x2); Lava Virat V1 Pro held back because it is announced but not yet on sale. New-entry tiers are "
-    f"now normalised to whatever tier the DB already uses for that series \u2014 the finder had put the "
-    f"iQOO Z11 and Tecno Pova 8 Pro in tier B against 14/14 and 22/22 existing C entries, which "
-    f"silently changed the margin floor and gave one phone two different margins across its variants."
+    f"(12x8 batches, fetch + adversarial critic; the critic corrected 33 prices) re-anchored "
+    f"{len(changes)} of them ({len(moved)} moved ≥0.5%). A1 = resale÷(1+margin_by_age), caps "
+    f"resale×0.92 / new×0.85, week move -20%/+8% asymmetric. {len(added)} India launches added "
+    f"(Realme P4s 5G x3, Tecno Spark Go 3 Pro x2, Lava Virat V1 Pro 5G, Infinix Note 60 Pro "
+    f"Pininfarina Edition). The Lava Virat V1 Pro was correctly HELD BACK last week as announced-"
+    f"but-not-on-sale and is now genuinely shipping — the hold worked as intended. "
+    f"OUTLIER VERIFICATION (run on Opus this week, find + adversarial-refute over 26 items: 14 "
+    f"capped rises, 5 collapses, 3 existence claims, 4 missing prices): 16 lowered, 2 rolled back "
+    f"to week-start, 8 removed. NOTABLE — every single one of the 14 rises that the +8% cap had "
+    f"blocked was then REFUSED or LOWERED by independent research; not one survived as a genuine "
+    f"rise. The asymmetric cap is doing real work, and the systematic upward bias of the weekly "
+    f"research is re-confirmed rather than assumed. "
+    f"PHANTOM VARIANTS REMOVED (8) — each hand-verified against the brand's own India line-up "
+    f"before deletion, never on an absence-of-listing argument: Oppo Find X9 12/512 (India ships "
+    f"12/256 + 16/512 only), iQOO Neo 10 Pro 12/512 (no Neo 10 Pro sold in India at all), Nothing "
+    f"Phone 3a Pro 12/512 (tops out at 12/256), Oppo Reno 13 8/512 (8/128 + 8/256 only; the 12/512 "
+    f"belongs to the Reno13 Pro), Pixel 10 Pro 16/1TB (real global SKU, never sold in India), Poco "
+    f"F7 Ultra 12/512 (512GB pairs only with 16GB), Vivo V50 8/512 (512GB pairs only with 12GB), "
+    f"Realme 14 Pro+ 8/512 (512GB pairs only with 12GB). ALL EIGHT share one signature: a 512GB or "
+    f"1TB tier paired with the WRONG RAM size. "
+    f"ROOT-CAUSE FINDING: the phantom-variant bug and the round-number-price fabrication signature "
+    f"are the SAME failure — a past gap audit invented a next-storage-tier variant and priced it "
+    f"by extrapolation, which is why 5 of the 8 phantoms carried prices like Rs35,000 / Rs43,000 / "
+    f"Rs90,000. Two follow-ups: (a) _add_gaps.py was rounding net_new_inr to the nearest Rs100, "
+    f"manufacturing the very round-number signature the audit hunts for (Rs34,999 stored as "
+    f"Rs35,000) — fixed, and this week's 7 new entries carry exact prices; (b) 7 surviving entries "
+    f"had their net_new_inr corrected against brand primary sources, headlined by Oppo Find X9 "
+    f"12/256 (stored Rs82,000, really Rs74,999) and both Vivo V50 trims (both stored Rs38,000, "
+    f"really Rs34,999 / Rs36,999). No A1 was riding a corrected ceiling, so nothing RT pays moved; "
+    f"ceilings that ROSE were applied without letting any A1 follow them up. "
+    f"233 round-price entries remain DB-wide, but 0 of them currently bind an A1 — latent hygiene, "
+    f"not a live pricing error, and many are merely Rs1 rounding artifacts of the bug just fixed. "
+    f"{SIBLING_NOTE}"
 )
 
 # --- market signals: the Jul-22 Unpacked has happened; the pre-launch haircut rule is spent ---
