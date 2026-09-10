@@ -4,7 +4,7 @@ A1 = resale/(1+margin_by_age), capped at new*0.85. Merges finder (launch/tier/na
 Dedupes vs existing keys + display names. --apply to write; default dry-run."""
 import json, glob, re, sys, statistics
 DIR='/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY='2026-08-30'
+TODAY='2026-09-10'
 APPLY='--apply' in sys.argv
 def r100(n): return int(round(n/100.0))*100
 KNOWN={'iphone','apple','samsung','vivo','iqoo','realme','oppo','redmi','xiaomi','poco','oneplus','google',
@@ -18,7 +18,7 @@ def sig(nm): return re.sub(r'[^a-z0-9]','',nm.lower())
 exsig=set(sig(db[k].get('display_name','')) for k in existing)
 
 def months(ld):
-    try: y,mo,_=map(int,ld.split('-')); return (2026-y)*12+(8-mo)
+    try: y,mo,_=map(int,ld.split('-')); return (2026-y)*12+(9-mo)
     except: return None
 def margin_for(ld, tier=None):
     # margin_by_age was calibrated on high-value models only, so the tier default is a FLOOR
@@ -53,13 +53,26 @@ for k in existing:
     t=db[k].get('tier')
     if t: series_tiers.setdefault(series_sig(k),Counter())[t]+=1
 
-added=[]; skipped=0; rejected=0; tier_fixed=[]
+added=[]; skipped=0; rejected=0; tier_fixed=[]; held_future=[]
 bybrand=Counter()
 for key,v in ver.items():
     if not v.get('real_india_launch') or v.get('verdict')=='rejected': rejected+=1; continue
     if key in existing: skipped+=1; continue
     f=find.get(key)
     if not f: continue
+    # ANNOUNCED-BUT-NOT-SHIPPING HOLD (added 2026-09-10). A phone whose India launch_date is
+    # still in the future has NO used market: nobody can walk into RT with a used unit, and any
+    # "resale" for it is necessarily invented — the critics for the iPhone 18 Pro / Watch S12
+    # batch said so themselves ("resale = new x0.80 placeholder"). Deriving resale as a flat 80%
+    # of new is the exact fabrication signature this pipeline hunts elsewhere, so adding these
+    # would plant a fabricated anchor that next week's refresh would then treat as a real prior.
+    # Precedent: the Lava Virat V1 Pro was held on the same grounds and added once it shipped.
+    # The verified official India NEW prices are carried forward so next week need not re-research.
+    if (f.get('launch_date') or '') > TODAY:
+        held_future.append({'key':key,'name':f.get('display_name'),'launch_date':f.get('launch_date'),
+                            'tier':f.get('tier'),'new_price_verified':v.get('new_price_final'),
+                            'critic_note':(v.get('note') or '')[:300]})
+        continue
     if sig(f['display_name']) in exsig: skipped+=1; continue
     brand=key.split('_')[0]
     if brand not in KNOWN: rejected+=1; continue
@@ -79,7 +92,15 @@ for key,v in ver.items():
     e['resale_target_a1']=r100(resale); e['target_margin']=m
     if isinstance(new,(int,float)) and new>0: e['net_new_inr']=int(new)
     if isinstance(bm,(int,float)) and bm>0: e['buyback_market']=r100(bm)
-    e['calibration_status']='verified'; e['calibration_date']=TODAY
+    # PLACEHOLDER-RESALE DETECTION (2026-09-10). The gap-audit prompt sanctions resale ~= new x0.80
+    # for a brand-new phone with no used market yet, but the agents apply it to older phones too —
+    # 18 of this week's 20 adds came back at EXACTLY 0.80. For anything with a real used market that
+    # is an unresearched guess, not a datapoint, so it is recorded as 'estimated' (never 'verified')
+    # and the next weekly refresh re-researches it. Per the guardrail memo we still ADD it: a
+    # provisional quote beats no quote, we just refuse to call it verified.
+    placeholder = (isinstance(new,(int,float)) and new>0 and abs(resale/new-0.80)<0.005)
+    e['calibration_status']='estimated' if placeholder else 'verified'
+    e['calibration_date']=TODAY
     e['live_source']=f"Added {TODAY} (gap-audit+critic). resale ₹{r100(resale):,}{'/new ₹'+format(r100(new),',') if new else ''}{'/buy ₹'+format(r100(bm),',') if bm else ''}. A1=resale÷(1+{m})."[:180]
     db[key]=e; existing.add(key); exsig.add(sig(f['display_name']))
     added.append((key,f['display_name'],ld,a1,r100(resale))); bybrand[brand]+=1
@@ -88,8 +109,13 @@ for key,v in ver.items():
 
 json.dump([{'key':k,'name':nm,'launch':ld,'a1':a1,'resale':rs} for k,nm,ld,a1,rs in added],
           open(f'{DIR}/_added_{TODAY}.json','w'), ensure_ascii=False, indent=1)
+json.dump(held_future, open(f'{DIR}/_held_future_{TODAY}.json','w'), ensure_ascii=False, indent=1)
 print('=== ADD GAPS ===')
-print(f'proposed(verified files): {len(ver)} | ADDED: {len(added)} | skipped dup: {skipped} | rejected: {rejected}')
+print(f'proposed(verified files): {len(ver)} | ADDED: {len(added)} | skipped dup: {skipped} | rejected: {rejected} | HELD (not yet shipping): {len(held_future)}')
+if held_future:
+    print(f'\n--- HELD: announced, India launch still in the future (no used market yet) ---')
+    for h in sorted(held_future,key=lambda x:x['launch_date']):
+        print(f"  {h['launch_date']}  {h['name'][:44]:44s} new={h['new_price_verified']} (carried to _held_future_{TODAY}.json)")
 print('by brand:', dict(bybrand.most_common()))
 if tier_fixed:
     print('\nTier normalised to series majority:')
@@ -106,6 +132,6 @@ if APPLY and added:
     for i,ln in enumerate(L):
         if ln.lstrip().startswith('const DB = {'): L[i]=ln[:len(ln)-len(ln.lstrip())]+c
     open(f'{DIR}/index.html','w').write('\n'.join(L))
-    print(f'\nAPPLIED: +{len(added)} models -> total {len([k for k in out if k!="_meta"])}, v5.8')
+    print(f'\nAPPLIED: +{len(added)} models -> total {len([k for k in out if k!="_meta"])}')
 elif not APPLY:
     print('\n(dry-run — re-run with --apply to write)')

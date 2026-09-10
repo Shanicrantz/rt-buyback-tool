@@ -1,0 +1,26 @@
+[
+ {
+  "key": "moto_razr_60_ultra_12_512",
+  "issue": "suspected phantom",
+  "evidence": "India Razr 60 Ultra ships a SINGLE config: 16GB/512GB at Rs99,999 (Business Standard 2025-05-13; Flipkart listing '512 GB Storage, 16 GB RAM'). Both DB entries carry 12GB RAM, so 12/512 is phantom too — only 12/256 was flagged by the refuter.",
+  "action": "verify + remove; then ADD the real 16/512 config (currently MISSING from DB)"
+ },
+ {
+  "key": "redmi_note_14_pro_plus_5g_8_256",
+  "issue": "suspected phantom",
+  "evidence": "India Pro+ ships 8/128 at Rs30,999 and 12/512 at Rs35,999 (GSMArena India debut news-65665). DB holds 8/256 and 8/512 — BOTH are phantoms; 8/512 removed this week, 8/256 still live.",
+  "action": "verify + remove; then ADD the real 8/128 and 12/512 configs (both MISSING from DB)"
+ },
+ {
+  "key": "google_pixel_9_pro_128",
+  "issue": "suspected phantom",
+  "evidence": "India received the Pixel 9 Pro in a SINGLE 256GB variant at Rs1,09,999 (multiple India sources; 128/512/1TB are international-only). DB held 128/256/512 — 512 removed this week, 128 still live.",
+  "action": "verify + remove (256GB entry is the only real one)"
+ },
+ {
+  "key": "realme_15_5g_12_512",
+  "issue": "refuter's remove verdict OVERRULED — entry KEPT",
+  "evidence": "GSMArena India page (realme_15_5g-14018.php) lists Internal as '128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM' — the 12/512 variant is REAL in India. The refuter claimed realme.com/in showed no such config.",
+  "action": "none — kept. Recorded so a future run does not re-litigate it."
+ }
+]

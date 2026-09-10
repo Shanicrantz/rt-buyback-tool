@@ -1,0 +1,122 @@
+[
+ {
+  "key": "iphone_18_pro_256",
+  "name": "iPhone 18 Pro 256GB",
+  "launch_date": "2026-09-18",
+  "tier": "S",
+  "new_price_verified": 164900,
+  "critic_note": "Live-fetched apple.com/in/shop/buy-iphone/iphone-18-pro directly (2026-09-10): 256/512/1TB/2TB priced Rs164,900/189,900/239,900/314,900 — exact match to finder on all four tiers. apple.com/in homepage confirms iPhone 18 Pro preorder opens 5:30pm IST 12-Sep, ships 18-Sep — matches finder's launch_dat"
+ },
+ {
+  "key": "iphone_18_pro_512",
+  "name": "iPhone 18 Pro 512GB",
+  "launch_date": "2026-09-18",
+  "tier": "S",
+  "new_price_verified": 189900,
+  "critic_note": "Same live apple.com/in fetch as 256GB sibling — Rs189,900 exact match. Storage ordering coherent (256<512<1TB<2TB, Pro Max premium consistent ~Rs15,000 over Pro at every tier). resale = new x0.80 placeholder, buyback null — same reasoning as 256GB entry."
+ },
+ {
+  "key": "iphone_18_pro_1tb",
+  "name": "iPhone 18 Pro 1TB",
+  "launch_date": "2026-09-18",
+  "tier": "S",
+  "new_price_verified": 239900,
+  "critic_note": "Same live apple.com/in fetch — Rs239,900 exact match. resale = new x0.80 placeholder, buyback null — same reasoning as 256GB entry."
+ },
+ {
+  "key": "iphone_18_pro_2tb",
+  "name": "iPhone 18 Pro 2TB",
+  "launch_date": "2026-09-18",
+  "tier": "S",
+  "new_price_verified": 314900,
+  "critic_note": "Same live apple.com/in fetch — Rs314,900 exact match. NOT a phantom: existing DB precedent (iphone_17_pro_max has 2TB, iphone_17_pro tops out at 1TB) made a base-Pro 2TB look like a lineup change, but the live fetch directly confirms Apple genuinely extended 2TB down to the base Pro for the 18-gener"
+ },
+ {
+  "key": "iphone_18_pro_max_256",
+  "name": "iPhone 18 Pro Max 256GB",
+  "launch_date": "2026-09-18",
+  "tier": "S",
+  "new_price_verified": 179900,
+  "critic_note": "Same live apple.com/in fetch — Rs179,900 exact match (Pro Max 256/512/1TB/2TB = 179,900/204,900/254,900/329,900, all confirmed). resale = new x0.80 placeholder, buyback null — phone ships 18-Sep, hasn't launched yet as of today."
+ },
+ {
+  "key": "iphone_18_pro_max_512",
+  "name": "iPhone 18 Pro Max 512GB",
+  "launch_date": "2026-09-18",
+  "tier": "S",
+  "new_price_verified": 204900,
+  "critic_note": "Same live apple.com/in fetch — Rs204,900 exact match. resale = new x0.80 placeholder, buyback null."
+ },
+ {
+  "key": "iphone_18_pro_max_1tb",
+  "name": "iPhone 18 Pro Max 1TB",
+  "launch_date": "2026-09-18",
+  "tier": "S",
+  "new_price_verified": 254900,
+  "critic_note": "Same live apple.com/in fetch — Rs254,900 exact match. resale = new x0.80 placeholder, buyback null."
+ },
+ {
+  "key": "iphone_18_pro_max_2tb",
+  "name": "iPhone 18 Pro Max 2TB",
+  "launch_date": "2026-09-18",
+  "tier": "S",
+  "new_price_verified": 329900,
+  "critic_note": "Same live apple.com/in fetch — Rs329,900 exact match, top of the range and internally consistent with the rest of the lineup. resale = new x0.80 placeholder, buyback null."
+ },
+ {
+  "key": "apple_watch_s12_42",
+  "name": "Apple Watch Series 12 42mm GPS",
+  "launch_date": "2026-09-18",
+  "tier": "S",
+  "new_price_verified": 56900,
+  "critic_note": "Live-fetched apple.com/in/shop/buy-watch/apple-watch (2026-09-10): Apple Watch Series 12, 42mm/46mm, GPS 'From Rs56,900' — matches finder exactly. apple.com/in homepage confirms Series 12 ships from 18-Sep (preorder live now) — real, India-bound, not yet shipped. resale = new x0.80 placeholder is co"
+ },
+ {
+  "key": "apple_watch_s12_46",
+  "name": "Apple Watch Series 12 46mm GPS",
+  "launch_date": "2026-09-18",
+  "tier": "S",
+  "new_price_verified": 62900,
+  "critic_note": "42mm base price (Rs56,900) independently confirmed live on apple.com/in; the JS-driven buy-flow price selector would not resolve the 46mm-specific price through a static fetch (it kept returning the 42mm default), so I could not independently re-derive this exact Rs62,900 figure myself. Flagging for"
+ },
+ {
+  "key": "apple_watch_ultra_4_49",
+  "name": "Apple Watch Ultra 4 49mm GPS+Cell",
+  "launch_date": "2026-09-18",
+  "tier": "S",
+  "new_price_verified": 109900,
+  "critic_note": "Live-fetched apple.com/in/apple-watch/compare and apple.com/in: Apple Watch Ultra 4, 49mm GPS+Cellular only, 'From Rs109,900' — exact match to finder. Homepage confirms ships from 18-Sep (preorder live). resale = new x0.80 placeholder, buyback null (not shipped yet)."
+ },
+ {
+  "key": "apple_watch_se3_40",
+  "name": "Apple Watch SE 3 40mm GPS",
+  "launch_date": "2026-09-18",
+  "tier": "A",
+  "new_price_verified": 29900,
+  "critic_note": "Live-fetched apple.com/in/shop/buy-watch/apple-watch and apple.com/in/apple-watch-se-3/: SE 3, 40mm/44mm GPS 'From Rs29,900' — exact match. (Product page also independently surfaces an education price of Rs23,900, which happens to equal finder's resale estimate at x0.80 — coincidental, not evidence "
+ },
+ {
+  "key": "apple_watch_se3_44",
+  "name": "Apple Watch SE 3 44mm GPS",
+  "launch_date": "2026-09-18",
+  "tier": "A",
+  "new_price_verified": 33900,
+  "critic_note": "Same caveat as apple_watch_s12_46: 40mm base (Rs29,900) independently confirmed live; the 44mm-specific Rs33,900 could not be independently re-derived through a static fetch of Apple's JS-driven buy flow (implied delta Rs4,000 vs the older SE2/Series pattern of ~Rs3,000). Confirming on the strength "
+ },
+ {
+  "key": "samsung_s26_fe_128",
+  "name": "Samsung Galaxy S26 FE 128GB",
+  "launch_date": "2026-09-18",
+  "tier": "A",
+  "new_price_verified": null,
+  "critic_note": "Device is real: a GSMArena search snippet independently surfaced a live 'Samsung Galaxy S26 FE - Full phone specifications' page with concrete specs (6.7in display, Exynos 2500, 4900mAh) — this is not a rumor placeholder. Live-fetched samsung.com/in: the S26 series is currently rolled out India-side"
+ },
+ {
+  "key": "samsung_s26_fe_256",
+  "name": "Samsung Galaxy S26 FE 256GB",
+  "launch_date": "2026-09-18",
+  "tier": "A",
+  "new_price_verified": null,
+  "critic_note": "Same basis as samsung_s26_fe_128. Finder's decision to exclude a 512GB variant (seen globally on GSMArena but not India-confirmed) is the correct phantom-avoidance call — I found no India confirmation for 512GB either and did not add it."
+ }
+]

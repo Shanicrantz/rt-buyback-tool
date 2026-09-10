@@ -54,7 +54,7 @@ const CRITIC_SCHEMA = {
 }
 
 function findPrompt(i) {
-  return `You audit Rajdhani Telecom's used-phone DB for MISSING models. TODAY is 2026-08-30. Find India phones that SHOULD be in the DB but are MISSING. The DB was gap-audited on 2026-08-24 (prev run 2026-08-17), so the PRIMARY target is anything that launched or went on sale in India from 2026-08-22 onward (the last ~8 days) — new launches, new storage/RAM variants of recent phones, and India availability of models announced earlier. SECONDARY: any notable 2025-2026 model still absent. Do not re-propose models already in the DB.
+  return `You audit Rajdhani Telecom's used-phone DB for MISSING models. TODAY is 2026-09-10. Find India phones that SHOULD be in the DB but are MISSING. The DB was gap-audited on 2026-08-30 (prev run 2026-08-24), so the PRIMARY target is anything that launched or went on sale in India from 2026-08-28 onward (the last ~2 weeks) — new launches, new storage/RAM variants of recent phones, and India availability of models announced earlier. SECONDARY: any notable 2025-2026 model still absent. Do not re-propose models already in the DB.
 
 Get your unit scope + what's already in the DB:
   python3 -c "import json; u=json.load(open('${DIR}/_audit_units.json'))[${i}]; inv=json.load(open('${DIR}/_db_inventory.json')); print('SCOPE:',u[2]); [print('---',b,'MODELS:',inv.get(b,{}).get('models')) for b in u[1]]"
@@ -67,11 +67,15 @@ For each MISSING model, output one entry per REAL India storage/RAM variant with
   - new_price = official current India NEW price (₹). resale_price = realistic used mint resale TODAY (for a brand-new <3-month phone with thin used market, use ≈ new × 0.80; older = real used value below new). buyback_market = what Cashify pays if a used market exists, else null.
   - launch_date YYYY-MM-DD (real India date), discontinued (usually false for new).
   - HONESTY: only add models you CONFIRM launched in India. Unsure -> skip. resale_price < new_price always.
+  - NO PHANTOM VARIANTS (this DB's #1 historical bug): the tell is a 512GB/1TB tier paired with the WRONG RAM size. Real line-ups pair big storage ONLY with the top RAM. Never extrapolate "the next storage tier up" — list ONLY configs you can see on the brand's India store / a major India retailer.
+  - NEW PRICE MUST BE SOURCED, NOT ESTIMATED. Real India prices end in 999/990. If you find yourself writing a round number like 40000 or 25000, you are guessing — go find the actual price or set null. Never derive resale as exactly 80% of a new price you did not verify.
+  - DO NOT reject a price for being 2-3x its predecessor. 2026 India budget pricing genuinely stepped up (iQOO Z10 Rs21,999 -> Z11 Rs34,999; Tecno Pova 7 Pro Rs19,999 -> Pova 8 Pro Rs49,999; Poco M7 5G Rs10,499 -> M8x Rs20,999 are all REAL). Check the brand's India store before calling a price an MRP.
+  - TIER MUST MATCH THE SERIES' EXISTING TIER IN THE DB. Tier sets the margin floor, so drift gives one phone two different margins. If the DB already lists siblings of this series, use their tier.
 
 Write ${DIR}/_gaps/find_${i}.json AND return: {"unit_id":"<name>","missing":[{...}]}. If none missing, missing:[].`
 }
 function criticPrompt(i, findJson) {
-  return `Adversarial CRITIC for Rajdhani Telecom gap-audit. TODAY is 2026-08-30. A finder proposed missing India models with prices; independently VERIFY each.
+  return `Adversarial CRITIC for Rajdhani Telecom gap-audit. TODAY is 2026-09-10. A finder proposed missing India models with prices; independently VERIFY each.
 Finder output:
 ${JSON.stringify(findJson)}
 
@@ -79,6 +83,9 @@ For EACH proposed model, web-check:
 1. real_india_launch: Did this EXACT model actually launch/sell in India? Reject fakes, rumors, non-India variants, phantom storage configs.
 2. new_price_final: correct official India new price (not MRP-inflated, not wrong variant). resale_price_final: realistic used resale (< new; for brand-new ≈ new×0.78-0.82). buyback_market_final: real Cashify buyback or null.
 3. Sanity: resale < new; buyback < resale (if present); storage ordering (256>128).
+4. PHANTOM CHECK: reject any variant whose storage tier is paired with the wrong RAM for that line-up (big storage ships only with top RAM). Confirm the exact config on the brand's India store / a major India retailer.
+5. ROUND-NUMBER CHECK: a new_price that is a round thousand (40000, 25000) is a fabrication signature — real India prices end in 999/990. Re-source it or null it.
+6. Do NOT reject a price merely for being far above its predecessor — 2026 India budget pricing genuinely stepped up. Verify on the brand's India store instead of assuming an MRP.
 Set *_final to correct values (corrected if finder wrong, confirmed if right, rejected+real_india_launch=false if fake/unverifiable).
 
 Write ${DIR}/_gaps/verified_${i}.json AND return: {"unit_id":"<name>","verified":[{...}]}. Every proposed key exactly once.`

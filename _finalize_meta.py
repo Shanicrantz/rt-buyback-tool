@@ -5,8 +5,8 @@ run the invariant checks. --apply to write; default dry-run."""
 import json, sys, re
 
 DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY = '2026-08-30'
-VERSION = '6.3'
+TODAY = '2026-09-10'
+VERSION = '6.4'
 APPLY = '--apply' in sys.argv
 
 db = json.load(open(f'{DIR}/phone_db.json'))
@@ -47,82 +47,113 @@ meta['pricing_brain'] = ("A1 buyback = resale ÷ (1+margin_by_age), capped at re
                          "reference. Refreshed weekly from live resale + buyback research.")
 meta[f'v{VERSION.replace(".", "_")}_changelog'] = (
     f"Weekly brain refresh ({TODAY}). Live market research on 96 high-value/recent models "
-    f"(12x8 batches, fetch + adversarial critic; the critic corrected 33 prices) re-anchored "
-    f"{len(changes)} of them ({len(moved)} moved ≥0.5%). A1 = resale÷(1+margin_by_age), caps "
-    f"resale×0.92 / new×0.85, week move -20%/+8% asymmetric. {len(added)} India launches added "
-    f"(Realme P4s 5G x3, Tecno Spark Go 3 Pro x2, Lava Virat V1 Pro 5G, Infinix Note 60 Pro "
-    f"Pininfarina Edition). The Lava Virat V1 Pro was correctly HELD BACK last week as announced-"
-    f"but-not-on-sale and is now genuinely shipping — the hold worked as intended. "
-    f"OUTLIER VERIFICATION (run on Opus this week, find + adversarial-refute over 26 items: 14 "
-    f"capped rises, 5 collapses, 3 existence claims, 4 missing prices): 16 lowered, 2 rolled back "
-    f"to week-start, 8 removed. NOTABLE — every single one of the 14 rises that the +8% cap had "
-    f"blocked was then REFUSED or LOWERED by independent research; not one survived as a genuine "
-    f"rise. The asymmetric cap is doing real work, and the systematic upward bias of the weekly "
-    f"research is re-confirmed rather than assumed. "
-    f"PHANTOM VARIANTS REMOVED (8) — each hand-verified against the brand's own India line-up "
-    f"before deletion, never on an absence-of-listing argument: Oppo Find X9 12/512 (India ships "
-    f"12/256 + 16/512 only), iQOO Neo 10 Pro 12/512 (no Neo 10 Pro sold in India at all), Nothing "
-    f"Phone 3a Pro 12/512 (tops out at 12/256), Oppo Reno 13 8/512 (8/128 + 8/256 only; the 12/512 "
-    f"belongs to the Reno13 Pro), Pixel 10 Pro 16/1TB (real global SKU, never sold in India), Poco "
-    f"F7 Ultra 12/512 (512GB pairs only with 16GB), Vivo V50 8/512 (512GB pairs only with 12GB), "
-    f"Realme 14 Pro+ 8/512 (512GB pairs only with 12GB). ALL EIGHT share one signature: a 512GB or "
-    f"1TB tier paired with the WRONG RAM size. "
-    f"ROOT-CAUSE FINDING: the phantom-variant bug and the round-number-price fabrication signature "
-    f"are the SAME failure — a past gap audit invented a next-storage-tier variant and priced it "
-    f"by extrapolation, which is why 5 of the 8 phantoms carried prices like Rs35,000 / Rs43,000 / "
-    f"Rs90,000. Two follow-ups: (a) _add_gaps.py was rounding net_new_inr to the nearest Rs100, "
-    f"manufacturing the very round-number signature the audit hunts for (Rs34,999 stored as "
-    f"Rs35,000) — fixed, and this week's 7 new entries carry exact prices; (b) 7 surviving entries "
-    f"had their net_new_inr corrected against brand primary sources, headlined by Oppo Find X9 "
-    f"12/256 (stored Rs82,000, really Rs74,999) and both Vivo V50 trims (both stored Rs38,000, "
-    f"really Rs34,999 / Rs36,999). No A1 was riding a corrected ceiling, so nothing RT pays moved; "
-    f"ceilings that ROSE were applied without letting any A1 follow them up. "
-    f"233 round-price entries remain DB-wide, but 0 of them currently bind an A1 — latent hygiene, "
-    f"not a live pricing error, and many are merely Rs1 rounding artifacts of the bug just fixed. "
-    f"{SIBLING_NOTE}"
+    f"(12x8 batches, fetch + adversarial critic; the critic corrected 29 prices) re-anchored "
+    f"{len(changes)} of them ({len(moved)} moved >=0.5%). A1 = resale/(1+margin_by_age), caps "
+    f"resale x0.92 / new x0.85, week move -20%/+8% asymmetric. {len(added)} India launches added. "
+    f"OUTLIER VERIFICATION (Opus, verify + adversarial refute over 46 items in 10 batches: 29 "
+    f"capped rises, 7 collapses, 1 existence claim, 3 missing prices, 6 placeholder resales): "
+    f"34 repriced, 3 rolled back to week-start, 4 removed. "
+    f"HEADLINE — of the 29 rises the +8% cap had blocked, exactly ONE survived independent "
+    f"re-research (Vivo V70 FE 8/128, +Rs600). 23 were LOWERED and 3 rolled back outright. That "
+    f"is the third consecutive week in which essentially no capped rise proved genuine; the "
+    f"asymmetric cap is not a safety margin, it is load-bearing. "
+    f"NEW GUARDRAIL 1 — ANNOUNCED-BUT-NOT-SHIPPING HOLD. The gap audit proposed 15 models whose "
+    f"India launch_date is still in the FUTURE (2026-09-18): iPhone 18 Pro and 18 Pro Max (8 "
+    f"storage SKUs), Apple Watch Series 12 / SE 3 / Ultra 4 (5), Samsung Galaxy S26 FE (2). Their "
+    f"official India prices are genuinely verified against apple.com/in, but a phone that has not "
+    f"shipped has NO used market: nobody can walk into RT with a used unit, and the critics "
+    f"themselves recorded resale as a 'new x0.80 placeholder'. Adding them would plant a "
+    f"fabricated anchor that next week's refresh would treat as a real prior. All 15 are held, "
+    f"with their verified new prices carried forward in _held_future_2026-09-10.json so the next "
+    f"run need not re-research them. The DB has never contained a future-dated entry and still "
+    f"does not. Precedent: the Lava Virat V1 Pro was held on the same grounds and added once it "
+    f"shipped. "
+    f"NEW GUARDRAIL 2 — PLACEHOLDER-RESALE DETECTION. 18 of this week's 20 gap-adds came back "
+    f"with resale at EXACTLY 80% of new. That is the gap-audit prompt's own fallback for a phone "
+    f"too new to have a used market — legitimate on a six-day-old launch, an unresearched guess "
+    f"on anything older. All 18 are now recorded as 'estimated' rather than 'verified', and the 6 "
+    f"old enough to actually trade used were routed straight into the verification pass. Every "
+    f"one of the 6 came back LOWER: Xiaomi 17T 12/512 Rs51,000->Rs38,200, 17T 12/256 "
+    f"Rs47,300->Rs35,000, Tecno Pova Curve 2 8/256 Rs21,800->Rs15,600, 8/128 Rs20,500->Rs14,400, "
+    f"Tecno POP X 6/128 Rs11,400->Rs7,700, 4/128 Rs9,800->Rs6,900. The 80% fallback overpays by "
+    f"25-30% on a phone with a real used market. "
+    f"PHANTOM VARIANTS REMOVED (4) — each re-verified BY HAND against an India-specific source "
+    f"before deletion, never on an agent's say-so: Google Pixel 9 Pro 512GB (India received the "
+    f"9 Pro in a SINGLE 256GB trim at Rs1,09,999; 128/512/1TB are international-only), Infinix "
+    f"Zero Flip 8/256 (India shipped the sole 8/512 config at Rs49,999), Redmi Note 14 Pro+ 8/512 "
+    f"(India ships 8/128 at Rs30,999 and 12/512 at Rs35,999 — 512GB pairs only with 12GB), "
+    f"Motorola Razr 60 Ultra 12/256 (India launched a single 16/512 trim at Rs99,999). "
+    f"ONE REMOVAL OVERRULED. The refuter also called realme_15_5g_12_512 a phantom on the grounds "
+    f"that realme.com/in does not list it. GSMArena's India-specific page lists Internal as "
+    f"'128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM' — the variant is REAL and the "
+    f"entry was KEPT. Deleting a real variant costs RT a counter-quote on every walk-in, so "
+    f"positive evidence beats an absence argument. This is why removals are hand-checked. "
+    f"FOLLOW-UPS RECORDED, NOT ACTED ON (_phantom_followup_2026-09-10.json): hand-checking the 4 "
+    f"removals exposed 3 further suspected phantoms that research had NOT flagged — Razr 60 Ultra "
+    f"12/512 (both DB trims carry 12GB RAM; India ships only 16/512), Redmi Note 14 Pro+ 8/256 "
+    f"(both DB trims are phantoms), Pixel 9 Pro 128GB — plus the real configs missing behind them "
+    f"(Razr 60 Ultra 16/512; Note 14 Pro+ 8/128 and 12/512). They are recorded rather than removed "
+    f"or invented, because removal needs hand evidence and an add needs researched resale. "
+    f"MEASURED, NOT ASSUMED: the round-number net_new_inr signature was re-scanned DB-wide — 233 "
+    f"entries carry a round-thousand new price but 0 of them currently BIND an A1, so no research "
+    f"was spent on them. The 512GB/1TB-with-wrong-RAM phantom scan returned only 2 hits, both "
+    f"Galaxy Z Fold8 12/512 configs that are genuinely real. Last week's cleanup holds. "
+    f"Guardrails that fired during the refresh: 13 competitor quotes discarded as incoherent "
+    f"(buyback >85% of resale) and 2 as the Cashify 40%-of-listed-price widget template."
 )
 
-# --- market signals: the Jul-22 Unpacked has happened; the pre-launch haircut rule is spent ---
+# --- market signals ---
 meta['market_signals'] = {
     'updated': TODAY,
-    'resolved': {
-        'samsung_z_fold_8__z_flip_8': {
-            'event': 'Galaxy Z Fold8 / Fold8 Ultra / Flip8 LAUNCHED in India 2026-07-22. '
-                     'Official India pricing confirmed: Fold8 \u20b91,79,999, Fold8 Ultra \u20b91,99,999, '
-                     'Flip8 \u20b91,24,999 (12/256).',
-            'effect': 'The "successor imminent" pre-launch haircut on Fold7/Flip7 is now SPENT.',
-            'confidence': 'high (samsung.com/in + Flipkart, re-verified 2026-08-24)',
-        },
-        'google_pixel_11_family': {
-            'event': 'Pixel 11 / 11 Pro / 11 Pro XL / 11 Pro Fold on sale in India since 2026-08-12. '
-                     'Prices re-verified 2026-08-24 on store.google.com/in and Flipkart: Pixel 11 256GB '
-                     '\u20b989,999 / 512GB \u20b91,04,999; 11 Pro 256GB \u20b91,19,999 / 512GB \u20b91,34,999; 11 Pro XL '
-                     '256GB \u20b91,34,999 / 512GB \u20b91,49,999; 11 Pro Fold 16/512 \u20b91,86,999.',
-            'effect': 'The family entered the DB on estimated round numbers; those estimates proved '
-                      'accurate to within \u20b91 and the anchors are now first-hand verified.',
-            'confidence': 'high (store.google.com/in + Flipkart, 2026-08-24)',
-        },
+    'apple_september_2026_launch_pending': {
+        'event': 'iPhone 18 Pro / 18 Pro Max, Apple Watch Series 12 / SE 3 / Ultra 4 announced with '
+                 'official India pricing on apple.com/in; pre-orders open 12-Sep, SHIPPING 18-Sep-2026. '
+                 'iPhone 18 Pro Rs1,64,900 (256GB) to Rs3,14,900 (2TB); 18 Pro Max Rs1,79,900 to '
+                 'Rs3,29,900. Samsung Galaxy S26 FE also India-bound, price not yet published.',
+        'effect': 'HELD OUT of the DB until units actually ship — an unshipped phone has no used '
+                  'market and any resale figure for it is invented. Verified new prices are parked in '
+                  '_held_future_2026-09-10.json for the first post-launch run. Separately, expect the '
+                  'iPhone 17 / 17 Pro line to soften once the 18 is on shelves; re-anchor on observed '
+                  'resale rather than pre-emptively trimming.',
+        'confidence': 'high (apple.com/in, fetched 2026-09-10)',
+    },
+    'weekly_research_upward_bias': {
+        'event': 'Third consecutive weekly measurement: of the 29 rises blocked by the +8% cap this '
+                 'week, 1 survived independent re-research, 23 were lowered and 3 rolled back.',
+        'effect': 'Keep the asymmetric cap. Drops apply in full to -20%; rises are capped at +8% and '
+                  'must clear triangulated medium/high confidence before any grant.',
+        'confidence': 'high (measured 2026-08-10, 2026-08-30, 2026-09-10)',
+    },
+    'gap_audit_80pct_resale_fallback': {
+        'event': "The gap-audit prompt tells the finder to use resale ~= new x0.80 for a phone with no "
+                 "used market yet. Agents apply it to older phones too: 18 of 20 adds came back at "
+                 "exactly 0.80, and all 6 that were old enough to trade used verified 25-30% LOWER.",
+        'effect': 'Any add landing on exactly 80% of new is recorded as calibration_status=estimated, '
+                  'and those older than 90 days are force-routed into the verification pass.',
+        'confidence': 'high (measured 2026-09-10)',
     },
     'india_2026_price_step_up': {
-        'event': 'Budget/mid India launch prices stepped up hard through 2026: iQOO Z10 \u20b921,999 \u2192 Z11 '
-                 '\u20b934,999 (+59%); Tecno Pova 7 Pro \u20b919,999 \u2192 Pova 8 Pro \u20b949,999 (+150%); Poco M7 5G '
-                 '\u20b910,499 \u2192 M8x \u20b920,999 (+100%).',
-        'effect': 'A "this price is 2-3x its predecessor, so it must be an MRP" heuristic now produces '
-                  'FALSE rejections. Confirmed by a 3-lens panel on 2026-08-24 (9/9 agreement). Verify '
-                  'an out-of-band price against the brand India store before rejecting it.',
+        'event': 'Budget/mid India launch prices stepped up hard through 2026: iQOO Z10 Rs21,999 -> Z11 '
+                 'Rs34,999 (+59%); Tecno Pova 7 Pro Rs19,999 -> Pova 8 Pro Rs49,999 (+150%); Poco M7 5G '
+                 'Rs10,499 -> M8x Rs20,999 (+100%).',
+        'effect': 'A "this price is 2-3x its predecessor, so it must be an MRP" heuristic produces '
+                  'FALSE rejections. Verify an out-of-band price against the brand India store before '
+                  'rejecting it.',
         'confidence': 'high (brand India stores + Flipkart + India tech press, 2026-08-24)',
     },
     'cashify_buyback_widget_is_fake': {
         'event': 'The "Approx. Buyback Value" on Cashify price pages is a template printing 40% of the '
-                 'listed price \u2014 identical on Fold8, Fold8 Ultra and iPhone 17 Pro Max.',
-        'effect': 'Never store it as buyback_market. The weekly script now drops any buyback landing on '
-                  'exactly 40% of the known new price, alongside the existing 50%-of-resale echo check.',
+                 'listed price - identical on Fold8, Fold8 Ultra and iPhone 17 Pro Max.',
+        'effect': 'Never store it as buyback_market. The weekly script drops any buyback landing on '
+                  'exactly 40% of the known new price, alongside the 50%-of-resale echo check. It fired '
+                  'twice this week (Tab S10 Ultra, Z Fold6 512GB).',
         'confidence': 'high (verified by hand 2026-08-17)',
     },
     'rule': ('When a successor flagship is confirmed <~4 weeks out, trim outgoing-gen resale anchors 5-10%; '
              'once it actually launches, drop the anticipatory trim and re-anchor on observed resale. '
              'Festival-sale (Prime Day/BBD) lows are a TEMPORARY NET_NEW floor: cap buyback below them, but '
-             'revert the anchor to trend after the sale unless it is a confirmed permanent price cut.'),
+             'revert the anchor to trend after the sale unless it is a confirmed permanent price cut. '
+             'NEVER add a model whose India launch_date is still in the future.'),
 }
 
 # ================= INVARIANTS =================

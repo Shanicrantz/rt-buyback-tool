@@ -13,7 +13,8 @@ const N = 12
 const BRAIN = `RT (Rajdhani Telecom, Moradabad) BUYBACK BRAIN — how Shane actually prices:
 - RESALE price = what RT can ACTUALLY re-sell a mint (A1) used unit for in the LOCAL Indian second-hand market. This is NOT Cashify's "buy refurbished" retail price for older phones — Cashify's refurb price includes their warranty + brand premium and is INFLATED vs what a local shop gets. Real resale for older/less-popular phones is BELOW Cashify refurb retail. For current hot phones (in demand) real resale is close to Cashify refurb retail. Triangulate from OLX recent SOLD (not asking) + local used-market + Cashify refurb (as an upper bound).
 - BUYBACK-MARKET rate = what buyers (Cashify exchange/sell-old value, other buyback services, local competitors) currently PAY the seller for that phone. RT must pay slightly ABOVE this to win the walk-in.
-- RT then buys at resale/(1+margin) (~15-18% margin), and always at/above the buyback-market rate to stay competitive.`
+- RT then buys at resale/(1+margin) (~15-18% margin), and always at/above the buyback-market rate to stay competitive.
+- POISONED SOURCE — DO NOT USE: the "Approx. Buyback Value" box on cashify.in/<model>-price-in-india pages is a TEMPLATE that always prints exactly 40% of the price listed on that page. It is not a quote. Verified identical across Z Fold8, Z Fold8 Ultra and iPhone 17 Pro Max. A real competitor buyback comes ONLY from a cashify.in/sell-old-mobile-phone/... quote flow or another buyer's actual sell page. Those same price pages also carry WRONG new prices (iPhone 17 Pro Max shown as Rs1,37,900 vs Apple India's real Rs1,49,900) — never take a new price or refurb ceiling from them either.`
 
 const FETCH_SCHEMA = {
   type: 'object', additionalProperties: false,
@@ -60,7 +61,7 @@ const CRITIC_SCHEMA = {
 }
 
 function fetchPrompt(i) {
-  return `You research the REAL Indian second-hand market for Rajdhani Telecom. TODAY is 2026-08-30.
+  return `You research the REAL Indian second-hand market for Rajdhani Telecom. TODAY is 2026-09-10.
 
 ${BRAIN}
 
@@ -70,7 +71,7 @@ Get your batch's phone keys + names:
 For EACH distinct model (storage variants share one lookup, then scale), find TWO numbers via web search/fetch:
   1) RESALE_PRICE = realistic price a LOCAL shop can re-sell a mint (excellent, with-box) used unit for TODAY in India.
      Triangulate: OLX recent listings (discount asking by ~8-12% for real sold), Cashify "buy refurbished" retail (UPPER bound — real local resale is 5-20% below this for older phones), 2gud/Amazon Renewed. Give resale_low, resale_high, and resale_price = your best single realistic figure.
-  2) BUYBACK_MARKET = what sellers are actually PAID today: Cashify "sell old phone" / exchange value is the primary benchmark (web_search "Cashify <model> <storage> sell price" or fetch cashify.in/sell-old-mobile-phone/...). Note if other buyers differ.
+  2) BUYBACK_MARKET = what sellers are actually PAID today, from a REAL sell/exchange quote flow only (never the 40%-template "Approx. Buyback Value" box on a price-in-india page): Cashify "sell old phone" / exchange value is the primary benchmark (web_search "Cashify <model> <storage> sell price" or fetch cashify.in/sell-old-mobile-phone/...). Note if other buyers differ.
 Scale storage variants (256 > 128). Only report numbers you actually find; null if none.
 
 CRITICAL — BRAND-NEW / THIN-MARKET MODELS: some entries are 2026 launches whose used market barely exists. For any model launched in the last ~6 months you MUST:
@@ -85,7 +86,7 @@ Every key exactly once.`
 }
 
 function criticPrompt(i, fetchJson) {
-  return `You are an adversarial MARKET-PRICE CRITIC for Rajdhani Telecom. TODAY is 2026-08-30. Assume the fetcher may have erred — catch it.
+  return `You are an adversarial MARKET-PRICE CRITIC for Rajdhani Telecom. TODAY is 2026-09-10. Assume the fetcher may have erred — catch it.
 
 ${BRAIN}
 

@@ -1,0 +1,142 @@
+[
+ {
+  "key": "tecno_pova_curve_2_5g_8_128",
+  "name": "Tecno Pova Curve 2 5G 8/128GB",
+  "launch": "2026-02-13",
+  "a1": 20500,
+  "resale": 25600
+ },
+ {
+  "key": "tecno_pova_curve_2_5g_8_256",
+  "name": "Tecno Pova Curve 2 5G 8/256GB",
+  "launch": "2026-02-13",
+  "a1": 21800,
+  "resale": 27200
+ },
+ {
+  "key": "tecno_pop_x_5g_4_128",
+  "name": "Tecno POP X 5G 4/128GB",
+  "launch": "2026-04-20",
+  "a1": 9800,
+  "resale": 12800
+ },
+ {
+  "key": "tecno_pop_x_5g_6_128",
+  "name": "Tecno POP X 5G 6/128GB",
+  "launch": "2026-04-20",
+  "a1": 11400,
+  "resale": 14800
+ },
+ {
+  "key": "redmi_17_5g_6_128",
+  "name": "Redmi 17 5G (6GB/128GB)",
+  "launch": "2026-09-03",
+  "a1": 15400,
+  "resale": 19200
+ },
+ {
+  "key": "redmi_17_5g_8_128",
+  "name": "Redmi 17 5G (8GB/128GB)",
+  "launch": "2026-09-03",
+  "a1": 17300,
+  "resale": 21600
+ },
+ {
+  "key": "iqoo_z11xa_5g_8_128",
+  "name": "iQOO Z11xA 5G 8/128GB",
+  "launch": "2026-09-07",
+  "a1": 18600,
+  "resale": 23200
+ },
+ {
+  "key": "poco_x8_5g_6_128",
+  "name": "Poco X8 5G 6GB/128GB",
+  "launch": "2026-09-04",
+  "a1": 19200,
+  "resale": 24000
+ },
+ {
+  "key": "poco_x8_5g_8_128",
+  "name": "Poco X8 5G 8GB/128GB",
+  "launch": "2026-09-04",
+  "a1": 21100,
+  "resale": 26400
+ },
+ {
+  "key": "poco_x8_5g_8_256",
+  "name": "Poco X8 5G 8GB/256GB",
+  "launch": "2026-09-04",
+  "a1": 23000,
+  "resale": 28800
+ },
+ {
+  "key": "poco_x8_power_5g_8_128",
+  "name": "Poco X8 Power 5G 8GB/128GB",
+  "launch": "2026-09-04",
+  "a1": 23000,
+  "resale": 28800
+ },
+ {
+  "key": "poco_x8_power_5g_8_256",
+  "name": "Poco X8 Power 5G 8GB/256GB",
+  "launch": "2026-09-04",
+  "a1": 25000,
+  "resale": 31200
+ },
+ {
+  "key": "vivo_t5_5g_6_128",
+  "name": "Vivo T5 5G (6GB/128GB)",
+  "launch": "2026-09-02",
+  "a1": 25500,
+  "resale": 28000
+ },
+ {
+  "key": "vivo_t5_5g_8_128",
+  "name": "Vivo T5 5G (8GB/128GB)",
+  "launch": "2026-09-02",
+  "a1": 29100,
+  "resale": 32000
+ },
+ {
+  "key": "vivo_t5_5g_8_256",
+  "name": "Vivo T5 5G (8GB/256GB)",
+  "launch": "2026-09-02",
+  "a1": 32800,
+  "resale": 36000
+ },
+ {
+  "key": "vivo_t5_5g_12_256",
+  "name": "Vivo T5 5G (12GB/256GB)",
+  "launch": "2026-09-02",
+  "a1": 36400,
+  "resale": 40000
+ },
+ {
+  "key": "xiaomi_17t_12_256",
+  "name": "Xiaomi 17T 5G (12GB/256GB)",
+  "launch": "2026-06-04",
+  "a1": 47300,
+  "resale": 52000
+ },
+ {
+  "key": "xiaomi_17t_12_512",
+  "name": "Xiaomi 17T 5G (12GB/512GB)",
+  "launch": "2026-06-04",
+  "a1": 51000,
+  "resale": 56000
+ },
+ {
+  "key": "redmi_a7_4g_3_64",
+  "name": "Redmi A7 4G 3/64GB",
+  "launch": "2026-04-21",
+  "a1": 6700,
+  "resale": 8700
+ },
+ {
+  "key": "redmi_a7_pro_4g_4_64",
+  "name": "Redmi A7 Pro 4G 4/64GB",
+  "launch": "2026-04-21",
+  "a1": 7300,
+  "resale": 9500
+ }
+]
