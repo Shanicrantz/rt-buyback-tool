@@ -6,7 +6,7 @@ import json, sys, re
 
 DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
 TODAY = '2026-09-10'
-VERSION = '6.4'
+VERSION = '6.4.2'
 APPLY = '--apply' in sys.argv
 
 db = json.load(open(f'{DIR}/phone_db.json'))
@@ -172,7 +172,12 @@ def a1_of(e):
     if r: return r * e.get('market_factor', meta.get('default_market_factor', 0.88)) / (1 + margin_of(e))
     return None
 
-problems = {'a1_above_new': [], 'zero_or_broken': [], 'storage_inversion': [], 'resale_le_buyback': []}
+# 'a1_above_resale' added 2026-09-10. A hand-set rt_buyback_a1_override is deliberately exempt
+# from the weekly refresh, so nothing else re-checks it as the market moves underneath. On a
+# discontinued item that is exactly how an override quietly becomes a loss per unit. Flag any
+# entry — override or computed — whose A1 exceeds the observed resale x0.92 floor.
+problems = {'a1_above_new': [], 'zero_or_broken': [], 'storage_inversion': [],
+            'resale_le_buyback': [], 'a1_above_resale': []}
 for k, e in ph.items():
     a1 = a1_of(e)
     if a1 is None or a1 <= 0:
@@ -186,6 +191,12 @@ for k, e in ph.items():
     bm = e.get('buyback_market')
     rs = e.get('market_resale_observed') or e.get('resale_target_a1')
     if bm and rs and bm >= rs: problems['resale_le_buyback'].append((k, bm, rs))
+    obs = e.get('market_resale_observed')
+    # Tolerance is one rounding unit: every A1 in this DB is rounded to the nearest Rs100, which
+    # can legitimately land up to Rs50 above the exact 0.92 line. A Rs1 tolerance flagged 14
+    # entries whose worst overshoot was Rs60 — all rounding, no real breach.
+    if isinstance(obs, (int, float)) and obs > 0 and a1 > obs * 0.92 + 100:
+        problems['a1_above_resale'].append((k, round(a1), obs, round(obs * 0.92)))
 
 RANK = {'64': 1, '128': 2, '256': 3, '512': 4, '1tb': 5, '2tb': 6}
 fams = {}
