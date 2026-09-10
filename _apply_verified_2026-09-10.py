@@ -101,6 +101,17 @@ for key, v in ver.items():
         continue
 
     if verdict == 'refuse' or (verdict == 'hold' and kind == 'rise'):
+        # A refuted rise usually means the RESEARCH INPUTS were contaminated, and the competitor
+        # buyback is often the contaminated half (a "Get Upto" headline, or the 40%-of-listed
+        # Cashify widget). The grant/lower path already drops a buyback the refuter would not
+        # stake — this path used to return early and leave the weekly figure sitting on the
+        # entry, which then surfaced as a false "Cashify pays more than RT" alarm. Drop it here
+        # too, on every path where the refuter came back with no real quote. (Bug found
+        # 2026-09-10 on Vivo X Fold5 and iPad Pro M4 13".)
+        bf_r = v.get('buyback_final')
+        if not isinstance(bf_r, (int, float)) or bf_r <= 0:
+            if e.pop('buyback_market', None) is not None:
+                notes.append((key, 'dropped stale buyback_market — refuter found no real quote'))
         # roll back to where the model started the week
         target = week_start
         if live and target and abs(target - live) > 1:
@@ -113,6 +124,10 @@ for key, v in ver.items():
         continue
 
     if verdict == 'hold' or not isinstance(rs, (int, float)) or rs <= 0:
+        bf_h = v.get('buyback_final')
+        if not isinstance(bf_h, (int, float)) or bf_h <= 0:
+            if e.pop('buyback_market', None) is not None:
+                notes.append((key, 'dropped stale buyback_market — refuter found no real quote'))
         held.append((key, f'{verdict}: no usable resale')); continue
 
     # grant / lower -> recompute A1 from the verified resale
