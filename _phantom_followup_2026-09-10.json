@@ -22,5 +22,23 @@
   "issue": "refuter's remove verdict OVERRULED — entry KEPT",
   "evidence": "GSMArena India page (realme_15_5g-14018.php) lists Internal as '128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM' — the 12/512 variant is REAL in India. The refuter claimed realme.com/in showed no such config.",
   "action": "none — kept. Recorded so a future run does not re-litigate it."
+ },
+ {
+  "key": "ipad_pro_m4_11_512_wifi",
+  "issue": "incoherent stale anchor — needs research, do not guess",
+  "evidence": "Computes A1 Rs72,269 off market_resale_observed Rs86,000 (stale, 2026-08-30). That prices the 11-inch ABOVE the larger 13-inch 512GB (A1 Rs67,227) despite the 11-inch having a ~Rs30,000 LOWER new price (Rs1,19,900 vs Rs1,49,900). One of the two anchors is wrong and the 11-inch is the unsupported one. Surfaced by the adversarial refuter on 2026-09-10 and confirmed by hand while repairing the 13-inch line.",
+  "action": "force into next week's reprice scope; research real local resale for the 11-inch M4 512GB before touching A1"
+ },
+ {
+  "key": "ipad_pro_m4_13_512_wifi",
+  "issue": "anchor re-set by hand — provisional, re-research",
+  "evidence": "Prior anchor Rs68,000 was impossible (below Cashify's own sell-old headline of Rs70,020 for the same unit). Re-anchored to Rs80,000 by triangulation from the 256GB's verified Rs73,000 plus a compressed used-storage premium — NOT a researched datapoint. Marked calibration_status=estimated.",
+  "action": "re-research resale next week; the Rs80,000 is a placeholder that must not calcify"
+ },
+ {
+  "key": "ipad_pro_m4_13_256_wifi",
+  "issue": "hand-set override — exempt from weekly refresh, needs periodic review",
+  "evidence": "Shane set A1 Rs67,100 on 2026-09-10 = verified resale Rs73,000 x 0.92 (8.8% margin), a deliberate hard-cap posture. Overrides are skipped by _build_scope, so nothing re-checks it as this discontinued tablet depreciates.",
+  "action": "review if resale falls below Rs72,935 (recorded on the entry as override_review_below_resale); the new a1_above_resale invariant in _finalize_meta.py will flag it automatically once market_resale_observed is refreshed"
  }
 ]
