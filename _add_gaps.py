@@ -4,7 +4,7 @@ A1 = resale/(1+margin_by_age), capped at new*0.85. Merges finder (launch/tier/na
 Dedupes vs existing keys + display names. --apply to write; default dry-run."""
 import json, glob, re, sys, statistics
 DIR='/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY='2026-09-10'
+TODAY='2026-09-16'
 APPLY='--apply' in sys.argv
 def r100(n): return int(round(n/100.0))*100
 KNOWN={'iphone','apple','samsung','vivo','iqoo','realme','oppo','redmi','xiaomi','poco','oneplus','google',
@@ -53,6 +53,12 @@ for k in existing:
     t=db[k].get('tier')
     if t: series_tiers.setdefault(series_sig(k),Counter())[t]+=1
 
+# Critic-confirmed India first-sale dates for models announced before they went on sale (family prefix).
+FIRST_SALE={
+    'redmi_note_17_pro_5g': '2026-09-17',      # GSMArena India launch news 2026-09-16: "sales start Sep 17"
+    'redmi_note_17_pro_max_5g': '2026-09-23',  # same article: Pro Max "sales start Sep 23"
+}
+
 added=[]; skipped=0; rejected=0; tier_fixed=[]; held_future=[]
 bybrand=Counter()
 for key,v in ver.items():
@@ -68,8 +74,16 @@ for key,v in ver.items():
     # would plant a fabricated anchor that next week's refresh would then treat as a real prior.
     # Precedent: the Lava Virat V1 Pro was held on the same grounds and added once it shipped.
     # The verified official India NEW prices are carried forward so next week need not re-research.
-    if (f.get('launch_date') or '') > TODAY:
+    # ANNOUNCED-BUT-NOT-ON-SALE (added 2026-09-16). launch_date is the India ANNOUNCEMENT date, which
+    # can precede first sale by days or weeks. The hold is about whether a used unit can exist, so it
+    # keys off the first-sale date where the critic confirmed one. Redmi Note 17 Pro / Pro Max were
+    # announced 2026-09-15 but open sales 09-17 / 09-23 — the announcement date alone would let them in.
+    first_sale = FIRST_SALE.get(re.sub(r'_\d+_\d+$', '', key))
+    if first_sale and first_sale > (f.get('launch_date') or ''):
+        f['first_sale_date'] = first_sale
+    if max(f.get('launch_date') or '', f.get('first_sale_date') or '') > TODAY:
         held_future.append({'key':key,'name':f.get('display_name'),'launch_date':f.get('launch_date'),
+                            'first_sale_date':f.get('first_sale_date'),
                             'tier':f.get('tier'),'new_price_verified':v.get('new_price_final'),
                             'critic_note':(v.get('note') or '')[:300]})
         continue

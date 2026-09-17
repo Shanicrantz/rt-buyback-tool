@@ -1,0 +1,30 @@
+[
+ {
+  "key": "oppo_k14_lite_4_64",
+  "name": "Oppo K14 Lite 4/64GB",
+  "launch": "2026-09-16",
+  "a1": 10900,
+  "resale": 13600
+ },
+ {
+  "key": "infinix_hot_70_pro_6_128",
+  "name": "Infinix Hot 70 Pro 5G 6/128GB",
+  "launch": "2026-09-04",
+  "a1": 16000,
+  "resale": 20000
+ },
+ {
+  "key": "infinix_hot_70_pro_8_128",
+  "name": "Infinix Hot 70 Pro 5G 8/128GB",
+  "launch": "2026-09-04",
+  "a1": 17900,
+  "resale": 22400
+ },
+ {
+  "key": "lava_bold_n4_lite_3_32",
+  "name": "Lava Bold N4 Lite 3/32GB",
+  "launch": "2026-08-27",
+  "a1": 4900,
+  "resale": 6400
+ }
+]

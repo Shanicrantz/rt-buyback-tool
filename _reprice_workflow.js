@@ -61,7 +61,7 @@ const CRITIC_SCHEMA = {
 }
 
 function fetchPrompt(i) {
-  return `You research the REAL Indian second-hand market for Rajdhani Telecom. TODAY is 2026-09-10.
+  return `You research the REAL Indian second-hand market for Rajdhani Telecom. TODAY is 2026-09-16.
 
 ${BRAIN}
 
@@ -78,6 +78,8 @@ CRITICAL — BRAND-NEW / THIN-MARKET MODELS: some entries are 2026 launches whos
   (a) CONFIRM the model actually is ON SALE IN INDIA under that exact name and storage config. Only claim it does not exist if you have HARD evidence (brand India site lineup / major India outlet listing the real variants). A missing Cashify page or a thin OLX result is NOT evidence of non-existence — say 'unverified', not 'does not exist'. False 'does not exist' verdicts have repeatedly been wrong on this DB.
   (b) These are ALREADY HAND-VERIFIED REAL — never flag them as non-existent: Samsung Galaxy Z Fold8 / Z Fold8 Ultra / Z Flip8 (India 2026-07-22), Motorola Razr Fold and Motorola Signature (India 2026-05-13), Google Pixel 11 / 11 Pro / 11 Pro XL / 11 Pro Fold (India 2026-08-12).
   (c) Find the OFFICIAL India launch price from the brand's own India site / mainstream India coverage, and report it in resale_sources as 'NEW=<num>'.
+  (e) iPhone 18 Pro / 18 Pro Max ship in India on 2026-09-18 — NOT yet on shelves. Do NOT pre-emptively discount iPhone 17 / 17 Pro / 17 Pro Max resale in anticipation; report the resale you actually observe today.
+  (f) iPad Pro M4 (2024) is discontinued (replaced by M5). Size matters: the 11-inch M4 launched LOWER than the 13-inch (256GB Rs99,900 vs Rs1,29,900; 512GB Rs1,19,900 vs Rs1,49,900), so price the EXACT size + storage in the name and name the datapoints — never reuse one size's figure for the other.
   (d) A phone launched <3 months ago has a THIN used market — real resale is roughly 78-85% of official new price, and buyback_market is often not yet quoted by Cashify (null is fine). Do NOT invent a buyback figure as a fixed fraction of resale; null is the honest answer.
 
 Write ${DIR}/_ov_updates/fetch_${i}.json AND return:
@@ -86,7 +88,7 @@ Every key exactly once.`
 }
 
 function criticPrompt(i, fetchJson) {
-  return `You are an adversarial MARKET-PRICE CRITIC for Rajdhani Telecom. TODAY is 2026-09-10. Assume the fetcher may have erred — catch it.
+  return `You are an adversarial MARKET-PRICE CRITIC for Rajdhani Telecom. TODAY is 2026-09-16. Assume the fetcher may have erred — catch it.
 
 ${BRAIN}
 

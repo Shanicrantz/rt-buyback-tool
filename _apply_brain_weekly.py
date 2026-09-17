@@ -19,7 +19,7 @@ import json, glob, sys, re
 from collections import defaultdict
 
 DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY = '2026-09-10'
+TODAY = '2026-09-16'
 APPLY = '--apply' in sys.argv
 WEEK_CAP = 0.20      # max single-week DROP in A1 (market softening = safe direction)
 INCREASE_CAP = 0.08  # max single-week RISE in A1 — deliberately tighter than the drop cap.
@@ -44,7 +44,21 @@ VERIFIED_REAL = {
     'google_pixel_11_pro_xl_256', 'google_pixel_11_pro_xl_512',
     'google_pixel_11_pro_fold_256', 'google_pixel_11_pro_fold_512',
     'asus_rog_phone_9_12_256',                             # undisproved 2026-08-17 — kept
+    # India 2026-09-03 (gap-audit + critic 2026-09-10, 4 India outlets). Flagged 2026-09-16 only because the
+    # critic's note QUOTED the phrase while refusing to write a fabricated 'does not exist' verdict.
+    'redmi_17_5g_6_128', 'redmi_17_5g_8_128',
 }
+# SUCCESSOR-SHIPPING HOLD (2026-09-16). iPhone 18 Pro / 18 Pro Max ship in India 2026-09-18. Research this
+# week wanted +22% to +46% on the 17 Pro line (resale at ~92% of new, triangulated off Cashify refurb
+# retail) two days before the successor lands on shelves — the textbook moment for that anchor to
+# soften, not rise. Rises on the outgoing generation are refused this week (A1 held); drops still apply.
+# Re-anchor on observed resale in the first run after 09-18.
+SUCCESSOR_HOLD_PREFIXES = ('iphone_17_pro_',)
+# Critic corrections rejected on RATIONALE (2026-09-16). The brain forbids pushing resale up so RT beats a
+# competitor quote ("Do NOT force RT to beat it"). The critic raised this resale 82,000 -> 88,000 explicitly
+# "so RT clears the competitor rate", which also slid the Cashify 'Get Upto' figure from 91% to 84% of
+# resale — just under the incoherent-spread filter. Use the fetcher's figure; the outlier pass re-checks it.
+CRITIC_RESALE_REJECTED = {'ipad_pro_m4_13_512_wifi': 82000}
 # Confirmed-phantom variants to REMOVE. Seven were removed on 2026-08-17 after a dedicated
 # verification pass; this week's list starts empty and only grows on hand-verified evidence.
 CONFIRMED_PHANTOM = set()
@@ -124,6 +138,10 @@ for key, v in ver.items():
         nonexistent.append((key, e.get('display_name'), note[:120])); continue
 
     rs = v.get('resale_final'); bm = v.get('buyback_final')
+    if key in CRITIC_RESALE_REJECTED:
+        flags.append(('critic-backsolve-rejected', key,
+                      f'critic resale {rs} was raised to beat a competitor quote — using fetcher {CRITIC_RESALE_REJECTED[key]}'))
+        rs = CRITIC_RESALE_REJECTED[key]
     if not isinstance(rs, (int, float)) or rs <= 0:
         skipped.append((key, 'no verified resale')); continue
 
@@ -174,9 +192,32 @@ for key, v in ver.items():
     if isinstance(new, (int, float)) and new > 0 and a1 > new * NEW_CAP:
         a1 = new * NEW_CAP; capped_by = 'new*0.85'
 
+    # THIN-MARKET NEW LAUNCH (2026-09-16): a phone first sold weeks ago has no used market, so research
+    # can only return the 78-85%-of-new convention. That is still a placeholder, not an observation —
+    # keep the entry 'estimated' so a later run re-researches it once real used units trade.
+    try:
+        from datetime import date as _d
+        _age = (_d(*map(int, TODAY.split('-'))) - _d(*map(int, e.get('launch_date', '').split('-')))).days
+    except Exception:
+        _age = None
+    if _age is not None and _age < 45 and isinstance(new, (int, float)) and new > 0 and 0.77 <= rs / new <= 0.86:
+        held_estimate.add(key)
+
     raw = a1
+    if key.startswith(SUCCESSOR_HOLD_PREFIXES) and a1 > cur:
+        flags.append(('successor-hold', key, f'rise to {r100(a1)} refused — iPhone 18 Pro ships 2026-09-18; held at {r100(cur)}'))
+        a1, raw, capped_by = cur, cur, 'held: successor ships 2026-09-18'
     lo, hi = cur * (1 - WEEK_CAP), cur * (1 + INCREASE_CAP)
-    if a1 < lo:
+    # The -20% floor protects an ESTABLISHED, researched price from one noisy week. An entry still
+    # marked 'estimated' from a placeholder anchor (a gap-add at resale = new x0.80, or a hand
+    # triangulation recorded as provisional) has no researched history to protect — its current A1
+    # IS the placeholder, and flooring the first real research at -20% would lock most of the
+    # invented number in. Same rule _apply_verified_*.py applies to placeholder_resale adds
+    # (added 2026-09-16). Rises stay capped at +8% regardless.
+    placeholder_anchor = e.get('calibration_status') == 'estimated'
+    if a1 < lo and placeholder_anchor:
+        capped_by = 'unbanded-placeholder-anchor'
+    elif a1 < lo:
         a1, capped_by = lo, 'week-cap-down'
     elif a1 > hi:
         blocked_rises.append({'key': key, 'name': e.get('display_name'), 'cur': r100(cur),

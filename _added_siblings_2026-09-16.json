@@ -1,0 +1,62 @@
+[
+ {
+  "key": "vivo_t3x_5g_6_128",
+  "name": "Vivo T3x 5G 6/128GB",
+  "a1": 7200
+ },
+ {
+  "key": "vivo_t3x_5g_8_128",
+  "name": "Vivo T3x 5G 8/128GB",
+  "a1": 7200
+ },
+ {
+  "key": "moto_razr_60_ultra_16_512",
+  "name": "Motorola Razr 60 Ultra 16/512GB",
+  "a1": 45500
+ },
+ {
+  "key": "redmi_note_14_pro_plus_5g_8_128",
+  "name": "Redmi Note 14 Pro+ 5G 8/128GB",
+  "a1": 16400
+ },
+ {
+  "key": "redmi_note_14_pro_plus_5g_12_512",
+  "name": "Redmi Note 14 Pro+ 5G 12/512GB",
+  "a1": 20500
+ },
+ {
+  "key": "moto_edge_60_pro_8_256",
+  "name": "Motorola Edge 60 Pro 8/256GB",
+  "a1": 16800
+ },
+ {
+  "key": "moto_edge_60_pro_16_512",
+  "name": "Motorola Edge 60 Pro 16/512GB",
+  "a1": 21800
+ },
+ {
+  "key": "moto_edge_60_fusion_12_256",
+  "name": "Motorola Edge 60 Fusion 12/256GB",
+  "a1": 15500
+ },
+ {
+  "key": "moto_edge_60_fusion_8_128",
+  "name": "Motorola Edge 60 Fusion 8/128GB",
+  "a1": 13600
+ },
+ {
+  "key": "oneplus_nord_5_12_256",
+  "name": "OnePlus Nord 5 12/256GB",
+  "a1": 22700
+ },
+ {
+  "key": "oneplus_nord_5_12_512",
+  "name": "OnePlus Nord 5 12/512GB",
+  "a1": 23700
+ },
+ {
+  "key": "poco_x7_pro_5g_12_256",
+  "name": "Poco X7 Pro 5G 12/256GB",
+  "a1": 16800
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "key": "vivo_t3x_5g_4_256",
+  "reason": "Vivo India newsroom price release lists only 4/128 Rs12,499, 6/128 Rs13,999, 8/128 Rs15,499; Vivo India spec page '4/6/8 GB + 128 GB'. No 256GB ever sold in India."
+ },
+ {
+  "key": "moto_razr_60_ultra_12_512",
+  "reason": "Business Standard 2025-05-13: India launched a SINGLE 16GB/512GB variant at Rs99,999; Motorola India store catalogue carries one storage option '16GB/512GB'."
+ },
+ {
+  "key": "google_pixel_9_pro_128",
+  "reason": "GSMArena India pre-order news + Gadgets360 India: Pixel 9 Pro sold in India as a single 16GB/256GB at Rs1,09,999; 128GB is a global SKU."
+ },
+ {
+  "key": "google_pixel_9_pro_xl_16_1tb",
+  "reason": "GSMArena India launch table + Gadgets360/Smartprix India: Pixel 9 Pro XL India variants are 16/256 (Rs1,24,999) and 16/512 (Rs1,39,999) only; Cashify 1TB sell page 404."
+ },
+ {
+  "key": "moto_edge_60_pro_12_512",
+  "reason": "India Edge 60 Pro = 8/256 Rs29,999, 12/256 Rs33,999, 16/512 Rs37,999 (Smartprix, motorola.in catalogue); 512GB ships only with 16GB."
+ },
+ {
+  "key": "moto_edge_60_fusion_8_512",
+  "reason": "India Edge 60 Fusion = 8/128, 8/256, 12/256 (motorola.in catalogue; GSMArena/Business Standard launch lists 8/256 + 12/256); no 512GB at any RAM."
+ }
+]

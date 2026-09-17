@@ -54,17 +54,19 @@ const CRITIC_SCHEMA = {
 }
 
 function findPrompt(i) {
-  return `You audit Rajdhani Telecom's used-phone DB for MISSING models. TODAY is 2026-09-10. Find India phones that SHOULD be in the DB but are MISSING. The DB was gap-audited on 2026-08-30 (prev run 2026-08-24), so the PRIMARY target is anything that launched or went on sale in India from 2026-08-28 onward (the last ~2 weeks) — new launches, new storage/RAM variants of recent phones, and India availability of models announced earlier. SECONDARY: any notable 2025-2026 model still absent. Do not re-propose models already in the DB.
+  return `You audit Rajdhani Telecom's used-phone DB for MISSING models. TODAY is 2026-09-16. Find India phones that SHOULD be in the DB but are MISSING. The DB was gap-audited on 2026-09-10 (prev run 2026-08-30), so the PRIMARY target is anything that launched or went on sale in India from 2026-09-07 onward (the last ~10 days) — new launches, new storage/RAM variants of recent phones, and India availability of models announced earlier. SECONDARY: any notable 2025-2026 model still absent. Do not re-propose models already in the DB.
 
 Get your unit scope + what's already in the DB:
   python3 -c "import json; u=json.load(open('${DIR}/_audit_units.json'))[${i}]; inv=json.load(open('${DIR}/_db_inventory.json')); print('SCOPE:',u[2]); [print('---',b,'MODELS:',inv.get(b,{}).get('models')) for b in u[1]]"
 
-Web-research the India lineup for your scope with heavy emphasis on LATE-AUGUST 2026 launches (GSMArena/91mobiles/Smartprix/official brand India sites; check 'launched in India August 2026' / 'launch date 2026' style queries). Diff against the MODELS already listed. A model is MISSING only if not already present (account for name variants).
+Web-research the India lineup for your scope with heavy emphasis on SEPTEMBER 2026 launches (GSMArena/91mobiles/Smartprix/official brand India sites; check 'launched in India September 2026' / 'launch date 2026' style queries). Diff against the MODELS already listed. A model is MISSING only if not already present (account for name variants).
+
+ALREADY KNOWN — do NOT propose: (1) iPhone 18 Pro / 18 Pro Max, Apple Watch Series 12 / SE 3 / Ultra 4 and Samsung Galaxy S26 FE are HELD until they ship in India on 2026-09-18 (still in the future — an unshipped phone has no used market). (2) Vivo T3x 5G 6/128 and 8/128 are being researched separately this week.
 
 For each MISSING model, output one entry per REAL India storage/RAM variant with PRICING for RT's brain:
   - key: match existing key-naming for that brand (lowercase, e.g. samsung_s26_ultra_256, oppo_reno16_8_256, iphone_17_pro_256). NO phantom variants — verify real India storage configs.
   - tier: S=Apple/Samsung S·Z flagship/Pixel Pro; A=OnePlus flagship/premium/Samsung A7x; B=Xiaomi/Vivo X/Oppo Reno/Nord/Nothing/Moto Edge·Razr; C=Vivo Y·T/Oppo A·F/Realme C·Narzo/Redmi Note/Poco/Samsung A0x-A3x·M·F; D=Infinix/Tecno/Lava/itel/Micromax entry.
-  - new_price = official current India NEW price (₹). resale_price = realistic used mint resale TODAY (for a brand-new <3-month phone with thin used market, use ≈ new × 0.80; older = real used value below new). buyback_market = what Cashify pays if a used market exists, else null.
+  - new_price = official current India NEW price (₹). resale_price = realistic used mint resale TODAY (ONLY for a phone first sold in India <30 days ago with genuinely no used market may you use ≈ new × 0.80 — and then write 'PLACEHOLDER 0.80' in source. Anything older trades used: research the real used value, which for a months-old budget phone is typically 25-30% below that 0.80 figure). buyback_market = what Cashify pays if a used market exists, else null.
   - launch_date YYYY-MM-DD (real India date), discontinued (usually false for new).
   - HONESTY: only add models you CONFIRM launched in India. Unsure -> skip. resale_price < new_price always.
   - NO PHANTOM VARIANTS (this DB's #1 historical bug): the tell is a 512GB/1TB tier paired with the WRONG RAM size. Real line-ups pair big storage ONLY with the top RAM. Never extrapolate "the next storage tier up" — list ONLY configs you can see on the brand's India store / a major India retailer.
@@ -75,13 +77,13 @@ For each MISSING model, output one entry per REAL India storage/RAM variant with
 Write ${DIR}/_gaps/find_${i}.json AND return: {"unit_id":"<name>","missing":[{...}]}. If none missing, missing:[].`
 }
 function criticPrompt(i, findJson) {
-  return `Adversarial CRITIC for Rajdhani Telecom gap-audit. TODAY is 2026-09-10. A finder proposed missing India models with prices; independently VERIFY each.
+  return `Adversarial CRITIC for Rajdhani Telecom gap-audit. TODAY is 2026-09-16. A finder proposed missing India models with prices; independently VERIFY each.
 Finder output:
 ${JSON.stringify(findJson)}
 
 For EACH proposed model, web-check:
 1. real_india_launch: Did this EXACT model actually launch/sell in India? Reject fakes, rumors, non-India variants, phantom storage configs.
-2. new_price_final: correct official India new price (not MRP-inflated, not wrong variant). resale_price_final: realistic used resale (< new; for brand-new ≈ new×0.78-0.82). buyback_market_final: real Cashify buyback or null.
+2. new_price_final: correct official India new price (not MRP-inflated, not wrong variant). resale_price_final: realistic used resale (< new; ONLY for a phone first sold in India <30 days ago ≈ new×0.78-0.82; older phones must carry researched used value). buyback_market_final: real Cashify buyback or null.
 3. Sanity: resale < new; buyback < resale (if present); storage ordering (256>128).
 4. PHANTOM CHECK: reject any variant whose storage tier is paired with the wrong RAM for that line-up (big storage ships only with top RAM). Confirm the exact config on the brand's India store / a major India retailer.
 5. ROUND-NUMBER CHECK: a new_price that is a round thousand (40000, 25000) is a fabrication signature — real India prices end in 999/990. Re-source it or null it.
