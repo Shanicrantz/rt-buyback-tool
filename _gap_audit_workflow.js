@@ -7,7 +7,7 @@ export const meta = {
   ],
 }
 const DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
-const N = 4
+const N = 5
 
 const FIND_SCHEMA = {
   type: 'object', additionalProperties: false,
@@ -54,14 +54,14 @@ const CRITIC_SCHEMA = {
 }
 
 function findPrompt(i) {
-  return `You audit Rajdhani Telecom's used-phone DB for MISSING models. TODAY is 2026-09-16. Find India phones that SHOULD be in the DB but are MISSING. The DB was gap-audited on 2026-09-10 (prev run 2026-08-30), so the PRIMARY target is anything that launched or went on sale in India from 2026-09-07 onward (the last ~10 days) — new launches, new storage/RAM variants of recent phones, and India availability of models announced earlier. SECONDARY: any notable 2025-2026 model still absent. Do not re-propose models already in the DB.
+  return `You audit Rajdhani Telecom's used-phone DB for MISSING models. TODAY is 2026-09-21. Find India phones that SHOULD be in the DB but are MISSING. The DB was gap-audited on 2026-09-16 (prev run 2026-09-10), so the PRIMARY target is anything that launched or went on sale in India from 2026-09-14 onward (the last ~7 days) — new launches, new storage/RAM variants of recent phones, and India availability of models announced earlier. SECONDARY: any notable 2025-2026 model still absent. Do not re-propose models already in the DB.
 
 Get your unit scope + what's already in the DB:
   python3 -c "import json; u=json.load(open('${DIR}/_audit_units.json'))[${i}]; inv=json.load(open('${DIR}/_db_inventory.json')); print('SCOPE:',u[2]); [print('---',b,'MODELS:',inv.get(b,{}).get('models')) for b in u[1]]"
 
 Web-research the India lineup for your scope with heavy emphasis on SEPTEMBER 2026 launches (GSMArena/91mobiles/Smartprix/official brand India sites; check 'launched in India September 2026' / 'launch date 2026' style queries). Diff against the MODELS already listed. A model is MISSING only if not already present (account for name variants).
 
-ALREADY KNOWN — do NOT propose: (1) iPhone 18 Pro / 18 Pro Max, Apple Watch Series 12 / SE 3 / Ultra 4 and Samsung Galaxy S26 FE are HELD until they ship in India on 2026-09-18 (still in the future — an unshipped phone has no used market). (2) Vivo T3x 5G 6/128 and 8/128 are being researched separately this week.
+ALREADY HANDLED ELSEWHERE — do NOT propose: iPhone 18 Pro / 18 Pro Max, Apple Watch Series 12 / SE 3 / Ultra 4, Samsung Galaxy S26 FE, Redmi Note 17 Pro 5G and Redmi Note 17 Pro Max 5G (a separate unit re-verifies these held models this week). NEVER propose a model whose India FIRST SALE date is after 2026-09-21 — an announced-but-not-on-sale phone has no used market; if you see one, you may list it with its real first-sale date in launch_date so it is held.
 
 For each MISSING model, output one entry per REAL India storage/RAM variant with PRICING for RT's brain:
   - key: match existing key-naming for that brand (lowercase, e.g. samsung_s26_ultra_256, oppo_reno16_8_256, iphone_17_pro_256). NO phantom variants — verify real India storage configs.
@@ -76,8 +76,24 @@ For each MISSING model, output one entry per REAL India storage/RAM variant with
 
 Write ${DIR}/_gaps/find_${i}.json AND return: {"unit_id":"<name>","missing":[{...}]}. If none missing, missing:[].`
 }
+function heldPrompt(i) {
+  return `You verify HELD launches for Rajdhani Telecom's used-phone DB. TODAY is 2026-09-21.
+On 2026-09-16 these models were HELD out of the DB because they were announced but NOT YET ON SALE in India (an unsold phone has no used market). Read them:
+  python3 -c "import json; [print(h['key'],'|',h['name'],'| launch',h.get('launch_date'),'| first_sale',h.get('first_sale_date'),'| new',h.get('new_price_verified')) for h in json.load(open('${DIR}/_held_future_2026-09-16.json'))]"
+Existing sibling entries already in the DB (for key naming + tier):
+  python3 -c "import json; d=json.load(open('${DIR}/phone_db.json')); [print(k,d[k].get('tier'),d[k].get('display_name')) for k in d if k.startswith(('iphone_17_pro','apple_watch','samsung_s25_fe','redmi_note_17','redmi_note_15_pro'))]"
+
+For EACH held key:
+  1) Confirm whether it is NOW actually ON SALE in India (shipped / in stores / deliveries started) — give the real first-sale date as launch_date (YYYY-MM-DD). Redmi Note 17 Pro Max 5G first sale was reported as 2026-09-23 (still in the future) — confirm; if its first sale is after 2026-09-21, put that future date in launch_date.
+  2) Confirm the OFFICIAL India new price for that exact config (apple.com/in, samsung.com/in, mi.com/in). The Galaxy S26 FE India price was NOT known on 09-16 — find it (and the real India storage line-up: do not include a 512GB unless Samsung India sells it).
+  3) resale_price: these went on sale only days ago, so a real used market barely exists. If you find genuine used/sealed-resale listings (OLX, dealers), report the realistic mint-used figure. If not, you MAY use new x 0.80 and MUST write 'PLACEHOLDER 0.80' in source. buyback_market: a real Cashify sell-flow quote only, else null.
+  4) Keep the held key names exactly; tier as given in the held file (Redmi Note 17 Pro = C, Pro Max = B, Apple/Samsung per file).
+Output every held key as an entry in "missing" (display_name from the held file). Skip nothing — if one is still not on sale, keep it with its future launch_date so the pipeline holds it again.
+
+Write ${DIR}/_gaps/find_${i}.json AND return: {"unit_id":"held_carryforward","missing":[{...}]}.`
+}
 function criticPrompt(i, findJson) {
-  return `Adversarial CRITIC for Rajdhani Telecom gap-audit. TODAY is 2026-09-16. A finder proposed missing India models with prices; independently VERIFY each.
+  return `Adversarial CRITIC for Rajdhani Telecom gap-audit. TODAY is 2026-09-21. A finder proposed missing India models with prices; independently VERIFY each.
 Finder output:
 ${JSON.stringify(findJson)}
 
@@ -87,7 +103,8 @@ For EACH proposed model, web-check:
 3. Sanity: resale < new; buyback < resale (if present); storage ordering (256>128).
 4. PHANTOM CHECK: reject any variant whose storage tier is paired with the wrong RAM for that line-up (big storage ships only with top RAM). Confirm the exact config on the brand's India store / a major India retailer.
 5. ROUND-NUMBER CHECK: a new_price that is a round thousand (40000, 25000) is a fabrication signature — real India prices end in 999/990. Re-source it or null it.
-6. Do NOT reject a price merely for being far above its predecessor — 2026 India budget pricing genuinely stepped up. Verify on the brand's India store instead of assuming an MRP.
+6. FIRST SALE: launch_date must be the India FIRST-SALE date if sale started after the announcement. If a model is not yet on sale in India as of 2026-09-21, keep real_india_launch=true but correct launch_date to the future first-sale date (the pipeline holds it). For phones on sale <30 days, resale ~= new x0.78-0.82 is acceptable ONLY if marked as a placeholder; otherwise require real datapoints.
+7. Do NOT reject a price merely for being far above its predecessor — 2026 India budget pricing genuinely stepped up. Verify on the brand's India store instead of assuming an MRP.
 Set *_final to correct values (corrected if finder wrong, confirmed if right, rejected+real_india_launch=false if fake/unverifiable).
 
 Write ${DIR}/_gaps/verified_${i}.json AND return: {"unit_id":"<name>","verified":[{...}]}. Every proposed key exactly once.`
@@ -96,7 +113,7 @@ Write ${DIR}/_gaps/verified_${i}.json AND return: {"unit_id":"<name>","verified"
 phase('Find')
 const results = await pipeline(
   Array.from({ length: N }, (_, i) => i),
-  (i) => agent(findPrompt(i), { label: `find:${i}`, phase: 'Find', schema: FIND_SCHEMA, model: 'sonnet', agentType: 'general-purpose' }),
+  (i) => agent(i === 4 ? heldPrompt(i) : findPrompt(i), { label: `find:${i}`, phase: 'Find', schema: FIND_SCHEMA, model: 'sonnet', agentType: 'general-purpose' }),
   (findRes, i) => agent(criticPrompt(i, findRes), { label: `critic:${i}`, phase: 'Critic', schema: CRITIC_SCHEMA, model: 'sonnet', agentType: 'general-purpose' }),
 )
 const ok = results.filter(Boolean)

@@ -19,7 +19,7 @@ import json, glob, sys, re
 from collections import defaultdict
 
 DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY = '2026-09-16'
+TODAY = '2026-09-21'
 APPLY = '--apply' in sys.argv
 WEEK_CAP = 0.20      # max single-week DROP in A1 (market softening = safe direction)
 INCREASE_CAP = 0.08  # max single-week RISE in A1 — deliberately tighter than the drop cap.
@@ -48,17 +48,30 @@ VERIFIED_REAL = {
     # critic's note QUOTED the phrase while refusing to write a fabricated 'does not exist' verdict.
     'redmi_17_5g_6_128', 'redmi_17_5g_8_128',
 }
-# SUCCESSOR-SHIPPING HOLD (2026-09-16). iPhone 18 Pro / 18 Pro Max ship in India 2026-09-18. Research this
-# week wanted +22% to +46% on the 17 Pro line (resale at ~92% of new, triangulated off Cashify refurb
-# retail) two days before the successor lands on shelves — the textbook moment for that anchor to
-# soften, not rise. Rises on the outgoing generation are refused this week (A1 held); drops still apply.
-# Re-anchor on observed resale in the first run after 09-18.
-SUCCESSOR_HOLD_PREFIXES = ('iphone_17_pro_',)
-# Critic corrections rejected on RATIONALE (2026-09-16). The brain forbids pushing resale up so RT beats a
-# competitor quote ("Do NOT force RT to beat it"). The critic raised this resale 82,000 -> 88,000 explicitly
-# "so RT clears the competitor rate", which also slid the Cashify 'Get Upto' figure from 91% to 84% of
-# resale — just under the incoherent-spread filter. Use the fetcher's figure; the outlier pass re-checks it.
-CRITIC_RESALE_REJECTED = {'ipad_pro_m4_13_512_wifi': 82000}
+# SUCCESSOR-SHIPPING HOLD (2026-09-16, extended 2026-09-21). iPhone 18 Pro / 18 Pro Max and Galaxy S26 FE went
+# on sale in India 2026-09-18. On 09-16 research wanted +22% to +46% on the 17 Pro line two days before the
+# successor landed. This week (3 days after launch) the used market for the outgoing generation is still
+# settling, and the only direction it can plausibly move is DOWN — so rises on the outgoing generation stay
+# refused while drops (re-anchoring on observed resale) apply. Drop the hold once a post-launch week of
+# observed resale exists (first run on/after 2026-09-28).
+SUCCESSOR_HOLD_PREFIXES = ('iphone_17_pro_', 'samsung_s25_fe_')
+SUCCESSOR_NOTE = 'successor shipped 2026-09-18 (iPhone 18 Pro / Galaxy S26 FE)'
+# Critic corrections rejected on RATIONALE. The brain forbids pushing resale up so RT beats a competitor
+# quote. Filled per week after reading critic notes (2026-09-16: iPad Pro M4 13in 512).
+CRITIC_RESALE_REJECTED = {}
+# Rises refused on SIBLING INCOHERENCE (2026-09-21). Research put the 11-inch iPad Pro M5 256GB at resale Rs1,15,000
+# — ABOVE the larger 13-inch 256GB (Rs1,08,000, verified 08-30) — off an apple.com/in fetch of Rs1,39,900 for the
+# 11-inch that the same week's 13-inch fetch contradicted (Rs1,99,900, rejected by its critic as a rendering error).
+# A smaller, cheaper-at-launch size cannot out-resell the bigger one; hold and send both to verification.
+REFUSE_RISE = {'ipad_pro_m5_11_256_wifi': '11in resale researched above the 13in sibling off a contradicted new price'}
+# CALCIFIED PLACEHOLDERS (2026-09-21). Pre-guardrail gap-adds whose resale was set at EXACTLY 80% of an
+# unverified new price but stamped 'verified'. Their current A1 is the placeholder, not a researched price,
+# so a research DROP on them is applied unbanded — same rule as an 'estimated' anchor. Rises stay capped.
+try:
+    CALCIFIED = {c['key'] for c in json.load(open(f'{DIR}/_scope_{TODAY}.json'))
+                 if 'calcified' in (c.get('why') or '')}
+except FileNotFoundError:
+    CALCIFIED = set()
 # Confirmed-phantom variants to REMOVE. Seven were removed on 2026-08-17 after a dedicated
 # verification pass; this week's list starts empty and only grows on hand-verified evidence.
 CONFIRMED_PHANTOM = set()
@@ -128,6 +141,7 @@ for f in glob.glob(f'{DIR}/_ov_updates/verified_*.json'):
 
 nonexistent, changes, skipped, flags = [], [], [], []
 held_estimate, blocked_rises = set(), []
+calcified_echo, successor_refused = [], []
 
 for key, v in ver.items():
     e = ph.get(key)
@@ -203,10 +217,23 @@ for key, v in ver.items():
     if _age is not None and _age < 45 and isinstance(new, (int, float)) and new > 0 and 0.77 <= rs / new <= 0.86:
         held_estimate.add(key)
 
+    # CALCIFIED-PLACEHOLDER ECHO (2026-09-21). Asked to re-research the 31 pre-guardrail 0.80 anchors from
+    # scratch, the agents mostly re-applied the prompt's own thin-market convention (resale ~78-85% of new) to
+    # phones 1.5-17 months old — the same number back, not an observation. Such a result can confirm a DROP
+    # (conservative) but never a rise, stays 'estimated', and is routed to the Opus verify+refute pass.
+    if key in CALCIFIED and isinstance(new, (int, float)) and new > 0 and 0.76 <= rs / new <= 0.86:
+        held_estimate.add(key); calcified_echo.append(key)
+        if a1 > cur:
+            flags.append(('calcified-echo', key, f'resale {r100(rs)} = {rs/new:.0%} of new — thin-market convention, not a datapoint; rise refused'))
+            a1 = cur
+    if key in REFUSE_RISE and a1 > cur:
+        flags.append(('sibling-incoherent-rise-refused', key, REFUSE_RISE[key])); a1 = cur
     raw = a1
     if key.startswith(SUCCESSOR_HOLD_PREFIXES) and a1 > cur:
-        flags.append(('successor-hold', key, f'rise to {r100(a1)} refused — iPhone 18 Pro ships 2026-09-18; held at {r100(cur)}'))
-        a1, raw, capped_by = cur, cur, 'held: successor ships 2026-09-18'
+        successor_refused.append({'key': key, 'name': e.get('display_name'), 'cur': r100(cur), 'wanted': r100(a1),
+                                  'resale': r100(rs), 'buyback': r100(bm) if bm else None, 'conf': v.get('confidence')})
+        flags.append(('successor-hold', key, f'rise to {r100(a1)} refused — {SUCCESSOR_NOTE}; held at {r100(cur)}'))
+        a1, raw, capped_by = cur, cur, 'held: successor shipped 2026-09-18'
     lo, hi = cur * (1 - WEEK_CAP), cur * (1 + INCREASE_CAP)
     # The -20% floor protects an ESTABLISHED, researched price from one noisy week. An entry still
     # marked 'estimated' from a placeholder anchor (a gap-add at resale = new x0.80, or a hand
@@ -214,7 +241,7 @@ for key, v in ver.items():
     # IS the placeholder, and flooring the first real research at -20% would lock most of the
     # invented number in. Same rule _apply_verified_*.py applies to placeholder_resale adds
     # (added 2026-09-16). Rises stay capped at +8% regardless.
-    placeholder_anchor = e.get('calibration_status') == 'estimated'
+    placeholder_anchor = e.get('calibration_status') == 'estimated' or key in CALCIFIED
     if a1 < lo and placeholder_anchor:
         capped_by = 'unbanded-placeholder-anchor'
     elif a1 < lo:
@@ -345,6 +372,7 @@ if skipped:
 json.dump({'today': TODAY, 'changes': changes, 'nonexistent': nonexistent,
            'lose_to_market': lose, 'skipped': skipped, 'flags': flags,
            'blocked_rises': blocked_rises, 'held_estimate': sorted(held_estimate),
+           'calcified_echo': calcified_echo, 'successor_refused': successor_refused,
            'verified_real_kept': sorted(VERIFIED_REAL),
            'removed_phantom': sorted(CONFIRMED_PHANTOM & set(ph))},
           open(f'{DIR}/_brain_refresh_{TODAY}.json', 'w'), ensure_ascii=False, indent=1)

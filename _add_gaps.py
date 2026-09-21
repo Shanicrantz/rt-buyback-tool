@@ -4,7 +4,7 @@ A1 = resale/(1+margin_by_age), capped at new*0.85. Merges finder (launch/tier/na
 Dedupes vs existing keys + display names. --apply to write; default dry-run."""
 import json, glob, re, sys, statistics
 DIR='/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY='2026-09-16'
+TODAY='2026-09-21'
 APPLY='--apply' in sys.argv
 def r100(n): return int(round(n/100.0))*100
 KNOWN={'iphone','apple','samsung','vivo','iqoo','realme','oppo','redmi','xiaomi','poco','oneplus','google',
@@ -57,8 +57,10 @@ for k in existing:
 FIRST_SALE={
     'redmi_note_17_pro_5g': '2026-09-17',      # GSMArena India launch news 2026-09-16: "sales start Sep 17"
     'redmi_note_17_pro_max_5g': '2026-09-23',  # same article: Pro Max "sales start Sep 23"
+    'iphone_18_pro': '2026-09-18', 'iphone_18_pro_max': '2026-09-18',   # apple.com/in: ships 18-Sep
 }
 
+ESTIMATED_ADDS={'apple_watch_se3_40','apple_watch_se3_44','vivo_y31t_5g_4_128','vivo_y31t_5g_6_128','vivo_y31t_5g_6_256'}
 added=[]; skipped=0; rejected=0; tier_fixed=[]; held_future=[]
 bybrand=Counter()
 for key,v in ver.items():
@@ -113,6 +115,10 @@ for key,v in ver.items():
     # and the next weekly refresh re-researches it. Per the guardrail memo we still ADD it: a
     # provisional quote beats no quote, we just refuse to call it verified.
     placeholder = (isinstance(new,(int,float)) and new>0 and abs(resale/new-0.80)<0.005)
+    # 2026-09-21: critic-flagged weak provenance that the 0.80 detector cannot see — Apple Watch SE 3 resale is a
+    # flat new x0.60 age-estimate (no listing read), and Vivo Y31t rests on OLX ASKING prices for 2 of 3 trims with
+    # the 6/256 scaled off a sibling ratio. A provisional quote beats none, but it is not 'verified'.
+    placeholder = placeholder or key in ESTIMATED_ADDS
     e['calibration_status']='estimated' if placeholder else 'verified'
     e['calibration_date']=TODAY
     e['live_source']=f"Added {TODAY} (gap-audit+critic). resale ₹{r100(resale):,}{'/new ₹'+format(r100(new),',') if new else ''}{'/buy ₹'+format(r100(bm),',') if bm else ''}. A1=resale÷(1+{m})."[:180]

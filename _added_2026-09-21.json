@@ -1,0 +1,135 @@
+[
+ {
+  "key": "redmi_note_17_pro_5g_8_128",
+  "name": "Redmi Note 17 Pro 5G (8GB/128GB)",
+  "launch": "2026-09-17",
+  "a1": 26900,
+  "resale": 29600
+ },
+ {
+  "key": "redmi_note_17_pro_5g_8_256",
+  "name": "Redmi Note 17 Pro 5G (8GB/256GB)",
+  "launch": "2026-09-17",
+  "a1": 29100,
+  "resale": 32000
+ },
+ {
+  "key": "iphone_18_pro_256",
+  "name": "iPhone 18 Pro 256GB",
+  "launch": "2026-09-18",
+  "a1": 120000,
+  "resale": 131900
+ },
+ {
+  "key": "iphone_18_pro_512",
+  "name": "iPhone 18 Pro 512GB",
+  "launch": "2026-09-18",
+  "a1": 138200,
+  "resale": 151900
+ },
+ {
+  "key": "iphone_18_pro_1tb",
+  "name": "iPhone 18 Pro 1TB",
+  "launch": "2026-09-18",
+  "a1": 174600,
+  "resale": 191900
+ },
+ {
+  "key": "iphone_18_pro_2tb",
+  "name": "iPhone 18 Pro 2TB",
+  "launch": "2026-09-18",
+  "a1": 229200,
+  "resale": 251900
+ },
+ {
+  "key": "iphone_18_pro_max_256",
+  "name": "iPhone 18 Pro Max 256GB",
+  "launch": "2026-09-18",
+  "a1": 131000,
+  "resale": 143900
+ },
+ {
+  "key": "iphone_18_pro_max_512",
+  "name": "iPhone 18 Pro Max 512GB",
+  "launch": "2026-09-18",
+  "a1": 149200,
+  "resale": 163900
+ },
+ {
+  "key": "iphone_18_pro_max_1tb",
+  "name": "iPhone 18 Pro Max 1TB",
+  "launch": "2026-09-18",
+  "a1": 185600,
+  "resale": 203900
+ },
+ {
+  "key": "iphone_18_pro_max_2tb",
+  "name": "iPhone 18 Pro Max 2TB",
+  "launch": "2026-09-18",
+  "a1": 240100,
+  "resale": 263900
+ },
+ {
+  "key": "apple_watch_s12_42",
+  "name": "Apple Watch Series 12 42mm GPS",
+  "launch": "2026-09-18",
+  "a1": 41400,
+  "resale": 45500
+ },
+ {
+  "key": "apple_watch_s12_46",
+  "name": "Apple Watch Series 12 46mm GPS",
+  "launch": "2026-09-18",
+  "a1": 45800,
+  "resale": 50300
+ },
+ {
+  "key": "apple_watch_ultra_4_49",
+  "name": "Apple Watch Ultra 4 49mm GPS+Cell",
+  "launch": "2026-09-18",
+  "a1": 80000,
+  "resale": 87900
+ },
+ {
+  "key": "apple_watch_se3_40",
+  "name": "Apple Watch SE 3 40mm GPS",
+  "launch": "2025-09-09",
+  "a1": 16300,
+  "resale": 17900
+ },
+ {
+  "key": "apple_watch_se3_44",
+  "name": "Apple Watch SE 3 44mm GPS",
+  "launch": "2025-09-09",
+  "a1": 18500,
+  "resale": 20300
+ },
+ {
+  "key": "samsung_s26_fe_256",
+  "name": "Samsung Galaxy S26 FE 256GB",
+  "launch": "2026-09-18",
+  "a1": 58200,
+  "resale": 64000
+ },
+ {
+  "key": "vivo_y31t_5g_4_128",
+  "name": "Vivo Y31t 5G 4/128GB",
+  "launch": "2026-08-21",
+  "a1": 17200,
+  "resale": 21500
+ },
+ {
+  "key": "vivo_y31t_5g_6_128",
+  "name": "Vivo Y31t 5G 6/128GB",
+  "launch": "2026-08-21",
+  "a1": 18400,
+  "resale": 23000
+ },
+ {
+  "key": "vivo_y31t_5g_6_256",
+  "name": "Vivo Y31t 5G 6/256GB",
+  "launch": "2026-08-21",
+  "a1": 21600,
+  "resale": 27000
+ }
+]

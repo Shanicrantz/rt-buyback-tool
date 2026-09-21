@@ -1,0 +1,56 @@
+[
+ {
+  "key": "redmi_note_17_pro_max_5g_8_256",
+  "name": "Redmi Note 17 Pro Max 5G (8GB/256GB)",
+  "launch_date": "2026-09-23",
+  "first_sale_date": null,
+  "tier": "B",
+  "new_price_verified": 49999,
+  "critic_note": "CONFIRMED real and correctly still HELD. Rs49,999 matches the same GSMArena India-launch article used for the Pro siblings and is unchanged across three weekly checks (09-10 finder, 09-16 carryforward, this week). First sale is 2026-09-23 -- 2 days in the FUTURE of today (2026-09-21) -- so per the h"
+ },
+ {
+  "key": "redmi_note_17_pro_max_5g_12_256",
+  "name": "Redmi Note 17 Pro Max 5G (12GB/256GB)",
+  "launch_date": "2026-09-23",
+  "first_sale_date": null,
+  "tier": "B",
+  "new_price_verified": 55999,
+  "critic_note": "CONFIRMED real and correctly still HELD, same basis as the 8/256GB sibling -- Rs55,999 unchanged across three weekly checks, first sale 2026-09-23 still future. Storage/RAM pairing is coherent: Pro Max tops its RAM ladder at 12GB paired with 256GB (its real 512GB tier pairs only with 8GB per GSMAren"
+ },
+ {
+  "key": "realme_16_pro_harry_potter_5g_12_256",
+  "name": "Realme 16 Pro 5G Harry Potter Edition 12/256GB",
+  "launch_date": "2026-09-22",
+  "first_sale_date": null,
+  "tier": "B",
+  "new_price_verified": 62999,
+  "critic_note": "CONFIRMED real: officially launched in India 2026-09-21 12PM IST, in partnership with Warner Bros, and is already on sale today via Flipkart + retail (not a rumor/hoax). CORRECTED new_price: finder's Rs56,699 is a pre-launch estimate; the actual official India launch price, confirmed independently a"
+ },
+ {
+  "key": "lava_bold_n4_pro_5g_6_128",
+  "name": "Lava Bold N4 Pro 5G 6/128GB",
+  "launch_date": "2026-09-26",
+  "first_sale_date": null,
+  "tier": "D",
+  "new_price_verified": 13999,
+  "critic_note": "Real launch confirmed across independent India tech press (Fonearena, TheTechOutlook, Techlomedia) plus retailer/spec listings (Smartprix, 91mobiles): Unisoc T8200, 6.75in 120Hz, 6000mAh, single 6GB+128GB config only (no phantom variant), Rs13,999 'special introductory launch price' (ends in 999, no"
+ },
+ {
+  "key": "lava_virat_curve_5g_6_128",
+  "name": "Lava Virat Curve 5G 6/128GB",
+  "launch_date": "2026-09-28",
+  "first_sale_date": null,
+  "tier": "D",
+  "new_price_verified": 23999,
+  "critic_note": "Real launch confirmed: official Lava India product page exists at lavamobiles.com/smartphones/virat-curve, plus independent press (Beebom, Gizbot, India Today, IndiaTVNews, TechGenyz, ETVBharat) unanimously report launch on 2026-09-21 at Rs23,999, single 6GB(LPDDR5)+128GB(UFS2.2) config, curved AMOL"
+ },
+ {
+  "key": "oneplus_n6_lite",
+  "name": "OnePlus N6 Lite",
+  "launch_date": "2026-09-22",
+  "first_sale_date": null,
+  "tier": "C",
+  "new_price_verified": null,
+  "critic_note": "Real, imminent India launch confirmed directly on OnePlus's own India site (oneplus.in/launch/oneplus-n6-lite): page reads 'OnePlus N6 Lite -- Launching & Sale Begins September 22 | 12PM', with only a 'Notify Me' signup and NO price shown as of today (2026-09-21) -- exactly matching the finder's cla"
+ }
+]
