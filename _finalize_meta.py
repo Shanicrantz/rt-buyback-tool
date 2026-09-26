@@ -5,8 +5,8 @@ run the invariant checks. --apply to write; default dry-run."""
 import json, sys, re
 
 DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY = '2026-09-21'
-VERSION = '6.6'
+TODAY = '2026-09-26'
+VERSION = '6.7'
 APPLY = '--apply' in sys.argv
 
 db = json.load(open(f'{DIR}/phone_db.json'))
@@ -46,82 +46,54 @@ meta['pricing_brain'] = ("A1 buyback = resale ÷ (1+margin_by_age), capped at re
                          "phones keep a sane absolute buffer. buyback_market shown as competitiveness "
                          "reference. Refreshed weekly from live resale + buyback research.")
 meta[f'v{VERSION.replace(".", "_")}_changelog'] = (
-    f"Weekly brain refresh ({TODAY}). MARKET REPRICE: 96 models (12x8, fetch + adversarial critic, 29 corrected) "
-    f"re-anchored {len(changes)} ({len(moved)} moved >=0.5%). Scope was deliberately re-weighted this week: 58 of the "
-    f"96 were forced carry-forwards. "
-    f"SUCCESSOR SHIPPED 2026-09-18: iPhone 18 Pro / 18 Pro Max, Apple Watch Series 12 / Ultra 4 and Galaxy S26 FE went on "
-    f"sale in India. The outgoing iPhone 17 Pro line was re-anchored on OBSERVED post-launch resale and softened as "
-    f"predicted (17 Pro 256 A1 102,800 -> 94,600; 512 -> 101,900; 1TB -> 111,000; Pro Max 256 -> 104,600; 512 -> 112,800; "
-    f"1TB -> 121,000; 2TB held at 121,900 after verification refused research's +11% on two Mumbai asking prices). "
-    f"Rises on the outgoing generation (17 Pro, S25 FE) stay refused for one more week while the used market settles; "
-    f"drops apply. The S25 FE's successor-held rises were instead settled by Opus verify+refute on post-09-18 datapoints "
-    f"only: 128 A1 25,400 -> 27,800, 256 29,200 -> 30,500, 512 33,600 -> 32,800 (its July anticipatory trim was for the "
-    f"wrong successor). "
-    f"LAUNCHES ADDED (19, all first sold on/before today; <30-day ones on an explicit new x0.80 placeholder marked "
-    f"'estimated'): iPhone 18 Pro 256/512/1TB/2TB and 18 Pro Max 256/512/1TB/2TB (apple.com/in), Apple Watch Series 12 "
-    f"42/46mm and Ultra 4, Galaxy S26 FE 8/256 at Rs79,999 (India ships ONLY that config — the held 128GB was a phantom "
-    f"and was rejected), Redmi Note 17 Pro 5G 8/128 + 8/256 (on sale 09-17), Vivo Y31t 5G 4/128, 6/128, 6/256 (on sale "
-    f"offline 2026-08-21), and Apple Watch SE 3 40/44mm, which turned out to be a SEPT-2025 model the hold had "
-    f"misfiled as a 2026 launch. STILL HELD (first sale in the future): Redmi Note 17 Pro Max (09-23), OnePlus N6 Lite "
-    f"(09-22), Realme 16 Pro Harry Potter Edition (09-22), Lava Bold N4 Pro (09-26), Lava Virat Curve (09-28). "
-    f"GAPS FILLED BY VERIFY+REFUTE (5): the SE 3 finding exposed that the DB had Series 10 and 12 but no Series 11 or "
-    f"Ultra 3 — Apple Watch Series 11 42/46mm (A1 25,000 / 26,400) and Ultra 3 (A1 49,100) added on OLX/dealer "
-    f"datapoints; Realme P3 Ultra 12/256 and 8/128 added as the real configs behind a removed phantom. "
-    f"PHANTOM REMOVED (1): Realme P3 Ultra 8/512 — India line-up is 8/128, 8/256, 12/256 only, max 256GB (Mobigyaan / "
-    f"Zee Biz launch coverage, hand-read; refuter concurred on realme.com/in). "
-    f"HEADLINE — CALCIFIED PLACEHOLDERS: a DB-wide scan found 31 entries (mostly the 2026-08-07 gap audit, before the "
-    f"placeholder guardrail existed) whose resale was EXACTLY 80% of a round, unverified new price yet stamped "
-    f"'verified'. Asked to research them from scratch, the weekly agents mostly handed back the same ~80% 'thin market' "
-    f"convention (24 of 31) — so those were held 'estimated', refused any rise, and sent to Opus verify+refute, which "
-    f"read real OLX / ORUphones / Cashify datapoints. ALL 31 CAME DOWN: net Rs61,229 of A1 removed, led by OnePlus Pad 2 "
-    f"12/256 30,800 -> 18,500 and 8/128 26,700 -> 16,800, iPhone 16e 128 34,600 -> 30,900 (its stored 'new' was a round "
-    f"48,000; Apple India's is 59,900), Galaxy S24 256 31,500 -> 28,600, S24 Ultra 512 56,300 -> 53,800. Their round new "
-    f"prices were replaced with brand-sourced ones (and 2026 hikes: Moto G37 Power 8/128 now Rs25,999, OnePlus N6x +Rs2,000). "
-    f"OUTLIER VERIFICATION (Opus verify + adversarial refute, 53 items): 40 repriced, 4 rolled back, 1 removed, 5 added. "
-    f"Of the 11 rises the +8% cap blocked, NONE survived at the capped level: 4 granted smaller (+5 to +7%), 4 LOWERED "
-    f"below where they started the week, 3 refused — fifth consecutive week. "
-    f"OTHER FINDINGS: research put the iPad Pro M5 11in above the 13in; verification confirmed Apple India's post-hike "
-    f"prices (11in 256 Rs1,39,900, 13in 256 Rs1,99,900 — the 13in figure a critic had rejected as a rendering error is "
-    f"real) and granted the 11in only resale 85k (A1 77,300); the higher new price was NOT allowed to loosen the stored "
-    f"ceiling. S25 Ultra 256 research sat at Cashify refurb retail on a false 'still current generation' premise (the S26 "
-    f"Ultra shipped months ago). "
-    f"PIPELINE FIXES: (1) outlier 'refuse' on a non-rise item no longer restores week-start (it would have undone "
-    f"this week's drops, e.g. Moto G37 Power 4/128 9,840 -> 10,240); (2) a refused rise now restores the week-start entry "
-    f"even when A1 did not move, so refuted research never sits on an entry as 'verified'; (3) verification may lower "
-    f"net_new_inr or replace a round-number one, but never loosens a trusted ceiling; (4) verify+refute can now ADD a "
-    f"missing model on triangulated evidence. "
+    f"Brain refresh ({TODAY}, run on request 5 days after v6.6). MARKET REPRICE: 96 models (12x8, fetch + adversarial "
+    f"critic, 47 corrected) re-anchored {len(changes)} ({len(moved)} moved >=0.5%); entries refreshed on 09-21 were "
+    f"excluded except where forced. "
+    f"HEADLINE — FOLDABLE PLACEHOLDERS, ROUND 2: 16 entries still sat at EXACTLY 80% of new on phones 66-890 days old, "
+    f"led by the whole Galaxy Z Fold8 / Fold8 Ultra / Flip8 family, which the 09-21 research had 'confirmed' at 61 days "
+    f"by applying the prompt's own thin-market convention. The prompt hint is now restricted to phones <30 days old. Re-"
+    f"researched and verify+refuted against live Cashify sell ceilings, the family came down hard: Fold8 12/256 A1 "
+    f"130,100 -> 97,400, 12/512 145,600 -> 108,200, 16/1TB 174,700 -> 129,800; Fold8 Ultra 256 145,600 -> 121,000, 512 "
+    f"160,100 -> 127,400, 1TB 189,300 -> 136,500; Flip8 256 91,900 -> 74,600, 512 107,400 -> 86,500; Razr Fold -6 to -9%. "
+    f"Net Rs2.80 lakh of A1 removed on foldables alone. LADDER CAP (new, _ladder_cap_{TODAY}.py): verification repriced "
+    f"some Fold8/Flip8 trims off live data while siblings kept weaker research, leaving a Rs42,000 used step between "
+    f"Fold8 256 and 512 against a Rs20,000 new-price step and the standard Fold8 512/1TB priced ABOVE the Fold8 Ultra. "
+    f"Larger trims are now capped at the verified base trim's resale x the new-price ratio (lowers only). "
+    f"OUTLIER VERIFICATION (Opus verify + adversarial refute, 41 items): 25 lowered, 13 rolled back to week-start, 2 "
+    f"held, 0 granted. All 23 rises the +8% cap (or the successor hold) blocked were refused or lowered — the sixth "
+    f"consecutive measurement and the first with zero grants. Several stored net_new_inr were fabricated and corrected "
+    f"(Vivo V70 Elite 12/512 'Rs77,000' is Rs61,999; 12/256 'Rs72,000' is Rs63,999; iPhone 17e 256 is Rs64,900). "
+    f"LAUNCHES ADDED (8; <30-day ones on an explicit new x0.80 placeholder, 'estimated'): Redmi Note 17 Pro Max 8/256 + "
+    f"12/256 (on sale 09-23), Realme 16 Pro 5G Harry Potter Edition 12/256 (09-22), OnePlus N6 Lite 4/64 at Rs16,999 "
+    f"(09-22, 4G Unisoc), Lava Bold N4 Pro 5G 6/128 (first sale today), itel Zeno 300 4/64 (09-25), and Nothing Phone (3a) "
+    f"Lite 8/128 + 8/256 (Nov-2025 gap; the critic put resale ABOVE Cashify's own refurb price, so it was capped and "
+    f"re-verified down to A1 14,600 / 15,500). HELD (first sale in the future): iPhone Duo 256/512/1TB/2TB (10-23, "
+    f"Rs2,99,900-4,49,900), Redmi 17C (10-01), Oppo K14 Plus (09-29), Lava Virat Curve (09-28). "
+    f"PHANTOMS REMOVED (2): Oppo A6s 8/128 and 8/256 — OPPO India's own newsroom (hand-read) lists the A6s 5G as 4/128 "
+    f"Rs18,999 and 6/128 Rs20,999 only (launched 2026-03-18). The real configs were added 'estimated' at the refuter's "
+    f"conservative indicative resale (A1 10,400 / 11,200) — removal and repair are one operation. "
+    f"PIPELINE FIXES: verified competitor quotes now pass the same 85%-of-resale coherence filter as the weekly script "
+    f"(7 'Get Upto' headlines dropped, incl. iPhone 17e 256 at 95% that had raised a false 'Cashify pays more' alarm); "
+    f"the placeholder-echo band widened to 0.865 (Fold8 Ultra 256 landed on 0.8600). "
 )
 
 # --- market signals ---
 ms = meta.get('market_signals', {})
 ms['updated'] = TODAY
-ms.pop('apple_september_2026_launch_pending', None)
-ms['sept_2026_successors_shipped'] = {
-    'event': 'iPhone 18 Pro / 18 Pro Max, Apple Watch Series 12 / Ultra 4 and Galaxy S26 FE on sale in India 2026-09-18 '
-             '(S26 FE: single 8/256 config, Rs79,999). Added 2026-09-21 on new x0.80 placeholders, marked estimated.',
-    'effect': 'Outgoing iPhone 17 Pro / Pro Max and Galaxy S25 FE: rises refused through the 2026-09-21 run (drops apply); '
-              'observed resale softened 3-8% on the 17 Pro line in the first 3 days. From the 2026-09-28 run: drop the '
-              'successor hold, and re-research the 18 Pro family + S26 FE once they are ~30 days old (placeholders).',
-    'confidence': 'high (apple.com/in, samsung India coverage; research + verification 2026-09-21)',
-}
-ms['india_memory_cost_price_hike_2026']['event'] = (
-    'Mid-2026 India new-price hikes on memory cost: iPad Air M4 13in Rs84,900 -> Rs1,19,900 (Jun); iPad Pro M5 11in 256 '
-    'Rs99,900 -> Rs1,39,900 and 13in 256 Rs1,29,900 -> Rs1,99,900 (apple.com/in, read 2026-09-21); Apple Watch SE 3 40mm '
-    'Rs25,900 -> Rs29,900; Moto G37 Power 8/128 Rs18,999 -> Rs25,999 (Flipkart); OnePlus N6x +Rs2,000; Motorola Edge '
-    '60/70 Fusion raised from 2026-08-25; OnePlus Nord 5 +Rs2,000.')
-ms['india_memory_cost_price_hike_2026']['confidence'] = 'high (apple.com/in, Flipkart, Goodreturns, motorola.in, oneplus.in; 2026-09-21)'
-ms['thin_market_convention_echo'] = {
-    'event': '2026-09-21: 31 pre-guardrail gap-adds carried resale = EXACTLY 80% of a round new price but were stamped '
-             'verified. Re-research returned the same ~80% "thin market" convention on 24 of them (phones 1.5-17 months '
-             'old). Real OLX/ORU datapoints brought ALL 31 down (net Rs61,229 of A1).',
-    'effect': 'A resale at 76-86% of new on a phone older than ~45 days is a convention, not an observation: it may '
-              'confirm a drop but never a rise, stays estimated, and goes to verify+refute. The weekly fetch prompt\'s '
-              '"<3 months = 78-85% of new" hint is the source — it must not be applied past ~30 days.',
-    'confidence': 'high (measured 2026-09-21)',
-}
-ms['weekly_research_upward_bias']['event'] = ('Fifth consecutive measurement (2026-09-21): of 11 rises blocked by '
-    'the +8% cap, 0 survived at the capped level — 4 granted smaller, 4 lowered below week-start, 3 refused.')
-ms['weekly_research_upward_bias']['confidence'] = 'high (measured 2026-08-10, 08-30, 09-10, 09-16, 09-21)'
+ms['sept_2026_successors_shipped']['effect'] = ('Outgoing iPhone 17 Pro / Pro Max and Galaxy S25 FE: rises refused through '
+    'the 2026-09-26 run (verification found no post-launch datapoint supporting any rise). From the 2026-09-28 run: drop '
+    'the successor hold; re-research the 18 Pro family + S26 FE placeholders ~10-18 Oct.')
+ms['thin_market_convention_echo']['event'] = ('2026-09-21: 31 pre-guardrail 0.80 anchors all came down (net Rs61,229). '
+    '2026-09-26 round 2: 16 more, headed by the Fold8/Flip8 family that research had re-confirmed at 80% at 61 days; '
+    'verified off live Cashify sell ceilings they fell 17-28% (net Rs2.8 lakh on foldables).')
+ms['thin_market_convention_echo']['effect'] = ('Fetch prompt now allows the 78-85%-of-new convention ONLY under 30 days. A '
+    'result at 76-86.5% of new on an older phone can confirm a drop, never a rise, stays estimated, goes to verify+refute.')
+ms['weekly_research_upward_bias']['event'] = ('Sixth consecutive measurement (2026-09-26): of 23 blocked rises, 0 granted '
+    '— 13 rolled back, 10 lowered.')
+ms['weekly_research_upward_bias']['confidence'] = 'high (measured 2026-08-10, 08-30, 09-10, 09-16, 09-21, 09-26)'
+ms['iphone_duo_2026'] = {'event': 'iPhone Duo announced for India, first sale 2026-10-23 (256GB Rs2,99,900 / 512GB '
+    'Rs3,24,900 / 1TB Rs3,74,900 / 2TB Rs4,49,900, apple.com/in).', 'effect': 'Held until it ships; carried in '
+    '_held_future_2026-09-26.json.', 'confidence': 'high (apple.com/in via gap-audit critic 2026-09-26)'}
 meta['market_signals'] = ms
 
 # ================= INVARIANTS =================

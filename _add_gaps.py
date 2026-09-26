@@ -4,7 +4,7 @@ A1 = resale/(1+margin_by_age), capped at new*0.85. Merges finder (launch/tier/na
 Dedupes vs existing keys + display names. --apply to write; default dry-run."""
 import json, glob, re, sys, statistics
 DIR='/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY='2026-09-21'
+TODAY='2026-09-26'
 APPLY='--apply' in sys.argv
 def r100(n): return int(round(n/100.0))*100
 KNOWN={'iphone','apple','samsung','vivo','iqoo','realme','oppo','redmi','xiaomi','poco','oneplus','google',
@@ -60,7 +60,11 @@ FIRST_SALE={
     'iphone_18_pro': '2026-09-18', 'iphone_18_pro_max': '2026-09-18',   # apple.com/in: ships 18-Sep
 }
 
-ESTIMATED_ADDS={'apple_watch_se3_40','apple_watch_se3_44','vivo_y31t_5g_4_128','vivo_y31t_5g_6_128','vivo_y31t_5g_6_256'}
+ESTIMATED_ADDS={'nothing_phone_3a_lite_8_128','nothing_phone_3a_lite_8_256','oneplus_n6_lite_4_64'}
+# 2026-09-26: the critic put Nothing Phone (3a) Lite resale ABOVE Cashify's own warrantied refurb 'Fair' price
+# (Rs19,999 vs 17,899; Rs21,999 vs 18,999) on a 10-month-old phone — the brain treats refurb retail as the UPPER
+# bound. Cap at that ceiling; verify+refute re-researches them.
+RESALE_CEIL={'nothing_phone_3a_lite_8_128':17900,'nothing_phone_3a_lite_8_256':19000}
 added=[]; skipped=0; rejected=0; tier_fixed=[]; held_future=[]
 bybrand=Counter()
 for key,v in ver.items():
@@ -93,6 +97,7 @@ for key,v in ver.items():
     brand=key.split('_')[0]
     if brand not in KNOWN: rejected+=1; continue
     resale=v.get('resale_price_final'); new=v.get('new_price_final'); bm=v.get('buyback_market_final')
+    if key in RESALE_CEIL and isinstance(resale,(int,float)): resale=min(resale,RESALE_CEIL[key])
     if not isinstance(resale,(int,float)) or resale<=0: rejected+=1; continue
     tc=series_tiers.get(series_sig(key))
     if tc and sum(tc.values())>=3:

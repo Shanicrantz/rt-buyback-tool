@@ -61,7 +61,7 @@ const CRITIC_SCHEMA = {
 }
 
 function fetchPrompt(i) {
-  return `You research the REAL Indian second-hand market for Rajdhani Telecom. TODAY is 2026-09-21.
+  return `You research the REAL Indian second-hand market for Rajdhani Telecom. TODAY is 2026-09-26.
 
 ${BRAIN}
 
@@ -76,12 +76,12 @@ Scale storage variants (256 > 128). Only report numbers you actually find; null 
 
 CRITICAL — BRAND-NEW / THIN-MARKET MODELS: some entries are 2026 launches whose used market barely exists. For any model launched in the last ~6 months you MUST:
   (a) CONFIRM the model actually is ON SALE IN INDIA under that exact name and storage config. Only claim it does not exist if you have HARD evidence (brand India site lineup / major India outlet listing the real variants). A missing Cashify page or a thin OLX result is NOT evidence of non-existence — say 'unverified', not 'does not exist'. False 'does not exist' verdicts have repeatedly been wrong on this DB.
-  (b) These are ALREADY HAND-VERIFIED REAL — never flag them as non-existent: Samsung Galaxy Z Fold8 / Z Fold8 Ultra / Z Flip8 (India 2026-07-22), Motorola Razr Fold and Motorola Signature (India 2026-05-13), Google Pixel 11 / 11 Pro / 11 Pro XL / 11 Pro Fold (India 2026-08-12), Redmi 17 5G (India 2026-09-03).
+  (b) These are ALREADY HAND-VERIFIED REAL — never flag them as non-existent: Samsung Galaxy Z Fold8 / Z Fold8 Ultra / Z Flip8 (India 2026-07-22 — now ~2 months old, so a used market EXISTS: do not return 80% of new without datapoints), Motorola Razr Fold and Motorola Signature (India 2026-05-13), Google Pixel 11 / 11 Pro / 11 Pro XL / 11 Pro Fold (India 2026-08-12), Redmi 17 5G (India 2026-09-03).
   (c) Find the OFFICIAL India launch price from the brand's own India site / mainstream India coverage, and report it in resale_sources as 'NEW=<num>'.
-  (e) SUCCESSOR SHIPPED: iPhone 18 Pro / 18 Pro Max went ON SALE in India on 2026-09-18, and the Galaxy S26 FE the same day. The iPhone 17 Pro / 17 Pro Max and the Galaxy S25 FE are now the OUTGOING generation. Report the used resale you actually OBSERVE today (OLX recent listings discounted to sold, local dealer/used-shop listings) — NOT Cashify "buy refurbished" retail (warranty-inflated) and NOT a figure from before 09-18. A just-superseded flagship softens; if your datapoints predate 09-18, say so in resale_sources.
+  (e) SUCCESSOR SHIPPED: iPhone 18 Pro / 18 Pro Max went ON SALE in India on 2026-09-18 (8 days ago), and the Galaxy S26 FE the same day. The iPhone 17 Pro / 17 Pro Max and the Galaxy S25 FE are now the OUTGOING generation. Report the used resale you actually OBSERVE today (OLX recent listings discounted to sold, local dealer/used-shop listings) — NOT Cashify "buy refurbished" retail (warranty-inflated) and NOT a figure from before 09-18. A just-superseded flagship softens; if your datapoints predate 09-18, say so in resale_sources.
   (f) iPhone Air (2025): the DB's stored new prices for it look wrong. Get the OFFICIAL apple.com/in price for the EXACT storage (256GB / 512GB / 1TB) and report it as 'NEW=<num>'. Price each storage on its own datapoints — the Air has a thin, soft used market; do not scale off the 17 Pro.
   (g) PLACEHOLDER ANCHORS: many entries in this batch were originally priced at EXACTLY 80% of an unverified (often round-number) new price. Treat any existing DB value as UNRESEARCHED. Find the real used resale from scratch from actual datapoints (OLX sold-adjusted, local dealer listings, Cashify refurb as an upper bound) — never derive it as a fixed fraction of new, that is how the placeholder was made — and the OFFICIAL India new price (real India prices end in 999/990 — report it as 'NEW=<num>').
-  (d) A phone launched <3 months ago has a THIN used market — real resale is roughly 78-85% of official new price, and buyback_market is often not yet quoted by Cashify (null is fine). Do NOT invent a buyback figure as a fixed fraction of resale; null is the honest answer.
+  (d) ONLY a phone first sold in India <30 days ago has genuinely no used market: there, and only there, resale may be ~78-85% of official new (say 'PLACEHOLDER' in resale_sources) and buyback_market null. From ~30 days on, used units trade — find real datapoints (OLX sold-adjusted, ORUphones, local dealers, Cashify refurb as the upper bound). Returning 78-85% of new for an older phone is the convention, not an observation, and on this DB it has overpaid every time it was checked (31 of 31 came down on 2026-09-21).
 
 Write ${DIR}/_ov_updates/fetch_${i}.json AND return:
 {"batch_index":${i},"models":[{"key":...,"display_name":...,"resale_price":<num|null>,"resale_low":<num|null>,"resale_high":<num|null>,"resale_sources":"<olx/cashify/... + numbers>","buyback_market":<num|null>,"buyback_source":"<cashify sell + number>","confidence":"high|medium|low"}, ...]}
@@ -89,7 +89,7 @@ Every key exactly once.`
 }
 
 function criticPrompt(i, fetchJson) {
-  return `You are an adversarial MARKET-PRICE CRITIC for Rajdhani Telecom. TODAY is 2026-09-21. Assume the fetcher may have erred — catch it.
+  return `You are an adversarial MARKET-PRICE CRITIC for Rajdhani Telecom. TODAY is 2026-09-26. Assume the fetcher may have erred — catch it.
 
 ${BRAIN}
 

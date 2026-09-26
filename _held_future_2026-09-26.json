@@ -1,0 +1,65 @@
+[
+ {
+  "key": "lava_virat_curve_5g_6_128",
+  "name": "Lava Virat Curve 5G 6/128GB",
+  "launch_date": "2026-09-28",
+  "first_sale_date": null,
+  "tier": "D",
+  "new_price_verified": 23999,
+  "critic_note": "CONFIRMED real, but STILL HELD -- do not add live yet. Launch EVENT was 2026-09-21 (matches the 09-21 held-file's original date and this week's finder), but India's actual FIRST SALE is 2026-09-28 7PM IST, exclusively via Flipkart -- independently reported, with the same date and Flipkart-exclusivit"
+ },
+ {
+  "key": "oppo_k14_plus",
+  "name": "Oppo K14 Plus 5G",
+  "launch_date": "2026-09-29",
+  "first_sale_date": null,
+  "tier": "C",
+  "new_price_verified": null,
+  "critic_note": "CONFIRMED as a real, imminent India launch, correctly HELD with null pricing -- independently re-verified live 2026-09-26 across a wide, fresh source set: 91mobiles ('OPPO K14 Plus India launch date revealed' -- Sept 29, exclusively Flipkart Unique, Big Billion Days), Cashify News ('Oppo K14 Plus In"
+ },
+ {
+  "key": "iphone_duo_256",
+  "name": "iPhone Duo 256GB",
+  "launch_date": "2026-10-23",
+  "first_sale_date": null,
+  "tier": "S",
+  "new_price_verified": 299900,
+  "critic_note": "CONFIRMED real India launch, independently re-verified beyond the finder's cited sources. Apple's own India store (apple.com/in/shop/buy-iphone/iphone-duo and apple.com/in/iphone-duo/specs/) lists the iPhone Duo with exactly four storage tiers -- 256GB/512GB/1TB/2TB -- and the 256GB tier priced at R"
+ },
+ {
+  "key": "iphone_duo_512",
+  "name": "iPhone Duo 512GB",
+  "launch_date": "2026-10-23",
+  "first_sale_date": null,
+  "tier": "S",
+  "new_price_verified": 324900,
+  "critic_note": "CONFIRMED, same basis as the 256GB sibling. Apple's own India store (apple.com/in/shop/buy-iphone/iphone-duo) lists the 512GB tier at exactly Rs 3,24,900, matching the finder's figure; Beebom independently corroborates the same figure. Launch/first-sale date 2026-10-23 (post-cutoff, real_india_launc"
+ },
+ {
+  "key": "iphone_duo_1tb",
+  "name": "iPhone Duo 1TB",
+  "launch_date": "2026-10-23",
+  "first_sale_date": null,
+  "tier": "S",
+  "new_price_verified": 374900,
+  "critic_note": "CONFIRMED, same basis as the 256GB sibling. Apple's own India store lists the 1TB tier at exactly Rs 3,74,900, matching the finder's figure; Beebom independently corroborates. Launch/first-sale date 2026-10-23 (post-cutoff, real_india_launch=true, resale/buyback correctly null -- rule 6). Rs 3,74,90"
+ },
+ {
+  "key": "iphone_duo_2tb",
+  "name": "iPhone Duo 2TB",
+  "launch_date": "2026-10-23",
+  "first_sale_date": null,
+  "tier": "S",
+  "new_price_verified": 449900,
+  "critic_note": "CONFIRMED, same basis as the 256GB sibling. Apple's own India store confirms the top 2TB tier at exactly Rs 4,49,900, matching the finder's figure and matching the Cashify page re-fetch -- note the two Beebom articles print a conflicting Rs 4,44,900 for this one tier (evidently a blog-side typo), bu"
+ },
+ {
+  "key": "redmi_17c_5g",
+  "name": "Redmi 17C 5G",
+  "launch_date": "2026-10-01",
+  "first_sale_date": null,
+  "tier": "D",
+  "new_price_verified": null,
+  "critic_note": "CONFIRMED real, imminent India launch -- independently corroborated by a fresh wave of dedicated news coverage dated 2026-09-25/26, not just the finder's claimed sources: 91mobiles ('Redmi 17C launching in India on October 1st, specs revealed'), TelecomTalk ('Redmi 17C 5G is Coming to India on this "
+ }
+]

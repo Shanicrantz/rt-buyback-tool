@@ -1,0 +1,58 @@
+[
+ {
+  "key": "redmi_note_17_pro_max_5g_8_256",
+  "name": "Redmi Note 17 Pro Max 5G (8GB/256GB)",
+  "launch": "2026-09-23",
+  "a1": 36400,
+  "resale": 40000
+ },
+ {
+  "key": "redmi_note_17_pro_max_5g_12_256",
+  "name": "Redmi Note 17 Pro Max 5G (12GB/256GB)",
+  "launch": "2026-09-23",
+  "a1": 40800,
+  "resale": 44800
+ },
+ {
+  "key": "realme_16_pro_harry_potter_5g_12_256",
+  "name": "Realme 16 Pro 5G Harry Potter Edition 12/256GB",
+  "launch": "2026-09-22",
+  "a1": 45900,
+  "resale": 50400
+ },
+ {
+  "key": "lava_bold_n4_pro_5g_6_128",
+  "name": "Lava Bold N4 Pro 5G 6/128GB",
+  "launch": "2026-09-26",
+  "a1": 8600,
+  "resale": 11200
+ },
+ {
+  "key": "oneplus_n6_lite_4_64",
+  "name": "OnePlus N6 Lite 4/64GB",
+  "launch": "2026-09-22",
+  "a1": 10900,
+  "resale": 13600
+ },
+ {
+  "key": "nothing_phone_3a_lite_8_128",
+  "name": "Nothing Phone (3a) Lite 8GB/128GB",
+  "launch": "2025-11-27",
+  "a1": 16300,
+  "resale": 17900
+ },
+ {
+  "key": "nothing_phone_3a_lite_8_256",
+  "name": "Nothing Phone (3a) Lite 8GB/256GB",
+  "launch": "2025-11-27",
+  "a1": 17300,
+  "resale": 19000
+ },
+ {
+  "key": "itel_zeno_300_4_64",
+  "name": "Itel Zeno 300 (4GB/64GB)",
+  "launch": "2026-09-25",
+  "a1": 5900,
+  "resale": 7700
+ }
+]

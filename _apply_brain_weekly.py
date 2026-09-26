@@ -19,7 +19,7 @@ import json, glob, sys, re
 from collections import defaultdict
 
 DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY = '2026-09-21'
+TODAY = '2026-09-26'
 APPLY = '--apply' in sys.argv
 WEEK_CAP = 0.20      # max single-week DROP in A1 (market softening = safe direction)
 INCREASE_CAP = 0.08  # max single-week RISE in A1 — deliberately tighter than the drop cap.
@@ -53,7 +53,7 @@ VERIFIED_REAL = {
 # successor landed. This week (3 days after launch) the used market for the outgoing generation is still
 # settling, and the only direction it can plausibly move is DOWN — so rises on the outgoing generation stay
 # refused while drops (re-anchoring on observed resale) apply. Drop the hold once a post-launch week of
-# observed resale exists (first run on/after 2026-09-28).
+# observed resale exists (first run on/after 2026-09-28). 2026-09-26 run: still held (8 days post-launch).
 SUCCESSOR_HOLD_PREFIXES = ('iphone_17_pro_', 'samsung_s25_fe_')
 SUCCESSOR_NOTE = 'successor shipped 2026-09-18 (iPhone 18 Pro / Galaxy S26 FE)'
 # Critic corrections rejected on RATIONALE. The brain forbids pushing resale up so RT beats a competitor
@@ -63,7 +63,7 @@ CRITIC_RESALE_REJECTED = {}
 # — ABOVE the larger 13-inch 256GB (Rs1,08,000, verified 08-30) — off an apple.com/in fetch of Rs1,39,900 for the
 # 11-inch that the same week's 13-inch fetch contradicted (Rs1,99,900, rejected by its critic as a rendering error).
 # A smaller, cheaper-at-launch size cannot out-resell the bigger one; hold and send both to verification.
-REFUSE_RISE = {'ipad_pro_m5_11_256_wifi': '11in resale researched above the 13in sibling off a contradicted new price'}
+REFUSE_RISE = {}   # 2026-09-21 iPad Pro M5 11in case settled by verify+refute
 # CALCIFIED PLACEHOLDERS (2026-09-21). Pre-guardrail gap-adds whose resale was set at EXACTLY 80% of an
 # unverified new price but stamped 'verified'. Their current A1 is the placeholder, not a researched price,
 # so a research DROP on them is applied unbanded — same rule as an 'estimated' anchor. Rises stay capped.
@@ -221,7 +221,7 @@ for key, v in ver.items():
     # scratch, the agents mostly re-applied the prompt's own thin-market convention (resale ~78-85% of new) to
     # phones 1.5-17 months old — the same number back, not an observation. Such a result can confirm a DROP
     # (conservative) but never a rise, stays 'estimated', and is routed to the Opus verify+refute pass.
-    if key in CALCIFIED and isinstance(new, (int, float)) and new > 0 and 0.76 <= rs / new <= 0.86:
+    if key in CALCIFIED and isinstance(new, (int, float)) and new > 0 and 0.76 <= rs / new <= 0.865:   # 0.865: Fold8 Ultra 256 landed on 0.8600 (2026-09-26)
         held_estimate.add(key); calcified_echo.append(key)
         if a1 > cur:
             flags.append(('calcified-echo', key, f'resale {r100(rs)} = {rs/new:.0%} of new — thin-market convention, not a datapoint; rise refused'))
