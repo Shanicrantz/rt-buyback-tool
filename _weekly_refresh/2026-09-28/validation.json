@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-09-28",
+  "entries": 2362,
+  "changed": [
+    "oppo_find_x8_pro_16_512"
+  ],
+  "paired_db_equal": true,
+  "non_db_html_unchanged": true,
+  "javascript_syntax": true,
+  "rounding_tolerance_inr": 100,
+  "counts": {
+    "quotes": 0,
+    "grades": 0,
+    "finalOffers": 0,
+    "newCeiling": 0,
+    "resaleCeiling": 0,
+    "tierFloors": 0,
+    "buybackCoherence": 0,
+    "storage": 0,
+    "size": 0,
+    "manual": 0,
+    "unexpectedChanges": 0
+  },
+  "issues": {
+    "quotes": [],
+    "grades": [],
+    "finalOffers": [],
+    "newCeiling": [],
+    "resaleCeiling": [],
+    "tierFloors": [],
+    "buybackCoherence": [],
+    "storage": [],
+    "size": [],
+    "manual": [],
+    "unexpectedChanges": []
+  },
+  "passed": true
+}

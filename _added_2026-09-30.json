@@ -1,0 +1,30 @@
+[
+  {
+    "key": "lava_virat_curve_5g_6_128",
+    "name": "Lava Virat Curve 5G 6/128GB",
+    "new_a1": 12300,
+    "resale": 16000,
+    "launch_date": "2026-09-21"
+  },
+  {
+    "key": "lava_shark_2_pro_5g_6_128",
+    "name": "Lava Shark 2 Pro 5G 6/128GB",
+    "new_a1": 9600,
+    "resale": 12500,
+    "launch_date": "2026-09-29"
+  },
+  {
+    "key": "oneplus_15_16_512",
+    "name": "OnePlus 15 16/512GB",
+    "new_a1": 47300,
+    "resale": 52000,
+    "launch_date": "2025-11-13"
+  },
+  {
+    "key": "poco_m7_pro_5g_6_128",
+    "name": "Poco M7 Pro 5G 6/128GB",
+    "new_a1": 8000,
+    "resale": 10000,
+    "launch_date": "2024-12-17"
+  }
+]

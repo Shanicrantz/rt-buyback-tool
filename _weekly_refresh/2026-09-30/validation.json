@@ -1,0 +1,460 @@
+{
+  "date": "2026-09-30",
+  "version": "6.9",
+  "entries": 2365,
+  "paired_db_equal": true,
+  "non_db_html_unchanged": true,
+  "javascript_syntax": true,
+  "counts": {
+    "quote": 0,
+    "grade": 0,
+    "finalOffer": 0,
+    "newCeiling": 0,
+    "resaleCeiling": 0,
+    "weekly": 0,
+    "manual": 0,
+    "unrelated": 0,
+    "storage": 0,
+    "size": 0,
+    "resaleIdentity": 0,
+    "buyback": 0
+  },
+  "issues": {
+    "quote": [],
+    "grade": [],
+    "finalOffer": [],
+    "newCeiling": [],
+    "resaleCeiling": [],
+    "weekly": [],
+    "manual": [],
+    "unrelated": [],
+    "storage": [],
+    "size": [],
+    "resaleIdentity": [],
+    "buyback": []
+  },
+  "hashes": {
+    "index.html": "66b0e9eb705b99c8ee8ceee261a9dcc62aea0917141d590ee4612e164181b064",
+    "phone_db.json": "9891eafa3f4156055757ad36f6bfb3cf77f72c38500649a228a35f946606052b"
+  },
+  "competitor_offers": [],
+  "competitor_headline_alerts": [
+    {
+      "key": "macbook_pro_16_m4_pro_2024_24_512",
+      "name": "MacBook Pro 16\" M4 Pro (2024) 24/512GB",
+      "rt_a1": 118300,
+      "ceiling": 160000,
+      "gap": 41700,
+      "price_held": true
+    },
+    {
+      "key": "iphone_17_pro_512",
+      "name": "iPhone 17 Pro 512GB",
+      "rt_a1": 91000,
+      "ceiling": 108000,
+      "gap": 17000,
+      "price_held": false
+    },
+    {
+      "key": "iphone_17_pro_256",
+      "name": "iPhone 17 Pro 256GB",
+      "rt_a1": 86400,
+      "ceiling": 102000,
+      "gap": 15600,
+      "price_held": false
+    },
+    {
+      "key": "iphone_17_pro_max_256",
+      "name": "iPhone 17 Pro Max 256GB",
+      "rt_a1": 94600,
+      "ceiling": 110000,
+      "gap": 15400,
+      "price_held": false
+    },
+    {
+      "key": "samsung_z_fold_6_256",
+      "name": "Samsung Galaxy Z Fold 6 256GB",
+      "rt_a1": 51300,
+      "ceiling": 65560,
+      "gap": 14260,
+      "price_held": false
+    },
+    {
+      "key": "iphone_17_pro_max_512",
+      "name": "iPhone 17 Pro Max 512GB",
+      "rt_a1": 103700,
+      "ceiling": 117000,
+      "gap": 13300,
+      "price_held": false
+    },
+    {
+      "key": "samsung_z_fold_6_512",
+      "name": "Samsung Galaxy Z Fold 6 512GB",
+      "rt_a1": 54600,
+      "ceiling": 66240,
+      "gap": 11640,
+      "price_held": false
+    },
+    {
+      "key": "iphone_17_pro_1tb",
+      "name": "iPhone 17 Pro 1TB",
+      "rt_a1": 98300,
+      "ceiling": 109000,
+      "gap": 10700,
+      "price_held": false
+    },
+    {
+      "key": "samsung_s26_plus_256",
+      "name": "Samsung Galaxy S26+ 256GB",
+      "rt_a1": 51000,
+      "ceiling": 61500,
+      "gap": 10500,
+      "price_held": true
+    },
+    {
+      "key": "vivo_x_fold5_16_512",
+      "name": "Vivo X Fold5 16GB/512GB",
+      "rt_a1": 68200,
+      "ceiling": 78520,
+      "gap": 10320,
+      "price_held": true
+    },
+    {
+      "key": "samsung_z_fold_6_1tb",
+      "name": "Samsung Galaxy Z Fold 6 1TB",
+      "rt_a1": 58800,
+      "ceiling": 68830,
+      "gap": 10030,
+      "price_held": false
+    },
+    {
+      "key": "macbook_air_m4_13_2025_16_256",
+      "name": "MacBook Air M4 13\" (2025) 16/256GB",
+      "rt_a1": 66400,
+      "ceiling": 75000,
+      "gap": 8600,
+      "price_held": true
+    },
+    {
+      "key": "iphone_17_512",
+      "name": "iPhone 17 512GB",
+      "rt_a1": 58100,
+      "ceiling": 66500,
+      "gap": 8400,
+      "price_held": true
+    },
+    {
+      "key": "iphone_air_1tb",
+      "name": "iPhone Air 1TB",
+      "rt_a1": 80100,
+      "ceiling": 87000,
+      "gap": 6900,
+      "price_held": false
+    },
+    {
+      "key": "iphone_17_pro_max_1tb",
+      "name": "iPhone 17 Pro Max 1TB",
+      "rt_a1": 111900,
+      "ceiling": 118700,
+      "gap": 6800,
+      "price_held": false
+    },
+    {
+      "key": "oneplus_15r_12_512",
+      "name": "OnePlus 15R 12/512GB",
+      "rt_a1": 29400,
+      "ceiling": 36100,
+      "gap": 6700,
+      "price_held": true
+    },
+    {
+      "key": "oppo_reno_15_pro_12_256",
+      "name": "Oppo Reno 15 Pro 5G 12/256GB",
+      "rt_a1": 34200,
+      "ceiling": 40400,
+      "gap": 6200,
+      "price_held": true
+    },
+    {
+      "key": "samsung_s25_fe_512",
+      "name": "Samsung Galaxy S25 FE 512GB",
+      "rt_a1": 32800,
+      "ceiling": 38380,
+      "gap": 5580,
+      "price_held": true
+    },
+    {
+      "key": "iphone_air_256",
+      "name": "iPhone Air 256GB",
+      "rt_a1": 63700,
+      "ceiling": 69000,
+      "gap": 5300,
+      "price_held": false
+    },
+    {
+      "key": "vivo_v70_elite_8_256",
+      "name": "Vivo V70 Elite 8GB/256GB",
+      "rt_a1": 28700,
+      "ceiling": 33720,
+      "gap": 5020,
+      "price_held": true
+    },
+    {
+      "key": "nothing_phone_3a_8_128",
+      "name": "Nothing Phone 3a 8/128GB",
+      "rt_a1": 14300,
+      "ceiling": 19150,
+      "gap": 4850,
+      "price_held": true
+    },
+    {
+      "key": "vivo_v50e_8_128",
+      "name": "Vivo V50e 5G 8/128GB",
+      "rt_a1": 14300,
+      "ceiling": 18790,
+      "gap": 4490,
+      "price_held": true
+    },
+    {
+      "key": "samsung_s25_fe_256",
+      "name": "Samsung Galaxy S25 FE 256GB",
+      "rt_a1": 30500,
+      "ceiling": 34930,
+      "gap": 4430,
+      "price_held": true
+    },
+    {
+      "key": "oneplus_nord_ce_5_8_256",
+      "name": "OnePlus Nord CE 5 8/256GB",
+      "rt_a1": 14800,
+      "ceiling": 19050,
+      "gap": 4250,
+      "price_held": true
+    },
+    {
+      "key": "iphone_17_pro_max_2tb",
+      "name": "iPhone 17 Pro Max 2TB",
+      "rt_a1": 119200,
+      "ceiling": 123000,
+      "gap": 3800,
+      "price_held": false
+    },
+    {
+      "key": "iphone_17e_512",
+      "name": "iPhone 17e 512GB",
+      "rt_a1": 50000,
+      "ceiling": 53400,
+      "gap": 3400,
+      "price_held": true
+    },
+    {
+      "key": "redmi_note_14_pro_5g_8_128",
+      "name": "Redmi Note 14 Pro 5G 8/128GB",
+      "rt_a1": 12300,
+      "ceiling": 15600,
+      "gap": 3300,
+      "price_held": false
+    },
+    {
+      "key": "samsung_s25_ultra_512",
+      "name": "Samsung Galaxy S25 Ultra 512GB",
+      "rt_a1": 65500,
+      "ceiling": 68780,
+      "gap": 3280,
+      "price_held": false
+    },
+    {
+      "key": "moto_signature_12_256",
+      "name": "Motorola Signature (12GB+256GB)",
+      "rt_a1": 32200,
+      "ceiling": 35420,
+      "gap": 3220,
+      "price_held": true
+    },
+    {
+      "key": "samsung_s25_ultra_256",
+      "name": "Samsung Galaxy S25 Ultra 256GB",
+      "rt_a1": 61000,
+      "ceiling": 63970,
+      "gap": 2970,
+      "price_held": false
+    },
+    {
+      "key": "iqoo_z10_5g_8_256",
+      "name": "iQOO Z10 5G 8/256GB",
+      "rt_a1": 14000,
+      "ceiling": 16730,
+      "gap": 2730,
+      "price_held": false
+    },
+    {
+      "key": "oppo_a6s_5g_6_128",
+      "name": "Oppo A6s 5G 6/128GB",
+      "rt_a1": 11200,
+      "ceiling": 13810,
+      "gap": 2610,
+      "price_held": false
+    },
+    {
+      "key": "oppo_a6_pro_8_128",
+      "name": "Oppo A6 Pro 5G 8/128GB",
+      "rt_a1": 12000,
+      "ceiling": 14520,
+      "gap": 2520,
+      "price_held": false
+    },
+    {
+      "key": "iphone_16_plus_256",
+      "name": "iPhone 16 Plus 256GB",
+      "rt_a1": 51300,
+      "ceiling": 53760,
+      "gap": 2460,
+      "price_held": false
+    },
+    {
+      "key": "vivo_y400_5g_8_256",
+      "name": "Vivo Y400 5G 8/256GB",
+      "rt_a1": 14400,
+      "ceiling": 16830,
+      "gap": 2430,
+      "price_held": false
+    },
+    {
+      "key": "oppo_f29_pro_5g_8_256",
+      "name": "Oppo F29 Pro 5G 8/256GB",
+      "rt_a1": 14300,
+      "ceiling": 16580,
+      "gap": 2280,
+      "price_held": true
+    },
+    {
+      "key": "samsung_a57_5g_12_256",
+      "name": "Samsung Galaxy A57 5G 12/256GB",
+      "rt_a1": 31300,
+      "ceiling": 33550,
+      "gap": 2250,
+      "price_held": true
+    },
+    {
+      "key": "tecno_camon_50_ultra_5g_8_256",
+      "name": "Tecno Camon 50 Ultra 5G 8/256GB",
+      "rt_a1": 24600,
+      "ceiling": 26520,
+      "gap": 1920,
+      "price_held": false
+    },
+    {
+      "key": "oppo_find_x8_pro_16_512",
+      "name": "Oppo Find X8 Pro 16/512GB",
+      "rt_a1": 43200,
+      "ceiling": 44880,
+      "gap": 1680,
+      "price_held": false
+    },
+    {
+      "key": "oppo_a6s_5g_4_128",
+      "name": "Oppo A6s 5G 4/128GB",
+      "rt_a1": 10400,
+      "ceiling": 12000,
+      "gap": 1600,
+      "price_held": false
+    },
+    {
+      "key": "samsung_s25_fe_128",
+      "name": "Samsung Galaxy S25 FE 128GB",
+      "rt_a1": 29600,
+      "ceiling": 31000,
+      "gap": 1400,
+      "price_held": false
+    },
+    {
+      "key": "moto_edge_60_stylus_8_256",
+      "name": "Motorola Edge 60 Stylus (8GB+256GB)",
+      "rt_a1": 14100,
+      "ceiling": 15280,
+      "gap": 1180,
+      "price_held": false
+    },
+    {
+      "key": "xiaomi_17t_12_512",
+      "name": "Xiaomi 17T 5G (12GB/512GB)",
+      "rt_a1": 38200,
+      "ceiling": 39360,
+      "gap": 1160,
+      "price_held": true
+    },
+    {
+      "key": "vivo_v70_12_256",
+      "name": "Vivo V70 12GB/256GB",
+      "rt_a1": 32400,
+      "ceiling": 33390,
+      "gap": 990,
+      "price_held": true
+    },
+    {
+      "key": "xiaomi_17t_12_256",
+      "name": "Xiaomi 17T 5G (12GB/256GB)",
+      "rt_a1": 35000,
+      "ceiling": 35920,
+      "gap": 920,
+      "price_held": true
+    },
+    {
+      "key": "realme_p3_ultra_5g_8_256",
+      "name": "Realme P3 Ultra 5G 8/256GB",
+      "rt_a1": 14800,
+      "ceiling": 15550,
+      "gap": 750,
+      "price_held": true
+    },
+    {
+      "key": "moto_edge_70_pro_plus_5g_12_256",
+      "name": "Motorola Edge 70 Pro Plus 5G (12GB+256GB)",
+      "rt_a1": 30300,
+      "ceiling": 31000,
+      "gap": 700,
+      "price_held": true
+    },
+    {
+      "key": "iqoo_15r_12_256",
+      "name": "iQOO 15R 12/256GB",
+      "rt_a1": 30100,
+      "ceiling": 30700,
+      "gap": 600,
+      "price_held": true
+    },
+    {
+      "key": "oppo_f27_5g_8_256",
+      "name": "Oppo F27 5G 8/256GB",
+      "rt_a1": 14000,
+      "ceiling": 14560,
+      "gap": 560,
+      "price_held": true
+    },
+    {
+      "key": "iqoo_15r_8_256",
+      "name": "iQOO 15R 8/256GB",
+      "rt_a1": 28300,
+      "ceiling": 28730,
+      "gap": 430,
+      "price_held": true
+    },
+    {
+      "key": "oppo_reno_15_pro_mini_12_512",
+      "name": "Oppo Reno 15 Pro Mini 5G 12/512GB",
+      "rt_a1": 37200,
+      "ceiling": 37390,
+      "gap": 190,
+      "price_held": true
+    },
+    {
+      "key": "samsung_z_flip_7_256",
+      "name": "Samsung Galaxy Z Flip 7 256GB",
+      "rt_a1": 52800,
+      "ceiling": 52940,
+      "gap": 140,
+      "price_held": false
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-28",
+  "status": "completed_with_holds",
+  "scope_screened": 96,
+  "accepted_price_changes": 1,
+  "held_scope": 95,
+  "launch_variants_held": 7,
+  "new_models": 0,
+  "removed_models": 0,
+  "version": "6.8",
+  "last_calibration": "2026-09-28",
+  "database_entries": 2362,
+  "validation_passed": true,
+  "local_installed": true,
+  "published": false,
+  "git_pushed": false,
+  "publish_assets": [
+    "index.html",
+    "phone_db.json",
+    "manifest.webmanifest",
+    "sw.js",
+    "icon-192.png",
+    "icon-512.png",
+    "apple-touch-icon.png"
+  ],
+  "checksums": {
+    "index.html": "580176c4197e13d3f91f9985082f0838ca80a0c9a5f331532eae462b0c81ac76",
+    "phone_db.json": "4e55e8939c6635e32f37b0e3b3b683884ea2fa43992fe342a9c956c03c66e830"
+  }
+}

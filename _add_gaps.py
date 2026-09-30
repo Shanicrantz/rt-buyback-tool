@@ -4,7 +4,7 @@ A1 = resale/(1+margin_by_age), capped at new*0.85. Merges finder (launch/tier/na
 Dedupes vs existing keys + display names. --apply to write; default dry-run."""
 import json, glob, re, sys, statistics
 DIR='/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY='2026-09-26'
+TODAY='2026-09-30'
 APPLY='--apply' in sys.argv
 def r100(n): return int(round(n/100.0))*100
 KNOWN={'iphone','apple','samsung','vivo','iqoo','realme','oppo','redmi','xiaomi','poco','oneplus','google',
@@ -58,13 +58,15 @@ FIRST_SALE={
     'redmi_note_17_pro_5g': '2026-09-17',      # GSMArena India launch news 2026-09-16: "sales start Sep 17"
     'redmi_note_17_pro_max_5g': '2026-09-23',  # same article: Pro Max "sales start Sep 23"
     'iphone_18_pro': '2026-09-18', 'iphone_18_pro_max': '2026-09-18',   # apple.com/in: ships 18-Sep
+    'lava_virat_curve_5g': '2026-09-28',       # launch event 09-21; first sale 09-28 7PM IST, Flipkart (09-26 critic + TOI)
+    'iphone_duo': '2026-10-23',                # apple.com/in: available 23 October
 }
 
-ESTIMATED_ADDS={'nothing_phone_3a_lite_8_128','nothing_phone_3a_lite_8_256','oneplus_n6_lite_4_64'}
+ESTIMATED_ADDS=set()   # 2026-09-26 set (Nothing 3a Lite, OnePlus N6 Lite) already applied in v6.7
 # 2026-09-26: the critic put Nothing Phone (3a) Lite resale ABOVE Cashify's own warrantied refurb 'Fair' price
 # (Rs19,999 vs 17,899; Rs21,999 vs 18,999) on a 10-month-old phone — the brain treats refurb retail as the UPPER
 # bound. Cap at that ceiling; verify+refute re-researches them.
-RESALE_CEIL={'nothing_phone_3a_lite_8_128':17900,'nothing_phone_3a_lite_8_256':19000}
+RESALE_CEIL={}
 added=[]; skipped=0; rejected=0; tier_fixed=[]; held_future=[]
 bybrand=Counter()
 for key,v in ver.items():

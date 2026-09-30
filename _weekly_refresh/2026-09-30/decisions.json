@@ -1,0 +1,1237 @@
+{
+  "date": "2026-09-30",
+  "version": "6.9",
+  "reviewed": 96,
+  "refreshed": [
+    {
+      "key": "google_pixel_11_pro_fold_16_512",
+      "name": "Google Pixel 11 Pro Fold 16/512GB",
+      "old_a1": 133800,
+      "new_a1": 114600,
+      "old_resale": 147000,
+      "new_resale": 126000,
+      "pct": -14.35
+    },
+    {
+      "key": "iphone_17_pro_max_2tb",
+      "name": "iPhone 17 Pro Max 2TB",
+      "old_a1": 121900,
+      "new_a1": 119200,
+      "old_resale": 195000,
+      "new_resale": 131000,
+      "pct": -2.21
+    },
+    {
+      "key": "iphone_17_pro_max_1tb",
+      "name": "iPhone 17 Pro Max 1TB",
+      "old_a1": 121000,
+      "new_a1": 111900,
+      "old_resale": 133000,
+      "new_resale": 123000,
+      "pct": -7.52
+    },
+    {
+      "key": "iphone_17_pro_max_512",
+      "name": "iPhone 17 Pro Max 512GB",
+      "old_a1": 112800,
+      "new_a1": 103700,
+      "old_resale": 124000,
+      "new_resale": 114000,
+      "pct": -8.07
+    },
+    {
+      "key": "iphone_17_pro_1tb",
+      "name": "iPhone 17 Pro 1TB",
+      "old_a1": 111000,
+      "new_a1": 98300,
+      "old_resale": 122000,
+      "new_resale": 108000,
+      "pct": -11.44
+    },
+    {
+      "key": "iphone_17_pro_max_256",
+      "name": "iPhone 17 Pro Max 256GB",
+      "old_a1": 104600,
+      "new_a1": 94600,
+      "old_resale": 115000,
+      "new_resale": 104000,
+      "pct": -9.56
+    },
+    {
+      "key": "iphone_17_pro_512",
+      "name": "iPhone 17 Pro 512GB",
+      "old_a1": 101900,
+      "new_a1": 91000,
+      "old_resale": 112000,
+      "new_resale": 100000,
+      "pct": -10.7
+    },
+    {
+      "key": "iphone_air_1tb",
+      "name": "iPhone Air 1TB",
+      "old_a1": 98300,
+      "new_a1": 80100,
+      "old_resale": 108000,
+      "new_resale": 88000,
+      "pct": -18.51
+    },
+    {
+      "key": "google_pixel_11_pro_512",
+      "name": "Google Pixel 11 Pro 512GB",
+      "old_a1": 101000,
+      "new_a1": 87400,
+      "old_resale": 111000,
+      "new_resale": 96000,
+      "pct": -13.47
+    },
+    {
+      "key": "google_pixel_11_pro_xl_256",
+      "name": "Google Pixel 11 Pro XL 256GB",
+      "old_a1": 100100,
+      "new_a1": 91900,
+      "old_resale": 110000,
+      "new_resale": 101000,
+      "pct": -8.19
+    },
+    {
+      "key": "google_pixel_11_pro_xl_512",
+      "name": "Google Pixel 11 Pro XL 512GB",
+      "old_a1": 109200,
+      "new_a1": 97400,
+      "old_resale": 120000,
+      "new_resale": 107000,
+      "pct": -10.81
+    },
+    {
+      "key": "iphone_17_pro_256",
+      "name": "iPhone 17 Pro 256GB",
+      "old_a1": 94600,
+      "new_a1": 86400,
+      "old_resale": 104000,
+      "new_resale": 95000,
+      "pct": -8.67
+    },
+    {
+      "key": "samsung_z_flip_8_512",
+      "name": "Samsung Galaxy Z Flip8 12GB/512GB",
+      "old_a1": 86500,
+      "new_a1": 83700,
+      "old_resale": 95100,
+      "new_resale": 92000,
+      "pct": -3.24
+    },
+    {
+      "key": "google_pixel_11_512",
+      "name": "Google Pixel 11 512GB",
+      "old_a1": 77300,
+      "new_a1": 65500,
+      "old_resale": 85000,
+      "new_resale": 72000,
+      "pct": -15.27
+    },
+    {
+      "key": "samsung_z_fold_6_1tb",
+      "name": "Samsung Galaxy Z Fold 6 1TB",
+      "old_a1": 71400,
+      "new_a1": 58800,
+      "old_resale": 85000,
+      "new_resale": 70000,
+      "pct": -17.65
+    },
+    {
+      "key": "samsung_galaxy_tab_s11_ultra_wifi_256",
+      "name": "Samsung Galaxy Tab S11 Ultra WiFi 256GB",
+      "old_a1": 66400,
+      "new_a1": 66400,
+      "old_resale": 73000,
+      "new_resale": 73000,
+      "pct": 0.0
+    },
+    {
+      "key": "samsung_s25_ultra_256",
+      "name": "Samsung Galaxy S25 Ultra 256GB",
+      "old_a1": 66200,
+      "new_a1": 61000,
+      "old_resale": 76000,
+      "new_resale": 67000,
+      "pct": -7.85
+    },
+    {
+      "key": "samsung_s25_ultra_512",
+      "name": "Samsung Galaxy S25 Ultra 512GB",
+      "old_a1": 66200,
+      "new_a1": 65500,
+      "old_resale": 72000,
+      "new_resale": 72000,
+      "pct": -1.06
+    },
+    {
+      "key": "iphone_air_256",
+      "name": "iPhone Air 256GB",
+      "old_a1": 65500,
+      "new_a1": 63700,
+      "old_resale": 72000,
+      "new_resale": 70000,
+      "pct": -2.75
+    },
+    {
+      "key": "google_pixel_11_256",
+      "name": "Google Pixel 11 256GB",
+      "old_a1": 65500,
+      "new_a1": 59100,
+      "old_resale": 72000,
+      "new_resale": 65000,
+      "pct": -9.77
+    },
+    {
+      "key": "samsung_z_fold_6_512",
+      "name": "Samsung Galaxy Z Fold 6 512GB",
+      "old_a1": 63900,
+      "new_a1": 54600,
+      "old_resale": 76000,
+      "new_resale": 65000,
+      "pct": -14.55
+    },
+    {
+      "key": "samsung_z_fold_6_256",
+      "name": "Samsung Galaxy Z Fold 6 256GB",
+      "old_a1": 58800,
+      "new_a1": 51300,
+      "old_resale": 70000,
+      "new_resale": 61000,
+      "pct": -12.76
+    },
+    {
+      "key": "iphone_16_plus_256",
+      "name": "iPhone 16 Plus 256GB",
+      "old_a1": 54600,
+      "new_a1": 51300,
+      "old_resale": 65000,
+      "new_resale": 61000,
+      "pct": -6.04
+    },
+    {
+      "key": "samsung_z_flip_7_256",
+      "name": "Samsung Galaxy Z Flip 7 256GB",
+      "old_a1": 52800,
+      "new_a1": 52800,
+      "old_resale": 58000,
+      "new_resale": 58000,
+      "pct": 0.0
+    },
+    {
+      "key": "oppo_find_x8_pro_16_512",
+      "name": "Oppo Find X8 Pro 16/512GB",
+      "old_a1": 45000,
+      "new_a1": 43200,
+      "old_resale": 49500,
+      "new_resale": 47500,
+      "pct": -4.0
+    },
+    {
+      "key": "iqoo_z11_5g_12_256",
+      "name": "iQOO Z11 5G 12/256GB",
+      "old_a1": 32000,
+      "new_a1": 30000,
+      "old_resale": 40000,
+      "new_resale": 37500,
+      "pct": -6.25
+    },
+    {
+      "key": "oneplus_nord_6_8_256",
+      "name": "OnePlus Nord 6 8/256GB",
+      "old_a1": 30600,
+      "new_a1": 30500,
+      "old_resale": 33600,
+      "new_resale": 33500,
+      "pct": -0.33
+    },
+    {
+      "key": "vivo_s2_8_128",
+      "name": "Vivo S2 5G 8/128GB",
+      "old_a1": 29600,
+      "new_a1": 29100,
+      "old_resale": 32500,
+      "new_resale": 32000,
+      "pct": -1.69
+    },
+    {
+      "key": "tecno_camon_50_ultra_5g_8_256",
+      "name": "Tecno Camon 50 Ultra 5G 8/256GB",
+      "old_a1": 29600,
+      "new_a1": 24600,
+      "old_resale": 32500,
+      "new_resale": 27000,
+      "pct": -16.89
+    },
+    {
+      "key": "oppo_reno_15_8_256",
+      "name": "Oppo Reno 15 8/256GB",
+      "old_a1": 29100,
+      "new_a1": 30500,
+      "old_resale": 32000,
+      "new_resale": 33500,
+      "pct": 4.81
+    },
+    {
+      "key": "redmi_note_15_pro_plus_5g_12_512",
+      "name": "Redmi Note 15 Pro+ 5G (12GB/512GB)",
+      "old_a1": 28500,
+      "new_a1": 29500,
+      "old_resale": 31000,
+      "new_resale": 32400,
+      "pct": 3.51
+    },
+    {
+      "key": "samsung_s25_fe_128",
+      "name": "Samsung Galaxy S25 FE 128GB",
+      "old_a1": 27800,
+      "new_a1": 29600,
+      "old_resale": 30500,
+      "new_resale": 32500,
+      "pct": 6.47
+    },
+    {
+      "key": "realme_16x_5g_6_256",
+      "name": "Realme 16x 5G 6/256GB",
+      "old_a1": 19800,
+      "new_a1": 19200,
+      "old_resale": 24800,
+      "new_resale": 24000,
+      "pct": -3.03
+    },
+    {
+      "key": "realme_16x_5g_6_128",
+      "name": "Realme 16x 5G 6/128GB",
+      "old_a1": 17900,
+      "new_a1": 17000,
+      "old_resale": 22400,
+      "new_resale": 21200,
+      "pct": -5.03
+    },
+    {
+      "key": "moto_g_max_5g_6_128",
+      "name": "Motorola G Max 5G 6/128GB",
+      "old_a1": 17900,
+      "new_a1": 15200,
+      "old_resale": 22400,
+      "new_resale": 19000,
+      "pct": -15.08
+    },
+    {
+      "key": "realme_16x_5g_4_128",
+      "name": "Realme 16x 5G 4/128GB",
+      "old_a1": 16600,
+      "new_a1": 15100,
+      "old_resale": 20800,
+      "new_resale": 18900,
+      "pct": -9.04
+    },
+    {
+      "key": "vivo_y31t_5g_4_128",
+      "name": "Vivo Y31t 5G 4/128GB",
+      "old_a1": 16400,
+      "new_a1": 14800,
+      "old_resale": 20500,
+      "new_resale": 18500,
+      "pct": -9.76
+    },
+    {
+      "key": "vivo_y400_5g_8_256",
+      "name": "Vivo Y400 5G 8/256GB",
+      "old_a1": 15400,
+      "new_a1": 14400,
+      "old_resale": 19200,
+      "new_resale": 18000,
+      "pct": -6.49
+    },
+    {
+      "key": "iqoo_z10_5g_8_256",
+      "name": "iQOO Z10 5G 8/256GB",
+      "old_a1": 14400,
+      "new_a1": 14000,
+      "old_resale": 18000,
+      "new_resale": 17500,
+      "pct": -2.78
+    },
+    {
+      "key": "moto_edge_60_stylus_8_256",
+      "name": "Motorola Edge 60 Stylus (8GB+256GB)",
+      "old_a1": 14300,
+      "new_a1": 14100,
+      "old_resale": 17500,
+      "new_resale": 15500,
+      "pct": -1.4
+    },
+    {
+      "key": "redmi_note_14_pro_5g_8_128",
+      "name": "Redmi Note 14 Pro 5G 8/128GB",
+      "old_a1": 14000,
+      "new_a1": 12300,
+      "old_resale": 17500,
+      "new_resale": 13500,
+      "pct": -12.14
+    },
+    {
+      "key": "oppo_a6_pro_8_128",
+      "name": "Oppo A6 Pro 5G 8/128GB",
+      "old_a1": 14000,
+      "new_a1": 12000,
+      "old_resale": 17500,
+      "new_resale": 15000,
+      "pct": -14.29
+    },
+    {
+      "key": "oppo_a6s_5g_6_128",
+      "name": "Oppo A6s 5G 6/128GB",
+      "old_a1": 11200,
+      "new_a1": 11200,
+      "old_resale": 14000,
+      "new_resale": 14000,
+      "pct": 0.0
+    },
+    {
+      "key": "oppo_a6s_5g_4_128",
+      "name": "Oppo A6s 5G 4/128GB",
+      "old_a1": 10400,
+      "new_a1": 10400,
+      "old_resale": 13000,
+      "new_resale": 13000,
+      "pct": 0.0
+    }
+  ],
+  "moved": [
+    {
+      "key": "google_pixel_11_pro_fold_16_512",
+      "name": "Google Pixel 11 Pro Fold 16/512GB",
+      "old_a1": 133800,
+      "new_a1": 114600,
+      "old_resale": 147000,
+      "new_resale": 126000,
+      "pct": -14.35
+    },
+    {
+      "key": "iphone_17_pro_max_2tb",
+      "name": "iPhone 17 Pro Max 2TB",
+      "old_a1": 121900,
+      "new_a1": 119200,
+      "old_resale": 195000,
+      "new_resale": 131000,
+      "pct": -2.21
+    },
+    {
+      "key": "iphone_17_pro_max_1tb",
+      "name": "iPhone 17 Pro Max 1TB",
+      "old_a1": 121000,
+      "new_a1": 111900,
+      "old_resale": 133000,
+      "new_resale": 123000,
+      "pct": -7.52
+    },
+    {
+      "key": "iphone_17_pro_max_512",
+      "name": "iPhone 17 Pro Max 512GB",
+      "old_a1": 112800,
+      "new_a1": 103700,
+      "old_resale": 124000,
+      "new_resale": 114000,
+      "pct": -8.07
+    },
+    {
+      "key": "iphone_17_pro_1tb",
+      "name": "iPhone 17 Pro 1TB",
+      "old_a1": 111000,
+      "new_a1": 98300,
+      "old_resale": 122000,
+      "new_resale": 108000,
+      "pct": -11.44
+    },
+    {
+      "key": "iphone_17_pro_max_256",
+      "name": "iPhone 17 Pro Max 256GB",
+      "old_a1": 104600,
+      "new_a1": 94600,
+      "old_resale": 115000,
+      "new_resale": 104000,
+      "pct": -9.56
+    },
+    {
+      "key": "iphone_17_pro_512",
+      "name": "iPhone 17 Pro 512GB",
+      "old_a1": 101900,
+      "new_a1": 91000,
+      "old_resale": 112000,
+      "new_resale": 100000,
+      "pct": -10.7
+    },
+    {
+      "key": "iphone_air_1tb",
+      "name": "iPhone Air 1TB",
+      "old_a1": 98300,
+      "new_a1": 80100,
+      "old_resale": 108000,
+      "new_resale": 88000,
+      "pct": -18.51
+    },
+    {
+      "key": "google_pixel_11_pro_512",
+      "name": "Google Pixel 11 Pro 512GB",
+      "old_a1": 101000,
+      "new_a1": 87400,
+      "old_resale": 111000,
+      "new_resale": 96000,
+      "pct": -13.47
+    },
+    {
+      "key": "google_pixel_11_pro_xl_256",
+      "name": "Google Pixel 11 Pro XL 256GB",
+      "old_a1": 100100,
+      "new_a1": 91900,
+      "old_resale": 110000,
+      "new_resale": 101000,
+      "pct": -8.19
+    },
+    {
+      "key": "google_pixel_11_pro_xl_512",
+      "name": "Google Pixel 11 Pro XL 512GB",
+      "old_a1": 109200,
+      "new_a1": 97400,
+      "old_resale": 120000,
+      "new_resale": 107000,
+      "pct": -10.81
+    },
+    {
+      "key": "iphone_17_pro_256",
+      "name": "iPhone 17 Pro 256GB",
+      "old_a1": 94600,
+      "new_a1": 86400,
+      "old_resale": 104000,
+      "new_resale": 95000,
+      "pct": -8.67
+    },
+    {
+      "key": "samsung_z_flip_8_512",
+      "name": "Samsung Galaxy Z Flip8 12GB/512GB",
+      "old_a1": 86500,
+      "new_a1": 83700,
+      "old_resale": 95100,
+      "new_resale": 92000,
+      "pct": -3.24
+    },
+    {
+      "key": "google_pixel_11_512",
+      "name": "Google Pixel 11 512GB",
+      "old_a1": 77300,
+      "new_a1": 65500,
+      "old_resale": 85000,
+      "new_resale": 72000,
+      "pct": -15.27
+    },
+    {
+      "key": "samsung_z_fold_6_1tb",
+      "name": "Samsung Galaxy Z Fold 6 1TB",
+      "old_a1": 71400,
+      "new_a1": 58800,
+      "old_resale": 85000,
+      "new_resale": 70000,
+      "pct": -17.65
+    },
+    {
+      "key": "samsung_s25_ultra_256",
+      "name": "Samsung Galaxy S25 Ultra 256GB",
+      "old_a1": 66200,
+      "new_a1": 61000,
+      "old_resale": 76000,
+      "new_resale": 67000,
+      "pct": -7.85
+    },
+    {
+      "key": "samsung_s25_ultra_512",
+      "name": "Samsung Galaxy S25 Ultra 512GB",
+      "old_a1": 66200,
+      "new_a1": 65500,
+      "old_resale": 72000,
+      "new_resale": 72000,
+      "pct": -1.06
+    },
+    {
+      "key": "iphone_air_256",
+      "name": "iPhone Air 256GB",
+      "old_a1": 65500,
+      "new_a1": 63700,
+      "old_resale": 72000,
+      "new_resale": 70000,
+      "pct": -2.75
+    },
+    {
+      "key": "google_pixel_11_256",
+      "name": "Google Pixel 11 256GB",
+      "old_a1": 65500,
+      "new_a1": 59100,
+      "old_resale": 72000,
+      "new_resale": 65000,
+      "pct": -9.77
+    },
+    {
+      "key": "samsung_z_fold_6_512",
+      "name": "Samsung Galaxy Z Fold 6 512GB",
+      "old_a1": 63900,
+      "new_a1": 54600,
+      "old_resale": 76000,
+      "new_resale": 65000,
+      "pct": -14.55
+    },
+    {
+      "key": "samsung_z_fold_6_256",
+      "name": "Samsung Galaxy Z Fold 6 256GB",
+      "old_a1": 58800,
+      "new_a1": 51300,
+      "old_resale": 70000,
+      "new_resale": 61000,
+      "pct": -12.76
+    },
+    {
+      "key": "iphone_16_plus_256",
+      "name": "iPhone 16 Plus 256GB",
+      "old_a1": 54600,
+      "new_a1": 51300,
+      "old_resale": 65000,
+      "new_resale": 61000,
+      "pct": -6.04
+    },
+    {
+      "key": "oppo_find_x8_pro_16_512",
+      "name": "Oppo Find X8 Pro 16/512GB",
+      "old_a1": 45000,
+      "new_a1": 43200,
+      "old_resale": 49500,
+      "new_resale": 47500,
+      "pct": -4.0
+    },
+    {
+      "key": "iqoo_z11_5g_12_256",
+      "name": "iQOO Z11 5G 12/256GB",
+      "old_a1": 32000,
+      "new_a1": 30000,
+      "old_resale": 40000,
+      "new_resale": 37500,
+      "pct": -6.25
+    },
+    {
+      "key": "oneplus_nord_6_8_256",
+      "name": "OnePlus Nord 6 8/256GB",
+      "old_a1": 30600,
+      "new_a1": 30500,
+      "old_resale": 33600,
+      "new_resale": 33500,
+      "pct": -0.33
+    },
+    {
+      "key": "vivo_s2_8_128",
+      "name": "Vivo S2 5G 8/128GB",
+      "old_a1": 29600,
+      "new_a1": 29100,
+      "old_resale": 32500,
+      "new_resale": 32000,
+      "pct": -1.69
+    },
+    {
+      "key": "tecno_camon_50_ultra_5g_8_256",
+      "name": "Tecno Camon 50 Ultra 5G 8/256GB",
+      "old_a1": 29600,
+      "new_a1": 24600,
+      "old_resale": 32500,
+      "new_resale": 27000,
+      "pct": -16.89
+    },
+    {
+      "key": "oppo_reno_15_8_256",
+      "name": "Oppo Reno 15 8/256GB",
+      "old_a1": 29100,
+      "new_a1": 30500,
+      "old_resale": 32000,
+      "new_resale": 33500,
+      "pct": 4.81
+    },
+    {
+      "key": "redmi_note_15_pro_plus_5g_12_512",
+      "name": "Redmi Note 15 Pro+ 5G (12GB/512GB)",
+      "old_a1": 28500,
+      "new_a1": 29500,
+      "old_resale": 31000,
+      "new_resale": 32400,
+      "pct": 3.51
+    },
+    {
+      "key": "samsung_s25_fe_128",
+      "name": "Samsung Galaxy S25 FE 128GB",
+      "old_a1": 27800,
+      "new_a1": 29600,
+      "old_resale": 30500,
+      "new_resale": 32500,
+      "pct": 6.47
+    },
+    {
+      "key": "realme_16x_5g_6_256",
+      "name": "Realme 16x 5G 6/256GB",
+      "old_a1": 19800,
+      "new_a1": 19200,
+      "old_resale": 24800,
+      "new_resale": 24000,
+      "pct": -3.03
+    },
+    {
+      "key": "realme_16x_5g_6_128",
+      "name": "Realme 16x 5G 6/128GB",
+      "old_a1": 17900,
+      "new_a1": 17000,
+      "old_resale": 22400,
+      "new_resale": 21200,
+      "pct": -5.03
+    },
+    {
+      "key": "moto_g_max_5g_6_128",
+      "name": "Motorola G Max 5G 6/128GB",
+      "old_a1": 17900,
+      "new_a1": 15200,
+      "old_resale": 22400,
+      "new_resale": 19000,
+      "pct": -15.08
+    },
+    {
+      "key": "realme_16x_5g_4_128",
+      "name": "Realme 16x 5G 4/128GB",
+      "old_a1": 16600,
+      "new_a1": 15100,
+      "old_resale": 20800,
+      "new_resale": 18900,
+      "pct": -9.04
+    },
+    {
+      "key": "vivo_y31t_5g_4_128",
+      "name": "Vivo Y31t 5G 4/128GB",
+      "old_a1": 16400,
+      "new_a1": 14800,
+      "old_resale": 20500,
+      "new_resale": 18500,
+      "pct": -9.76
+    },
+    {
+      "key": "vivo_y400_5g_8_256",
+      "name": "Vivo Y400 5G 8/256GB",
+      "old_a1": 15400,
+      "new_a1": 14400,
+      "old_resale": 19200,
+      "new_resale": 18000,
+      "pct": -6.49
+    },
+    {
+      "key": "iqoo_z10_5g_8_256",
+      "name": "iQOO Z10 5G 8/256GB",
+      "old_a1": 14400,
+      "new_a1": 14000,
+      "old_resale": 18000,
+      "new_resale": 17500,
+      "pct": -2.78
+    },
+    {
+      "key": "moto_edge_60_stylus_8_256",
+      "name": "Motorola Edge 60 Stylus (8GB+256GB)",
+      "old_a1": 14300,
+      "new_a1": 14100,
+      "old_resale": 17500,
+      "new_resale": 15500,
+      "pct": -1.4
+    },
+    {
+      "key": "redmi_note_14_pro_5g_8_128",
+      "name": "Redmi Note 14 Pro 5G 8/128GB",
+      "old_a1": 14000,
+      "new_a1": 12300,
+      "old_resale": 17500,
+      "new_resale": 13500,
+      "pct": -12.14
+    },
+    {
+      "key": "oppo_a6_pro_8_128",
+      "name": "Oppo A6 Pro 5G 8/128GB",
+      "old_a1": 14000,
+      "new_a1": 12000,
+      "old_resale": 17500,
+      "new_resale": 15000,
+      "pct": -14.29
+    }
+  ],
+  "added": [
+    {
+      "key": "lava_virat_curve_5g_6_128",
+      "name": "Lava Virat Curve 5G 6/128GB",
+      "new_a1": 12300,
+      "resale": 16000,
+      "launch_date": "2026-09-21"
+    },
+    {
+      "key": "lava_shark_2_pro_5g_6_128",
+      "name": "Lava Shark 2 Pro 5G 6/128GB",
+      "new_a1": 9600,
+      "resale": 12500,
+      "launch_date": "2026-09-29"
+    },
+    {
+      "key": "oneplus_15_16_512",
+      "name": "OnePlus 15 16/512GB",
+      "new_a1": 47300,
+      "resale": 52000,
+      "launch_date": "2025-11-13"
+    },
+    {
+      "key": "poco_m7_pro_5g_6_128",
+      "name": "Poco M7 Pro 5G 6/128GB",
+      "new_a1": 8000,
+      "resale": 10000,
+      "launch_date": "2024-12-17"
+    }
+  ],
+  "removed": [
+    {
+      "key": "oneplus_15_12_512",
+      "sources": [
+        "https://www.oneplus.in/oneplus-15?sku=501111657",
+        "https://pressnote.in/Corporate-News-_524694.html"
+      ],
+      "reason": "Official India configuration list and India launch release both explicitly enumerate only 12/256 and 16/512. Replace wrong-RAM 12/512 atomically with fully specified oneplus_15_16_512 above, preserving Rs79,999 authoritative new and Rs52,000 resale anchors. If replacement validation fails, hold removal.",
+      "replacement_key": "oneplus_15_16_512"
+    }
+  ],
+  "held": [
+    {
+      "key": "macbook_pro_16_m4_max_2024_36_1024",
+      "reason": "Hold 182000 versus proposed 210000: stale 275000-329900 asks and Pro-to-Max scaling do not establish local mint clearing value. Cashkr 150000 belongs to another configuration; discard it. Apple lineup rechecked, but no exact used-sale evidence rechecked. Reviewed _ov_updates/verified_0.json."
+    },
+    {
+      "key": "samsung_z_fold_8_1tb",
+      "reason": "Hold 142700 versus proposed 130000. Official India 16GB/1TB and Cashify 112000 headline rechecked. Saved used asks are mostly UK/import or near-new units at 165000-181000; 130000 is primarily a sibling/ceiling-ratio calculation, not an exact Indian mint observation. No removal. Reviewed _ov_updates/verified_0.json."
+    },
+    {
+      "key": "macbook_pro_16_m4_pro_2024_24_512",
+      "reason": "Hold 130000 versus proposed 165000 (+26.9%). Exact Cashify refurb independently fetched: Fair 168599, Good 178299, both out of stock; Cashkr up-to 160000 confirmed. These are retail upper bounds and an unconditioned buyer ceiling. Sparse stale asks do not justify the large local repricing. Reviewed _ov_updates/verified_0.json."
+    },
+    {
+      "key": "samsung_s26_ultra_1tb",
+      "reason": "Hold baseline 114000, agreeing with saved critic. Two in-warranty 1TB asks and an assumed storage step do not support 118000. The fetcher confused 512GB MRP with 1TB pricing; retain authoritative net_new 171000. No independent live recheck for this model; ceiling 101000 reviewed only. Reviewed _ov_updates/verified_1.json. Exact sell-page URL was not preserved in saved evidence; Cashify provider URL is listed instead of a guessed slug."
+    },
+    {
+      "key": "samsung_z_fold_8_512",
+      "reason": "Hold 118900, agreeing with saved critic. Saved 128000 proposal conflicts with reported 125000 sealed global stock and thin mixed-condition asks. Official India 12/512 variant rechecked; resale and 101000 ceiling reviewed from saved work, not freshly observed. Reviewed _ov_updates/verified_1.json. Exact sell-page URL was not preserved in saved evidence; Cashify provider URL is listed instead of a guessed slug."
+    },
+    {
+      "key": "macbook_pro_14_m4_2024_16_512",
+      "reason": "Hold 108000 versus proposed 115000. Four old clean asks and sibling ratios are insufficient for a rise. Exact Cashify refurb independently fetched: 126599 Fair / 134899 Superb, all out of stock. Cashkr page via web shows 95000 up-to for 16/512; Cashify family 65000 is not config evidence. Reviewed _ov_updates/verified_2.json."
+    },
+    {
+      "key": "ipad_pro_m5_13_256_wifi",
+      "reason": "Hold 108000 versus proposed 110000. Saved critic finds only three credible bare Wi-Fi 256GB asks; size-ratio inference and changed Apple MRP are not a sufficiently strong rise signal. Keep authoritative net_new 129900. No live recheck; 87200 is a reviewed ceiling. Reviewed _ov_updates/verified_2.json."
+    },
+    {
+      "key": "oppo_find_x9_ultra_12_512",
+      "reason": "Hold 102000 versus proposed 104000. Saved lower ask cluster 109900-116000 less about 10% overlaps the baseline; a 2% rise is within negotiation/condition noise. Refurb upper bounds and three agreeing buyer headlines do not establish a rise. 77000 ceiling reviewed only. Reviewed _ov_updates/verified_2.json."
+    },
+    {
+      "key": "vivo_x300_ultra_16_512",
+      "reason": "Hold 100000 versus proposed 102000. Saved critic itself calls this not a rise-worthy signal: lower ask cluster implies about 100800 and long-running dealer stock is unsold. Mainland imports and bait listings must stay excluded. 77740 headline reviewed only. Reviewed _ov_updates/verified_2.json."
+    },
+    {
+      "key": "ipad_pro_m5_11_256_wifi",
+      "reason": "Hold 85000 versus proposed 87000. Saved lower used asks and 98500-99500 sealed stock overlap the existing estimate; refurbished and accessory-bundled offers are upper bounds. A small unsupported rise should not be triggered by Apple MRP increases. 66600 ceiling reviewed only. Reviewed _ov_updates/verified_2.json."
+    },
+    {
+      "key": "iphone_air_512",
+      "reason": "Independent fetch_3 critic: hold 84000 rather than adopt 82000. Saved 89500-92000 asks generally retain substantial Apple warranty; fetch explicitly prices a mint unit with warranty left, mismatching the baseline basis. Official 512GB exists and retail price rechecked, but own out-of-warranty evidence is weak. Ceiling 75200 reviewed only. Reviewed _ov_updates/fetch_3.json (missing critic recovered here)."
+    },
+    {
+      "key": "macbook_air_m3_13_2024_16_512",
+      "reason": "Independent fetch_3 critic: hold 82900. The only clean 16/512 ask at 87000 does not state screen size; other pricing comes from 8GB siblings, stale refurb retail or buyer-headline multipliers. Cashkr exact 13-inch 16/512 page via web shows 59000 up-to, not a payout. Preserve net_new 134900. Reviewed _ov_updates/fetch_3.json (missing critic recovered here)."
+    },
+    {
+      "key": "vivo_x300_pro_16_512",
+      "reason": "Independent fetch_3 critic: hold 75000 versus fetch 76000. Saved aggregate median 85000 less 10% is 76500, but condition/region detail is insufficient to justify a 1.3% rise; old ORU listings conflict. 61500 ceiling is reviewed only and must replace no condition-specific quote. Reviewed _ov_updates/fetch_3.json (missing critic recovered here)."
+    },
+    {
+      "key": "google_pixel_10_pro_xl_512",
+      "reason": "Independent fetch_3 critic: hold 75000; do not remove. Live official HTML shows XL 256GB offers and disabled/unavailable 512GB controls, confirming no presently selectable 512GB there, not proving that this configuration never existed or should be deleted. Saved 512GB asks are import-mixed. No exact buyer ceiling. Reviewed _ov_updates/fetch_3.json (missing critic recovered here)."
+    },
+    {
+      "key": "vivo_x_fold5_16_512",
+      "reason": "Independent fetch_3 critic: hold 75000 versus fetch 82000. Proposed rise partly depends on 78520-80000 buyer ceilings and a mixed ask median; inner-line/damaged examples cannot represent mint. No exact Indian mint transaction or coherent clean sample is available. Keep existing missing net_new missing; ceiling 78520 reviewed only. Reviewed _ov_updates/fetch_3.json (missing critic recovered here)."
+    },
+    {
+      "key": "macbook_air_m4_13_2025_16_256",
+      "reason": "Independent fetch_3 critic: hold 73000 versus fetch 82000. Saved asks have extensive dealer duplication and no realized local sale. Cashkr exact 13-inch 16/256 page via web shows up-to 75000; it does not force resale above that value. Out-of-stock refurb and M5 pricing cannot prove a rise. Reviewed _ov_updates/fetch_3.json (missing critic recovered here)."
+    },
+    {
+      "key": "ipad_air_m4_13_128_wifi",
+      "reason": "Hold 68000, agreeing with saved critic. Proposed 74000 is circular scaling from a sibling and warranty-heavy asks; stale out-of-stock refurb gives no reliable rise signal. No live recheck. Saved 61000 is a maximum headline, not a quote. Reviewed _ov_updates/verified_4.json."
+    },
+    {
+      "key": "macbook_air_m4_15_2025_16_256",
+      "reason": "Hold 66700 versus proposed 84000 (+25.9%). Exact refurb independently fetched: 97599 Good / 102599 Superb, all out of stock. Saved 84000 relies heavily on sibling anchoring; one low ask and larger near-new asks do not establish local clearing. Raw Cashify family ceiling 70000 has no configuration match, so numeric ceiling is null. Reviewed _ov_updates/verified_4.json. Exact sell-page URL was not preserved in saved evidence; Cashify provider URL is listed instead of a guessed slug."
+    },
+    {
+      "key": "iphone_17_512",
+      "reason": "Weekly 20% guard: proposed A1 58100 -> 70100; prior entry retained"
+    },
+    {
+      "key": "samsung_s26_plus_256",
+      "reason": "Hold 56000 versus proposed 64000. Only six saved used asks mix UAE/Canadian open-box, dealer and very new units; sibling inference and out-of-stock refurb cannot support a 14.3% local rise. Keep authoritative net_new 74999. 61500 ceiling reviewed only. Reviewed _ov_updates/verified_5.json. Exact sell-page URL was not preserved in saved evidence; Cashify provider URL is listed instead of a guessed slug."
+    },
+    {
+      "key": "iphone_17e_512",
+      "reason": "Hold 55000 versus proposed 60000. Saved review has one used 512GB ask and two sealed asks, then extrapolates from 256GB. This is insufficient for an upward repricing; Apple MRP hikes do not change authoritative net_new 84900. No live recheck; 53400 ceiling reviewed only. Reviewed _ov_updates/verified_5.json. Exact sell-page URL was not preserved in saved evidence; Cashify provider URL is listed instead of a guessed slug."
+    },
+    {
+      "key": "xiaomi_17t_12_512",
+      "reason": "Conservative rise guard: proposed A1 38200 -> 44100 exceeds 8%; prior entry retained"
+    },
+    {
+      "key": "oppo_reno_15_pro_mini_12_512",
+      "reason": "Hold 40900 versus proposed 44000. Saved high asks exceed alleged new street/refurb prices; 44000 is a low-confidence estimate from lower-quartile asks and retail ratios. Official 12/512 variant rechecked but no market transaction. Replace old 26000 widget interpretation with null market; 37390 remains reviewed ceiling. Reviewed _ov_updates/verified_5.json."
+    },
+    {
+      "key": "oppo_reno_16_8_256",
+      "reason": "Reviewed saved verified_6/fetch_6; used listings not live-rechecked here. Reject 44,500 rise: critic combines refurb multipliers and buyer-ceiling multiples. Saved cheap asks 42-45k less 10% imply 37.8-40.5k; they do not support a 44.5k local clearing value. Old 24,800 buyback was a template, not a payout."
+    },
+    {
+      "key": "xiaomi_17t_12_256",
+      "reason": "Reviewed saved verified_6/fetch_6; used listings not live-rechecked here. Reject 44,000 rise: critic could not recheck OLX; dealer asks 46,990 were discounted only 4%, and other legs are refurb/ceiling multiples. Alleged new-price hike does not establish used-price pass-through."
+    },
+    {
+      "key": "oppo_reno_15_pro_12_256",
+      "reason": "Reviewed saved verified_6/fetch_6; used listings not live-rechecked here. Reject 44,000 anchor rise: stale observed field 51,500 is not the baseline anchor 37,600. Eight metro asks plus refurb/ceiling and Mini analogs do not substantiate a local rise; do not describe this as an anchor fall."
+    },
+    {
+      "key": "iqoo_15r_12_512",
+      "reason": "Reviewed saved verified_6/fetch_6; used listings not live-rechecked here. Reject 41,500 rise: six thin asks, out-of-stock refurb and ceiling multiples plus an invented hike allowance. Keep all three iQOO 15R variants under joint review; saved critic prices invert 8/256 (38,500) and 12/256 (37,500)."
+    },
+    {
+      "key": "tecno_pova_8_pro_5g_8_256",
+      "reason": "Reviewed saved verified_6/fetch_6; used listings not live-rechecked here. Reject 32,000 recalibration: no used datapoints; pure sibling/brand analog cannot replace a 41,000 placeholder as observed evidence. Baseline is also unvalidated: keep estimated and flagged, with no removal or rise."
+    },
+    {
+      "key": "samsung_s25_fe_512",
+      "reason": "Reviewed saved verified_6/fetch_6; used listings not live-rechecked here. Reject 39,500 rise: saved ORU asks span 33,560-46,000 and are negotiable. The claim that a rise is warranted because resale is below Cashify ceiling is invalid; successor and ladder heuristics cannot settle mint local price."
+    },
+    {
+      "key": "vivo_v70_12_256",
+      "reason": "Reviewed saved verified_6/fetch_6; used listings not live-rechecked here. Reject 40,000 rise: only two explicit asks, no local clearing evidence, out-of-stock refurb and buyer-ceiling ratios dominate. Stored new price remains authoritative; hikes are not used resale evidence."
+    },
+    {
+      "key": "moto_signature_12_256",
+      "reason": "Reviewed saved verified_6/fetch_6; used listings not live-rechecked here. Reject 41,000 rise: NCR dealer asks 41,990-42,499 discounted 10% imply 37,791-38,249, not 41k. Original critic could not recheck listings; buyer-ceiling and sibling arguments add no independent local sale evidence."
+    },
+    {
+      "key": "samsung_a57_5g_12_256",
+      "reason": "Reviewed saved verified_7/fetch_7; used listings not live-rechecked here. Exact India variant confirmed on official selector/newsroom. Reject 40,000 rise: sibling/refurb multipliers and unverified metro asks dominate; fixing a ladder cannot prove a rise. Saved ceiling 33,550; web result crawled two weeks ago shows 33,760, so no same-day quote confirmation."
+    },
+    {
+      "key": "realme_p4s_5g_12_256",
+      "reason": "Reviewed saved verified_7/fetch_7; used listings not live-rechecked here. Reject replacement of 33,600 by a new 32,500 percentage-of-new placeholder. Saved fetch explicitly calls it PLACEHOLDER; one unspecified listing is unusable. Keep estimated, not verified, pending exact used units."
+    },
+    {
+      "key": "samsung_s25_fe_256",
+      "reason": "Reviewed saved verified_7/fetch_7; used listings not live-rechecked here. Reject 37,500 rise: mostly retention/new-price analogs and the same evidence previously refused. Recent Good ask 35,070 is negotiable; adding an unmeasured mint premium does not substantiate the proposed local resale."
+    },
+    {
+      "key": "moto_edge_70_pro_plus_5g_12_256",
+      "reason": "Reviewed saved verified_7/fetch_7; used listings not live-rechecked here. Reject 36,000 rise: original critic did not independently verify OLX; sibling ratio and old 75%-of-launch convention are circular support. Retained old observed 36k must not be treated as new confirmation."
+    },
+    {
+      "key": "poco_x8_pro_max_12_512",
+      "reason": "Reviewed saved verified_7/fetch_7; used listings not live-rechecked here. Reject 36,500 rise: only four unverified 512GB asks; main convergence comes from two buyer-ceiling multiples and out-of-stock refurb. A stale sibling or alleged list-price hike cannot justify lifting the anchor."
+    },
+    {
+      "key": "iqoo_15r_12_256",
+      "reason": "Reviewed saved verified_7/fetch_7; used listings not live-rechecked here. Reject 37,500 rise: original critic did not recheck OLX; local datapoint is a different 8GB variant. Ceiling/refurb ratios dominate and the saved 8GB/12GB resale ladder is inverted. Joint family recheck needed."
+    },
+    {
+      "key": "oneplus_15r_12_512",
+      "reason": "Reviewed saved verified_8/fetch_8; used listings not live-rechecked here. Reject large 44,500 rise pending reproducible exact listings. Saved critic reports 12 asks around 50k, but ad URLs/raw sample are absent and independent OLX reads failed. Web page confirms 36,100 Get Upto only (crawl two days old), not a payout or resale floor."
+    },
+    {
+      "key": "samsung_a57_5g_8_128",
+      "reason": "Missing usable resale or age"
+    },
+    {
+      "key": "moto_edge_70_pro_5g_12_256",
+      "reason": "Reviewed saved verified_8/fetch_8; used listings not live-rechecked here. Keep 32,000: fetch exact/mixed ask median 35,500 less 10% gives 31,950. Critic pool includes unspecified variants and invokes a Cashify-derived floor; no need to lift to 32,500. No condition-specific payout established."
+    },
+    {
+      "key": "iqoo_z11_5g_8_256",
+      "reason": "Reviewed saved verified_8/fetch_8; used listings not live-rechecked here. Reject 35,000 refresh as unverified: mostly box-open/sealed/unspecified asks and effective-new percentages. Repeating or slightly changing the 80%-of-new convention does not validate it. Cashkr 23,000 is an up-to ceiling only."
+    },
+    {
+      "key": "vivo_v70_elite_8_256",
+      "reason": "Reviewed saved verified_8/fetch_8; used listings not live-rechecked here. Reject large 40,500 anchor rise pending reproducible exact local listings. Saved national asks/refurb support an estimate but are not local sales; stored observed 39,500 differs from baseline anchor 31,500. Saved ceiling 33,720; two-week-old web crawl shows 33,920, not a verified current increase."
+    },
+    {
+      "key": "iqoo_15r_8_256",
+      "reason": "Reviewed saved verified_9/fetch_9; used listings not live-rechecked here. Reject 38,500 anchor rise pending joint family review: saved 44 asks are national unsold asks, with no confirmed local fills; proposed 8GB value exceeds the saved 12GB critic value. Baseline observed 39,000 is separate from anchor 31,100; do not uncap it mechanically."
+    },
+    {
+      "key": "vivo_y31t_5g_6_256",
+      "reason": "Reviewed saved verified_9/fetch_9; used listings not live-rechecked here. Official store re-read lists 4/128 and 6/128 with storage 128GB only; third-party 6/256 claims conflict. No exact used listing. Hold existing estimated record for identity review; no automatic removal or sibling-scaled 27,500 rise."
+    },
+    {
+      "key": "realme_p3_ultra_5g_8_256",
+      "reason": "Conservative rise guard: proposed A1 14800 -> 16400 exceeds 8%; prior entry retained"
+    },
+    {
+      "key": "oneplus_nord_ce_5_8_256",
+      "reason": "Reviewed saved verified_10/fetch_10; used listings not live-rechecked here. Reject 20,000 rise: saved critic explicitly says same evidence already refused last week. North asks support ~19.8k before condition checks, but September ORU Good ask 17,280 and old LikeNew 15-18.8k conflict. No new clearing evidence."
+    },
+    {
+      "key": "nothing_phone_3a_8_128",
+      "reason": "Conservative rise guard: proposed A1 14300 -> 16800 exceeds 8%; prior entry retained"
+    },
+    {
+      "key": "oppo_f29_pro_5g_8_256",
+      "reason": "Reviewed saved verified_10/fetch_10; used listings not live-rechecked here. Keep 17,500: proposed 17,800 is within noisy asking-price uncertainty and conflicts with lower 12GB sibling estimate. Most proposed A1 increase is 0.22 to 0.099 margin rebasing, not a demonstrated market rise."
+    },
+    {
+      "key": "vivo_v50e_8_128",
+      "reason": "Reviewed saved verified_10/fetch_10; used listings not live-rechecked here. Keep 17,500: saved west-UP exact asks median 19k less 10% imply 17.1k; northern median implies 18k. Proposed 18k is not clearly stronger than the baseline. Do not grant the margin-driven A1 rise."
+    },
+    {
+      "key": "infinix_zero_40_8_256",
+      "reason": "Reviewed saved verified_11/fetch_11; used listings not live-rechecked here. Hold identity and 10,000 proposal: it prices a DIFFERENT 12/256 variant from one Fair 7,000 listing. Official selector shows 12/256 and 12/512, but same page specs say RAM 12GB/8GB and list an inconsistent chipset. Do not silently relabel or remove. Raw Cashify ceiling is 12/256 only: saved 12,200, three-week-old web crawl 12,150; not assigned to this key."
+    },
+    {
+      "key": "vivo_y31_pro_5g_8_128",
+      "reason": "Weekly 20% guard: proposed A1 14000 -> 10400; prior entry retained"
+    },
+    {
+      "key": "oppo_f27_5g_8_256",
+      "reason": "Weekly 20% guard: proposed A1 14000 -> 9200; prior entry retained"
+    }
+  ],
+  "held_launches": [
+    {
+      "key": "poco_m7_pro_5g_8_128",
+      "action": "retain_existing_hold_removal",
+      "sources": [
+        "https://www.flipkart.com/poco-m7-pro-5g-lunar-dust-128-gb/p/itm59a079d57519a",
+        "https://www.poco.in/poco-m7-pro-5g"
+      ],
+      "note": "Flipkart lists 6/128 and 8/256; this proves the proposed 6/128 addition, but no exhaustive official India brand lineup was retrievable to positively rule out every historical 8/128 offering. Do not remove on absence. Preserve baseline net_new_inr=14000 and resale_target_a1=10500."
+    },
+    {
+      "key": "realme_c75_5g_4_256",
+      "action": "retain_existing_hold_atomic_repair",
+      "replacement_key": "realme_c75_5g_4_64",
+      "sources": [
+        "https://www.realme.com/in/realme-c75-5g/specs",
+        "https://www.realme.com/in/realme-c75-5g"
+      ],
+      "note": "Official India specifications positively cap storage at 128GB, contradicting 4/256. However the proposed 4/64 replacement lacks sufficient exact India shipping/price evidence, so HOLD BOTH removal and repair under the atomic-pair requirement. Preserve baseline net_new_inr=14500 and resale_target_a1=9100 pending resolution."
+    },
+    {
+      "key": "realme_c75_5g_4_64",
+      "action": "hold_addition",
+      "net_new_inr": null,
+      "resale_target_a1": null,
+      "buyback_market": null,
+      "sources": [
+        "https://www.realme.com/in/realme-c75-5g/specs",
+        "https://www.gizbot.com/mobile/news/realme-c75-5g-launched-in-india-at-just-rs-12-999-check-full-specs-and-availability-114305.html",
+        "https://www.poorvika.com/realme-c-series-group/s?sort=special_price%3Adesc"
+      ],
+      "note": "Official specification independently lists RAM 4/6GB and ROM 64/128GB; it does not establish every pairing. Gizbot calls Rs12,999 a 4/64 launch price, while retailer evidence maps Rs12,999 to 4/128. No directly verified India 4/64 priced shipping SKU. Do not infer a cartesian variant or invent a resale price."
+    },
+    {
+      "key": "redmi_note_15_se_5g_8_128",
+      "action": "retain_existing_reject_removal",
+      "sources": [
+        "https://www.mi.com/in/event/exclusive-employee-offer/"
+      ],
+      "note": "Xiaomi India explicitly lists Redmi Note 15 SE 5G 8GB | 128GB alongside 6/128 and 8/256. Exact configuration exists. Preserve baseline net_new_inr=18999 and resale_target_a1=14500; no repricing approved."
+    },
+    {
+      "key": "samsung_a57_5g_8_128",
+      "action": "retain_existing_hold_removal",
+      "sources": [
+        "https://www.samsung.com/in/smartphones/galaxy-a57/buy/",
+        "https://www.samsung.com/in/smartphones/galaxy-a/galaxy-a57-5g-awesome-icyblue-256gb-sm-a576blbgins/"
+      ],
+      "note": "India buy selector exposes 8/256 and 12/256, but the India marketing page also describes 8/128 with a regional-availability caveat. Current selector omission does not conclusively establish that no India 8/128 was ever sold. Ambiguous: no removal or forced replacement; preserve baseline net_new_inr=48500 and resale_target_a1=32000."
+    },
+    {
+      "key": "google_pixel_11_128",
+      "action": "hold_addition_not_present_in_baseline",
+      "sources": [
+        "https://store.google.com/in/product/pixel_11_specs?hl=en-IN"
+      ],
+      "note": "Official India Pixel 11 specifications enumerate 256GB/12GB RAM and 512GB/12GB RAM only. Baseline already has google_pixel_11_256 and google_pixel_11_512 and no 128GB row. Do not infer a 128GB base model; no removal is needed."
+    },
+    {
+      "key": "hmd_vibe_2_pro_5g_6_128",
+      "action": "hold_future_sale_and_price_conflict",
+      "launch_date": "2026-09-29",
+      "first_sale_date": "2026-10-08",
+      "net_new_inr": null,
+      "reported_special_launch_price_inr": 14999,
+      "saved_unverified_regular_price_inr": 15999,
+      "resale_target_a1": null,
+      "buyback_market": null,
+      "sources": [
+        "https://www.pninews.com/hmd-vibe2-pro-5g-launches-on-flipkart-building-on-the-strong-success-of-hmd-vibe2-in-india/",
+        "https://www.fonearena.com/blog/493678/hmd-vibe-2-pro-5g-price-india-specifications.html",
+        "https://www.hmd.com/en_in"
+      ],
+      "note": "Company release reproduced by PNI lists exact 6/128 and first sale 8 Oct, with special launch price Rs14,999. Saved regular price Rs15,999 and claimed Rs1,000 bank-condition mapping were not independently established from a primary store; do not promote them to verified normal prices. No shipping or resale anchor before first sale."
+    },
+    {
+      "key": "hmd_vibe_2_pro_5g_8_128",
+      "action": "hold_future_sale_and_price_conflict",
+      "launch_date": "2026-09-29",
+      "first_sale_date": "2026-10-08",
+      "net_new_inr": null,
+      "reported_special_launch_price_inr": 16999,
+      "saved_unverified_regular_price_inr": 17999,
+      "resale_target_a1": null,
+      "buyback_market": null,
+      "sources": [
+        "https://www.pninews.com/hmd-vibe2-pro-5g-launches-on-flipkart-building-on-the-strong-success-of-hmd-vibe2-in-india/",
+        "https://www.fonearena.com/blog/493678/hmd-vibe-2-pro-5g-price-india-specifications.html",
+        "https://www.hmd.com/en_in"
+      ],
+      "note": "Company release reproduced by PNI lists exact 8/128 and first sale 8 Oct, with special launch price Rs16,999. Saved regular price Rs17,999 and claimed Rs1,000 bank-condition mapping were not independently established from a primary store; do not promote them to verified normal prices. No shipping or resale anchor before first sale."
+    },
+    {
+      "key": "oppo_k14_plus_5g_6_128",
+      "action": "hold_future_sale",
+      "launch_date": "2026-09-29",
+      "first_sale_date": "2026-10-08",
+      "net_new_inr": 29999,
+      "saved_reported_price_inr": 29999,
+      "resale_target_a1": null,
+      "buyback_market": null,
+      "sources": [
+        "https://www.oppo.com/in/",
+        "https://www.oppo.com/in/smartphones/series-k/k14-plus-5g/specs/",
+        "https://www.oppo.com/in/product/k14-plus-5g.P.P1110183"
+      ],
+      "note": "Direct official homepage read confirms open sale 00:00 Oct 8 and base Rs29,999 before conditional Rs4,000 bank discount. Official specs enumerate exactly 6/128, 8/128, 8/256. Launch date retained from saved review; higher-tier regular prices remain saved-report figures, not freshly verified selector prices. No addition or pre-sale used valuation."
+    },
+    {
+      "key": "oppo_k14_plus_5g_8_128",
+      "action": "hold_future_sale",
+      "launch_date": "2026-09-29",
+      "first_sale_date": "2026-10-08",
+      "net_new_inr": null,
+      "saved_reported_price_inr": 32999,
+      "resale_target_a1": null,
+      "buyback_market": null,
+      "sources": [
+        "https://www.oppo.com/in/",
+        "https://www.oppo.com/in/smartphones/series-k/k14-plus-5g/specs/",
+        "https://www.oppo.com/in/product/k14-plus-5g.P.P1110183"
+      ],
+      "note": "Direct official homepage read confirms open sale 00:00 Oct 8 and base Rs29,999 before conditional Rs4,000 bank discount. Official specs enumerate exactly 6/128, 8/128, 8/256. Launch date retained from saved review; higher-tier regular prices remain saved-report figures, not freshly verified selector prices. No addition or pre-sale used valuation."
+    },
+    {
+      "key": "oppo_k14_plus_5g_8_256",
+      "action": "hold_future_sale",
+      "launch_date": "2026-09-29",
+      "first_sale_date": "2026-10-08",
+      "net_new_inr": null,
+      "saved_reported_price_inr": 35999,
+      "resale_target_a1": null,
+      "buyback_market": null,
+      "sources": [
+        "https://www.oppo.com/in/",
+        "https://www.oppo.com/in/smartphones/series-k/k14-plus-5g/specs/",
+        "https://www.oppo.com/in/product/k14-plus-5g.P.P1110183"
+      ],
+      "note": "Direct official homepage read confirms open sale 00:00 Oct 8 and base Rs29,999 before conditional Rs4,000 bank discount. Official specs enumerate exactly 6/128, 8/128, 8/256. Launch date retained from saved review; higher-tier regular prices remain saved-report figures, not freshly verified selector prices. No addition or pre-sale used valuation."
+    },
+    {
+      "key": "iphone_duo_256",
+      "action": "hold_future_sale",
+      "launch_date": "2026-09-09",
+      "first_sale_date": "2026-10-23",
+      "net_new_inr": 299900,
+      "resale_target_a1": null,
+      "buyback_market": null,
+      "sources": [
+        "https://www.apple.com/in/shop/buy-iphone/iphone-duo",
+        "https://www.apple.com/in/newsroom/"
+      ],
+      "note": "Official India store verifies exact capacity and full price, preorder 16 Oct and availability 23 Oct. Future first sale: no addition or resale placeholder. Announcement predates the review window; reviewed only to preserve the saved future-sale hold."
+    },
+    {
+      "key": "iphone_duo_512",
+      "action": "hold_future_sale",
+      "launch_date": "2026-09-09",
+      "first_sale_date": "2026-10-23",
+      "net_new_inr": 324900,
+      "resale_target_a1": null,
+      "buyback_market": null,
+      "sources": [
+        "https://www.apple.com/in/shop/buy-iphone/iphone-duo",
+        "https://www.apple.com/in/newsroom/"
+      ],
+      "note": "Official India store verifies exact capacity and full price, preorder 16 Oct and availability 23 Oct. Future first sale: no addition or resale placeholder. Announcement predates the review window; reviewed only to preserve the saved future-sale hold."
+    },
+    {
+      "key": "iphone_duo_1tb",
+      "action": "hold_future_sale",
+      "launch_date": "2026-09-09",
+      "first_sale_date": "2026-10-23",
+      "net_new_inr": 374900,
+      "resale_target_a1": null,
+      "buyback_market": null,
+      "sources": [
+        "https://www.apple.com/in/shop/buy-iphone/iphone-duo",
+        "https://www.apple.com/in/newsroom/"
+      ],
+      "note": "Official India store verifies exact capacity and full price, preorder 16 Oct and availability 23 Oct. Future first sale: no addition or resale placeholder. Announcement predates the review window; reviewed only to preserve the saved future-sale hold."
+    },
+    {
+      "key": "iphone_duo_2tb",
+      "action": "hold_future_sale",
+      "launch_date": "2026-09-09",
+      "first_sale_date": "2026-10-23",
+      "net_new_inr": 449900,
+      "resale_target_a1": null,
+      "buyback_market": null,
+      "sources": [
+        "https://www.apple.com/in/shop/buy-iphone/iphone-duo",
+        "https://www.apple.com/in/newsroom/"
+      ],
+      "note": "Official India store verifies exact capacity and full price, preorder 16 Oct and availability 23 Oct. Future first sale: no addition or resale placeholder. Announcement predates the review window; reviewed only to preserve the saved future-sale hold."
+    },
+    {
+      "key": "redmi_17c_5g",
+      "action": "hold_future_launch_unpriced",
+      "launch_date": "2026-10-01",
+      "first_sale_date": null,
+      "net_new_inr": null,
+      "resale_target_a1": null,
+      "buyback_market": null,
+      "sources": [
+        "https://www.mi.com/in/event/redmi-17c-5g"
+      ],
+      "note": "Carry forward saved verified_4 hold only: announced launch is 1 Oct, not a verified first-sale date. No exact India RAM/storage or price established in this review. No per-config keys, no global-config import, no addition."
+    },
+    {
+      "key": "samsung_galaxy_a08_india_launch",
+      "action": "hold_unverified_india_launch",
+      "sources": [
+        "https://www.samsung.com/in/smartphones/",
+        "https://news.samsung.com/in/",
+        "https://www.gadgets360.com/samsung-galaxy-a08-price-in-india-137531"
+      ],
+      "note": "Global/aggregator launch dated 16 Sep is not evidence of an India first sale during 24-30 Sep. No official India exact configuration, price and shipping date established; do not create inferred variants."
+    }
+  ],
+  "total_entries": 2365
+}

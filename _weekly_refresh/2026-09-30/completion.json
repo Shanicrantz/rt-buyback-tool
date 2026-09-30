@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-30",
+  "version": "6.9",
+  "deploy_state": "ready",
+  "deploy_context": "production",
+  "deploy_id": "6abd29db300260625a0f550e",
+  "live_hashes_match": true,
+  "live_hashes": {
+    "index.html": "66b0e9eb705b99c8ee8ceee261a9dcc62aea0917141d590ee4612e164181b064",
+    "phone_db.json": "9891eafa3f4156055757ad36f6bfb3cf77f72c38500649a228a35f946606052b"
+  },
+  "site": "https://rt-buyback-tool.netlify.app/",
+  "entries": 2365
+}

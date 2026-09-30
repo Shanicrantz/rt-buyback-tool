@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "version": "6.7",
-    "last_calibration": "2026-09-26",
+    "version": "6.9",
+    "last_calibration": "2026-09-30",
     "total_phones": "auto-counted on save",
     "schema_priority_order": [
       "1. rt_buyback_a1_override (direct number, Shane sets)",
@@ -95,6 +95,14 @@
         "event": "iPhone Duo announced for India, first sale 2026-10-23 (256GB Rs2,99,900 / 512GB Rs3,24,900 / 1TB Rs3,74,900 / 2TB Rs4,49,900, apple.com/in).",
         "effect": "Held until it ships; carried in _held_future_2026-09-26.json.",
         "confidence": "high (apple.com/in via gap-audit critic 2026-09-26)"
+      },
+      "refresh_2026_09_30": {
+        "scoped": 96,
+        "accepted": 44,
+        "quotes_moved": 40,
+        "new_configs": 4,
+        "removed_phantoms": 1,
+        "confidence": "Conservative source-reviewed estimates; not completed local sale confirmations"
       }
     },
     "v5_2_changelog": "Market-signal price refresh (2026-07-06). SIGNAL 1: Galaxy Z Fold 8/Flip 8 Unpacked Jul 22 (imminent) -> trimmed outgoing NON-OVERRIDE anchors to live Cashify with 5-10% pre-launch haircut: Fold 7/6 (all storages), Fold 4 (also fixed 256>512 inversion), Flip 7/7FE/6/5. SIGNAL 2: S25 Ultra on Amazon Prime Day (Jul 4-6) flash Rs84,999 vs MRP 1,29,999 — confirmed TEMPORARY, so S25 Ultra OVERRIDE held (Rs66,700, conservative vs live); flagged 512<256 override inversion for Shane. Also trimmed S25 FE (prev-gen). 0 override values auto-changed; 5 override divergences logged to _review_overrides.json. Added _meta.market_signals (successor-imminent + temporary-sale rules).",
@@ -121,7 +129,9 @@
     "v6_4_2_changelog": "Hand decision + anchor repair on the iPad Pro M4 13in line (2026-09-10). Shane set the 13in 256GB WiFi buyback to Rs67,100 — the hard cap (verified resale Rs73,000 x 0.92, 8% margin), a deliberate above-formula posture to win the walk-in; stored as rt_buyback_a1_override so the weekly refresh does not move it, with override_review_below_resale=72935 recording the resale at which it would start paying above the ceiling. Raising it exposed a broken sibling: the 13in 512GB carried market_resale_observed Rs68,000, BELOW Cashify's own sell-old headline of Rs70,020 for the same unit — a buyer cannot pay more than the thing resells for, so that anchor was impossible and would also have inverted against the raised 256GB. Re-anchored to Rs80,000 (marked estimated, to be re-researched next week). The Rs70,020 was NOT stored as buyback_market: it is an 'up to' headline, the same contaminated pattern rejected on the Vivo X Fold5. Vivo X Fold5 left at Rs69,400 per Shane. Flagged for next week: ipad_pro_m4_11_512_wifi computes Rs72,269 off a stale Rs86,000 anchor, pricing the 11in ABOVE the larger 13in despite a Rs30,000 lower new price — incoherent, needs research rather than a guess.",
     "v6_5_changelog": "Weekly brain refresh (2026-09-16; applied and deployed 2026-09-17). SHANE-FLAGGED GAP FIXED: Vivo T3x 5G 6/128 and 8/128 were missing. Vivo India's launch release, spec page ('4/6/8 GB + 128 GB') and price-cut releases confirm the India line-up is exactly 4/128, 6/128, 8/128 (current Rs12,499 / 13,999 / 15,499). Added 6/128 (A1 Rs7,200, verified) and 8/128 (A1 Rs7,200, estimated: 8GB OLX data is thin and polluted by '4+4 virtual RAM' ads, so it is held level with 6/128). The DB's 4/256 was a PHANTOM (never sold in India) and is removed; 4/128 re-priced Rs8,400 -> Rs6,400 off 14 hand-read OLX ads (its old anchor was Cashify refurb x0.95, a rejected method) with its round Rs14,000 new price and launch date corrected. MARKET REPRICE: 96 models (12x8, fetch + adversarial critic, 24 corrected) re-anchored 92 (73 moved >=0.5%). 4 India launches added (Infinix Hot 70 Pro 5G 6/128 + 8/128, Oppo K14 Lite 4/64, Lava Bold N4 Lite 3/32). NEW HOLDS: (1) ANNOUNCED-BUT-NOT-ON-SALE by first-sale date — Redmi Note 17 Pro (8/128, 8/256; sale 09-17) and Note 17 Pro Max (8/256, 12/256; sale 09-23) were announced 09-15, so the launch-date check alone would have admitted them; _add_gaps.py now keys the hold off the confirmed first-sale date. 19 SKUs held in total (_held_future_2026-09-16.json, incl. iPhone 18 Pro/Pro Max, Watch S12/SE 3/Ultra 4, S26 FE shipping 09-18). (2) SUCCESSOR-SHIPPING HOLD — research wanted +22% to +46% on the iPhone 17 Pro / Pro Max line (resale at ~92% of new off Cashify refurb retail) two days before the 18 Pro ships; all 7 rises refused, drops still apply. (3) CRITIC BACK-SOLVE REJECTED — the critic raised iPad Pro M4 13in 512 resale 82k -> 88k explicitly 'so RT clears the competitor rate', which the brain forbids and which also slid a Cashify Get-Upto under the incoherent-spread filter. OUTLIER VERIFICATION (verify + adversarial refute, 42 items): 27 repriced, 7 rolled back, 8 phantoms removed. Of the 28 rises the +8% cap blocked, 10 were granted (all partially, mostly budget/mid phones where the move was the <24mo margin), 12 were LOWERED below where they started the week, 5 refused, 1 was a phantom — the cap stays load-bearing for a fourth week. Two drops were REFUSED on evidence: iPad Air M4 13in (Apple raised India new to Rs1,19,900 in June, so used cannot have collapsed to 46k) and MacBook Pro 14 M4 (the 82k was back-solved from a family-level Cashify headline). FIXED: a refused move now restores the whole week-start entry — resetting only the anchor left research resale on the entry and would have tripped a1_above_resale. PHANTOMS REMOVED (14), every one hand-verified against an India source: Vivo T3x 4/256; Motorola Razr 60 Ultra 12/512 (India: single 16/512); Pixel 9 Pro 128 and 9 Pro XL 1TB; OnePlus Nord 5 8/128; Poco X7 Pro 8/512; Motorola Edge 60 Neo 8/256 + 12/512 (never launched in India); Pixel 10 Pro 16/512; Xiaomi 14 Civi 8/512; Realme GT 6 8/512; Moto Edge 70 Fusion 8/512; Moto Edge 60 Pro 12/512; Moto Edge 60 Fusion 8/512. REAL CONFIGS ADDED IN THEIR PLACE (12): T3x 6/128 + 8/128, Razr 60 Ultra 16/512, Redmi Note 14 Pro+ 8/128 + 12/512, Nord 5 12/256 + 12/512, Poco X7 Pro 12/256, Edge 60 Pro 8/256 + 16/512, Edge 60 Fusion 12/256 + 8/128. ONE PHANTOM CALL OVERTURNED: last week's follow-up said Redmi Note 14 Pro+ 8/256 was a phantom; the Xiaomi India specs page reads 'Variants 8+128 | 8+256 | 12+512' — it is REAL and kept. OVERPAYS CORRECTED (resale anchored above Cashify's own warrantied refurb retail): Xiaomi 14 Civi 12/512 A1 26,200 -> 20,200; Realme GT 6 16/512 21,600 -> 19,300 and 12/256 20,200 -> 18,100; Pixel 10 Pro 256 70,100 -> 61,900, XL 256 71,900 -> 65,500, XL 512 81,000 -> 68,200; Z Fold 7 512 101,200 -> 89,200 (it had priced above the 1TB); Pixel 9 Pro 256 48,700 -> 43,700, 9 Pro XL 256 54,100 -> 45,400. iPAD PRO M4 CARRY-FORWARD SETTLED: 11in 512 was priced above the larger 13in off a stale Rs86,000 anchor — now resale 68k, A1 Rs57,100. 13in 512 resale 78k (A1 levelled to Shane's 13in 256 override Rs67,100). Shane's override re-checked: resale Rs75,000 is above its Rs72,935 review line, so it holds (cushion Rs2,065). PIPELINE FIXES: storage-inversion repair no longer lifts freshly researched prices up to a stale sibling (it lowers the stale one — Galaxy A26 8/128 14,400 -> 12,800), and now covers suffixed tablet keys (_wifi), which had never been checked; placeholder-anchored 'estimated' entries take research drops unbanded. Guardrails that fired: 20+ competitor quotes discarded as incoherent (buyback >85% of resale).",
     "v6_6_changelog": "Weekly brain refresh (2026-09-21). MARKET REPRICE: 96 models (12x8, fetch + adversarial critic, 29 corrected) re-anchored 94 (56 moved >=0.5%). Scope was deliberately re-weighted this week: 58 of the 96 were forced carry-forwards. SUCCESSOR SHIPPED 2026-09-18: iPhone 18 Pro / 18 Pro Max, Apple Watch Series 12 / Ultra 4 and Galaxy S26 FE went on sale in India. The outgoing iPhone 17 Pro line was re-anchored on OBSERVED post-launch resale and softened as predicted (17 Pro 256 A1 102,800 -> 94,600; 512 -> 101,900; 1TB -> 111,000; Pro Max 256 -> 104,600; 512 -> 112,800; 1TB -> 121,000; 2TB held at 121,900 after verification refused research's +11% on two Mumbai asking prices). Rises on the outgoing generation (17 Pro, S25 FE) stay refused for one more week while the used market settles; drops apply. The S25 FE's successor-held rises were instead settled by Opus verify+refute on post-09-18 datapoints only: 128 A1 25,400 -> 27,800, 256 29,200 -> 30,500, 512 33,600 -> 32,800 (its July anticipatory trim was for the wrong successor). LAUNCHES ADDED (19, all first sold on/before today; <30-day ones on an explicit new x0.80 placeholder marked 'estimated'): iPhone 18 Pro 256/512/1TB/2TB and 18 Pro Max 256/512/1TB/2TB (apple.com/in), Apple Watch Series 12 42/46mm and Ultra 4, Galaxy S26 FE 8/256 at Rs79,999 (India ships ONLY that config — the held 128GB was a phantom and was rejected), Redmi Note 17 Pro 5G 8/128 + 8/256 (on sale 09-17), Vivo Y31t 5G 4/128, 6/128, 6/256 (on sale offline 2026-08-21), and Apple Watch SE 3 40/44mm, which turned out to be a SEPT-2025 model the hold had misfiled as a 2026 launch. STILL HELD (first sale in the future): Redmi Note 17 Pro Max (09-23), OnePlus N6 Lite (09-22), Realme 16 Pro Harry Potter Edition (09-22), Lava Bold N4 Pro (09-26), Lava Virat Curve (09-28). GAPS FILLED BY VERIFY+REFUTE (5): the SE 3 finding exposed that the DB had Series 10 and 12 but no Series 11 or Ultra 3 — Apple Watch Series 11 42/46mm (A1 25,000 / 26,400) and Ultra 3 (A1 49,100) added on OLX/dealer datapoints; Realme P3 Ultra 12/256 and 8/128 added as the real configs behind a removed phantom. PHANTOM REMOVED (1): Realme P3 Ultra 8/512 — India line-up is 8/128, 8/256, 12/256 only, max 256GB (Mobigyaan / Zee Biz launch coverage, hand-read; refuter concurred on realme.com/in). HEADLINE — CALCIFIED PLACEHOLDERS: a DB-wide scan found 31 entries (mostly the 2026-08-07 gap audit, before the placeholder guardrail existed) whose resale was EXACTLY 80% of a round, unverified new price yet stamped 'verified'. Asked to research them from scratch, the weekly agents mostly handed back the same ~80% 'thin market' convention (24 of 31) — so those were held 'estimated', refused any rise, and sent to Opus verify+refute, which read real OLX / ORUphones / Cashify datapoints. ALL 31 CAME DOWN: net Rs61,229 of A1 removed, led by OnePlus Pad 2 12/256 30,800 -> 18,500 and 8/128 26,700 -> 16,800, iPhone 16e 128 34,600 -> 30,900 (its stored 'new' was a round 48,000; Apple India's is 59,900), Galaxy S24 256 31,500 -> 28,600, S24 Ultra 512 56,300 -> 53,800. Their round new prices were replaced with brand-sourced ones (and 2026 hikes: Moto G37 Power 8/128 now Rs25,999, OnePlus N6x +Rs2,000). OUTLIER VERIFICATION (Opus verify + adversarial refute, 53 items): 40 repriced, 4 rolled back, 1 removed, 5 added. Of the 11 rises the +8% cap blocked, NONE survived at the capped level: 4 granted smaller (+5 to +7%), 4 LOWERED below where they started the week, 3 refused — fifth consecutive week. OTHER FINDINGS: research put the iPad Pro M5 11in above the 13in; verification confirmed Apple India's post-hike prices (11in 256 Rs1,39,900, 13in 256 Rs1,99,900 — the 13in figure a critic had rejected as a rendering error is real) and granted the 11in only resale 85k (A1 77,300); the higher new price was NOT allowed to loosen the stored ceiling. S25 Ultra 256 research sat at Cashify refurb retail on a false 'still current generation' premise (the S26 Ultra shipped months ago). PIPELINE FIXES: (1) outlier 'refuse' on a non-rise item no longer restores week-start (it would have undone this week's drops, e.g. Moto G37 Power 4/128 9,840 -> 10,240); (2) a refused rise now restores the week-start entry even when A1 did not move, so refuted research never sits on an entry as 'verified'; (3) verification may lower net_new_inr or replace a round-number one, but never loosens a trusted ceiling; (4) verify+refute can now ADD a missing model on triangulated evidence. ",
-    "v6_7_changelog": "Brain refresh (2026-09-26, run on request 5 days after v6.6). MARKET REPRICE: 96 models (12x8, fetch + adversarial critic, 47 corrected) re-anchored 94 (78 moved >=0.5%); entries refreshed on 09-21 were excluded except where forced. HEADLINE — FOLDABLE PLACEHOLDERS, ROUND 2: 16 entries still sat at EXACTLY 80% of new on phones 66-890 days old, led by the whole Galaxy Z Fold8 / Fold8 Ultra / Flip8 family, which the 09-21 research had 'confirmed' at 61 days by applying the prompt's own thin-market convention. The prompt hint is now restricted to phones <30 days old. Re-researched and verify+refuted against live Cashify sell ceilings, the family came down hard: Fold8 12/256 A1 130,100 -> 97,400, 12/512 145,600 -> 108,200, 16/1TB 174,700 -> 129,800; Fold8 Ultra 256 145,600 -> 121,000, 512 160,100 -> 127,400, 1TB 189,300 -> 136,500; Flip8 256 91,900 -> 74,600, 512 107,400 -> 86,500; Razr Fold -6 to -9%. Net Rs2.80 lakh of A1 removed on foldables alone. LADDER CAP (new, _ladder_cap_2026-09-26.py): verification repriced some Fold8/Flip8 trims off live data while siblings kept weaker research, leaving a Rs42,000 used step between Fold8 256 and 512 against a Rs20,000 new-price step and the standard Fold8 512/1TB priced ABOVE the Fold8 Ultra. Larger trims are now capped at the verified base trim's resale x the new-price ratio (lowers only). OUTLIER VERIFICATION (Opus verify + adversarial refute, 41 items): 25 lowered, 13 rolled back to week-start, 2 held, 0 granted. All 23 rises the +8% cap (or the successor hold) blocked were refused or lowered — the sixth consecutive measurement and the first with zero grants. Several stored net_new_inr were fabricated and corrected (Vivo V70 Elite 12/512 'Rs77,000' is Rs61,999; 12/256 'Rs72,000' is Rs63,999; iPhone 17e 256 is Rs64,900). LAUNCHES ADDED (8; <30-day ones on an explicit new x0.80 placeholder, 'estimated'): Redmi Note 17 Pro Max 8/256 + 12/256 (on sale 09-23), Realme 16 Pro 5G Harry Potter Edition 12/256 (09-22), OnePlus N6 Lite 4/64 at Rs16,999 (09-22, 4G Unisoc), Lava Bold N4 Pro 5G 6/128 (first sale today), itel Zeno 300 4/64 (09-25), and Nothing Phone (3a) Lite 8/128 + 8/256 (Nov-2025 gap; the critic put resale ABOVE Cashify's own refurb price, so it was capped and re-verified down to A1 14,600 / 15,500). HELD (first sale in the future): iPhone Duo 256/512/1TB/2TB (10-23, Rs2,99,900-4,49,900), Redmi 17C (10-01), Oppo K14 Plus (09-29), Lava Virat Curve (09-28). PHANTOMS REMOVED (2): Oppo A6s 8/128 and 8/256 — OPPO India's own newsroom (hand-read) lists the A6s 5G as 4/128 Rs18,999 and 6/128 Rs20,999 only (launched 2026-03-18). The real configs were added 'estimated' at the refuter's conservative indicative resale (A1 10,400 / 11,200) — removal and repair are one operation. PIPELINE FIXES: verified competitor quotes now pass the same 85%-of-resale coherence filter as the weekly script (7 'Get Upto' headlines dropped, incl. iPhone 17e 256 at 95% that had raised a false 'Cashify pays more' alarm); the placeholder-echo band widened to 0.865 (Fold8 Ultra 256 landed on 0.8600). "
+    "v6_7_changelog": "Brain refresh (2026-09-26, run on request 5 days after v6.6). MARKET REPRICE: 96 models (12x8, fetch + adversarial critic, 47 corrected) re-anchored 94 (78 moved >=0.5%); entries refreshed on 09-21 were excluded except where forced. HEADLINE — FOLDABLE PLACEHOLDERS, ROUND 2: 16 entries still sat at EXACTLY 80% of new on phones 66-890 days old, led by the whole Galaxy Z Fold8 / Fold8 Ultra / Flip8 family, which the 09-21 research had 'confirmed' at 61 days by applying the prompt's own thin-market convention. The prompt hint is now restricted to phones <30 days old. Re-researched and verify+refuted against live Cashify sell ceilings, the family came down hard: Fold8 12/256 A1 130,100 -> 97,400, 12/512 145,600 -> 108,200, 16/1TB 174,700 -> 129,800; Fold8 Ultra 256 145,600 -> 121,000, 512 160,100 -> 127,400, 1TB 189,300 -> 136,500; Flip8 256 91,900 -> 74,600, 512 107,400 -> 86,500; Razr Fold -6 to -9%. Net Rs2.80 lakh of A1 removed on foldables alone. LADDER CAP (new, _ladder_cap_2026-09-26.py): verification repriced some Fold8/Flip8 trims off live data while siblings kept weaker research, leaving a Rs42,000 used step between Fold8 256 and 512 against a Rs20,000 new-price step and the standard Fold8 512/1TB priced ABOVE the Fold8 Ultra. Larger trims are now capped at the verified base trim's resale x the new-price ratio (lowers only). OUTLIER VERIFICATION (Opus verify + adversarial refute, 41 items): 25 lowered, 13 rolled back to week-start, 2 held, 0 granted. All 23 rises the +8% cap (or the successor hold) blocked were refused or lowered — the sixth consecutive measurement and the first with zero grants. Several stored net_new_inr were fabricated and corrected (Vivo V70 Elite 12/512 'Rs77,000' is Rs61,999; 12/256 'Rs72,000' is Rs63,999; iPhone 17e 256 is Rs64,900). LAUNCHES ADDED (8; <30-day ones on an explicit new x0.80 placeholder, 'estimated'): Redmi Note 17 Pro Max 8/256 + 12/256 (on sale 09-23), Realme 16 Pro 5G Harry Potter Edition 12/256 (09-22), OnePlus N6 Lite 4/64 at Rs16,999 (09-22, 4G Unisoc), Lava Bold N4 Pro 5G 6/128 (first sale today), itel Zeno 300 4/64 (09-25), and Nothing Phone (3a) Lite 8/128 + 8/256 (Nov-2025 gap; the critic put resale ABOVE Cashify's own refurb price, so it was capped and re-verified down to A1 14,600 / 15,500). HELD (first sale in the future): iPhone Duo 256/512/1TB/2TB (10-23, Rs2,99,900-4,49,900), Redmi 17C (10-01), Oppo K14 Plus (09-29), Lava Virat Curve (09-28). PHANTOMS REMOVED (2): Oppo A6s 8/128 and 8/256 — OPPO India's own newsroom (hand-read) lists the A6s 5G as 4/128 Rs18,999 and 6/128 Rs20,999 only (launched 2026-03-18). The real configs were added 'estimated' at the refuter's conservative indicative resale (A1 10,400 / 11,200) — removal and repair are one operation. PIPELINE FIXES: verified competitor quotes now pass the same 85%-of-resale coherence filter as the weekly script (7 'Get Upto' headlines dropped, incl. iPhone 17e 256 at 95% that had raised a false 'Cashify pays more' alarm); the placeholder-echo band widened to 0.865 (Fold8 Ultra 256 landed on 0.8600). ",
+    "v6_8_changelog": "Limited weekly update 2026-09-28. 96 entries scoped and market-search screened; recent 2026-09-26 research excluded except unresolved carry-forwards. Only one conservative candidate accepted after direct page checks and critical review: Oppo Find X8 Pro 16/512 A1 Rs48,200 -> Rs45,000 (-6.64%). Resale Rs49,500 is an explicit estimate from a current Rs55,000 out-of-warranty, like-new seller ask less a 10% negotiation allowance; a separate Rs58,000 ask is supporting context. No completed sale verified; entry changed from verified to estimated with dated source URLs. Other 95 scoped entries retained unchanged, including their original calibration dates: insufficient corroborated exact-condition evidence, inaccessible/redirected pages, variant or warranty mismatches. No increases, new models or removals. Future launches remain held; Lava first sale is after this daytime check, iPhone Duo remains unavailable before 23 Oct. 2362 entries remain. All unchanged entries are NOT freshly verified. Validated locally only; production publication and Git push not performed.",
+    "v6_9_changelog": "Weekly brain refresh 2026-09-30, resumed from saved 12 fetch+critic batches (96 entries). Independent source review accepted 44 refreshed entries; 40 A1 quotes moved. Added 4 shipping India configurations and removed 1 positively verified phantom configurations. Only the existing 96-entry rotation was researched; this was not a full-catalogue calibration. Resale anchors retain reviewed market estimates, age margins and existing C/D risk floors; public maximum buyback headlines are stored separately from actual condition-specific offers. Asking-price/analog estimates remain estimated. Unsupported increases, movements outside 20%, hard-ceiling conflicts and storage inversions are deferred with prior entries intact. Existing manual rates and net_new_inr are unchanged. Includes the unpublished 28-Sep Oppo Find X8 Pro correction. See _weekly_refresh/2026-09-30/REPORT.md and decisions.json for coverage, evidence and held items."
   },
   "iphone_11_64": {
     "display_name": "iPhone 11 64GB",
@@ -725,13 +735,27 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 134900,
-    "resale_target_a1": 104000,
+    "resale_target_a1": 95000,
     "target_margin": 0.099,
     "notes": "Aluminum unibody, A19 Pro, 200MP+ vapor cooling.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-21",
-    "live_source": "BRAIN 2026-09-21: resale ₹104,000 -> A1 ₹94,600 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 104000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs95,000; A1 Rs86,400; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 95000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 95000 estimate: saved cleaned private asks centered near 108250, with lower ORU comparables and warranty differences, support a conservative reduction and sibling order. No independent live resale recheck. Saved 102000 ceiling above resale does not justify raising either value. Reviewed _ov_updates/verified_2.json.",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-apple-iphone-17-pro-12-gb-256-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 102000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "iphone_17_pro_max_256": {
     "display_name": "iPhone 17 Pro Max 256GB",
@@ -739,13 +763,27 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 149900,
-    "resale_target_a1": 115000,
+    "resale_target_a1": 104000,
     "target_margin": 0.099,
     "notes": "MRP ₹1,49,900. Apple trade-in offer ₹33K-39K for 14 Pro 128 reference.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-21",
-    "live_source": "BRAIN 2026-09-21: resale ₹115,000 -> A1 ₹104,600 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 115000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs104,000; A1 Rs94,600; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 104000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 104000 estimate: saved near-expiry asks 109999-114990 less about 10% and ORU condition adjustment support the reduction. This is not a dealer transaction or locally observed sale. Saved Cashify 110000 is a ceiling, not a competitive payout. Reviewed _ov_updates/verified_1.json. Exact sell-page URL was not preserved in saved evidence; Cashify provider URL is listed instead of a guessed slug.",
+        "sources": [
+          "https://www.cashify.in/"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 110000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "iphone_air_256": {
     "display_name": "iPhone Air 256GB",
@@ -753,13 +791,28 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 119900,
-    "resale_target_a1": 72000,
+    "resale_target_a1": 70000,
     "target_margin": 0.099,
     "notes": "Ultra-thin design. New form factor — verify demand locally.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-21",
-    "live_source": "BRAIN 2026-09-21: resale ₹72,000 -> A1 ₹65,500 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 72000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs70,000; A1 Rs63,700; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 70000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 70000 conservative estimate: saved no-warranty asks 75000-82000 less about 10% overlap it, with soft ORU supply. Official Air configuration/retail labels rechecked only; stored net_new 119900 remains authoritative. Saved 69000 ceiling is not a realized payout. Reviewed _ov_updates/verified_4.json.",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-apple-iphone-air-12-gb-256-gb",
+          "https://www.apple.com/in/shop/buy-iphone/iphone-air"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 69000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "samsung_s22_128": {
     "display_name": "Samsung Galaxy S22 128GB",
@@ -926,16 +979,30 @@
     "discontinued": false,
     "launch_date": "2025-01-22",
     "net_new_inr": 92000,
-    "resale_target_a1": 72800,
+    "resale_target_a1": 67000,
     "target_margin": 0.099,
     "notes": "Discounted from ₹130K launch to ₹104K (April 2026).",
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-21",
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
     "cashify_exchange": 46000,
     "rt_buyback_a1_warranty": 75000,
     "_override_prev": 66700,
-    "live_source": "BRAIN 2026-09-21: resale ₹76,000 -> A1 ₹69,200 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 76000
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs67,000; A1 Rs61,000; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 67000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 67000 estimated mint from saved private asks around 75000 less about 10% and condition-specific ORU review. Original critic correctly separates warranty units from baseline. No live resale recheck. Saved 63970 ceiling is not a payout; parent must inspect any stale warranty override separately. Reviewed _ov_updates/verified_4.json.",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-samsung-galaxy-s25-ultra-5g-12-gb-256-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 64000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "samsung_s25_edge_256": {
     "display_name": "Samsung Galaxy S25 Edge 256GB",
@@ -1032,12 +1099,28 @@
     "discontinued": false,
     "launch_date": "2024-07-24",
     "net_new_inr": 145000,
-    "resale_target_a1": 70000,
+    "resale_target_a1": 61000,
     "target_margin": 0.19,
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-21",
-    "live_source": "BRAIN 2026-09-21: resale ₹70,000 -> A1 ₹58,800 = resale÷(1+0.19) [margin]",
-    "market_resale_observed": 70000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs61,000; A1 Rs51,300; margin 0.19. Evidence retained.",
+    "market_resale_estimate": 61000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 61000 estimated mint at low confidence. Saved full-kit asks 68000-75000 support roughly 61000-67500; live ORU exact 256GB is 48890, Good/no warranty/no box, so it corroborates the lower-condition market only. Do not equate that listing with mint. Saved 65560 ceiling remains separate. Reviewed _ov_updates/verified_4.json.",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-samsung-galaxy-z-fold6-5g-12-gb-256-gb",
+          "https://www.oruphones.com/buy-old-used-phones/samsung/samsung-galaxy-z-fold6/6ab6136b66c83a12be8006a4",
+          "https://www.samsung.com/in/smartphones/galaxy-z-fold6/buy/"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 65600,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "samsung_z_flip_6_256": {
     "display_name": "Samsung Galaxy Z Flip 6 256GB",
@@ -1075,10 +1158,24 @@
     "net_new_inr": 109999,
     "resale_target_a1": 58000,
     "target_margin": 0.099,
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-10",
-    "live_source": "BRAIN 2026-09-10: resale ₹58,000 -> A1 ₹52,800 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 58000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs58,000; A1 Rs52,800; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 58000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept unchanged 58000 estimate: saved clean asks around 65000 and Indian dealer retail 60000-62000 broadly support it after negotiation. Exclude cheaper imported/damaged units. No independent live recheck. 52940 remains a reviewed ceiling. Reviewed _ov_updates/verified_5.json. Exact sell-page URL was not preserved in saved evidence; Cashify provider URL is listed instead of a guessed slug.",
+        "sources": [
+          "https://www.cashify.in/"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 52900,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "samsung_a35_5g_8_128": {
     "display_name": "Samsung Galaxy A35 5G 8/128GB",
@@ -1681,12 +1778,26 @@
     "discontinued": false,
     "launch_date": "2024-11-21",
     "net_new_inr": 99999,
-    "resale_target_a1": 53000,
+    "resale_target_a1": 47500,
     "target_margin": 0.099,
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-10",
-    "live_source": "BRAIN 2026-09-10: resale ₹53,000 -> A1 ₹48,200 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 53000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs47,500; A1 Rs43,200; margin 0.099. Evidence retained.",
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 47500 conservative estimate. Saved September dealer/private asks around 47000-51500, with stale higher asks, support this after negotiation. Exact configuration retained; no current resale recheck. Saved 44880 headline remains a ceiling. Reviewed _ov_updates/verified_5.json.",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-oppo-find-x8-pro-5g-16-gb-512-gb"
+        ]
+      }
+    ],
+    "market_resale_estimate": 47500,
+    "market_buyback_ceiling": 44900,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "oppo_find_x9_12_256": {
     "display_name": "Oppo Find X9 12/256GB",
@@ -1786,12 +1897,26 @@
     "discontinued": false,
     "launch_date": "2026-01-08",
     "net_new_inr": 42000,
-    "resale_target_a1": 32000,
+    "resale_target_a1": 33500,
     "target_margin": 0.099,
-    "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "BRAIN 2026-08-24: resale ₹32,000 -> A1 ₹29,100 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 32000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs33,500; A1 Rs30,500; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 33500,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_8/fetch_8; used listings not live-rechecked here. Correct 34k to 33.5k: saved critic exact 8/256 ask median 37,500 less 10% is 33,750; conservative rounding is independent of Cashify. Reject critic 85%-spread resale floor. This is an estimate supporting a modest rise, not a paid local sale.",
+        "sources": [
+          "https://www.olx.in/items/q-oppo-reno"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 28300,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "oppo_f27_5g_8_128": {
     "display_name": "Oppo F27 5G 8/128GB",
@@ -1953,11 +2078,27 @@
     "discontinued": false,
     "launch_date": "2024-12-09",
     "net_new_inr": 23000,
-    "resale_target_a1": 17500,
-    "target_margin": 0.25,
-    "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "Cashify refurb 128GB Fair at ₹18,199 (excellent ~₹20,500); Flipkart 128GB NET ₹22,799 (selling ₹23,999 – ₹1,200 bank offer). Resale A1 capped at NET×0.80=₹18,23"
+    "resale_target_a1": 13500,
+    "target_margin": 0.099,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs13,500; A1 Rs12,300; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 13500,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_11/fetch_11; used listings not live-rechecked here. Saved exact private ask median ~15.5k less 10% is ~13.95k; ORU LikeNew 12.66-13.22k supports a lower blend. Accept 13.5k estimate; exclude repeated warranty dealer ads, ceiling back-solves and new-price overwrite.",
+        "sources": [
+          "https://www.olx.in/items/q-redmi-note-14-pro-5g",
+          "https://www.cashify.in/sell-old-mobile-phone/used-xiaomi-redmi-note-14-pro-5g-8-gb-128-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 15600,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "redmi_note_14_pro_plus_5g_8_256": {
     "display_name": "Redmi Note 14 Pro+ 5G 8/256GB",
@@ -4673,14 +4814,28 @@
     "discontinued": false,
     "launch_date": "2026-04-15",
     "net_new_inr": 40000,
-    "resale_target_a1": 33600,
+    "resale_target_a1": 33500,
     "target_margin": 0.099,
     "notes": "Just launched. Limited resale data.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "BRAIN 2026-08-24: resale ₹33,600 / market buys ₹26,800 -> A1 ₹30,600 = resale÷(1+0.099) [margin]",
-    "buyback_market": 26800,
-    "market_resale_observed": 33600
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs33,500; A1 Rs30,500; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 33500,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_7/fetch_7; used listings not live-rechecked here. Accept small fall to 33,500 as a conservative estimate: saved lower dealer offers and refurb upper bound contradict the fetch rise. Do not use Cashify/Reuz multiples as independent resale legs; current local mint value remains uncertain.",
+        "sources": [
+          "https://www.olx.in/items/q-oneplus-nord",
+          "https://www.cashify.in/sell-old-mobile-phone/used-oneplus-nord-6-5g-8-gb-256-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 26300,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "google_pixel_7_pro_256": {
     "display_name": "Google Pixel 7 Pro 256GB",
@@ -4970,15 +5125,29 @@
     "discontinued": false,
     "launch_date": "2025-01-22",
     "net_new_inr": 104000,
-    "resale_target_a1": 72800,
+    "resale_target_a1": 72000,
     "target_margin": 0.099,
     "notes": "Discounted from ₹130K launch to ₹104K (April 2026).",
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-21",
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
     "cashify_exchange": 51000,
     "_override_prev": 63300,
-    "live_source": "VERIFIED 2026-09-21 (lower): resale ₹72,000 -> A1 ₹65,500 = resale÷(1+0.099) [margin] conf=medium",
-    "market_resale_observed": 72000
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs72,000; A1 Rs65,500; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 72000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 72000 estimate from saved own-variant asks 79000-80000 less about 10%, with a modest storage step. Thin ORU coverage limits confidence. No live resale recheck. Saved 68780 ceiling remains separate; authoritative net_new 104000 is unchanged. Reviewed _ov_updates/verified_4.json.",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-samsung-galaxy-s25-ultra-5g-12-gb-512-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 68800,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "samsung_s25_ultra_1tb": {
     "display_name": "Samsung Galaxy S25 Ultra 1TB",
@@ -5193,12 +5362,27 @@
     "discontinued": false,
     "launch_date": "2025-06-18",
     "net_new_inr": 24000,
-    "resale_target_a1": 19200,
+    "resale_target_a1": 18000,
     "target_margin": 0.25,
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-26",
-    "live_source": "BRAIN 2026-09-26: resale ₹19,200 -> A1 ₹15,400 = resale÷(1+0.25) [margin]",
-    "market_resale_observed": 19200
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs18,000; A1 Rs14,400; margin 0.25. Evidence retained.",
+    "market_resale_estimate": 18000,
+    "market_resale_basis": "saved_regional_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "saved_regional_ask_estimate",
+        "note": "Reviewed saved verified_10/fetch_10; used listings not live-rechecked here. Correct calcified 19,200 to 18k: saved north exact asks median 19k imply 17.1k after 10%; west-UP asks median 20k imply 18k; ORU exact Good asks median 17,210 before negotiation. National medians, buyer multiples and old 19.2k anchor should not outweigh local evidence. Estimate, not observed mint fill.",
+        "sources": [
+          "https://www.olx.in/items/q-vivo-y400-5g",
+          "https://www.cashify.in/sell-old-mobile-phone/used-vivo-y400-5g-8-gb-256-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 16800,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "poco_x7_5g_8_256": {
     "display_name": "Poco X7 5G 8/256GB",
@@ -5218,11 +5402,27 @@
     "discontinued": false,
     "launch_date": "2025-04-22",
     "net_new_inr": 24000,
-    "resale_target_a1": 18000,
+    "resale_target_a1": 17500,
     "target_margin": 0.25,
-    "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
-    "live_source": "Scaled from 8/128 A1 resale Rs.16,500; 256GB premium ~Rs.1,500; new price 8/256 = Rs.23,999; Cashify refurb 12/256 = Rs.20,299 (ceiling reference), 25-Jun-2026 | margin floored to "
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs17,500; A1 Rs14,000; margin 0.25. Evidence retained.",
+    "market_resale_estimate": 17500,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_10/fetch_10; used listings not live-rechecked here. Saved critic exact 8/256 asks n=9, median 19,500, imply 17,550 after 10% negotiation. Accept 17,500 conservative fall. Sparse older ORU observations do not establish a current sale or new-price hike.",
+        "sources": [
+          "https://www.olx.in/items/q-iqoo-z10-5g",
+          "https://www.cashify.in/sell-old-mobile-phone/used-iqoo-z10-5g-8-gb-256-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 16700,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "google_pixel_7_256": {
     "display_name": "Google Pixel 7 256GB",
@@ -5459,13 +5659,27 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 169900,
-    "resale_target_a1": 124000,
+    "resale_target_a1": 114000,
     "target_margin": 0.099,
     "notes": "MRP ₹1,49,900. Apple trade-in offer ₹33K-39K for 14 Pro 128 reference.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-21",
-    "live_source": "BRAIN 2026-09-21: resale ₹124,000 -> A1 ₹112,800 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 124000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs114,000; A1 Rs103,700; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 114000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 114000 estimated mint without extra warranty premium. Saved critic identifies near-expiry asks 120000-125000, about 108000-112500 after negotiation; mixed imports and high warranty-backed asks explain dispersion. Not independently re-fetched. Keep 117000 ceiling separate even though it exceeds resale. Reviewed _ov_updates/verified_0.json.",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-apple-iphone-17-pro-max-12-gb-512-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 117000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "iphone_17_pro_max_1tb": {
     "display_name": "iPhone 17 Pro Max 1TB",
@@ -5473,13 +5687,27 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 189900,
-    "resale_target_a1": 133000,
+    "resale_target_a1": 123000,
     "target_margin": 0.099,
     "notes": "MRP ₹1,49,900. Apple trade-in offer ₹33K-39K for 14 Pro 128 reference.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-21",
-    "live_source": "BRAIN 2026-09-21: resale ₹133,000 -> A1 ₹121,000 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 133000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs123,000; A1 Rs111,900; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 123000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 123000 estimated local mint. Saved review distinguishes near-expiry units from high dealer/import asks and uses current ORU asks around 115000-117000 plus a modest storage premium. No live resale recheck; 118700 remains a reviewed headline ceiling. Reviewed _ov_updates/verified_0.json.",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-apple-iphone-17-pro-max-12-gb-1-tb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 118700,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "iphone_17_pro_max_2tb": {
     "display_name": "iPhone 17 Pro Max 2TB",
@@ -5487,14 +5715,28 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 229900,
-    "resale_target_a1": 134000,
+    "resale_target_a1": 131000,
     "target_margin": 0.099,
     "notes": "MRP ₹1,49,900. Apple trade-in offer ₹33K-39K for 14 Pro 128 reference.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-16",
-    "live_source": "BRAIN 2026-09-16: resale ₹195,000 / market buys ₹125,000 -> A1 ₹121,900 = resale÷(1+0.099) [held: successor ships 2026-09-18]",
-    "market_resale_observed": 195000,
-    "last_verification": "2026-09-26: refuse — research move refused, week-start entry restored"
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs131,000; A1 Rs119,200; margin 0.099. Evidence retained.",
+    "last_verification": "2026-09-26: refuse — research move refused, week-start entry restored",
+    "market_resale_estimate": 131000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 131000 as a low-confidence estimate, not observed resale. Saved review trims near-new/import asks and uses historical ORU listings plus a modest storage step; original 146000 fetch overstated liquidity. Historical sold labels do not prove realized prices. Ceiling 123000 reviewed only. Reviewed _ov_updates/verified_0.json.",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-apple-iphone-17-pro-max-12-gb-2-tb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 123000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "samsung_s26_512": {
     "display_name": "Samsung Galaxy S26 512GB",
@@ -5567,16 +5809,29 @@
     "discontinued": false,
     "launch_date": "2024-09-20",
     "net_new_inr": 76000,
-    "resale_target_a1": 65000,
+    "resale_target_a1": 61000,
     "target_margin": 0.19,
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-10",
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
     "cashify_exchange": 38500,
     "notes": "Recalibrated 2026-06: Flipkart street price drop adjustment.",
     "_override_prev": 57200,
-    "buyback_market": 52800,
-    "live_source": "BRAIN 2026-09-10: resale ₹65,000 / market buys ₹52,800 -> A1 ₹54,600 = resale÷(1+0.19) [margin]",
-    "market_resale_observed": 65000
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs61,000; A1 Rs51,300; margin 0.19. Evidence retained.",
+    "market_resale_estimate": 61000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 61000 estimated mint from saved 77 clean exact-256 asks, median 67000 and high-battery subset 68500, less about 10%. Refurb is only a cross-check upper bound. No live recheck. Saved 53760 headline cannot be stored as market payout. Reviewed _ov_updates/verified_5.json. Exact sell-page URL was not preserved in saved evidence; Cashify provider URL is listed instead of a guessed slug.",
+        "sources": [
+          "https://www.cashify.in/"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 53800,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "iphone_16_plus_512": {
     "display_name": "iPhone 16 Plus 512GB",
@@ -5601,12 +5856,27 @@
     "discontinued": false,
     "launch_date": "2024-07-24",
     "net_new_inr": 163000,
-    "resale_target_a1": 76000,
+    "resale_target_a1": 65000,
     "target_margin": 0.19,
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-21",
-    "live_source": "BRAIN 2026-09-21: resale ₹76,000 -> A1 ₹63,900 = resale÷(1+0.19) [margin]",
-    "market_resale_observed": 76000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs65,000; A1 Rs54,600; margin 0.19. Evidence retained.",
+    "market_resale_estimate": 65000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept conservative 65000 estimate with low confidence: saved exact asks 65000-78000 conflict with ORU Good 57000-59400; warranty/condition and local-demand allowance explain the range. No own-512 live resale recheck. 66240 ceiling stays separate even above resale. Reviewed _ov_updates/verified_4.json.",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-samsung-galaxy-z-fold6-5g-12-gb-512-gb",
+          "https://www.samsung.com/in/smartphones/galaxy-z-fold6/buy/"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 66200,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "samsung_z_fold_6_1tb": {
     "display_name": "Samsung Galaxy Z Fold 6 1TB",
@@ -5614,13 +5884,27 @@
     "discontinued": false,
     "launch_date": "2024-07-24",
     "net_new_inr": 185000,
-    "resale_target_a1": 85000,
+    "resale_target_a1": 70000,
     "target_margin": 0.19,
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-21",
-    "live_source": "BRAIN 2026-09-21: resale ₹85,000 / market buys ₹70,500 -> A1 ₹71,400 = resale÷(1+0.19) [margin]",
-    "buyback_market": 70500,
-    "market_resale_observed": 85000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs70,000; A1 Rs58,800; margin 0.19. Evidence retained.",
+    "market_resale_estimate": 70000,
+    "market_resale_basis": "estimated_local_mint_not_observed; independent_fetch_3_critic",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; independent_fetch_3_critic",
+        "note": "Independent fetch_3 critic: correct 73000 to estimated 70000 (baseline 85000). Saved exact asks 70000/78000/82999/85000 support a conservative mint range; accepted 512GB falls from fetch 68000 to 65000, retaining about 5000 used-storage step. Cashify exact 12/1TB ceiling 68830 fetched live. No local sale observed. Reviewed _ov_updates/fetch_3.json (missing critic recovered here).",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-samsung-galaxy-z-fold6-5g-12-gb-1-tb",
+          "https://www.samsung.com/in/smartphones/galaxy-z-fold6/buy/"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 68800,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "redmi_note_13_pro_5g_8_256": {
     "display_name": "Redmi Note 13 Pro 5G 8/256GB",
@@ -5778,20 +6062,6 @@
     "calibration_status": "verified",
     "calibration_date": "2026-06-25",
     "live_source": "Cashify sell used-realme-p1-5g-8-gb-256-gb: upto ₹10,140 exchange; 8GB/256GB refurb anchor estimated ₹12,500 (+₹1,500 over 128GB tier); 25-Jun-2026"
-  },
-  "oneplus_15_12_512": {
-    "display_name": "OnePlus 15 12/512GB",
-    "tier": "A",
-    "discontinued": false,
-    "launch_date": "2025-10-27",
-    "net_new_inr": 79999,
-    "resale_target_a1": 52000,
-    "target_margin": 0.099,
-    "notes": "Latest flagship. Detail Max Engine.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-10",
-    "live_source": "VERIFIED 2026-09-10 (lower): resale ₹52,000 -> A1 ₹47,300 = resale÷(1+0.099) [margin] conf=low",
-    "market_resale_observed": 52000
   },
   "samsung_a25_5g_8_256": {
     "display_name": "Samsung Galaxy A25 5G 8/256GB",
@@ -6683,13 +6953,27 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 154900,
-    "resale_target_a1": 112000,
+    "resale_target_a1": 100000,
     "target_margin": 0.099,
     "notes": "Aluminum unibody, A19 Pro, 200MP+ vapor cooling.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-21",
-    "live_source": "BRAIN 2026-09-21: resale ₹112,000 -> A1 ₹101,900 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 112000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs100,000; A1 Rs91,000; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 100000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 100000 estimate with low confidence: saved critic separates warranty-heavy OLX asks from older ORU evidence and restores a sensible Pro/Pro Max order. Historical sold-labelled ads are not verified realized prices. No live price recheck; 108000 ceiling stays separate. Reviewed _ov_updates/verified_1.json. Exact sell-page URL was not preserved in saved evidence; Cashify provider URL is listed instead of a guessed slug.",
+        "sources": [
+          "https://www.cashify.in/"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 108000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "iphone_17_pro_1tb": {
     "display_name": "iPhone 17 Pro 1TB",
@@ -6697,13 +6981,27 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 174900,
-    "resale_target_a1": 122000,
+    "resale_target_a1": 108000,
     "target_margin": 0.099,
     "notes": "Aluminum unibody, A19 Pro, 200MP+ vapor cooling.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-21",
-    "live_source": "BRAIN 2026-09-21: resale ₹122,000 -> A1 ₹111,000 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 122000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs108,000; A1 Rs98,300; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 108000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 108000 estimate from saved near-expiry asks 120000-130000 and sibling checks. Mixed region/condition and thin ORU evidence limit confidence. No live resale recheck. Reviewed 109000 ceiling may exceed local resale; do not inflate resale to match it. Reviewed _ov_updates/verified_0.json.",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-apple-iphone-17-pro-12-gb-1-tb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 109000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "iqoo_z7_5g_8_256": {
     "display_name": "iQOO Z7 5G 8/256GB",
@@ -16294,12 +16592,29 @@
     "display_name": "Oppo A6 Pro 5G 8/128GB",
     "tier": "C",
     "launch_date": "2025-08-21",
-    "calibration_status": "verified",
-    "calibration_date": "2026-06-25",
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
     "discontinued": false,
-    "resale_target_a1": 17500,
+    "resale_target_a1": 15000,
     "target_margin": 0.25,
-    "live_source": "Cashify refurb Fair 8GB/128GB ₹18,799 (Jun-2026). A1 resale ≈ ₹18,799×0.95 ≈ ₹17,859 → ₹17,500. New price ₹21,999 per Cashify/Smartprix Jun-2026. Cashify buybac | margin floored to"
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs15,000; A1 Rs12,000; margin 0.25. Evidence retained.",
+    "market_resale_estimate": 15000,
+    "market_resale_basis": "official_variant_recheck_saved_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "official_variant_recheck_saved_ask_estimate",
+        "note": "Reviewed saved verified_11/fetch_11; used listings not live-rechecked here. Correct 14k to 15k: official India CPH2827 specs confirm 8/128 and 8/256. Discard ORU 6/128/12GB variants and refurb multiplier; saved explicit private 8/128 asks 16.5-18k imply ~14.85-16.2k after 10%. Sample n=5 includes a cracked unit, so wide uncertainty; 15k is a conservative fall from 17.5k, not a verified fill.",
+        "sources": [
+          "https://www.oppo.com/in/smartphones/series-a/a6-pro-5g/specs/",
+          "https://www.olx.in/items/q-oppo-a6-pro",
+          "https://www.cashify.in/sell-old-mobile-phone/used-oppo-a6-pro-5g-8-gb-128-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 14500,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "oppo_a6_pro_8_256": {
     "display_name": "Oppo A6 Pro 5G 8/256GB",
@@ -17106,13 +17421,28 @@
     "discontinued": false,
     "launch_date": "2025-09-19",
     "net_new_inr": 132000,
-    "resale_target_a1": 108000,
+    "resale_target_a1": 88000,
     "target_margin": 0.099,
     "notes": "Ultra-thin design. New form factor — verify demand locally.",
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-21",
-    "live_source": "BRAIN 2026-09-21: resale ₹108,000 -> A1 ₹98,300 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 108000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs88,000; A1 Rs80,100; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 88000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept conservative fall 108000 to 88000 as estimated. Saved closest comp asks 99999 with near-expiry warranty; other 130000-135000 comps are near-new/imports. Official Air storage/price labels rechecked, but authoritative net_new 132000 must remain. Saved 87000 ceiling is not a quote. Reviewed _ov_updates/verified_1.json. Exact sell-page URL was not preserved in saved evidence; Cashify provider URL is listed instead of a guessed slug.",
+        "sources": [
+          "https://www.apple.com/in/shop/buy-iphone/iphone-air",
+          "https://www.cashify.in/"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 87000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "iphone_17e_256": {
     "display_name": "iPhone 17e 256GB",
@@ -17265,13 +17595,28 @@
     "discontinued": false,
     "launch_date": "2025-09-15",
     "net_new_inr": 59999,
-    "resale_target_a1": 30600,
+    "resale_target_a1": 32500,
     "target_margin": 0.099,
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-21",
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
     "notes": "Exynos 2400, 4900mAh. S24 FE successor.",
-    "live_source": "VERIFIED 2026-09-21 (grant): resale ₹30,500 -> A1 ₹27,800 = resale÷(1+0.099) [margin] conf=medium",
-    "market_resale_observed": 30500
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs32,500; A1 Rs29,600; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 32500,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_9/fetch_9; used listings not live-rechecked here. Saved critic separates older-unit asks 35-39k from near-new/new-priced ads; 10% negotiation gives 31.5-35.1k, with ORU Good asks near 33k. Accept 32,500 estimate without Cashify back-solving; no confirmed local sale.",
+        "sources": [
+          "https://www.olx.in/items/q-samsung-s25-fe",
+          "https://www.cashify.in/sell-old-mobile-phone/used-samsung-galaxy-s25-fe-8-gb-128-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 31000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "samsung_s25_fe_256": {
     "display_name": "Samsung Galaxy S25 FE 256GB",
@@ -20353,13 +20698,27 @@
     "display_name": "Redmi Note 15 Pro+ 5G (12GB/512GB)",
     "tier": "B",
     "launch_date": "2026-01-29",
-    "resale_target_a1": 31300,
-    "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "BRAIN 2026-08-17: resale ₹31,000 / market buys ₹19,000 -> A1 ₹28,200 = resale÷(1+0.099) [margin]",
+    "resale_target_a1": 32400,
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs32,400; A1 Rs29,500; margin 0.099. Evidence retained.",
     "target_margin": 0.099,
-    "buyback_market": 19000,
-    "market_resale_observed": 31000
+    "market_resale_estimate": 32400,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_9/fetch_9; used listings not live-rechecked here. Saved critic counted 13 exact used/near-new asks with median/Q1 near 36k; 10% negotiation yields 32,400. Accept small resale rise as an ask-based estimate, independent of the 28,100 buyer ceiling; no sale execution observed.",
+        "sources": [
+          "https://www.olx.in/items/q-redmi-note-15-pro-plus-5g",
+          "https://www.cashify.in/sell-old-mobile-phone/used-xiaomi-redmi-note-15-pro-plus-5g-12-gb-512-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 28100,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "redmi_13_5g_6_128": {
     "display_name": "Redmi 13 5G (6GB/128GB)",
@@ -21131,10 +21490,27 @@
     "display_name": "Motorola Edge 60 Stylus (8GB+256GB)",
     "tier": "B",
     "launch_date": "2025-04-15",
-    "resale_target_a1": 17500,
+    "resale_target_a1": 15500,
     "calibration_status": "estimated",
-    "calibration_date": "2026-06-25",
-    "live_source": "Digit.in India launch Apr 15 2025; single 8GB+256GB variant Rs 22999 on Flipkart/Amazon.in confirmed"
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs15,500; A1 Rs14,100; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 15500,
+    "target_margin": 0.099,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_11/fetch_11; used listings not live-rechecked here. Saved critic reports recent ORU 8/256 asks 15-17k and broader private OLX asks 16-22k. Accept 15,500 mint estimate after negotiation/condition uncertainty; out-of-stock refurb is only an upper bound and sold-out labels are not payment evidence.",
+        "sources": [
+          "https://www.olx.in/items/q-motorola-edge-60-stylus",
+          "https://www.cashify.in/sell-old-mobile-phone/used-motorola-moto-edge-60-stylus-8-gb-256-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 15300,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "moto_edge_70_8_256": {
     "display_name": "Motorola Edge 70 (8GB+256GB)",
@@ -24033,13 +24409,27 @@
     "tier": "A",
     "launch_date": "2025-09-20",
     "resale_target_a1": 73000,
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-21",
-    "live_source": "BRAIN 2026-09-21: resale ₹73,000 -> A1 ₹66,400 = resale÷(1+0.099) [margin]",
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs73,000; A1 Rs66,400; margin 0.099. Evidence retained.",
     "category": "tablet",
     "target_margin": 0.099,
-    "market_resale_observed": 73000,
-    "net_new_inr": 135999
+    "net_new_inr": 135999,
+    "market_resale_estimate": 73000,
+    "market_resale_basis": "estimated_local_mint_not_observed; independent_fetch_3_critic",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; independent_fetch_3_critic",
+        "note": "Independent fetch_3 critic: accept unchanged 73000 as a retained estimate. Only three saved Wi-Fi/256 asks and a refurb ratio support the fetch; no further adjustment is justified. Claimed S12 launch was not independently checked and is not used as an extra haircut. 66120 ceiling reviewed only. Reviewed _ov_updates/fetch_3.json (missing critic recovered here).",
+        "sources": [
+          "https://www.cashify.in/sell-old-tablet/used-samsung-galaxy-tab-s11-ultra-wi-fi-only-12-gb-256-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 66100,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "samsung_galaxy_tab_s11_wifi_128": {
     "display_name": "Samsung Galaxy Tab S11 WiFi 128GB",
@@ -26530,13 +26920,28 @@
     "display_name": "Vivo S2 5G 8/128GB",
     "tier": "B",
     "launch_date": "2026-08-06",
-    "resale_target_a1": 32500,
+    "resale_target_a1": 32000,
     "target_margin": 0.099,
     "net_new_inr": 40000,
-    "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "BRAIN 2026-08-24: resale ₹32,500 -> A1 ₹29,600 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 32500
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs32,000; A1 Rs29,100; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 32000,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_8/fetch_8; used listings not live-rechecked here. Saved critic independently counted 14 explicit 8/128 asks around 36,000; less 10% is 32,400. Accept conservative 32,000 estimate; no assumed pass-through of the reported new-price hike.",
+        "sources": [
+          "https://www.olx.in/items/q-vivo-s2",
+          "https://www.cashify.in/sell-old-mobile-phone/used-vivo-s2-5g-8-gb-128-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 25000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "vivo_s2_8_256": {
     "display_name": "Vivo S2 5G 8/256GB",
@@ -26810,13 +27215,27 @@
     "display_name": "Samsung Galaxy Z Flip8 12GB/512GB",
     "tier": "S",
     "launch_date": "2026-07-22",
-    "resale_target_a1": 95100,
+    "resale_target_a1": 92000,
     "target_margin": 0.099,
     "net_new_inr": 145000,
     "calibration_status": "estimated",
-    "calibration_date": "2026-09-26",
-    "live_source": "LADDER-CAP 2026-09-26: resale capped at base samsung_z_flip_8_256 Rs82,000 x new-price ratio = Rs95,100 -> A1 Rs86,500",
-    "market_resale_observed": 95100
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs92,000; A1 Rs83,700; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 92000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 92000 as a low-confidence inferred estimate, not an exact variant observation. Saved 512GB comps are foreign-warranty or sealed; the conservative fall uses 256GB used asks plus a modest storage premium. Saved 78720 headline stays a ceiling. No live recheck of this variant. Reviewed _ov_updates/verified_2.json.",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-samsung-galaxy-z-flip-8-12-gb-512-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 78700,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "samsung_f07_4_64": {
     "display_name": "Samsung Galaxy F07 4GB/64GB",
@@ -27100,13 +27519,28 @@
     "display_name": "Tecno Camon 50 Ultra 5G 8/256GB",
     "tier": "B",
     "launch_date": "2026-07-21",
-    "resale_target_a1": 32500,
+    "resale_target_a1": 27000,
     "target_margin": 0.099,
     "net_new_inr": 40000,
-    "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "BRAIN 2026-08-24: resale ₹32,500 -> A1 ₹29,600 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 32500
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs27,000; A1 Rs24,600; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 27000,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_8/fetch_8; used listings not live-rechecked here. Two credible saved exact asks 29,999 and 32,000 imply 27,000-28,800 after 10% negotiation. Accept lower 27,000 estimate; exclude new-price ask and brand-ratio justification. TurnCash 26,520 is only a headline ceiling; Cashify not purchasing.",
+        "sources": [
+          "https://www.olx.in/items/q-tecno-camon-50-ultra-5g",
+          "https://www.turncash.in/"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 26500,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "lava_virat_v1_4_64": {
     "display_name": "Lava Virat V1 4/64GB",
@@ -27193,48 +27627,99 @@
     "display_name": "Realme 16x 5G 4/128GB",
     "tier": "C",
     "launch_date": "2026-08-12",
-    "resale_target_a1": 20800,
+    "resale_target_a1": 18900,
     "target_margin": 0.25,
     "net_new_inr": 25999,
-    "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "ANCHOR AUDIT 2026-08-24 (lower): resale ₹20,800 / new ₹25,999 -> A1 ₹16,600 = resale÷(1+0.25) [margin] press_coverage/high",
-    "market_resale_observed": 20800
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs18,900; A1 Rs15,100; margin 0.25. Evidence retained.",
+    "market_resale_estimate": 18900,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_9/fetch_9; used listings not live-rechecked here. Saved critic reviewed nine exact asks, median 21k/Q1 20.5k; 10% negotiation gives about 18.9k. Accept fall from percentage placeholder, with estimate status and no fabricated buyback.",
+        "sources": [
+          "https://www.olx.in/items/q-realme-16x-5g",
+          "https://www.cashify.in/sell-old-mobile-phone/used-realme-16x-5g-4-gb-128-gb"
+        ]
+      }
+    ]
   },
   "realme_16x_5g_6_128": {
     "display_name": "Realme 16x 5G 6/128GB",
     "tier": "C",
     "launch_date": "2026-08-12",
-    "resale_target_a1": 22400,
+    "resale_target_a1": 21200,
     "target_margin": 0.25,
     "net_new_inr": 27999,
-    "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "ANCHOR AUDIT 2026-08-24 (lower): resale ₹22,400 / new ₹27,999 -> A1 ₹17,900 = resale÷(1+0.25) [margin] press_coverage/medium",
-    "market_resale_observed": 22400
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs21,200; A1 Rs17,000; margin 0.25. Evidence retained.",
+    "market_resale_estimate": 21200,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_9/fetch_9; used listings not live-rechecked here. Saved critic reviewed 12 exact asks, median 24k/Q1 23k. Negotiated Q1-to-median band supports 21,200; accept conservative fall, estimate status. Do not substitute new-price percentages.",
+        "sources": [
+          "https://www.olx.in/items/q-realme-16x-5g",
+          "https://www.cashify.in/sell-old-mobile-phone/used-realme-16x-5g-6-gb-128-gb"
+        ]
+      }
+    ]
   },
   "realme_16x_5g_6_256": {
     "display_name": "Realme 16x 5G 6/256GB",
     "tier": "C",
     "launch_date": "2026-08-12",
-    "resale_target_a1": 24800,
+    "resale_target_a1": 24000,
     "target_margin": 0.25,
     "net_new_inr": 30999,
-    "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "ANCHOR AUDIT 2026-08-24 (lower): resale ₹24,800 / new ₹30,999 -> A1 ₹19,800 = resale÷(1+0.25) [margin] press_coverage/medium",
-    "market_resale_observed": 24800
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs24,000; A1 Rs19,200; margin 0.25. Evidence retained.",
+    "market_resale_estimate": 24000,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_9/fetch_9; used listings not live-rechecked here. Saved critic reviewed seven unique exact asks, median 27k/Q1 25.5k; 10% negotiation implies 23.0-24.3k. Accept 24k fall; this replaces the calcified 80%-of-new anchor with an explicit asking-price estimate, still not observed resale.",
+        "sources": [
+          "https://www.olx.in/items/q-realme-16x-5g"
+        ]
+      }
+    ]
   },
   "moto_g_max_5g_6_128": {
     "display_name": "Motorola G Max 5G 6/128GB",
     "tier": "C",
     "launch_date": "2026-08-14",
-    "resale_target_a1": 22400,
+    "resale_target_a1": 19000,
     "target_margin": 0.25,
     "net_new_inr": 28000,
-    "calibration_status": "verified",
-    "calibration_date": "2026-08-17",
-    "live_source": "Added 2026-08-17 (gap-audit+critic). resale ₹22,400/new ₹28,000. A1=resale÷(1+0.099). | margin floored to tier C default 0.25 on 2026-08-24"
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs19,000; A1 Rs15,200; margin 0.25. Evidence retained.",
+    "market_resale_estimate": 19000,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_9/fetch_9; used listings not live-rechecked here. Saved single Hyderabad used ask 21k less 10% gives 18,900; accept rounded 19k fall as a single-listing estimate. India Moto G Max 6/128 must remain distinguished from the similarly named 8/256 model. No paid sale verified.",
+        "sources": [
+          "https://www.olx.in/items/q-motorola-g-max-5g"
+        ]
+      }
+    ]
   },
   "infinix_gt_30_pro_5g_12_256": {
     "display_name": "Infinix GT 30 Pro 5G 12/256GB",
@@ -27273,26 +27758,55 @@
     "display_name": "Google Pixel 11 256GB",
     "tier": "A",
     "launch_date": "2026-08-12",
-    "resale_target_a1": 72000,
+    "resale_target_a1": 65000,
     "target_margin": 0.099,
     "net_new_inr": 90000,
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-26",
-    "live_source": "BRAIN 2026-09-26: resale ₹72,000 -> A1 ₹65,500 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 72000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs65,000; A1 Rs59,100; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 65000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 65000 estimated mint rather than the original 67000 refurb-matching figure. Saved genuinely used asks 69000-73000 imply about 62000-66000 after negotiation. Official India 12/256 confirmed live; refurb is only an upper bound. 59000 ceiling reviewed only. Reviewed _ov_updates/verified_4.json.",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-google-pixel-11-12-gb-256-gb",
+          "https://store.google.com/in/config/pixel_11?hl=en-IN"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 59000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "google_pixel_11_512": {
     "display_name": "Google Pixel 11 512GB",
     "tier": "A",
     "launch_date": "2026-08-12",
-    "resale_target_a1": 85000,
+    "resale_target_a1": 72000,
     "target_margin": 0.099,
     "net_new_inr": 105000,
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-26",
-    "live_source": "BRAIN 2026-09-26: resale ₹85,000 / market buys ₹69,000 -> A1 ₹77,300 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 85000,
-    "buyback_market": 69000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs72,000; A1 Rs65,500; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 72000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 72000 only as an inferred conservative correction of 85000. Saved exact-512 market is effectively absent; estimate uses accepted 256GB 65000 plus about 7000 storage premium. Official 12/512 configuration and Cashify 65000 ceiling independently fetched. Clear old 69000 market-quote interpretation. Reviewed _ov_updates/verified_2.json.",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-google-pixel-11-12-gb-512-gb",
+          "https://store.google.com/in/config/pixel_11?hl=en-IN"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 65000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "google_pixel_11_pro_256": {
     "display_name": "Google Pixel 11 Pro 256GB",
@@ -27311,53 +27825,109 @@
     "display_name": "Google Pixel 11 Pro 512GB",
     "tier": "S",
     "launch_date": "2026-08-12",
-    "resale_target_a1": 111000,
+    "resale_target_a1": 96000,
     "target_margin": 0.099,
     "net_new_inr": 135000,
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-26",
-    "live_source": "BRAIN 2026-09-26: resale ₹111,000 / market buys ₹80,000 -> A1 ₹101,000 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 111000,
-    "buyback_market": 80000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs96,000; A1 Rs87,400; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 96000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 96000 conservative estimate from saved seven genuine-used asks, median 110000 less about 10% and local-demand allowance. Official India 16/512 offer rechecked. Do not use fractions of new price or the 80000 buyer ceiling as independent resale evidence; asks were not re-fetched. Reviewed _ov_updates/verified_1.json. Exact sell-page URL was not preserved in saved evidence; Cashify provider URL is listed instead of a guessed slug.",
+        "sources": [
+          "https://store.google.com/in/config/pixel_11_pro?hl=en-IN",
+          "https://www.cashify.in/"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 80000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "google_pixel_11_pro_xl_256": {
     "display_name": "Google Pixel 11 Pro XL 256GB",
     "tier": "A",
     "launch_date": "2026-08-12",
-    "resale_target_a1": 110000,
+    "resale_target_a1": 101000,
     "target_margin": 0.099,
     "net_new_inr": 135000,
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-26",
-    "live_source": "BRAIN 2026-09-26: resale ₹110,000 / market buys ₹80,000 -> A1 ₹100,100 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 110000,
-    "buyback_market": 80000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs101,000; A1 Rs91,900; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 101000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept 101000 at low confidence, near the upper end of the saved defensible band. Thirteen saved asks around 115500 support about 104000 after negotiation, but lower dealer asks weaken precision. Official India XL 256 offer rechecked. 80000 ceiling reviewed only. Reviewed _ov_updates/verified_1.json. Exact sell-page URL was not preserved in saved evidence; Cashify provider URL is listed instead of a guessed slug.",
+        "sources": [
+          "https://store.google.com/in/config/pixel_11_pro?hl=en-IN",
+          "https://www.cashify.in/"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 80000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "google_pixel_11_pro_xl_512": {
     "display_name": "Google Pixel 11 Pro XL 512GB",
     "tier": "A",
     "launch_date": "2026-08-12",
-    "resale_target_a1": 120000,
+    "resale_target_a1": 107000,
     "target_margin": 0.099,
     "net_new_inr": 150000,
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-26",
-    "live_source": "BRAIN 2026-09-26: resale ₹120,000 / market buys ₹85,000 -> A1 ₹109,200 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 120000,
-    "buyback_market": 85000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs107,000; A1 Rs97,400; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 107000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept conservative 107000 estimate, explicitly inferred from the 256GB plus a small used-storage premium. Only five own-variant asks exist in saved review; no realized sale. Official India XL 512 offer rechecked. Saved 85000 ceiling is not a market quote. Reviewed _ov_updates/verified_1.json. Exact sell-page URL was not preserved in saved evidence; Cashify provider URL is listed instead of a guessed slug.",
+        "sources": [
+          "https://store.google.com/in/config/pixel_11_pro?hl=en-IN",
+          "https://www.cashify.in/"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 85000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "google_pixel_11_pro_fold_16_512": {
     "display_name": "Google Pixel 11 Pro Fold 16/512GB",
     "tier": "S",
     "launch_date": "2026-08-12",
-    "resale_target_a1": 147000,
+    "resale_target_a1": 126000,
     "target_margin": 0.099,
     "net_new_inr": 187000,
-    "calibration_status": "verified",
-    "calibration_date": "2026-09-26",
-    "live_source": "BRAIN 2026-09-26: resale ₹147,000 / market buys ₹101,000 -> A1 ₹133,800 = resale÷(1+0.099) [margin]",
-    "market_resale_observed": 147000,
-    "buyback_market": 101000
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs126,000; A1 Rs114,600; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 126000,
+    "market_resale_basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "estimated_local_mint_not_observed; saved_critic_reviewed",
+        "note": "Accept conservative 147000 to 126000 estimate. Saved review has only about five credible opened-unit asks around 145000; negotiating about 10% supports roughly 131000 before local-demand allowance. Official India 16/512 and Cashify 101000 headline independently fetched. Ceiling is not a resale floor or payout. Reviewed _ov_updates/verified_0.json.",
+        "sources": [
+          "https://www.cashify.in/sell-old-mobile-phone/used-google-pixel-11-pro-fold-16-gb-512-gb",
+          "https://store.google.com/in/config/pixel_11_pro_fold?hl=en-IN"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 101000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "samsung_f70_pro_5g_8_128": {
     "display_name": "Samsung Galaxy F70 Pro 5G 8/128GB",
@@ -27449,13 +28019,25 @@
     "display_name": "iQOO Z11 5G 12/256GB",
     "tier": "C",
     "launch_date": "2026-08-20",
-    "resale_target_a1": 40000,
+    "resale_target_a1": 37500,
     "target_margin": 0.25,
-    "market_resale_observed": 40000,
     "net_new_inr": 49999,
-    "calibration_status": "verified",
-    "calibration_date": "2026-08-24",
-    "live_source": "Added 2026-08-24 (gap-audit + price-check). resale ₹40,000 / new ₹49,999 -> A1 ₹32,000 = resale÷(1+0.25) [margin] press_coverage/medium"
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs37,500; A1 Rs30,000; margin 0.25. Evidence retained.",
+    "market_resale_estimate": 37500,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_7/fetch_7; used listings not live-rechecked here. Single saved exact used 12/256 ask 41,000 supports about 36,900 after 10% negotiation; 37,500 is a conservative fall from 40k but remains a thin-market estimate. Sibling analogy adds no observation.",
+        "sources": [
+          "https://www.olx.in/items/q-iqoo-z11-5g"
+        ]
+      }
+    ]
   },
   "oneplus_15r_12_256": {
     "display_name": "OnePlus 15R 12/256GB",
@@ -28284,13 +28866,30 @@
     "display_name": "Vivo Y31t 5G 4/128GB",
     "tier": "C",
     "launch_date": "2026-08-21",
-    "resale_target_a1": 20500,
+    "resale_target_a1": 18500,
     "target_margin": 0.25,
     "net_new_inr": 25999,
     "calibration_status": "estimated",
-    "calibration_date": "2026-09-26",
-    "live_source": "BRAIN 2026-09-26: resale ₹20,500 -> A1 ₹16,400 = resale÷(1+0.25) [margin]",
-    "market_resale_observed": 20500
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs18,500; A1 Rs14,800; margin 0.25. Evidence retained.",
+    "market_resale_estimate": 18500,
+    "market_resale_basis": "official_variant_recheck_saved_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "official_variant_recheck_saved_ask_estimate",
+        "note": "Reviewed saved verified_10/fetch_10; used listings not live-rechecked here. Correct 19k to 18.5k: saved credible sealed-cut dealer 4/128 offer is 18,800 and another seller states 18k fixed. A used mint estimate should not exceed the lower new-condition offer. Official store confirms 4/128; price inputs remain saved review. Cashkr 13,499 is a formula-like ceiling, not a bid.",
+        "sources": [
+          "https://shop.vivo.com/in/product/10365",
+          "https://www.olx.in/items/q-vivo-y31t-5g",
+          "https://www.cashify.in/sell-old-mobile-phone/used-vivo-y31t-5g-4-gb-128-gb",
+          "https://www.cashkr.com/"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 13500,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "vivo_y31t_5g_6_128": {
     "display_name": "Vivo Y31t 5G 6/128GB",
@@ -28472,10 +29071,25 @@
     "resale_target_a1": 13000,
     "target_margin": 0.25,
     "net_new_inr": 18999,
-    "market_resale_observed": 13000,
     "calibration_status": "estimated",
-    "calibration_date": "2026-09-26",
-    "live_source": "SIBLING-REPAIR 2026-09-26: real India config (OPPO India newsroom) behind removed 8GB phantoms; refuter's conservative indicative resale Rs13,000 -> A1 Rs10,400. Re-research."
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs13,000; A1 Rs10,400; margin 0.25. Evidence retained.",
+    "market_resale_estimate": 13000,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_11/fetch_11; used listings not live-rechecked here. Accept unchanged 13k estimated anchor; saved explicit near-new asks ~14.5-15k less 10% support 13.05-13.5k. No rise or upgrade to observed; no condition-specific buyback quote.",
+        "sources": [
+          "https://www.olx.in/items/q-oppo-a6s-5g",
+          "https://www.cashify.in/sell-old-mobile-phone/used-oppo-a6s-5g-4-gb-128-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 12000,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
   },
   "oppo_a6s_5g_6_128": {
     "display_name": "Oppo A6s 5G 6/128GB",
@@ -28484,9 +29098,134 @@
     "resale_target_a1": 14000,
     "target_margin": 0.25,
     "net_new_inr": 20999,
-    "market_resale_observed": 14000,
     "calibration_status": "estimated",
-    "calibration_date": "2026-09-26",
-    "live_source": "SIBLING-REPAIR 2026-09-26: real India config (OPPO India newsroom) behind removed 8GB phantoms; refuter's conservative indicative resale Rs14,000 -> A1 Rs11,200. Re-research."
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs14,000; A1 Rs11,200; margin 0.25. Evidence retained.",
+    "market_resale_estimate": 14000,
+    "market_resale_basis": "saved_critic_ask_estimate",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "saved_critic_ask_estimate",
+        "note": "Reviewed saved verified_11/fetch_11; used listings not live-rechecked here. Accept unchanged 14k estimated anchor; saved critic refused an analog/refurb-led rise. Exact resale evidence remains thin and mostly asks. Keep estimated and do not call repeating the value a fresh verification.",
+        "sources": [
+          "https://www.olx.in/items/q-oppo-a6s-5g",
+          "https://www.cashify.in/sell-old-mobile-phone/used-oppo-a6s-5g-6-gb-128-gb"
+        ]
+      }
+    ],
+    "market_buyback_ceiling": 13800,
+    "market_buyback_ceiling_basis": "Public maximum headline; actual payout depends on condition and inspection"
+  },
+  "lava_virat_curve_5g_6_128": {
+    "display_name": "Lava Virat Curve 5G 6/128GB",
+    "tier": "D",
+    "launch_date": "2026-09-21",
+    "net_new_inr": 23999,
+    "resale_target_a1": 16000,
+    "market_resale_estimate": 16000,
+    "target_margin": 0.3,
+    "calibration_date": "2026-09-30",
+    "calibration_status": "estimated",
+    "market_resale_basis": "Official Lava specification and its linked India sales channel; launch-price and first-sale reports corroborated. Resale is an explicit conservative brand-new placeholder, not observed used sales.",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "Official Lava specification and its linked India sales channel; launch-price and first-sale reports corroborated. Resale is an explicit conservative brand-new placeholder, not observed used sales.",
+        "note": "Absent from baseline. Physical RAM 6GB; additional 6GB is virtual. Direct Flipkart read on 2026-09-30: Rs23,999, delivery 3 Oct; Rs22,799 offer-dependent. Cached other-colour pages show Rs20,999/out-of-stock, so do not treat that as universally available. Rs19,999 first-sale bank offer is conditional. Rs16,000 placeholder is approximately 80% of that lower advertised offer, deliberately below saved Rs19,200; no verified used-market observation. Set calibration_status=estimated and leave market_resale_observed unset. Do not use exchange maxima or the Cashify price-page widget.",
+        "sources": [
+          "https://lavamobiles.com/smartphones/virat-curve",
+          "https://www.flipkart.com/lava-virat-curve-5g-makrana-ivory-128-gb/p/itm63c441b6fe937?pid=MOBHQT22ZGEAX6TT",
+          "https://www.gizbot.com/mobile/news/lava-virat-curve-5g-sale-india-today-flipkart-price-specifications-offers-128825.html",
+          "https://timesofindia.indiatimes.com/technology/mobiles-tabs/lava-virat-curve-5g-launches-with-mediatek-dimensity-7100-and-50mp-camera/amp_articleshow/134385721.cms"
+        ]
+      }
+    ],
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs16,000; A1 Rs12,300; margin 0.3. Evidence retained."
+  },
+  "lava_shark_2_pro_5g_6_128": {
+    "display_name": "Lava Shark 2 Pro 5G 6/128GB",
+    "tier": "D",
+    "launch_date": "2026-09-29",
+    "net_new_inr": 16699,
+    "resale_target_a1": 12500,
+    "market_resale_estimate": 12500,
+    "target_margin": 0.3,
+    "calibration_date": "2026-09-30",
+    "calibration_status": "estimated",
+    "market_resale_basis": "Official physical configuration; brand-announced India launch price and immediate retail availability independently reported. No used-market evidence: conservative estimated placeholder.",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "low",
+        "basis": "Official physical configuration; brand-announced India launch price and immediate retail availability independently reported. No used-market evidence: conservative estimated placeholder.",
+        "note": "Absent from baseline. Sole India configuration is 6GB physical plus 6GB virtual RAM/128GB; do not create a 12GB variant. Rs16,699 is the reported official launch price; the brand specification page itself has no price. Reports on 29 Sep state already on sale through authorised retail. Conflicting Rs16,999 headlines are not adopted. Rs12,500 is about 75% of new, explicitly estimated, below saved Rs13,359; no condition-specific buyback quote or observed local mint-used sale. Set calibration_status=estimated and leave market_resale_observed unset.",
+        "sources": [
+          "https://lavamobiles.com/smartphones/shark-2-pro",
+          "https://www.gadgets360.com/mobiles/news/lava-shark-2-pro-5g-price-in-india-launch-sale-date-specifications-features-12113204",
+          "https://hindi.moneycontrol.com/technology/lava-shark-2-pro-5g-launched-in-india-features-a-6000mah-battery-and-120hz-display-priced-at-rs-16699-article-2443966.html"
+        ]
+      }
+    ],
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs12,500; A1 Rs9,600; margin 0.3. Evidence retained."
+  },
+  "oneplus_15_16_512": {
+    "display_name": "OnePlus 15 16/512GB",
+    "tier": "A",
+    "discontinued": false,
+    "launch_date": "2025-11-13",
+    "net_new_inr": 79999,
+    "resale_target_a1": 52000,
+    "target_margin": 0.099,
+    "notes": "Latest flagship. Detail Max Engine.",
+    "calibration_status": "estimated",
+    "calibration_date": "2026-09-30",
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs52,000; A1 Rs47,300; margin 0.099. Evidence retained.",
+    "market_resale_estimate": 52000,
+    "market_resale_basis": "Atomic identity correction of oneplus_15_12_512. Retain both authoritative baseline price anchors; Rs79,999 also matches the documented official India launch price.",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "Atomic identity correction of oneplus_15_12_512. Retain both authoritative baseline price anchors; Rs79,999 also matches the documented official India launch price.",
+        "note": "Official India store explicitly enumerates only 12/256 and 16/512. Syndicated OnePlus launch release specifies open sale 13 Nov 2025 20:00 and Rs79,999 for 16/512. Current store lists Rs93,999 for 16/512; do NOT overwrite the existing authoritative Rs79,999 during repair. Carry source-row Rs52,000 resale unchanged; this is not a fresh observed used-market calibration. Seller asks (e.g. Rs65,000 for an exact clean 16/512 in Shillong) are not realised local prices; no rise approved. Install replacement and remove wrong-RAM row in one transaction only; retain provenance and do not set a fresh verified calibration based on this review.",
+        "sources": [
+          "https://www.oneplus.in/oneplus-15?sku=501111657",
+          "https://pressnote.in/Corporate-News-_524694.html",
+          "https://www.olx.in/en-in/item/mobile-phones-c1453-used-one-plus-in-rilbong-shillong-iid-1852178526",
+          "https://www.olx.in/en-in/mobile-phones_c1453/q-oneplus-15"
+        ]
+      }
+    ]
+  },
+  "poco_m7_pro_5g_6_128": {
+    "display_name": "Poco M7 Pro 5G 6/128GB",
+    "tier": "C",
+    "launch_date": "2024-12-17",
+    "net_new_inr": 14999,
+    "resale_target_a1": 10000,
+    "market_resale_estimate": 10000,
+    "target_margin": 0.25,
+    "calibration_date": "2026-09-30",
+    "calibration_status": "estimated",
+    "market_resale_basis": "Exact India launch-channel Flipkart SKU, physical 6GB RAM/128GB, Rs14,999 before conditional offers; used seller asks discounted approximately 10%.",
+    "calibration_evidence": [
+      {
+        "checked_at": "2026-09-30",
+        "confidence": "medium",
+        "basis": "Exact India launch-channel Flipkart SKU, physical 6GB RAM/128GB, Rs14,999 before conditional offers; used seller asks discounted approximately 10%.",
+        "note": "Missing from baseline; explicit requested repair-family exception to the older-add deferral. Rs14,999 is the India launch price and advertised Flipkart/Poorvika new price, not exchange/bank effective price. Used exact-config asks include Rs10,000 Ranchi, Rs10,500 three-month-old Ranchi, Rs12,000 Dabra excellent-condition and Rs12,000 Baburi five-month-old. Median Rs11,250 less 10%=Rs10,125, rounded conservatively to Rs10,000; nationwide/UP proxy, not a verified Moradabad sold transaction. Exclude exchange-only, replaced-display and impaired-radio ads. Set calibration_status=estimated; raw asks are observed, resale is modelled. Existing 8/128 removal remains held; do not migrate its Rs14,000 authoritative net_new_inr or merge records.",
+        "sources": [
+          "https://www.flipkart.com/poco-m7-pro-5g-lunar-dust-128-gb/p/itm59a079d57519a",
+          "https://www.poorvika.com/poco-m7-pro-5g/s?sort=_text_match%3Adesc",
+          "https://www.haribhoomi.com/technology/news/poco-m7-pro-5g-sale-starts-on-december-20-price-offer-specifications-63196",
+          "https://www.olx.in/mobiles_c1411/q-POCO-M7-PRO-5G",
+          "https://www.olx.in/jharkhand_g2001158/mobiles_c1411/q-poco-m7-pro"
+        ]
+      }
+    ],
+    "live_source": "BRAIN 2026-09-30: reviewed resale estimate Rs10,000; A1 Rs8,000; margin 0.25. Evidence retained."
   }
 }

@@ -1,0 +1,220 @@
+[
+  {
+    "key": "poco_m7_pro_5g_8_128",
+    "action": "retain_existing_hold_removal",
+    "sources": [
+      "https://www.flipkart.com/poco-m7-pro-5g-lunar-dust-128-gb/p/itm59a079d57519a",
+      "https://www.poco.in/poco-m7-pro-5g"
+    ],
+    "note": "Flipkart lists 6/128 and 8/256; this proves the proposed 6/128 addition, but no exhaustive official India brand lineup was retrievable to positively rule out every historical 8/128 offering. Do not remove on absence. Preserve baseline net_new_inr=14000 and resale_target_a1=10500."
+  },
+  {
+    "key": "realme_c75_5g_4_256",
+    "action": "retain_existing_hold_atomic_repair",
+    "replacement_key": "realme_c75_5g_4_64",
+    "sources": [
+      "https://www.realme.com/in/realme-c75-5g/specs",
+      "https://www.realme.com/in/realme-c75-5g"
+    ],
+    "note": "Official India specifications positively cap storage at 128GB, contradicting 4/256. However the proposed 4/64 replacement lacks sufficient exact India shipping/price evidence, so HOLD BOTH removal and repair under the atomic-pair requirement. Preserve baseline net_new_inr=14500 and resale_target_a1=9100 pending resolution."
+  },
+  {
+    "key": "realme_c75_5g_4_64",
+    "action": "hold_addition",
+    "net_new_inr": null,
+    "resale_target_a1": null,
+    "buyback_market": null,
+    "sources": [
+      "https://www.realme.com/in/realme-c75-5g/specs",
+      "https://www.gizbot.com/mobile/news/realme-c75-5g-launched-in-india-at-just-rs-12-999-check-full-specs-and-availability-114305.html",
+      "https://www.poorvika.com/realme-c-series-group/s?sort=special_price%3Adesc"
+    ],
+    "note": "Official specification independently lists RAM 4/6GB and ROM 64/128GB; it does not establish every pairing. Gizbot calls Rs12,999 a 4/64 launch price, while retailer evidence maps Rs12,999 to 4/128. No directly verified India 4/64 priced shipping SKU. Do not infer a cartesian variant or invent a resale price."
+  },
+  {
+    "key": "redmi_note_15_se_5g_8_128",
+    "action": "retain_existing_reject_removal",
+    "sources": [
+      "https://www.mi.com/in/event/exclusive-employee-offer/"
+    ],
+    "note": "Xiaomi India explicitly lists Redmi Note 15 SE 5G 8GB | 128GB alongside 6/128 and 8/256. Exact configuration exists. Preserve baseline net_new_inr=18999 and resale_target_a1=14500; no repricing approved."
+  },
+  {
+    "key": "samsung_a57_5g_8_128",
+    "action": "retain_existing_hold_removal",
+    "sources": [
+      "https://www.samsung.com/in/smartphones/galaxy-a57/buy/",
+      "https://www.samsung.com/in/smartphones/galaxy-a/galaxy-a57-5g-awesome-icyblue-256gb-sm-a576blbgins/"
+    ],
+    "note": "India buy selector exposes 8/256 and 12/256, but the India marketing page also describes 8/128 with a regional-availability caveat. Current selector omission does not conclusively establish that no India 8/128 was ever sold. Ambiguous: no removal or forced replacement; preserve baseline net_new_inr=48500 and resale_target_a1=32000."
+  },
+  {
+    "key": "google_pixel_11_128",
+    "action": "hold_addition_not_present_in_baseline",
+    "sources": [
+      "https://store.google.com/in/product/pixel_11_specs?hl=en-IN"
+    ],
+    "note": "Official India Pixel 11 specifications enumerate 256GB/12GB RAM and 512GB/12GB RAM only. Baseline already has google_pixel_11_256 and google_pixel_11_512 and no 128GB row. Do not infer a 128GB base model; no removal is needed."
+  },
+  {
+    "key": "hmd_vibe_2_pro_5g_6_128",
+    "action": "hold_future_sale_and_price_conflict",
+    "launch_date": "2026-09-29",
+    "first_sale_date": "2026-10-08",
+    "net_new_inr": null,
+    "reported_special_launch_price_inr": 14999,
+    "saved_unverified_regular_price_inr": 15999,
+    "resale_target_a1": null,
+    "buyback_market": null,
+    "sources": [
+      "https://www.pninews.com/hmd-vibe2-pro-5g-launches-on-flipkart-building-on-the-strong-success-of-hmd-vibe2-in-india/",
+      "https://www.fonearena.com/blog/493678/hmd-vibe-2-pro-5g-price-india-specifications.html",
+      "https://www.hmd.com/en_in"
+    ],
+    "note": "Company release reproduced by PNI lists exact 6/128 and first sale 8 Oct, with special launch price Rs14,999. Saved regular price Rs15,999 and claimed Rs1,000 bank-condition mapping were not independently established from a primary store; do not promote them to verified normal prices. No shipping or resale anchor before first sale."
+  },
+  {
+    "key": "hmd_vibe_2_pro_5g_8_128",
+    "action": "hold_future_sale_and_price_conflict",
+    "launch_date": "2026-09-29",
+    "first_sale_date": "2026-10-08",
+    "net_new_inr": null,
+    "reported_special_launch_price_inr": 16999,
+    "saved_unverified_regular_price_inr": 17999,
+    "resale_target_a1": null,
+    "buyback_market": null,
+    "sources": [
+      "https://www.pninews.com/hmd-vibe2-pro-5g-launches-on-flipkart-building-on-the-strong-success-of-hmd-vibe2-in-india/",
+      "https://www.fonearena.com/blog/493678/hmd-vibe-2-pro-5g-price-india-specifications.html",
+      "https://www.hmd.com/en_in"
+    ],
+    "note": "Company release reproduced by PNI lists exact 8/128 and first sale 8 Oct, with special launch price Rs16,999. Saved regular price Rs17,999 and claimed Rs1,000 bank-condition mapping were not independently established from a primary store; do not promote them to verified normal prices. No shipping or resale anchor before first sale."
+  },
+  {
+    "key": "oppo_k14_plus_5g_6_128",
+    "action": "hold_future_sale",
+    "launch_date": "2026-09-29",
+    "first_sale_date": "2026-10-08",
+    "net_new_inr": 29999,
+    "saved_reported_price_inr": 29999,
+    "resale_target_a1": null,
+    "buyback_market": null,
+    "sources": [
+      "https://www.oppo.com/in/",
+      "https://www.oppo.com/in/smartphones/series-k/k14-plus-5g/specs/",
+      "https://www.oppo.com/in/product/k14-plus-5g.P.P1110183"
+    ],
+    "note": "Direct official homepage read confirms open sale 00:00 Oct 8 and base Rs29,999 before conditional Rs4,000 bank discount. Official specs enumerate exactly 6/128, 8/128, 8/256. Launch date retained from saved review; higher-tier regular prices remain saved-report figures, not freshly verified selector prices. No addition or pre-sale used valuation."
+  },
+  {
+    "key": "oppo_k14_plus_5g_8_128",
+    "action": "hold_future_sale",
+    "launch_date": "2026-09-29",
+    "first_sale_date": "2026-10-08",
+    "net_new_inr": null,
+    "saved_reported_price_inr": 32999,
+    "resale_target_a1": null,
+    "buyback_market": null,
+    "sources": [
+      "https://www.oppo.com/in/",
+      "https://www.oppo.com/in/smartphones/series-k/k14-plus-5g/specs/",
+      "https://www.oppo.com/in/product/k14-plus-5g.P.P1110183"
+    ],
+    "note": "Direct official homepage read confirms open sale 00:00 Oct 8 and base Rs29,999 before conditional Rs4,000 bank discount. Official specs enumerate exactly 6/128, 8/128, 8/256. Launch date retained from saved review; higher-tier regular prices remain saved-report figures, not freshly verified selector prices. No addition or pre-sale used valuation."
+  },
+  {
+    "key": "oppo_k14_plus_5g_8_256",
+    "action": "hold_future_sale",
+    "launch_date": "2026-09-29",
+    "first_sale_date": "2026-10-08",
+    "net_new_inr": null,
+    "saved_reported_price_inr": 35999,
+    "resale_target_a1": null,
+    "buyback_market": null,
+    "sources": [
+      "https://www.oppo.com/in/",
+      "https://www.oppo.com/in/smartphones/series-k/k14-plus-5g/specs/",
+      "https://www.oppo.com/in/product/k14-plus-5g.P.P1110183"
+    ],
+    "note": "Direct official homepage read confirms open sale 00:00 Oct 8 and base Rs29,999 before conditional Rs4,000 bank discount. Official specs enumerate exactly 6/128, 8/128, 8/256. Launch date retained from saved review; higher-tier regular prices remain saved-report figures, not freshly verified selector prices. No addition or pre-sale used valuation."
+  },
+  {
+    "key": "iphone_duo_256",
+    "action": "hold_future_sale",
+    "launch_date": "2026-09-09",
+    "first_sale_date": "2026-10-23",
+    "net_new_inr": 299900,
+    "resale_target_a1": null,
+    "buyback_market": null,
+    "sources": [
+      "https://www.apple.com/in/shop/buy-iphone/iphone-duo",
+      "https://www.apple.com/in/newsroom/"
+    ],
+    "note": "Official India store verifies exact capacity and full price, preorder 16 Oct and availability 23 Oct. Future first sale: no addition or resale placeholder. Announcement predates the review window; reviewed only to preserve the saved future-sale hold."
+  },
+  {
+    "key": "iphone_duo_512",
+    "action": "hold_future_sale",
+    "launch_date": "2026-09-09",
+    "first_sale_date": "2026-10-23",
+    "net_new_inr": 324900,
+    "resale_target_a1": null,
+    "buyback_market": null,
+    "sources": [
+      "https://www.apple.com/in/shop/buy-iphone/iphone-duo",
+      "https://www.apple.com/in/newsroom/"
+    ],
+    "note": "Official India store verifies exact capacity and full price, preorder 16 Oct and availability 23 Oct. Future first sale: no addition or resale placeholder. Announcement predates the review window; reviewed only to preserve the saved future-sale hold."
+  },
+  {
+    "key": "iphone_duo_1tb",
+    "action": "hold_future_sale",
+    "launch_date": "2026-09-09",
+    "first_sale_date": "2026-10-23",
+    "net_new_inr": 374900,
+    "resale_target_a1": null,
+    "buyback_market": null,
+    "sources": [
+      "https://www.apple.com/in/shop/buy-iphone/iphone-duo",
+      "https://www.apple.com/in/newsroom/"
+    ],
+    "note": "Official India store verifies exact capacity and full price, preorder 16 Oct and availability 23 Oct. Future first sale: no addition or resale placeholder. Announcement predates the review window; reviewed only to preserve the saved future-sale hold."
+  },
+  {
+    "key": "iphone_duo_2tb",
+    "action": "hold_future_sale",
+    "launch_date": "2026-09-09",
+    "first_sale_date": "2026-10-23",
+    "net_new_inr": 449900,
+    "resale_target_a1": null,
+    "buyback_market": null,
+    "sources": [
+      "https://www.apple.com/in/shop/buy-iphone/iphone-duo",
+      "https://www.apple.com/in/newsroom/"
+    ],
+    "note": "Official India store verifies exact capacity and full price, preorder 16 Oct and availability 23 Oct. Future first sale: no addition or resale placeholder. Announcement predates the review window; reviewed only to preserve the saved future-sale hold."
+  },
+  {
+    "key": "redmi_17c_5g",
+    "action": "hold_future_launch_unpriced",
+    "launch_date": "2026-10-01",
+    "first_sale_date": null,
+    "net_new_inr": null,
+    "resale_target_a1": null,
+    "buyback_market": null,
+    "sources": [
+      "https://www.mi.com/in/event/redmi-17c-5g"
+    ],
+    "note": "Carry forward saved verified_4 hold only: announced launch is 1 Oct, not a verified first-sale date. No exact India RAM/storage or price established in this review. No per-config keys, no global-config import, no addition."
+  },
+  {
+    "key": "samsung_galaxy_a08_india_launch",
+    "action": "hold_unverified_india_launch",
+    "sources": [
+      "https://www.samsung.com/in/smartphones/",
+      "https://news.samsung.com/in/",
+      "https://www.gadgets360.com/samsung-galaxy-a08-price-in-india-137531"
+    ],
+    "note": "Global/aggregator launch dated 16 Sep is not evidence of an India first sale during 24-30 Sep. No official India exact configuration, price and shipping date established; do not create inferred variants."
+  }
+]

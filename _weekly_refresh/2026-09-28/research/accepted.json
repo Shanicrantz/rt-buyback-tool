@@ -1,0 +1,47 @@
+[
+  {
+    "key": "oppo_find_x8_pro_16_512",
+    "before_a1": 48200,
+    "after_a1": 45000,
+    "resale_estimate": 49500,
+    "margin": 0.099,
+    "asking_range": [
+      55000,
+      58000
+    ],
+    "method": "Recent complete, out-of-warranty asking price 55000 less 10% negotiation allowance = estimated local resale 49500. Separate 58000 asking listing is supporting context, not a completed sale.",
+    "confidence": "medium for conservative reduction; resale remains estimated",
+    "calibration_status": "estimated",
+    "buyback_market": null,
+    "sources": [
+      {
+        "url": "https://www.olx.in/en-in/item/mobile-phones-c1453-used-oppo-in-kandivali-west-mumbai-iid-1844380507",
+        "checked_at": "2026-09-28",
+        "asking_price": 55000,
+        "posted_relative": "4 days ago",
+        "condition": "Seller describes like-new 512GB, box/accessories, warranty expired in July.",
+        "access": "browser direct listing"
+      },
+      {
+        "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-mira-road-mumbai-iid-1854228569",
+        "checked_at": "2026-09-28",
+        "asking_price": 58000,
+        "posted_date": "2026-08-31",
+        "condition": "Seller specifies 16/512, scratch-free, box and charger; bill/warranty unspecified. Older supporting listing only.",
+        "access": "browser direct listing and web page"
+      }
+    ],
+    "critical_review": {
+      "decision": "accept conservative decrease only",
+      "rejected_evidence": [
+        "Chasapara listing redirected to a category page and was excluded."
+      ],
+      "limitations": [
+        "No completed sale was verified.",
+        "Moradabad actual transaction remains unobserved.",
+        "The 10% allowance is explicit analyst judgment; rate must stay estimated."
+      ],
+      "caps": "-6.639% weekly change; within -20%, below both hard ceilings; no manual override or sibling affected."
+    }
+  }
+]

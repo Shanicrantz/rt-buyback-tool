@@ -1,0 +1,3440 @@
+{
+  "date": "2026-09-28",
+  "note": "Search screening only. Inclusion is not source verification, price acceptance or endorsement. Actual page checks and accepted estimates are recorded separately.",
+  "batches": [
+    {
+      "batch": 1,
+      "queries": [
+        {
+          "q": "\"Oppo Find X9\" \"16\" \"512\" used price India"
+        },
+        {
+          "q": "\"Oppo Reno 16c\" \"8\" \"256\" India used"
+        },
+        {
+          "q": "\"Redmi Turbo 5\" India official 8GB 12GB"
+        },
+        {
+          "q": "\"Realme GT 7T\" \"12\" \"512\" refurbished India price"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Certified Refurbished Realme GT 7T | 6-Month Warranty | Cashify",
+          "url": "https://www.cashify.in/buy-refurbished-mobile-phones/renewed-realme-gt-7t/160122",
+          "reference": "turn2search0"
+        },
+        {
+          "title": "Sell Oppo Reno 16C 5G Online – Get Up to ₹33,600 | TurnCash",
+          "url": "https://www.turncash.in/sell/phone/oppo/reno-16c-5g/",
+          "reference": "turn2search1"
+        },
+        {
+          "title": "OPPO RENO 16C 8GB 256 - Mobile Phones in Ibrahims Enclave, Hyderabad - 1854342232",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-ibrahims-enclave-hyderabad-iid-1854342232",
+          "reference": "turn2search2"
+        },
+        {
+          "title": "OPPO FIND X9 BLACK 16/512 - Mobile Phones in Raja Park, Delhi - 1855357910",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-raja-park-delhi-iid-1855357910",
+          "reference": "turn2search3"
+        },
+        {
+          "title": "Sell Old OPPO Find X9 5G (16 GB/512 GB) Online & Get Instant Cash At Doorstep | Cashify.in",
+          "url": "https://www.cashify.in/sell-old-mobile-phone/used-oppo-find-x9-5g-16-gb-512-gb",
+          "reference": "turn2search4"
+        },
+        {
+          "title": "Oppo reno 16c - Mobile Phones in Yadhava Nagar, Warangal - 1855835759",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-yadhava-nagar-warangal-iid-1855835759",
+          "reference": "turn2search5"
+        },
+        {
+          "title": "Realme GT 7T (12GB RAM + 512GB) Price in India 2026 - Full Specs, Features & Price History | Smartprix",
+          "url": "https://www.smartprix.com/mobiles/realme-gt-7t-12gb-ram-512gb-ppd19vpidi86",
+          "reference": "turn2search6"
+        },
+        {
+          "title": "Sell OPPO Find X9 5G Online — Best Price in India | Reuz",
+          "url": "https://www.reuz.in/sell-used-phone/oppo/oppo-find-x9-5g/",
+          "reference": "turn2search7"
+        },
+        {
+          "title": "Buy & Sell Second Hand Oppo Find X9 in India, Used Oppo Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-oppo-find-x9?filter=make_eq_oppo-phone",
+          "reference": "turn2search8"
+        },
+        {
+          "title": "oppo Reno 16c seal box | Mobiles | Vijayawada",
+          "url": "https://aplify.in/ads/oppo-reno-16c-seal-box-ad71bb3a74b141",
+          "reference": "turn2search9"
+        },
+        {
+          "title": "Mua bán Oppo Find X9 cũ giá rẻ, máy like new, bảo hành uy tín",
+          "url": "https://www.chotot.com/mua-ban-dien-thoai-oppo-find-x9-sdmd11ml4827",
+          "reference": "turn2search10"
+        },
+        {
+          "title": "Price of GT 7T in GOAT sale",
+          "url": "https://www.reddit.com/r/Realme/comments/1um58ii/price_of_gt_7t_in_goat_sale/",
+          "reference": "turn2reddit12"
+        },
+        {
+          "title": "Got OPPO Find X9 12/256GB Velvet Red for ₹59K from Croma – Good Deal?",
+          "url": "https://www.reddit.com/r/Oppo/comments/1vp6po5/got_oppo_find_x9_12256gb_velvet_red_for_59k_from/",
+          "reference": "turn2reddit13"
+        },
+        {
+          "title": "Got Oppo Find X9 at 52.2k",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1szmvxf/got_oppo_find_x9_at_522k/",
+          "reference": "turn2reddit14"
+        },
+        {
+          "title": "Just ordered Realme gt 7t 512+12 variant at 26k",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1ujdpv6/just_ordered_realme_gt_7t_51212_variant_at_26k/",
+          "reference": "turn2reddit15"
+        },
+        {
+          "title": "Nationwide",
+          "url": "https://mandidabwali.quikr.com/nationwide/bazaar",
+          "reference": "turn2search11"
+        },
+        {
+          "title": "OPPO Find X9 — My 60-Day Review",
+          "url": "https://www.reddit.com/r/Oppo/comments/1wlax82/oppo_find_x9_my_60day_review/",
+          "reference": "turn2reddit16"
+        },
+        {
+          "title": "OPPO Reno 16c 5G 8/256 Unboxing and Price Details : Under 49999  - YouTube",
+          "url": "https://www.youtube.com/watch?v=6sGxMaD5cPg",
+          "reference": "turn2youtube17"
+        },
+        {
+          "title": "Finally got my Realme GT 7T (12GB/512GB) for ₹27,000! 🎉",
+          "url": "https://www.reddit.com/r/Realme/comments/1uj1wi7/finally_got_my_realme_gt_7t_12gb512gb_for_27000/",
+          "reference": "turn2reddit18"
+        },
+        {
+          "title": "Bought GT7 T (12/512) for around ₹25k, upgraded from the OG \"GT Master Edition\". Fantastic phone. Loving it.",
+          "url": "https://www.reddit.com/r/Realme/comments/1unesa2/bought_gt7_t_12512_for_around_25k_upgraded_from/",
+          "reference": "turn2reddit19"
+        },
+        {
+          "title": "Realme GT 7T at all time low after price hike",
+          "url": "https://www.reddit.com/r/Realme/comments/1uiso6u/realme_gt_7t_at_all_time_low_after_price_hike/",
+          "reference": "turn2reddit20"
+        },
+        {
+          "title": "OPPO Find X9 in Delhi-NCR today, anyone seen sealed stock around 60–65k?",
+          "url": "https://www.reddit.com/r/delhi/comments/1wiqjm8/oppo_find_x9_in_delhincr_today_anyone_seen_sealed/",
+          "reference": "turn2reddit21"
+        },
+        {
+          "title": "Realme Gt 7t 12/512 worth at 34k?",
+          "url": "https://www.reddit.com/r/Realme/comments/1uciqky/realme_gt_7t_12512_worth_at_34k/",
+          "reference": "turn2reddit22"
+        },
+        {
+          "title": "i Got Realme GT 7T (12+512 GB) ₹27,999 😳 Semma Deal! - YouTube",
+          "url": "https://www.youtube.com/watch?v=qlP1jBU58QY",
+          "reference": "turn2youtube24"
+        },
+        {
+          "title": "Anunciados los OPPO Find X9 y Find X9 Pro: van directos a competir en la gama alta",
+          "url": "https://cincodias.elpais.com/smartlife/smartphones/2025-10-17/oppo-find-x9-oppo-x9-pro-oficiales.html",
+          "reference": "turn2news34"
+        },
+        {
+          "title": "Oppo asalta la gama alta con los nuevos Find X9 y Find X9 Pro: diseño renovado, batería para dos días y un teleobjetivo de 200 megapíxeles",
+          "url": "https://cadenaser.com/nacional/2025/10/28/oppo-asalta-la-gama-alta-con-los-nuevos-find-x9-y-find-x9-pro-diseno-renovado-bateria-para-dos-dias-y-un-teleobjetivo-de-200-megapixeles-cadena-ser/",
+          "reference": "turn2news36"
+        },
+        {
+          "title": "OPPO Find X9 vs OPPO Find X9 Pro, ¿cuál de estos móviles te conviene?",
+          "url": "https://cincodias.elpais.com/smartlife/smartphones/2025-11-07/oppo-find-x9-vs-oppo-find-x9-pro.html",
+          "reference": "turn2news37"
+        }
+      ]
+    },
+    {
+      "batch": 2,
+      "queries": [
+        {
+          "q": "\"OnePlus Nord 5\" \"12\" \"512\" used refurbished India"
+        },
+        {
+          "q": "\"Vivo V50\" \"12\" \"512\" used price India"
+        },
+        {
+          "q": "\"Samsung F70 Pro\" \"8\" \"256\" used refurbished"
+        },
+        {
+          "q": "\"Realme 14 Pro Plus\" used refurbished 128 256 512 price India"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Buy Second Hand Vivo V50 - Used Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-vivo-v50",
+          "reference": "turn3search0"
+        },
+        {
+          "title": "Vivo V50 (Good Condition) - Urgent Sale 12/512 Storage - Mobile Phones in Ramdayalu Nagar, Muzaffarpur - 1841691219",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-vivo-in-ramdayalu-nagar-muzaffarpur-iid-1841691219",
+          "reference": "turn3search1"
+        },
+        {
+          "title": "Mobile Priority - Best Second Hand Mobile Shop in Kolkata",
+          "url": "https://mobilepriority.in/product/vivo-v50-5gstarry-night/25?stock_by=8&stock_id=7529",
+          "reference": "turn3search2"
+        },
+        {
+          "title": "Sell Old Vivo V50 (12 GB/512 GB) Online & Get Instant Cash At Doorstep | Cashify.in",
+          "url": "https://www.cashify.in/sell-old-mobile-phone/used-vivo-v50-12-gb-512-gb",
+          "reference": "turn3search3"
+        },
+        {
+          "title": "Sell Realme 14 Pro Plus 5G Online – Up to ₹20,050 | TurnCash",
+          "url": "https://www.turncash.in/sell/phone/realme/14-pro-plus-5g/",
+          "reference": "turn3search4"
+        },
+        {
+          "title": "Certified Refurbished Realme 14 Pro Plus 5G | 6-Month Warranty | Cashify",
+          "url": "https://www.cashify.in/buy-refurbished-mobile-phones/renewed-realme-14-pro-plus/153646",
+          "reference": "turn3search5"
+        },
+        {
+          "title": "Buy Second Hand Realme 14 PRO PLUS - Used Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/en-in/mobile-phones_c1453/q-realme-14-PRO-PLUS",
+          "reference": "turn3search6"
+        },
+        {
+          "title": "Buy Used vivo V50 Phone Online in Kukatpally, Hyderabad by Harish under 30000 | ORUphones | 68b7c9c415ebfe514f4708c7",
+          "url": "https://www.oruphones.com/buy-old-used-phones/Vivo/vivo-V50/68b7c9c415ebfe514f4708c7",
+          "reference": "turn3search7"
+        },
+        {
+          "title": "Compare Prices of Realme 14 Pro Plus 128GB 8GB RAM Refurbished from all trusted stores | WhatPhone",
+          "url": "https://www.whatphone.co/phone/realme-14-pro-plus_128gb?from=%2Fphone%2Fapple-iphone-14-plus_128gb",
+          "reference": "turn3search8"
+        },
+        {
+          "title": "Certified Refurbished OnePlus Nord 5 | 6-Month Warranty | Cashify",
+          "url": "https://app.cashify.in/buy-refurbished-mobile-phones/renewed-oneplus-nord-5",
+          "reference": "turn3search9"
+        },
+        {
+          "title": "Sell old used Vivo V50 (12 GB/256 GB mobile phone for instant cash online",
+          "url": "https://cashonpick.com/vivo-v50-12-gb256-gb-2",
+          "reference": "turn3search10"
+        },
+        {
+          "title": "Nord 5 12/512 (Used) - Phonefinity ▷ Price: BDT 44,500 on bikroy.com [Mohammadpur]",
+          "url": "https://bikroy.com/mohammadpur/mobile-phones/nord-5-12-512-used-sICR0d26JGdAdW9wOu0tpsR6.html",
+          "reference": "turn3search11"
+        },
+        {
+          "title": "(เอกสารแนบทายประกาศฯ)",
+          "url": "https://www.postcatsavings.com/openfile?file=x6IexnUmAH0sx6MowSNewqRgxnEmwDcswToeymNeAnohAE14MX0nzDcoC7Iew74hy7UpO6AeB7JgMqp7Nr4dATB%3D&filetype=file1&id=1251",
+          "reference": "turn3search12"
+        },
+        {
+          "title": "INTERESSI ZERO IN 20 RATE",
+          "url": "https://assets.milloo.me/IT/catalogues/a296e604f3dce7d06d2ff078d3c71c26ff0af3be943bf60c911c3725f418ec37/bfe6364490aef85319858e938806ee89843d225f7fe0e262fb84db074cd3211c/catalogue.pdf",
+          "reference": "turn3search13"
+        },
+        {
+          "title": "Oneplus nord 5 experience after months of use",
+          "url": "https://www.reddit.com/r/oneplusnord/comments/1tacoo2/oneplus_nord_5_experience_after_months_of_use/",
+          "reference": "turn3reddit14"
+        },
+        {
+          "title": "OP got the nord 5 today.",
+          "url": "https://www.reddit.com/r/oneplusnord/comments/1vdocir/op_got_the_nord_5_today/",
+          "reference": "turn3reddit15"
+        },
+        {
+          "title": "Nord 5 back in stock !!!",
+          "url": "https://www.reddit.com/r/oneplusnord/comments/1unpb4i/nord_5_back_in_stock/",
+          "reference": "turn3reddit16"
+        },
+        {
+          "title": "Should i get a used oneplus 12 or a new oneplus nord 5 ??",
+          "url": "https://www.reddit.com/r/PickAnAndroidForMe/comments/1u8ax3b/should_i_get_a_used_oneplus_12_or_a_new_oneplus/",
+          "reference": "turn3reddit17"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://www.euro.com.pl/si_upload/upload_regulaminy/02_2026/Regulamin_promocji_2_raty_gratis_30_rat_0_RRSO_0.pdf",
+          "reference": "turn3search18"
+        },
+        {
+          "title": "March - May 2025",
+          "url": "https://offerinksa.com/wp-content/uploads/2025/04/jarir-shopping-guide-march-may2025_compressed-1.pdf",
+          "reference": "turn3search19"
+        },
+        {
+          "title": "Vivo V50",
+          "url": "https://en.wikipedia.org/wiki/Vivo_V50",
+          "reference": "turn3search20"
+        },
+        {
+          "title": "iPhone 15 refurbished or oneplus nord 5",
+          "url": "https://www.reddit.com/r/oneplusnord/comments/1o0oiew/iphone_15_refurbished_or_oneplus_nord_5/",
+          "reference": "turn3reddit21"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://manuals.plus/m/9c7c00262976f7f7f09eb3b93e71bfe521b0a2274d4d0bd06315c284e3992013.pdf",
+          "reference": "turn3search22"
+        },
+        {
+          "title": "Oneplus nord 6 512gb version in india?",
+          "url": "https://www.reddit.com/r/oneplusnord/comments/1saa8cw/oneplus_nord_6_512gb_version_in_india/",
+          "reference": "turn3reddit23"
+        },
+        {
+          "title": "Realme officially hikes prices across lineup by up to ₹4,000 citing component costs",
+          "url": "https://www.reddit.com/r/IndiaTech/comments/1vrfcbm/realme_officially_hikes_prices_across_lineup_by/",
+          "reference": "turn3reddit24"
+        },
+        {
+          "title": "Advice needed asap",
+          "url": "https://www.reddit.com/r/oneplusnord/comments/1ntjxna",
+          "reference": "turn3reddit25"
+        }
+      ]
+    },
+    {
+      "batch": 3,
+      "queries": [
+        {
+          "q": "\"Redmi Note 14 Pro Plus\" \"8\" \"128\" used price site:olx.in"
+        },
+        {
+          "q": "\"Samsung M47\" \"8\" \"256\" India price"
+        },
+        {
+          "q": "\"Realme Narzo 100x\" \"6\" \"256\" used price India"
+        },
+        {
+          "q": "\"Motorola Edge 60 Stylus\" \"8\" \"256\" refurbished used India"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Samsung M47 5G (256 GB Storage, 8 GB RAM) Online at Best Price On Flipkart.com",
+          "url": "https://www.flipkart.com/samsung-m47-5g-blaze-blue-256-gb/p/itm34b98b8786db0",
+          "reference": "turn4search0"
+        },
+        {
+          "title": "Sell Realme Narzo 100x 5G Online – Up to ₹16,250 | TurnCash",
+          "url": "https://www.turncash.in/sell/phone/realme/narzo-100x-5g/",
+          "reference": "turn4search1"
+        },
+        {
+          "title": "Buy & Sell Second Hand Stylus in India, Used Motorola Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/hi-in/mobile-phones_c1453/q-stylus?filter=make_eq_motorola-phone",
+          "reference": "turn4search2"
+        },
+        {
+          "title": "Realme Narzo 100x 5G (6GB RAM + 256GB) - Price in India (Sept 2026), Specs, Reviews | Smartprix",
+          "url": "https://www.smartprix.com/mobiles/realme-narzo-100x-5g-6gb-ram-256gb-ppd1bwgump2n",
+          "reference": "turn4search3"
+        },
+        {
+          "title": "Price History - Samsung M47 5G (Blaze Blue, 256 GB) (8 GB RAM) - ₹28989 at flipkart",
+          "url": "https://flipshope.com/flipkart--samsung-m47-5g-blaze-blue-256-gb-8-gb-ram--1--MOBHZWB7HW7FADYR",
+          "reference": "turn4search4"
+        },
+        {
+          "title": "Buy Used Motorola Edge 60 Stylus Phone Online in Wazirpur, Delhi by Harsh under 20000 | ORUphones | 69b1d1eeef38432e8efadfb0",
+          "url": "https://www.oruphones.com/buy-old-used-phones/motorola/motorola-edge-60-stylus/69b1d1eeef38432e8efadfb0",
+          "reference": "turn4search5"
+        },
+        {
+          "title": "Samsung Galaxy M47 5G Price in India, Specifications, Features, Comparison - 11-09-2026 - India Today",
+          "url": "https://www.indiatoday.in/technology/mobiles/samsung-galaxy-m47-5g?type=SpecsDetail",
+          "reference": "turn4search6"
+        },
+        {
+          "title": "Samsung Smartphone Launch Date and Launch Price in India | SmartphonesPrice",
+          "url": "https://www.smartphonesprice.com/2023/12/samsung-smartphone-launch-date-and.html",
+          "reference": "turn4search7"
+        },
+        {
+          "title": "Mobile Priority - Best Second Hand Mobile Shop in Kolkata",
+          "url": "https://mobilepriority.in/product/motorola-edge-60-stylus-5g-pantone-gibraltar-sea/383?stock_by=15&stock_id=7601",
+          "reference": "turn4search8"
+        },
+        {
+          "title": "Realme Narzo 100x 6GB RAM, 256GB Price in India, Specifications (Sep 2026)",
+          "url": "https://www.findprix.com/mobiles/realme-narzo-100x-6gb-ram-256gb-4368",
+          "reference": "turn4search9"
+        },
+        {
+          "title": "Samsung Galaxy A37 5G (8GB RAM + 256 GB) vs Samsung Galaxy M47 5G (8GB RAM + 256GB) | Smartprix",
+          "url": "https://www.smartprix.com/mobiles/samsung_galaxy_a37_5g_8gb_ram__vs_samsung_galaxy_m47_5g_8gb_ram_-cpd1og5awczd_pd10ukfojwx.php",
+          "reference": "turn4search10"
+        },
+        {
+          "title": "Samsung Galaxy M Series Mobile Phones Price List In India (Sep 2026) | Mysmartprice",
+          "url": "https://www.mysmartprice.com/mobile/pricelist/samsung-galaxy-m-series-mobile-price-list-in-india.html",
+          "reference": "turn4search11"
+        },
+        {
+          "title": "Flipkart June Epic Sale Need smartphone advice under 25k for office use (gift for elder brother)",
+          "url": "https://www.reddit.com/r/techIndia/comments/1u2333y/flipkart_june_epic_sale_need_smartphone_advice/",
+          "reference": "turn4reddit12"
+        },
+        {
+          "title": "Bismi Connect",
+          "url": "https://cdn4.singleinterface.com/files/banner_images/344780/8267_1760343422_Mobile.bb.pdf",
+          "reference": "turn4search13"
+        },
+        {
+          "title": "Big 3 Days @ Hyper Alwafa__Tuwaiq, Exit 16, Al Shifa, Al Kharj & Khurais Mall",
+          "url": "https://www.alwafahyper.com/uploads/offer_gallery/O8QwGLw1OL_1770455285.pdf",
+          "reference": "turn4search14"
+        },
+        {
+          "title": "Motorola Edge 60 Stylus VS Poco X7 5g",
+          "url": "https://www.reddit.com/r/IndiaCart/comments/1v07gd9/motorola_edge_60_stylus_vs_poco_x7_5g/",
+          "reference": "turn4reddit15"
+        },
+        {
+          "title": "Was planning to buy Samsung m47 8gb for my father but Amazon increased it price from 28k to 35k",
+          "url": "https://www.reddit.com/r/IndiaCart/comments/1v8s5t9/was_planning_to_buy_samsung_m47_8gb_for_my_father/",
+          "reference": "turn4reddit16"
+        },
+        {
+          "title": "Motorola Edge 60 Stylus VS  Poco X7 5g",
+          "url": "https://www.reddit.com/r/PickAnAndroidForMe/comments/1v06utk/motorola_edge_60_stylus_vs_poco_x7_5g/",
+          "reference": "turn4reddit17"
+        },
+        {
+          "title": "Motorola Edge 60 Stylus VS  Poco X7 5g",
+          "url": "https://www.reddit.com/r/Smartphones/comments/1v0h8wy/motorola_edge_60_stylus_vs_poco_x7_5g/",
+          "reference": "turn4reddit18"
+        },
+        {
+          "title": "Motorola edge 60 STYLUS vs POCO X7 5G",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1v06qc0/motorola_edge_60_stylus_vs_poco_x7_5g/",
+          "reference": "turn4reddit19"
+        },
+        {
+          "title": "Motorola Edge 60 Stylus VS  Poco X7 5g",
+          "url": "https://www.reddit.com/r/Smartphones/comments/1v0hm6o/motorola_edge_60_stylus_vs_poco_x7_5g/",
+          "reference": "turn4reddit20"
+        },
+        {
+          "title": "Has anyone bought the Samsung M47 and experienced lag or freezing at any point, especially with sudden touches?",
+          "url": "https://www.reddit.com/r/techIndia/comments/1uqrcjn/has_anyone_bought_the_samsung_m47_and_experienced/",
+          "reference": "turn4reddit21"
+        },
+        {
+          "title": "[Removed]",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1umkh2r/removed/",
+          "reference": "turn4reddit22"
+        },
+        {
+          "title": "moto g stylus 2025 and motorola edge 60 stylus Level 2 – Service and Repair Manual",
+          "url": "https://documents.cdn.ifixit.com/WYjhTItvHmLIBYuo.pdf",
+          "reference": "turn4search23"
+        },
+        {
+          "title": "Can the Samsung Galaxy F70 be considered as LORD device in its price range?",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1vejm2b/can_the_samsung_galaxy_f70_be_considered_as_lord/",
+          "reference": "turn4reddit24"
+        },
+        {
+          "title": "Mobile for MOM *URGENT*",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1uvbkvg/mobile_for_mom_urgent/",
+          "reference": "turn4reddit25"
+        }
+      ]
+    },
+    {
+      "batch": 4,
+      "queries": [
+        {
+          "q": "\"iPhone 16 Plus\" used \"256\" \"512\" price site:olx.in"
+        },
+        {
+          "q": "\"Vivo X Fold3 Pro\" \"512\" used price India"
+        },
+        {
+          "q": "\"Samsung Z Flip 7\" \"256\" used price India"
+        },
+        {
+          "q": "\"Vivo X300\" \"12\" \"512\" used price India"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Sell Vivo X300 Online – Get Up to ₹49,270 | TurnCash",
+          "url": "https://www.turncash.in/sell/phone/vivo/x300/",
+          "reference": "turn5search0"
+        },
+        {
+          "title": "Vivo X Fold3 Pro &ndash; 16/512 - Mobile Phones in Varacha, Surat - 1855948862",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-vivo-in-varacha-surat-iid-1855948862",
+          "reference": "turn5search1"
+        },
+        {
+          "title": "Buy & Sell Second Hand Samsung Z Flip 7 in India, Used Mobiles in India | OLX",
+          "url": "https://www.olx.in/mobiles_c1411/q-samsung-z-flip-7",
+          "reference": "turn5search2"
+        },
+        {
+          "title": "Vivo x300 (12 & 512 GB) - Mobile Phones in Nagasandra, Bengaluru - 1855090381",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-vivo-in-nagasandra-bengaluru-iid-1855090381",
+          "reference": "turn5search3"
+        },
+        {
+          "title": "Sell old used Vivo X300 (12 GB/512 GB)) mobile phone for instant cash online",
+          "url": "https://cashonpick.com/vivo-x300-12-gb512-gb",
+          "reference": "turn5search4"
+        },
+        {
+          "title": "india) what is the lowest /recommended price to buy x300 12/512gb Urgent Today",
+          "url": "https://www.reddit.com/r/Vivo/comments/1snxk2x/india_what_is_the_lowest_recommended_price_to_buy/",
+          "reference": "turn5reddit12"
+        },
+        {
+          "title": "Sell Vivo X300 (12 GB/512 GB) Online — Up to ₹49,500 | Reuz",
+          "url": "https://www.reuz.in/sell-used-phone/vivo/vivo-x300/12-gb-512-gb/",
+          "reference": "turn5search5"
+        },
+        {
+          "title": "Vivo X300 (12GB RAM + 512GB) Price in India 2026 - Full Specs & Features | Smartprix",
+          "url": "https://www.smartprix.com/mobiles/vivo-x300-12gb-ram-512gb-ppd1wmtr9314",
+          "reference": "turn5search6"
+        },
+        {
+          "title": "Buy & Sell Second Hand Vivo X300 in India, Used Vivo Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/hi-in/mobile-phones_c1453/q-vivo-x300?filter=make_eq_vivo-phone",
+          "reference": "turn5search7"
+        },
+        {
+          "title": "(india) what is the lowest /recommended price to buy x300 12/512gb Urgent Today",
+          "url": "https://www.reddit.com/r/BangaloreMarketplace/comments/1snxmdf/india_what_is_the_lowest_recommended_price_to_buy/",
+          "reference": "turn5reddit13"
+        },
+        {
+          "title": "Should i buy Vivo x300?",
+          "url": "https://www.reddit.com/r/vivoX300/comments/1vlcjzs/should_i_buy_vivo_x300/",
+          "reference": "turn5reddit14"
+        },
+        {
+          "title": "Buy Used vivo X Fold3 Pro Phone Online in Vyalikaval, Bengaluru by anaswar under 70000 | ORUphones | 68e3b2962d78b5885649e1e0",
+          "url": "https://www.oruphones.com/buy-old-used-phones/vivo/vivo-x-fold3-pro/68e3b2962d78b5885649e1e0",
+          "reference": "turn5search8"
+        },
+        {
+          "title": "VIVO X300 - 512GB AT ONLY ₹64990/- WITH BILL & INVOICE LOWEST IN INDIA PRICE",
+          "url": "https://www.reddit.com/r/evaaratech/comments/1qivb8t/vivo_x300_512gb_at_only_64990_with_bill_invoice/",
+          "reference": "turn5reddit15"
+        },
+        {
+          "title": "Vivo X300 (256) at 68.5K?",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1tz3rta/vivo_x300_256_at_685k/",
+          "reference": "turn5reddit16"
+        },
+        {
+          "title": "Samsung SAMSUNG Z FLIP 7 — ₹55,000 | USED MOBILES",
+          "url": "https://usedmobiles.lovable.app/phone/samsung-z-flip-7%20x",
+          "reference": "turn5search9"
+        },
+        {
+          "title": "Buy Second Hand Vivo X - Used Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/hi-in/mobile-phones_c1453/q-vivo-x",
+          "reference": "turn5search10"
+        },
+        {
+          "title": "Brand new Red Colour Vivo X300 for sale",
+          "url": "https://www.reddit.com/r/delhi_marketplace/comments/1ptswu4/brand_new_red_colour_vivo_x300_for_sale/",
+          "reference": "turn5reddit17"
+        },
+        {
+          "title": "Is the Vivo X300 (12GB/512GB) for ₹70,000 a good deal? Better than the Pixel 11? Also, where can I find the best price?",
+          "url": "https://www.reddit.com/r/Vivo/comments/1utql7i/is_the_vivo_x300_12gb512gb_for_70000_a_good_deal/",
+          "reference": "turn5reddit18"
+        },
+        {
+          "title": "Copped this bad boi for 52k",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1udegzf/copped_this_bad_boi_for_52k/",
+          "reference": "turn5reddit19"
+        },
+        {
+          "title": "Purchase x300 now or later",
+          "url": "https://www.reddit.com/r/Vivo/comments/1plc5yt/purchase_x300_now_or_later/",
+          "reference": "turn5reddit20"
+        },
+        {
+          "title": "I am getting 1 month old iqoo 15 16/512gb for 65.5k in unused open box condition",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1q3tqk9/i_am_getting_1_month_old_iqoo_15_16512gb_for_655k/",
+          "reference": "turn5reddit21"
+        },
+        {
+          "title": "What’s the lowest or recommended price to buy the Vivo X300 without card discounts or exchange offers in Bangalore or Mysore?",
+          "url": "https://www.reddit.com/r/Vivo/comments/1tkguee/whats_the_lowest_or_recommended_price_to_buy_the/",
+          "reference": "turn5reddit22"
+        },
+        {
+          "title": "vivo x200t or vivo x300 or oppo find x9",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1v2fvws/vivo_x200t_or_vivo_x300_or_oppo_find_x9/",
+          "reference": "turn5reddit23"
+        },
+        {
+          "title": "Sell Old Vivo X300 Online & Get Instant Cash At Doorstep | Cashify.in",
+          "url": "https://www.cashify.in/sell-old-mobile-phone/used-vivo-x300",
+          "reference": "turn5search11"
+        }
+      ]
+    },
+    {
+      "batch": 5,
+      "queries": [
+        {
+          "q": "\"Asus ROG Phone 9 Pro\" \"16\" \"512\" used India"
+        },
+        {
+          "q": "\"Oppo Find N5\" \"16\" \"512\" used India price"
+        },
+        {
+          "q": "\"iPad Air M3\" \"13\" \"128\" used India price"
+        },
+        {
+          "q": "\"iPad Pro M4\" \"11\" \"256\" used India price"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Buy & Sell Second Hand Ipad Pro M4 in India, Used Tablets in India | OLX",
+          "url": "https://www.olx.in/tablets_c1455/q-ipad-pro-m4",
+          "reference": "turn8search0"
+        },
+        {
+          "title": "Sell iPad Pro M4 11 inch (WiFi Only) Online – Up to ₹63,010",
+          "url": "https://www.turncash.in/sell/tablet/apple/ipad-pro-m4-11-inch-wifi-only/",
+          "reference": "turn8search1"
+        },
+        {
+          "title": "Buy & Sell Second Hand Ipad Pro 11 in Delhi, Used टेबलेट in Delhi | OLX",
+          "url": "https://www.olx.in/hi-in/delhi_g2001152/tablets_c1455/q-ipad-pro-11",
+          "reference": "turn8search2"
+        },
+        {
+          "title": "Buy & Sell Second Hand Ipad Air in India, Used Tablets in India | OLX",
+          "url": "https://www.olx.in/en-in/ipads-tablets_c1455/q-ipad-air",
+          "reference": "turn8search3"
+        },
+        {
+          "title": "Buy Used Oppo Find N5 Phone Online in New Washermanpet AA Garden, Chennai by ORUser under 180000 | ORUphones | 67ec0d05fee4b3b60ec1a3b8",
+          "url": "https://www.oruphones.com/buy-old-used-phones/Oppo/Oppo-Find-N5/67ec0d05fee4b3b60ec1a3b8",
+          "reference": "turn8search4"
+        },
+        {
+          "title": "REFURBISHED IPAD AIR M3 128 WI-FI — Mobirapid",
+          "url": "https://mobirapid.in/ipad/refurbished-i-pad-air-m3-128-wi-fi",
+          "reference": "turn8search5"
+        },
+        {
+          "title": "Buy & Sell Second Hand Apple Ipad Air in India, Used Tablets in India | OLX",
+          "url": "https://www.olx.in/en-in/tablets_c1455/q-apple-ipad-air",
+          "reference": "turn8search6"
+        },
+        {
+          "title": "Sell Old iPad Air 13-inch M3 Wi-Fi + Cellular 128GB Online & Get Instant Cash At Doorstep | Cashify.in",
+          "url": "https://www.cashify.in/sell-old-tablet/used-ipad-air-13-inch-m3-wi-fi-cellular-128gb",
+          "reference": "turn8search7"
+        },
+        {
+          "title": "[WTB] [iPad] [Apple] iPad Pro M4 | 256GB",
+          "url": "https://www.reddit.com/r/resellpur/comments/1vum70w/wtb_ipad_apple_ipad_pro_m4_256gb/",
+          "reference": "turn8reddit12"
+        },
+        {
+          "title": "Oppo find n5 Dijual | OPPO | Carousell Indonesia",
+          "url": "https://id.carousell.com/telepon-seluler-tablet/oppo/oppo-find-n5/q-1295/",
+          "reference": "turn8search8"
+        },
+        {
+          "title": "iPad Pro 6th Gen and newer - Looking to Buy - TechEnclave",
+          "url": "https://techenclave.com/t/ipad-pro-6th-gen-and-newer/412187",
+          "reference": "turn8search9"
+        },
+        {
+          "title": "Apple 2025 iPad Air (M3) 128 - Lowest in 6 Months at ₹92,899 | Price History",
+          "url": "https://price-history.in/product/apple-2025-ipad-air-m3-128-mJyqTv2h",
+          "reference": "turn8search10"
+        },
+        {
+          "title": "Jual Oppo Find N5 Indonesia Terlengkap & Harga Terbaru September 2026 | Shopee Indonesia",
+          "url": "https://shopee.co.id/list/Oppo/Find%20N5/Indonesia",
+          "reference": "turn8search11"
+        },
+        {
+          "title": "iPad Air M3 13” 128GB @$699 (INR 66,000). Good deal or wait for Black Friday/Big Billion etc sale?",
+          "url": "https://www.reddit.com/r/ipad/comments/1valj7p/ipad_air_m3_13_128gb_699_inr_66000_good_deal_or/",
+          "reference": "turn8reddit13"
+        },
+        {
+          "title": "Need Opinions on purchase help for IPad Pro M4",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1pygqvi/need_opinions_on_purchase_help_for_ipad_pro_m4/",
+          "reference": "turn8reddit14"
+        },
+        {
+          "title": "Ipad Pro M4",
+          "url": "https://www.reddit.com/r/AppleIndia/comments/1rq6q4i/ipad_pro_m4/",
+          "reference": "turn8reddit15"
+        },
+        {
+          "title": "Second Hand ipad pro m4",
+          "url": "https://www.reddit.com/r/ipad/comments/1glz0xc",
+          "reference": "turn8reddit16"
+        },
+        {
+          "title": "Selling - Multiple - iPads!",
+          "url": "https://www.reddit.com/r/resellpur/comments/1ps3hi2/selling_multiple_ipads/",
+          "reference": "turn8reddit17"
+        },
+        {
+          "title": "iPad Air 13 M4 + Magic Keyboard for sale",
+          "url": "https://www.reddit.com/r/AppleIndia/comments/1vnwc3k/ipad_air_13_m4_magic_keyboard_for_sale/",
+          "reference": "turn8reddit18"
+        },
+        {
+          "title": "Selling IPad pro M4 Cellular + wifi",
+          "url": "https://www.reddit.com/r/ludhiana/comments/1vcnvse/selling_ipad_pro_m4_cellular_wifi/",
+          "reference": "turn8reddit19"
+        },
+        {
+          "title": "Friend is selling his unused ipad pro 6th gen 2022/ 256gb for 80k . Is this a fair price ?",
+          "url": "https://www.reddit.com/r/delhi_marketplace/comments/1m3mw0s/friend_is_selling_his_unused_ipad_pro_6th_gen/",
+          "reference": "turn8reddit20"
+        },
+        {
+          "title": "Selling Ipad pro M2 11inch brand new",
+          "url": "https://www.reddit.com/r/MumbaiMarketplace/comments/1o16fld",
+          "reference": "turn8reddit21"
+        },
+        {
+          "title": "Selling ipad M2",
+          "url": "https://www.reddit.com/r/gurgaon/comments/1ovar25/selling_ipad_m2/",
+          "reference": "turn8reddit22"
+        },
+        {
+          "title": "Been a fantastic phone...by for now",
+          "url": "https://www.reddit.com/r/OppoFindN5Phone/comments/1m1idxw",
+          "reference": "turn8reddit23"
+        },
+        {
+          "title": "CANADIAN PUNJAB TIMES",
+          "url": "https://thepunjabtimes.ca/wp-content/uploads/2025/03/28rd_February_Edition_Canadian_Punajb_Times.pdf",
+          "reference": "turn8search24"
+        },
+        {
+          "title": "DRI/GI/VI/ENQ/5/2025-Gr I-O/o ADG-DRI-ZU-KOLKATA                                                                 I/3522341/2025",
+          "url": "https://kolkatacustoms.gov.in/storage/uploads/custom_notice_order/20251117114308.pdf",
+          "reference": "turn8search25"
+        },
+        {
+          "title": "Mobileshop, s.r.o.",
+          "url": "https://www.mobileshop.eu/bg/%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8-pdf/de1986e564f03062c907d48c26d8cd4f3bdbdcd6538c046895c94eb92b8e18e9/",
+          "reference": "turn8search26"
+        },
+        {
+          "title": "OPPO Find N5 5G CPH2671 User Manual",
+          "url": "https://manuals.plus/asin/B0DX64YFX7.pdf",
+          "reference": "turn8search27"
+        }
+      ]
+    },
+    {
+      "batch": 6,
+      "queries": [
+        {
+          "q": "\"Xiaomi 15 Ultra\" \"512\" used India price"
+        },
+        {
+          "q": "\"Galaxy Tab S11\" used refurbished India 128 256"
+        },
+        {
+          "q": "\"iPhone 16 Plus\" \"128\" \"256\" \"512\" site:cashify.in/buy-refurbished-mobile-phones"
+        },
+        {
+          "q": "\"iPhone 17\" \"256\" used site:olx.in"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Certified Refurbished Apple iPhone 16 | 6-Month Warranty | Cashify",
+          "url": "https://www.cashify.in/buy-refurbished-mobile-phones/renewed-apple-iphone-16/211297",
+          "reference": "turn7search0"
+        },
+        {
+          "title": "Certified Refurbished Apple iPhone 16 | 6-Month Warranty | Cashify",
+          "url": "https://www.cashify.in/buy-refurbished-mobile-phones/renewed-apple-iphone-16/147462",
+          "reference": "turn7search1"
+        },
+        {
+          "title": "Buy Second Hand Xiaomi 15 Ultra - Used Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-xiaomi-15-ultra",
+          "reference": "turn7search2"
+        },
+        {
+          "title": "Buy Galaxy Tab S11 | Tab S11 Ultra - Price & Offers | Samsung India",
+          "url": "https://www.samsung.com/in/tablets/galaxy-tab-s11/buy/?modelCode=SM-X730NZAEINU",
+          "reference": "turn7search3"
+        },
+        {
+          "title": "Samsung Galaxy Tab S11 5G 256gb/12gb ram just 5 month Old - Tablets in Kalkaji, Delhi - 1856571792",
+          "url": "https://www.olx.in/item/tablets-c1455-samsung-in-kalkaji-delhi-iid-1856571792",
+          "reference": "turn7search4"
+        },
+        {
+          "title": "iPhone 16 vs iPhone 16 Plus vs iPhone 16 Pro vs iPhone 16 Pro Max: The Ultimate Comparison | Cashify Blog",
+          "url": "https://www.cashify.in/iphone-16-vs-iphone-16-plus-vs-iphone-16-pro-vs-iphone-16-pro-max",
+          "reference": "turn7search5"
+        },
+        {
+          "title": "Buy & Sell Second Hand 15\" in India, Used Xiaomi Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/_c1453/q-15%22?filter=make_eq_xiaomi",
+          "reference": "turn7search6"
+        },
+        {
+          "title": "Xiaomi 15 Ultra 512GB giá rẻ, hàng chính hãng 09/2026",
+          "url": "https://www.chotot.com/tags/mua-ban-dien-thoai/xiaomi-15-ultra-512gb?event_source=seo_content_hub",
+          "reference": "turn7search7"
+        },
+        {
+          "title": "Sell Old Xiaomi 15 Ultra (16 GB/512 GB) Online & Get Instant Cash At Doorstep | Cashify.in",
+          "url": "https://www.cashify.in/sell-old-mobile-phone/used-xiaomi-15-ultra-16-gb-512-gb",
+          "reference": "turn7search8"
+        },
+        {
+          "title": "Buy Used Xiaomi 15 Ultra Phone Online in Pragati Maidan, Delhi by Gope under 90000 | ORUphones | 680c3f1c94e6728decb52a55",
+          "url": "https://www.oruphones.com/buy-old-used-phones/Xiaomi/Xiaomi-15-Ultra/680c3f1c94e6728decb52a55",
+          "reference": "turn7search9"
+        },
+        {
+          "title": "Sell old used Xiaomi 15 Ultra (16 GB/512 GB)for instant cash online check for Second Hand, New Price or resale value in India",
+          "url": "https://cashonpick.com/xiaomi-15-ultra-16-gb512-gb",
+          "reference": "turn7search10"
+        },
+        {
+          "title": "ANKIT MOBILES",
+          "url": "https://www.ankitmobiles.com/shop-left-sidebar.php?brand=&category=&sort=",
+          "reference": "turn7search11"
+        },
+        {
+          "title": "Selling Xiaomi 15 Ultra",
+          "url": "https://www.reddit.com/r/delhimarketplace/comments/1o83uti/selling_xiaomi_15_ultra/",
+          "reference": "turn7reddit12"
+        },
+        {
+          "title": "Trade_in_May_26 iStudio",
+          "url": "https://manuals.plus/m/2a291a68a41bbafd11a0d56c06ce2a517c001f3a416b2e36ce3a2c197e06936b.pdf",
+          "reference": "turn7search13"
+        },
+        {
+          "title": "Xiaomi 15 Ultra Smartphone 16GB RAM 512GB Storage - Immaculate Condition - pre-owned",
+          "url": "https://www.reddit.com/r/resellpur/comments/1on8zx1",
+          "reference": "turn7reddit14"
+        },
+        {
+          "title": "T&C for Christmas Contest 2025",
+          "url": "https://www.olx.in/blog/wp-content/uploads/2025/12/TC-for-Christmas-Contest-2025.pdf",
+          "reference": "turn7search15"
+        },
+        {
+          "title": "Samsung Galaxy Tab S11",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S11",
+          "reference": "turn7search16"
+        },
+        {
+          "title": "'The closest thing to an iPad Air in Android form' - I was impressed by the Samsung Galaxy Tab S11, but there's one area where it can't beat Apple",
+          "url": "https://www.techradar.com/tablets/samsung-galaxy-tab-s11-review",
+          "reference": "turn7news28"
+        }
+      ]
+    },
+    {
+      "batch": 7,
+      "queries": [
+        {
+          "q": "\"Samsung S25 Edge\" \"512\" used India price"
+        },
+        {
+          "q": "\"Oppo Find X8 Pro\" \"512\" used India price"
+        },
+        {
+          "q": "\"Samsung Z Flip 7 FE\" \"256\" used India price"
+        },
+        {
+          "q": "\"Macbook Air M3\" \"8\" \"256\" used price India"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Buy & Sell Second Hand Samsung S25 Edge in India, Used Mobiles in India | OLX",
+          "url": "https://www.olx.in/en-in/mobiles_c1411/q-samsung-s25-edge",
+          "reference": "turn11search0"
+        },
+        {
+          "title": "Oppo Find X8 Pro 512 gb - Mobile Phones in Kandivali West, Mumbai - 1844380507",
+          "url": "https://www.olx.in/en-in/item/mobile-phones-c1453-used-oppo-in-kandivali-west-mumbai-iid-1844380507",
+          "reference": "turn11search1"
+        },
+        {
+          "title": "ANKIT MOBILES",
+          "url": "https://www.ankitmobiles.com/shop-left-sidebar.php?brand=&category=&sort=",
+          "reference": "turn11search2"
+        },
+        {
+          "title": "Macbook Air M3 - Buy & Sell Computers & Laptops Online in India | OLX",
+          "url": "https://www.olx.in/computers-laptops_c1505/q-macbook-air-m3",
+          "reference": "turn11search3"
+        },
+        {
+          "title": "OPPO Find X8 Pro 5G (512 GB, 16 GB RAM) (Refurbished) – GudFast",
+          "url": "https://gudfast.com/product/oppo-find-x8-pro-5g-space-black-512-gb-16-gb-ram-refurbished/",
+          "reference": "turn11search4"
+        },
+        {
+          "title": "Apple MacBook Air m3 13 - Computers & Laptops in Mota Mava, Rajkot - 1855399869",
+          "url": "https://www.olx.in/item/computers-laptops-c1505-computerdesktop-used-applemacbook-in-mota-mava-rajkot-iid-1855399869",
+          "reference": "turn11search5"
+        },
+        {
+          "title": "Oppo find x8 pro. 16/512.. exchange also available with Samsung - Mobile Phones in Mira Road, Mumbai - 1854228569",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-mira-road-mumbai-iid-1854228569",
+          "reference": "turn11search6"
+        },
+        {
+          "title": "Oppo find x8 pro fresh condition with 100% battery health - Mobile Phones in Chasapara, Krishnanagar - 1856709551",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-chasapara-krishnanagar-iid-1856709551",
+          "reference": "turn11search7"
+        },
+        {
+          "title": "macbook air m3 - Indore | SecondHandBazaar",
+          "url": "https://www.secondhandbazaar.in/indore/computers-laptops-accessories/macbook-air-m3-indore?image=1",
+          "reference": "turn11search8"
+        },
+        {
+          "title": "Oppo find X8 pro 16 GB ram 512 GB storage - Mobile Phones in Kottivakkam Sri Jayendra Colony, Chennai - 1844424644",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-kottivakkam-sri-jayendra-colony-chennai-iid-1844424644",
+          "reference": "turn11search9"
+        },
+        {
+          "title": "Buy Used Oppo Find X8 Pro Phone Online in India by Prashant under 50000 | ORUphones | 68e64e9fa40894f86e32535e",
+          "url": "https://www.oruphones.com/buy-old-used-phones/oppo/oppo-find-x8-pro/68e64e9fa40894f86e32535e",
+          "reference": "turn11search10"
+        },
+        {
+          "title": "Buy MacBook in Vietnam, Sell Old One in India - Net Upgrade Cost Calculation",
+          "url": "https://applepricehunt.com/blog/buy-macbook-vietnam-sell-old-india-net-upgrade-cost",
+          "reference": "turn11search11"
+        },
+        {
+          "title": "Selling Macbook m3",
+          "url": "https://www.reddit.com/r/delhi_marketplace/comments/1sxnw36/selling_macbook_m3/",
+          "reference": "turn11reddit12"
+        },
+        {
+          "title": "[WTB]",
+          "url": "https://www.reddit.com/r/macoffer/comments/1syxwo9/wtb/",
+          "reference": "turn11reddit13"
+        },
+        {
+          "title": "Lot No. 5: Laptop (Type B); iOS based Apple Laptop (MacBook) (ON EX-STOCK BASIS ONLY)",
+          "url": "https://sindhhighcourt.gov.pk/news_notifications/source_files/Tender/04_Financial_Bid_Evolution-2024-25.pdf",
+          "reference": "turn11search14"
+        },
+        {
+          "title": "Looking to Purchase a MacBook Air M2/M3",
+          "url": "https://www.reddit.com/r/PakistanMarketplace/comments/1sk4mjj/looking_to_purchase_a_macbook_air_m2m3/",
+          "reference": "turn11reddit15"
+        },
+        {
+          "title": "[WTB] M3 8 256 Air for 55k worth it?",
+          "url": "https://www.reddit.com/r/macoffer/comments/1wiolax/wtb_m3_8_256_air_for_55k_worth_it/",
+          "reference": "turn11reddit16"
+        },
+        {
+          "title": "[QUERY] Op bought m3 for 68k. Yay or nay.",
+          "url": "https://www.reddit.com/r/macoffer/comments/1rt9aup/query_op_bought_m3_for_68k_yay_or_nay/",
+          "reference": "turn11reddit17"
+        },
+        {
+          "title": "Getting MacBook Air M3 at ₹63k. Should I wait for BBD?",
+          "url": "https://www.reddit.com/r/techIndia/comments/1wki7co/getting_macbook_air_m3_at_63k_should_i_wait_for/",
+          "reference": "turn11reddit18"
+        },
+        {
+          "title": "Macbook Air M3 - 8/512",
+          "url": "https://www.reddit.com/r/PakistanMarketplace/comments/1rpu0m4/macbook_air_m3_8512/",
+          "reference": "turn11reddit19"
+        },
+        {
+          "title": "Selling Macbook Air M4 13\" 16/256 gb variant",
+          "url": "https://www.reddit.com/r/delhimarketplace/comments/1w37i5b/selling_macbook_air_m4_13_16256_gb_variant/",
+          "reference": "turn11reddit20"
+        },
+        {
+          "title": "M4 MacBook Air 16/256 for ₹70k used — good deal or should I look for something else?",
+          "url": "https://www.reddit.com/r/AppleIndia/comments/1vveqx2/m4_macbook_air_16256_for_70k_used_good_deal_or/",
+          "reference": "turn11reddit21"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://i.citrus.world/uploads/shares/2024/december/gadzheti-apple-z-vigodoyu-10/gadzheti-apple-z-vigodoyu-10.pdf?_t=1734940730",
+          "reference": "turn11search22"
+        },
+        {
+          "title": "MacBook Air m2 8/512",
+          "url": "https://www.reddit.com/r/PakistanMarketplace/comments/1u4i35n/macbook_air_m2_8512/",
+          "reference": "turn11reddit23"
+        },
+        {
+          "title": "Macbook M3 - 8/256GB for under 1L: should I go for it? any better alternatives.",
+          "url": "https://www.reddit.com/r/developersIndia/comments/1ciaqye",
+          "reference": "turn11reddit24"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://device.report/m/72c2a6d57931847f11556a28738fe1807533b234890e96a8f96d714f0c90ffc0.pdf",
+          "reference": "turn11search25"
+        }
+      ]
+    },
+    {
+      "batch": 8,
+      "queries": [
+        {
+          "q": "\"Oppo Find X8\" \"16\" \"512\" used India price"
+        },
+        {
+          "q": "\"Xiaomi 17\" \"12\" \"256\" used India price"
+        },
+        {
+          "q": "\"OnePlus 15\" \"12\" \"512\" used India price"
+        },
+        {
+          "q": "\"iQOO 15\" \"16\" \"512\" used India price"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Oppo find x8 16/512 with all original accessories - Mobile Phones in Haibatpur, Ghaziabad - 1837260037",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-haibatpur-ghaziabad-iid-1837260037",
+          "reference": "turn10search0"
+        },
+        {
+          "title": "Buy & Sell Second Hand Oneplus 15 in India, Used One Plus Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-oneplus-15?filter=make_eq_one-plus",
+          "reference": "turn10search1"
+        },
+        {
+          "title": "Sell Old OPPO Find X8 5G (16 GB/512 GB) Online & Get Instant Cash At Doorstep | Cashify.in",
+          "url": "https://www.cashify.in/sell-old-mobile-phone/used-oppo-find-x8-5g-16-gb-512-gb",
+          "reference": "turn10search2"
+        },
+        {
+          "title": "Sell OnePlus 15 Online – Get Up to ₹57,750 | TurnCash",
+          "url": "https://www.turncash.in/sell/phone/oneplus/15/",
+          "reference": "turn10search3"
+        },
+        {
+          "title": "Oppo Find X8 in Delhi, Free classifieds in Delhi | OLX",
+          "url": "https://www.olx.in/delhi_g2001152/q-oppo-find-x8",
+          "reference": "turn10search4"
+        },
+        {
+          "title": "Sell old used OPPO Find X8 5G (16 GB/512 GB) mobile phone for instant cash online",
+          "url": "https://cashonpick.com/oppo-find-x8-5g-16-gb512-gb",
+          "reference": "turn10search5"
+        },
+        {
+          "title": "Buy & Sell Second Hand Oneplus 15 in India, Used Mobiles in India | OLX",
+          "url": "https://www.olx.in/mobiles_c1411/q-oneplus-15",
+          "reference": "turn10search6"
+        },
+        {
+          "title": "Oppo Find X8 5G (16GB RAM + 512GB) - Price in India (Sept 2026), Specs, Reviews | Smartprix",
+          "url": "https://www.smartprix.com/mobiles/oppo-find-x8-5g-16gb-ram-512gb-ppd196rrkvbx",
+          "reference": "turn10search7"
+        },
+        {
+          "title": "Xiaomi 17 T 12 + 256 GB original price 84000 - Mobile Phones in Mallikarjuna Nagar, Hyderabad - 1850566907",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-xiaomi-in-mallikarjuna-nagar-hyderabad-iid-1850566907",
+          "reference": "turn10search8"
+        },
+        {
+          "title": "Buy & Sell Second Hand Xiaomi Mobile Phones in Rohini, Used Xiaomi Mobile Phones in Rohini | OLX",
+          "url": "https://www.olx.in/en-in/rohini_g5459480/mobile-phones_c1453?filter=make_eq_xiaomi",
+          "reference": "turn10search9"
+        },
+        {
+          "title": "iQOO 15 (16GB RAM + 512GB) Price in India, Specifications (Sep 2026)",
+          "url": "https://www.findprix.com/mobiles/iqoo-15-16gb-ram-512gb-3790",
+          "reference": "turn10search10"
+        },
+        {
+          "title": "Sell your iQOO 15 5G (16 GB/512 GB) Online | Doorstep iQOO 15 5G (16 GB/512 GB) sell Services Delhi | CashForPhone.in",
+          "url": "https://cashforphone.in/website/product/sell/iQOO-15-16-GB512-GB/PUNE",
+          "reference": "turn10search11"
+        },
+        {
+          "title": "I am getting 1 month old iqoo 15 16/512gb for 65.5k in unused open box condition",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1q3tqk9/i_am_getting_1_month_old_iqoo_15_16512gb_for_655k/",
+          "reference": "turn10reddit13"
+        },
+        {
+          "title": "Is it legit or scam",
+          "url": "https://www.reddit.com/r/IQOO_India/comments/1t50cdl/is_it_legit_or_scam/",
+          "reference": "turn10reddit14"
+        },
+        {
+          "title": "27-11-2025 Thursday",
+          "url": "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/27112025/3ef635d8-c273-4340-8081-d9b5feb0037c.pdf",
+          "reference": "turn10search15"
+        },
+        {
+          "title": "IQOO 15",
+          "url": "https://www.reddit.com/r/IQOO13/comments/1p8wa1e/iqoo_15/",
+          "reference": "turn10reddit16"
+        },
+        {
+          "title": "Need insightful opinions on the purchase of used OnePlus phones",
+          "url": "https://www.reddit.com/r/TheOnePlus15/comments/1vsbpco/need_insightful_opinions_on_the_purchase_of_used/",
+          "reference": "turn10reddit17"
+        },
+        {
+          "title": "iQOO 15R | First Look & Opinion",
+          "url": "https://www.reddit.com/r/IQOOUSER/comments/1r80hi6/iqoo_15r_first_look_opinion/",
+          "reference": "turn10reddit18"
+        },
+        {
+          "title": "Is it worth buying OnePlus 15?",
+          "url": "https://www.reddit.com/r/PakistaniTech/comments/1rt1qft/is_it_worth_buying_oneplus_15/",
+          "reference": "turn10reddit19"
+        },
+        {
+          "title": "Iq 15 out of stock",
+          "url": "https://www.reddit.com/r/IQOO_India/comments/1vjjrg6/iq_15_out_of_stock/",
+          "reference": "turn10reddit20"
+        },
+        {
+          "title": "Worthy Upgrade after 5 years??",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1tqxn0a/worthy_upgrade_after_5_years/",
+          "reference": "turn10reddit21"
+        },
+        {
+          "title": "Should I wait ?",
+          "url": "https://www.reddit.com/r/oneplus15/comments/1tvl258/should_i_wait/",
+          "reference": "turn10reddit22"
+        },
+        {
+          "title": "Is iQOO 15 a good choice in 2026?",
+          "url": "https://www.reddit.com/r/IQOO_India/comments/1vzik3q/is_iqoo_15_a_good_choice_in_2026/",
+          "reference": "turn10reddit23"
+        },
+        {
+          "title": "OP 15R official price details revealed",
+          "url": "https://www.reddit.com/r/oneplus/comments/1poysql/op_15r_official_price_details_revealed/",
+          "reference": "turn10reddit24"
+        }
+      ]
+    },
+    {
+      "batch": 9,
+      "queries": [
+        {
+          "q": "\"Realme GT 8 Pro\" \"16\" \"512\" used India price"
+        },
+        {
+          "q": "\"iPhone 15\" \"512\" used price site:olx.in"
+        },
+        {
+          "q": "\"iPhone 16\" \"128\" \"256\" used price site:olx.in"
+        },
+        {
+          "q": "\"Vivo X200 Pro\" \"12\" \"256\" used India price"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Buy Used vivo X200 Pro Phone Online in Bandra West, Mumbai by zakwan shaikh under 90000 | ORUphones | 677248dcf9250b50c93da259",
+          "url": "https://www.oruphones.com/buy-old-used-phones/vivo/vivo-x200-pro/677248dcf9250b50c93da259",
+          "reference": "turn9search0"
+        },
+        {
+          "title": "Mua bán Vivo X200 Pro cũ giá rẻ, máy like new, bảo hành uy tín",
+          "url": "https://www.chotot.com/mua-ban-dien-thoai-vivo-x200-pro-sdmd12ml4060?page=5",
+          "reference": "turn9search1"
+        },
+        {
+          "title": "Buy & Sell Second Hand 16 16 in India, Used Realme Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-16-16?filter=make_eq_realme",
+          "reference": "turn9search2"
+        },
+        {
+          "title": "Buy & Sell Second Hand X200 Pro in Delhi, Used Mobiles in Delhi | OLX",
+          "url": "https://www.olx.in/delhi_g4058659/mobiles_c1411/q-x200-pro",
+          "reference": "turn9search3"
+        },
+        {
+          "title": "Sell Old Realme GT 8 Pro (16 GB/512 GB) Online & Get Instant Cash At Doorstep | Cashify.in",
+          "url": "https://www.cashify.in/sell-old-mobile-phone/used-realme-gt-8-pto-16-gb-512-gb",
+          "reference": "turn9search4"
+        },
+        {
+          "title": "Certified Refurbished Realme GT 8 Pro | 6-Month Warranty | Cashify",
+          "url": "https://www.cashify.in/buy-refurbished-mobile-phones/renewed-realme-gt-8-pro",
+          "reference": "turn9search5"
+        },
+        {
+          "title": "Vivo X200 Pro 256GB chính hãng, giá rẻ 09/2026",
+          "url": "https://www.chotot.com/tags/mua-ban-dien-thoai/vivo-x200-pro-256gb",
+          "reference": "turn9search6"
+        },
+        {
+          "title": "Buy Second Hand vivo x200 pro Mobile Online | Best Prices – ORUphones",
+          "url": "https://www.oruphones.com/buy-old-used-phones/vivo/vivo-x200-pro",
+          "reference": "turn9search7"
+        },
+        {
+          "title": "vivo X200 Pro 5G 12GB|256GB Cũ 99% Giá Tốt | Di Động Mỹ",
+          "url": "https://www.didongmy.com/vivo-x200-pro-12gb-256gb-cu-99",
+          "reference": "turn9search8"
+        },
+        {
+          "title": "Realme GT 8 Pro (16GB RAM + 512GB) Price in India, Specifications (Sep 2026)",
+          "url": "https://www.findprix.com/mobiles/realme-gt-8-pro-16gb-ram-512gb-3759",
+          "reference": "turn9search9"
+        },
+        {
+          "title": "vivo X200 Pro 5G (Black, 256 GB)",
+          "url": "https://pricehistoryapp.com/product/vivo-x200-pro-5g-black-256-gb-077a9f",
+          "reference": "turn9search10"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://fs.siteor.com/gsmonline/article_attachments/attachments/322903/original/orange_love_z_internetem_mobilnym_dla_domu_20260414.pdf?1776156805=",
+          "reference": "turn9search12"
+        },
+        {
+          "title": "Buy vivo X200 Pro Second Hand Phone Under ₹20000 in Delhi | ORUphones",
+          "url": "https://www.oruphones.com/buy-old-used-phones/Vivo/vivo-X200-Pro/phones-under/20000",
+          "reference": "turn9search11"
+        },
+        {
+          "title": "Getting VIVO X200T(12+256) for 56k inr. Is it a good deal?",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1u3n6t3/getting_vivo_x200t12256_for_56k_inr_is_it_a_good/",
+          "reference": "turn9reddit13"
+        },
+        {
+          "title": "Vivo x200t(12+256) at 56k inr in flipkart epic june sale.. is it VFM or not ??",
+          "url": "https://www.reddit.com/r/Vivo/comments/1u3n0lo/vivo_x200t12256_at_56k_inr_in_flipkart_epic_june/",
+          "reference": "turn9reddit14"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://assets.ctfassets.net/4lyxhctxrf55/3F2nH8N0BH1L5wSihOv1hx/3c3d147e2b2acefaff9d77c0c1d202cc/5803_Regulamin_WALENTYNKI_%C3%A2___W_ZESTAWIE_TANIEJ_O_20-_DRUGIEGO_TA%C3%85_SZEGO_PRODUKTU.pdf",
+          "reference": "turn9search15"
+        },
+        {
+          "title": "品牌  | 品名  | 容量  | Apr-25",
+          "url": "https://www.fetnet.net/content/dam/fetnet/user_resource/cbu/documents/tradein/pdf/%E8%88%8A%E6%8F%9B%E6%96%B0%E7%B6%B2%E9%A0%81_%E5%83%B9%E6%A0%BC%E8%A1%A804.pdf",
+          "reference": "turn9search16"
+        },
+        {
+          "title": "[INDIA] What's the best deal you are getting on X300 pro or x300.",
+          "url": "https://www.reddit.com/r/Vivo/comments/1penoq4/india_whats_the_best_deal_you_are_getting_on_x300/",
+          "reference": "turn9reddit17"
+        },
+        {
+          "title": "Finally bought it for 49999 INR",
+          "url": "https://www.reddit.com/r/Vivo/comments/1muvozy",
+          "reference": "turn9reddit18"
+        },
+        {
+          "title": "Xiaomi 15 Ultra vs Vivo X200 Pro",
+          "url": "https://www.reddit.com/r/PickAnAndroidForMe/comments/1uekdcy/xiaomi_15_ultra_vs_vivo_x200_pro/",
+          "reference": "turn9reddit19"
+        }
+      ]
+    },
+    {
+      "batch": 10,
+      "queries": [
+        {
+          "q": "\"Samsung S25 Plus\" \"256\" used India price"
+        },
+        {
+          "q": "\"iQOO Z10\" \"8\" used 128 256 India price"
+        },
+        {
+          "q": "\"Nothing Phone 3a\" \"128\" used India price"
+        },
+        {
+          "q": "\"Oppo F29 Pro\" \"8\" \"256\" used India price"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Buy Second Hand Nothing Phone 3a - Used Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/en-in/mobile-phones_c1453/q-nothing-phone-3a",
+          "reference": "turn15search0"
+        },
+        {
+          "title": "Buy & Sell Second Hand Nothing 3a in India, Used Mobiles in India | OLX",
+          "url": "https://www.olx.in/en-in/mobiles_c1411/q-nothing-3a",
+          "reference": "turn15search1"
+        },
+        {
+          "title": "Sell iQOO Z10 5G Online – Get Up to ₹18,100 | TurnCash",
+          "url": "https://www.turncash.in/sell/phone/iqoo/z10-5g/",
+          "reference": "turn15search2"
+        },
+        {
+          "title": "Buy & Sell Second Hand Iqoo Z10 in India, Used Vivo Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-iqoo-z10?filter=make_eq_vivo-phone",
+          "reference": "turn15search3"
+        },
+        {
+          "title": "OPPO F29 pro 5g 8/256 - Mobile Phones in Bhojiyavas, Modasa - 1855782012",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-bhojiyavas-modasa-iid-1855782012",
+          "reference": "turn15search4"
+        },
+        {
+          "title": "Oppo f29 pro 5g sell & exchange - Mobile Phones in Ulwe, Navi Mumbai - 1856670523",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-ulwe-navi-mumbai-iid-1856670523",
+          "reference": "turn15search5"
+        },
+        {
+          "title": "Buy Second Hand 3a - Used Mobile Phones in Noida | OLX",
+          "url": "https://www.olx.in/noida_g4059326/mobile-phones_c1453/q-3a",
+          "reference": "turn15search6"
+        },
+        {
+          "title": "Oppo F29 Pro (8GB RAM + 256GB) - Price in India (Sept 2026), Specs, Reviews | Smartprix",
+          "url": "https://www.smartprix.com/mobiles/oppo-f29-pro-8gb-ram-256gb-ppd1vqn0s3yv",
+          "reference": "turn15search7"
+        },
+        {
+          "title": "Nothing Phone 3a 128 (Used) - Decent TM ▷ Price: BDT 25,990 on bikroy.com [Nasirabad]",
+          "url": "https://bikroy.com/nasirabad/mobile-phones/nothing-phone-3a-128-used-5SEQXK1X9fVCYj2066b202pY.html",
+          "reference": "turn15search8"
+        },
+        {
+          "title": "Shop – Page 31 – GudFast",
+          "url": "https://gudfast.com/shop/page/31/?max_price=58500&orderby=price&per_page=18&post_type=product&shop_view=list",
+          "reference": "turn15search9"
+        },
+        {
+          "title": "Oppo f29 pro 5g 8/256 gb - Mobile Phones in Maruti Vihar, Gurgaon - 1853494176",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-maruti-vihar-gurgaon-iid-1853494176",
+          "reference": "turn15search10"
+        },
+        {
+          "title": "Sell OPPO F29 Pro 5G Online — Best Price in India | Reuz",
+          "url": "https://www.reuz.in/sell-used-phone/oppo/oppo-f29-pro/",
+          "reference": "turn15search11"
+        },
+        {
+          "title": "Nothing phone 3a lite - Under Warranty",
+          "url": "https://www.reddit.com/r/MumbaiMarketplace/comments/1v8nejm/nothing_phone_3a_lite_under_warranty/",
+          "reference": "turn15reddit12"
+        },
+        {
+          "title": "Nothing phone under 28k",
+          "url": "https://www.reddit.com/r/techIndia/comments/1ryq3h0/nothing_phone_under_28k/",
+          "reference": "turn15reddit14"
+        },
+        {
+          "title": "VIVO & iQOO SMARTPHONE PRICE 📈",
+          "url": "https://www.reddit.com/r/IQOOUSER/comments/1rfgks7/vivo_iqoo_smartphone_price/",
+          "reference": "turn15reddit15"
+        },
+        {
+          "title": "Help me buddy 😭",
+          "url": "https://www.reddit.com/r/NOTHING/comments/1pdw2pa/help_me_buddy/",
+          "reference": "turn15reddit16"
+        },
+        {
+          "title": "Accidentally became a 2-phone guy… thanks to a deal I couldn’t resist",
+          "url": "https://www.reddit.com/r/NOTHING/comments/1n5m2xp",
+          "reference": "turn15reddit17"
+        },
+        {
+          "title": "Thinking to buy IQOO Z10X.",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1qrt0dc/thinking_to_buy_iqoo_z10x/",
+          "reference": "turn15reddit18"
+        },
+        {
+          "title": "Help me out please",
+          "url": "https://www.reddit.com/r/NothingTech/comments/1sqbgqx/help_me_out_please/",
+          "reference": "turn15reddit19"
+        },
+        {
+          "title": "JB MISCELLANEOUS",
+          "url": "https://jammubulletin.com/epaper/admin/paper/1744573779Page%202.pdf",
+          "reference": "turn15search20"
+        },
+        {
+          "title": "IQOO Z10",
+          "url": "https://en.wikipedia.org/wiki/IQOO_Z10",
+          "reference": "turn15search21"
+        },
+        {
+          "title": "iQOO Z10 vs Infinix GT 30 5G+ — best phone under ₹24k?",
+          "url": "https://www.reddit.com/r/Smartphones/comments/1vn5yju/iqoo_z10_vs_infinix_gt_30_5g_best_phone_under_24k/",
+          "reference": "turn15reddit22"
+        },
+        {
+          "title": "iQOO Z10 vs Infinix GT 30 5G+ — best phone under ₹24k?",
+          "url": "https://www.reddit.com/r/IQOO_India/comments/1voxn6h/iqoo_z10_vs_infinix_gt_30_5g_best_phone_under_24k/",
+          "reference": "turn15reddit23"
+        },
+        {
+          "title": "Nothing 3a pro refurbished (8 256gb)",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1spy3ar/nothing_3a_pro_refurbished_8_256gb/",
+          "reference": "turn15reddit24"
+        },
+        {
+          "title": "nothing phone 4a",
+          "url": "https://www.reddit.com/r/IndiaCart/comments/1tyj0pg/nothing_phone_4a/",
+          "reference": "turn15reddit25"
+        },
+        {
+          "title": "will nothing phone 3a come down to 21k ?",
+          "url": "https://www.reddit.com/r/NOTHING/comments/1na0v6g",
+          "reference": "turn15reddit26"
+        },
+        {
+          "title": "www.theresearchers.us        I           www.epaper.theresearchers.asia                   @NTheresearchers                    facebook.com/newsthe.researchers",
+          "url": "https://www.digitalpaper.in/media/2025-07/25-tr-rnc-july-2025.pdf",
+          "reference": "turn15search27"
+        },
+        {
+          "title": "OPPO F31 Pro - 8200mAh रिलीज़ Date सितम्बर 24GB RAM सिर्फ XXXX9/-मात्र - YouTube",
+          "url": "https://www.youtube.com/watch?v=XJXz5rlVJOE",
+          "reference": "turn15youtube32"
+        }
+      ]
+    },
+    {
+      "batch": 11,
+      "queries": [
+        {
+          "q": "\"Vivo V50e\" \"8\" \"128\" used India price"
+        },
+        {
+          "q": "\"Vivo Y31 Pro\" \"8\" \"128\" used India price"
+        },
+        {
+          "q": "\"Redmi Note 14 Pro\" \"8\" \"128\" used India price"
+        },
+        {
+          "q": "\"Oppo A6 Pro\" \"8\" \"128\" used India price"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Buy Second Hand vivo v50e Mobile Online | Best Prices – ORUphones",
+          "url": "https://www.oruphones.com/buy-old-used-phones/vivo/vivo-v50e",
+          "reference": "turn14search0"
+        },
+        {
+          "title": "Vivo V50e 8/128 gb Excellent Condition 20,000 Final Rate No Negotiable - Mobile Phones in Jaswantpura, Aurangabad - 1854706780",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-vivo-in-jaswantpura-aurangabad-iid-1854706780",
+          "reference": "turn14search1"
+        },
+        {
+          "title": "Vivo v50e 8/128 very good mobile - Mobile Phones in Kenchaganahalli, Punganur - 1853687071",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-vivo-in-kenchaganahalli-punganur-iid-1853687071",
+          "reference": "turn14search2"
+        },
+        {
+          "title": "Sell Oppo A6 Pro 5G Online – Get Up to ₹14,940 | TurnCash",
+          "url": "https://www.turncash.in/sell/phone/oppo/a6-pro-5g/",
+          "reference": "turn14search3"
+        },
+        {
+          "title": "Vivo y31 pro 5G (10 months old ) - Mobile Phones in Jhilmil Colony, Delhi - 1855547941",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-vivo-in-jhilmil-colony-delhi-iid-1855547941",
+          "reference": "turn14search4"
+        },
+        {
+          "title": "Buy & Sell Second Hand A6. in India, Used Oppo Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-a6.?filter=make_eq_oppo-phone",
+          "reference": "turn14search5"
+        },
+        {
+          "title": "Buy Second Hand Redmi Note 14 Pro - Used Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-redmi-note-14-pro",
+          "reference": "turn14search6"
+        },
+        {
+          "title": "Buy & Sell Second Hand Vivo Y31 in India, Used मोबाइल in India | OLX",
+          "url": "https://www.olx.in/hi-in/mobiles_c1411/q-vivo-y31",
+          "reference": "turn14search7"
+        },
+        {
+          "title": "Buy Used vivo V50e Phone Online in India by ORU User under 40000 | ORUphones | 688ba8234acd8ce4258f7d2f",
+          "url": "https://www.oruphones.com/buy-old-used-phones/vivo/vivo-V50e/688ba8234acd8ce4258f7d2f",
+          "reference": "turn14search8"
+        },
+        {
+          "title": "OPPO A6 Pro 5G 128/8 - Mobile Phones in Balepet, Bengaluru - 1855749875",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-balepet-bengaluru-iid-1855749875",
+          "reference": "turn14search9"
+        },
+        {
+          "title": "Buy & Sell Second Hand Redmi Note 14 Pro in India, Used Mobiles in India | OLX",
+          "url": "https://www.olx.in/en-in/mobiles_c1411/q-redmi-note-14-pro",
+          "reference": "turn14search10"
+        },
+        {
+          "title": "Buy Used Oppo A6 Pro Phone Online in India by Karuppasamy under 30000 | ORUphones | 697d6c2b0259c03e5d589d28",
+          "url": "https://www.oruphones.com/buy-old-used-phones/oppo/oppo-a6-pro/697d6c2b0259c03e5d589d28",
+          "reference": "turn14search11"
+        },
+        {
+          "title": "Bismi Connect",
+          "url": "https://cdn4.singleinterface.com/files/banner_images/344780/8267_1760343422_Mobile.bb.pdf",
+          "reference": "turn14search12"
+        },
+        {
+          "title": "Redmi Note 14 Pro 5G for ₹12k in 2026 – worth it?",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1tykco8/redmi_note_14_pro_5g_for_12k_in_2026_worth_it/",
+          "reference": "turn14reddit13"
+        },
+        {
+          "title": "Category  | Model  | Minimum Amount (Rs)  | Maximum Discount (Rs)",
+          "url": "https://www.sbicard.com/sbi-card-en/assets/media/images/personal/offers/categories/shopping/xiaomi-aug24/model-xiaomi-aug24.pdf",
+          "reference": "turn14search14"
+        },
+        {
+          "title": "Deals Offer PDF Export",
+          "url": "https://www.sathya.store/php-excel-export/8162.pdf",
+          "reference": "turn14search16"
+        },
+        {
+          "title": "Solved Thanks to everyone",
+          "url": "https://www.reddit.com/r/PakistaniTech/comments/1ls6az8/solved_thanks_to_everyone/",
+          "reference": "turn14reddit17"
+        }
+      ]
+    },
+    {
+      "batch": 12,
+      "queries": [
+        {
+          "q": "\"Oppo A6\" \"6\" \"256\" used India price"
+        },
+        {
+          "q": "\"OnePlus Nord CE 6 Lite\" \"8\" \"256\" used India price"
+        },
+        {
+          "q": "\"Vivo T5x\" \"8\" \"256\" used India price"
+        },
+        {
+          "q": "\"Realme 15T\" \"8\" \"128\" used India price"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Vivo t5x 8/256 ,All Good condition, Brand Warranty up to 24 June 2027 - Mobile Phones in Shivaji Nagar, Ghansawangi - 1856178553",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-vivo-in-shivaji-nagar-ghansawangi-iid-1856178553",
+          "reference": "turn13search0"
+        },
+        {
+          "title": "Sell OnePlus Nord CE 6 Lite 5G – Up to ₹19,650 | TurnCash",
+          "url": "https://www.turncash.in/sell/phone/oneplus/nord-ce-6-lite-5g/",
+          "reference": "turn13search1"
+        },
+        {
+          "title": "Buy Second Hand realme 15t Mobile Online | Best Prices – ORUphones",
+          "url": "https://www.oruphones.com/buy-old-used-phones/realme/realme-15t",
+          "reference": "turn13search2"
+        },
+        {
+          "title": "Buy & Sell Second Hand NORD 6 in Delhi, Used Mobiles in Delhi | OLX",
+          "url": "https://www.olx.in/delhi_g2001152/mobiles_c1411/q-NORD-6",
+          "reference": "turn13search3"
+        },
+        {
+          "title": "Realme 15T. 5g. 8. 128. Best candision pura phone orignal hai - Mobile Phones in Kambalwala Bagh, Muzaffarnagar - 1856438993",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-realme-in-kambalwala-bagh-muzaffarnagar-iid-1856438993",
+          "reference": "turn13search4"
+        },
+        {
+          "title": "Sell Old Vivo T5x 5G (8 GB/256 GB) Online & Get Instant Cash At Doorstep | Cashify.in",
+          "url": "https://www.cashify.in/sell-old-mobile-phone/used-vivo-t5x-5g-8-gb-256-gb",
+          "reference": "turn13search5"
+        },
+        {
+          "title": "Mobile Priority - Best Second Hand Mobile Shop in Kolkata",
+          "url": "https://mobilepriority.in/product/realme-15t-5g-flowing-silver/770?stock_by=15&stock_id=7306",
+          "reference": "turn13search6"
+        },
+        {
+          "title": "OnePlus Nord CE 6 Lite 5G (8GB RAM + 256GB) Price in India 2026 - Full Specs & Features | Smartprix",
+          "url": "https://www.smartprix.com/mobiles/oneplus-nord-ce-6-lite-5g-8gb-ram-256gb-ppd1wqac0oep",
+          "reference": "turn13search7"
+        },
+        {
+          "title": "Glx Bharat – Pre-Owned Smart Phone",
+          "url": "https://glxbharat.com/",
+          "reference": "turn13search8"
+        },
+        {
+          "title": "vivo T5x 5G (128 GB Storage, 6 GB RAM) Online at Best Price On Flipkart.com",
+          "url": "https://www.flipkart.com/vivo-t5x-5g-cyber-green-256-gb/p/itm7da8aa253e72b?_appId=CL&affExtParam1=9bEMbgRsP5M6HgWVUen9cU_p41674774&affExtParam2=31b30ad23ebd2cf5349c3d77c1793fc9&affid=atgwish",
+          "reference": "turn13search9"
+        },
+        {
+          "title": "Certified Refurbished Realme 15T 5G | 6-Month Warranty | Cashify",
+          "url": "https://www.cashify.in/buy-refurbished-mobile-phones/renewed-realme-15t-5g/213753",
+          "reference": "turn13search10"
+        },
+        {
+          "title": "Buy & Sell Second Hand A6 in India, Used Oppo Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-a6?filter=make_eq_oppo-phone",
+          "reference": "turn13search11"
+        },
+        {
+          "title": "Final verdict?",
+          "url": "https://www.reddit.com/r/PickAnAndroidForMe/comments/1vprzzo/final_verdict/",
+          "reference": "turn13reddit12"
+        },
+        {
+          "title": "Oneplus Nord CE6 & CE6 Lite launch date confirmed.",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1sqrggw/oneplus_nord_ce6_ce6_lite_launch_date_confirmed/",
+          "reference": "turn13reddit13"
+        },
+        {
+          "title": "Realme Mobiles (TSG) SBS Promotion 04-Jun-26.xlsx",
+          "url": "https://prodbaf.blob.core.windows.net/data/Realme%20Mobiles%20%28TSG%29%20SBS%20Promotion%2004-Jun-26.pdf",
+          "reference": "turn13search14"
+        },
+        {
+          "title": "Iqoo Z11x /Vivo T5x 5G users, have you been facing any issues with this devices? What are your reviews?",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1s2eoj2/iqoo_z11x_vivo_t5x_5g_users_have_you_been_facing/",
+          "reference": "turn13reddit15"
+        },
+        {
+          "title": "Need phone under 25k",
+          "url": "https://www.reddit.com/r/techzoneindia/comments/1tzfxi4/need_phone_under_25k/",
+          "reference": "turn13reddit16"
+        }
+      ]
+    },
+    {
+      "batch": 13,
+      "queries": [
+        {
+          "q": "\"Realme P4\" \"8\" \"128\" used India price"
+        },
+        {
+          "q": "\"OnePlus Nord CE 5\" \"8\" \"128\" used India price"
+        },
+        {
+          "q": "\"Vivo Y400\" \"8\" \"128\" used India price"
+        },
+        {
+          "q": "\"Oppo F29\" \"8\" \"128\" used India price"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Buy & Sell Second Hand Oneplus Nord Ce 5 in India, Used One Plus Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-oneplus-nord-ce-5?filter=make_eq_one-plus",
+          "reference": "turn17search0"
+        },
+        {
+          "title": "Buy & Sell Second Hand Realme P4 in India, Used Realme Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/en-in/mobile-phones_c1453/q-realme-p4?filter=make_eq_realme",
+          "reference": "turn17search1"
+        },
+        {
+          "title": "Buy & Sell Second Hand Vivo Y100a in Delhi, Used Mobiles in Delhi | OLX",
+          "url": "https://www.olx.in/en-in/delhi_g2001152/mobiles_c1411/q-vivo-y100a",
+          "reference": "turn17search2"
+        },
+        {
+          "title": "Sell OnePlus Nord CE 5 5G – Get Up to ₹19,470 | TurnCash",
+          "url": "https://www.turncash.in/sell/phone/oneplus/nord-ce-5-5g/",
+          "reference": "turn17search3"
+        },
+        {
+          "title": "Mobile Priority - Best Second Hand Mobile Shop in Kolkata",
+          "url": "https://www.mobilepriority.in/product/vivo-y400-5g-glam-white/806?stock_by=8&stock_id=7532",
+          "reference": "turn17search4"
+        },
+        {
+          "title": "Buy Second Hand Realme P4 - Used Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-realme-p4",
+          "reference": "turn17search5"
+        },
+        {
+          "title": "Oppo F29 5G 8/128 - Mobile Phones in Narila Shankari Geet Bunglow Phase4, Bhopal - 1855811372",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-narila-shankari-geet-bunglow-phase4-bhopal-iid-1855811372",
+          "reference": "turn17search6"
+        },
+        {
+          "title": "Oppo f29 5G 8+128gb all&#39; ok phone - Mobile Phones in Ittefaq Nagar, Meerut - 1856266363",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-ittefaq-nagar-meerut-iid-1856266363",
+          "reference": "turn17search7"
+        },
+        {
+          "title": "Oppo f29 phone 5g 8/128 battery 6500 mah all original Phone - Mobile Phones in Sector 42 Attawa Village, Chandigarh - 1856640273",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-sector-42-attawa-village-chandigarh-iid-1856640273",
+          "reference": "turn17search8"
+        },
+        {
+          "title": "Buy Second Hand Oneplus Nord Ce 5 - Used Mobile Phones in Delhi | OLX",
+          "url": "https://www.olx.in/delhi_g2001152/mobile-phones_c1453/q-oneplus-nord-ce-5",
+          "reference": "turn17search9"
+        },
+        {
+          "title": "Sell old used OnePlus Nord CE 5 5g(8GB/128GB) mobile phone for instant cash online",
+          "url": "https://cashonpick.com/oneplus-nord-ce-5-5g8gb128gb-2",
+          "reference": "turn17search10"
+        },
+        {
+          "title": "Buy Used Realme P4 Phone Online in Ranopali, Ayodhya by ANKUR PATEL under 20000 | ORUphones | 695b53597831eb4ff0885da7",
+          "url": "https://www.oruphones.com/buy-old-used-phones/realme/realme-p4/695b53597831eb4ff0885da7",
+          "reference": "turn17search11"
+        },
+        {
+          "title": "What would be the reasonable price for a 9 months old oneplus nord ce5 8/128?",
+          "url": "https://www.reddit.com/r/resellpur/comments/1wfs8zr/what_would_be_the_reasonable_price_for_a_9_months/",
+          "reference": "turn17reddit12"
+        },
+        {
+          "title": "realme p4 5g",
+          "url": "https://www.reddit.com/r/Realme/comments/1t12bsa/realme_p4_5g/",
+          "reference": "turn17reddit13"
+        },
+        {
+          "title": "My realme P4x Review, Upgraded from realme U1",
+          "url": "https://www.reddit.com/r/Realme/comments/1uf3fkv/my_realme_p4x_review_upgraded_from_realme_u1/",
+          "reference": "turn17reddit14"
+        },
+        {
+          "title": "I am very confused to choose between realme p4 and oppo k13 turbo help me out guys",
+          "url": "https://www.reddit.com/r/Realme/comments/1vf5wr5/i_am_very_confused_to_choose_between_realme_p4/",
+          "reference": "turn17reddit15"
+        },
+        {
+          "title": "[Removed]",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1w0ezgi/removed/",
+          "reference": "turn17reddit16"
+        },
+        {
+          "title": "Is the Realme P4 actually worth buying in 2026? Budget max ₹25k",
+          "url": "https://www.reddit.com/r/techzoneindia/comments/1ucdgl6/is_the_realme_p4_actually_worth_buying_in_2026/",
+          "reference": "turn17reddit17"
+        },
+        {
+          "title": "Nord CE5 users: Is this normal after just 5 months?",
+          "url": "https://www.reddit.com/r/oneplusnord/comments/1u06tcr/nord_ce5_users_is_this_normal_after_just_5_months/",
+          "reference": "turn17reddit18"
+        },
+        {
+          "title": "Finally !!! 🤗🥰",
+          "url": "https://www.reddit.com/r/oneplusnord/comments/1uaq3g6/finally/",
+          "reference": "turn17reddit19"
+        },
+        {
+          "title": "I AM NEW HEYYYY!!! Pulled the trigger on this one..",
+          "url": "https://www.reddit.com/r/oneplusnord/comments/1v0pipz/i_am_new_heyyyy_pulled_the_trigger_on_this_one/",
+          "reference": "turn17reddit20"
+        },
+        {
+          "title": "oppo F29 Pro 5G 8/128 Unboxing and Price Details : Under 27999 - YouTube",
+          "url": "https://www.youtube.com/watch?v=Jwnj8XcArA0",
+          "reference": "turn17youtube25"
+        },
+        {
+          "title": "El realme P4 Power es oficial con una batería espectacular de 10.001 mAh",
+          "url": "https://cincodias.elpais.com/smartlife/smartphones/2026-01-29/realme-p4-power-oficial-caracteristicas.html",
+          "reference": "turn17news30"
+        },
+        {
+          "title": "OPPO F29 5G y F29 Pro 5G, nuevos móviles muy resistentes y baterías sorprendentes",
+          "url": "https://cincodias.elpais.com/smartlife/smartphones/2025-03-20/oppo-f29-5g-oppo-f29-pro-5g-oficiales-caracteristicas.html",
+          "reference": "turn17news32"
+        },
+        {
+          "title": "IS It Worth Buying ⚡ OPPO F29 5G UNDER ₹25K || IP69* || Snapdragon 6 Gen 1 || 50MP Main Camera 📸 || - YouTube",
+          "url": "https://www.youtube.com/watch?v=XIeKW45ANWg",
+          "reference": "turn17youtube33"
+        }
+      ]
+    },
+    {
+      "batch": 14,
+      "queries": [
+        {
+          "q": "\"Oppo K14\" \"8\" \"256\" used India price"
+        },
+        {
+          "q": "\"Redmi Note 15\" \"8\" \"128\" used India price"
+        },
+        {
+          "q": "\"Vivo Y21 5G\" \"8\" \"128\" used India price"
+        },
+        {
+          "q": "\"Vivo Y300 Plus\" \"8\" 128 256 used India price"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Sell Vivo Y21 5G Online – Get Up to ₹14,000 | TurnCash",
+          "url": "https://www.turncash.in/sell/phone/vivo/y21-5g/",
+          "reference": "turn16search0"
+        },
+        {
+          "title": "Buy Second Hand vivo y300 plus Mobile Online | Best Prices – ORUphones",
+          "url": "https://www.oruphones.com/buy-old-used-phones/vivo/vivo-y300-plus",
+          "reference": "turn16search1"
+        },
+        {
+          "title": "Buy & Sell Second Hand 8 Plus in India, Used Vivo Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/en-in/mobile-phones_c1453/q-8-plus?filter=make_eq_vivo-phone",
+          "reference": "turn16search2"
+        },
+        {
+          "title": "Buy & Sell Second Hand Vivo Y21 in India, Used Mobiles in India | OLX",
+          "url": "https://www.olx.in/mobiles_c1411/q-vivo-y21",
+          "reference": "turn16search3"
+        },
+        {
+          "title": "Buy & Sell Second Hand 8 Plus in India, Used Vivo Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/hi-in/mobile-phones_c1453/q-8-plus?filter=make_eq_vivo-phone",
+          "reference": "turn16search4"
+        },
+        {
+          "title": "Buy Second Hand Vivo Y21 - Used Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/en-in/mobile-phones_c1453/q-vivo-y21",
+          "reference": "turn16search5"
+        },
+        {
+          "title": "Sell Old OPPO K14 5G (8 GB/256 GB) Online & Get Instant Cash At Doorstep | Cashify.in",
+          "url": "https://www.cashify.in/sell-old-mobile-phone/used-oppo-k14-5g-8-gb-256-gb",
+          "reference": "turn16search6"
+        },
+        {
+          "title": "Buy Used vivo y300 plus Phone Online in India by ORU User under 40000 | ORUphones | 67e58b704ebe05819db86658",
+          "url": "https://www.oruphones.com/buy-old-used-phones/vivo/vivo-y300-plus/67e58b704ebe05819db86658",
+          "reference": "turn16search7"
+        },
+        {
+          "title": "OPPO K14 5G (8GB RAM + 256GB) - Price in India (Sept 2026), Specs, Reviews | Smartprix",
+          "url": "https://www.smartprix.com/mobiles/oppo-k14-5g-8gb-ram-256gb-ppd190pgyv4t",
+          "reference": "turn16search8"
+        },
+        {
+          "title": "Sell Vivo Y300 Plus 5G (8 GB/128 GB) Online — Up to ₹15,500 | Reuz",
+          "url": "https://www.reuz.in/sell-used-phone/vivo/vivo-y300-plus-5g-8-gb-128-gb/8-gb-128-gb/",
+          "reference": "turn16search9"
+        },
+        {
+          "title": "vivo Y21 5G (64 GB Storage, 4 GB RAM) Online at Best Price On Flipkart.com",
+          "url": "https://www.flipkart.com/vivo-y21-5g-mystic-blue-128-gb/p/itm652c2ea2dcf34",
+          "reference": "turn16search10"
+        },
+        {
+          "title": "Sell old used Xiaomi Redmi Note 15 5G (8 GB/128 GB) for instant cash online check for Second Hand, New Price or resale value in India",
+          "url": "https://cashonpick.com/xiaomi-redmi-note-15-5g-8-gb128-gb",
+          "reference": "turn16search11"
+        },
+        {
+          "title": "Same price, very different phones — Edge 60 Fusion vs Redmi Note 15",
+          "url": "https://www.reddit.com/r/techzoneindia/comments/1vl5c5h/same_price_very_different_phones_edge_60_fusion/",
+          "reference": "turn16reddit12"
+        },
+        {
+          "title": "Same price, very different phones — Edge 60 Fusion vs Redmi Note 15",
+          "url": "https://www.reddit.com/r/IndiaCart/comments/1vl590w/same_price_very_different_phones_edge_60_fusion/",
+          "reference": "turn16reddit13"
+        },
+        {
+          "title": "Same price, very different phones — Edge 60 Fusion vs Redmi Note 15",
+          "url": "https://www.reddit.com/r/techIndia/comments/1vkjpqf/same_price_very_different_phones_edge_60_fusion/",
+          "reference": "turn16reddit14"
+        },
+        {
+          "title": "vivo Diskon Spare Part - Juni",
+          "url": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1750237822258/c86a3a5c759bbda0d78764bbe0a4c78b.pdf",
+          "reference": "turn16search15"
+        },
+        {
+          "title": "OPPO Special Pricing - Still Live 🔥",
+          "url": "https://www.reddit.com/r/LooteraShopper/comments/1txdddt/oppo_special_pricing_still_live/",
+          "reference": "turn16reddit16"
+        },
+        {
+          "title": "Same price, very different phones — Edge 60 Fusion vs Redmi Note 15",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1vkjp6m/same_price_very_different_phones_edge_60_fusion/",
+          "reference": "turn16reddit17"
+        },
+        {
+          "title": "Whitepaper_2023",
+          "url": "https://s3n.cashify.in/imageLibrary/Cashify_Whitepaper_2023_6b0a61374e3d.pdf",
+          "reference": "turn16search18"
+        },
+        {
+          "title": "This is what a 20K phone's specifications is gonna look like in 2026",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1vbnbhw/this_is_what_a_20k_phones_specifications_is_gonna/",
+          "reference": "turn16reddit19"
+        },
+        {
+          "title": "BANK ALFALAH LIMITED  |  |  |  |  |  |  |  |  |  |  |",
+          "url": "https://www.bankalfalah.com/wp-content/uploads/2022/07/BAFL-Vivo-Mobiles-SBS-Promotion-26-Aug-2022.pdf",
+          "reference": "turn16search20"
+        },
+        {
+          "title": "Don't trust indian mobile sellers",
+          "url": "https://www.reddit.com/r/AajMereSaathYeHua/comments/1utbb95/dont_trust_indian_mobile_sellers/",
+          "reference": "turn16reddit21"
+        },
+        {
+          "title": "Thinking about buying Redmi note 15 4G (6+128)",
+          "url": "https://www.reddit.com/r/technepal/comments/1r4nstm/thinking_about_buying_redmi_note_15_4g_6128/",
+          "reference": "turn16reddit22"
+        },
+        {
+          "title": "红米产品列表",
+          "url": "https://zh.wikipedia.org/wiki/%E7%BA%A2%E7%B1%B3%E4%BA%A7%E5%93%81%E5%88%97%E8%A1%A8",
+          "reference": "turn16search23"
+        }
+      ]
+    },
+    {
+      "batch": 15,
+      "queries": [
+        {
+          "q": "\"Vivo V50 Lite\" \"8\" \"256\" used India price"
+        },
+        {
+          "q": "\"Vivo T4\" \"8\" \"128\" used India price"
+        },
+        {
+          "q": "\"Samsung S26 Ultra\" \"1TB\" used India price"
+        },
+        {
+          "q": "\"Oppo Find X9 Ultra\" \"12\" \"512\" used India price"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Buy & Sell Second Hand Ultra in India, Used Oppo Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/hi-in/mobile-phones_c1453/q-ultra?filter=make_eq_oppo-phone",
+          "reference": "turn18search0"
+        },
+        {
+          "title": "Sell Vivo T4 5G Online — Best Price in India | Reuz",
+          "url": "https://www.reuz.in/sell-used-phone/vivo/vivo-t4/?from=search",
+          "reference": "turn18search1"
+        },
+        {
+          "title": "Sell Old Vivo T4 5G (8 GB/128 GB) Online & Get Instant Cash At Doorstep | Cashify.in",
+          "url": "https://www.cashify.in/sell-old-mobile-phone/used-vivo-t4-5g-8-gb-128-gb",
+          "reference": "turn18search2"
+        },
+        {
+          "title": "Mobile Priority - Best Second Hand Mobile Shop in Kolkata",
+          "url": "https://mobilepriority.in/product/oppo-find-x9-ultra-5g/2194?stock_by=15&stock_id=7614",
+          "reference": "turn18search3"
+        },
+        {
+          "title": "Buy Used vivo T4 Phone Online in Yalappa Garden, Bengaluru by suhas under 20000 | ORUphones | 687270af84c659f531dc1ae8",
+          "url": "https://www.oruphones.com/buy-old-used-phones/Vivo/vivo-T4/687270af84c659f531dc1ae8",
+          "reference": "turn18search4"
+        },
+        {
+          "title": "Sell old used Vivo T4 5G (8 GB/128 GB) mobile phone for instant cash online",
+          "url": "https://cashonpick.com/vivo-t4x-5g-8-gb128-gb-2",
+          "reference": "turn18search5"
+        },
+        {
+          "title": "Oppo Find X9 Ultra 12/512 GB 🔥 Open Box Condition 🔥 OFFER PRICE 🔥🔥🔥 - YouTube",
+          "url": "https://www.youtube.com/watch?v=p5lxrh3sCY0",
+          "reference": "turn18youtube12"
+        },
+        {
+          "title": "Sell Used Oppo Oppo Find X9 Ultra 512 GB 12 GB Online - Best Resale Price | SwitchKart | SwitchKart",
+          "url": "https://sell.switchkart.com/sell-old-mobile-phone/oppo-oppo-find-x9-ultra-512-gb-12-gb-resale-price",
+          "reference": "turn18search6"
+        },
+        {
+          "title": "Buy & Sell Second Hand S26 Ultra in India, Used Mobiles in India | OLX",
+          "url": "https://www.olx.in/mobiles_c1411/q-s26-ultra",
+          "reference": "turn18search7"
+        },
+        {
+          "title": "Mua Điện thoại vivo V50 Lite 5G 8GB/256GB cũ, rẻ hơn từ 30-70% so với mua mới, 1 đổi 1",
+          "url": "https://www.thegioididong.com/may-doi-tra/dtdd/vivo-v50-lite-5g?isimei=1&pid=336408",
+          "reference": "turn18search8"
+        },
+        {
+          "title": "vivo T4 5G ( 128 GB Storage, 8 GB RAM ) Online at Best Price",
+          "url": "https://www.flipkart.com/hi/vivo-t4-5g-phantom-grey-256-gb/p/itmc2634fd4daeb9",
+          "reference": "turn18search9"
+        },
+        {
+          "title": "Buy vivo T4 Second Hand Phone Under ₹8000 in Delhi | ORUphones",
+          "url": "https://www.oruphones.com/buy-old-used-phones/vivo/vivo-T4/phones-under/8000",
+          "reference": "turn18search10"
+        },
+        {
+          "title": "Samsung s26 ultra 1TB - Mobile Phones in Jubilee Hills, Hyderabad - 1855622755",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-samsung-in-jubilee-hills-hyderabad-iid-1855622755",
+          "reference": "turn18search11"
+        },
+        {
+          "title": "vivo T4 Pro: nuevo smartphone con cámara periscópica, gran batería y precio ajustado",
+          "url": "https://cincodias.elpais.com/smartlife/smartphones/2025-08-26/vivo-t4-pro-oficial-caracteristicas-precio.html",
+          "reference": "turn18news30"
+        },
+        {
+          "title": "SAMSUNG S26 ULTRA PRICE IN DUBAI | Samsung Galaxy Z TriFold PRICE IN DUBAI |iPhone Price in Dubai | - YouTube",
+          "url": "https://www.youtube.com/watch?v=6VE1K4tU2K4",
+          "reference": "turn18youtube36"
+        }
+      ]
+    },
+    {
+      "batch": 16,
+      "queries": [
+        {
+          "q": "\"Vivo X300 Ultra\" \"16\" \"512\" used India price"
+        },
+        {
+          "q": "\"iPad Air M4\" \"13\" \"128\" used India price"
+        },
+        {
+          "q": "\"Samsung A16\" \"4\" \"128\" used India price"
+        },
+        {
+          "q": "\"Samsung A26\" \"8\" \"128\" used India price"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Vivo x300 ultra 16/512 (read discription) - Mobile Phones in Sadpura, Muzaffarpur - 1854437026",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-vivo-in-sadpura-muzaffarpur-iid-1854437026",
+          "reference": "turn21search0"
+        },
+        {
+          "title": "Buy & Sell Second Hand Vivo X100 Ultra in India, Used Vivo Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-vivo-x100-ultra?filter=make_eq_vivo-phone",
+          "reference": "turn21search1"
+        },
+        {
+          "title": "[For Sale] Apple iPad Air M4 13-inch (Wi-Fi) 128 gb – selling at ₹78,000, purchased on 15.05.2026– Bengaluru",
+          "url": "https://www.reddit.com/r/AppleIndia/comments/1uwz88s/for_sale_apple_ipad_air_m4_13inch_wifi_128_gb/",
+          "reference": "turn21reddit12"
+        },
+        {
+          "title": "Buy & Sell Second Hand Ipad Air in India, Used Tablets in India | OLX",
+          "url": "https://www.olx.in/tablets_c1455/q-ipad-air",
+          "reference": "turn21search2"
+        },
+        {
+          "title": "[For Sale] Apple iPad Air M4 13-inch (Wi-Fi) 128 gb – selling at ₹78,000, purchased on 15.05.2026– Bengaluru",
+          "url": "https://www.reddit.com/r/resellpur/comments/1uxcj04/for_sale_apple_ipad_air_m4_13inch_wifi_128_gb/",
+          "reference": "turn21reddit13"
+        },
+        {
+          "title": "Sell Old Vivo X300 Ultra (16 GB/512 GB) Online & Get Instant Cash At Doorstep | Cashify.in",
+          "url": "https://www.cashify.in/sell-old-mobile-phone/used-vivo-x300-ultra-16-gb-512-gb",
+          "reference": "turn21search3"
+        },
+        {
+          "title": "Mobile Priority - Best Second Hand Mobile Shop in Kolkata",
+          "url": "https://mobilepriority.in/product/vivo-x300-ultra-5g-eclipse-black/1918?stock_by=6&stock_id=7059",
+          "reference": "turn21search4"
+        },
+        {
+          "title": "Sell Vivo X300 Ultra Online – Get Up to ₹79,500 | TurnCash",
+          "url": "https://www.turncash.in/sell/phone/vivo/x300-ultra/",
+          "reference": "turn21search5"
+        },
+        {
+          "title": "Samsung A26 5G (128 GB Storage, 8 GB RAM) Online at Best Price On Flipkart.com",
+          "url": "https://www.flipkart.com/samsung-a26-5g-black-128-gb/p/itm1dc7b3a59fc22",
+          "reference": "turn21search6"
+        },
+        {
+          "title": "ANKIT MOBILES",
+          "url": "https://www.ankitmobiles.com/shop-left-sidebar.php?brand=&category=&sort=",
+          "reference": "turn21search7"
+        },
+        {
+          "title": "Buy Second Hand Vivo X300 - Used Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-vivo-x300",
+          "reference": "turn21search8"
+        },
+        {
+          "title": "Buy Apple iPad Air M4 32.78 cm (13 inch) Wi-Fi Tablet, 128 GB, Space Gray, 2026, MH5N4HN/A at Reliance Digital",
+          "url": "https://www.reliancedigital.in/product/apple-ipad-air-m4-3278-cm-13-inch-wi-fi-tablet-128-gb-space-gray-2026-mh5n4hna-mmaivd-9967355",
+          "reference": "turn21search9"
+        },
+        {
+          "title": "iPad Air M4 13-Inch Wi-Fi 128GB Space Grey Color Open Box – Mania Mobiles – Innovation Meets Your Pocket",
+          "url": "https://maniamobiles.com/product/ipad-air-m4-13-inch-wi-fi-128gb-space-grey-color-open-box/",
+          "reference": "turn21search10"
+        },
+        {
+          "title": "Wanted to buy an ipad, when should I buy suggestions",
+          "url": "https://www.reddit.com/r/AppleIndia/comments/1txprwp/wanted_to_buy_an_ipad_when_should_i_buy/",
+          "reference": "turn21reddit14"
+        },
+        {
+          "title": "Galaxy A26 5G 8GB/128GB (Mint) - Specs & Features | Samsung India",
+          "url": "https://www.samsung.com/in/smartphones/galaxy-a/galaxy-a26-5g-mint-128gb-sm-a266blgkins/",
+          "reference": "turn21search11"
+        },
+        {
+          "title": "Ipad Air M4 256Gb for sale",
+          "url": "https://www.reddit.com/r/delhi_marketplace/comments/1vmwv8q/ipad_air_m4_256gb_for_sale/",
+          "reference": "turn21reddit15"
+        },
+        {
+          "title": "how is the deal.",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1wga9ml/how_is_the_deal/",
+          "reference": "turn21reddit16"
+        },
+        {
+          "title": "VIVO X300 ULTRA 🚀",
+          "url": "https://www.reddit.com/r/evaaratech/comments/1sb9umk/vivo_x300_ultra/",
+          "reference": "turn21reddit17"
+        },
+        {
+          "title": "VIVO X300 ULTRA - NOW IN INDIA 🇮🇳 WITH EVAARA TECH LOWEST PRICE",
+          "url": "https://www.reddit.com/r/evaaratech/comments/1sb9t9k/vivo_x300_ultra_now_in_india_with_evaara_tech/",
+          "reference": "turn21reddit18"
+        },
+        {
+          "title": "VIVO X300 ULTRA 🚀",
+          "url": "https://www.reddit.com/r/evaaratech/comments/1sb9qy9/vivo_x300_ultra/",
+          "reference": "turn21reddit19"
+        },
+        {
+          "title": "Selling X300 Pro",
+          "url": "https://www.reddit.com/r/delhi_marketplace/comments/1wjlv0f/selling_x300_pro/",
+          "reference": "turn21reddit20"
+        },
+        {
+          "title": "Help me choose Vivo X300 Pro vs Ultra",
+          "url": "https://www.reddit.com/r/Vivo/comments/1vht4s4/help_me_choose_vivo_x300_pro_vs_ultra/",
+          "reference": "turn21reddit21"
+        }
+      ]
+    },
+    {
+      "batch": 17,
+      "queries": [
+        {
+          "q": "\"Vivo Y300\" \"8\" \"128\" \"256\" used India price"
+        },
+        {
+          "q": "\"Oppo K13\" \"8\" \"128\" used India price"
+        },
+        {
+          "q": "\"Redmi Note 14\" \"8\" \"128\" \"256\" used India price"
+        },
+        {
+          "q": "\"Redmi Note 15 SE\" \"8\" \"128\" \"256\" used India price"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Buy Second Hand Oppo K13 - Used Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/en-in/mobile-phones_c1453/q-oppo-k13",
+          "reference": "turn19search0"
+        },
+        {
+          "title": "Sell Redmi Note 14 5G – Get Up to ₹12,700 | TurnCash",
+          "url": "https://www.turncash.in/sell/phone/xiaomi/redmi-note-14-5g/",
+          "reference": "turn19search1"
+        },
+        {
+          "title": "OPPO K13 5G (8/128 GB) - मोबाइल फोन in Heera Nagar, Gurgaon - 1854230586",
+          "url": "https://www.olx.in/hi-in/item/c1453-used-oppo-in-heera-nagar-gurgaon-iid-1854230586",
+          "reference": "turn19search2"
+        },
+        {
+          "title": "Buy & Sell Second Hand Vivo Mobile Phones in Amravati, Used Vivo Mobile Phones in Amravati | OLX",
+          "url": "https://www.olx.in/en-in/amravati_g4058956/mobile-phones_c1453?filter=make_eq_vivo-phone",
+          "reference": "turn19search3"
+        },
+        {
+          "title": "Buy Used Oppo K13 Phone Online in Pansoli, Delhi by santhosh under 20000 | ORUphones | 682c6f1a13a705d63389a82f",
+          "url": "https://www.oruphones.com/buy-old-used-phones/Oppo/Oppo-K13/682c6f1a13a705d63389a82f",
+          "reference": "turn19search4"
+        },
+        {
+          "title": "OPPO k13 5g raam 8 gb room 128 - Mobile Phones in Narkeldanga, Kolkata - 1856389727",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-narkeldanga-kolkata-iid-1856389727",
+          "reference": "turn19search5"
+        },
+        {
+          "title": "Sell Old OPPO K13 5G (8 GB/128 GB) Online & Get Instant Cash At Doorstep | Cashify.in",
+          "url": "https://www.cashify.in/sell-old-mobile-phone/used-oppo-k13-5g-8-gb-128-gb",
+          "reference": "turn19search6"
+        },
+        {
+          "title": "Sell Xiaomi Redmi Note 14 5G Online — Best Price in India | Reuz",
+          "url": "https://www.reuz.in/sell-used-phone/xiaomi/xiaomi-redmi-note-14/",
+          "reference": "turn19search7"
+        },
+        {
+          "title": "Oppo k13 5g new hand set 8 128 - Mobile Phones in Industrial Area Phase 2, Noida - 1856779292",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-industrial-area-phase-2-noida-iid-1856779292",
+          "reference": "turn19search8"
+        },
+        {
+          "title": "Sell old used OPPO K13 5G (8 GB/128 GB) mobile phone for instant cash online",
+          "url": "https://cashonpick.com/oppo-k13-5g-8-gb128-gb",
+          "reference": "turn19search9"
+        },
+        {
+          "title": "Oppo K13 5G 8/128 GB - Mobile Phones in Mardan Pur, Kanpur - 1855772004",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-oppo-in-mardan-pur-kanpur-iid-1855772004",
+          "reference": "turn19search10"
+        },
+        {
+          "title": "Buy & Sell Second Hand 8 Plus in India, Used Vivo Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/hi-in/mobile-phones_c1453/q-8-plus?filter=make_eq_vivo-phone",
+          "reference": "turn19search11"
+        },
+        {
+          "title": "Super confused, Phone under 20-23k",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1vkap4q/super_confused_phone_under_2023k/",
+          "reference": "turn19reddit12"
+        },
+        {
+          "title": "WTF! 45000 THAT TOO WITH OFFERS FOR A 6GEN5 💀",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1wh3868/wtf_45000_that_too_with_offers_for_a_6gen5/",
+          "reference": "turn19reddit13"
+        },
+        {
+          "title": "I am very confused to choose between realme p4 and oppo k13 turbo help me out guys",
+          "url": "https://www.reddit.com/r/Realme/comments/1vf5wr5/i_am_very_confused_to_choose_between_realme_p4/",
+          "reference": "turn19reddit14"
+        },
+        {
+          "title": "oppo k13 5g ( 8- 256)",
+          "url": "https://www.reddit.com/r/techIndia/comments/1un4ocr/oppo_k13_5g_8_256/",
+          "reference": "turn19reddit15"
+        },
+        {
+          "title": "**Best smartphone around 15000 INR in India**",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1l6lq69",
+          "reference": "turn19reddit16"
+        },
+        {
+          "title": "Oppo k13 .",
+          "url": "https://www.reddit.com/r/techzoneindia/comments/1vj0pc2/oppo_k13/",
+          "reference": "turn19reddit17"
+        },
+        {
+          "title": "oppo K13 5G 8/128 Unboxing and Price Details : Under 17999 - YouTube",
+          "url": "https://www.youtube.com/watch?v=B7ks9damENQ",
+          "reference": "turn19youtube18"
+        },
+        {
+          "title": "Final verdict?",
+          "url": "https://www.reddit.com/r/techIndia/comments/1vpryrd/final_verdict/",
+          "reference": "turn19reddit19"
+        },
+        {
+          "title": "Final verdict?",
+          "url": "https://www.reddit.com/r/techzoneindia/comments/1vprve5/final_verdict/",
+          "reference": "turn19reddit20"
+        },
+        {
+          "title": "What should I choose for my father between these? Or anything else?",
+          "url": "https://www.reddit.com/r/IndiaTech/comments/1nn1ar5",
+          "reference": "turn19reddit21"
+        },
+        {
+          "title": "Purchase help?",
+          "url": "https://www.reddit.com/r/Smartphones/comments/1v0mgto/purchase_help/",
+          "reference": "turn19reddit22"
+        },
+        {
+          "title": "Phone suggestions around 15k PLEASEEEE",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1tqurxc/phone_suggestions_around_15k_pleaseeee/",
+          "reference": "turn19reddit23"
+        },
+        {
+          "title": "OPPO K13 Turbo for 26k?",
+          "url": "https://www.reddit.com/r/Oppo/comments/1u2ew0l/oppo_k13_turbo_for_26k/",
+          "reference": "turn19reddit24"
+        },
+        {
+          "title": "Category  | Model  | Minimum Amount (Rs)  | Maximum Discount (Rs)",
+          "url": "https://www.sbicard.com/sbi-card-en/assets/media/images/personal/offers/categories/shopping/xiaomi-aug24/model-xiaomi-aug24.pdf",
+          "reference": "turn19search25"
+        },
+        {
+          "title": "红米产品列表",
+          "url": "https://zh.wikipedia.org/wiki/%E7%BA%A2%E7%B1%B3%E4%BA%A7%E5%93%81%E5%88%97%E8%A1%A8",
+          "reference": "turn19search26"
+        },
+        {
+          "title": "smart phone&tablet_en_08_25.indd",
+          "url": "https://dbptsdjta3hv5.cloudfront.net/august/smart%20phone%26tablet_en_08_25_Pricelist_August2025.pdf",
+          "reference": "turn19search27"
+        },
+        {
+          "title": "Vivo Y300",
+          "url": "https://en.wikipedia.org/wiki/Vivo_Y300",
+          "reference": "turn19search28"
+        }
+      ]
+    },
+    {
+      "batch": 18,
+      "queries": [
+        {
+          "q": "\"Redmi A4\" \"4\" \"64\" used India price"
+        },
+        {
+          "q": "\"Poco X7\" \"8\" \"128\" used India price"
+        },
+        {
+          "q": "\"Poco M7 Pro\" \"8\" \"128\" \"256\" used India price"
+        },
+        {
+          "q": "\"Realme Narzo 80 Pro\" \"8\" \"128\" used India price"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Sell Poco M7 Pro 5G Online – Get Up to ₹8,860 | TurnCash",
+          "url": "https://www.turncash.in/sell/phone/poco/m7-pro-5g/",
+          "reference": "turn20search0"
+        },
+        {
+          "title": "Buy & Sell Second Hand Poco X7 in India, Used Mobiles in India | OLX",
+          "url": "https://www.olx.in/mobiles_c1411/q-poco-x7",
+          "reference": "turn20search1"
+        },
+        {
+          "title": "Buy & Sell Second Hand Poco X7 in India, Used Xiaomi Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-poco-x7?filter=make_eq_xiaomi",
+          "reference": "turn20search2"
+        },
+        {
+          "title": "Buy & Sell Second Hand Redmi 4 64 Gb in India, Used Mi Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/en-in/mi-mobile-phones_c1453/q-redmi-4-64-gb?filter=make_eq_mi-phone",
+          "reference": "turn20search3"
+        },
+        {
+          "title": "Buy & Sell Second Hand Redmi 4 64 in India, Used Xiaomi Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-redmi-4-64?filter=make_eq_xiaomi",
+          "reference": "turn20search4"
+        },
+        {
+          "title": "Buy & Sell Second Hand Poco M7 Pro in India, Used Mi Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-poco-m7-pro?filter=make_eq_mi-phone",
+          "reference": "turn20search5"
+        },
+        {
+          "title": "Buy Used Xiaomi Redmi A4 Phone Online in Brooke Bond First Cross, Bengaluru by Atharv under 10000 | ORUphones | 686194d14026d9160c75308b",
+          "url": "https://www.oruphones.com/buy-old-used-phones/Xiaomi/Xiaomi-Redmi-A4/686194d14026d9160c75308b",
+          "reference": "turn20search6"
+        },
+        {
+          "title": "Realme narzo 80 pro 8 128 Gb 6 months old - Mobile Phones in Mohalla Santoshi, Hathras - 1855461850",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-realme-in-mohalla-santoshi-hathras-iid-1855461850",
+          "reference": "turn20search7"
+        },
+        {
+          "title": "MOB1K | Online Electronic Shopping Store in India - Reliance Digital | www.reliancedigital.in",
+          "url": "https://www.reliancedigital.in/collection/mob1k",
+          "reference": "turn20search8"
+        },
+        {
+          "title": "Sell old used POCO M7 Pro 5G (8 GB/256 GB) for instant cash online",
+          "url": "https://cashonpick.com/poco-m7-pro-5g-8-gb128-gb",
+          "reference": "turn20search9"
+        },
+        {
+          "title": "Poco X7 5G (128 GB,8 GB RAM) (Refurbished) – GudFast",
+          "url": "https://gudfast.com/product/poco-x7-5g-yellow-128-gb8-gb-ram-refurbished/",
+          "reference": "turn20search10"
+        },
+        {
+          "title": "Buy Second Hand xiaomi redmi a4 Mobile Online | Best Prices – ORUphones",
+          "url": "https://www.oruphones.com/buy-old-used-phones/xiaomi/xiaomi-redmi-a4",
+          "reference": "turn20search11"
+        },
+        {
+          "title": "Looking back at all the phones I cancelled because I thought they were overpriced...",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1vkcnei/looking_back_at_all_the_phones_i_cancelled/",
+          "reference": "turn20reddit12"
+        },
+        {
+          "title": "www.vishvambhara.com",
+          "url": "https://archive.vishvambhara.com/media/Telengana/2024-12/249-18%20Dec%202024/vishvamabhara-18-12-2024.pdf",
+          "reference": "turn20search13"
+        },
+        {
+          "title": "Category  | Model  | Minimum Amount (Rs)  | Maximum Discount (Rs)",
+          "url": "https://www.sbicard.com/sbi-card-en/assets/media/images/personal/offers/categories/shopping/xiaomi-aug24/model-xiaomi-aug24.pdf",
+          "reference": "turn20search14"
+        },
+        {
+          "title": "Cheap Android phone ka review (Redmi A4 5G).",
+          "url": "https://www.reddit.com/r/PickAnAndroidForMe/comments/1p8lk93/cheap_android_phone_ka_review_redmi_a4_5g/",
+          "reference": "turn20reddit15"
+        },
+        {
+          "title": "Mobile under 15k plsss! Started college and Redmi 6 PRO just can't keep up now.",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1vmkcbl/mobile_under_15k_plsss_started_college_and_redmi/",
+          "reference": "turn20reddit16"
+        },
+        {
+          "title": "[selling] Redmi A4 5g, 2month old, under warranty",
+          "url": "https://www.reddit.com/r/IndiaThriftCorner/comments/1il8due",
+          "reference": "turn20reddit17"
+        },
+        {
+          "title": "红米产品列表",
+          "url": "https://zh.wikipedia.org/wiki/%E7%BA%A2%E7%B1%B3%E4%BA%A7%E5%93%81%E5%88%97%E8%A1%A8",
+          "reference": "turn20search18"
+        },
+        {
+          "title": "Realme narzo 80 pro 5g review?",
+          "url": "https://www.reddit.com/r/Realme/comments/1tbyclz/realme_narzo_80_pro_5g_review/",
+          "reference": "turn20reddit19"
+        },
+        {
+          "title": "Nuevo teléfono POCO M7 Pro 5G: una gran evolución a precio imbatible",
+          "url": "https://cincodias.elpais.com/smartlife/smartphones/2024-12-18/nuevo-telefono-poco-m7-pro-5g-una-gran-evolucion-a-precio-imbatible.html",
+          "reference": "turn20news31"
+        }
+      ]
+    },
+    {
+      "batch": 19,
+      "queries": [
+        {
+          "q": "\"Realme C75\" \"4\" \"128\" \"256\" used India price"
+        },
+        {
+          "q": "\"Moto G75\" \"8\" \"128\" used India price"
+        },
+        {
+          "q": "\"Moto G86\" \"8\" \"128\" \"256\" used India price"
+        },
+        {
+          "q": "\"Moto G96\" \"8\" \"128\" used India price"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Buy Second Hand Motorola G96 - Used Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/en-in/mobile-phones_c1453/q-motorola-g96",
+          "reference": "turn22search0"
+        },
+        {
+          "title": "Used Moto G96 5G 8/128 In ₹12500 - The Best Deal of 2026 ? - YouTube",
+          "url": "https://www.youtube.com/watch?v=TyQiteoXeng",
+          "reference": "turn22youtube12"
+        },
+        {
+          "title": "Moto g96 8/128 11 months old phone - Mobile Phones in Igra Colony, Jamshedpur - 1855728702",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-motorola-in-igra-colony-jamshedpur-iid-1855728702",
+          "reference": "turn22search1"
+        },
+        {
+          "title": "Buy & Sell Second Hand 8 128 Gb in India, Used Motorola Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-8-128-gb?filter=make_eq_motorola-phone",
+          "reference": "turn22search2"
+        },
+        {
+          "title": "Motorola G96 5G 8/128 2 Year Warranty 1 Week Old Bill Box - Mobile Phones in undefined, Radhanagari - 1853368591",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-motorola-in-radhanagari-maharashtra-iid-1853368591",
+          "reference": "turn22search3"
+        },
+        {
+          "title": "Moto g96 5G 8GB RAM 128 GB storage - Mobile Phones in Moosapet, Hyderabad - 1855624960",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-motorola-in-moosapet-hyderabad-iid-1855624960",
+          "reference": "turn22search4"
+        },
+        {
+          "title": "Motorola G96 (CATTLEYAORCHID, 8 +128) - Price History",
+          "url": "https://pricehistory.app/p/motorola-g96-cattleyaorchid-8-128-xiE9Dtce",
+          "reference": "turn22search5"
+        },
+        {
+          "title": "Certified Refurbished Motorola Moto G96 5G | 6-Month Warranty | Cashify",
+          "url": "https://www.cashify.in/buy-refurbished-mobile-phones/renewed-motorola-moto-g96-5g",
+          "reference": "turn22search6"
+        },
+        {
+          "title": "Sell Old Motorola Moto G96 5G (8 GB/128 GB) Online & Get Instant Cash At Doorstep | Cashify.in",
+          "url": "https://www.cashify.in/sell-old-mobile-phone/used-motorola-moto-g96-5g-8-gb-128-gb",
+          "reference": "turn22search7"
+        },
+        {
+          "title": "Sell old used Motorola Moto G96 5G (8 GB/128 GB) mobile phone for instant cash online",
+          "url": "https://cashonpick.com/motorola-moto-g96-5g-8-gb128-gb",
+          "reference": "turn22search8"
+        },
+        {
+          "title": "Buy & Sell Second Hand Price Of in India, Used Motorola Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-price-of?filter=make_eq_motorola-phone",
+          "reference": "turn22search9"
+        },
+        {
+          "title": "Motorola G96 5G 128 GB Bronze - Mdnadim Alone ▷ Price: BDT 22,000 on bikroy.com [Gournadi]",
+          "url": "https://bikroy.com/gournadi/mobile-phones/motorola-g96-5g-128-gb-bronze-3agdyXC1QyQs2f8z3kPQAc4O.html",
+          "reference": "turn22search10"
+        },
+        {
+          "title": "Certified Refurbished Motorola Moto G96 5G | 6-Month Warranty | Cashify",
+          "url": "https://www.cashify.in/buy-refurbished-mobile-phones/renewed-motorola-moto-g96-5g/170953",
+          "reference": "turn22search11"
+        },
+        {
+          "title": "Bismi Connect",
+          "url": "https://cdn4.singleinterface.com/files/banner_images/344780/8267_1760343422_Mobile.bb.pdf",
+          "reference": "turn22search13"
+        },
+        {
+          "title": "X¯óÁø£yês¡+  19`9`2025   ù|J\\T : 26",
+          "url": "https://www.suryaepaper.com/media/2025-09/visakhapatnam16.pdf",
+          "reference": "turn22search14"
+        },
+        {
+          "title": "Terms and Conditions for Motorola offer on Axis Bank Credit Cards",
+          "url": "https://www.axisbank.com/docs/default-source/default-document-library/m-o-t-o-r-o-l-a.pdf",
+          "reference": "turn22search15"
+        },
+        {
+          "title": "Help me choose a phone",
+          "url": "https://www.reddit.com/r/PickAnAndroidForMe/comments/1sv3pok/help_me_choose_a_phone/",
+          "reference": "turn22reddit16"
+        },
+        {
+          "title": "REALME C75 | For 1200 Reais, it's CHEAP, LARGE Battery and IP69 Protection against WATER and DUST... - YouTube",
+          "url": "https://www.youtube.com/watch?v=5njt0ubJtLg",
+          "reference": "turn22youtube17"
+        },
+        {
+          "title": "Help me choose a phone",
+          "url": "https://www.reddit.com/r/AndroidQuestions/comments/1sw7856/help_me_choose_a_phone/",
+          "reference": "turn22reddit18"
+        },
+        {
+          "title": "Mobile for MOM *URGENT*",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1uvbkvg/mobile_for_mom_urgent/",
+          "reference": "turn22reddit19"
+        },
+        {
+          "title": "TIENDACEL.COM",
+          "url": "https://www.tiendacel.com/common/domain/tiendacel/pdfcatalog/tiendacel.com_catalogo_3.pdf",
+          "reference": "turn22search20"
+        },
+        {
+          "title": "REMATE 26578702    lunes, 16 febrero 2026",
+          "url": "https://remateskozak.cl/wp-content/uploads/2026/02/Catalogo_Jaula_26578702.pdf",
+          "reference": "turn22search21"
+        },
+        {
+          "title": "PowerPoint Presentation",
+          "url": "https://housecare.sa/wp-content/uploads/2025/10/%D8%A7%D9%84%D8%AA%D9%88%D9%81%D9%8A%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD_1.pdf",
+          "reference": "turn22search22"
+        },
+        {
+          "title": "What's next for Moto G96",
+          "url": "https://www.reddit.com/r/motorola/comments/1tqm9zr/whats_next_for_moto_g96/",
+          "reference": "turn22reddit23"
+        },
+        {
+          "title": "Can I purchase a new phone?",
+          "url": "https://www.reddit.com/r/techzoneindia/comments/1txr8ao/can_i_purchase_a_new_phone/",
+          "reference": "turn22reddit24"
+        },
+        {
+          "title": "[Removed]",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1vlsfy1/removed/",
+          "reference": "turn22reddit25"
+        },
+        {
+          "title": "Guide me to buy phone",
+          "url": "https://www.reddit.com/r/motorola/comments/1vgr02w/guide_me_to_buy_phone/",
+          "reference": "turn22reddit26"
+        },
+        {
+          "title": "Should I go with moto g35 for my mom",
+          "url": "https://www.reddit.com/r/motorola/comments/1nspqyp/should_i_go_with_moto_g35_for_my_mom/",
+          "reference": "turn22reddit27"
+        },
+        {
+          "title": "List of Realme products",
+          "url": "https://en.wikipedia.org/wiki/List_of_Realme_products",
+          "reference": "turn22search28"
+        },
+        {
+          "title": "DONO ME SE KONSA LENA SAHI RAHEGA",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1uvakp9/dono_me_se_konsa_lena_sahi_rahega/",
+          "reference": "turn22reddit29"
+        }
+      ]
+    },
+    {
+      "batch": 20,
+      "queries": [
+        {
+          "q": "\"iQOO Z11x\" \"8\" \"128\" \"256\" used India price"
+        },
+        {
+          "q": "\"iPhone 16\" \"128\" excellent condition site:olx.in/item"
+        },
+        {
+          "q": "\"iPhone 16\" \"256\" excellent condition site:olx.in/item"
+        },
+        {
+          "q": "\"iPhone 15\" \"512\" excellent condition site:olx.in/item"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "IPhone 16 - 128 GB - Mobile Phones in Sector 67, Gurgaon - 1856785722",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-iphone-in-sector-67-gurgaon-iid-1856785722",
+          "reference": "turn23search0"
+        },
+        {
+          "title": "APPLE IPHONE 16 128 GB ULTRAMARINE BT:-84% WITH BOX AND CABLE IN EXCEL - Mobile Phones in Borivali East, Mumbai - 1856499207",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-iphone-in-borivali-east-mumbai-iid-1856499207",
+          "reference": "turn23search1"
+        },
+        {
+          "title": "Apple iPhone 16, White (128 GB), under warranty product - Mobile Phones in Noapara, Kolkata - 1855488100",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-iphone-in-noapara-kolkata-iid-1855488100",
+          "reference": "turn23search2"
+        },
+        {
+          "title": "Sell iQOO Z11x Online – Get Up to ₹15,760 | TurnCash",
+          "url": "https://www.turncash.in/sell/phone/iqoo/z11x/",
+          "reference": "turn23search3"
+        },
+        {
+          "title": "Iphone 16 (128) Gb Is In Flawless Condition - Mobile Phones in Bakshi Bagan, Kolkata - 1855176096",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-iphone-in-bakshi-bagan-kolkata-iid-1855176096",
+          "reference": "turn23search4"
+        },
+        {
+          "title": "Iphone 16 -256 GB - Mobile Phones in Andheri West, Mumbai - 1852873753",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-iphone-in-andheri-west-mumbai-iid-1852873753",
+          "reference": "turn23search5"
+        },
+        {
+          "title": "Iphone 16/128 gb good condition in warranty till September face id iss - Mobile Phones in Shalimar Bagh, Delhi - 1843486182",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-iphone-in-shalimar-bagh-delhi-iid-1843486182",
+          "reference": "turn23search6"
+        },
+        {
+          "title": "Iphone 16 128gb - Mobile Phones in Sardar Nagar, Lucknow - 1854255585",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-iphone-in-sardar-nagar-lucknow-iid-1854255585",
+          "reference": "turn23search7"
+        },
+        {
+          "title": "iphone 16, 256 GB in good condition, up to Nov 2026 warranty available - Mobile Phones in Anna Nagar River View Colony, Chennai - 1845708467",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-iphone-in-anna-nagar-river-view-colony-chennai-iid-1845708467",
+          "reference": "turn23search8"
+        },
+        {
+          "title": "iPhone 16 (128 GB) Ultramarine - Mobile Phones in Rasayani, Navi Mumbai - 1855079166",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-iphone-in-rasayani-navi-mumbai-iid-1855079166",
+          "reference": "turn23search9"
+        },
+        {
+          "title": "Apple iPhone 16 (Teal, 128 GB) - Mobile Phones in Sarojini Nagar, Lucknow - 1855337735",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-iphone-in-sarojini-nagar-lucknow-iid-1855337735",
+          "reference": "turn23search10"
+        },
+        {
+          "title": "Sell iQOO Z11x 5G Online — Best Price in India | Reuz",
+          "url": "https://www.reuz.in/sell-used-phone/iqoo/iqoo-z11x-5g/",
+          "reference": "turn23search11"
+        },
+        {
+          "title": "Should I buy IQOO z11x?",
+          "url": "https://www.reddit.com/r/IQOO_India/comments/1ufxt9k/should_i_buy_iqoo_z11x/",
+          "reference": "turn23reddit12"
+        },
+        {
+          "title": "IQOO Z11 dan Z11x yang siap di PO mulai hari ini",
+          "url": "https://www.reddit.com/r/indotech/comments/1tn1e34/iqoo_z11_dan_z11x_yang_siap_di_po_mulai_hari_ini/",
+          "reference": "turn23reddit13"
+        },
+        {
+          "title": "Neo10R not available everywhere",
+          "url": "https://www.reddit.com/r/neo10R/comments/1t3iq2i/neo10r_not_available_everywhere/",
+          "reference": "turn23reddit14"
+        },
+        {
+          "title": "Jaipur | Tuesday, March 17, 2026",
+          "url": "https://www.businessremedies.com/wp-content/uploads/2026/03/business-remedies-17-03-2026-epaper-english.pdf",
+          "reference": "turn23search15"
+        },
+        {
+          "title": "Iqoo Z11x /Vivo T5x 5G users, have you been facing any issues with this devices? What are your reviews?",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1s2eoj2/iqoo_z11x_vivo_t5x_5g_users_have_you_been_facing/",
+          "reference": "turn23reddit16"
+        },
+        {
+          "title": "📣 EXCLUSIVE : Smartphone Price hike alert Starting today",
+          "url": "https://www.reddit.com/r/IndianTechCentral/comments/1srcgv7/exclusive_smartphone_price_hike_alert_starting/",
+          "reference": "turn23reddit17"
+        },
+        {
+          "title": "[Removed]",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1umkh2r/removed/",
+          "reference": "turn23reddit18"
+        },
+        {
+          "title": "What the heck shii 🤮",
+          "url": "https://www.reddit.com/r/techIndia/comments/1s0eu20/what_the_heck_shii/",
+          "reference": "turn23reddit19"
+        }
+      ]
+    },
+    {
+      "batch": 21,
+      "queries": [
+        {
+          "q": "\"Redmi Turbo 5\" \"India\" \"12GB\" official"
+        },
+        {
+          "q": "\"Samsung F70 Pro\" used price India"
+        },
+        {
+          "q": "\"Asus ROG Phone 9 Pro\" used India price"
+        },
+        {
+          "q": "\"Samsung Z Flip 7 FE\" used India price"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "REDMI Turbo 5 Specs, Features | Xiaomi India",
+          "url": "https://www.mi.com/in/product/redmi-turbo-5/specs/",
+          "reference": "turn27search0"
+        },
+        {
+          "title": "REDMI Turbo 5 | Xiaomi India | | All Specs, Features",
+          "url": "https://www.mi.com/in/product/redmi-turbo-5/",
+          "reference": "turn27search1"
+        },
+        {
+          "title": "Buy & Sell Second Hand 9 Pro in India, Used Asus Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/en-in/mobile-phones_c1453/q-9-pro?filter=make_eq_asus",
+          "reference": "turn27search2"
+        },
+        {
+          "title": "Samsung F70 pro 6/128gb only 8 days old - Mobile Phones in Sealdah, Kolkata - 1852889837",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-samsung-in-sealdah-kolkata-iid-1852889837",
+          "reference": "turn27search3"
+        },
+        {
+          "title": "Sell ASUS ROG Phone 9 Pro Online – Resale Value | Asell",
+          "url": "https://asell.in/sell/asus/asus-rog-phone-9-pro",
+          "reference": "turn27search4"
+        },
+        {
+          "title": "Buy Second Hand Samsung Flip 7 - Used Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/en-in/mobile-phones_c1453/q-samsung-flip-7",
+          "reference": "turn27search5"
+        },
+        {
+          "title": "Samsung Galaxy F70 Pro 5G (128 GB Storage, 6 GB RAM) Online at Best Price On Flipkart.com",
+          "url": "https://www.flipkart.com/samsung-galaxy-f70-pro-5g/p/itm37bbb9ed78024?BU=Mixed",
+          "reference": "turn27search6"
+        },
+        {
+          "title": "Sell Used Asus ROG Phone 9 Pro Online at Best Price | ORUphones",
+          "url": "https://www.oruphones.com/sell-old-used-phones/used-asus-rog-phone-9-pro",
+          "reference": "turn27search7"
+        },
+        {
+          "title": "Samsung Galaxy F70 Pro 5G (Alpha Black, 128 GB) - Price History",
+          "url": "https://pricehistory.app/p/samsung-galaxy-f70-pro-5g-alpha-black-RWzffsG5",
+          "reference": "turn27search8"
+        },
+        {
+          "title": "Buy Second Hand asus rog phone 9 pro phone Online under 25000 in Delhi,Delhi at Best Prices | ORUphones",
+          "url": "https://www.oruphones.com/buy-old-used-phones/asus/asus-rog-phone-9-pro/location/Delhi/Delhi/phones-under/25000",
+          "reference": "turn27search9"
+        },
+        {
+          "title": "Samsung F70 Pro - Has anyone used it ? Need first hand reviews",
+          "url": "https://www.reddit.com/r/techzoneindia/comments/1vwghk9/samsung_f70_pro_has_anyone_used_it_need_first/",
+          "reference": "turn27reddit12"
+        },
+        {
+          "title": "Buy Samsung Galaxy Z Flip7 FE | Price & Offers | Samsung India",
+          "url": "https://www.samsung.com/in/multistore/in_corporate/galaxy-z-flip7-fe/buy/",
+          "reference": "turn27search10"
+        },
+        {
+          "title": "Galaxy M47 & F70 Pro Price Hike India: New Prices – Royal Star",
+          "url": "https://royalstar.co.in/blogs/news/samsung-galaxy-m47-f70-pro-india-price-hike",
+          "reference": "turn27search11"
+        },
+        {
+          "title": "REDMI Turbo 5 India Launch Confirmed! 24GB RAM, 100W Charging & 120Hz Display - YouTube",
+          "url": "https://www.youtube.com/watch?v=7yc6xtEELZM",
+          "reference": "turn27youtube13"
+        },
+        {
+          "title": "Rog 9 pro",
+          "url": "https://www.reddit.com/r/ROGphone/comments/1vx4nhs/rog_9_pro/",
+          "reference": "turn27reddit14"
+        },
+        {
+          "title": "Hi ALL 👋🏼 I have a question.",
+          "url": "https://www.reddit.com/r/ROGphone/comments/1u1f5dq/hi_all_i_have_a_question/",
+          "reference": "turn27reddit15"
+        },
+        {
+          "title": "Redmi Turbo 5 Review | 7540 mAh Battery & 100W Fast Charging | Official Video Trailer | #RedmiTurbo5 - YouTube",
+          "url": "https://www.youtube.com/watch?v=LFrgzlhkF-s",
+          "reference": "turn27youtube16"
+        },
+        {
+          "title": "Can the Samsung Galaxy F70 be considered as LORD device in its price range?",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1vejm2b/can_the_samsung_galaxy_f70_be_considered_as_lord/",
+          "reference": "turn27reddit17"
+        },
+        {
+          "title": "Samsung Galaxy F70 Pro has launched in India: Specs, Colours and Prices",
+          "url": "https://www.reddit.com/r/techzoneindia/comments/1ve6njf/samsung_galaxy_f70_pro_has_launched_in_india/",
+          "reference": "turn27reddit18"
+        },
+        {
+          "title": "Is this phone better than the Asus Rog mobile? Where can I buy?",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1dou0ki",
+          "reference": "turn27reddit19"
+        },
+        {
+          "title": "红米产品列表",
+          "url": "https://zh.wikipedia.org/wiki/%E7%BA%A2%E7%B1%B3%E4%BA%A7%E5%93%81%E5%88%97%E8%A1%A8",
+          "reference": "turn27search20"
+        },
+        {
+          "title": "Poco (smartphone)",
+          "url": "https://en.wikipedia.org/wiki/Poco_%28smartphone%29",
+          "reference": "turn27search21"
+        },
+        {
+          "title": "New phone?",
+          "url": "https://www.reddit.com/r/ROGphone/comments/1tfjcq9/new_phone/",
+          "reference": "turn27reddit22"
+        },
+        {
+          "title": "Samsung Galaxy F70 Pro has launched in India: Specs, Colours and Prices",
+          "url": "https://www.reddit.com/r/samsunggalaxy/comments/1ve6nbg/samsung_galaxy_f70_pro_has_launched_in_india/",
+          "reference": "turn27reddit23"
+        },
+        {
+          "title": "Samsung Galaxy F70 Pro has launched in India: Specs, Colours and Prices",
+          "url": "https://www.reddit.com/r/techolum/comments/1ve6nmm/samsung_galaxy_f70_pro_has_launched_in_india/",
+          "reference": "turn27reddit24"
+        },
+        {
+          "title": "POCO",
+          "url": "https://zh.wikipedia.org/wiki/POCO",
+          "reference": "turn27search25"
+        },
+        {
+          "title": "A1 Gerätebestellung / BUSINESS REPLACEMENT MOBIL PREISLISTE",
+          "url": "https://haai.eu/wp-content/uploads/2025/07/HAAI_A1_HWR_Preisliste_Enterprise.pdf",
+          "reference": "turn27search26"
+        }
+      ]
+    },
+    {
+      "batch": 22,
+      "queries": [
+        {
+          "q": "\"Realme C75 5G\" used 4GB 128GB 256GB India"
+        },
+        {
+          "q": "\"Moto G75 5G\" used 8GB 128GB India"
+        },
+        {
+          "q": "\"Moto G86 5G\" used 8GB 128GB 256GB India"
+        },
+        {
+          "q": "\"Redmi Note 15 SE\" used India 128GB 256GB"
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "Sell Realme C75 5G Online – Get Up to ₹8,870 | TurnCash",
+          "url": "https://www.turncash.in/sell/phone/realme/c75-5g/",
+          "reference": "turn26search0"
+        },
+        {
+          "title": "REDMI NOTE 15 SE 5G - Mobile Phones in Sipcot Industrial Park Irunkattukottia, Chennai - 1855880962",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-xiaomi-in-sipcot-industrial-park-irunkattukottia-chennai-iid-1855880962",
+          "reference": "turn26search1"
+        },
+        {
+          "title": "Buy Second Hand C75 - Used Mobile Phones in India | OLX",
+          "url": "https://www.olx.in/mobile-phones_c1453/q-c75",
+          "reference": "turn26search2"
+        },
+        {
+          "title": "Sell Old Realme C75 5G — Get Up to ₹8,870 Cash",
+          "url": "https://sellyourphone.in/sell-old-realme-c75-5g",
+          "reference": "turn26search3"
+        },
+        {
+          "title": "Buy & Sell Second Hand Motorola Mobile Phones in Gangotri Vihar, Used Motorola Mobile Phones in Gangotri Vihar | OLX",
+          "url": "https://www.olx.in/gangotri-vihar_g5339368/mobile-phones_c1453?filter=make_eq_motorola-phone",
+          "reference": "turn26search4"
+        },
+        {
+          "title": "Redmi Note 15 SE, 6gb ram 128gb rom - Mobile Phones in Akurdi, Pune - 1848323429",
+          "url": "https://www.olx.in/item/mobile-phones-c1453-used-mi-in-akurdi-pune-iid-1848323429",
+          "reference": "turn26search5"
+        },
+        {
+          "title": "Sell Old Xiaomi Redmi Note 15 SE 5G Online & Get Instant Cash At Doorstep | Cashify.in",
+          "url": "https://www.cashify.in/sell-old-mobile-phone/used-xiaomi-redmi-note-15-se-5g",
+          "reference": "turn26search6"
+        },
+        {
+          "title": "Buy Refurbished and Second Hand Realme C75 5G Online at Cashify Store",
+          "url": "https://www.cashify.in/buy-refurbished-mobile-phones/renewed-realme-c75-5g/161051/",
+          "reference": "turn26search7"
+        },
+        {
+          "title": "Sell Used Realme C75 5G Online For Cash At Home | Cashmen.in",
+          "url": "https://www.cashmen.in/sell-used-mobile-phone/sell-realme/sell-used-realme-c75-5g",
+          "reference": "turn26search8"
+        },
+        {
+          "title": "Redmi Note 15 SE 5G Phone Price, Specs, Comparison and Reviews (11th September 2026) | Gadgets 360",
+          "url": "https://www.gadgets360.com/redmi-note-15-se-5g-price-in-india-136042",
+          "reference": "turn26search9"
+        },
+        {
+          "title": "Certified Refurbished Xiaomi Redmi Note 15 SE 5G | 6-Month Warranty | Cashify",
+          "url": "https://app.cashify.in/buy-refurbished-mobile-phones/renewed-xiaomi-redmi-note-15-se-5g",
+          "reference": "turn26search10"
+        },
+        {
+          "title": "Buy & Sell Second Hand Motorola Moto in Chennai, Used Mobiles in Chennai | OLX",
+          "url": "https://www.olx.in/chennai_g4059162/mobiles_c1411/q-motorola-moto",
+          "reference": "turn26search11"
+        },
+        {
+          "title": "Moto G86 5G - Moto Edge 50 Ultra - Moto Edge 2025 - Edge 50 Pro - 40 Pro- G 5g 2025 - Edge 30 Fusion - YouTube",
+          "url": "https://www.youtube.com/watch?v=g4KEF0SBlKs",
+          "reference": "turn26youtube12"
+        },
+        {
+          "title": "REDMI Note 15 SE has launched in India: Specs, Colours and Prices",
+          "url": "https://www.reddit.com/r/XiaomiIndiaOfficial/comments/1sac0n7/redmi_note_15_se_has_launched_in_india_specs/",
+          "reference": "turn26reddit14"
+        },
+        {
+          "title": "TIENDACEL.COM",
+          "url": "https://www.tiendacel.com/common/domain/tiendacel/pdfcatalog/tiendacel.com_catalogo_3.pdf",
+          "reference": "turn26search15"
+        },
+        {
+          "title": "REDMI Note 15 SE has launched in India: Specs, Colours and Prices",
+          "url": "https://www.reddit.com/r/techzoneindia/comments/1sac0p7/redmi_note_15_se_has_launched_in_india_specs/",
+          "reference": "turn26reddit16"
+        },
+        {
+          "title": "REDMI Note 15 SE has launched in India: Specs, Colours and Prices",
+          "url": "https://www.reddit.com/r/techolum/comments/1sac11y/redmi_note_15_se_has_launched_in_india_specs/",
+          "reference": "turn26reddit17"
+        },
+        {
+          "title": "List of Realme products",
+          "url": "https://en.wikipedia.org/wiki/List_of_Realme_products",
+          "reference": "turn26search18"
+        },
+        {
+          "title": "TRADE IN SAVE IN PDF - Google Sheets",
+          "url": "https://media.machines.com.my/Shopify_IMG/trade-in/trade-in-full-pricing-list-june-0506.pdf",
+          "reference": "turn26search19"
+        },
+        {
+          "title": "Deals Offer PDF Export",
+          "url": "https://www.sathya.store/php-excel-export/8564.pdf",
+          "reference": "turn26search20"
+        },
+        {
+          "title": "Moto g86 power",
+          "url": "https://www.reddit.com/r/motorola/comments/1mwy49y/moto_g86_power/",
+          "reference": "turn26reddit21"
+        },
+        {
+          "title": "realme | blibli",
+          "url": "https://blibliomg.com/eCatalogue.pdf?v=2.7",
+          "reference": "turn26search22"
+        },
+        {
+          "title": "Help me choose between \"Moto G86 Power 5G\" or \"CMF Phone 2 Pro 5G\"",
+          "url": "https://www.reddit.com/r/motorola/comments/1r8xv2s/help_me_choose_between_moto_g86_power_5g_or_cmf/",
+          "reference": "turn26reddit23"
+        },
+        {
+          "title": "Redmi Note 15 SE 5G with Snapdragon 6 Gen 3, 50MP Camera, and 5800mAh Battery Launched in India",
+          "url": "https://www.reddit.com/r/DailyTechBytes/comments/1sabx1k/redmi_note_15_se_5g_with_snapdragon_6_gen_3_50mp/",
+          "reference": "turn26reddit24"
+        },
+        {
+          "title": "Motorola g86 5g: worth it?",
+          "url": "https://www.reddit.com/r/motorola/comments/1vvnysr/motorola_g86_5g_worth_it/",
+          "reference": "turn26reddit25"
+        },
+        {
+          "title": "Why nobody talk about the Moto G86 and G86 power?",
+          "url": "https://www.reddit.com/r/motorola/comments/1l340ku/why_nobody_talk_about_the_moto_g86_and_g86_power/",
+          "reference": "turn26reddit26"
+        }
+      ]
+    },
+    {
+      "batch": 23,
+      "queries": [
+        {
+          "q": "site.lavamobiles.com \"Virat Curve\""
+        },
+        {
+          "q": "site.oppo.com/in \"K14 Plus\""
+        },
+        {
+          "q": "site.mi.com/in \"17C\""
+        },
+        {
+          "q": "site.apple.com/in \"iPhone Duo\""
+        }
+      ],
+      "purpose": "model screening",
+      "sources": [
+        {
+          "title": "iPhone Duo - Apple (IN)",
+          "url": "https://www.apple.com/in/iphone-duo/",
+          "reference": "turn25search0"
+        },
+        {
+          "title": "iPhone Duo - Technical Specifications - Apple (IN)",
+          "url": "https://www.apple.com/in/iphone-duo/specs/",
+          "reference": "turn25search1"
+        },
+        {
+          "title": "Buy iPhone Duo",
+          "url": "https://www.apple.com/in/shop/buy-iphone/iphone-duo",
+          "reference": "turn25search2"
+        },
+        {
+          "title": "iPhone Duo - MagSafe - iPhone Accessories",
+          "url": "https://www.apple.com/in/shop/iphone/accessories/magsafe/iphone-duo",
+          "reference": "turn25search3"
+        },
+        {
+          "title": "Apple unveils iPhone Duo - Apple (IN)",
+          "url": "https://images.apple.com/in/newsroom/2026/09/apple-unveils-iphone-duo/",
+          "reference": "turn25search4"
+        },
+        {
+          "title": "iPhone - Apple (IN)",
+          "url": "https://www.apple.com/in/iphone/?invalidPart=MQ593HN%2FA",
+          "reference": "turn25search5"
+        },
+        {
+          "title": "iPhone - Apple (IN)",
+          "url": "https://www.apple.com/in/iphone/",
+          "reference": "turn25search6"
+        },
+        {
+          "title": "iPhone Duo - Apple (IN)",
+          "url": "https://images.apple.com/in/iphone-duo/",
+          "reference": "turn25search7"
+        },
+        {
+          "title": "Buy iPhone Duo 256GB Night Sky",
+          "url": "https://www.apple.com/in-edu/shop/buy-iphone/iphone-duo/7.6%22-display-256gb-night-sky",
+          "reference": "turn25search8"
+        },
+        {
+          "title": "iPhone - Apple (IN)",
+          "url": "https://www.apple.com/in/iphone/?invalidPart=MPVN3HN%2FA",
+          "reference": "turn25search9"
+        },
+        {
+          "title": "Get Ready for iPhone Duo - Apple Developer",
+          "url": "https://developer.apple.com/iphone-duo/",
+          "reference": "turn25search10"
+        },
+        {
+          "title": "REDMI 17C",
+          "url": "https://www.mi.com/prod/redmi-17c",
+          "reference": "turn25search11"
+        },
+        {
+          "title": "iPhone duo",
+          "url": "https://www.reddit.com/r/AppleIndia/comments/1wcuh9k/iphone_duo/",
+          "reference": "turn25reddit12"
+        },
+        {
+          "title": "Lava Virat Curve launched at 20k",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1wm5zr4/lava_virat_curve_launched_at_20k/",
+          "reference": "turn25reddit13"
+        },
+        {
+          "title": "Redmi 17C 5G",
+          "url": "https://www.reddit.com/r/Xiaomi/comments/1vti7v3/redmi_17c_5g/",
+          "reference": "turn25reddit14"
+        },
+        {
+          "title": "New iPhone Duo! ⚠️",
+          "url": "https://www.reddit.com/r/IndianTeenagers/comments/1wcle5c/new_iphone_duo/",
+          "reference": "turn25reddit15"
+        },
+        {
+          "title": "Iphone Duo",
+          "url": "https://www.reddit.com/r/indiasocial/comments/1wc2hgh/iphone_duo/",
+          "reference": "turn25reddit16"
+        },
+        {
+          "title": "What are your views on the iPhone Duo?",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1wbt4ij/what_are_your_views_on_the_iphone_duo/",
+          "reference": "turn25reddit17"
+        },
+        {
+          "title": "Duo is not for us!",
+          "url": "https://www.reddit.com/r/AppleIndia/comments/1we9k56/duo_is_not_for_us/",
+          "reference": "turn25reddit18"
+        },
+        {
+          "title": "Redmi 17C Price, Specifications, Camera, Design, Official Look, Features...",
+          "url": "https://www.reddit.com/r/u_Rahulpatel09/comments/1uekg2y/redmi_17c_price_specifications_camera_design/",
+          "reference": "turn25reddit19"
+        },
+        {
+          "title": "Meet the iPhone Duo.",
+          "url": "https://www.reddit.com/r/AppleEcosystem/comments/1wbtrw5/meet_the_iphone_duo/",
+          "reference": "turn25reddit20"
+        },
+        {
+          "title": "What iPhone Duo doesn't have, and what compensates for those losses",
+          "url": "https://www.reddit.com/r/iphone/comments/1wii49i/what_iphone_duo_doesnt_have_and_what_compensates/",
+          "reference": "turn25reddit21"
+        },
+        {
+          "title": "iPhone Duo buyers: does the weaker camera not bother you?",
+          "url": "https://www.reddit.com/r/iPhoneDuo/comments/1wkvxkp/iphone_duo_buyers_does_the_weaker_camera_not/",
+          "reference": "turn25reddit22"
+        },
+        {
+          "title": "NewPhoneGuideIPhone",
+          "url": "https://www.bsu.edu/-/media/www/departmentalcontent/information-technology/pdfs/it-tech-guides/newphoneguideiphonev2.pdf?hash=74EF21F2036571C6FE12F0565F1E552EE145AF7D&sc_lang=en",
+          "reference": "turn25search23"
+        },
+        {
+          "title": "Low-lying single-particle structure of 17C and the N = 14 sub-shell closure",
+          "url": "https://arxiv.org/abs/2011.06101",
+          "reference": "turn25academia24"
+        },
+        {
+          "title": "iPhone Duo is official - price, release date, specs, and everything you need to know",
+          "url": "https://www.tomsguide.com/phones/iphones/iphone-duo-is-official-price-release-date-specs-and-everything-you-need-to-know",
+          "reference": "turn25news25"
+        },
+        {
+          "title": "Unbound states in 17C and p-sd shell-model interactions",
+          "url": "https://arxiv.org/abs/2212.12997",
+          "reference": "turn25academia26"
+        },
+        {
+          "title": "SPRING SAVINGS",
+          "url": "https://onlinecms.mtn.co.za/sites/default/files/sept25-yello-trader.pdf",
+          "reference": "turn25search27"
+        },
+        {
+          "title": "I Can't Get Enough of the iPhone Duo. Why is That?",
+          "url": "https://www.reddit.com/r/iPhoneDuo/comments/1wkp22r/i_cant_get_enough_of_the_iphone_duo_why_is_that/",
+          "reference": "turn25reddit28"
+        }
+      ]
+    },
+    {
+      "batch": 24,
+      "queries": [],
+      "purpose": "launch gap check",
+      "sources": [
+        {
+          "title": "REDMI 17C 5G | Xiaomi España | Todas las especificaciones y características",
+          "url": "https://www.mi.com/es/product/redmi-17c-5g/",
+          "reference": "turn29search0"
+        },
+        {
+          "title": "REDMI 17C",
+          "url": "https://www.mi.com/prod/redmi-17c",
+          "reference": "turn29search1"
+        },
+        {
+          "title": "Redmi 17c 5g | Xiaomi Singapore | All Specs, Features",
+          "url": "https://www.mi.com/sg/product/redmi-17c-5g/",
+          "reference": "turn29search2"
+        },
+        {
+          "title": "REDMI 17C 5G | Xiaomi France | Toutes les spécifications et fonctionnalités",
+          "url": "https://www.mi.com/fr/product/redmi-17c-5g/",
+          "reference": "turn29search3"
+        },
+        {
+          "title": "Redmi 17c 5g Specs, Features | Xiaomi Singapore",
+          "url": "https://www.mi.com/sg/product/redmi-17c-5g/specs/",
+          "reference": "turn29search4"
+        },
+        {
+          "title": "Redmi 17c 5g | Xiaomi Italia | Tutte le specifiche e caratteristiche",
+          "url": "https://www.mi.com/it/product/redmi-17c-5g/",
+          "reference": "turn29search5"
+        },
+        {
+          "title": "Xiaomi Global Home",
+          "url": "https://www.mi.com/global/mobile/",
+          "reference": "turn29search6"
+        },
+        {
+          "title": "Retail",
+          "url": "https://www.aboutamazon.in/news/retail",
+          "reference": "turn29search7"
+        },
+        {
+          "title": "New Mobiles 2026 - Latest Launched Phone Models in India in India | Mysmartprice.com",
+          "url": "https://www.mysmartprice.com/mobile/pricelist/latest-mobile-phones.html",
+          "reference": "turn29search8"
+        },
+        {
+          "title": "REDMI 17C 5G よくある質問",
+          "url": "https://www.mi.com/jp/support/faq/details/KA-728573/",
+          "reference": "turn29search9"
+        },
+        {
+          "title": "All Press Release: Press Information Bureau",
+          "url": "https://www.pib.gov.in/AllRelease.aspx?MenuId=3&lang=1&reg=3",
+          "reference": "turn29search10"
+        },
+        {
+          "title": "Register now for Galaxy S26 FE | Samsung India",
+          "url": "https://www.samsung.com/in/offer/galaxy-event/",
+          "reference": "turn29search11"
+        },
+        {
+          "title": "IT’S SELLING AT THE SAME FREAKING PRICE AS BEFORE",
+          "url": "https://www.reddit.com/r/Flipkart/comments/1wrn26k/its_selling_at_the_same_freaking_price_as_before/",
+          "reference": "turn29reddit12"
+        },
+        {
+          "title": "BBD sale company wise price reveal date announced.",
+          "url": "https://www.reddit.com/r/Flipkart/comments/1wkhm0p/bbd_sale_company_wise_price_reveal_date_announced/",
+          "reference": "turn29reddit13"
+        },
+        {
+          "title": "Is this the best price?",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1wlk0xk/is_this_the_best_price/",
+          "reference": "turn29reddit14"
+        },
+        {
+          "title": "TIRUPATI \u0001 FRIDAY \u0001 SEPTEMBER 26, 2025 \u0001 `9.00 \u0001 PAGES 12 \u0001 LATE CITY EDITION",
+          "url": "https://cms.rguktrkv.ac.in/notices/files/The-New-Indian-Express-Tirupati---26-09-2025_1758861599.pdf",
+          "reference": "turn29search15"
+        },
+        {
+          "title": "OnePlus 16 Revealed with 9000 mAh Battery and 185Hz OLED Screen",
+          "url": "https://www.reddit.com/r/technology/comments/1wmjtqp/oneplus_16_revealed_with_9000_mah_battery_and/",
+          "reference": "turn29reddit17"
+        },
+        {
+          "title": "Best Smartphone Guide 2026 (August Edition)",
+          "url": "https://www.reddit.com/r/IndianTechCentral/comments/1vuhu94/best_smartphone_guide_2026_august_edition/",
+          "reference": "turn29reddit18"
+        },
+        {
+          "title": "THE ASSAM POST ■ GUWAHATI EDITION ■ TUESDAY, SEPTEMBER 16, 2025",
+          "url": "https://centralread.com/media/2025/09/16/The_Assam_Post_16_Sep.pdf",
+          "reference": "turn29search19"
+        },
+        {
+          "title": "I have a gut feeling that worst time for gadgets is yet to come",
+          "url": "https://www.reddit.com/r/GadgetsIndia/comments/1wqu3z0/i_have_a_gut_feeling_that_worst_time_for_gadgets/",
+          "reference": "turn29reddit20"
+        },
+        {
+          "title": "Just a reminder about the new flagship smartphone launch",
+          "url": "https://www.reddit.com/r/IndiaTech/comments/1wjh33o/just_a_reminder_about_the_new_flagship_smartphone/",
+          "reference": "turn29reddit21"
+        },
+        {
+          "title": "The Pioneer",
+          "url": "https://www.dailypioneer.com/uploads/2025/epaper/september/delhi-english-edition-2025-09-26.pdf",
+          "reference": "turn29search22"
+        }
+      ]
+    },
+    {
+      "batch": 25,
+      "queries": [],
+      "purpose": "critical verification and launch timing",
+      "sources": [
+        {
+          "title": "Lava Virat Curve 5G launches with MediaTek Dimensity 7100 and 50MP camera - The Times of India",
+          "url": "https://timesofindia.indiatimes.com/technology/mobiles-tabs/lava-virat-curve-5g-launches-with-mediatek-dimensity-7100-and-50mp-camera/articleshow/134385721.cms",
+          "reference": "turn30search0"
+        },
+        {
+          "title": "₹23,999 देसी कंपनी ने उतारा 50MP कैमरा, कर्व्ड डिस्प्ले वाला 5G फोन, पीछे भी मिलेगी स्क्रीन, Gadgets Hindi News - Hindustan",
+          "url": "https://www.livehindustan.com/gadgets/lava-virat-curve-5g-launched-at-20999-rupees-with-50mp-camera-curved-display-and-rear-mini-screen-check-offers-201789971069546.html",
+          "reference": "turn30search1"
+        },
+        {
+          "title": "Lava Virat Curve 5G Flipkart sale from Rs 19,999",
+          "url": "https://dalimss.news/articles/lava-virat-curve-5g-india-launch-19999-flipkart-sep-2026",
+          "reference": "turn30search2"
+        },
+        {
+          "title": "Lava Virat Curve 5G Launches at ₹19,999: Here's Everything You Need To Know",
+          "url": "https://www.mysmartprice.com/personal-tech/mobiles/mobiles-news/lava-virat-curve-5g-launches-at-%E2%82%B919999-heres-everything-you-need-to-know/",
+          "reference": "turn30search3"
+        },
+        {
+          "title": "Lava Virat Curve 5G సేల్ డేట్ ఫిక్స్.. ₹19,999కే అదిరిపోయే ఫీచర్లతో వస్తోంది, మిస్ అవ్వకండి! | Lava Virat Curve 5G Launch Date, Price, And Offers: Get It For ₹19,999 On Flipkart - Telugu Gizbot",
+          "url": "https://telugu.gizbot.com/mobile/lava-virat-curve-5g-launch-price-offers-flipkart-011-48433.html",
+          "reference": "turn30search4"
+        },
+        {
+          "title": "Oppo K14 Plus India launch on September 29, key specs revealed - India Today",
+          "url": "https://www.indiatoday.in/amp/technology/news/story/oppo-k14-plus-india-launch-on-september-29-key-specs-revealed-3001256-2026-09-23",
+          "reference": "turn30search5"
+        },
+        {
+          "title": "Lava International launches Virat Curve with 120Hz curved AMOLED display and secondary screen",
+          "url": "https://pc-tablet.com/lava-international-launches-virat-curve-with-120hz-curved-amoled-display-and-secondary-screen/195038/",
+          "reference": "turn30search6"
+        },
+        {
+          "title": "Oppo K14 Plus 5G India Launch Date Confirmed for next Week | Beebom Gadgets",
+          "url": "https://gadgets.beebom.com/news/oppo-k14-plus-5g-india-launch-date-confirmed",
+          "reference": "turn30search7"
+        },
+        {
+          "title": "Lava Virat Curve 5G Launched at ₹19,999 With a Mini Screen on the Back",
+          "url": "https://www.gogi.in/lava-virat-curve-5g-launched-at-%E2%82%B919999-with-a-mini-screen-on-the-back.html",
+          "reference": "turn30search8"
+        },
+        {
+          "title": "8000mAh बैटरी और 50MP OIS कैमरा के साथ आ रहा Oppo का नया फोन, इस तारीख को होगा लॉन्च, Gadgets Hindi News - Hindustan",
+          "url": "https://www.livehindustan.com/gadgets/oppo-k14-plus-india-launch-date-confirmed-coming-on-29-september-have-8000mah-battery-50mp-ois-camera-201790143147875.amp.html",
+          "reference": "turn30search9"
+        },
+        {
+          "title": "OPPO All Set to Bring the New K14 Plus to India on 29th September",
+          "url": "https://www.business-standard.com/amp/content/press-releases-ani/oppo-all-set-to-bring-the-new-k14-plus-to-india-on-29th-september-126092400022_1.html",
+          "reference": "turn30search10"
+        },
+        {
+          "title": "OPPO K14 Plus 5G India Launch Set for September 29th, Flipkart Microsite Reveals Dimensity 7360 Max SoC, 8,000mAh Battery and More - The Tech Outlook",
+          "url": "https://www.thetechoutlook.com/new-release/gadgets-release/mobile/oppo-k14-plus-5g-india-launch-set-for-september-29th-flipkart-microsite-reveals-dimensity-7360-max-soc-8000mah-battery-and-more/",
+          "reference": "turn30search11"
+        },
+        {
+          "title": "ECP Jan 2026 --Northladder Israel Prices--Þ×ÙèÕß àÕèêÜÐÓè ÙàÕÐè 2026  --ÜÐêè.xlsx",
+          "url": "https://www.payngo.co.il/media/Pages/Apple-upgraders/January2026.pdf",
+          "reference": "turn30search12"
+        },
+        {
+          "title": "ECP MARCH 2026 --Northladder Israel Prices--×ž×Š×Ž×¨×Ł×\u0000 ×€×Ł×¨×ª×œ×’×ﬁ×¨ ×ž×¨×¥ 2026  --×œ×’×ª×¨.xlsx",
+          "url": "https://www.payngo.co.il/media/Pages/Apple-upgraders/March2026.pdf",
+          "reference": "turn30search13"
+        },
+        {
+          "title": "TECHCOMBANK",
+          "url": "https://techcombank.com/content/dam/techcombank/public-site/promo_file/detailed-rules-cellphones-19092024.pdf",
+          "reference": "turn30search14"
+        },
+        {
+          "title": "ECP November Northladder Israel Prices--Þ×ÙèÕß àÕèêÜÐÓè àÕÑÞÑè 25 --ÜÐêè.xlsx",
+          "url": "https://www.payngo.co.il/media/Pages/Apple-upgraders/NOVEMBER2025.pdf",
+          "reference": "turn30search15"
+        },
+        {
+          "title": "Northladder_Oct_Israel_Prices ECP- ×œ×’×ª×¨ ×ﬂ×‚×Ž×ª.xlsx",
+          "url": "https://www.payngo.co.il/media/Pages/Apple-upgraders/October25.pdf",
+          "reference": "turn30search16"
+        },
+        {
+          "title": "ECP December Northladder Israel Prices--×ž×Š×Ž×¨×Ł×\u0000 ×€×Ł×¨×ª×œ×’×ﬁ×¨ ×ﬁ×¦×ž×‚×¨ 25 --×œ×’×ª×¨.xlsx",
+          "url": "https://www.payngo.co.il/media/Pages/Apple-upgraders/December_2025.pdf",
+          "reference": "turn30search17"
+        },
+        {
+          "title": "iPhone buying and selling thread",
+          "url": "https://www.reddit.com/r/delhimarketplace/comments/1wh8pvn/iphone_buying_and_selling_thread/",
+          "reference": "turn30reddit18"
+        },
+        {
+          "title": "BBD iPhone 16 prices revealed!",
+          "url": "https://www.reddit.com/r/Flipkart/comments/1nebgtf",
+          "reference": "turn30reddit19"
+        },
+        {
+          "title": "hey Guys i have booked iphone 15 , is it a smart choice",
+          "url": "https://www.reddit.com/r/AppleIndia/comments/1sd8ubp/hey_guys_i_have_booked_iphone_15_is_it_a_smart/",
+          "reference": "turn30reddit20"
+        }
+      ]
+    }
+  ]
+}

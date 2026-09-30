@@ -19,7 +19,7 @@ import json, glob, sys, re
 from collections import defaultdict
 
 DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
-TODAY = '2026-09-26'
+TODAY = '2026-09-30'
 APPLY = '--apply' in sys.argv
 WEEK_CAP = 0.20      # max single-week DROP in A1 (market softening = safe direction)
 INCREASE_CAP = 0.08  # max single-week RISE in A1 — deliberately tighter than the drop cap.
@@ -54,7 +54,9 @@ VERIFIED_REAL = {
 # settling, and the only direction it can plausibly move is DOWN — so rises on the outgoing generation stay
 # refused while drops (re-anchoring on observed resale) apply. Drop the hold once a post-launch week of
 # observed resale exists (first run on/after 2026-09-28). 2026-09-26 run: still held (8 days post-launch).
-SUCCESSOR_HOLD_PREFIXES = ('iphone_17_pro_', 'samsung_s25_fe_')
+# 2026-09-30: RELEASED (12 days post-launch, a fortnight of observed trading). Rises on the outgoing generation
+# are back under the ordinary +8% cap and the verify+refute pass; the prefix tuple is kept for the next successor.
+SUCCESSOR_HOLD_PREFIXES = ()
 SUCCESSOR_NOTE = 'successor shipped 2026-09-18 (iPhone 18 Pro / Galaxy S26 FE)'
 # Critic corrections rejected on RATIONALE. The brain forbids pushing resale up so RT beats a competitor
 # quote. Filled per week after reading critic notes (2026-09-16: iPad Pro M4 13in 512).
