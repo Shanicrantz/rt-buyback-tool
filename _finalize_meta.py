@@ -96,6 +96,12 @@ ms['iphone_duo_2026'] = {'event': 'iPhone Duo announced for India, first sale 20
     '_held_future_2026-09-26.json.', 'confidence': 'high (apple.com/in via gap-audit critic 2026-09-26)'}
 meta['market_signals'] = ms
 
+# International rows (configs never sold in India) follow their India sibling — Shane 2026-10-01, see _intl_rule.py.
+# Run after every repricing step so a sibling's weekly move flows through (the rule only ever lowers them).
+from _intl_rule import recompute_international
+_intl_moves = recompute_international({'_meta': meta, **ph}, TODAY, TODAY)
+if _intl_moves: print(f'  international rows re-derived from India siblings: {len(_intl_moves)}')
+
 # ================= INVARIANTS =================
 def margin_of(e):
     m = e.get('target_margin')

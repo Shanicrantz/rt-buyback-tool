@@ -70,6 +70,7 @@ FORCE_REASON.setdefault('samsung_z_flip_7_256','09-28 flag: possible overvaluati
 cands=[]
 for k,e in ph.items():
     if e.get('rt_buyback_a1_override'): continue      # Shane's hand-set rates: never auto-touch
+    if e.get('international'): continue               # priced off the India sibling (_intl_rule.py): no India market to research
     a1=cur_a1(e)
     if not a1: continue
     age=months(e.get('launch_date',''))

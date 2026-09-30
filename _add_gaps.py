@@ -126,6 +126,11 @@ for key,v in ver.items():
     # flat new x0.60 age-estimate (no listing read), and Vivo Y31t rests on OLX ASKING prices for 2 of 3 trims with
     # the 6/256 scaled off a sibling ratio. A provisional quote beats none, but it is not 'verified'.
     placeholder = placeholder or key in ESTIMATED_ADDS
+    # 2026-09-30: the critics now say so themselves — 'ESTIMATED', 'LOW CONFIDENCE', 'ANALOG', 're-research' mark a
+    # resale inferred from a sibling / Get-Upto multiple / thin asks rather than observed. A provisional quote beats
+    # none, but it must not be stamped 'verified' or no weekly scope will ever pick it up again.
+    _cn = (v.get('note') or '').upper()
+    placeholder = placeholder or any(t in _cn for t in ('ESTIMATED', 'LOW CONFIDENCE', 'ANALOG', 'RE-RESEARCH'))
     e['calibration_status']='estimated' if placeholder else 'verified'
     e['calibration_date']=TODAY
     e['live_source']=f"Added {TODAY} (gap-audit+critic). resale ₹{r100(resale):,}{'/new ₹'+format(r100(new),',') if new else ''}{'/buy ₹'+format(r100(bm),',') if bm else ''}. A1=resale÷(1+{m})."[:180]
