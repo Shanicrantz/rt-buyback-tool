@@ -1,0 +1,186 @@
+[
+ {
+  "smaller": "vivo_x300_12_512",
+  "smaller_a1": 52800,
+  "bigger": "vivo_x300_16_512",
+  "bigger_a1": 45500,
+  "smaller_cal": "2026-09-10",
+  "bigger_cal": "2026-09-26"
+ },
+ {
+  "smaller": "vivo_v60_12_256",
+  "smaller_a1": 28700,
+  "bigger": "vivo_v60_16_512",
+  "bigger_a1": 27800,
+  "smaller_cal": "2026-08-24",
+  "bigger_cal": "2026-08-24"
+ },
+ {
+  "smaller": "redmi_note_14_5g_6_128",
+  "smaller_a1": 9200,
+  "bigger": "redmi_note_14_5g_8_128",
+  "bigger_a1": 8800,
+  "smaller_cal": "2026-06-25",
+  "bigger_cal": "2026-06-25"
+ },
+ {
+  "smaller": "realme_14_pro_plus_5g_8_256",
+  "smaller_a1": 19800,
+  "bigger": "realme_14_pro_plus_5g_12_512",
+  "bigger_a1": 18300,
+  "smaller_cal": "2026-09-10",
+  "bigger_cal": "2026-08-30"
+ },
+ {
+  "smaller": "realme_14_pro_plus_5g_8_256",
+  "smaller_a1": 19800,
+  "bigger": "realme_14_pro_plus_5g_12_256",
+  "bigger_a1": 16900,
+  "smaller_cal": "2026-09-10",
+  "bigger_cal": "2026-08-30"
+ },
+ {
+  "smaller": "nothing_phone_3a_pro_8_128",
+  "smaller_a1": 16400,
+  "bigger": "nothing_phone_3a_pro_12_256",
+  "bigger_a1": 16100,
+  "smaller_cal": "2026-09-16",
+  "bigger_cal": "2026-08-30"
+ },
+ {
+  "smaller": "nothing_phone_3a_pro_8_256",
+  "smaller_a1": 18200,
+  "bigger": "nothing_phone_3a_pro_12_256",
+  "bigger_a1": 16100,
+  "smaller_cal": "2026-09-10",
+  "bigger_cal": "2026-08-30"
+ },
+ {
+  "smaller": "iqoo_neo_10_5g_8_256",
+  "smaller_a1": 22900,
+  "bigger": "iqoo_neo_10_5g_12_256",
+  "bigger_a1": 21800,
+  "smaller_cal": "2026-08-30",
+  "bigger_cal": "2026-08-30"
+ },
+ {
+  "smaller": "poco_m6_pro_5g_6_256",
+  "smaller_a1": 7700,
+  "bigger": "poco_m6_pro_5g_8_256",
+  "bigger_a1": 7000,
+  "smaller_cal": "2026-06-25",
+  "bigger_cal": "2026-06-25"
+ },
+ {
+  "smaller": "realme_12_pro_5g_8_256",
+  "smaller_a1": 14100,
+  "bigger": "realme_12_pro_5g_12_256",
+  "bigger_a1": 13700,
+  "smaller_cal": "2026-06-25",
+  "bigger_cal": "2026-06-25"
+ },
+ {
+  "smaller": "samsung_f34_5g_6_128",
+  "smaller_a1": 8400,
+  "bigger": "samsung_f34_5g_8_128",
+  "bigger_a1": 7300,
+  "smaller_cal": "2026-06-25",
+  "bigger_cal": "2026-06-25"
+ },
+ {
+  "smaller": "iqoo_z9x_6_128",
+  "smaller_a1": 6900,
+  "bigger": "iqoo_z9x_8_256",
+  "bigger_a1": 6300,
+  "smaller_cal": "2026-06-25",
+  "bigger_cal": "2026-06-25"
+ },
+ {
+  "smaller": "realme_c67_5g_4_128",
+  "smaller_a1": 6200,
+  "bigger": "realme_c67_5g_6_128",
+  "bigger_a1": 6000,
+  "smaller_cal": "2026-06-25",
+  "bigger_cal": "2026-06-25"
+ },
+ {
+  "smaller": "vivo_y18_4_128",
+  "smaller_a1": 4700,
+  "bigger": "vivo_y18_6_128",
+  "bigger_a1": 4200,
+  "smaller_cal": "2026-06-25",
+  "bigger_cal": "2026-06-25"
+ },
+ {
+  "smaller": "iqoo_neo_10r_8_128",
+  "smaller_a1": 16400,
+  "bigger": "iqoo_neo_10r_12_256",
+  "bigger_a1": 15000,
+  "smaller_cal": "2026-09-21",
+  "bigger_cal": "2026-09-10"
+ },
+ {
+  "smaller": "iqoo_neo_10r_8_256",
+  "smaller_a1": 18700,
+  "bigger": "iqoo_neo_10r_12_256",
+  "bigger_a1": 15000,
+  "smaller_cal": "2026-09-16",
+  "bigger_cal": "2026-09-10"
+ },
+ {
+  "smaller": "xiaomi_pad_6_6_128",
+  "smaller_a1": 13000,
+  "bigger": "xiaomi_pad_6_8_128",
+  "bigger_a1": 8700,
+  "smaller_cal": "2026-06-25",
+  "bigger_cal": "2026-08-05"
+ },
+ {
+  "smaller": "xiaomi_pad_6_6_128",
+  "smaller_a1": 13000,
+  "bigger": "xiaomi_pad_6_8_256",
+  "bigger_a1": 9500,
+  "smaller_cal": "2026-06-25",
+  "bigger_cal": "2026-08-05"
+ },
+ {
+  "smaller": "realme_15_5g_8_256",
+  "smaller_a1": 18900,
+  "bigger": "realme_15_5g_12_256",
+  "bigger_a1": 18200,
+  "smaller_cal": "2026-09-16",
+  "bigger_cal": "2026-09-10"
+ },
+ {
+  "smaller": "realme_p4r_5g_4_128",
+  "smaller_a1": 12000,
+  "bigger": "realme_p4r_5g_6_128",
+  "bigger_a1": 10800,
+  "smaller_cal": "2026-06-25",
+  "bigger_cal": "2026-06-25"
+ },
+ {
+  "smaller": "realme_p4r_5g_4_128",
+  "smaller_a1": 12000,
+  "bigger": "realme_p4r_5g_6_256",
+  "bigger_a1": 10800,
+  "smaller_cal": "2026-06-25",
+  "bigger_cal": "2026-09-26"
+ },
+ {
+  "smaller": "redmi_15c_5g_6_128",
+  "smaller_a1": 8900,
+  "bigger": "redmi_15c_5g_8_128",
+  "bigger_a1": 8600,
+  "smaller_cal": "2026-08-07",
+  "bigger_cal": "2026-09-21"
+ },
+ {
+  "smaller": "tecno_pova_8_pro_5g_8_256",
+  "smaller_a1": 32800,
+  "bigger": "tecno_pova_8_pro_5g_12_512",
+  "bigger_a1": 28200,
+  "smaller_cal": "2026-08-24",
+  "bigger_cal": "2026-09-26"
+ }
+]

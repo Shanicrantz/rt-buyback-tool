@@ -1,0 +1,1539 @@
+{
+ "intl": [
+  [
+   "samsung_a57_5g_8_128",
+   29100,
+   28200,
+   "samsung_a57_5g_8_256",
+   31300
+  ],
+  [
+   "poco_m7_pro_5g_8_128",
+   8400,
+   7200,
+   "poco_m7_pro_5g_6_128",
+   8000
+  ],
+  [
+   "oneplus_15_12_512",
+   47300,
+   42600,
+   "oneplus_15_16_512",
+   47300
+  ]
+ ],
+ "dup": [
+  [
+   "lava_agni_3_5g_8_256",
+   12000,
+   10500,
+   "lava_agni_3_8_256",
+   10500
+  ]
+ ],
+ "added": [
+  [
+   "hmd_vibe_2_5g_4_128",
+   "HMD Vibe 2 5G 4/128GB",
+   "C",
+   "2026-05-21",
+   7400,
+   9300,
+   13999,
+   "estimated",
+   ""
+  ],
+  [
+   "hmd_vibe_2_5g_4_64",
+   "HMD Vibe 2 5G 4/64GB",
+   "C",
+   "2026-05-21",
+   6900,
+   8700,
+   12999,
+   "estimated",
+   ""
+  ],
+  [
+   "hmd_vibe_2_5g_6_128",
+   "HMD Vibe 2 5G 6/128GB",
+   "C",
+   "2026-06-15",
+   8000,
+   10000,
+   14999,
+   "estimated",
+   ""
+  ],
+  [
+   "infinix_hot_60_5g_plus_6_128",
+   "Infinix Hot 60 5G+ 6/128GB",
+   "C",
+   "2025-07-11",
+   7600,
+   9500,
+   17999,
+   "verified",
+   ""
+  ],
+  [
+   "infinix_hot_60i_5g_4_128",
+   "Infinix Hot 60i 5G 4/128GB",
+   "C",
+   "2025-08-16",
+   7200,
+   9000,
+   17499,
+   "verified",
+   ""
+  ],
+  [
+   "infinix_note_50x_5g_plus_6_128",
+   "Infinix Note 50x 5G+ 6/128GB",
+   "C",
+   "2025-03-27",
+   6400,
+   8100,
+   13499,
+   "verified",
+   ""
+  ],
+  [
+   "infinix_note_50x_5g_plus_8_128",
+   "Infinix Note 50x 5G+ 8/128GB",
+   "C",
+   "2025-03-27",
+   7400,
+   9300,
+   14999,
+   "verified",
+   ""
+  ],
+  [
+   "iqoo_z10r_5g_12_256",
+   "iQOO Z10R 5G 12/256GB",
+   "C",
+   "2025-07-24",
+   12900,
+   16200,
+   23499,
+   "estimated",
+   ""
+  ],
+  [
+   "iqoo_z10r_5g_8_128",
+   "iQOO Z10R 5G 8/128GB",
+   "C",
+   "2025-07-24",
+   11800,
+   14800,
+   19499,
+   "estimated",
+   ""
+  ],
+  [
+   "iqoo_z10r_5g_8_256",
+   "iQOO Z10R 5G 8/256GB",
+   "C",
+   "2025-07-24",
+   12800,
+   16000,
+   21499,
+   "estimated",
+   ""
+  ],
+  [
+   "iqoo_z11x_5g_6_128",
+   "iQOO Z11x 5G 6/128GB",
+   "C",
+   "2026-03-12",
+   12000,
+   15000,
+   18999,
+   "estimated",
+   ""
+  ],
+  [
+   "itel_a100_3_64",
+   "Itel A100 (3GB/64GB)",
+   "D",
+   "2026-02-09",
+   3600,
+   4700,
+   7899,
+   "estimated",
+   ""
+  ],
+  [
+   "itel_a100_pro_3_64",
+   "Itel A100 Pro (3GB/64GB)",
+   "D",
+   "2026-05-19",
+   4300,
+   5700,
+   9199,
+   "estimated",
+   ""
+  ],
+  [
+   "itel_a300c_4_64",
+   "Itel A300C (4GB/64GB)",
+   "D",
+   "2026-09-18",
+   6700,
+   8800,
+   10999,
+   "estimated",
+   ""
+  ],
+  [
+   "itel_a95_5g_4_128",
+   "Itel A95 5G (4GB/128GB)",
+   "D",
+   "2025-04-17",
+   4800,
+   6300,
+   9999,
+   "estimated",
+   ""
+  ],
+  [
+   "itel_zeno_100_lite_2_64",
+   "Itel Zeno 100 Lite (2GB/64GB)",
+   "D",
+   "2026-07-16",
+   3700,
+   4900,
+   7999,
+   "estimated",
+   ""
+  ],
+  [
+   "itel_zeno_100_pro_3_64",
+   "Itel Zeno 100 Pro (3GB/64GB)",
+   "D",
+   "2026-07-16",
+   4300,
+   5700,
+   8599,
+   "estimated",
+   ""
+  ],
+  [
+   "itel_zeno_200_4_128",
+   "Itel Zeno 200 (4GB/128GB)",
+   "D",
+   "2026-05-08",
+   5300,
+   6900,
+   10399,
+   "estimated",
+   ""
+  ],
+  [
+   "itel_zeno_20_max_3_64",
+   "Itel Zeno 20 Max (3GB/64GB)",
+   "D",
+   "2026-01-08",
+   2400,
+   3200,
+   5799,
+   "estimated",
+   ""
+  ],
+  [
+   "itel_zeno_20_max_4_64",
+   "Itel Zeno 20 Max (4GB/64GB)",
+   "D",
+   "2026-01-08",
+   2600,
+   3400,
+   5899,
+   "estimated",
+   ""
+  ],
+  [
+   "itel_zeno_f30_5g_4_64",
+   "Itel Zeno F30 5G (4GB/64GB)",
+   "D",
+   "2026-07-09",
+   6400,
+   8400,
+   12499,
+   "estimated",
+   ""
+  ],
+  [
+   "lava_blaze_amoled_2_5g_6_128",
+   "Lava Blaze AMOLED 2 5G 6/128GB",
+   "C",
+   "2025-08-11",
+   7600,
+   9500,
+   14990,
+   "verified",
+   ""
+  ],
+  [
+   "lava_blaze_dragon_5g_4_128",
+   "Lava Blaze Dragon 5G 4/128GB",
+   "D",
+   "2025-07-25",
+   6000,
+   7800,
+   11999,
+   "verified",
+   ""
+  ],
+  [
+   "lava_bold_n2_4_64",
+   "Lava Bold N2 4/64GB",
+   "D",
+   "2026-02-17",
+   4000,
+   5200,
+   9699,
+   "estimated",
+   ""
+  ],
+  [
+   "lava_bold_n2_lite_3_64",
+   "Lava Bold N2 Lite 3/64GB",
+   "D",
+   "2026-04-01",
+   3600,
+   4800,
+   9299,
+   "estimated",
+   ""
+  ],
+  [
+   "lava_storm_play_5g_6_128",
+   "Lava Storm Play 5G 6/128GB",
+   "D",
+   "2025-06-13",
+   4600,
+   6000,
+   13499,
+   "verified",
+   ""
+  ],
+  [
+   "lava_storm_play_5g_8_256",
+   "Lava Storm Play 5G 8/256GB",
+   "D",
+   "2025-08-25",
+   5800,
+   7600,
+   null,
+   "verified",
+   ""
+  ],
+  [
+   "lava_virat_v1_5g_4_128",
+   "Lava Virat V1 5G 4/128GB",
+   "D",
+   "2026-09-02",
+   7400,
+   9700,
+   14499,
+   "estimated",
+   ""
+  ],
+  [
+   "nothing_phone_3_16_512",
+   "Nothing Phone (3) 16/512GB",
+   "B",
+   "2025-07-01",
+   35400,
+   39000,
+   89999,
+   "verified",
+   ""
+  ],
+  [
+   "oneplus_12r_16_256",
+   "OnePlus 12R 16/256GB",
+   "B",
+   "2024-01-23",
+   23100,
+   27500,
+   45999,
+   "verified",
+   ""
+  ],
+  [
+   "oneplus_nord_4_12_256",
+   "OnePlus Nord 4 12/256GB",
+   "B",
+   "2024-07-16",
+   16800,
+   20100,
+   35999,
+   "verified",
+   ""
+  ],
+  [
+   "oneplus_nord_6_12_256",
+   "OnePlus Nord 6 12/256GB",
+   "B",
+   "2026-04-07",
+   32300,
+   35500,
+   41999,
+   "estimated",
+   ""
+  ],
+  [
+   "oneplus_pad_lite_6_128",
+   "OnePlus Pad Lite WiFi 6/128GB",
+   "B",
+   "2025-07-23",
+   10400,
+   11500,
+   15999,
+   "estimated",
+   ""
+  ],
+  [
+   "oppo_a6c_4_128",
+   "Oppo A6c 4G 4/128GB",
+   "C",
+   "2026-05-25",
+   10500,
+   13200,
+   19999,
+   "verified",
+   ""
+  ],
+  [
+   "oppo_a6c_4_64",
+   "Oppo A6c 4G 4/64GB",
+   "C",
+   "2026-05-25",
+   9200,
+   11500,
+   17999,
+   "verified",
+   ""
+  ],
+  [
+   "oppo_f31_pro_12_256",
+   "Oppo F31 Pro 5G 12GB/256GB",
+   "B",
+   "2025-09-16",
+   21300,
+   23500,
+   35999,
+   "verified",
+   ""
+  ],
+  [
+   "oppo_f33_5g_6_128",
+   "Oppo F33 5G 6/128GB",
+   "C",
+   "2026-04-15",
+   19600,
+   24500,
+   34999,
+   "verified",
+   ""
+  ],
+  [
+   "oppo_k13_turbo_5g_8_128",
+   "Oppo K13 Turbo 5G 8/128GB",
+   "C",
+   "2025-08-11",
+   15600,
+   19600,
+   25999,
+   "verified",
+   ""
+  ],
+  [
+   "oppo_k13_turbo_5g_8_256",
+   "Oppo K13 Turbo 5G 8/256GB",
+   "C",
+   "2025-08-11",
+   16000,
+   20000,
+   27999,
+   "verified",
+   ""
+  ],
+  [
+   "oppo_k13_turbo_pro_5g_12_256",
+   "Oppo K13 Turbo Pro 5G 12/256GB",
+   "C",
+   "2025-08-11",
+   19600,
+   24500,
+   31999,
+   "verified",
+   ""
+  ],
+  [
+   "oppo_k13_turbo_pro_5g_8_256",
+   "Oppo K13 Turbo Pro 5G 8/256GB",
+   "C",
+   "2025-08-11",
+   18800,
+   23500,
+   29999,
+   "verified",
+   ""
+  ],
+  [
+   "oppo_pad_5_8_128_wifi",
+   "OPPO Pad 5 WiFi 8/128GB",
+   "B",
+   "2026-01-08",
+   17200,
+   19000,
+   28999,
+   "estimated",
+   ""
+  ],
+  [
+   "oppo_pad_5_8_256_5g",
+   "OPPO Pad 5 5G 8/256GB",
+   "B",
+   "2026-01-08",
+   20900,
+   23000,
+   33999,
+   "estimated",
+   ""
+  ],
+  [
+   "oppo_reno_15_12_256",
+   "Oppo Reno 15 12/256GB",
+   "B",
+   "2026-01-08",
+   30900,
+   34000,
+   50999,
+   "verified",
+   ""
+  ],
+  [
+   "oppo_reno_15_12_512",
+   "Oppo Reno 15 12/512GB",
+   "B",
+   "2026-01-08",
+   32500,
+   35800,
+   55999,
+   "verified",
+   ""
+  ],
+  [
+   "poco_c75_5g_4_64",
+   "Poco C75 5G 4/64GB",
+   "D",
+   "2024-12-17",
+   4200,
+   5500,
+   7999,
+   "verified",
+   ""
+  ],
+  [
+   "poco_m6_plus_5g_6_128",
+   "Poco M6 Plus 5G 6/128GB",
+   "C",
+   "2024-08-01",
+   5100,
+   6400,
+   13499,
+   "verified",
+   ""
+  ],
+  [
+   "poco_m6_plus_5g_8_128",
+   "Poco M6 Plus 5G 8/128GB",
+   "C",
+   "2024-08-01",
+   5500,
+   6900,
+   14499,
+   "verified",
+   ""
+  ],
+  [
+   "poco_m7_plus_5g_4_128",
+   "Poco M7 Plus 5G 4/128GB",
+   "C",
+   "2025-09-23",
+   6400,
+   8100,
+   12999,
+   "estimated",
+   ""
+  ],
+  [
+   "poco_m7_plus_5g_6_128",
+   "Poco M7 Plus 5G 6/128GB",
+   "C",
+   "2025-08-13",
+   7500,
+   9400,
+   13999,
+   "estimated",
+   ""
+  ],
+  [
+   "poco_m7_plus_5g_8_128",
+   "Poco M7 Plus 5G 8/128GB",
+   "C",
+   "2025-08-13",
+   7700,
+   9700,
+   14999,
+   "estimated",
+   ""
+  ],
+  [
+   "realme_14t_5g_8_128",
+   "Realme 14T 5G (8GB/128GB)",
+   "C",
+   "2025-04-24",
+   10200,
+   12800,
+   17999,
+   "verified",
+   ""
+  ],
+  [
+   "realme_14t_5g_8_256",
+   "Realme 14T 5G (8GB/256GB)",
+   "C",
+   "2025-04-24",
+   11200,
+   14000,
+   19999,
+   "verified",
+   ""
+  ],
+  [
+   "realme_15x_5g_6_128",
+   "Realme 15x 5G (6GB/128GB)",
+   "C",
+   "2025-10-01",
+   11100,
+   13900,
+   23999,
+   "verified",
+   ""
+  ],
+  [
+   "realme_15x_5g_8_128",
+   "Realme 15x 5G (8GB/128GB)",
+   "C",
+   "2025-10-01",
+   12000,
+   15100,
+   25999,
+   "verified",
+   ""
+  ],
+  [
+   "realme_15x_5g_8_256",
+   "Realme 15x 5G (8GB/256GB)",
+   "C",
+   "2025-10-01",
+   12800,
+   16000,
+   27999,
+   "verified",
+   ""
+  ],
+  [
+   "realme_16_5g_12_256",
+   "Realme 16 5G 12/256GB",
+   "C",
+   "2026-03-25",
+   22400,
+   28000,
+   42999,
+   "verified",
+   ""
+  ],
+  [
+   "realme_16_pro_plus_5g_12_256",
+   "Realme 16 Pro Plus 5G (12GB/256GB)",
+   "B",
+   "2026-01-06",
+   32400,
+   35700,
+   58999,
+   "verified",
+   ""
+  ],
+  [
+   "realme_16_pro_plus_5g_8_128",
+   "Realme 16 Pro Plus 5G (8GB/128GB)",
+   "B",
+   "2026-01-06",
+   28300,
+   31200,
+   53999,
+   "verified",
+   ""
+  ],
+  [
+   "realme_16_pro_plus_5g_8_256",
+   "Realme 16 Pro Plus 5G (8GB/256GB)",
+   "B",
+   "2026-01-06",
+   30300,
+   33300,
+   55999,
+   "verified",
+   ""
+  ],
+  [
+   "realme_c100i_4_64",
+   "Realme C100i (4GB/64GB)",
+   "C",
+   "2026-08-27",
+   8800,
+   11000,
+   16499,
+   "verified",
+   ""
+  ],
+  [
+   "realme_p3_lite_5g_4_128",
+   "Realme P3 Lite 5G (4GB/128GB)",
+   "C",
+   "2025-09-13",
+   6800,
+   8500,
+   12999,
+   "verified",
+   ""
+  ],
+  [
+   "realme_p3_lite_5g_6_128",
+   "Realme P3 Lite 5G (6GB/128GB)",
+   "C",
+   "2025-09-13",
+   6800,
+   8600,
+   13999,
+   "verified",
+   ""
+  ],
+  [
+   "realme_p3x_5g_6_128",
+   "Realme P3x 5G (6GB/128GB)",
+   "C",
+   "2025-02-18",
+   7800,
+   9800,
+   13999,
+   "verified",
+   ""
+  ],
+  [
+   "realme_p3x_5g_8_128",
+   "Realme P3x 5G (8GB/128GB)",
+   "C",
+   "2025-02-18",
+   8300,
+   10400,
+   14999,
+   "verified",
+   ""
+  ],
+  [
+   "realme_p4_lite_4g_4_128",
+   "Realme P4 Lite 4G (4GB/128GB)",
+   "C",
+   "2026-02-20",
+   7700,
+   9700,
+   18499,
+   "verified",
+   ""
+  ],
+  [
+   "realme_p4_lite_4g_4_64",
+   "Realme P4 Lite 4G (4GB/64GB)",
+   "C",
+   "2026-02-20",
+   7000,
+   8800,
+   16499,
+   "verified",
+   ""
+  ],
+  [
+   "redmi_15_5g_8_128",
+   "Redmi 15 5G (8GB/128GB)",
+   "D",
+   "2025-08-19",
+   9600,
+   12500,
+   15999,
+   "estimated",
+   ""
+  ],
+  [
+   "redmi_a5_4_128",
+   "Redmi A5 4/128GB",
+   "D",
+   "2025-04-15",
+   4000,
+   5300,
+   7499,
+   "verified",
+   ""
+  ],
+  [
+   "redmi_note_15_pro_plus_5g_8_256",
+   "Redmi Note 15 Pro Plus 5G (8GB/256GB)",
+   "B",
+   "2026-01-29",
+   25700,
+   28300,
+   37999,
+   "verified",
+   ""
+  ],
+  [
+   "tecno_pop_x_4g_4_64",
+   "Tecno POP X 4G 4/64GB",
+   "D",
+   "2026-03-04",
+   4800,
+   6300,
+   9499,
+   "estimated",
+   ""
+  ],
+  [
+   "tecno_pova_curve_5g_6_128",
+   "Tecno Pova Curve 5G 6/128GB",
+   "C",
+   "2025-05-29",
+   8800,
+   11000,
+   15999,
+   "verified",
+   ""
+  ],
+  [
+   "tecno_pova_slim_5g_8_128",
+   "Tecno Pova Slim 5G 8/128GB",
+   "C",
+   "2025-09-04",
+   12000,
+   15000,
+   20999,
+   "verified",
+   ""
+  ],
+  [
+   "tecno_spark_go_2_4_64",
+   "Tecno Spark Go 2 4/64GB",
+   "D",
+   "2025-06-24",
+   3300,
+   4400,
+   7499,
+   "estimated",
+   ""
+  ],
+  [
+   "tecno_spark_go_3_4_64",
+   "Tecno Spark Go 3 4/64GB",
+   "D",
+   "2026-01-16",
+   5300,
+   6900,
+   11999,
+   "verified",
+   ""
+  ],
+  [
+   "tecno_spark_go_5g_4_128",
+   "Tecno Spark Go 5G 4/128GB",
+   "D",
+   "2025-08-14",
+   5200,
+   6800,
+   10999,
+   "verified",
+   ""
+  ],
+  [
+   "vivo_t3_lite_5g_4_128",
+   "Vivo T3 Lite 5G 4/128GB",
+   "C",
+   "2024-06-27",
+   4900,
+   6200,
+   10499,
+   "verified",
+   ""
+  ],
+  [
+   "vivo_t3_lite_5g_6_128",
+   "Vivo T3 Lite 5G 6/128GB",
+   "C",
+   "2024-06-27",
+   5100,
+   6400,
+   11499,
+   "verified",
+   ""
+  ],
+  [
+   "vivo_t4_5g_12_256",
+   "Vivo T4 5G 12/256GB",
+   "B",
+   "2025-04-22",
+   16100,
+   17700,
+   25999,
+   "verified",
+   ""
+  ],
+  [
+   "vivo_t4_pro_5g_12_256",
+   "Vivo T4 Pro 5G 12/256GB",
+   "B",
+   "2025-08-26",
+   19200,
+   21200,
+   31999,
+   "verified",
+   ""
+  ],
+  [
+   "vivo_t4_pro_5g_8_128",
+   "Vivo T4 Pro 5G 8/128GB",
+   "B",
+   "2025-08-26",
+   17000,
+   18700,
+   27999,
+   "verified",
+   ""
+  ],
+  [
+   "vivo_t4_pro_5g_8_256",
+   "Vivo T4 Pro 5G 8/256GB",
+   "B",
+   "2025-08-26",
+   18400,
+   20300,
+   29999,
+   "verified",
+   ""
+  ],
+  [
+   "vivo_t4r_5g_12_256",
+   "Vivo T4R 5G 12/256GB",
+   "C",
+   "2025-07-31",
+   13500,
+   16900,
+   23499,
+   "estimated",
+   ""
+  ],
+  [
+   "vivo_t4r_5g_8_128",
+   "Vivo T4R 5G 8/128GB",
+   "C",
+   "2025-07-31",
+   11400,
+   14300,
+   19499,
+   "estimated",
+   ""
+  ],
+  [
+   "vivo_t4r_5g_8_256",
+   "Vivo T4R 5G 8/256GB",
+   "C",
+   "2025-07-31",
+   12800,
+   16000,
+   21499,
+   "estimated",
+   ""
+  ],
+  [
+   "vivo_t5e_4_64",
+   "Vivo T5e 4/64GB",
+   "D",
+   "2026-07-27",
+   7000,
+   9200,
+   13999,
+   "estimated",
+   ""
+  ],
+  [
+   "vivo_y05_4_64",
+   "Vivo Y05 4/64GB",
+   "D",
+   "2026-04-16",
+   6800,
+   8900,
+   12999,
+   "estimated",
+   ""
+  ],
+  [
+   "vivo_y19e_4_64",
+   "Vivo Y19e 4/64GB",
+   "D",
+   "2025-03-20",
+   4100,
+   5400,
+   7999,
+   "verified",
+   ""
+  ],
+  [
+   "vivo_y31_5g_4_128",
+   "Vivo Y31 5G 4/128GB",
+   "C",
+   "2025-09-15",
+   8700,
+   10900,
+   14999,
+   "verified",
+   ""
+  ],
+  [
+   "vivo_y31_5g_6_128",
+   "Vivo Y31 5G 6/128GB",
+   "C",
+   "2025-09-15",
+   10300,
+   12900,
+   16499,
+   "verified",
+   ""
+  ]
+ ],
+ "held": [
+  [
+   "hmd_vibe_2_pro_5g_6_128",
+   "future first sale 2026-10-08"
+  ],
+  [
+   "hmd_vibe_2_pro_5g_8_128",
+   "future first sale 2026-10-08"
+  ],
+  [
+   "iphone_duo_1tb",
+   "future first sale 2026-10-23"
+  ],
+  [
+   "iphone_duo_256",
+   "future first sale 2026-10-23"
+  ],
+  [
+   "iphone_duo_2tb",
+   "future first sale 2026-10-23"
+  ],
+  [
+   "iphone_duo_512",
+   "future first sale 2026-10-23"
+  ],
+  [
+   "itel_a100c_4_64",
+   "rejected by critic"
+  ],
+  [
+   "lava_play_max_5g_6_128",
+   "in verify+refute (0.80 placeholder on an old phone)"
+  ],
+  [
+   "lava_play_max_5g_8_128",
+   "in verify+refute (0.80 placeholder on an old phone)"
+  ],
+  [
+   "lava_play_ultra_5g_6_128",
+   "in verify+refute (0.80 placeholder on an old phone)"
+  ],
+  [
+   "lava_play_ultra_5g_8_128",
+   "in verify+refute (0.80 placeholder on an old phone)"
+  ],
+  [
+   "oneplus_pad_lite_lte_8_256",
+   "rejected by critic"
+  ],
+  [
+   "oppo_k14_plus_5g_6_128",
+   "future first sale 2026-10-08"
+  ],
+  [
+   "oppo_k14_plus_5g_8_128",
+   "future first sale 2026-10-08"
+  ],
+  [
+   "oppo_k14_plus_5g_8_256",
+   "future first sale 2026-10-08"
+  ],
+  [
+   "redmi_17c_5g",
+   "no verified resale"
+  ],
+  [
+   "vivo_s2_fe",
+   "future first sale 2026-10-06"
+  ],
+  [
+   "vivo_v80",
+   "future first sale 2026-10-06"
+  ]
+ ],
+ "ladder": [
+  [
+   "redmi_15_5g_6_128",
+   10000,
+   9600,
+   "redmi_15_5g_8_128",
+   "lowered smaller"
+  ],
+  [
+   "samsung_a57_5g_8_256",
+   33600,
+   31300,
+   "samsung_a57_5g_12_256",
+   "lowered smaller"
+  ],
+  [
+   "poco_c75_5g_4_128",
+   2900,
+   4200,
+   "poco_c75_5g_4_64",
+   "raised stale bigger"
+  ],
+  [
+   "iqoo_z11x_5g_8_128",
+   8800,
+   12000,
+   "iqoo_z11x_5g_6_128",
+   "raised stale bigger"
+  ],
+  [
+   "iqoo_z11x_5g_8_256",
+   10000,
+   12000,
+   "iqoo_z11x_5g_6_128",
+   "raised stale bigger"
+  ]
+ ],
+ "quotes": {
+  "oppo_k13_turbo_pro_5g_8_256": {
+   "v6.10": null,
+   "v6.11": 18800
+  },
+  "oppo_k13_turbo_5g_8_128": {
+   "v6.10": null,
+   "v6.11": 15600
+  },
+  "lava_blaze_amoled_2_5g_6_128": {
+   "v6.10": null,
+   "v6.11": 7600
+  },
+  "realme_p4_lite_4g_4_64": {
+   "v6.10": null,
+   "v6.11": 7000
+  },
+  "realme_16_pro_plus_5g_8_256": {
+   "v6.10": null,
+   "v6.11": 30300
+  },
+  "realme_p4_lite_4g_4_128": {
+   "v6.10": null,
+   "v6.11": 7700
+  },
+  "tecno_pop_x_4g_4_64": {
+   "v6.10": null,
+   "v6.11": 4800
+  },
+  "itel_a100_3_64": {
+   "v6.10": null,
+   "v6.11": 3600
+  },
+  "realme_15x_5g_8_128": {
+   "v6.10": null,
+   "v6.11": 12000
+  },
+  "oppo_k13_turbo_pro_5g_12_256": {
+   "v6.10": null,
+   "v6.11": 19600
+  },
+  "itel_a95_5g_4_128": {
+   "v6.10": null,
+   "v6.11": 4800
+  },
+  "poco_c75_5g_4_128": {
+   "v6.10": 2900,
+   "v6.11": 4200
+  },
+  "oppo_pad_5_8_256_5g": {
+   "v6.10": null,
+   "v6.11": 20900
+  },
+  "oneplus_nord_6_12_256": {
+   "v6.10": null,
+   "v6.11": 32300
+  },
+  "oppo_pad_5_8_128_wifi": {
+   "v6.10": null,
+   "v6.11": 17200
+  },
+  "realme_15x_5g_8_256": {
+   "v6.10": null,
+   "v6.11": 12800
+  },
+  "vivo_t3_lite_5g_6_128": {
+   "v6.10": null,
+   "v6.11": 5100
+  },
+  "poco_c75_5g_4_64": {
+   "v6.10": null,
+   "v6.11": 4200
+  },
+  "iqoo_z10r_5g_12_256": {
+   "v6.10": null,
+   "v6.11": 12900
+  },
+  "oneplus_pad_lite_6_128": {
+   "v6.10": null,
+   "v6.11": 10400
+  },
+  "infinix_hot_60_5g_plus_6_128": {
+   "v6.10": null,
+   "v6.11": 7600
+  },
+  "hmd_vibe_2_5g_4_128": {
+   "v6.10": null,
+   "v6.11": 7400
+  },
+  "lava_bold_n2_lite_3_64": {
+   "v6.10": null,
+   "v6.11": 3600
+  },
+  "oppo_reno_15_12_256": {
+   "v6.10": null,
+   "v6.11": 30900
+  },
+  "realme_c100i_4_64": {
+   "v6.10": null,
+   "v6.11": 8800
+  },
+  "infinix_note_50x_5g_plus_6_128": {
+   "v6.10": null,
+   "v6.11": 6400
+  },
+  "redmi_15_5g_8_128": {
+   "v6.10": null,
+   "v6.11": 9600
+  },
+  "vivo_y19e_4_64": {
+   "v6.10": null,
+   "v6.11": 4100
+  },
+  "realme_16_pro_plus_5g_12_256": {
+   "v6.10": null,
+   "v6.11": 32400
+  },
+  "itel_zeno_20_max_3_64": {
+   "v6.10": null,
+   "v6.11": 2400
+  },
+  "oneplus_nord_4_12_256": {
+   "v6.10": null,
+   "v6.11": 16800
+  },
+  "realme_p3_lite_5g_4_128": {
+   "v6.10": null,
+   "v6.11": 6800
+  },
+  "vivo_t4_pro_5g_12_256": {
+   "v6.10": null,
+   "v6.11": 19200
+  },
+  "tecno_pova_slim_5g_8_128": {
+   "v6.10": null,
+   "v6.11": 12000
+  },
+  "vivo_t4r_5g_8_256": {
+   "v6.10": null,
+   "v6.11": 12800
+  },
+  "hmd_vibe_2_5g_6_128": {
+   "v6.10": null,
+   "v6.11": 8000
+  },
+  "vivo_t4_pro_5g_8_256": {
+   "v6.10": null,
+   "v6.11": 18400
+  },
+  "itel_zeno_20_max_4_64": {
+   "v6.10": null,
+   "v6.11": 2600
+  },
+  "oppo_k13_turbo_5g_8_256": {
+   "v6.10": null,
+   "v6.11": 16000
+  },
+  "itel_a100_pro_3_64": {
+   "v6.10": null,
+   "v6.11": 4300
+  },
+  "oppo_a6c_4_128": {
+   "v6.10": null,
+   "v6.11": 10500
+  },
+  "tecno_spark_go_3_4_64": {
+   "v6.10": null,
+   "v6.11": 5300
+  },
+  "nothing_phone_3_16_512": {
+   "v6.10": null,
+   "v6.11": 35400
+  },
+  "realme_16_5g_12_256": {
+   "v6.10": null,
+   "v6.11": 22400
+  },
+  "vivo_t5e_4_64": {
+   "v6.10": null,
+   "v6.11": 7000
+  },
+  "iqoo_z11x_5g_8_128": {
+   "v6.10": 8800,
+   "v6.11": 12000
+  },
+  "redmi_note_15_pro_plus_5g_8_256": {
+   "v6.10": null,
+   "v6.11": 25700
+  },
+  "samsung_a57_5g_8_256": {
+   "v6.10": 33600,
+   "v6.11": 31300
+  },
+  "poco_m7_plus_5g_8_128": {
+   "v6.10": null,
+   "v6.11": 7700
+  },
+  "lava_agni_3_5g_8_256": {
+   "v6.10": 12000,
+   "v6.11": 10500
+  },
+  "poco_m6_plus_5g_8_128": {
+   "v6.10": null,
+   "v6.11": 5500
+  },
+  "oneplus_12r_16_256": {
+   "v6.10": null,
+   "v6.11": 23100
+  },
+  "iqoo_z10r_5g_8_256": {
+   "v6.10": null,
+   "v6.11": 12800
+  },
+  "oppo_reno_15_12_512": {
+   "v6.10": null,
+   "v6.11": 32500
+  },
+  "realme_16_pro_plus_5g_8_128": {
+   "v6.10": null,
+   "v6.11": 28300
+  },
+  "realme_p3x_5g_8_128": {
+   "v6.10": null,
+   "v6.11": 8300
+  },
+  "tecno_pova_curve_5g_6_128": {
+   "v6.10": null,
+   "v6.11": 8800
+  },
+  "redmi_a5_4_128": {
+   "v6.10": null,
+   "v6.11": 4000
+  },
+  "itel_zeno_100_pro_3_64": {
+   "v6.10": null,
+   "v6.11": 4300
+  },
+  "lava_agni_3_8_256": {
+   "v6.10": 10500,
+   "v6.11": null
+  },
+  "redmi_15_5g_6_128": {
+   "v6.10": 10000,
+   "v6.11": 9600
+  },
+  "infinix_hot_60i_5g_4_128": {
+   "v6.10": null,
+   "v6.11": 7200
+  },
+  "oppo_a6c_4_64": {
+   "v6.10": null,
+   "v6.11": 9200
+  },
+  "vivo_y31_5g_4_128": {
+   "v6.10": null,
+   "v6.11": 8700
+  },
+  "iqoo_z11x_5g_8_256": {
+   "v6.10": 10000,
+   "v6.11": 12000
+  },
+  "realme_14t_5g_8_128": {
+   "v6.10": null,
+   "v6.11": 10200
+  },
+  "samsung_a57_5g_8_128": {
+   "v6.10": 29100,
+   "v6.11": 28200
+  },
+  "itel_zeno_f30_5g_4_64": {
+   "v6.10": null,
+   "v6.11": 6400
+  },
+  "itel_zeno_200_4_128": {
+   "v6.10": null,
+   "v6.11": 5300
+  },
+  "oppo_f33_5g_6_128": {
+   "v6.10": null,
+   "v6.11": 19600
+  },
+  "poco_m7_plus_5g_6_128": {
+   "v6.10": null,
+   "v6.11": 7500
+  },
+  "oneplus_15_12_512": {
+   "v6.10": 47300,
+   "v6.11": 42600
+  },
+  "oppo_f31_pro_12_256": {
+   "v6.10": null,
+   "v6.11": 21300
+  },
+  "iqoo_z11x_5g_6_128": {
+   "v6.10": null,
+   "v6.11": 12000
+  },
+  "lava_storm_play_5g_6_128": {
+   "v6.10": null,
+   "v6.11": 4600
+  },
+  "realme_14t_5g_8_256": {
+   "v6.10": null,
+   "v6.11": 11200
+  },
+  "infinix_note_50x_5g_plus_8_128": {
+   "v6.10": null,
+   "v6.11": 7400
+  },
+  "realme_p3x_5g_6_128": {
+   "v6.10": null,
+   "v6.11": 7800
+  },
+  "vivo_t4r_5g_8_128": {
+   "v6.10": null,
+   "v6.11": 11400
+  },
+  "hmd_vibe_2_5g_4_64": {
+   "v6.10": null,
+   "v6.11": 6900
+  },
+  "itel_a300c_4_64": {
+   "v6.10": null,
+   "v6.11": 6700
+  },
+  "vivo_t4r_5g_12_256": {
+   "v6.10": null,
+   "v6.11": 13500
+  },
+  "vivo_y05_4_64": {
+   "v6.10": null,
+   "v6.11": 6800
+  },
+  "vivo_t4_pro_5g_8_128": {
+   "v6.10": null,
+   "v6.11": 17000
+  },
+  "realme_p3_lite_5g_6_128": {
+   "v6.10": null,
+   "v6.11": 6800
+  },
+  "tecno_spark_go_5g_4_128": {
+   "v6.10": null,
+   "v6.11": 5200
+  },
+  "tecno_spark_go_2_4_64": {
+   "v6.10": null,
+   "v6.11": 3300
+  },
+  "vivo_t3_lite_5g_4_128": {
+   "v6.10": null,
+   "v6.11": 4900
+  },
+  "lava_storm_play_5g_8_256": {
+   "v6.10": null,
+   "v6.11": 5800
+  },
+  "poco_m6_plus_5g_6_128": {
+   "v6.10": null,
+   "v6.11": 5100
+  },
+  "poco_m7_plus_5g_4_128": {
+   "v6.10": null,
+   "v6.11": 6400
+  },
+  "vivo_y31_5g_6_128": {
+   "v6.10": null,
+   "v6.11": 10300
+  },
+  "lava_virat_v1_5g_4_128": {
+   "v6.10": null,
+   "v6.11": 7400
+  },
+  "realme_15x_5g_6_128": {
+   "v6.10": null,
+   "v6.11": 11100
+  },
+  "lava_blaze_dragon_5g_4_128": {
+   "v6.10": null,
+   "v6.11": 6000
+  },
+  "poco_m7_pro_5g_8_128": {
+   "v6.10": 8400,
+   "v6.11": 7200
+  },
+  "vivo_t4_5g_12_256": {
+   "v6.10": null,
+   "v6.11": 16100
+  },
+  "lava_bold_n2_4_64": {
+   "v6.10": null,
+   "v6.11": 4000
+  },
+  "itel_zeno_100_lite_2_64": {
+   "v6.10": null,
+   "v6.11": 3700
+  },
+  "iqoo_z10r_5g_8_128": {
+   "v6.10": null,
+   "v6.11": 11800
+  }
+ }
+}

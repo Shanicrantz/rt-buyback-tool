@@ -3,11 +3,13 @@
 A row flagged `international: true` is a RAM/storage config never sold in India. It is kept quotable (imported units
 walk in) and priced off the nearest India config of the same phone, named in `intl_sibling`:
 
-    A1 = min( (1 - intl_discount) x A1(intl_sibling),  the row's current A1 )      intl_discount = 0.10
+    A1 = min( (1 - intl_discount) x A1(intl_sibling),  _pre_intl_a1 )      intl_discount = 0.10
 
-The min() makes the rule a ceiling that follows the India sibling DOWN but never raises a quote on its own — a 4GB
-international unit priced off an 8GB India sibling must not gain from the RAM it lacks. Research is never run on
-these rows: there is no India market for the config to observe."""
+_pre_intl_a1 is the row's quote the day the policy was applied to it, so the relabel itself never raised a quote (a 4GB
+international unit priced off an 8GB India sibling must not gain from the RAM it lacks). The cap is that FIXED pre-policy
+quote, not the row's latest one — capping at the latest quote would ratchet the row down forever and stop it following
+a verified rise of its India sibling (found 2026-10-01 on Reno 14 8/512). Rows without _pre_intl_a1 use their current A1.
+Research is never run on these rows: there is no India market for the config to observe."""
 import json, math, os, subprocess, tempfile
 
 DIR = os.path.dirname(os.path.abspath(__file__))
@@ -49,11 +51,12 @@ def recompute_international(db, stamp, day='2026-10-01'):
             continue
         disc = e.get('intl_discount', INTL_DISCOUNT)
         old = a1.get(k) or 0
+        cap = e.get('_pre_intl_a1') or old
         tgt = r100(sa * (1 - disc))
-        if old > 0:
-            tgt = min(tgt, old)
+        if cap > 0:
+            tgt = min(tgt, cap)
         new = set_a1(e, tgt)
         e['live_source'] = (f"INTERNATIONAL {stamp}: A1 = min({1 - disc:.2f} x India {db[sib].get('display_name')} "
-                            f"A1 ₹{sa:,}, prior ₹{old:,}) = ₹{new:,} — config never sold in India")[:180]
+                            f"A1 ₹{sa:,}, pre-policy ₹{cap:,}) = ₹{new:,} — config never sold in India")[:180]
         out.append((k, old, new, sa))
     return out
