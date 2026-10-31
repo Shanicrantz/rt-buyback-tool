@@ -7,6 +7,7 @@ const [y, m, d] = (process.argv[3] || '2026-10-01').split('-').map(Number);
 const html = fs.readFileSync(process.argv[4] || path.join(dir, 'index.html'), 'utf8');
 const engine = html.slice(html.indexOf('const TIER_FACTOR'), html.indexOf('// ============ UI STATE'));
 if (!engine.includes('function computeA1')) throw new Error('engine slice does not contain computeA1');
+if (engine.includes('const AGE_VALUE_POLICY')) throw new Error('v6.14 requires current new price and actual unit age per quote. No catalogue-wide A1 exists. Use test_age_formula.cjs or fullQuote(entry, warranty, factor, valuationInput).');
 const ctx = vm.createContext({});
 vm.runInContext(engine + `;globalThis.quote=e=>computeA1(e,new Date(${y},${m - 1},${d}))[0];`, ctx);
 const db = JSON.parse(fs.readFileSync(dbPath, 'utf8'));

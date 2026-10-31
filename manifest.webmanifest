@@ -4,8 +4,8 @@
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#0f172a",
-  "theme_color": "#0f172a",
+  "background_color": "#f4f6f6",
+  "theme_color": "#f4f6f6",
   "description": "Rajdhani Telecom old-phone buyback quote tool",
   "icons": [
     {

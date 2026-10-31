@@ -1,0 +1,485 @@
+const TIER_FACTOR = {}; // Legacy audit extraction marker; tier never changes age-based value.
+const GRADE_MULT = {A1:1.00, A2:0.90, B:0.80, C:0.65, D:0.45};
+const DEDUCTION = {no_box:0.03, no_charger:0.02, no_bill:0.05};
+
+const DAMAGE_PARTS = {
+  display:       { label: "Display broken",    icon: "📱", pct: {S:0.22, A:0.20, B:0.18, C:0.16, D:0.15} },
+  back_panel:    { label: "Back panel cracked",icon: "🪞", pct: {S:0.07, A:0.06, B:0.05, C:0.05, D:0.04} },
+  rear_camera:   { label: "Rear camera dead",  icon: "📷", pct: {S:0.10, A:0.08, B:0.07, C:0.06, D:0.05} },
+  front_camera:  { label: "Front camera dead", icon: "🤳", pct: {S:0.05, A:0.04, B:0.04, C:0.03, D:0.03} },
+  battery:       { label: "Battery weak/dead", icon: "🔋", pct: {S:0.05, A:0.05, B:0.05, C:0.06, D:0.07} },
+  charging_port: { label: "Charging port bad", icon: "🔌", pct: {S:0.04, A:0.04, B:0.03, C:0.03, D:0.03} },
+  speaker:       { label: "Speaker / mic bad", icon: "🔊", pct: {S:0.03, A:0.03, B:0.03, C:0.03, D:0.03} },
+  frame_dent:    { label: "Frame bent / dent", icon: "🧱", pct: {S:0.10, A:0.08, B:0.07, C:0.06, D:0.05} },
+};
+const LAPTOP_DAMAGE_PARTS = {
+  display:       { label: "Display / Retina broken", icon: "🖥", pct: {S:0.30, A:0.28, B:0.25, C:0.22, D:0.20} },
+  keyboard:      { label: "Keyboard faulty",         icon: "⌨", pct: {S:0.12, A:0.10, B:0.10, C:0.08, D:0.08} },
+  trackpad:      { label: "Trackpad faulty",         icon: "🖱", pct: {S:0.10, A:0.08, B:0.08, C:0.07, D:0.06} },
+  battery:       { label: "Battery weak / cycles>500", icon: "🔋", pct: {S:0.10, A:0.10, B:0.10, C:0.10, D:0.10} },
+  hinge:         { label: "Hinge loose / broken",    icon: "📐", pct: {S:0.10, A:0.08, B:0.08, C:0.07, D:0.06} },
+  body_dent:     { label: "Body dent / scratch",     icon: "🧱", pct: {S:0.08, A:0.06, B:0.05, C:0.05, D:0.04} },
+  ports:         { label: "Ports (USB-C / MagSafe)", icon: "🔌", pct: {S:0.06, A:0.05, B:0.05, C:0.04, D:0.04} },
+  speaker:       { label: "Speaker faulty",          icon: "🔊", pct: {S:0.04, A:0.04, B:0.03, C:0.03, D:0.03} },
+};
+const WATCH_DAMAGE_PARTS = {
+  display:    { label: "Screen / glass cracked", icon: "⌚", pct: {S:0.35, A:0.32, B:0.28, C:0.25, D:0.22} },
+  battery:    { label: "Battery weak",           icon: "🔋", pct: {S:0.15, A:0.13, B:0.12, C:0.10, D:0.10} },
+  crown:      { label: "Crown / side button bad",icon: "🎛", pct: {S:0.10, A:0.08, B:0.07, C:0.06, D:0.05} },
+  back_sensor:{ label: "Back / HR sensor cracked",icon: "❤", pct: {S:0.12, A:0.10, B:0.08, C:0.07, D:0.06} },
+  strap:      { label: "Strap missing / broken", icon: "⛓", pct: {S:0.05, A:0.05, B:0.05, C:0.05, D:0.05} },
+  body_dent:  { label: "Case dent / scratch",    icon: "🧱", pct: {S:0.08, A:0.06, B:0.05, C:0.05, D:0.04} },
+  charger_pad:{ label: "Charging not working",   icon: "🔌", pct: {S:0.06, A:0.05, B:0.05, C:0.04, D:0.04} },
+};
+const AUDIO_DAMAGE_PARTS = {
+  left_bud:    { label: "Left bud / cup faulty",   icon: "🎧", pct: {S:0.30, A:0.28, B:0.25, C:0.22, D:0.20} },
+  right_bud:   { label: "Right bud / cup faulty",  icon: "🎧", pct: {S:0.30, A:0.28, B:0.25, C:0.22, D:0.20} },
+  case:        { label: "Charging case lost / dead",icon: "🧰", pct: {S:0.25, A:0.22, B:0.20, C:0.18, D:0.15} },
+  battery:     { label: "Battery drains fast",     icon: "🔋", pct: {S:0.15, A:0.13, B:0.12, C:0.10, D:0.10} },
+  anc:         { label: "ANC / mic not working",   icon: "🔇", pct: {S:0.12, A:0.10, B:0.08, C:0.07, D:0.06} },
+  body_dent:   { label: "Scratches / cosmetic",    icon: "🧱", pct: {S:0.06, A:0.05, B:0.05, C:0.04, D:0.04} },
+};
+
+function damageBaseValue(entry) {
+  if (entry.net_new_inr) return entry.net_new_inr;
+  if (entry.refurb_retail_anchor_excellent) return entry.refurb_retail_anchor_excellent;
+  if (entry.resale_target_a1) return entry.resale_target_a1 * 1.20;
+  if (entry.rt_buyback_a1_override) return entry.rt_buyback_a1_override * 1.35;
+  if (entry.cashify_exchange) return entry.cashify_exchange * 1.45;
+  return 0;
+}
+function damagePartsFor(entry) {
+  if (entry.category === "laptop") return LAPTOP_DAMAGE_PARTS;
+  if (entry.category === "watch")  return WATCH_DAMAGE_PARTS;
+  if (entry.category === "audio")  return AUDIO_DAMAGE_PARTS;
+  return DAMAGE_PARTS;
+}
+function partCost(entry, damageKey, currentNewPrice) {
+  const dp = damagePartsFor(entry)[damageKey];
+  if (!dp) return 0;
+  const pct = dp.pct[entry.tier] ?? dp.pct.C;
+  return round100((positiveMoney(currentNewPrice) ? currentNewPrice : damageBaseValue(entry)) * pct);
+}
+
+const round100 = n => Math.round(n / 100) * 100;
+const fmt = n => "₹" + n.toLocaleString("en-IN",{maximumFractionDigits:2});
+const esc = s => String(s ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+
+// Counter pricing policy, not an empirical market-price prediction. Interpolate between
+// anchors to avoid a large price cliff on a birthday. Grade/kit/repairs are applied later.
+const AGE_VALUE_POLICY = {
+  version: "current-new-age-cost-v2", priceDays: 7,
+  curve: [[0,.85],[3,.80],[6,.75],[12,.65],[18,.58],[24,.50],[36,.38],[48,.28],[60,.20],[84,.10],[120,.05],[240,.03]],
+  internationalFactor: .90,
+};
+const AGE_RANGES = [
+  ["0–3 months",3],["3–6 months",6],["6–12 months",12],["12–18 months",18],
+  ["18–24 months",24],["2–3 years",36],["3–4 years",48],["4–5 years",60],
+  ["5–7 years",84],["7–10 years",120],["10–15 years",180],["15–20 years",240]
+];
+function depFraction(months) {
+  const curve = AGE_VALUE_POLICY.curve;
+  for (let i=1;i<curve.length;i++) {
+    const [end,y1]=curve[i], [start,y0]=curve[i-1];
+    if (months <= end) return y0+(y1-y0)*(months-start)/(end-start);
+  }
+  return curve[curve.length-1][1];
+}
+function currentNewPrice(entry, today) {
+  const ref = entry.current_new_price;
+  if (!ref || ref.kind !== "retail_cash_price" || !positiveMoney(ref.amount_inr) || ref.available !== true || ref.variant_name !== entry.display_name || ref.amount_inr < 1 || ref.amount_inr > 2000000) return null;
+  if (ref.market && ref.market !== (entry.international ? "International" : "India")) return null;
+  if (ref.requires_exchange || ref.requires_bank_offer || ref.condition && ref.condition !== "new") return null;
+  const stamp = cashifyDate(ref.observed_at), now=today.getTime();
+  if (stamp === null || stamp>now || now-stamp>AGE_VALUE_POLICY.priceDays*86400000) return null;
+  try { const u=new URL(ref.source_url); if(u.protocol!=="https:" || u.username || u.password) return null; } catch(_) { return null; }
+  return ref;
+}
+// Every refreshed price carries its own evidence/date. A catalogue refresh must
+// never extend an old price's validity or turn a refurb listing into a sold price.
+function currentResalePrice(entry, today, allowStale=false) {
+  const ref=entry.current_resale_price;
+  if (!ref || !["local_resale_observed","local_resale_estimate"].includes(ref.kind) ||
+      ref.variant_name!==entry.display_name || !positiveMoney(ref.amount_inr) || ref.amount_inr>2000000 ||
+      ref.market!==(entry.international?"International":"India") || ref.grade!=="A1") return null;
+  const stamp=cashifyDate(ref.observed_at);
+  if(stamp===null || stamp>today.getTime() || !allowStale && today.getTime()-stamp>CASHIFY_POLICY.marketDays*86400000) return null;
+  try {const u=new URL(ref.source_url); if(u.protocol!=="https:" || u.username || u.password) return null;} catch(_){return null;}
+  if(ref.kind==="local_resale_estimate" && !ref.method) return null;
+  return ref;
+}
+function resolveValuation(entry, input={}, today=new Date()) {
+  if (!(today instanceof Date) || !Number.isFinite(today.getTime())) return {problem:"Calculation date invalid hai."};
+  if ((entry.margin_basis!=null && !["markup","gross"].includes(entry.margin_basis)) || (entry.target_margin!=null && (typeof entry.target_margin!=="number" || !Number.isFinite(entry.target_margin) || entry.target_margin<0 || entry.target_margin>=1))) return {problem:"Configured target margin invalid hai; model rate review karein."};
+  if (!["months","date","range"].includes(input.ageMode || "months")) return {problem:"Valid age input method select karein."};
+  let price, priceSource, priceDate;
+  const saved=currentNewPrice(entry,today);
+  if (input.newPrice !== "" && input.newPrice != null) {
+    const stamp=cashifyDate(input.priceConfirmedAt);
+    if (!positiveMoney(input.newPrice) || input.newPrice < 1 || input.newPrice > 2000000) return {problem:"Valid current new cash price enter karein (₹1–₹20,00,000)."};
+    if (input.newPriceConfirmed !== true || stamp===null || stamp>today.getTime() || cashifyDay(new Date(stamp))!==cashifyDay(today)) return {problem:"Aaj ka exact variant new cash selling price confirm karein; MRP / bank / exchange offers exclude karein."};
+    price=input.newPrice; priceSource="Counter-confirmed current new price"; priceDate=input.priceConfirmedAt;
+  } else if (saved) {
+    price=saved.amount_inr; priceSource=saved.source_url; priceDate=saved.observed_at;
+  } else return {problem:"Current new market price chahiye. Saved old price ko aaj ka verified price nahi maana gaya hai."};
+  let months, ageLabel;
+  if (input.ageMode === "date") {
+    const stamp=cashifyDate(input.purchaseDate), day=Date.parse(cashifyDay(today));
+    if (stamp===null || !/^\d{4}-\d{2}-\d{2}$/.test(input.purchaseDate) || stamp>day) return {problem:"Valid original purchase / bill date enter karein; future date allowed nahi hai."};
+    months=(day-stamp)/86400000/(365.25/12);
+    ageLabel=`Bill ${input.purchaseDate} · ${months.toFixed(1)} months`;
+  } else if (input.ageMode === "range") {
+    if (!Number.isInteger(input.ageRange) || !AGE_RANGES[input.ageRange]) return {problem:"Device ki actual age range select karein."};
+    const range=AGE_RANGES[input.ageRange]; months=range[1]; ageLabel=`${range[0]} (calculation: ${months} months)`;
+  } else {
+    if (typeof input.ageMonths !== "number" || !Number.isFinite(input.ageMonths)) return {problem:"Device ki actual age months mein enter karein, ya bill date / age range select karein."};
+    months=input.ageMonths; ageLabel=`${months} months (entered)`;
+  }
+  if (months<0 || months>240) return {problem:"Device age 0–240 months honi chahiye."};
+  const sellingCosts=input.sellingCosts === "" || input.sellingCosts == null ? 0 : input.sellingCosts;
+  if (typeof sellingCosts !== "number" || !Number.isFinite(sellingCosts) || sellingCosts<0 || sellingCosts>2000000) return {problem:"Selling / testing / holding costs valid positive amount ya zero honi chahiye."};
+  let resalePrice=null, resaleDate=null;
+  if (input.resalePrice !== "" && input.resalePrice != null) {
+    const stamp=cashifyDate(input.resaleConfirmedAt);
+    if (!positiveMoney(input.resalePrice) || input.resalePrice>2000000 || input.resaleConfirmed!==true || stamp===null || stamp>today.getTime() || cashifyDay(new Date(stamp))!==cashifyDay(today)) return {problem:"Aaj ka exact variant A1/full-kit resale cash price confirm karein, ya optional resale field clear karein."};
+    resalePrice=input.resalePrice; resaleDate=input.resaleConfirmedAt;
+  }
+  return {price,priceSource,priceDate,months:Math.round(months*100)/100,ageLabel,ageMode:input.ageMode||"months",sellingCosts,resalePrice,resaleDate};
+}
+function computeA1(entry, today, input={}) {
+  const v=resolveValuation(entry,input,today);
+  if (v.problem) return [0,"needs_inputs",{problem:v.problem}];
+  const retention=depFraction(v.months);
+  const regionFactor=entry.international ? AGE_VALUE_POLICY.internationalFactor : 1;
+  const rawA1=v.price*retention*regionFactor;
+  const a1=floor100(rawA1 + 1e-8);
+  return [a1,"current_new_age",{...v,net_new:v.price,retention,regionFactor,rawA1}];
+}
+
+function gradeQuote(a1, grade, opts={}) {
+  const pre = a1 * GRADE_MULT[grade];
+  let ded = 0;
+  if (opts.no_box) ded += DEDUCTION.no_box;
+  if (opts.no_charger) ded += DEDUCTION.no_charger;
+  if (opts.no_bill) ded += DEDUCTION.no_bill;
+  return floor100(pre * (1 - ded) + 1e-8);
+}
+
+// Warranty coverage changes foldable risk only; actual device age is a separate input.
+const WTY_LEFT = [
+  { label: "0–3 months old",  short: "0–3mo",  factor: 0.90 },
+  { label: "3–6 months old",  short: "3–6mo",  factor: 0.65 },
+  { label: "6–9 months old",  short: "6–9mo",  factor: 0.40 },
+  { label: "9–12 months old", short: "9–12mo", factor: 0.15 },
+];
+
+function fullQuote(entry, underWarranty, wtyFactor, input={}, today=new Date()) {
+  const [a1,source,debug]=computeA1(entry,today,input);
+  const grades={};
+  for (const g of Object.keys(GRADE_MULT)) grades[g]={with_kit:gradeQuote(a1,g),no_box_bill:gradeQuote(a1,g,{no_box:true,no_bill:true})};
+  // Actual age already controls value: no second age-based warranty premium or old rate override.
+  return {model:entry.display_name,tier:entry.tier,source,debug,a1,valid:!debug.problem,
+    a1_out_of_warranty:a1,a1_under_warranty:a1,a1_under_warranty_full:a1,
+    warranty_factor:wtyFactor||0,under_warranty:!!underWarranty,
+    discontinued:!!entry.discontinued,estimated:true,grades,
+    open_offer:grades.B.with_kit,walk_away:grades.A2.with_kit,floor:grades.C.with_kit};
+}
+
+// ============ CASHIFY SAME-CONDITION POLICY ============
+// Only an assessed cash quote for the exact device and condition can raise an offer.
+// Legacy cashify_exchange / buyback_market / Get Upto values are never evidence here.
+const CASHIFY_POLICY = { premium: 0.02, minimum: 100, quoteDays: 7, marketDays: 10 };
+const CASHIFY_BATTERY_DED = [0, 0.05, 0.10, 0.20];
+const ceil100 = n => Math.ceil(n / 100) * 100;
+const floor100 = n => Math.floor(n / 100) * 100;
+const positiveMoney = n => typeof n === "number" && Number.isFinite(n) && n > 0;
+function cashifyDay(date) {
+  const parts = new Intl.DateTimeFormat("en-CA", {timeZone:"Asia/Kolkata",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(date);
+  const part = type => parts.find(p => p.type === type).value;
+  return `${part("year")}-${part("month")}-${part("day")}`;
+}
+function cashifyDate(value) {
+  if (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2}))?$/.test(value)) return null;
+  const ms = Date.parse(value);
+  if (!Number.isFinite(ms) || new Date(value.slice(0,10)).toISOString().slice(0,10) !== value.slice(0,10)) return null;
+  if (value.includes("T") && (+value.slice(11,13)>23 || +value.slice(14,16)>59 || +value.slice(17,19)>59)) return null;
+  return ms;
+}
+function cashifyConditionSignature(c) {
+  if (!c || !Object.prototype.hasOwnProperty.call(GRADE_MULT, c.grade) || !c.kit ||
+      !["box","bill","charger"].every(k => typeof c.kit[k] === "boolean") ||
+      !Number.isInteger(c.battery_band) || c.battery_band < 0 || c.battery_band > 3 ||
+      typeof c.under_warranty !== "boolean" ||
+      (c.under_warranty ? !Number.isInteger(c.warranty_band) || !WTY_LEFT[c.warranty_band] : c.warranty_band !== null) ||
+      !Array.isArray(c.damages) || !c.damages.every(k => typeof k === "string") || new Set(c.damages).size !== c.damages.length) return null;
+  return JSON.stringify([c.grade,c.kit.box,c.kit.bill,c.kit.charger,c.battery_band,c.under_warranty,c.warranty_band,[...c.damages].sort()]);
+}
+function cashifySellUrl(value) {
+  try {
+    const u = new URL(value);
+    return u.protocol === "https:" && ["cashify.in","www.cashify.in"].includes(u.hostname) &&
+      !u.username && !u.password && /^\/sell-old-[a-z-]+\//.test(u.pathname);
+  } catch (_) { return false; }
+}
+function cashifyReferenceProblem(ref, context, session = false) {
+  if (!ref || ref.kind !== "assessed_quote" || ref.provider !== "Cashify" || !positiveMoney(ref.amount_inr)) return "invalid_quote";
+  if (!context.modelKey || ref.model_key !== context.modelKey) return "different_model";
+  if (context.valuation && (!positiveMoney(context.valuation.price) || ref.device_age_months !== context.valuation.months)) return "different_age";
+  const sig = cashifyConditionSignature(context.condition);
+  if (!sig || sig !== cashifyConditionSignature(ref.condition)) return "different_condition";
+  if (session ? ref.confirmed !== true : !cashifySellUrl(ref.source_url)) return "unverified_quote";
+  const observed = cashifyDate(ref.observed_at);
+  const now = context.today.getTime();
+  if (observed === null || observed > now) return "invalid_quote_date";
+  if (session ? cashifyDay(new Date(observed)) !== cashifyDay(context.today) : now - observed > CASHIFY_POLICY.quoteDays * 86400000) return "stale_quote";
+  if (ref.valid_until != null) {
+    const expires = cashifyDate(ref.valid_until);
+    if (expires === null || expires < now) return "expired_quote";
+  }
+  return null;
+}
+// Legacy target_margin is markup on purchase cost (resale / (1 + rate)).
+// Explicit margin_basis:"gross" supports a share of resale revenue. Do not silently reinterpret old rates.
+const COST_POLICY = {minimumMargin:.08, margins:{S:.18,A:.20,B:.22,C:.25,D:.30}};
+function resaleEconomics(entry, today, valuation) {
+  if (!(today instanceof Date) || !Number.isFinite(today.getTime())) return {problem:"stale_market"};
+  const margin=entry.target_margin ?? COST_POLICY.margins[entry.tier] ?? COST_POLICY.margins.C;
+  if (typeof margin!=="number" || !Number.isFinite(margin) || margin<0 || margin>=1) return {problem:"invalid_margin"};
+  const marginBasis=entry.margin_basis ?? "markup";
+  if (!["markup","gross"].includes(marginBasis)) return {problem:"invalid_margin"};
+  const targetMargin=Math.max(COST_POLICY.minimumMargin,marginBasis==="gross" ? margin : margin/(1+margin));
+  let resale, source, observedAt, estimated=false;
+  if (positiveMoney(valuation?.resalePrice)) {
+    const stamp=cashifyDate(valuation.resaleDate);
+    if (stamp===null || stamp>today.getTime() || cashifyDay(new Date(stamp))!==cashifyDay(today)) return {problem:"stale_market"};
+    resale=valuation.resalePrice; source="Counter-confirmed A1 resale"; observedAt=valuation.resaleDate;
+  } else if (entry.current_resale_price) {
+    const ref=currentResalePrice(entry,today);
+    if(!ref) return {problem:"stale_market"};
+    resale=ref.amount_inr; observedAt=ref.observed_at;
+    estimated=ref.kind==="local_resale_estimate";
+    source=estimated ? "Market resale estimate · "+ref.method : "Verified local A1 resale";
+  } else {
+    // A failed current market check cannot turn an older calibration into fresh
+    // resale evidence. A counter confirmation above can resolve this gap.
+    if (entry.market_refresh?.resale_status === "unverified") return {problem:"missing_market"};
+    const stamp=cashifyDate(entry.market_resale_observed_at || entry.calibration_date), day=Date.parse(cashifyDay(today));
+    if (stamp===null || stamp>day || day-stamp>CASHIFY_POLICY.marketDays*86400000) return {problem:"stale_market"};
+    resale=positiveMoney(entry.market_resale_observed) ? entry.market_resale_observed : entry.market_resale_estimate;
+    if (!positiveMoney(resale) || entry.market_resale_derived_from_key) return {problem:"missing_market"};
+    source=positiveMoney(entry.market_resale_observed) ? "Saved resale reference" : "Saved resale estimate";
+    observedAt=entry.market_resale_observed_at || entry.calibration_date;
+  }
+  const uncappedResale=resale;
+  const newPrice = valuation ? valuation.price : currentNewPrice(entry,today)?.amount_inr ?? null;
+  if (newPrice != null) {
+    if (!positiveMoney(newPrice)) return {problem:"invalid_new_price"};
+    // A used unit must remain below a currently purchasable new unit. Apply
+    // margin AFTER this market ceiling, then condition/repairs/costs once.
+    if(currentNewPrice(entry,today) || valuation?.priceDate) resale=Math.min(resale,newPrice*.90);
+  }
+  const cap=Math.min(resale*(1-targetMargin),newPrice==null?Infinity:newPrice*.85);
+  return {cap,resale,uncappedResale,newPriceCapped:resale<uncappedResale,estimated,margin:targetMargin,configuredMargin:margin,marginBasis,source,observedAt};
+}
+function conditionAmounts(entry, rawBase, condition, newPrice) {
+  const kitDed = (condition.kit.box ? 0 : DEDUCTION.no_box) + (condition.kit.bill ? 0 : DEDUCTION.no_bill) + (condition.kit.charger ? 0 : DEDUCTION.no_charger);
+  const cover = condition.under_warranty ? WTY_LEFT[condition.warranty_band].factor : 0;
+  const fold = isFoldable(entry) ? FOLDABLE_OOW_RISK * (1 - cover) : 0;
+  const base=rawBase * GRADE_MULT[condition.grade] * (1-kitDed);
+  const beforeBattery=base * (1-fold);
+  const batteryDeducted=beforeBattery*CASHIFY_BATTERY_DED[condition.battery_band];
+  const damage = condition.damages.reduce((sum,k) => sum + Math.max(0,partCost(entry,k,newPrice)-(k==="battery"?batteryDeducted:0)), 0);
+  return {base,foldRisk:fold,batteryDeducted,afterBatt:base*(1-CASHIFY_BATTERY_DED[condition.battery_band]),dmgTotal:damage,rawFinal:Math.max(0,beforeBattery-batteryDeducted-damage)};
+}
+function cashifyEconomicLimit(entry, condition, today, valuation) {
+  if (!cashifyConditionSignature(condition) || condition.damages.some(k => !Object.prototype.hasOwnProperty.call(damagePartsFor(entry), k))) return {problem:"different_condition"};
+  const economics=resaleEconomics(entry,today,valuation);
+  if (economics.problem) return economics;
+  const amounts=conditionAmounts(entry,economics.cap,condition,valuation ? valuation.price : entry.net_new_inr);
+  const costs=valuation?.sellingCosts ?? 0;
+  if (typeof costs!=="number" || !Number.isFinite(costs) || costs<0) return {problem:"invalid_costs"};
+  return {...economics,amounts,limit:floor100(Math.max(0,amounts.rawFinal-costs)+1e-8)};
+}
+function applyCashifyPolicy(entry, existingFinal, context) {
+  const result = {final:existingFinal, original:existingFinal, status:"no_quote", source:null, observedAt:null, cashify:null, target:null, cap:null, uplift:0, matched:false, meets:false};
+  if (!context || !(context.today instanceof Date) || !Number.isFinite(context.today.getTime())) return {...result,status:"invalid_quote_date"};
+  let ref = null, problem = null;
+  if (context.sessionQuote) {
+    problem = cashifyReferenceProblem(context.sessionQuote, context, true);
+    if (!problem) { ref = context.sessionQuote; result.source = "staff_confirmed"; }
+  } else if (Array.isArray(entry.cashify_quotes)) {
+    const refs = [...entry.cashify_quotes].sort((a,b) => (cashifyDate(b && b.observed_at) || 0) - (cashifyDate(a && a.observed_at) || 0));
+    for (const candidate of refs) {
+      const issue = cashifyReferenceProblem(candidate, context);
+      if (!issue) { ref = candidate; result.source = "saved_assessed_quote"; break; }
+      problem = problem || issue;
+    }
+  }
+  if (!ref) return {...result,status:problem || "no_quote"};
+  result.matched = true;
+  result.observedAt = ref.observed_at;
+  result.cashify = ref.amount_inr;
+  result.target = ceil100(ref.amount_inr + Math.max(ref.amount_inr * CASHIFY_POLICY.premium, CASHIFY_POLICY.minimum));
+  if (!context.valuation && (positiveMoney(entry.rt_buyback_a1_override) || (context.condition.under_warranty && positiveMoney(entry.rt_buyback_a1_warranty)))) return {...result,status:"manual_rate"};
+  if (entry.international) return {...result,status:"international"};
+  const ceiling = cashifyEconomicLimit(entry, context.condition, context.today, context.valuation);
+  if (ceiling.problem) return {...result,status:ceiling.problem};
+  if (ceiling.estimated) return {...result,status:"estimated_market"};
+  result.cap = ceiling.limit;
+  if (existingFinal > result.cap) return {...result,status:"existing_above_cap"};
+  if (result.target > result.cap) return {...result,status:"cap_blocked"};
+  result.final = Math.max(existingFinal, result.target);
+  result.uplift = result.final - existingFinal;
+  result.meets = true;
+  result.status = result.uplift > 0 ? "applied" : "already_above";
+  return result;
+}
+function cashifyPolicyMessage(r) {
+  if (r.status === "applied") return `Cashify ${fmt(r.cashify)} → RT ${fmt(r.final)}. 2% zyada, minimum ₹100 ka rule applied.`;
+  if (r.status === "already_above") return `RT ${fmt(r.final)} pehle se Cashify ${fmt(r.cashify)} ke required ${fmt(r.target)} se barabar ya upar hai.`;
+  if (r.status === "existing_above_cap") return `Current RT ${fmt(r.final)} safe limit ${fmt(r.cap)} se upar hai. Cashify target ${fmt(r.target)}. Owner review chahiye; current offer unchanged.`;
+  if (r.status === "cap_blocked") return `Required RT ${fmt(r.target)} · safe limit ${fmt(r.cap)}. Owner review chahiye; current offer unchanged.`;
+  const reasons = {
+    estimated_market:"Resale abhi market estimate hai. Cashify uplift se pehle achievable local resale confirm karein.",
+    estimate_only:"Quick estimate hai. Cashify comparison ke liye optional current price aur actual age add karein.",
+    no_quote:"Is variant aur condition ka verified Cashify quote abhi available nahi hai. Standard RT calculation dikh rahi hai; saved quote milne par comparison automatic hoga.",
+    manual_rate:"Manual rate protected — owner review chahiye; current offer unchanged.",
+    international:"International variant — owner review chahiye; India quote se rate nahi badhega.",
+    stale_market:"Resale data stale ya date invalid hai — refresh/owner review chahiye; current offer unchanged.",
+    missing_market:"Independent resale evidence missing — owner review chahiye; current offer unchanged.",
+    invalid_margin:"Configured resale margin invalid hai; rate review karein.",
+    invalid_costs:"Selling costs invalid hain; amount check karein.",
+    invalid_new_price:"New-price limit verify karein — owner review chahiye; current offer unchanged.",
+    different_model:"Cashify quote dusre model/variant ka hai; current offer unchanged.",
+    different_age:"Saved Cashify quote mein is device ki actual age match nahi hai. Formula offer dikh raha hai; isi device ka fresh assessed quote enter kar sakte hain.",
+    different_condition:"Is condition ka verified Cashify quote saved nahi hai; standard RT calculation dikh rahi hai.",
+    stale_quote:"Cashify quote purana hai; fresh assessed quote verify karein.",
+    expired_quote:"Cashify quote expire ho gaya; fresh assessed quote verify karein.",
+    invalid_quote_date:"Cashify quote ki date invalid ya future ki hai; dobara verify karein.",
+    unverified_quote:"Assessed same-condition Cashify quote verify karein; Get Upto accepted nahi hai.",
+    invalid_quote:"Valid assessed Cashify amount chahiye; current offer unchanged."
+  };
+  return `${r.target !== null ? `Required RT ${fmt(r.target)}. ` : ""}${reasons[r.status] || reasons.invalid_quote}`;
+}
+
+// ============ UI STATE
+
+const FOLDABLE_OOW_RISK = 0.12;   // configurable — additional deduction, stacks on existing ones
+function isFoldable(entry) {
+  if (entry.is_foldable === true) return true;   // honour an explicit field if one ever gets added
+  return /\bfold|\bflip|razr|magic v|\bfind n|oneplus open/i.test(entry.display_name || "");
+}
+
+function selectedCashifyCondition() {
+  return {grade:_grade,kit:{..._kit},battery_band:_battBand,under_warranty:_underWarranty,
+    warranty_band:_underWarranty ? _wtyBand : null,damages:Object.keys(_damages).filter(k => _damages[k]).sort()};
+}
+function computeFinal(entry, q, context) {
+  const empty=problem=>({valid:false,problem,base:0,afterBatt:0,foldRisk:0,dmgTotal:0,dmgKeys:[],originalFinal:0,final:0,cashify:{status:"needs_inputs",final:0,meets:false}});
+  if (!q || q.valid === false || !Number.isFinite(q.a1) || q.a1<0) return empty("needs_inputs");
+  const c = context ? context.condition : selectedCashifyCondition();
+  if (!cashifyConditionSignature(c) || c.damages.some(k=>!Object.prototype.hasOwnProperty.call(damagePartsFor(entry),k))) return empty("different_condition");
+  const policyContext = context || {modelKey:_currentKey,condition:c,today:new Date(),sessionQuote:_cashifyQuote};
+  const valuation=q.debug?.quickEstimate || q.debug?.price ? q.debug : policyContext.valuation;
+  const costs=valuation?.sellingCosts ?? 0;
+  if (typeof costs!=="number" || !Number.isFinite(costs) || costs<0) return empty("invalid_costs");
+  const amounts=conditionAmounts(entry,q.debug?.rawA1 ?? q.a1,c,valuation?.price);
+  const formulaFinal=floor100(Math.max(0,amounts.rawFinal-costs)+1e-8);
+  const economics=cashifyEconomicLimit(entry,c,policyContext.today,valuation);
+  if (["invalid_margin","invalid_costs","invalid_new_price"].includes(economics.problem)) return empty(economics.problem);
+  const originalFinal=economics.problem ? formulaFinal : Math.min(formulaFinal,economics.limit);
+  const cashify=q.debug?.quickEstimate ? {final:originalFinal,original:originalFinal,status:"estimate_only",meets:false,target:null,cap:null,matched:false,uplift:0} : applyCashifyPolicy(entry,originalFinal,{...policyContext,valuation});
+  const appliedAmounts=originalFinal<formulaFinal ? economics.amounts : amounts;
+  return {...appliedAmounts,formulaAmounts:amounts,valid:true,dmgKeys:[...c.damages],sellingCosts:costs,formulaFinal,economics,
+    marketCapped:originalFinal<formulaFinal,originalFinal,final:cashify.final,cashify,estimateOnly:!!q.debug?.quickEstimate || !!economics.problem || !!economics.estimated};
+}
+
+// A quick quote uses labelled saved references. Missing unit age stays unknown;
+// it never becomes a guessed age or a verified current market price.
+function counterQuote(entry, underWarranty, wtyFactor, input={}, today=new Date()) {
+  const exact=fullQuote(entry,underWarranty,wtyFactor,input,today);
+  if(exact.valid) return exact;
+  if(!(today instanceof Date) || !Number.isFinite(today.getTime())) return exact;
+  const hasPrice=input.newPrice!=='' && input.newPrice!=null;
+  const mode=input.ageMode || 'months';
+  const hasAge=mode==='date' ? !!input.purchaseDate : mode==='range' ? input.ageRange!=null && input.ageRange!=='' : input.ageMonths!=null && input.ageMonths!=='';
+  // Validate supplied values with placeholders for omitted fields only. The placeholders
+  // are discarded below, and never enter an estimate, evidence record or saved state.
+  const checked=resolveValuation(entry,{...input,
+    ...(!hasPrice ? {newPrice:1,newPriceConfirmed:true,priceConfirmedAt:today.toISOString()} : {}),
+    ...(!hasAge ? {ageMode:mode,ageMonths:0,...(mode==='date'?{purchaseDate:cashifyDay(today)}:mode==='range'?{ageRange:0}:{})} : {})
+  },today);
+  if(checked.problem) return {...exact,debug:{problem:checked.problem}};
+  const saved=currentNewPrice(entry,today);
+  const price=hasPrice ? checked.price : saved?.amount_inr || null;
+  const priceVerified=hasPrice || !!saved;
+  const margin=entry.target_margin ?? COST_POLICY.margins[entry.tier] ?? COST_POLICY.margins.C;
+  const marginBasis=entry.margin_basis ?? 'markup';
+  const grossMargin=Math.max(COST_POLICY.minimumMargin,marginBasis==='gross'?margin:margin/(1+margin));
+  let rawA1, basis;
+  const freshResale=currentResalePrice(entry,today);
+  const lastKnownResale=currentResalePrice({...entry,current_resale_price:entry.last_known_resale_price},today,true);
+  const resale=checked.resalePrice || freshResale?.amount_inr || currentResalePrice(entry,today,true)?.amount_inr ||
+    lastKnownResale?.amount_inr ||
+    [entry.market_resale_observed,entry.market_resale_estimate,entry.resale_target_a1,entry.refurb_retail_anchor_excellent].find(positiveMoney);
+  if(resale) {
+    const cappedResale=priceVerified?Math.min(resale,price*.90):resale;
+    rawA1=cappedResale*(1-grossMargin);
+    basis=`${checked.resalePrice?'Entered':freshResale?'Refreshed':'Saved / unverified'} resale ${fmt(cappedResale)} less ${(grossMargin*100).toFixed(1)}% margin`;
+    if(freshResale) basis+=` · checked ${freshResale.observed_at.slice(0,10)}${freshResale.kind==='local_resale_estimate'?' · estimate':''}`;
+    if(priceVerified) basis+=` · current new ${fmt(price)}`;
+    if(cappedResale<resale) basis+=' · limited by current new price';
+  }
+  else {
+    const buyback=[entry.rt_buyback_a1_override,entry.cashify_exchange].find(positiveMoney);
+    if(!buyback) return {...exact,debug:{problem:'Saved estimate unavailable. Optional price aur actual age enter karein.'}};
+    rawA1=buyback; basis=`Saved buyback reference ${fmt(buyback)}`;
+  }
+  if(positiveMoney(price)) rawA1=Math.min(rawA1,price*.85);
+  if(hasAge && positiveMoney(price)) {
+    rawA1=Math.min(rawA1,price*depFraction(checked.months)*(entry.international?AGE_VALUE_POLICY.internationalFactor:1));
+    basis+=' · adjusted for entered age';
+  }
+  const debug={...checked,price,priceSource:priceVerified ? (hasPrice?'Counter-entered current new price':saved.source_url) : 'Saved price reference — not current verified stock',
+    priceDate:priceVerified ? (hasPrice?input.priceConfirmedAt:saved.observed_at) : null,
+    months:hasAge?checked.months:null,ageLabel:hasAge?checked.ageLabel:'Age not supplied',
+    retention:hasAge?depFraction(checked.months):null,regionFactor:entry.international?AGE_VALUE_POLICY.internationalFactor:1,
+    rawA1,quickEstimate:true,priceVerified,basis};
+  const a1=floor100(rawA1+1e-8),grades={};
+  for(const g of Object.keys(GRADE_MULT)) grades[g]={with_kit:gradeQuote(a1,g),no_box_bill:gradeQuote(a1,g,{no_box:true,no_bill:true})};
+  return {...exact,valid:true,a1,source:'saved_reference',debug,grades,open_offer:grades.B.with_kit,walk_away:grades.A2.with_kit,floor:grades.C.with_kit};
+}
+function quotePriceBasis(q) {
+  return q.debug.quickEstimate ? q.debug.basis : `New market price: ${fmt(q.debug.price)} (checked ${cashifyDay(new Date(q.debug.priceDate))})`;
+}
+
+function valuationForm(entry) {
+  const saved=currentNewPrice(entry,new Date());
+  return `<details class="card staff-only refine-card" id="valuation-inputs" ${_refineOpen ? "open" : ""}><summary>Refine quote <span class="helper">— optional</span></summary><div class="helper">Sab fields optional hain. Blank chhodne par saved-rate estimate use hoga.</div>
+    <div class="reference-note">${saved ? `Saved new price: ${fmt(saved.amount_inr)} · ${esc(saved.observed_at.slice(0,10))} · <a href="${esc(saved.source_url)}" target="_blank" rel="noopener">View source ↗</a>` : `${positiveMoney(entry.net_new_inr) ? `Old reference ${fmt(entry.net_new_inr)} — current price verify karein.` : "Current new price missing. Exact variant ka market price enter karein."} ${entry.discontinued ? "Discontinued model: saved estimate available hai; launch MRP ko current price na maanein." : ""}`}</div>
+    <div class="field-grid">
+      <div class="field"><label for="new-market-price">Current new cash price · ₹ (optional)</label>
+        <input id="new-market-price" type="number" inputmode="numeric" min="1" max="2000000" step="1" placeholder="${saved ? saved.amount_inr + ' (saved)' : 'Enter today’s price'}" value="${esc(_valuation.newPrice)}">
+        <div class="helper">Aaj ka exact-variant cash price pata ho toh enter karein. MRP, cashback aur exchange bonus exclude karein.</div>
+      </div>
+      <div class="field"><label for="device-age-mode">Device age (optional)</label>
+        <select id="device-age-mode">${[["months","Age in months"],["date","Original purchase / bill date"],["range","Approximate age range"]].map(([v,l])=>`<option value="${v}" ${_valuation.ageMode===v?"selected":""}>${l}</option>`).join("")}</select>
+        <div class="age-value">${_valuation.ageMode === "date" ? `<label for="device-purchase-date">Original purchase / bill date</label><input id="device-purchase-date" type="date" max="${cashifyDay(new Date())}" value="${esc(_valuation.purchaseDate)}">` : _valuation.ageMode === "range" ? `<label for="device-age-range">Age range</label><select id="device-age-range"><option value="">Select age range</option>${AGE_RANGES.map(([l],i)=>`<option value="${i}" ${_valuation.ageRange===i?"selected":""}>${l}</option>`).join("")}</select><div class="helper">Upper age use hogi: 12–18 months → 18 months.</div>` : `<label for="device-age-months">Actual age · months</label><input id="device-age-months" type="number" inputmode="decimal" min="0" max="240" step="0.1" placeholder="Skip if unknown" value="${_valuation.ageMonths ?? ''}">`}</div>
+        <div class="helper">First purchase se count karein, second-hand repurchase se nahi.</div>
+      </div>
+    </div>
+    <details class="optional-details" ${_valuation.resalePrice || _valuation.sellingCosts ? "open" : ""}><summary>Resale & selling costs <span class="helper">· optional</span></summary>
+      <div class="field-grid">
+        <div class="field"><label for="resale-price">A1 / full-kit resale cash price · ₹</label><input id="resale-price" type="number" inputmode="numeric" min="1" max="2000000" value="${esc(_valuation.resalePrice ?? '')}" placeholder="Today's achievable resale"></div>
+        <div class="field"><label for="selling-costs">Testing, selling & holding costs · ₹</label><input id="selling-costs" type="number" inputmode="numeric" min="0" max="2000000" value="${esc(_valuation.sellingCosts ?? '')}" placeholder="0 if none"><div class="helper">Deal per fixed costs. Repair deductions repeat na karein. Blank = ₹0.</div></div>
+      </div>
+      <div class="helper">Resale clean A1/full-kit ka dein. Selected grade aur faults automatically adjust honge.</div>
+    </details>
+  </details>`;
+}
+function variantButtons() {
+  const variants=variantsOf(_currentKey);
+  return variants.length>1 ? `<div class="variant-bar">${variants.map(k=>`<button class="variant-chip ${k===_currentKey?'active':''}" aria-pressed="${k===_currentKey}" data-variant="${esc(k)}">${esc(storageLabel(k,DB[k]))}</button>`).join("")}</div>` : "";
+}
+
+// ============ RENDER QUOTE

@@ -28,7 +28,9 @@ _pending_prev_*/
 * 2
 # Reproducible local candidates, deployment payloads and Python bytecode.
 __pycache__/
+_public/
 _weekly_refresh/*/backup/
+_weekly_refresh/*/baseline/
 _weekly_refresh/*/candidate/
 _weekly_refresh/*/publish_ready/
 _weekly_refresh/*/baseline_engine.cjs

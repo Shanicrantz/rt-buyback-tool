@@ -21,6 +21,10 @@ from collections import defaultdict
 DIR = '/Users/shane/Documents/Claude/Projects/rt buyback tool'
 TODAY = '2026-09-30'
 APPLY = '--apply' in sys.argv
+if APPLY:
+    version = tuple(map(int, json.load(open(f'{DIR}/phone_db.json'))['_meta']['version'].split('.')))
+    if version >= (6, 15):
+        raise SystemExit('Archived writer: refuses v6.15+ databases. Use _apply_market_observations.py with fresh structured new/resale evidence; never rebuild current pricing from old anchors.')
 WEEK_CAP = 0.20      # max single-week DROP in A1 (market softening = safe direction)
 INCREASE_CAP = 0.08  # max single-week RISE in A1 — deliberately tighter than the drop cap.
                      # Web research on this DB reliably anchors to OLX *asking* prices and pushes

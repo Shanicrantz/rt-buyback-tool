@@ -1,0 +1,3 @@
+[build]
+  command = "node _build_public.cjs"
+  publish = "_public"
