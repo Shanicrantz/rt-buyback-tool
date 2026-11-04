@@ -56,7 +56,8 @@ test('saved catalogue models open an estimate; a model without evidence explicit
  for(const [key,entry] of Object.entries(db))if(key!=='_meta'){
   const r=quote(entry);
   if(entry.price_reference_pending){
-   assert.ok(entry.quote_safety?.requires_counter_review || ['vivo_t2_5g_6_128','iphone_duo_256','iphone_duo_512','iphone_duo_1tb','iphone_duo_2tb'].includes(key),'Unexpected pending model '+key);assert.equal(r.valid,false);assert.equal(r.cashify.status,'needs_inputs');
+   const verifiedLaunch=entry.launch_date_verified===true && entry.net_new_price_basis==='official_launch_period_history_only' && entry.launch_sources?.length>0;
+   assert.ok(entry.quote_safety?.requires_counter_review || key==='vivo_t2_5g_6_128' || verifiedLaunch,'Unexpected pending model '+key);assert.equal(r.valid,false);assert.equal(r.cashify.status,'needs_inputs');
    assert.match(r.q.debug.problem,/Saved estimate unavailable|Price review required/);catalogueChecks++;continue;
   }
   assert.ok(r.valid,key);assert.ok(Number.isFinite(r.final)&&r.final>=0&&r.final%100===0,key);

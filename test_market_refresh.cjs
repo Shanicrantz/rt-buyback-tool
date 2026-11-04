@@ -66,8 +66,16 @@ test('scoped market evidence is exact, fees included, partial coverage honest',(
   const result=a.computeFinal(e,quote,{modelKey:key,today:catalogueNow,condition});
   if(e.quote_safety?.requires_counter_review){assert.equal(quote.valid,false,key);assert.equal(result.valid,false,key);assert.match(quote.debug.problem,/Price review required/);continue;}
   if(e.price_reference_pending){
-   assert.ok(['vivo_t2_5g_6_128','iphone_duo_256','iphone_duo_512','iphone_duo_1tb','iphone_duo_2tb'].includes(key),'Unexpected pending model '+key);assert.equal(r,null);assert.equal(quote.valid,false);assert.equal(result.valid,false);
+   const verifiedLaunch=e.launch_date_verified===true && e.net_new_price_basis==='official_launch_period_history_only' && e.launch_sources?.length>0;
+   assert.ok(key==='vivo_t2_5g_6_128' || verifiedLaunch,'Unexpected pending model '+key);assert.equal(r,null);assert.equal(quote.valid,false);assert.equal(result.valid,false);
    assert.match(quote.debug.problem,/Saved estimate unavailable/);
+   if(verifiedLaunch && n){
+    const aged=a.counterQuote(e,false,0,{ageMonths:12},catalogueNow);
+    const priced=a.computeFinal(e,aged,{modelKey:key,today:catalogueNow,condition});
+    assert.equal(priced.valid,true,key);assert.equal(priced.estimateOnly,true,key);
+    assert.equal(aged.debug.price,n.amount_inr,key);assert.equal(aged.debug.months,12,key);
+    assert.ok(priced.final>0 && priced.final<n.amount_inr,key);
+   }
    if(key==='vivo_t2_5g_6_128'){
    const entered=a.counterQuote(e,false,0,{newPrice:16000,newPriceConfirmed:true,priceConfirmedAt:catalogueNow.toISOString(),ageMonths:24},catalogueNow);
    const value=a.computeFinal(e,entered,{modelKey:key,today:catalogueNow,condition});assert.equal(value.valid,true);assert.equal(value.final,8000);assert.equal(value.estimateOnly,true);
@@ -96,7 +104,17 @@ test('standalone and inline DB agree; only scoped records changed',()=>{
   else if(['iphone_duo_256','iphone_duo_512','iphone_duo_1tb','iphone_duo_2tb'].includes(key)){
    const expected={iphone_duo_256:['iPhone Duo 256GB',299900],iphone_duo_512:['iPhone Duo 512GB',324900],iphone_duo_1tb:['iPhone Duo 1TB',374900],iphone_duo_2tb:['iPhone Duo 2TB',449900]}[key];
    assert.equal(db[key].display_name,expected[0]);assert.equal(db[key].net_new_inr,expected[1]);assert.equal(db[key].launch_date,'2026-10-23');assert.equal(db[key].is_foldable,true);
-   assert.equal(db[key].launch_sources[0].source_url,'https://www.apple.com/in/newsroom/2026/09/apple-unveils-iphone-duo/');assert.equal(typeof db[key].price_reference_pending,'string');assert.equal(db[key].resale_target_a1,undefined);assert.equal(db[key].current_new_price,undefined);
+   assert.equal(db[key].launch_sources[0].source_url,'https://www.apple.com/in/newsroom/2026/09/apple-unveils-iphone-duo/');assert.equal(typeof db[key].price_reference_pending,'string');assert.equal(db[key].resale_target_a1,undefined);
+   // A later refresh may verify current stock; the launch list price stays historical.
+   assert.equal(db[key].net_new_price_basis,'official_launch_period_history_only');
+  }
+  else if(/^vivo_(v80|s2_fe|x_fold6)_/.test(key)){
+   const expected={vivo_v80_8_128:['Vivo V80 8/128GB',62999,'2026-10-13'],vivo_v80_8_256:['Vivo V80 8/256GB',69999,'2026-10-13'],vivo_v80_8_512:['Vivo V80 8/512GB',79999,'2026-10-13'],vivo_x_fold6_12_512:['Vivo X Fold6 12/512GB',219999,'2026-10-13'],vivo_s2_fe_6_128:['Vivo S2 FE 6/128GB',38999,'2026-10-20'],vivo_s2_fe_8_128:['Vivo S2 FE 8/128GB',42999,'2026-10-20']}[key];
+   assert.ok(expected,key);assert.deepEqual([db[key].display_name,db[key].net_new_inr,db[key].launch_date],expected);
+   assert.equal(db[key].launch_date_verified,true);assert.equal(db[key].net_new_price_basis,'official_launch_period_history_only');
+   assert.ok(db[key].launch_sources[0].source_url.startsWith('https://vivonewsroom.in/press-release/'));
+   assert.equal(Boolean(db[key].is_foldable),key==='vivo_x_fold6_12_512');
+   assert.equal(db[key].resale_target_a1,undefined);assert.equal(typeof db[key].price_reference_pending,'string');
   }
   else {assert.equal(key,'vivo_x60_pro_plus_12_256');assert.equal(db[key].catalogue_source_url,'https://shop.vivo.com/in/product/10126');assert.equal(db[key].display_name,'Vivo X60 Pro+ 12/256GB');}
  }

@@ -60,7 +60,8 @@ test('all catalogue out-of-warranty offers remain unchanged; warranty amounts ar
    if(entry.quote_safety?.requires_counter_review){assert.equal(quote(entry,i).valid,false,key);for(const band of [3,2,1,0])assert.equal(quote(entry,i,under(band)).valid,false,key);continue;}
    const out=quote(entry,i),old=quote(entry,i,c,baseline);if(entry.quote_safety && !Object.keys(i).length)assert.ok(out.final<=old.final,key+' safety limit raised offer');else assert.equal(out.final,old.final,key+' out changed');
    if(entry.price_reference_pending && !Object.keys(i).length){
-    assert.ok(['vivo_t2_5g_6_128','iphone_duo_256','iphone_duo_512','iphone_duo_1tb','iphone_duo_2tb'].includes(key),'Unexpected pending model '+key);assert.equal(out.valid,false);
+    const verifiedLaunch=entry.launch_date_verified===true && entry.net_new_price_basis==='official_launch_period_history_only' && entry.launch_sources?.length>0;
+    assert.ok(key==='vivo_t2_5g_6_128' || verifiedLaunch,'Unexpected pending model '+key);assert.equal(out.valid,false);
     for(const band of [3,2,1,0])assert.equal(quote(entry,i,under(band)).valid,false,'Warranty cannot manufacture a missing base price');
     continue;
    }
