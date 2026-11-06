@@ -43,7 +43,7 @@ test('all marked catalogue variants enforce the declared safety behavior',()=>{
  for(const [key,v]of Object.entries(db))if(v.quote_safety){
   const r=quote(v);
   if(v.quote_safety.requires_counter_review){assert.equal(r.valid,false,key);assert.equal(typeof v.price_reference_pending,'string');assert.equal(quote(v,complete).valid,true,key);}
-  else {assert.equal(r.valid,true,key);assert.ok(r.q.debug.rawA1<=v.quote_safety.max_raw_a1+1e-8,key);}
+  else {assert.equal(r.valid,true,key);if(v.quote_safety.max_raw_a1!=null)assert.ok(r.q.debug.rawA1<=v.quote_safety.max_raw_a1+1e-8,key);}
  }
 });
 console.log(JSON.stringify({passed:true,checks}));

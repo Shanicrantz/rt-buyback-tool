@@ -26,6 +26,14 @@ for(const [key,entry]of Object.entries(db))if(key!=='_meta'&&!entry.internationa
  const b=baselineQuotes[key],a=current(entry);
  if(b.valid&&a.valid&&a.final>b.final*1.08+1e-8){limit(key,b.raw,'Uncorroborated increase withheld at previous raw offer');pinned.push(key);}
 }
+// Large evidence-driven falls (>20% vs the previous release) apply IN FULL and are flagged for review.
+// Never floor them (a floor above fresh evidence overpays) and never block them (no quote at all).
+for(const [key,e] of Object.entries(db))if(key!=='_meta'&&!e.international){
+ const b=baselineQuotes[key],a=current(e);
+ if(b.valid&&a.valid&&a.final<b.final*.80-1e-8){
+  e.quote_safety={...(e.quote_safety||{}),drop_band_exceeded_at:today.toISOString(),reviewed_at:today.toISOString(),basis:'operational_offer_limit_not_market_price',reasons:[...new Set([...(e.quote_safety?.reasons||[]),'Current evidence correction exceeds weekly 20% drop band; applied in full, counter check recommended'])],baseline_final_a1:b.final};
+ }
+}
 const groups=new Map();
 for(const r of scope)if(r.storage!=null){const g=r.family.toLowerCase()+'|'+r.category;if(!groups.has(g))groups.set(g,[]);groups.get(g).push(r);}
 const pairs=[];
