@@ -42,10 +42,16 @@ while(changed){changed=false;assert.ok(++passes<=scope.length,'Ordering failed t
   if(lo<=0){db[small].quote_safety={...(db[small].quote_safety||{}),requires_counter_review:true,reviewed_at:today.toISOString()};}
   else limit(small,lo,'Conservative same-family RAM/storage offer ordering',big);
   const next=current(db[small]),base=baselineQuotes[small];
-  if(!next.valid||base.valid&&next.final<base.final*.80-1e-8){
+  if(!next.valid){
    db[small].quote_safety.requires_counter_review=true;
-   db[small].quote_safety.reasons=[...new Set([...(db[small].quote_safety.reasons||[]),'Required correction exceeds weekly 20% drop limit'])];
+   db[small].quote_safety.reasons=[...new Set([...(db[small].quote_safety.reasons||[]),'No valid conservative offer below the larger sibling'])];
    db[small].price_reference_pending='Price review required: confirm today’s exact new cash price, achievable A1 resale and the device’s actual age. Saved variant prices conflict; no automatic offer is available.';
+  } else if(base.valid&&next.final<base.final*.80-1e-8){
+   // Shane, 2026-11-06: a blocked quote shows NO value at the counter (Vivo X300 FE 12/256).
+   // The 20% band damps research noise; it must not turn a conservative ordering correction
+   // into "no quote". Keep the cap (never above the larger sibling) and flag it for review.
+   db[small].quote_safety.drop_band_exceeded_at=today.toISOString();
+   db[small].quote_safety.reasons=[...new Set([...(db[small].quote_safety.reasons||[]),'Ordering correction exceeds weekly 20% drop band; conservative cap applied, counter check recommended'])];
   }
   changed=true;
  }
@@ -53,16 +59,19 @@ while(changed){changed=false;assert.ok(++passes<=scope.length,'Ordering failed t
 const rows=[],inversions=[],pendingPairs=[];
 for(const [key,e]of Object.entries(db))if(key!=='_meta'){
  const b=baselineQuotes[key],a=current(e);
- if(a.valid&&b.valid){assert.ok(a.final<=b.final*1.08+1e-8,key+' rise');assert.ok(a.final>=b.final*.8-1e-8,key+' drop');}
+ if(a.valid&&b.valid){assert.ok(a.final<=b.final*1.08+1e-8,key+' rise');assert.ok(a.final>=b.final*.8-1e-8||e.quote_safety?.drop_band_exceeded_at===today.toISOString(),key+' drop');}
  for(const field of Object.keys(original[key]))if(!['quote_safety','price_reference_pending'].includes(field))assert.deepEqual(e[field],original[key][field],key+' evidence/identity changed');
  if(e.international)assert.deepEqual(e,original[key]);
  rows.push({key,model:e.display_name,baseline_final:b.final,proposed_final:beforeResolution[key].final,final:a.final,valid:a.valid,safety:e.quote_safety||null});
 }
 for(const [small,big]of pairs){const a=current(db[small]),b=current(db[big]);if(!a.valid||!b.valid)pendingPairs.push({small,big,reason:'At least one variant requires verified inputs; no numeric ordering claim'});else if(a.final>b.final)inversions.push({small,big});}
 assert.equal(inversions.length,0);
-const summary={date:today.toISOString(),profile:condition,age:'unknown',pinned_increases:pinned,capped_models:rows.filter(r=>r.safety&&!r.safety.requires_counter_review).length,manual_review_models:rows.filter(r=>r.safety?.requires_counter_review).map(r=>r.key),numeric_inversions:inversions.length,pending_pairs:pendingPairs,passes,source_prices_unchanged:true,rows};
-db._meta.quote_safety_review={reviewed_at:today.toISOString(),scope:'saved-reference quick estimates only; fully confirmed device-age quotes retain existing formula',capped_models:summary.capped_models,manual_review_models:summary.manual_review_models,source_prices_unchanged:true};
-db._meta.version='6.29';db._meta.v6_29_changelog='30 October evidence refresh, released 31 October: retain original price observations; withhold uncorroborated rises, conservatively order saved offers, and require confirmed inputs where a safe correction exceeds the weekly drop limit. Four verified iPhone Duo variants remain price-pending. No model deleted.';
+const summary={date:today.toISOString(),profile:condition,age:'unknown',pinned_increases:pinned,capped_models:rows.filter(r=>r.safety&&!r.safety.requires_counter_review).length,manual_review_models:rows.filter(r=>r.safety?.requires_counter_review).map(r=>r.key),drop_band_exceeded_models:rows.filter(r=>r.safety?.drop_band_exceeded_at===today.toISOString()).map(r=>r.key),numeric_inversions:inversions.length,pending_pairs:pendingPairs,passes,source_prices_unchanged:true,rows};
+db._meta.quote_safety_review={reviewed_at:today.toISOString(),scope:'saved-reference quick estimates only; fully confirmed device-age quotes retain existing formula',capped_models:summary.capped_models,manual_review_models:summary.manual_review_models,drop_band_exceeded_models:summary.drop_band_exceeded_models,source_prices_unchanged:true};
+// Optional release stamp: node _resolve_quote_safety.cjs <work> [date] [version] [changelog].
+// (It used to hard-code version 6.29, which would roll the version back on any reuse.)
+const [release,changelog]=process.argv.slice(4);
+if(release){db._meta.version=release;if(changelog)db._meta['v'+release.replace(/\./g,'_')+'_changelog']=changelog;}
 const compact=JSON.stringify(db),html=originalHtml.replace(/^const DB = (\{[^\r\n]*\});[ \t]*$/m,()=> 'const DB = '+compact+';');
 assert.deepEqual(JSON.parse(html.match(/^const DB = (\{[^\n]+\});$/m)[1]),db);
 assert.equal(fs.readFileSync(path.join(candidatePath,'phone_db.json'),'utf8'),originalDb,'Concurrent DB change');assert.equal(fs.readFileSync(path.join(candidatePath,'index.html'),'utf8'),originalHtml,'Concurrent HTML change');
