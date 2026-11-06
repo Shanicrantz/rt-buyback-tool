@@ -17,10 +17,22 @@ test('ordinary phones get the old 13 percent scaled premium without requiring ag
  for(let b=0;b<4;b++){const r=quote(e,{},under(b));assert.equal(r.final,expected[b]);assert.ok(r.final>out.final);assert.equal(r.economics.resale,30000);}
 });
 test('strict actual-age formula applies premium once before deductions',()=>{
- const noMarket={...e,calibration_date:'2026-01-01'};
+ // No resale reference at all: the actual-age formula is the only basis and stays unbounded.
+ const noMarket={...e,calibration_date:'2026-01-01'};delete noMarket.market_resale_estimate;
  assert.equal(quote(noMarket).final,32500);
  assert.equal(quote(noMarket,input,under(0)).final,36300);
  assert.equal(quote(noMarket,input,{...under(0),grade:'B',kit:{box:false,bill:true,charger:true}}).final,28100);
+});
+test('stale saved resale bounds the actual-age quote; warranty premium still applies once',()=>{
+ // Shane 2026-11-07: an entered age must not lift the quote above the saved-resale quote.
+ const stale={...e,calibration_date:'2026-01-01'};
+ const r=quote(stale);assert.equal(r.final,24000);assert.equal(r.economics.problem,'stale_market');
+ const noAge=quote(stale,{newPrice:50000,newPriceConfirmed:true,priceConfirmedAt:today.toISOString()});assert.equal(r.final,noAge.final);
+ assert.equal(quote(stale,input,under(0)).final,26800);
+ assert.equal(quote(stale,input,under(0)).final,quote(stale,{newPrice:50000,newPriceConfirmed:true,priceConfirmedAt:today.toISOString()},under(0)).final);
+ const confirmed={...input,resalePrice:30000,resaleConfirmed:true,resaleConfirmedAt:today.toISOString()};
+ const q=api.counterQuote(stale,false,0,confirmed,today);assert.equal(q.debug.savedResaleBound,undefined);assert.equal(q.a1,32500);
+ assert.equal(quote(stale,confirmed).final,24000);
 });
 test('warranty uses only margin headroom above 8 percent; never invents resale',()=>{
  const narrow={...e,target_margin:.099};
@@ -33,7 +45,9 @@ test('new price caps warranty even when resale is stale or missing',()=>{
   const r=quote({...e,calibration_date:'2026-01-01'},{...input,newPrice:10000,ageMonths},under(0));
   assert.ok(r.final<=8500);assert.equal(r.newPriceLimit,8500);
  }
- const newborn=quote({...e,calibration_date:'2026-01-01'},{...input,ageMonths:0},under(0));assert.equal(newborn.final,42500);assert.ok(newborn.marketCapped);
+ // No resale reference, so only the new-price ceiling can bind (a saved resale would bound it lower).
+ const noResale={...e,calibration_date:'2026-01-01'};delete noResale.market_resale_estimate;
+ const newborn=quote(noResale,{...input,ageMonths:0},under(0));assert.equal(newborn.final,42500);assert.ok(newborn.marketCapped);
 });
 test('damage battery and costs are not waived or double-counted under warranty',()=>{
  const noMarket={...e,calibration_date:'2026-01-01'};
@@ -58,7 +72,11 @@ test('all catalogue out-of-warranty offers remain unchanged; warranty amounts ar
  for(const [key,entry] of Object.entries(db))if(key!=='_meta'){
   for(const i of [{},{...input,newPrice:100000,ageMonths:12}]){
    if(entry.quote_safety?.requires_counter_review){assert.equal(quote(entry,i).valid,false,key);for(const band of [3,2,1,0])assert.equal(quote(entry,i,under(band)).valid,false,key);continue;}
-   const out=quote(entry,i),old=quote(entry,i,c,baseline);if(entry.quote_safety && !Object.keys(i).length)assert.ok(out.final<=old.final,key+' safety limit raised offer');else assert.equal(out.final,old.final,key+' out changed');
+   const out=quote(entry,i),old=quote(entry,i,c,baseline);
+   if(entry.quote_safety && !Object.keys(i).length)assert.ok(out.final<=old.final,key+' safety limit raised offer');
+   // 2026-11-07: without fresh resale an actual-age quote is bounded by the saved-resale quote; it may only fall.
+   else if(Object.keys(i).length){assert.ok(out.final<=old.final,key+' age quote raised');assert.ok(out.final<=quote(entry,{newPrice:i.newPrice,newPriceConfirmed:true,priceConfirmedAt:i.priceConfirmedAt}).final||!quote(entry,{newPrice:i.newPrice,newPriceConfirmed:true,priceConfirmedAt:i.priceConfirmedAt}).valid,key+' age quote above no-age quote');}
+   else assert.equal(out.final,old.final,key+' out changed');
    if(entry.price_reference_pending && !Object.keys(i).length){
     const verifiedLaunch=entry.launch_date_verified===true && entry.net_new_price_basis==='official_launch_period_history_only' && entry.launch_sources?.length>0;
     assert.ok(key==='vivo_t2_5g_6_128' || verifiedLaunch,'Unexpected pending model '+key);assert.equal(out.valid,false);
