@@ -74,8 +74,9 @@ test('all catalogue out-of-warranty offers remain unchanged; warranty amounts ar
    if(entry.quote_safety?.requires_counter_review){assert.equal(quote(entry,i).valid,false,key);for(const band of [3,2,1,0])assert.equal(quote(entry,i,under(band)).valid,false,key);continue;}
    const out=quote(entry,i),old=quote(entry,i,c,baseline);
    if(entry.quote_safety && !Object.keys(i).length)assert.ok(out.final<=old.final,key+' safety limit raised offer');
-   // 2026-11-07: without fresh resale an actual-age quote is bounded by the saved-resale quote; it may only fall.
-   else if(Object.keys(i).length){assert.ok(out.final<=old.final,key+' age quote raised');assert.ok(out.final<=quote(entry,{newPrice:i.newPrice,newPriceConfirmed:true,priceConfirmedAt:i.priceConfirmedAt}).final||!quote(entry,{newPrice:i.newPrice,newPriceConfirmed:true,priceConfirmedAt:i.priceConfirmedAt}).valid,key+' age quote above no-age quote');}
+   // 2026-11-07: without fresh resale an actual-age quote is bounded by the saved-resale quote scaled to
+   // the unit age (at most +25% over the no-age quote) and never above the plain age formula.
+   else if(Object.keys(i).length){const na=quote(entry,{newPrice:i.newPrice,newPriceConfirmed:true,priceConfirmedAt:i.priceConfirmedAt});assert.ok(out.final<=old.final,key+' age quote raised');assert.ok(!na.valid||out.final<=Math.ceil(na.final*1.25/100)*100+100,key+' age quote more than +25% above no-age quote');}
    else assert.equal(out.final,old.final,key+' out changed');
    if(entry.price_reference_pending && !Object.keys(i).length){
     const verifiedLaunch=entry.launch_date_verified===true && entry.net_new_price_basis==='official_launch_period_history_only' && entry.launch_sources?.length>0;
