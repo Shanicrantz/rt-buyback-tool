@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RT Khata</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#f4f6f6">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="RT Khata">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23123f34'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='28' fill='%23fff' text-anchor='middle'%3E%E2%82%B9%3C/text%3E%3C/svg%3E">
+<style>
+  * { box-sizing:border-box; margin:0; padding:0; -webkit-tap-highlight-color:transparent; }
+  :root {
+    --bg:#f4f6f6; --card:#fff; --txt:#192d2a; --dim:#526661; --line:#dce5e2; --green:#086b52; --deep:#123f34; --soft:#eaf5ef; --amber:#8a5307; --radius:18px;
+    --b0:#2f8f6b; --b1:#c99a2e; --b2:#d9782d; --b3:#b6412e;
+    --b0-ink:#0f5b40; --b1-ink:#7a5a0b; --b2-ink:#8d4510; --b3-ink:#9a3020;
+    --b0-bg:#e6f4ec; --b1-bg:#fbf3dd; --b2-bg:#fdeee1; --b3-bg:#fbe7e3;
+  }
+  html { -webkit-text-size-adjust:100%; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; background:var(--bg); color:var(--txt); min-height:100vh; font-size:14px; line-height:1.5; padding:calc(24px + env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) calc(32px + env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left)); overscroll-behavior-y:contain; }
+  button,input,select,textarea { font:inherit; color:inherit; }
+  button { cursor:pointer; touch-action:manipulation; }
+  button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible { outline:3px solid #159b78; outline-offset:2px; }
+  a { color:var(--green); }
+  [hidden] { display:none!important; }
+  .wrap { max-width:1240px; margin:0 auto; }
+
+  /* top bar */
+  .top { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:18px; }
+  .brand { display:flex; align-items:center; gap:12px; min-width:0; }
+  .brand-mark { display:grid; place-items:center; width:46px; height:46px; flex-shrink:0; border-radius:14px; background:var(--deep); color:#fff; font-weight:800; font-size:20px; letter-spacing:-1px; }
+  h1 { font-size:19px; font-weight:800; letter-spacing:-.5px; line-height:1.3; }
+  .sub { color:var(--dim); font-size:12px; }
+  .top-actions { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .btn { display:inline-flex; align-items:center; justify-content:center; gap:7px; min-height:44px; padding:10px 15px; border-radius:10px; border:1px solid #c8d6d0; background:var(--card); font-size:12px; font-weight:700; text-decoration:none; color:var(--txt); white-space:nowrap; }
+  .btn:hover { border-color:var(--green); background:var(--soft); }
+  .btn svg { width:16px; height:16px; flex-shrink:0; }
+  .btn.primary { background:var(--green); border-color:var(--green); color:#fff; }
+  .btn.primary:hover { filter:brightness(1.07); background:var(--green); }
+  .btn.wa { background:#128c4b; border-color:#128c4b; color:#fff; }
+  .btn.wa:hover { filter:brightness(1.07); background:#128c4b; }
+  .btn[aria-disabled="true"],.btn:disabled { opacity:.45; pointer-events:none; }
+  .live { display:inline-flex; align-items:center; gap:7px; font-size:11px; color:var(--dim); font-weight:600; padding:0 4px; }
+  .live .dot { width:8px; height:8px; border-radius:50%; background:#9fb0aa; flex-shrink:0; }
+  .live.ok .dot { background:#1aa36f; box-shadow:0 0 0 3px #1aa36f22; }
+  .live.stale .dot { background:var(--b1); }
+  .live.err .dot { background:var(--b3); }
+  .spin { animation:spin 1s linear infinite; }
+  @keyframes spin { to { transform:rotate(360deg); } }
+
+  .notice { border-radius:12px; padding:12px 14px; font-size:12px; line-height:1.7; margin-bottom:16px; background:#fff7e7; border:1px solid #eddec0; color:#6f4a10; }
+  .notice.err { background:#fbe7e3; border-color:#efc6bd; color:#7f2a1b; }
+
+  /* summary */
+  .summary { border-radius:var(--radius); background:var(--deep); color:#fff; padding:22px 24px; margin-bottom:18px; }
+  .sum-row { display:flex; justify-content:space-between; align-items:flex-end; gap:16px; flex-wrap:wrap; }
+  .eyebrow { font-size:10px; letter-spacing:1.6px; text-transform:uppercase; color:#b4d9c8; font-weight:700; }
+  .big { font-size:42px; font-weight:800; letter-spacing:-1.6px; line-height:1.2; margin:6px 0 4px; font-variant-numeric:tabular-nums; }
+  .sum-meta { font-size:12px; color:#c7ded4; }
+  .agebar { display:flex; height:12px; border-radius:6px; overflow:hidden; background:#ffffff1f; margin:18px 0 12px; gap:2px; }
+  .agebar span { display:block; height:100%; min-width:3px; }
+  .legend { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; }
+  .leg { text-align:left; border:1px solid #ffffff22; background:#ffffff0d; color:#fff; border-radius:10px; padding:9px 11px; min-height:44px; }
+  .leg:hover { background:#ffffff1a; }
+  .leg.on { border-color:#fff; background:#ffffff26; }
+  .leg .k { display:flex; align-items:center; gap:6px; font-size:11px; color:#d6e9e0; font-weight:600; }
+  .leg .k i { width:9px; height:9px; border-radius:3px; flex-shrink:0; }
+  .leg .v { font-size:15px; font-weight:800; margin-top:2px; font-variant-numeric:tabular-nums; }
+  .leg .n { font-size:10px; color:#b4d9c8; }
+  .hidden-note { font-size:11px; color:#b4d9c8; margin-top:10px; }
+  .hidden-note button { background:none; border:0; color:#fff; text-decoration:underline; font-size:11px; padding:0; min-height:0; }
+
+  /* layout */
+  .layout { display:grid; grid-template-columns:minmax(0,1fr) 440px; gap:18px; align-items:start; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:var(--radius); }
+  .toolbar { padding:16px 16px 10px; margin-bottom:12px; }
+  .search { display:flex; align-items:center; gap:10px; border-bottom:1px solid var(--line); padding-bottom:6px; }
+  .search svg { width:20px; height:20px; color:var(--green); flex-shrink:0; }
+  .search input { flex:1; min-width:0; border:0; outline:none; font-size:17px; font-weight:600; padding:8px 0; background:transparent; min-height:44px; }
+  .search input:focus-visible { outline:none; }
+  .search:focus-within { border-bottom-color:var(--green); }
+  .chips { display:flex; gap:5px; overflow-x:auto; padding:10px 0 4px; scrollbar-width:thin; }
+  .chip-btn { flex-shrink:0; padding:9px 13px; min-height:40px; border:1px solid transparent; border-radius:8px; background:transparent; color:var(--dim); font-size:12px; font-weight:600; white-space:nowrap; }
+  .chip-btn:hover { background:var(--bg); }
+  .chip-btn.on { color:var(--green); background:var(--soft); border-color:#cce4d6; }
+  .chip-btn .cnt { font-weight:800; margin-left:4px; }
+  .tool-row { display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; padding-top:8px; }
+  .tool-row select { min-height:40px; border:1px solid #c8d6d0; border-radius:9px; background:#fff; padding:6px 10px; font-size:12px; font-weight:600; }
+  .tool-row .lbl { font-size:11px; color:var(--dim); display:flex; align-items:center; gap:8px; }
+
+  .cust-list { list-style:none; }
+  .cust { display:flex; align-items:stretch; gap:0; background:var(--card); border:1px solid var(--line); border-radius:14px; margin-bottom:8px; overflow:hidden; }
+  .cust.sel { border-color:var(--green); box-shadow:0 0 0 2px #086b5226; }
+  .cust-main { flex:1; min-width:0; display:flex; align-items:center; gap:12px; padding:13px 14px; background:none; border:0; text-align:left; min-height:64px; }
+  .cust-main:hover { background:#f8fbfa; }
+  .av { width:38px; height:38px; border-radius:12px; display:grid; place-items:center; font-weight:800; font-size:15px; flex-shrink:0; }
+  .cust-text { flex:1; min-width:0; }
+  .cust-name { font-weight:700; font-size:14px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .cust-sub { font-size:11px; color:var(--dim); margin-top:2px; display:flex; flex-wrap:wrap; gap:4px 8px; align-items:center; }
+  .amt { font-weight:800; font-size:15px; white-space:nowrap; font-variant-numeric:tabular-nums; text-align:right; }
+  .amt small { display:block; font-size:10px; font-weight:600; color:var(--dim); }
+  .quick { width:56px; flex-shrink:0; border:0; border-left:1px solid var(--line); background:#f6faf8; color:#128c4b; display:grid; place-items:center; }
+  .quick:hover { background:#e6f4ec; }
+  .quick svg { width:22px; height:22px; }
+  .quick.off { color:#a7b6b1; background:#fafbfb; }
+  .tag { display:inline-flex; align-items:center; gap:4px; font-size:10px; font-weight:700; border-radius:5px; padding:2px 6px; background:#eef2f0; color:var(--dim); white-space:nowrap; }
+  .tag.vendor { background:#efe9fb; color:#55358f; }
+  .tag.nophone { background:#fff1e6; color:#8d4510; }
+  .tag.done { background:var(--soft); color:var(--green); }
+  .tag.b0 { background:var(--b0-bg); color:var(--b0-ink); } .tag.b1 { background:var(--b1-bg); color:var(--b1-ink); }
+  .tag.b2 { background:var(--b2-bg); color:var(--b2-ink); } .tag.b3 { background:var(--b3-bg); color:var(--b3-ink); }
+  .ink0 { color:var(--b0-ink); } .ink1 { color:var(--b1-ink); } .ink2 { color:var(--b2-ink); } .ink3 { color:var(--b3-ink); }
+  .bg0 { background:var(--b0-bg); color:var(--b0-ink); } .bg1 { background:var(--b1-bg); color:var(--b1-ink); }
+  .bg2 { background:var(--b2-bg); color:var(--b2-ink); } .bg3 { background:var(--b3-bg); color:var(--b3-ink); }
+  .empty { text-align:center; color:var(--dim); padding:40px 20px; font-size:13px; }
+  .empty b { display:block; color:var(--txt); font-size:16px; margin-bottom:6px; }
+  .skel { height:64px; border-radius:14px; margin-bottom:8px; background:linear-gradient(90deg,#e9efed 0%,#f4f7f6 50%,#e9efed 100%); background-size:200% 100%; animation:sh 1.2s ease-in-out infinite; }
+  @keyframes sh { to { background-position:-200% 0; } }
+
+  /* detail */
+  .detail-col { position:sticky; top:16px; max-height:calc(100vh - 32px); overflow:auto; padding:20px; }
+  .placeholder { text-align:center; color:var(--dim); padding:50px 16px; font-size:13px; }
+  .placeholder .ph-icon { width:58px; height:58px; margin:0 auto 16px; border-radius:18px; display:grid; place-items:center; background:var(--soft); color:var(--green); }
+  .d-head { display:flex; align-items:flex-start; gap:10px; margin-bottom:14px; }
+  .d-head h2 { font-size:20px; letter-spacing:-.5px; line-height:1.3; word-break:break-word; }
+  .back { display:none; }
+  .due { border-radius:14px; padding:16px; margin-bottom:12px; }
+  .due .eyebrow { color:inherit; opacity:.8; }
+  .due .big { font-size:32px; margin:4px 0 2px; }
+  .due .m { font-size:12px; opacity:.85; }
+  .warn { background:#f3effb; border:1px solid #ddd2f3; color:#45297a; border-radius:10px; padding:10px 12px; font-size:12px; line-height:1.6; margin-bottom:12px; }
+  .warn.amber { background:#fff7e7; border-color:#eddec0; color:#6f4a10; }
+  .sec { margin-top:18px; }
+  .sec-title { font-size:10px; letter-spacing:1.4px; text-transform:uppercase; font-weight:800; color:var(--dim); margin-bottom:8px; display:flex; justify-content:space-between; align-items:center; }
+  .bill { display:flex; justify-content:space-between; align-items:center; gap:10px; padding:10px 0; border-bottom:1px solid var(--line); font-size:12px; }
+  .bill:last-child { border-bottom:0; }
+  .bill .bn { font-weight:700; }
+  .bill .bd { color:var(--dim); font-size:11px; }
+  .bill .ba { font-weight:800; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .seg { display:flex; gap:5px; margin-bottom:10px; flex-wrap:wrap; }
+  .seg button { flex:1; min-height:40px; border:1px solid var(--line); border-radius:9px; background:#fff; color:var(--dim); font-size:12px; font-weight:600; padding:6px 8px; }
+  .seg button.on { color:var(--green); background:var(--soft); border-color:#acd2bd; }
+  textarea { width:100%; min-height:190px; border:1px solid #c8d6d0; border-radius:10px; padding:11px 12px; font-size:13px; line-height:1.6; resize:vertical; background:#fff; }
+  textarea:focus { border-color:var(--green); outline:none; box-shadow:0 0 0 3px #0a715215; }
+  .phone-row { display:flex; gap:8px; margin-bottom:10px; }
+  .phone-row input { flex:1; min-width:0; min-height:44px; border:1px solid #c8d6d0; border-radius:10px; padding:10px 12px; font-size:15px; }
+  .helper { font-size:11px; color:var(--dim); line-height:1.6; margin-top:6px; }
+  .actions { display:grid; grid-template-columns:1fr auto auto auto; gap:8px; margin-top:10px; }
+  .log { font-size:11px; color:var(--dim); margin-top:10px; line-height:1.7; }
+  .pay { display:flex; justify-content:space-between; gap:10px; padding:9px 0; border-bottom:1px solid var(--line); font-size:12px; }
+  .pay:last-child { border-bottom:0; }
+  .pay .pa { font-weight:800; color:var(--green); white-space:nowrap; }
+  .muted { color:var(--dim); font-size:12px; }
+  .queue { display:flex; align-items:center; gap:8px; flex-wrap:wrap; background:var(--soft); border:1px solid #cce4d6; border-radius:12px; padding:10px 12px; margin-bottom:14px; }
+  .queue .qt { flex:1; min-width:120px; font-size:12px; font-weight:700; color:var(--green); }
+  .queue .btn { min-height:40px; padding:8px 12px; }
+
+  /* lock + setup */
+  .lock { min-height:80vh; display:grid; place-items:center; }
+  .lock-card { width:100%; max-width:380px; padding:30px 26px; text-align:center; }
+  .lock-card .brand-mark { margin:0 auto 16px; }
+  .lock-card h1 { margin-bottom:4px; }
+  .lock-card input { width:100%; min-height:52px; border:1px solid #c8d6d0; border-radius:12px; padding:12px 14px; font-size:22px; letter-spacing:6px; text-align:center; margin:22px 0 12px; }
+  .lock-card .btn { width:100%; min-height:50px; font-size:14px; }
+  .lock-err { min-height:20px; font-size:12px; color:#9a3020; margin-top:10px; }
+  .setup { text-align:left; max-width:560px; padding:26px; }
+  .setup h2 { font-size:20px; margin-bottom:8px; }
+  .setup ol { padding-left:20px; font-size:13px; line-height:1.8; margin-top:10px; }
+  .setup code { font-family:ui-monospace,Menlo,monospace; font-size:12px; background:var(--bg); border:1px solid var(--line); border-radius:5px; padding:1px 5px; }
+
+  dialog { border:0; border-radius:var(--radius); padding:0; width:min(440px, calc(100vw - 32px)); box-shadow:0 20px 60px #0b2a2233; color:var(--txt); }
+  dialog::backdrop { background:#0b2a2255; }
+  .dlg { padding:22px; }
+  .dlg h2 { font-size:18px; margin-bottom:14px; }
+  .field { margin-bottom:14px; }
+  .field label { display:block; font-size:12px; font-weight:700; margin-bottom:6px; }
+  .field input { width:100%; min-height:44px; border:1px solid #c8d6d0; border-radius:10px; padding:10px 12px; font-size:14px; }
+  .dlg-actions { display:flex; gap:8px; justify-content:flex-end; margin-top:18px; flex-wrap:wrap; }
+  .toast { position:fixed; left:50%; bottom:calc(20px + env(safe-area-inset-bottom)); transform:translateX(-50%); background:var(--deep); color:#fff; padding:11px 16px; border-radius:10px; font-size:12px; font-weight:600; z-index:90; box-shadow:0 8px 24px #0b2a2240; max-width:calc(100vw - 32px); }
+  .sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+
+  @media (max-width: 900px) {
+    /* iPhone zooms into any field under 16px when it is focused. */
+    input:not([type=checkbox]), textarea, select { font-size:16px !important; }
+    textarea { min-height:160px; }
+    .layout { grid-template-columns:minmax(0,1fr); }
+    .detail-col { display:none; position:fixed; inset:0; z-index:70; max-height:none; border-radius:0; border:0; padding:calc(14px + env(safe-area-inset-top)) 16px calc(24px + env(safe-area-inset-bottom)); overflow:auto; overscroll-behavior:contain; -webkit-overflow-scrolling:touch; }
+    .detail-col.open { display:block; }
+    .back { display:inline-flex; }
+    body.sheet-open { overflow:hidden; }
+  }
+  @media (max-width: 560px) {
+    body { padding-top:16px; }
+    .big { font-size:34px; }
+    .legend { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    .top-actions .btn .t { display:none; }
+    .actions { grid-template-columns:1fr 1fr 1fr; }
+    .actions .btn.wa { grid-column:1 / -1; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <!-- PIN / setup -->
+  <div class="lock" id="lock">
+    <form class="card lock-card" id="lock-form" autocomplete="off">
+      <div class="brand-mark" aria-hidden="true">₹</div>
+      <h1>RT Khata</h1>
+      <div class="sub">Udhaar aur payment reminders · Staff only</div>
+      <label class="sr-only" for="pin">Staff PIN</label>
+      <input id="pin" type="password" inputmode="numeric" placeholder="PIN" autocomplete="off" required>
+      <button class="btn primary" type="submit" id="pin-btn">Kholo</button>
+      <div class="lock-err" id="lock-err" role="status" aria-live="polite"></div>
+    </form>
+    <div class="card setup" id="setup" hidden>
+      <h2>Khata abhi NiryatBooks se connect nahi hai</h2>
+      <p class="muted">Ye ek baar ka setup hai. Netlify par is site ki settings mein ye environment variables daalni hain:</p>
+      <ol id="setup-list"></ol>
+      <p class="helper">Token kabhi is page par ya WhatsApp par mat daaliye — sirf Netlify settings mein.</p>
+    </div>
+  </div>
+
+  <!-- App -->
+  <div id="app" hidden>
+    <header class="top">
+      <div class="brand"><div class="brand-mark" aria-hidden="true">RT</div><div>
+        <h1>Khata</h1>
+        <div class="sub">Udhaar & payment reminders · Rajdhani Telecom</div>
+      </div></div>
+      <div class="top-actions">
+        <span class="live" id="live" role="status" aria-live="polite"><span class="dot"></span><span id="live-txt">Connecting…</span></span>
+        <button class="btn" id="refresh" type="button" title="Refresh from NiryatBooks"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 4v7h-7"/></svg><span class="t">Refresh</span></button>
+        <button class="btn" id="settings-btn" type="button" title="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg><span class="t">Settings</span></button>
+        <a class="btn" href="https://rt-buyback-tool.netlify.app/" title="Buyback tool"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg><span class="t">Buyback</span></a>
+      </div>
+    </header>
+
+    <div id="notice"></div>
+    <section class="summary" id="summary" aria-label="Total to collect"></section>
+
+    <div class="layout">
+      <section aria-label="Customers">
+        <div class="card toolbar">
+          <div class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+            <label class="sr-only" for="q">Customer search</label>
+            <input id="q" type="search" placeholder="Customer ya bill number dhoondhein…" autocomplete="off"></div>
+          <div class="chips" id="chips" role="group" aria-label="Filter"></div>
+          <div class="tool-row">
+            <label class="lbl" for="sort">Sort
+              <select id="sort">
+                <option value="amount">Sabse zyada baaki</option>
+                <option value="oldest">Sabse purana pehle</option>
+                <option value="name">Naam (A–Z)</option>
+              </select></label>
+            <button class="btn" id="queue-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h7"/><path d="m16 15 3 3-3 3"/></svg><span id="queue-lbl">Reminder line</span></button>
+          </div>
+        </div>
+        <ul class="cust-list" id="list" aria-live="polite"></ul>
+      </section>
+      <aside class="card detail-col" id="detail" aria-label="Customer detail"></aside>
+    </div>
+  </div>
+</div>
+
+<dialog id="settings">
+  <form class="dlg" method="dialog" id="settings-form">
+    <h2>Settings</h2>
+    <div class="field"><label for="s-upi">Shop UPI ID (message mein jayega)</label><input id="s-upi" placeholder="rajdhanitelecom@ybl" autocomplete="off"></div>
+    <div class="field"><label for="s-phone">Shop phone (message mein jayega)</label><input id="s-phone" inputmode="tel" placeholder="98xxxxxxxx" autocomplete="off"></div>
+    <div class="field"><label for="s-min">Itne se kam baaki ho to chhupao (₹ round-off)</label><input id="s-min" type="number" min="0" step="1" inputmode="numeric"></div>
+    <p class="helper">Ye settings sirf is phone/computer par save hoti hain. Staff ke daale hue customer numbers aur "yaad dilaya" log bhi sirf isi device par rehte hain.</p>
+    <div class="dlg-actions">
+      <button class="btn" type="button" id="s-clear">Is device ka data mitao</button>
+      <button class="btn" value="cancel" formnovalidate>Band karo</button>
+      <button class="btn primary" value="save" id="s-save">Save</button>
+    </div>
+  </form>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script>
+(() => {
+  "use strict";
+  const API = "/api/khata";
+  const PIN_KEY = "rt_khata_pin_v1";
+  const LS = { reminders: "rt_khata_reminders_v1", phones: "rt_khata_phones_v1", settings: "rt_khata_settings_v1" };
+  const REFRESH_MS = 5 * 60_000, STALE_MS = 10 * 60_000, DETAIL_TTL_MS = 5 * 60_000;
+  const BUCKETS = [
+    { id: "0-30", label: "0–30 din", cls: 0 },
+    { id: "31-60", label: "31–60 din", cls: 1 },
+    { id: "61-90", label: "61–90 din", cls: 2 },
+    { id: "90+", label: "90+ din", cls: 3 },
+  ];
+  const TONES = { narm: "Narm", yaad: "Yaad dilao", sakht: "Sakht" };
+
+  // ---------- storage (every access guarded) ----------
+  const store = {
+    get(k, fallback) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : fallback; } catch { return fallback; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+    del(k) { try { localStorage.removeItem(k); } catch {} },
+  };
+  const session = {
+    get(k) { try { return sessionStorage.getItem(k); } catch { return null; } },
+    set(k, v) { try { sessionStorage.setItem(k, v); } catch {} },
+    del(k) { try { sessionStorage.removeItem(k); } catch {} },
+  };
+
+  // ---------- state ----------
+  const S = {
+    pin: session.get(PIN_KEY) || "",
+    data: null, fetchedAt: 0, loading: false, error: null,
+    contacts: {}, details: {},
+    q: "", filter: "all", sort: "amount", selected: null, tone: null, draft: {},
+    queue: null,
+    reminders: store.get(LS.reminders, {}),
+    phones: store.get(LS.phones, {}),
+    settings: Object.assign({ upi: "", shopPhone: "", minAmount: 50 }, store.get(LS.settings, {})),
+  };
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const inr = (n, exact) => "₹" + Number(exact ? n : Math.round(n || 0)).toLocaleString("en-IN", exact ? { minimumFractionDigits: 0, maximumFractionDigits: 2 } : { maximumFractionDigits: 0 });
+  const bucketOf = (days) => days > 90 ? 3 : days > 60 ? 2 : days > 30 ? 1 : 0;
+  const nowYear = new Date().getFullYear();
+  function fmtDate(d) {
+    if (!d) return "";
+    const dt = new Date(String(d).slice(0, 10) + "T00:00:00");
+    if (isNaN(dt)) return String(d);
+    const o = { day: "numeric", month: "short" };
+    if (dt.getFullYear() !== nowYear) o.year = "numeric";
+    return dt.toLocaleDateString("en-IN", o);
+  }
+  function ago(ts) {
+    const s = Math.max(0, Math.round((Date.now() - ts) / 1000));
+    if (s < 45) return "abhi";
+    const m = Math.round(s / 60); if (m < 60) return `${m} min pehle`;
+    const h = Math.round(m / 60); if (h < 24) return `${h} ghante pehle`;
+    const d = Math.round(h / 24); return d === 1 ? "kal" : `${d} din pehle`;
+  }
+  function normalizePhone(raw) {
+    if (!raw) return null;
+    for (const p of String(raw).split(/[\/,;|]| or /i)) {
+      let d = p.replace(/\D/g, "");
+      if (d.length === 12 && d.startsWith("91")) d = d.slice(2);
+      else if (d.length === 11 && d.startsWith("0")) d = d.slice(1);
+      if (/^[6-9]\d{9}$/.test(d)) return d;
+    }
+    return null;
+  }
+  function toast(msg) {
+    const t = $("toast"); t.textContent = msg; t.hidden = false;
+    clearTimeout(toast._t); toast._t = setTimeout(() => { t.hidden = true; }, 2600);
+  }
+
+  // ---------- API ----------
+  const ERR = {
+    bad_pin: "Galat PIN. Dobara try karein.",
+    locked: "Bahut baar galat PIN — thodi der baad try karein.",
+    nb_unauthorized: "NiryatBooks ne token mana kar diya (badla ya expire ho gaya). Netlify mein NB_RT_TOKEN naya daalna hoga.",
+    nb_rate_limited: "NiryatBooks abhi busy hai (1 minute ki limit). Ek minute baad refresh karein.",
+    nb_unreachable: "NiryatBooks se connect nahi ho paya. Internet check karke refresh karein.",
+    nb_error: "NiryatBooks se data lene mein dikkat aayi. Refresh karein.",
+    server_error: "Khata server mein dikkat aayi. Refresh karein.",
+    network: "Internet nahi hai ya khata server tak nahi pahunch paye.",
+  };
+  class ApiError extends Error { constructor(code, info) { super(code); this.code = code; this.info = info || {}; } }
+
+  async function api(action, payload = {}, pin = S.pin) {
+    let res;
+    try {
+      res = await fetch(API, {
+        method: "POST", cache: "no-store",
+        headers: { "Content-Type": "application/json", "X-Khata-Pin": pin },
+        body: JSON.stringify({ action, ...payload }),
+      });
+    } catch { throw new ApiError("network"); }
+    let body = {};
+    try { body = await res.json(); } catch {}
+    if (!res.ok) throw new ApiError(body.error || "server_error", body);
+    return body;
+  }
+
+  // ---------- lock / setup ----------
+  function showSetup(missing) {
+    $("lock-form").hidden = true;
+    $("setup").hidden = false;
+    const items = {
+      NB_RT_TOKEN: "<code>NB_RT_TOKEN</code> — NiryatBooks (Rajdhani Telecom) ka MCP token. Ek viewer-level user ke liye banayein, admin ke liye nahi.",
+      KHATA_PIN: "<code>KHATA_PIN</code> — staff PIN, kam se kam 6 digit.",
+    };
+    $("setup-list").innerHTML = (missing || Object.keys(items)).map((k) => `<li>${items[k] || esc(k)}</li>`).join("") +
+      "<li>Optional: <code>RT_UPI_ID</code> aur <code>RT_SHOP_PHONE</code> — reminder message mein jaate hain.</li><li>Phir site ko dobara deploy karein aur ye page reload karein.</li>";
+  }
+  function lockError(code, info) {
+    if (code === "not_configured") return showSetup(info.missing);
+    let msg = ERR[code] || ERR.server_error;
+    if (code === "locked" && info.retry_after_s) msg = `Bahut baar galat PIN — ${Math.ceil(info.retry_after_s / 60)} min baad try karein.`;
+    $("lock-err").textContent = msg;
+  }
+  async function unlock(pin) {
+    $("pin-btn").disabled = true; $("lock-err").textContent = "Check ho raha hai…";
+    try {
+      await api("ping", {}, pin);
+      S.pin = pin; session.set(PIN_KEY, pin);
+      $("lock").hidden = true; $("app").hidden = false; $("lock-err").textContent = "";
+      load();
+    } catch (e) {
+      session.del(PIN_KEY); S.pin = "";
+      lockError(e.code, e.info);
+      $("pin").value = ""; $("pin").focus();
+    } finally { $("pin-btn").disabled = false; }
+  }
+  $("lock-form").addEventListener("submit", (e) => { e.preventDefault(); const p = $("pin").value.trim(); if (p) unlock(p); });
+  function relock(code) {
+    session.del(PIN_KEY); S.pin = "";
+    $("app").hidden = true; $("lock").hidden = false; $("lock-form").hidden = false;
+    lockError(code, {});
+  }
+
+  // ---------- loading ----------
+  async function load() {
+    if (S.loading) return;
+    S.loading = true; renderLive();
+    if (!S.data) renderSkeleton();
+    try {
+      const d = await api("summary");
+      S.data = d; S.fetchedAt = Date.now(); S.error = null;
+      if (d.shop) {
+        if (!S.settings.upi && d.shop.upi) S.settings.upi = d.shop.upi;
+        if (!S.settings.shopPhone && d.shop.phone) S.settings.shopPhone = d.shop.phone;
+      }
+      S.details = {};
+      if (S.selected && !byKey(S.selected)) { S.selected = null; S.queue = null; }
+      renderAll();
+      if (S.selected) loadDetail(byKey(S.selected));
+      enrichContacts();
+    } catch (e) {
+      if (e.code === "bad_pin" || e.code === "locked") return relock(e.code);
+      S.error = e.code; renderAll();
+    } finally { S.loading = false; renderLive(); }
+  }
+
+  // Phone / vendor flags for every customer on the list, a few names per call.
+  let enriching = false;
+  async function enrichContacts() {
+    if (enriching || !S.data) return;
+    enriching = true;
+    try {
+      const pending = S.data.customers.map((c) => c.name).filter((n) => !S.contacts[n]);
+      for (let i = 0; i < pending.length; i += 10) {
+        const batch = pending.slice(i, i + 10);
+        const r = await api("contacts", { names: batch });
+        Object.assign(S.contacts, r.contacts || {});
+        renderList(); renderChips();
+        if (S.selected) renderDetail();
+        await new Promise((ok) => setTimeout(ok, 400));
+      }
+    } catch (e) {
+      if (e.code === "bad_pin" || e.code === "locked") return relock(e.code);
+      // Phone flags are a convenience; the list stays usable without them.
+    } finally { enriching = false; }
+  }
+
+  async function loadDetail(c) {
+    const cached = S.details[c.key];
+    if (cached && (cached.loading || Date.now() - cached.at < DETAIL_TTL_MS)) return;
+    S.details[c.key] = { loading: true, at: Date.now() };
+    renderDetail();
+    try {
+      const r = await api("customer", { name: c.name, bills: c.bills.map((b) => b.number) });
+      S.details[c.key] = { ...r, at: Date.now() };
+      if (r.contact) S.contacts[c.name] = { found: true, phone: r.contact.phone, is_vendor: r.contact.is_vendor, matches: r.ambiguous ? 2 : 1 };
+    } catch (e) {
+      if (e.code === "bad_pin" || e.code === "locked") return relock(e.code);
+      S.details[c.key] = { error: e.code, at: Date.now() };
+    }
+    if (S.selected === c.key) renderDetail();
+    renderList();
+  }
+
+  // ---------- derived ----------
+  function phoneFor(c) {
+    const local = S.phones[c.key];
+    if (local) return { phone: local, source: "local" };
+    const info = S.contacts[c.name];
+    if (info && info.phone) return { phone: info.phone, source: "nb" };
+    return { phone: null, source: info ? "none" : "unknown" };
+  }
+  function lastReminder(c) { const l = S.reminders[c.key]; return l && l.length ? l[l.length - 1] : null; }
+  function visibleCustomers() {
+    if (!S.data) return [];
+    const min = Number(S.settings.minAmount) || 0;
+    return S.data.customers.filter((c) => c.total >= min);
+  }
+  function matchesFilter(c, f) {
+    if (f === "all") return true;
+    if (f === "nophone") return !phoneFor(c).phone;
+    if (f === "notreminded") { const r = lastReminder(c); return !r || Date.now() - Date.parse(r.at) > 7 * 86400_000; }
+    const b = BUCKETS.find((x) => x.id === f);
+    return b ? bucketOf(c.oldest_days) === b.cls : true;
+  }
+  function filtered() {
+    const q = S.q.trim().toLowerCase();
+    let list = visibleCustomers().filter((c) => matchesFilter(c, S.filter));
+    if (q) list = list.filter((c) => c.name.toLowerCase().includes(q) || c.bills.some((b) => String(b.number).toLowerCase().includes(q)));
+    const by = {
+      amount: (a, b) => b.total - a.total,
+      oldest: (a, b) => b.oldest_days - a.oldest_days || b.total - a.total,
+      name: (a, b) => a.name.localeCompare(b.name),
+    }[S.sort];
+    return list.sort(by);
+  }
+  const byKey = (k) => S.data?.customers.find((c) => c.key === k) || null;
+
+  // ---------- messages ----------
+  function greetName(name) {
+    let n = String(name)
+      .replace(/\(.*?\)/g, " ")
+      .replace(/\s\/.*$/, " ")
+      .replace(/\b(mbd|moradabad)\b[.\s]*$/i, "")
+      .replace(/[.\s]+$/, "")
+      .replace(/\s+/g, " ").trim();
+    if (n && n === n.toUpperCase()) n = n.toLowerCase().replace(/\b\w/g, (ch) => ch.toUpperCase());
+    return n || String(name).trim();
+  }
+  function autoTone(c) { return c.oldest_days > 90 ? "sakht" : c.oldest_days > 30 ? "yaad" : "narm"; }
+  function buildMessage(c, tone) {
+    const name = greetName(c.name), amt = inr(c.total), days = c.oldest_days;
+    const bills = c.bills.length <= 3
+      ? c.bills.map((b) => `• Bill ${b.number} (${fmtDate(b.date)}) — ${inr(b.amount)}`).join("\n")
+      : `• ${c.bills.length} bills, sabse purana ${fmtDate(c.bills[0].date)} ka`;
+    const upi = S.settings.upi ? `\nUPI: ${S.settings.upi}` : "";
+    const shop = S.settings.shopPhone ? `\nShop: ${S.settings.shopPhone}` : "";
+    if (tone === "narm") return `Namaste ${name} ji,\nRajdhani Telecom se ek chhoti si yaad — aapka ${amt} baaki hai.\n${bills}\nJab suvidha ho, payment kar dijiye.${upi}\nShukriya 🙏\n— Rajdhani Telecom, Moradabad${shop}`;
+    if (tone === "yaad") return `Namaste ${name} ji,\nAapka ${amt} ka payment ${days} din se pending hai.\n${bills}\nKripya is hafte clear kar dein.${upi}\nShukriya\n— Rajdhani Telecom, Moradabad${shop}`;
+    return `${name} ji,\nRajdhani Telecom ka ${amt} pichhle ${days} din se baaki hai.\n${bills}\nKripya 3 din ke andar payment karein, ya shop par aakar baat karein.${upi}\n— Rajdhani Telecom, Moradabad${shop}`;
+  }
+  const waLink = (phone, msg) => `https://wa.me/91${phone}?text=${encodeURIComponent(msg)}`;
+  const smsLink = (phone, msg) => `sms:+91${phone}?&body=${encodeURIComponent(msg)}`;
+
+  function logReminder(c, ch) {
+    const list = S.reminders[c.key] || [];
+    list.push({ at: new Date().toISOString(), ch, amt: Math.round(c.total) });
+    S.reminders[c.key] = list.slice(-10);
+    store.set(LS.reminders, S.reminders);
+  }
+
+  // ---------- render ----------
+  function renderAll() { renderNotice(); renderSummary(); renderChips(); renderList(); renderDetail(); renderQueueBtn(); }
+
+  function renderLive() {
+    const el = $("live"), txt = $("live-txt"), btn = $("refresh");
+    btn.querySelector("svg").classList.toggle("spin", S.loading);
+    btn.disabled = S.loading;
+    el.className = "live";
+    if (S.loading && !S.data) { txt.textContent = "NiryatBooks se la rahe hain…"; return; }
+    if (S.error && !S.data) { el.classList.add("err"); txt.textContent = "Connect nahi hua"; return; }
+    if (!S.fetchedAt) { txt.textContent = "—"; return; }
+    const stale = Date.now() - S.fetchedAt > STALE_MS || S.error;
+    el.classList.add(stale ? "stale" : "ok");
+    txt.textContent = `${stale ? "Purana data" : "Live"} · NB RT · ${ago(S.fetchedAt)}`;
+  }
+
+  function renderNotice() {
+    const n = $("notice");
+    if (!S.error) { n.innerHTML = ""; return; }
+    n.innerHTML = `<div class="notice err" role="alert">${esc(ERR[S.error] || ERR.server_error)}${S.data ? " Neeche pichhla data dikh raha hai." : ""}</div>`;
+  }
+
+  function renderSkeleton() {
+    $("summary").innerHTML = `<div class="eyebrow">Aapko milenge</div><div class="big">…</div><div class="sum-meta">NiryatBooks se live data aa raha hai</div>`;
+    $("list").innerHTML = Array.from({ length: 6 }, () => `<li class="skel" aria-hidden="true"></li>`).join("");
+    $("detail").innerHTML = placeholderHtml();
+  }
+
+  function renderSummary() {
+    const d = S.data, el = $("summary");
+    if (!d) { if (S.error) el.innerHTML = `<div class="eyebrow">Aapko milenge</div><div class="big">—</div><div class="sum-meta">Data nahi mila</div>`; return; }
+    const vis = visibleCustomers();
+    // Grouped by each customer's oldest bill, so a tile's amount and count
+    // match the list that tile filters to.
+    const sums = BUCKETS.map(() => ({ amt: 0, n: 0 }));
+    for (const c of vis) { const i = bucketOf(c.oldest_days); sums[i].amt += c.total; sums[i].n++; }
+    const visTotal = sums.reduce((a, s) => a + s.amt, 0) || 1;
+    const hidden = d.customers.filter((c) => c.total < (Number(S.settings.minAmount) || 0));
+    const hiddenAmt = hidden.reduce((a, c) => a + c.total, 0);
+    el.innerHTML = `
+      <div class="sum-row"><div>
+        <div class="eyebrow">Aapko milenge</div>
+        <div class="big">${inr(d.total)}</div>
+        <div class="sum-meta">${vis.length} customers · ${d.bill_count} bills · NiryatBooks ${esc(fmtDate(d.as_of))} tak</div>
+      </div></div>
+      <div class="agebar" role="img" aria-label="Purane baaki ka hissa">${sums.map((s, i) => s.amt > 0 ? `<span style="width:${(s.amt / visTotal * 100).toFixed(2)}%;background:var(--b${i})" title="${BUCKETS[i].label}: ${inr(s.amt)}"></span>` : "").join("")}</div>
+      <div class="legend">${BUCKETS.map((b, i) => `
+        <button class="leg ${S.filter === b.id ? "on" : ""}" type="button" data-filter="${b.id}" aria-pressed="${S.filter === b.id}">
+          <span class="k"><i style="background:var(--b${i})"></i>${b.label}</span>
+          <span class="v">${inr(sums[i].amt)}</span>
+          <span class="n">${sums[i].n} customer${sums[i].n === 1 ? "" : "s"}</span>
+        </button>`).join("")}</div>
+      ${hidden.length ? `<div class="hidden-note">${hidden.length} chhote round-off (${inr(hiddenAmt, true)}) list se chhupaye hain · <button type="button" id="show-small">dikhao</button></div>` : ""}`;
+  }
+
+  function renderChips() {
+    const vis = visibleCustomers();
+    const count = (f) => vis.filter((c) => matchesFilter(c, f)).length;
+    const chips = [["all", "Sab"], ["90+", "90+ din"], ["61-90", "61–90"], ["31-60", "31–60"], ["0-30", "0–30"], ["nophone", "Number nahi"], ["notreminded", "7 din se yaad nahi"]];
+    $("chips").innerHTML = chips.map(([f, l]) => `<button class="chip-btn ${S.filter === f ? "on" : ""}" type="button" data-filter="${f}" aria-pressed="${S.filter === f}">${l}<span class="cnt">${S.data ? count(f) : ""}</span></button>`).join("");
+  }
+
+  function renderQueueBtn() {
+    const n = filtered().length;
+    $("queue-lbl").textContent = S.queue ? "Reminder line chal rahi hai" : `Reminder line (${n})`;
+    $("queue-btn").disabled = !n && !S.queue;
+  }
+
+  const WA_ICON = `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>`;
+
+  function rowHtml(c) {
+    const b = bucketOf(c.oldest_days), ph = phoneFor(c), info = S.contacts[c.name], last = lastReminder(c);
+    const tags = [];
+    tags.push(`<span class="tag b${b}">${c.oldest_days} din</span>`);
+    tags.push(`<span>${c.bills.length} bill${c.bills.length === 1 ? "" : "s"}</span>`);
+    if (info && info.is_vendor) tags.push(`<span class="tag vendor">Vendor bhi</span>`);
+    if (!ph.phone && ph.source === "none") tags.push(`<span class="tag nophone">Number nahi</span>`);
+    if (last) tags.push(`<span class="tag done">Yaad dilaya ${esc(ago(Date.parse(last.at)))}</span>`);
+    const initial = esc((greetName(c.name)[0] || "?").toUpperCase());
+    const quick = ph.phone
+      ? `<a class="quick" href="${esc(waLink(ph.phone, buildMessage(c, autoTone(c))))}" target="_blank" rel="noopener" data-quick="${esc(c.key)}" aria-label="${esc(c.name)} ko WhatsApp reminder">${WA_ICON}</a>`
+      : `<button class="quick off" type="button" data-open="${esc(c.key)}" aria-label="${esc(c.name)} — number daalein">${WA_ICON}</button>`;
+    return `<li class="cust ${S.selected === c.key ? "sel" : ""}">
+      <button class="cust-main" type="button" data-open="${esc(c.key)}">
+        <span class="av bg${b}" aria-hidden="true">${initial}</span>
+        <span class="cust-text"><span class="cust-name">${esc(c.name)}</span><span class="cust-sub">${tags.join("")}</span></span>
+        <span class="amt ink${b}">${inr(c.total)}</span>
+      </button>${quick}</li>`;
+  }
+
+  function renderList() {
+    const el = $("list");
+    if (!S.data) { if (S.error) el.innerHTML = `<li class="empty"><b>Data nahi aaya</b>${esc(ERR[S.error] || ERR.server_error)}</li>`; return; }
+    const list = filtered();
+    if (!S.data.customers.length) { el.innerHTML = `<li class="empty"><b>Sab clear!</b>NiryatBooks mein kisi customer ka udhaar baaki nahi hai.</li>`; return; }
+    if (!list.length) { el.innerHTML = `<li class="empty"><b>Koi customer nahi mila</b>Search ya filter badal kar dekhiye.</li>`; return; }
+    el.innerHTML = list.map(rowHtml).join("");
+    renderQueueBtn();
+  }
+
+  function placeholderHtml() {
+    return `<div class="placeholder"><div class="ph-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg></div>
+      Customer chuniye — uske baaki bills, payments aur WhatsApp reminder yahan dikhenge.</div>`;
+  }
+
+  function renderDetail() {
+    const el = $("detail");
+    const c = S.selected && byKey(S.selected);
+    if (!c) { el.innerHTML = placeholderHtml(); el.classList.remove("open"); document.body.classList.remove("sheet-open"); return; }
+    const b = bucketOf(c.oldest_days), ph = phoneFor(c), info = S.contacts[c.name], det = S.details[c.key] || {};
+    const tone = S.tone || autoTone(c);
+    const msg = S.draft[c.key + "|" + tone] ?? buildMessage(c, tone);
+    const log = (S.reminders[c.key] || []).slice().reverse();
+    const q = S.queue;
+    const phoneLine = ph.phone
+      ? `${ph.phone.replace(/(\d{5})(\d{5})/, "$1 $2")} · ${ph.source === "local" ? "is device par save" : "NiryatBooks se"}`
+      : (ph.source === "unknown" ? "Number check ho raha hai…" : "NiryatBooks mein number nahi hai");
+
+    let vendorWarn = "";
+    if ((det.contact && det.contact.is_vendor) || (info && info.is_vendor)) {
+      vendorWarn = `<div class="warn">Ye contact vendor bhi hai — RT ko inhe bhi paisa dena ho sakta hai (contra). Reminder bhejne se pehle NiryatBooks mein net hisaab dekh lijiye.</div>`;
+    }
+    let paidWarn = "";
+    if (det.invoices && det.invoices.length) {
+      const open = new Set(c.bills.map((x) => x.number));
+      const mismatch = det.invoices.filter((i) => open.has(i.number) && i.payment_status === "paid").map((i) => i.number);
+      if (mismatch.length) paidWarn = `<div class="warn amber">NiryatBooks mein ${esc(mismatch.join(", "))} “paid” mark hai, lekin aging mein abhi bhi baaki dikh raha hai. Payment allocation check kar lijiye.</div>`;
+    }
+    const ambiguous = det.ambiguous ? `<div class="warn amber">NiryatBooks mein is naam ke ek se zyada contact hain. Number sahi hai ya nahi, confirm kar lijiye.</div>` : "";
+
+    let history = "";
+    if (det.loading) history = `<div class="muted">NiryatBooks se payments la rahe hain…</div>`;
+    else if (det.error) history = `<div class="muted">${esc(ERR[det.error] || ERR.server_error)}</div>`;
+    else if (det.payments) {
+      history = det.payments.length
+        ? det.payments.map((p) => `<div class="pay"><span>${esc(fmtDate(p.date))} · ${esc(String(p.mode || "").replace(/_/g, " "))}${p.reference ? ` <span class="muted">· ${esc(p.reference)}</span>` : ""}</span><span class="pa">+ ${inr(p.amount, true)}</span></div>`).join("")
+        : `<div class="muted">Is contact se koi payment record nahi mila.</div>`;
+    }
+    let invoices = "";
+    if (det.invoices && det.invoices.length) {
+      invoices = `<details class="sec"><summary class="sec-title" style="cursor:pointer">Pichhle bills (NiryatBooks) <span>${det.invoices.length}</span></summary>${det.invoices.map((i) => `<div class="pay"><span>${esc(i.number)} · ${esc(fmtDate(i.date))} <span class="muted">· ${esc(i.payment_status || "")}</span></span><span>${inr(i.total, true)}</span></div>`).join("")}</details>`;
+    }
+
+    const disabled = ph.phone ? "" : ' aria-disabled="true" tabindex="-1"';
+    el.innerHTML = `
+      ${q ? `<div class="queue"><span class="qt">Reminder line · ${q.idx + 1} / ${q.keys.length}</span>
+        <button class="btn" type="button" data-q="skip">Chhodo</button>
+        <button class="btn primary" type="button" data-q="next">${q.idx + 1 < q.keys.length ? "Agla →" : "Khatam"}</button>
+        <button class="btn" type="button" data-q="stop" aria-label="Reminder line band karo">✕</button></div>` : ""}
+      <div class="d-head">
+        <button class="btn back" type="button" data-close aria-label="Wapas list par">←</button>
+        <div style="min-width:0"><h2>${esc(c.name)}</h2><div class="sub">${esc(phoneLine)}</div></div>
+      </div>
+      <div class="due bg${b}">
+        <div class="eyebrow">Lena hai</div>
+        <div class="big">${inr(c.total, true)}</div>
+        <div class="m">${c.bills.length} bill${c.bills.length === 1 ? "" : "s"} · sabse purana ${c.oldest_days} din</div>
+      </div>
+      ${vendorWarn}${paidWarn}${ambiguous}
+      <div class="sec"><div class="sec-title">Reminder bhejo</div>
+        ${ph.phone && ph.source === "nb" ? `<details style="margin:-6px 0 8px"><summary class="helper" style="min-height:32px;padding:6px 0">Number galat hai? Doosra daalein</summary>
+          <div class="phone-row"><label class="sr-only" for="ph-in">WhatsApp number</label>
+            <input id="ph-in" inputmode="numeric" maxlength="16" placeholder="10-digit WhatsApp number" autocomplete="off">
+            <button class="btn" type="button" data-savephone>Save</button></div></details>` : `
+          <div class="phone-row"><label class="sr-only" for="ph-in">WhatsApp number</label>
+            <input id="ph-in" inputmode="numeric" maxlength="16" placeholder="10-digit WhatsApp number" value="${esc(ph.source === "local" ? ph.phone : "")}" autocomplete="off">
+            <button class="btn" type="button" data-savephone>${ph.source === "local" ? "Badlo" : "Save"}</button></div>
+          ${ph.source === "local" ? "" : `<div class="helper" style="margin:-4px 0 10px">Number sirf isi device par save hoga — NiryatBooks contact mein bhi daal dijiye taaki sab staff ko mile.</div>`}`}
+        <div class="seg" role="group" aria-label="Message ka tone">${Object.entries(TONES).map(([k, l]) => `<button type="button" class="${tone === k ? "on" : ""}" data-tone="${k}" aria-pressed="${tone === k}">${l}</button>`).join("")}</div>
+        <label class="sr-only" for="msg">Message</label>
+        <textarea id="msg">${esc(msg)}</textarea>
+        <div class="actions">
+          <a class="btn wa" id="send-wa" href="${ph.phone ? esc(waLink(ph.phone, msg)) : "#"}" target="_blank" rel="noopener"${disabled}>${WA_ICON.replace("<svg", '<svg width="18" height="18"')} WhatsApp par bhejo</a>
+          <a class="btn" id="send-sms" href="${ph.phone ? esc(smsLink(ph.phone, msg)) : "#"}"${disabled}>SMS</a>
+          <a class="btn" id="call" href="${ph.phone ? `tel:+91${ph.phone}` : "#"}"${disabled}>Call</a>
+          <button class="btn" type="button" id="copy">Copy</button>
+        </div>
+        <div class="log">${log.length ? log.map((r) => `Yaad dilaya ${esc(ago(Date.parse(r.at)))} · ${esc(r.ch)} · ${inr(r.amt)}`).join("<br>") : "Is device se abhi tak koi reminder nahi bheja."}</div>
+      </div>
+      <div class="sec"><div class="sec-title">Baaki bills</div>
+        ${c.bills.map((x) => `<div class="bill"><div><div class="bn">${esc(x.number)}</div><div class="bd">${esc(fmtDate(x.date))} · ${x.days} din</div></div><div class="ba ink${bucketOf(x.days)}">${inr(x.amount, true)}</div></div>`).join("")}
+      </div>
+      <div class="sec"><div class="sec-title">Payments mile (NiryatBooks)</div>${history}</div>
+      ${invoices}`;
+    el.classList.add("open");
+    document.body.classList.toggle("sheet-open", window.matchMedia("(max-width: 900px)").matches);
+  }
+
+  // On a phone the detail is a full-screen sheet. It gets its own history
+  // entry, so the phone's Back button/gesture closes the sheet instead of
+  // leaving the khata.
+  const isPhone = () => window.matchMedia("(max-width: 900px)").matches;
+  let sheetInHistory = false;
+  function select(key) {
+    S.selected = key; S.tone = null;
+    const c = byKey(key);
+    renderList(); renderDetail();
+    if (c) loadDetail(c);
+    if (isPhone()) {
+      $("detail").scrollTop = 0;
+      if (!sheetInHistory) { try { history.pushState({ khataSheet: true }, ""); sheetInHistory = true; } catch {} }
+    }
+  }
+  function closeDetail(fromHistory) {
+    if (!fromHistory && sheetInHistory) { history.back(); return; }
+    sheetInHistory = false;
+    S.selected = null; S.queue = null; renderList(); renderDetail(); renderQueueBtn();
+  }
+  window.addEventListener("popstate", () => { if (sheetInHistory || S.selected) { sheetInHistory = false; closeDetail(true); } });
+
+  // ---------- queue ----------
+  function startQueue() {
+    const keys = filtered().map((c) => c.key);
+    if (!keys.length) return;
+    S.queue = { keys, idx: 0 };
+    renderQueueBtn(); select(keys[0]);
+    toast(`${keys.length} customers ki reminder line shuru`);
+  }
+  function queueStep(action) {
+    const q = S.queue; if (!q) return;
+    if (action === "stop") { S.queue = null; renderQueueBtn(); renderDetail(); return; }
+    if (q.idx + 1 >= q.keys.length) { S.queue = null; renderQueueBtn(); renderDetail(); toast("Reminder line khatam"); return; }
+    q.idx++; select(q.keys[q.idx]);
+  }
+
+  // ---------- events ----------
+  document.addEventListener("click", (e) => {
+    const t = e.target.closest("button, a");
+    if (!t) return;
+    if (t.matches("[data-filter]")) { S.filter = S.filter === t.dataset.filter && t.dataset.filter !== "all" ? "all" : t.dataset.filter; renderSummary(); renderChips(); renderList(); renderQueueBtn(); return; }
+    if (t.matches("[data-open]")) { select(t.dataset.open); return; }
+    if (t.matches("[data-quick]")) { const c = byKey(t.dataset.quick); if (c) { logReminder(c, "whatsapp"); setTimeout(renderList, 50); } return; }
+    if (t.matches("[data-close]")) { closeDetail(); return; }
+    if (t.matches("[data-tone]")) { S.tone = t.dataset.tone; renderDetail(); return; }
+    if (t.matches("[data-q]")) { queueStep(t.dataset.q); return; }
+    if (t.id === "show-small") { S.settings.minAmount = 0; store.set(LS.settings, S.settings); renderAll(); return; }
+    const c = S.selected && byKey(S.selected);
+    if (!c) return;
+    if (t.matches("[data-savephone]")) {
+      const p = normalizePhone($("ph-in").value);
+      if (!p) { toast("Sahi 10-digit mobile number daaliye"); $("ph-in").focus(); return; }
+      S.phones[c.key] = p; store.set(LS.phones, S.phones); renderDetail(); renderList(); toast("Number is device par save ho gaya"); return;
+    }
+    if (t.id === "send-wa" || t.id === "send-sms") {
+      if (t.getAttribute("aria-disabled") === "true") { e.preventDefault(); return; }
+      logReminder(c, t.id === "send-wa" ? "whatsapp" : "sms");
+      setTimeout(() => { renderDetail(); renderList(); }, 50);
+      return;
+    }
+    if (t.id === "copy") {
+      const text = $("msg").value;
+      const done = () => { logReminder(c, "copy"); renderDetail(); renderList(); toast("Message copy ho gaya"); };
+      if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(done, () => fallbackCopy(text, done));
+      else fallbackCopy(text, done);
+    }
+  });
+  function fallbackCopy(text, done) {
+    const ta = document.createElement("textarea"); ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand("copy"); done(); } catch { toast("Copy nahi hua — message select karke copy karein"); }
+    ta.remove();
+  }
+  document.addEventListener("input", (e) => {
+    if (e.target.id === "q") { S.q = e.target.value; renderList(); renderQueueBtn(); return; }
+    if (e.target.id === "msg") {
+      const c = S.selected && byKey(S.selected); if (!c) return;
+      const tone = S.tone || autoTone(c);
+      S.draft[c.key + "|" + tone] = e.target.value;
+      const ph = phoneFor(c);
+      if (ph.phone) { $("send-wa").href = waLink(ph.phone, e.target.value); $("send-sms").href = smsLink(ph.phone, e.target.value); }
+    }
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && S.selected && !$("settings").open) closeDetail();
+    if (e.key === "Enter" && e.target.id === "ph-in") { e.preventDefault(); document.querySelector("[data-savephone]")?.click(); }
+  });
+  $("sort").addEventListener("change", (e) => { S.sort = e.target.value; renderList(); });
+  $("refresh").addEventListener("click", () => { S.contacts = {}; load(); });
+  $("queue-btn").addEventListener("click", () => { if (S.queue) queueStep("stop"); else startQueue(); });
+
+  // settings
+  $("settings-btn").addEventListener("click", () => {
+    $("s-upi").value = S.settings.upi || ""; $("s-phone").value = S.settings.shopPhone || ""; $("s-min").value = S.settings.minAmount ?? 50;
+    $("settings").showModal();
+  });
+  $("settings-form").addEventListener("submit", (e) => {
+    if (e.submitter && e.submitter.value === "save") {
+      S.settings = { upi: $("s-upi").value.trim(), shopPhone: $("s-phone").value.trim(), minAmount: Math.max(0, Number($("s-min").value) || 0) };
+      store.set(LS.settings, S.settings); S.draft = {}; renderAll(); toast("Settings save ho gayi");
+    }
+  });
+  $("s-clear").addEventListener("click", () => {
+    if (!confirm("Is device par save customer numbers aur reminder log mita dein?")) return;
+    store.del(LS.phones); store.del(LS.reminders); S.phones = {}; S.reminders = {};
+    $("settings").close(); renderAll(); toast("Is device ka khata data mita diya");
+  });
+
+  // live refresh while open
+  setInterval(() => { renderLive(); if (S.pin && !document.hidden && S.fetchedAt && Date.now() - S.fetchedAt > REFRESH_MS) load(); }, 30_000);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden && S.pin && S.fetchedAt && Date.now() - S.fetchedAt > 2 * 60_000) load(); });
+  window.addEventListener("resize", () => { if (S.selected) document.body.classList.toggle("sheet-open", window.matchMedia("(max-width: 900px)").matches); });
+
+  // installable app shell (page + icons only; customer data is never cached)
+  if ("serviceWorker" in navigator && location.protocol === "https:") {
+    window.addEventListener("load", () => { navigator.serviceWorker.register("sw.js").catch(() => {}); });
+  }
+
+  // boot
+  if (S.pin) unlock(S.pin); else {
+    api("ping", {}, "").catch((e) => { if (e.code === "not_configured") showSetup(e.info.missing); });
+    $("pin").focus();
+  }
+})();
+</script>
+</body>
+</html>

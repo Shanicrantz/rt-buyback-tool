@@ -35,6 +35,8 @@
   .version { font-size:10px; font-weight:600; color:var(--dim); margin-left:5px; letter-spacing:0; vertical-align:middle; }
   .mode-btn { display:flex; align-items:center; gap:8px; border:1px solid #c8d6d0; border-radius:10px; color:var(--txt); background:var(--card); padding:10px 16px; min-height:44px; font-size:12px; font-weight:700; flex-shrink:0; }
   .mode-btn:hover { border-color:var(--green); background:var(--soft); }
+  a.mode-btn { text-decoration:none; }
+  .hdr-actions { display:flex; align-items:center; justify-content:flex-end; gap:8px; flex-wrap:wrap; }
   .stat-row { display:flex; gap:18px; flex-wrap:wrap; }
   .stat-pill { font-size:11px; color:var(--dim); }
   .coverage { margin-top:20px; border-top:1px solid var(--line); padding-top:12px; }
@@ -267,7 +269,10 @@
         <h1>Rajdhani Telecom <span class="version" id="db-version"></span></h1>
         <div class="sub">Buyback desk · Moradabad</div>
       </div></div>
-      <button class="mode-btn" id="mode-toggle">Customer view ↗</button>
+      <div class="hdr-actions">
+        <a class="mode-btn staff-only" id="khata-link" href="https://rt-khata.netlify.app/" target="_blank" rel="noopener">Khata ↗</a>
+        <button class="mode-btn" id="mode-toggle">Customer view ↗</button>
+      </div>
     </div>
     <details class="coverage staff-only"><summary>Price coverage · market checked <span id="db-caldate"></span></summary><div class="coverage-content">
       <div class="stat-row" id="stat-row"></div>
