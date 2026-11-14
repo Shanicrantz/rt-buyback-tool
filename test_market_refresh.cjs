@@ -116,6 +116,15 @@ test('standalone and inline DB agree; only scoped records changed',()=>{
    assert.equal(Boolean(db[key].is_foldable),key==='vivo_x_fold6_12_512');
    assert.equal(db[key].resale_target_a1,undefined);assert.equal(typeof db[key].price_reference_pending,'string');
   }
+  else if(/^(oppo_find_x10_|infinix_gt_50_pro_)/.test(key)){
+   // v6.36 (2026-11-14): India first sale 29/30 Oct, added from exact in-stock new listings; series tier, no resale.
+   const expected={oppo_find_x10_12_256:['Oppo Find X10 12/256GB',139999,'2026-10-29','A'],oppo_find_x10_12_512:['Oppo Find X10 12/512GB',169999,'2026-10-29','A'],oppo_find_x10_pro_max_12_512:['Oppo Find X10 Pro Max 12/512GB',199999,'2026-10-29','A'],infinix_gt_50_pro_12_256:['Infinix GT 50 Pro 12/256GB',69999,'2026-10-30','C']}[key];
+   assert.ok(expected,key);assert.deepEqual([db[key].display_name,db[key].net_new_inr,db[key].launch_date,db[key].tier],expected);
+   assert.equal(db[key].launch_date_verified,true);assert.equal(db[key].net_new_price_basis,'official_launch_period_history_only');
+   assert.ok(db[key].launch_sources.length>=2&&db[key].launch_sources.every(s=>s.source_url.startsWith('https://')&&s.sha256));
+   assert.equal(db[key].current_new_price.kind,'retail_cash_price');assert.equal(db[key].current_new_price.condition,'new');
+   assert.equal(db[key].resale_target_a1,undefined);assert.equal(db[key].current_resale_price,undefined);assert.equal(typeof db[key].price_reference_pending,'string');
+  }
   else {assert.equal(key,'vivo_x60_pro_plus_12_256');assert.equal(db[key].catalogue_source_url,'https://shop.vivo.com/in/product/10126');assert.equal(db[key].display_name,'Vivo X60 Pro+ 12/256GB');}
  }
 });

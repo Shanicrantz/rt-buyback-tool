@@ -1,0 +1,754 @@
+[
+  {
+    "key": "iphone_11_64",
+    "model": "iPhone 11 64GB",
+    "before": 16300,
+    "before_observed": "2026-10-30",
+    "after": 16400,
+    "outcome": "fresh"
+  },
+  {
+    "key": "iphone_11_128",
+    "model": "iPhone 11 128GB",
+    "before": 18600,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_12_64",
+    "model": "iPhone 12 64GB",
+    "before": 21600,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_12_128",
+    "model": "iPhone 12 128GB",
+    "before": 23500,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_12_pro_128",
+    "model": "iPhone 12 Pro 128GB",
+    "before": 34100,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_13_128",
+    "model": "iPhone 13 128GB",
+    "before": 30000,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_13_256",
+    "model": "iPhone 13 256GB",
+    "before": 33000,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_13_mini_128",
+    "model": "iPhone 13 mini 128GB",
+    "before": 29100,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "iphone_13_pro_128",
+    "model": "iPhone 13 Pro 128GB",
+    "before": 43900,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_13_pro_256",
+    "model": "iPhone 13 Pro 256GB",
+    "before": 46200,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_13_pro_max_128",
+    "model": "iPhone 13 Pro Max 128GB",
+    "before": 48000,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_13_pro_max_256",
+    "model": "iPhone 13 Pro Max 256GB",
+    "before": 49900,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_14_128",
+    "model": "iPhone 14 128GB",
+    "before": 34900,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_14_256",
+    "model": "iPhone 14 256GB",
+    "before": 37700,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_14_plus_128",
+    "model": "iPhone 14 Plus 128GB",
+    "before": 38100,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_14_pro_128",
+    "model": "iPhone 14 Pro 128GB",
+    "before": 53200,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_14_pro_256",
+    "model": "iPhone 14 Pro 256GB",
+    "before": 55800,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_14_pro_max_128",
+    "model": "iPhone 14 Pro Max 128GB",
+    "before": 55700,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_14_pro_max_256",
+    "model": "iPhone 14 Pro Max 256GB",
+    "before": 59800,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_15_128",
+    "model": "iPhone 15 128GB",
+    "before": 44900,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_15_256",
+    "model": "iPhone 15 256GB",
+    "before": 49600,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_15_plus_128",
+    "model": "iPhone 15 Plus 128GB",
+    "before": 47300,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_15_pro_128",
+    "model": "iPhone 15 Pro 128GB",
+    "before": 65700,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_15_pro_256",
+    "model": "iPhone 15 Pro 256GB",
+    "before": 71300,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_15_pro_max_256",
+    "model": "iPhone 15 Pro Max 256GB",
+    "before": 73600,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_16_128",
+    "model": "iPhone 16 128GB",
+    "before": 55400,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_16_256",
+    "model": "iPhone 16 256GB",
+    "before": 61800,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_16_plus_128",
+    "model": "iPhone 16 Plus 128GB",
+    "before": 57600,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_16_pro_128",
+    "model": "iPhone 16 Pro 128GB",
+    "before": 78600,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_16_pro_max_256",
+    "model": "iPhone 16 Pro Max 256GB",
+    "before": 92300,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_16e_128",
+    "model": "iPhone 16e 128GB",
+    "before": 41700,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_17_256",
+    "model": "iPhone 17 256GB",
+    "before": 71100,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_17_pro_256",
+    "model": "iPhone 17 Pro 256GB",
+    "before": null,
+    "before_observed": null,
+    "after": 98000,
+    "outcome": "fresh"
+  },
+  {
+    "key": "iphone_17_pro_max_256",
+    "model": "iPhone 17 Pro Max 256GB",
+    "before": 109000,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "samsung_s22_ultra_256",
+    "model": "Samsung Galaxy S22 Ultra 256GB",
+    "before": 42800,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "samsung_s23_128",
+    "model": "Samsung Galaxy S23 128GB",
+    "before": 31400,
+    "before_observed": "2026-11-04",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "samsung_s24_ultra_256",
+    "model": "Samsung Galaxy S24 Ultra 256GB",
+    "before": 65400,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "samsung_s25_256",
+    "model": "Samsung Galaxy S25 256GB",
+    "before": 53100,
+    "before_observed": "2026-11-04",
+    "after": 53100,
+    "outcome": "fresh"
+  },
+  {
+    "key": "samsung_s26_plus_256",
+    "model": "Samsung Galaxy S26+ 256GB",
+    "before": 69300,
+    "before_observed": "2026-11-04",
+    "after": 69400,
+    "outcome": "fresh"
+  },
+  {
+    "key": "samsung_z_fold_5_256",
+    "model": "Samsung Galaxy Z Fold 5 256GB",
+    "before": 64300,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "samsung_a56_5g_8_128",
+    "model": "Samsung Galaxy A56 5G 8/128GB",
+    "before": 28700,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "samsung_a37_5g_8_128",
+    "model": "Samsung Galaxy A37 5G 8/128GB",
+    "before": 32400,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "vivo_x300_pro_16_512",
+    "model": "Vivo X300 Pro 16/512GB",
+    "before": 88400,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "oppo_f33_5g_8_128",
+    "model": "Oppo F33 5G 8/128GB",
+    "before": 25800,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "google_pixel_10_pro_xl_256",
+    "model": "Google Pixel 10 Pro XL 256GB",
+    "before": 80000,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "iphone_15_plus_256",
+    "model": "iPhone 15 Plus 256GB",
+    "before": 52000,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_15_pro_max_512",
+    "model": "iPhone 15 Pro Max 512GB",
+    "before": 81000,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_15_pro_512",
+    "model": "iPhone 15 Pro 512GB",
+    "before": 77300,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_15_pro_1tb",
+    "model": "iPhone 15 Pro 1TB",
+    "before": 85800,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "samsung_a57_5g_8_256",
+    "model": "Samsung Galaxy A57 5G 8/256GB",
+    "before": 40500,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "samsung_s26_plus_512",
+    "model": "Samsung Galaxy S26+ 512GB",
+    "before": 84400,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "samsung_z_fold_7_512",
+    "model": "Samsung Galaxy Z Fold 7 512GB",
+    "before": 121800,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "samsung_z_fold_7_1tb",
+    "model": "Samsung Galaxy Z Fold 7 1TB",
+    "before": 135900,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_15_pro_max_1tb",
+    "model": "iPhone 15 Pro Max 1TB",
+    "before": 92300,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_14_pro_1tb",
+    "model": "iPhone 14 Pro 1TB",
+    "before": 62300,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "oppo_f33_5g_8_256",
+    "model": "Oppo F33 5G 8/256GB",
+    "before": 27900,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "samsung_s24_ultra_512",
+    "model": "Samsung Galaxy S24 Ultra 512GB",
+    "before": 68900,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "iphone_12_pro_256",
+    "model": "iPhone 12 Pro 256GB",
+    "before": 35100,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_16_512",
+    "model": "iPhone 16 512GB",
+    "before": 70800,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_16_pro_256",
+    "model": "iPhone 16 Pro 256GB",
+    "before": 85100,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_16_pro_512",
+    "model": "iPhone 16 Pro 512GB",
+    "before": 90400,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_16_pro_1tb",
+    "model": "iPhone 16 Pro 1TB",
+    "before": 103000,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "samsung_s25_ultra_512",
+    "model": "Samsung Galaxy S25 Ultra 512GB",
+    "before": 84700,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "samsung_s25_ultra_1tb",
+    "model": "Samsung Galaxy S25 Ultra 1TB",
+    "before": 96600,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "samsung_z_fold_5_512",
+    "model": "Samsung Galaxy Z Fold 5 512GB",
+    "before": 67500,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "samsung_a37_5g_8_256",
+    "model": "Samsung Galaxy A37 5G 8/256GB",
+    "before": 36500,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_17_pro_max_512",
+    "model": "iPhone 17 Pro Max 512GB",
+    "before": 123800,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "iphone_17_pro_max_1tb",
+    "model": "iPhone 17 Pro Max 1TB",
+    "before": 138300,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_17_pro_max_2tb",
+    "model": "iPhone 17 Pro Max 2TB",
+    "before": 177400,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "iphone_16_plus_256",
+    "model": "iPhone 16 Plus 256GB",
+    "before": 66000,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_16_pro_max_512",
+    "model": "iPhone 16 Pro Max 512GB",
+    "before": 99400,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_16_pro_max_1tb",
+    "model": "iPhone 16 Pro Max 1TB",
+    "before": 112000,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_17_512",
+    "model": "iPhone 17 512GB",
+    "before": 84500,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "samsung_s22_ultra_512",
+    "model": "Samsung Galaxy S22 Ultra 512GB",
+    "before": 45400,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "iphone_14_plus_256",
+    "model": "iPhone 14 Plus 256GB",
+    "before": 40700,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "samsung_s21_fe_256",
+    "model": "Samsung Galaxy S21 FE 256GB",
+    "before": 21500,
+    "before_observed": "2026-10-30",
+    "after": 21800,
+    "outcome": "fresh"
+  },
+  {
+    "key": "xiaomi_mi_11x_128",
+    "model": "Xiaomi Mi 11X 128GB",
+    "before": 13400,
+    "before_observed": "2026-11-04",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "samsung_z_fold_4_1tb",
+    "model": "Samsung Galaxy Z Fold 4 1TB",
+    "before": 60600,
+    "before_observed": "2026-11-04",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "oneplus_nord_ce_2_lite_128",
+    "model": "OnePlus Nord CE 2 Lite 128GB",
+    "before": null,
+    "before_observed": null,
+    "after": 10900,
+    "outcome": "fresh"
+  },
+  {
+    "key": "google_pixel_9_pro_xl_16_256",
+    "model": "Google Pixel 9 Pro XL 16/256GB",
+    "before": 65700,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "google_pixel_9_pro_xl_16_512",
+    "model": "Google Pixel 9 Pro XL 16/512GB",
+    "before": 71000,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "oppo_reno_15_pro_12_256",
+    "model": "Oppo Reno 15 Pro 5G 12/256GB",
+    "before": 49900,
+    "before_observed": "2026-10-30",
+    "after": 50300,
+    "outcome": "fresh"
+  },
+  {
+    "key": "oppo_reno_15_pro_12_512",
+    "model": "Oppo Reno 15 Pro 5G 12/512GB",
+    "before": 53400,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "google_pixel_10_pro_16_256",
+    "model": "Google Pixel 10 Pro 16/256GB",
+    "before": 76900,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "iphone_11_pro_64",
+    "model": "iPhone 11 Pro 64GB",
+    "before": null,
+    "before_observed": null,
+    "after": 22100,
+    "outcome": "fresh"
+  },
+  {
+    "key": "iphone_12_mini_128",
+    "model": "iPhone 12 mini 128GB",
+    "before": 22900,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "iphone_17e_256",
+    "model": "iPhone 17e 256GB",
+    "before": null,
+    "before_observed": null,
+    "after": 51700,
+    "outcome": "fresh"
+  },
+  {
+    "key": "oppo_f33_pro_5g_8_128",
+    "model": "Oppo F33 Pro 5G 8/128GB",
+    "before": 27900,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "oppo_f33_pro_5g_8_256",
+    "model": "Oppo F33 Pro 5G 8/256GB",
+    "before": 30600,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "samsung_a57_5g_12_256",
+    "model": "Samsung Galaxy A57 5G 12/256GB",
+    "before": 46600,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "vivo_x300_ultra_16_512",
+    "model": "Vivo X300 Ultra 16GB/512GB",
+    "before": null,
+    "before_observed": null,
+    "after": 118800,
+    "outcome": "fresh"
+  },
+  {
+    "key": "oneplus_nord_5_12_512",
+    "model": "OnePlus Nord 5 12/512GB",
+    "before": 36900,
+    "before_observed": "2026-11-04",
+    "after": null,
+    "outcome": "withdrawn"
+  },
+  {
+    "key": "oppo_reno_14_12_256",
+    "model": "Oppo Reno 14 12/256GB",
+    "before": 35700,
+    "before_observed": "2026-10-30",
+    "after": null,
+    "outcome": "retained_blocked"
+  },
+  {
+    "key": "vivo_x60_pro_plus_12_256",
+    "model": "Vivo X60 Pro+ 12/256GB",
+    "before": 35900,
+    "before_observed": "2026-11-04",
+    "after": 35900,
+    "outcome": "fresh"
+  }
+]
