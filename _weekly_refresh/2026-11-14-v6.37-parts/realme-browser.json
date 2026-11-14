@@ -1,0 +1,2483 @@
+{
+ "realme GT 8 Pro Dream Edition": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:00.000Z",
+  "values": {
+   "display": 16999,
+   "back_panel": 5699,
+   "battery": 1999,
+   "rear_camera": 4999,
+   "front_camera": 699,
+   "charging_port": 300,
+   "speaker": 300
+  },
+  "fingerprint": "f742cc9e3de5"
+ },
+ "realme GT 8 Pro": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:03.000Z",
+  "values": {
+   "display": 15999,
+   "back_panel": 5699,
+   "battery": 1999,
+   "rear_camera": 4999,
+   "front_camera": 699,
+   "charging_port": 300,
+   "speaker": 300
+  },
+  "fingerprint": "8cab69f96715"
+ },
+ "realme GT 7T": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:06.000Z",
+  "values": {
+   "display": 7499,
+   "back_panel": 2899,
+   "battery": 2399,
+   "rear_camera": 2999,
+   "front_camera": 1190,
+   "charging_port": 300,
+   "speaker": 300
+  },
+  "fingerprint": "226a1b62fcb1"
+ },
+ "realme GT 7 Dream Edition": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:08.000Z",
+  "values": {
+   "display": 8499,
+   "back_panel": 2999,
+   "battery": 2399,
+   "rear_camera": 3499,
+   "front_camera": 1190,
+   "charging_port": 300,
+   "speaker": 300
+  },
+  "fingerprint": "488a5e0cf13b"
+ },
+ "realme GT 7": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:11.000Z",
+  "values": {
+   "display": 8499,
+   "back_panel": 3999,
+   "battery": 2399,
+   "rear_camera": 3499,
+   "front_camera": 1190,
+   "charging_port": 300,
+   "speaker": 300
+  },
+  "fingerprint": "cef1a40a436e"
+ },
+ "realme GT 7 Pro": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:14.000Z",
+  "values": {
+   "display": 14999,
+   "back_panel": 3999,
+   "battery": 2350,
+   "rear_camera": 3999,
+   "charging_port": 499
+  },
+  "fingerprint": "9f903cdada31"
+ },
+ "realme GT 6T": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:16.000Z",
+  "values": {
+   "display": 7199,
+   "back_panel": 1690,
+   "battery": 1799,
+   "rear_camera": 1999,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "e0eed0573cfe"
+ },
+ "realme GT 6": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:19.000Z",
+  "values": {
+   "display": 8999,
+   "back_panel": 4499,
+   "battery": 1799,
+   "rear_camera": 3590,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "2b80353244f5"
+ },
+ "realme GT2 Pro": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:21.000Z",
+  "values": {
+   "display": 12749,
+   "back_panel": 4999,
+   "battery": 2990,
+   "rear_camera": 2699,
+   "front_camera": 508,
+   "speaker": 200
+  },
+  "fingerprint": "805bd3db80d0"
+ },
+ "realme GT2": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:24.000Z",
+  "values": {
+   "display": 9999,
+   "back_panel": 2690,
+   "battery": 2990,
+   "rear_camera": 3599,
+   "front_camera": 668,
+   "speaker": 399
+  },
+  "fingerprint": "6824e7ad07a2"
+ },
+ "realme GT Master Edition": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:27.000Z",
+  "values": {
+   "display": 6990,
+   "back_panel": 1390,
+   "battery": 2490,
+   "rear_camera": 2392,
+   "front_camera": 1512,
+   "charging_port": 300,
+   "speaker": 300
+  },
+  "fingerprint": "961207577cde"
+ },
+ "realme GT": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:29.000Z",
+  "values": {
+   "display": 6490,
+   "back_panel": 939,
+   "battery": 1490,
+   "rear_camera": 2392,
+   "front_camera": 601,
+   "speaker": 300
+  },
+  "fingerprint": "62c56045aa09"
+ },
+ "realme 16x 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:33.000Z",
+  "values": {
+   "display": 5599,
+   "back_panel": 1199,
+   "battery": 2099,
+   "rear_camera": 1490,
+   "front_camera": 599,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "10a4a216edac"
+ },
+ "realme 16T 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:37.000Z",
+  "values": {
+   "display": 5599,
+   "back_panel": 1199,
+   "battery": 2099,
+   "rear_camera": 2099,
+   "front_camera": 1199,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "d4d645b91f64"
+ },
+ "realme 16 Pro+ 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:42.000Z",
+  "values": {
+   "display": 9999,
+   "back_panel": 2499,
+   "battery": 1999,
+   "rear_camera": 4999,
+   "front_camera": 1190,
+   "charging_port": 499,
+   "speaker": 300
+  },
+  "fingerprint": "c287a3564aad"
+ },
+ "realme 16 Pro 5G Harry Potter Edition": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:47.000Z",
+  "values": {
+   "display": 7999,
+   "back_panel": 3999,
+   "battery": 1899,
+   "rear_camera": 3999,
+   "front_camera": 1190,
+   "charging_port": 300,
+   "speaker": 300
+  },
+  "fingerprint": "8ae616ccadbe"
+ },
+ "realme 16 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:54.000Z",
+  "values": {
+   "display": 7999,
+   "back_panel": 2099,
+   "battery": 1899,
+   "rear_camera": 3999,
+   "front_camera": 990,
+   "charging_port": 300,
+   "speaker": 300
+  },
+  "fingerprint": "2ab9d591728a"
+ },
+ "realme 16 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:44:59.000Z",
+  "values": {
+   "display": 8990,
+   "back_panel": 2390,
+   "battery": 1499,
+   "rear_camera": 1890,
+   "front_camera": 1390,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "93e3e3e7da6e"
+ },
+ "realme 15x 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:45:04.000Z",
+  "values": {
+   "display": 6099,
+   "back_panel": 1999,
+   "battery": 1699,
+   "rear_camera": 1599,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "dd30888396b8"
+ },
+ "realme 15T": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:45:09.000Z",
+  "values": {
+   "display": 6599,
+   "back_panel": 3599,
+   "battery": 1499,
+   "rear_camera": 1599,
+   "front_camera": 1199,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "e5908eacc911"
+ },
+ "realme 15 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:45:14.000Z",
+  "values": {
+   "display": 8199,
+   "back_panel": 3299,
+   "battery": 1999,
+   "rear_camera": 2799,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "5365d625d545"
+ },
+ "realme 15 Lite 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:45:19.000Z",
+  "values": {
+   "display": 5879,
+   "back_panel": 1499,
+   "battery": 1490,
+   "rear_camera": 2499,
+   "front_camera": 890,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "e557ea83bf21"
+ },
+ "realme 15 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:45:25.000Z",
+  "values": {
+   "display": 8469,
+   "back_panel": 4190,
+   "battery": 1880,
+   "rear_camera": 1899,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "200226f1be31"
+ },
+ "realme 14x 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:45:29.000Z",
+  "values": {
+   "display": 4099,
+   "back_panel": 1350,
+   "battery": 1490,
+   "rear_camera": 1490,
+   "front_camera": 599,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "280d968c6d08"
+ },
+ "realme 14T 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:45:34.000Z",
+  "values": {
+   "display": 5999,
+   "back_panel": 1199,
+   "battery": 1099,
+   "rear_camera": 1599,
+   "front_camera": 1190,
+   "charging_port": 499,
+   "speaker": 300
+  },
+  "fingerprint": "14316e064547"
+ },
+ "realme 14 Pro+ 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:46:24.000Z",
+  "values": {
+   "display": 7699,
+   "back_panel": 1990,
+   "battery": 1490,
+   "rear_camera": 2999,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "d44d8c786d7e"
+ },
+ "realme 14 Pro Lite 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:46:27.000Z",
+  "values": {
+   "display": 10189,
+   "back_panel": 6990,
+   "battery": 1490,
+   "rear_camera": 1999,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "0641a6dae3c4"
+ },
+ "realme 14 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:46:30.000Z",
+  "values": {
+   "display": 6599,
+   "back_panel": 3379,
+   "battery": 1490,
+   "rear_camera": 1999,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "d170a7a62c33"
+ },
+ "realme 13+ 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:46:32.000Z",
+  "values": {
+   "display": 5879,
+   "back_panel": 1499,
+   "battery": 1490,
+   "rear_camera": 2499,
+   "front_camera": 890,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "3c9eb67355f3"
+ },
+ "realme 13 Pro+ 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:46:35.000Z",
+  "values": {
+   "display": 10189,
+   "back_panel": 4350,
+   "battery": 1490,
+   "rear_camera": 2799,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "bfe0701ed22b"
+ },
+ "realme 13 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:46:38.000Z",
+  "values": {
+   "display": 10189,
+   "back_panel": 6990,
+   "battery": 1490,
+   "rear_camera": 1999,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "06733ce89d23"
+ },
+ "realme 13 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:46:40.000Z",
+  "values": {
+   "display": 4199,
+   "back_panel": 3490,
+   "battery": 1490,
+   "rear_camera": 1990,
+   "front_camera": 599,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "4107de8b804e"
+ },
+ "realme 12x 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:46:43.000Z",
+  "values": {
+   "display": 3900,
+   "back_panel": 1350,
+   "battery": 1490,
+   "rear_camera": 1490,
+   "front_camera": 599,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "8dc2a3a6410d"
+ },
+ "realme 12+ 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:46:48.000Z",
+  "values": {
+   "display": 5389,
+   "back_panel": 1350,
+   "battery": 1490,
+   "rear_camera": 2499,
+   "front_camera": 890,
+   "charging_port": 999,
+   "speaker": 300
+  },
+  "fingerprint": "2c5778721422"
+ },
+ "realme 12 Pro+ 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:46:53.000Z",
+  "values": {
+   "display": 6999,
+   "back_panel": 1390,
+   "battery": 1490,
+   "rear_camera": 2799,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "ca56b0281a7c"
+ },
+ "realme 12 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:46:58.000Z",
+  "values": {
+   "display": 6999,
+   "back_panel": 1390,
+   "battery": 1490,
+   "rear_camera": 2499,
+   "front_camera": 890,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "1d7c7016c115"
+ },
+ "realme 12 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:47:03.000Z",
+  "values": {
+   "display": 3900,
+   "back_panel": 1350,
+   "battery": 1490,
+   "rear_camera": 1990,
+   "front_camera": 599,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "00e672c44b97"
+ },
+ "realme 11x 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:47:08.000Z",
+  "values": {
+   "display": 3800,
+   "back_panel": 1150,
+   "battery": 1000,
+   "rear_camera": 1499,
+   "front_camera": 990,
+   "charging_port": 499,
+   "speaker": 300
+  },
+  "fingerprint": "cbed8a42fd26"
+ },
+ "realme 11 Pro+ 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:47:13.000Z",
+  "values": {
+   "display": 8490,
+   "back_panel": 2990,
+   "battery": 1590,
+   "rear_camera": 3990,
+   "front_camera": 1190,
+   "charging_port": 599,
+   "speaker": 300
+  },
+  "fingerprint": "ab4a7528a231"
+ },
+ "realme 11 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:47:18.000Z",
+  "values": {
+   "display": 8490,
+   "back_panel": 3990,
+   "battery": 1490,
+   "rear_camera": 2990,
+   "front_camera": 890,
+   "charging_port": 499,
+   "speaker": 300
+  },
+  "fingerprint": "6923fbc57a5f"
+ },
+ "realme 11 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:47:23.000Z",
+  "values": {
+   "display": 3800,
+   "back_panel": 1150,
+   "battery": 1490,
+   "rear_camera": 2390,
+   "front_camera": 990,
+   "charging_port": 499,
+   "speaker": 300
+  },
+  "fingerprint": "bfc686293ef0"
+ },
+ "realme 11 4G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:51:24.000Z",
+  "values": {},
+  "fingerprint": "4f53cda18c2b"
+ },
+ "realme 10 Pro+ 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:51:27.000Z",
+  "values": {
+   "display": 7999,
+   "back_panel": 1190,
+   "battery": 1490,
+   "rear_camera": 3290,
+   "front_camera": 890,
+   "speaker": 300
+  },
+  "fingerprint": "39a70e663293"
+ },
+ "realme 10 Pro 5G Coca-Cola Edition": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:51:30.000Z",
+  "values": {
+   "display": 5999,
+   "back_panel": 594,
+   "battery": 1490,
+   "rear_camera": 3290,
+   "front_camera": 890,
+   "charging_port": 699,
+   "speaker": 400
+  },
+  "fingerprint": "d945a245a07b"
+ },
+ "realme 10 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:51:32.000Z",
+  "values": {
+   "display": 5999,
+   "back_panel": 990,
+   "battery": 1490,
+   "rear_camera": 3290,
+   "front_camera": 890,
+   "charging_port": 699,
+   "speaker": 400
+  },
+  "fingerprint": "1762a0a0d372"
+ },
+ "realme 10 4G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:51:35.000Z",
+  "values": {
+   "display": 4590,
+   "back_panel": 590,
+   "battery": 990,
+   "rear_camera": 1499,
+   "front_camera": 890,
+   "charging_port": 300,
+   "speaker": 300
+  },
+  "fingerprint": "5faee5eb7f65"
+ },
+ "realme 9i 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:51:38.000Z",
+  "values": {
+   "display": 4499,
+   "back_panel": 499,
+   "battery": 1000,
+   "rear_camera": 2499,
+   "front_camera": 599,
+   "charging_port": 390,
+   "speaker": 300
+  },
+  "fingerprint": "a54598c847a6"
+ },
+ "realme 9i": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:51:41.000Z",
+  "values": {
+   "display": 4499,
+   "back_panel": 599,
+   "battery": 1800,
+   "rear_camera": 1749,
+   "front_camera": 950,
+   "charging_port": 200,
+   "speaker": 200
+  },
+  "fingerprint": "82bf36275529"
+ },
+ "realme 9 Pro+": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:51:43.000Z",
+  "values": {
+   "display": 7499,
+   "back_panel": 1909,
+   "battery": 2490,
+   "rear_camera": 2499,
+   "front_camera": 668,
+   "charging_port": 599,
+   "speaker": 300
+  },
+  "fingerprint": "5c19c216840e"
+ },
+ "realme 9 Pro": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:51:49.000Z",
+  "values": {
+   "display": 4599,
+   "back_panel": 990,
+   "battery": 1800,
+   "rear_camera": 2990,
+   "front_camera": 950,
+   "charging_port": 399,
+   "speaker": 300
+  },
+  "fingerprint": "c3242dbd743a"
+ },
+ "realme 9 5G speed edition": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:51:54.000Z",
+  "values": {
+   "display": 5499,
+   "back_panel": 990,
+   "battery": 1490,
+   "rear_camera": 1680,
+   "front_camera": 950,
+   "speaker": 300
+  },
+  "fingerprint": "173e8a09a891"
+ },
+ "realme 9 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:51:59.000Z",
+  "values": {
+   "display": 3317,
+   "back_panel": 990,
+   "battery": 2490,
+   "rear_camera": 2160,
+   "front_camera": 855,
+   "charging_port": 390,
+   "speaker": 300
+  },
+  "fingerprint": "64d9f72d2885"
+ },
+ "realme 9": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:52:04.000Z",
+  "values": {
+   "display": 5490,
+   "back_panel": 990,
+   "battery": 735,
+   "rear_camera": 3290,
+   "front_camera": 668,
+   "charging_port": 399,
+   "speaker": 200
+  },
+  "fingerprint": "2b09b477426f"
+ },
+ "realme 8i": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:52:09.000Z",
+  "values": {
+   "display": 4499,
+   "back_panel": 520,
+   "battery": 1000,
+   "rear_camera": 2499,
+   "front_camera": 760,
+   "charging_port": 146,
+   "speaker": 300
+  },
+  "fingerprint": "d6bac2a9631e"
+ },
+ "realme 8S 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:52:14.000Z",
+  "values": {
+   "display": 4520,
+   "back_panel": 990,
+   "battery": 1990,
+   "rear_camera": 2990,
+   "front_camera": 760,
+   "speaker": 300
+  },
+  "fingerprint": "808a11f4dcce"
+ },
+ "realme 8 Pro": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:52:19.000Z",
+  "values": {
+   "display": 4890,
+   "back_panel": 1390,
+   "battery": 2490,
+   "rear_camera": 3032,
+   "front_camera": 760,
+   "speaker": 300
+  },
+  "fingerprint": "07cc1ac1709d"
+ },
+ "realme 8 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:52:24.000Z",
+  "values": {
+   "display": 4490,
+   "back_panel": 990,
+   "battery": 2490,
+   "rear_camera": 2160,
+   "front_camera": 855,
+   "speaker": 300
+  },
+  "fingerprint": "e4ff3c3b507c"
+ },
+ "realme 8": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:52:29.000Z",
+  "values": {
+   "display": 4390,
+   "back_panel": 990,
+   "battery": 1490,
+   "rear_camera": 2392,
+   "front_camera": 760,
+   "speaker": 300
+  },
+  "fingerprint": "24b34494576b"
+ },
+ "realme 7i": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:52:35.000Z",
+  "values": {
+   "display": 4769,
+   "back_panel": 801,
+   "battery": 2490,
+   "rear_camera": 1354,
+   "front_camera": 765,
+   "charging_port": 225,
+   "speaker": 300
+  },
+  "fingerprint": "0ded88f91e0d"
+ },
+ "realme 7 Pro": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:52:40.000Z",
+  "values": {
+   "display": 6350,
+   "back_panel": 1161,
+   "battery": 1490,
+   "rear_camera": 1794,
+   "front_camera": 894,
+   "charging_port": 240,
+   "speaker": 300
+  },
+  "fingerprint": "e7d419e9f2d6"
+ },
+ "realme 7": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:54:37.000Z",
+  "values": {
+   "display": 4290,
+   "back_panel": 990,
+   "battery": 990,
+   "rear_camera": 2430,
+   "front_camera": 680,
+   "charging_port": 225,
+   "speaker": 300
+  },
+  "fingerprint": "02f3423ad3a6"
+ },
+ "realme 6i": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:54:41.000Z",
+  "values": {
+   "display": 6500,
+   "back_panel": 950,
+   "battery": 990,
+   "rear_camera": 1014,
+   "front_camera": 479,
+   "charging_port": 300,
+   "speaker": 200
+  },
+  "fingerprint": "a01e51b363d0"
+ },
+ "realme 6 Pro": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:54:44.000Z",
+  "values": {
+   "display": 4590,
+   "back_panel": 3600,
+   "battery": 990,
+   "rear_camera": 2040,
+   "front_camera": 608,
+   "charging_port": 585,
+   "speaker": 300
+  },
+  "fingerprint": "e95eb467e4f3"
+ },
+ "realme 6": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:54:47.000Z",
+  "values": {
+   "display": 4290,
+   "back_panel": 890,
+   "battery": 990,
+   "rear_camera": 1435,
+   "front_camera": 479,
+   "charging_port": 300,
+   "speaker": 200
+  },
+  "fingerprint": "cd2b48d0411b"
+ },
+ "realme 5s": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:54:49.000Z",
+  "values": {
+   "display": 2850,
+   "back_panel": 700,
+   "battery": 1590,
+   "rear_camera": 691,
+   "front_camera": 320,
+   "speaker": 300
+  },
+  "fingerprint": "de90fe0503bb"
+ },
+ "realme 5i": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:54:52.000Z",
+  "values": {
+   "display": 2890,
+   "back_panel": 690,
+   "battery": 1590,
+   "rear_camera": 312,
+   "front_camera": 279,
+   "charging_port": 350,
+   "speaker": 300
+  },
+  "fingerprint": "3ce75d85a9d0"
+ },
+ "realme 5 Pro": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:54:55.000Z",
+  "values": {
+   "display": 4500,
+   "back_panel": 390,
+   "battery": 2000,
+   "rear_camera": 2400,
+   "front_camera": 632,
+   "speaker": 200
+  },
+  "fingerprint": "db61efd09734"
+ },
+ "realme 5": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:54:57.000Z",
+  "values": {
+   "display": 2550,
+   "back_panel": 700,
+   "battery": 1590,
+   "rear_camera": 450,
+   "front_camera": 320,
+   "speaker": 300
+  },
+  "fingerprint": "06d741022cbb"
+ },
+ "realme 3i": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:55:00.000Z",
+  "values": {
+   "display": 3000,
+   "back_panel": 800,
+   "battery": 684,
+   "rear_camera": 600,
+   "front_camera": 351,
+   "charging_port": 400,
+   "speaker": 200
+  },
+  "fingerprint": "bada7654b767"
+ },
+ "realme 3 Pro": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:55:04.000Z",
+  "values": {
+   "display": 3900,
+   "back_panel": 800,
+   "battery": 950,
+   "rear_camera": 1700,
+   "front_camera": 403,
+   "speaker": 200
+  },
+  "fingerprint": "35278055fc04"
+ },
+ "realme 3": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:55:09.000Z",
+  "values": {
+   "display": 3000,
+   "back_panel": 550,
+   "battery": 684,
+   "rear_camera": 600,
+   "front_camera": 351,
+   "charging_port": 400,
+   "speaker": 200
+  },
+  "fingerprint": "2f744f6792a5"
+ },
+ "realme 2 Pro": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:55:14.000Z",
+  "values": {
+   "display": 5100,
+   "back_panel": 720,
+   "battery": 1380,
+   "rear_camera": 570,
+   "front_camera": 360,
+   "speaker": 200
+  },
+  "fingerprint": "e56d6ced7e55"
+ },
+ "realme 2": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:55:19.000Z",
+  "values": {
+   "display": 2850,
+   "back_panel": 530,
+   "battery": 700,
+   "rear_camera": 240,
+   "front_camera": 170,
+   "charging_port": 135,
+   "speaker": 200
+  },
+  "fingerprint": "cc25475e0db9"
+ },
+ "realme 1": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:55:24.000Z",
+  "values": {
+   "display": 6400,
+   "back_panel": 1200,
+   "battery": 1290,
+   "rear_camera": 370,
+   "front_camera": 220,
+   "speaker": 400
+  },
+  "fingerprint": "cc2c6b45da10"
+ },
+ "realme P4x 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:55:31.000Z",
+  "values": {
+   "display": 3599,
+   "back_panel": 1299,
+   "battery": 1490,
+   "rear_camera": 1490,
+   "front_camera": 599,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "7c2b9d3c23e3"
+ },
+ "realme P4s 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:55:36.000Z",
+  "values": {
+   "display": 6999,
+   "back_panel": 2199,
+   "battery": 2099,
+   "rear_camera": 1999,
+   "front_camera": 599,
+   "charging_port": 300,
+   "speaker": 300
+  },
+  "fingerprint": "b77da0106f3a"
+ },
+ "realme P4R 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:55:41.000Z",
+  "values": {
+   "display": 3599,
+   "back_panel": 1299,
+   "battery": 2099,
+   "rear_camera": 1490,
+   "front_camera": 599,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "f72168598105"
+ },
+ "realme P4 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:55:46.000Z",
+  "values": {
+   "display": 8199,
+   "back_panel": 1690,
+   "battery": 1999,
+   "rear_camera": 2799,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "cb085d732d40"
+ },
+ "realme P4 Power 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:55:51.000Z",
+  "values": {
+   "display": 7999,
+   "back_panel": 2190,
+   "battery": 2999,
+   "rear_camera": 1999,
+   "front_camera": 599,
+   "charging_port": 599,
+   "speaker": 300
+  },
+  "fingerprint": "e642be6676b8"
+ },
+ "realme P4 Lite 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:55:56.000Z",
+  "values": {
+   "display": 3190,
+   "back_panel": 1190,
+   "battery": 1699,
+   "rear_camera": 690,
+   "front_camera": 390,
+   "charging_port": 490,
+   "speaker": 300
+  },
+  "fingerprint": "c0c8b0c7ba0d"
+ },
+ "realme P4 Lite 4G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:56:05.000Z",
+  "values": {
+   "display": 2254,
+   "back_panel": 590,
+   "battery": 899,
+   "rear_camera": 1299,
+   "front_camera": 599,
+   "charging_port": 349,
+   "speaker": 200
+  },
+  "fingerprint": "de9d1f397f5f"
+ },
+ "realme P4 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:56:07.000Z",
+  "values": {
+   "display": 5699,
+   "back_panel": 1350,
+   "battery": 1880,
+   "rear_camera": 2799,
+   "front_camera": 1190,
+   "charging_port": 499,
+   "speaker": 300
+  },
+  "fingerprint": "aac1d1afbbd4"
+ },
+ "realme P3x 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:56:10.000Z",
+  "values": {
+   "display": 3599,
+   "back_panel": 1350,
+   "battery": 1490,
+   "rear_camera": 1490,
+   "front_camera": 599,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "0f17abeb7902"
+ },
+ "realme P3 Ultra 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:56:13.000Z",
+  "values": {
+   "display": 7299,
+   "back_panel": 1990,
+   "battery": 1490,
+   "rear_camera": 2799,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "74890522c1c6"
+ },
+ "realme P3 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:56:15.000Z",
+  "values": {
+   "display": 6999,
+   "back_panel": 1690,
+   "battery": 1490,
+   "rear_camera": 2799,
+   "front_camera": 1190,
+   "charging_port": 499,
+   "speaker": 300
+  },
+  "fingerprint": "24a400c04def"
+ },
+ "realme P3 Lite 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:56:18.000Z",
+  "values": {
+   "display": 3099,
+   "back_panel": 990,
+   "battery": 1490,
+   "rear_camera": 1299,
+   "front_camera": 599,
+   "charging_port": 399,
+   "speaker": 300
+  },
+  "fingerprint": "1e65454a385b"
+ },
+ "realme P3 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:56:21.000Z",
+  "values": {
+   "display": 5699,
+   "back_panel": 1350,
+   "battery": 1099,
+   "rear_camera": 1599,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "78075ed69948"
+ },
+ "realme P2 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:56:23.000Z",
+  "values": {
+   "display": 5999,
+   "back_panel": 1690,
+   "battery": 1490,
+   "rear_camera": 1999,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "c210cef45694"
+ },
+ "realme P1 Speed 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:56:28.000Z",
+  "values": {
+   "display": 6599,
+   "back_panel": 1350,
+   "battery": 990,
+   "rear_camera": 1599,
+   "front_camera": 890,
+   "charging_port": 499,
+   "speaker": 300
+  },
+  "fingerprint": "41537a230bd8"
+ },
+ "realme P1 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:56:33.000Z",
+  "values": {
+   "display": 5999,
+   "back_panel": 1890,
+   "battery": 1490,
+   "rear_camera": 2499,
+   "front_camera": 890,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "8f7818fa5b5b"
+ },
+ "realme P1 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:56:38.000Z",
+  "values": {
+   "display": 5389,
+   "back_panel": 1350,
+   "battery": 990,
+   "rear_camera": 1599,
+   "front_camera": 890,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "b23c9a8b4c69"
+ },
+ "realme NARZO 100X 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:56:43.000Z",
+  "values": {
+   "display": 3599,
+   "back_panel": 1299,
+   "battery": 2099,
+   "rear_camera": 1490,
+   "front_camera": 599,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "405fb1420f7e"
+ },
+ "realme Narzo 90x 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:56:50.000Z",
+  "values": {
+   "display": 6099,
+   "back_panel": 1999,
+   "battery": 1699,
+   "rear_camera": 1599,
+   "front_camera": 999,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "abdbc26446fd"
+ },
+ "realme Narzo 90 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:56:55.000Z",
+  "values": {
+   "display": 6599,
+   "back_panel": 3599,
+   "battery": 1499,
+   "rear_camera": 1599,
+   "front_camera": 1199,
+   "speaker": 300
+  },
+  "fingerprint": "5c6d6a3aec76"
+ },
+ "realme NARZO 80 Lite 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:56:58.000Z",
+  "values": {
+   "display": 2649,
+   "back_panel": 990,
+   "battery": 1490,
+   "rear_camera": 1299,
+   "front_camera": 599,
+   "charging_port": 399,
+   "speaker": 300
+  },
+  "fingerprint": "78b0030c3fce"
+ },
+ "realme NARZO 80 Lite": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:01.000Z",
+  "values": {
+   "display": 2254,
+   "back_panel": 590,
+   "battery": 899,
+   "rear_camera": 1299,
+   "front_camera": 599,
+   "charging_port": 349,
+   "speaker": 200
+  },
+  "fingerprint": "bd7e1106c6f2"
+ },
+ "realme NARZO 100 Lite 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:03.000Z",
+  "values": {
+   "display": 3550,
+   "back_panel": 1190,
+   "battery": 1699,
+   "rear_camera": 690,
+   "front_camera": 390,
+   "charging_port": 490,
+   "speaker": 300
+  },
+  "fingerprint": "8e2b0d12f3d7"
+ },
+ "realme Narzo 80 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:06.000Z",
+  "values": {
+   "display": 5999,
+   "back_panel": 1990,
+   "battery": 1490,
+   "rear_camera": 1999,
+   "front_camera": 1190,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "ca28f0e23bac"
+ },
+ "realme NARZO 80x 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:08.000Z",
+  "values": {
+   "display": 3599,
+   "back_panel": 1350,
+   "battery": 1490,
+   "rear_camera": 1490,
+   "front_camera": 599,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "3889ce2f39ba"
+ },
+ "realme NARZO 70x 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:11.000Z",
+  "values": {
+   "display": 3900,
+   "back_panel": 1350,
+   "battery": 1490,
+   "rear_camera": 1490,
+   "front_camera": 599,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "1a6c400b845a"
+ },
+ "realme NARZO 70 Turbo 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:14.000Z",
+  "values": {
+   "display": 4599,
+   "back_panel": 1350,
+   "battery": 990,
+   "rear_camera": 1599,
+   "front_camera": 890,
+   "charging_port": 499,
+   "speaker": 300
+  },
+  "fingerprint": "6fc23ea7b938"
+ },
+ "realme NARZO 70 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:17.000Z",
+  "values": {
+   "display": 5389,
+   "back_panel": 1350,
+   "battery": 1490,
+   "rear_camera": 2499,
+   "front_camera": 890,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "a8825113a180"
+ },
+ "realme NARZO 70 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:22.000Z",
+  "values": {
+   "display": 5389,
+   "back_panel": 1350,
+   "battery": 990,
+   "rear_camera": 1599,
+   "front_camera": 890,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "e7dd77e8e808"
+ },
+ "realme NARZO N65 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:26.000Z",
+  "values": {
+   "display": 3199,
+   "back_panel": 990,
+   "battery": 999,
+   "rear_camera": 1490,
+   "front_camera": 599,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "0a741790a87e"
+ },
+ "realme NARZO N63": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:29.000Z",
+  "values": {
+   "display": 2199,
+   "back_panel": 649,
+   "battery": 990,
+   "rear_camera": 1299,
+   "front_camera": 699,
+   "charging_port": 390,
+   "speaker": 300
+  },
+  "fingerprint": "c4851148eeff"
+ },
+ "realme NARZO N61": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:32.000Z",
+  "values": {
+   "display": 1999,
+   "back_panel": 599,
+   "battery": 899,
+   "rear_camera": 699,
+   "front_camera": 599,
+   "charging_port": 350,
+   "speaker": 300
+  },
+  "fingerprint": "154e23bbed0b"
+ },
+ "realme narzo 60x 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:34.000Z",
+  "values": {
+   "display": 3800,
+   "back_panel": 1150,
+   "battery": 1000,
+   "rear_camera": 1499,
+   "front_camera": 990,
+   "charging_port": 499,
+   "speaker": 300
+  },
+  "fingerprint": "6b2026dfa41f"
+ },
+ "realme narzo 60 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:37.000Z",
+  "values": {
+   "display": 8490,
+   "back_panel": 1290,
+   "battery": 1490,
+   "rear_camera": 2990,
+   "front_camera": 890,
+   "charging_port": 499,
+   "speaker": 300
+  },
+  "fingerprint": "bec81d827902"
+ },
+ "realme narzo 60 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:40.000Z",
+  "values": {
+   "display": 4980,
+   "back_panel": 1290,
+   "battery": 1190,
+   "rear_camera": 1690,
+   "front_camera": 890,
+   "charging_port": 399,
+   "speaker": 400
+  },
+  "fingerprint": "90272562f813"
+ },
+ "realme narzo N55": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:42.000Z",
+  "values": {
+   "display": 3699,
+   "back_panel": 890,
+   "battery": 1490,
+   "rear_camera": 1190,
+   "front_camera": 599,
+   "speaker": 300
+  },
+  "fingerprint": "db37400114e0"
+ },
+ "realme narzo N53": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:45.000Z",
+  "values": {
+   "display": 2599,
+   "back_panel": 890,
+   "battery": 990,
+   "rear_camera": 1499,
+   "front_camera": 699,
+   "charging_port": 399,
+   "speaker": 300
+  },
+  "fingerprint": "b84ef29c1f08"
+ },
+ "realme narzo 50i（IN）": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:49.000Z",
+  "values": {
+   "display": 2159,
+   "back_panel": 216,
+   "battery": 1590,
+   "rear_camera": 432,
+   "front_camera": 399,
+   "charging_port": 299,
+   "speaker": 300
+  },
+  "fingerprint": "4536c04e04f8"
+ },
+ "realme narzo 50i Prime": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:54.000Z",
+  "values": {
+   "display": 2699,
+   "back_panel": 250,
+   "battery": 1000,
+   "rear_camera": 270,
+   "front_camera": 180,
+   "charging_port": 350,
+   "speaker": 300
+  },
+  "fingerprint": "d338881863ff"
+ },
+ "realme narzo 50A Prime": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:57:59.000Z",
+  "values": {
+   "display": 3699,
+   "back_panel": 254,
+   "battery": 1000,
+   "rear_camera": 2499,
+   "front_camera": 405,
+   "charging_port": 390,
+   "speaker": 300
+  },
+  "fingerprint": "95f54bc5a270"
+ },
+ "realme narzo 50A": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:04.000Z",
+  "values": {
+   "display": 3099,
+   "back_panel": 499,
+   "battery": 2490,
+   "rear_camera": 1749,
+   "front_camera": 319,
+   "charging_port": 195,
+   "speaker": 300
+  },
+  "fingerprint": "16f390cd95a5"
+ },
+ "realme narzo 50 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:07.000Z",
+  "values": {
+   "display": 6999,
+   "back_panel": 445,
+   "battery": 999,
+   "rear_camera": 1490,
+   "front_camera": 668,
+   "charging_port": 225,
+   "speaker": 300
+  },
+  "fingerprint": "0f39a2b9ae7d"
+ },
+ "realme narzo 50 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:09.000Z",
+  "values": {
+   "display": 5199,
+   "back_panel": 445,
+   "battery": 1490,
+   "rear_camera": 1118,
+   "front_camera": 389,
+   "charging_port": 169,
+   "speaker": 300
+  },
+  "fingerprint": "cc41452f6ae5"
+ },
+ "realme narzo 50": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:12.000Z",
+  "values": {
+   "display": 4499,
+   "back_panel": 557,
+   "battery": 1490,
+   "rear_camera": 2499,
+   "front_camera": 760,
+   "speaker": 300
+  },
+  "fingerprint": "376ee6011544"
+ },
+ "realme narzo 30A": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:14.000Z",
+  "values": {
+   "display": 1792,
+   "back_panel": 499,
+   "battery": 2490,
+   "rear_camera": 458,
+   "front_camera": 288,
+   "charging_port": 351,
+   "speaker": 300
+  },
+  "fingerprint": "e0edde0c193c"
+ },
+ "realme narzo 30 Pro 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:17.000Z",
+  "values": {
+   "display": 4490,
+   "back_panel": 899,
+   "battery": 628,
+   "rear_camera": 1728,
+   "front_camera": 792,
+   "charging_port": 390,
+   "speaker": 200
+  },
+  "fingerprint": "5e4a286c94e8"
+ },
+ "realme narzo 30 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:20.000Z",
+  "values": {
+   "display": 4490,
+   "back_panel": 475,
+   "battery": 2490,
+   "rear_camera": 2160,
+   "front_camera": 855,
+   "speaker": 300
+  },
+  "fingerprint": "8113137c9d6b"
+ },
+ "realme narzo 30": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:22.000Z",
+  "values": {
+   "display": 4399,
+   "back_panel": 780,
+   "battery": 990,
+   "rear_camera": 1620,
+   "front_camera": 510,
+   "charging_port": 138,
+   "speaker": 300
+  },
+  "fingerprint": "05449f55bbfd"
+ },
+ "realme narzo 20A": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:25.000Z",
+  "values": {
+   "display": 2990,
+   "back_panel": 1700,
+   "battery": 1590,
+   "rear_camera": 360,
+   "front_camera": 251,
+   "charging_port": 138,
+   "speaker": 300
+  },
+  "fingerprint": "0c8aa5247b39"
+ },
+ "realme narzo 20 Pro": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:28.000Z",
+  "values": {
+   "display": 4390,
+   "back_panel": 799,
+   "battery": 1599,
+   "rear_camera": 1620,
+   "front_camera": 680,
+   "charging_port": 180,
+   "speaker": 300
+  },
+  "fingerprint": "606b5b7fdcb8"
+ },
+ "realme narzo 20": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:30.000Z",
+  "values": {
+   "display": 4390,
+   "back_panel": 550,
+   "battery": 2490,
+   "rear_camera": 851,
+   "front_camera": 276,
+   "charging_port": 112,
+   "speaker": 300
+  },
+  "fingerprint": "81901570ed28"
+ },
+ "realme narzo 10A": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:33.000Z",
+  "values": {
+   "display": 5750,
+   "back_panel": 518,
+   "battery": 1590,
+   "rear_camera": 373,
+   "front_camera": 197,
+   "charging_port": 350,
+   "speaker": 300
+  },
+  "fingerprint": "741e11612dc6"
+ },
+ "realme narzo 10": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:36.000Z",
+  "values": {
+   "display": 2990,
+   "back_panel": 690,
+   "battery": 1000,
+   "rear_camera": 864,
+   "front_camera": 729,
+   "charging_port": 210,
+   "speaker": 300
+  },
+  "fingerprint": "0e2a21db6b61"
+ },
+ "realme C85 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:39.000Z",
+  "values": {
+   "display": 5399,
+   "back_panel": 1499,
+   "battery": 1699,
+   "rear_camera": 1599,
+   "front_camera": 999,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "85cd0876076e"
+ },
+ "realme C83 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:42.000Z",
+  "values": {
+   "display": 3550,
+   "back_panel": 990,
+   "battery": 1699,
+   "rear_camera": 690,
+   "front_camera": 390,
+   "charging_port": 490,
+   "speaker": 300
+  },
+  "fingerprint": "2375c4e8d369"
+ },
+ "realme C75x": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:45.000Z",
+  "values": {},
+  "fingerprint": "4f53cda18c2b"
+ },
+ "realme C75 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:48.000Z",
+  "values": {
+   "display": 3099,
+   "back_panel": 990,
+   "battery": 1490,
+   "rear_camera": 1299,
+   "front_camera": 599,
+   "charging_port": 399,
+   "speaker": 300
+  },
+  "fingerprint": "9f79cb167bf7"
+ },
+ "realme C73 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:50.000Z",
+  "values": {
+   "display": 2649,
+   "back_panel": 990,
+   "battery": 1490,
+   "rear_camera": 1299,
+   "front_camera": 599,
+   "charging_port": 399,
+   "speaker": 300
+  },
+  "fingerprint": "11628dd21fd5"
+ },
+ "realme C71": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:53.000Z",
+  "values": {
+   "display": 2254,
+   "back_panel": 590,
+   "battery": 899,
+   "rear_camera": 1299,
+   "front_camera": 599,
+   "charging_port": 349,
+   "speaker": 200
+  },
+  "fingerprint": "b3f392d2974c"
+ },
+ "realme C67 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:56.000Z",
+  "values": {
+   "display": 3599,
+   "back_panel": 990,
+   "battery": 1000,
+   "rear_camera": 1499,
+   "front_camera": 990,
+   "charging_port": 499,
+   "speaker": 300
+  },
+  "fingerprint": "b2b317f445a1"
+ },
+ "realme C65 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:58:58.000Z",
+  "values": {
+   "display": 3199,
+   "back_panel": 990,
+   "battery": 999,
+   "rear_camera": 1490,
+   "front_camera": 599,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "ce56204f2f55"
+ },
+ "realme C63 5G": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:01.000Z",
+  "values": {
+   "display": 2599,
+   "back_panel": 1999,
+   "battery": 999,
+   "rear_camera": 1290,
+   "front_camera": 599,
+   "charging_port": 699,
+   "speaker": 300
+  },
+  "fingerprint": "58e90a13c661"
+ },
+ "realme C63": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:04.000Z",
+  "values": {
+   "display": 2199,
+   "back_panel": 649,
+   "battery": 990,
+   "rear_camera": 1299,
+   "front_camera": 699,
+   "charging_port": 390,
+   "speaker": 300
+  },
+  "fingerprint": "83bef99f628d"
+ },
+ "realme C61": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:07.000Z",
+  "values": {
+   "display": 1999,
+   "back_panel": 599,
+   "battery": 899,
+   "rear_camera": 699,
+   "charging_port": 350,
+   "speaker": 300
+  },
+  "fingerprint": "b07c83d77283"
+ },
+ "realme C55": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:09.000Z",
+  "values": {
+   "display": 3699,
+   "back_panel": 1390,
+   "battery": 1490,
+   "rear_camera": 1190,
+   "front_camera": 599,
+   "speaker": 300
+  },
+  "fingerprint": "ecc5b667bc67"
+ },
+ "realme C53": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:12.000Z",
+  "values": {
+   "display": 2499,
+   "back_panel": 649,
+   "battery": 1000,
+   "rear_camera": 2199,
+   "charging_port": 390,
+   "speaker": 300
+  },
+  "fingerprint": "6f77d21c04d8"
+ },
+ "realme C51": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:14.000Z",
+  "values": {
+   "display": 2599,
+   "back_panel": 649,
+   "battery": 1000,
+   "rear_camera": 1499,
+   "front_camera": 590,
+   "charging_port": 399,
+   "speaker": 300
+  },
+  "fingerprint": "31930f8b15a8"
+ },
+ "realme C35": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:17.000Z",
+  "values": {
+   "display": 3699,
+   "back_panel": 549,
+   "battery": 1000,
+   "rear_camera": 2499,
+   "front_camera": 405,
+   "charging_port": 390,
+   "speaker": 300
+  },
+  "fingerprint": "b607dcf79191"
+ },
+ "realme C33 2023": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:20.000Z",
+  "values": {
+   "display": 2599,
+   "back_panel": 549,
+   "battery": 1000,
+   "rear_camera": 2499,
+   "front_camera": 399,
+   "charging_port": 350,
+   "speaker": 300
+  },
+  "fingerprint": "c13c5c429339"
+ },
+ "realme C33": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:22.000Z",
+  "values": {
+   "display": 2599,
+   "back_panel": 549,
+   "battery": 1000,
+   "rear_camera": 2499,
+   "front_camera": 399,
+   "charging_port": 390,
+   "speaker": 300
+  },
+  "fingerprint": "e3e34c0de781"
+ },
+ "realme C31": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:25.000Z",
+  "values": {
+   "display": 2079,
+   "back_panel": 549,
+   "battery": 1000,
+   "rear_camera": 438,
+   "front_camera": 224,
+   "charging_port": 390,
+   "speaker": 300
+  },
+  "fingerprint": "de14fcaced7e"
+ },
+ "realme C30s": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:27.000Z",
+  "values": {
+   "display": 2699,
+   "back_panel": 200,
+   "battery": 1000,
+   "rear_camera": 540,
+   "front_camera": 399,
+   "charging_port": 350,
+   "speaker": 300
+  },
+  "fingerprint": "b2fd3bda3f24"
+ },
+ "realme C30": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:30.000Z",
+  "values": {
+   "display": 2699,
+   "back_panel": 206,
+   "battery": 1000,
+   "rear_camera": 270,
+   "front_camera": 180,
+   "charging_port": 350,
+   "speaker": 300
+  },
+  "fingerprint": "cc2472da11e0"
+ },
+ "realme C3": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:33.000Z",
+  "values": {
+   "display": 5750,
+   "back_panel": 476,
+   "battery": 1590,
+   "rear_camera": 160
+  },
+  "fingerprint": "0d2915a720ef"
+ },
+ "realme C25s": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:35.000Z",
+  "values": {
+   "display": 1989,
+   "back_panel": 549,
+   "battery": 2490,
+   "rear_camera": 540,
+   "front_camera": 288,
+   "charging_port": 156,
+   "speaker": 300
+  },
+  "fingerprint": "b4151131c9fb"
+ },
+ "realme C25_Y": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:38.000Z",
+  "values": {
+   "display": 2367,
+   "back_panel": 272,
+   "battery": 1000,
+   "rear_camera": 1749,
+   "front_camera": 405,
+   "charging_port": 137,
+   "speaker": 300
+  },
+  "fingerprint": "2134faf0c08a"
+ },
+ "realme C25Y": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:41.000Z",
+  "values": {
+   "display": 3699,
+   "back_panel": 272,
+   "battery": 1000,
+   "rear_camera": 1749,
+   "front_camera": 405,
+   "charging_port": 137,
+   "speaker": 300
+  },
+  "fingerprint": "c7fe7adc22ec"
+ },
+ "realme C25-Y": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:43.000Z",
+  "values": {
+   "display": 2367,
+   "back_panel": 272,
+   "battery": 1000,
+   "rear_camera": 240,
+   "front_camera": 405,
+   "charging_port": 137,
+   "speaker": 300
+  },
+  "fingerprint": "a3d75722659a"
+ },
+ "realme C25": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:46.000Z",
+  "values": {
+   "display": 2754,
+   "back_panel": 549,
+   "battery": 2490,
+   "rear_camera": 540,
+   "front_camera": 288,
+   "charging_port": 140,
+   "speaker": 300
+  },
+  "fingerprint": "24fd02bf0e1f"
+ },
+ "realme C21Y": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:48.000Z",
+  "values": {
+   "display": 1632,
+   "back_panel": 549,
+   "battery": 1590,
+   "rear_camera": 719,
+   "front_camera": 319,
+   "charging_port": 131,
+   "speaker": 300
+  },
+  "fingerprint": "6ce7e8809dad"
+ },
+ "realme C21-Y": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:51.000Z",
+  "values": {
+   "display": 2399,
+   "back_panel": 549,
+   "battery": 1590,
+   "rear_camera": 719,
+   "front_camera": 319,
+   "charging_port": 390,
+   "speaker": 300
+  },
+  "fingerprint": "0c02bfa16838"
+ },
+ "realme C21": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:54.000Z",
+  "values": {
+   "display": 2399,
+   "back_panel": 549,
+   "battery": 1590,
+   "rear_camera": 486,
+   "front_camera": 288,
+   "charging_port": 280,
+   "speaker": 300
+  },
+  "fingerprint": "15e6b545cc9a"
+ },
+ "realme C20": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:56.000Z",
+  "values": {
+   "display": 2399,
+   "back_panel": 499,
+   "battery": 1590,
+   "rear_camera": 331,
+   "front_camera": 288,
+   "charging_port": 280,
+   "speaker": 300
+  },
+  "fingerprint": "2eb89b315917"
+ },
+ "realme C2": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T16:59:59.000Z",
+  "values": {
+   "display": 2450,
+   "back_panel": 1200,
+   "battery": 288,
+   "rear_camera": 308,
+   "front_camera": 96,
+   "charging_port": 122,
+   "speaker": 200
+  },
+  "fingerprint": "c13836a11ed3"
+ },
+ "realme C15 Qualcomm Edition": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:02.000Z",
+  "values": {
+   "display": 1645,
+   "back_panel": 243,
+   "battery": 2490,
+   "rear_camera": 520,
+   "front_camera": 310,
+   "charging_port": 225,
+   "speaker": 300
+  },
+  "fingerprint": "198e5061f615"
+ },
+ "realme C15": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:04.000Z",
+  "values": {
+   "display": 2690,
+   "back_panel": 649,
+   "battery": 2490,
+   "rear_camera": 360,
+   "front_camera": 276,
+   "charging_port": 350,
+   "speaker": 300
+  },
+  "fingerprint": "f3427b639dbf"
+ },
+ "realme C12": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:07.000Z",
+  "values": {
+   "display": 2690,
+   "back_panel": 549,
+   "battery": 2490,
+   "rear_camera": 360,
+   "front_camera": 207,
+   "charging_port": 350,
+   "speaker": 300
+  },
+  "fingerprint": "9ec1cf0c093a"
+ },
+ "realme C11 2021": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:11.000Z",
+  "values": {
+   "display": 2159,
+   "back_panel": 499,
+   "battery": 1590,
+   "rear_camera": 432,
+   "front_camera": 399,
+   "charging_port": 350,
+   "speaker": 300
+  },
+  "fingerprint": "8a1cb738de0a"
+ },
+ "realme C11": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:16.000Z",
+  "values": {
+   "display": 1673,
+   "back_panel": 549,
+   "battery": 1590,
+   "rear_camera": 384,
+   "front_camera": 186,
+   "charging_port": 177,
+   "speaker": 300
+  },
+  "fingerprint": "174019a996ac"
+ },
+ "realme C100x": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:21.000Z",
+  "values": {
+   "display": 2999,
+   "back_panel": 599,
+   "battery": 2099,
+   "rear_camera": 1599,
+   "front_camera": 599,
+   "charging_port": 300,
+   "speaker": 200
+  },
+  "fingerprint": "e5b3e0deabf0"
+ },
+ "realme C100i": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:24.000Z",
+  "values": {
+   "display": 2999,
+   "back_panel": 599,
+   "battery": 1699,
+   "rear_camera": 799,
+   "charging_port": 300
+  },
+  "fingerprint": "b61f3cb43133"
+ },
+ "realme C1": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:27.000Z",
+  "values": {
+   "display": 1427,
+   "back_panel": 570,
+   "battery": 700,
+   "rear_camera": 240,
+   "front_camera": 120,
+   "charging_port": 135,
+   "speaker": 200
+  },
+  "fingerprint": "d00f197ca38e"
+ },
+ "realme GT Neo3 150W": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:31.000Z",
+  "values": {
+   "display": 10999,
+   "back_panel": 2690,
+   "battery": 2490,
+   "rear_camera": 2699,
+   "front_camera": 501,
+   "charging_port": 449,
+   "speaker": 399
+  },
+  "fingerprint": "339857dd8e47"
+ },
+ "realme GT Neo3": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:33.000Z",
+  "values": {
+   "display": 10999,
+   "back_panel": 2690,
+   "battery": 1999,
+   "rear_camera": 2699,
+   "front_camera": 501,
+   "charging_port": 449,
+   "speaker": 399
+  },
+  "fingerprint": "1a094f6384be"
+ },
+ "realme GT Neo2": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:36.000Z",
+  "values": {
+   "display": 7999,
+   "back_panel": 2490,
+   "battery": 2990,
+   "rear_camera": 2392,
+   "front_camera": 668,
+   "speaker": 399
+  },
+  "fingerprint": "ba2f6c06c578"
+ },
+ "realme GT NEO 3T": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:39.000Z",
+  "values": {
+   "display": 10999,
+   "back_panel": 2690,
+   "battery": 2990,
+   "rear_camera": 2690,
+   "front_camera": 668,
+   "speaker": 399
+  },
+  "fingerprint": "68e6b3169a8d"
+ },
+ "realme X7 Pro": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:42.000Z",
+  "values": {
+   "display": 8990,
+   "back_panel": 2090,
+   "battery": 1590,
+   "rear_camera": 2127,
+   "front_camera": 942,
+   "charging_port": 400,
+   "speaker": 300
+  },
+  "fingerprint": "af73071fe5cc"
+ },
+ "realme X7 Max": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:45.000Z",
+  "values": {
+   "display": 6490,
+   "back_panel": 1899,
+   "battery": 1990,
+   "rear_camera": 2392,
+   "front_camera": 601,
+   "speaker": 300
+  },
+  "fingerprint": "9475a674e2f6"
+ },
+ "realme X7": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:48.000Z",
+  "values": {
+   "display": 4790,
+   "back_panel": 1290,
+   "battery": 1350,
+   "rear_camera": 2682,
+   "front_camera": 872,
+   "charging_port": 280,
+   "speaker": 300
+  },
+  "fingerprint": "c4db6596e57d"
+ },
+ "realme X50 Pro": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:50.000Z",
+  "values": {
+   "display": 8408,
+   "back_panel": 1990,
+   "battery": 1990,
+   "rear_camera": 2213,
+   "front_camera": 1118,
+   "charging_port": 280,
+   "speaker": 200
+  },
+  "fingerprint": "7c92d7406a39"
+ },
+ "realme X3 Super Zoom": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:53.000Z",
+  "values": {
+   "display": 4360,
+   "back_panel": 2790,
+   "battery": 1999,
+   "rear_camera": 2533,
+   "front_camera": 1490,
+   "charging_port": 105,
+   "speaker": 300
+  },
+  "fingerprint": "a7590669f191"
+ },
+ "realme X3": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:55.000Z",
+  "values": {
+   "display": 4360,
+   "back_panel": 2790,
+   "battery": 1999,
+   "rear_camera": 2533,
+   "front_camera": 594,
+   "charging_port": 105,
+   "speaker": 300
+  },
+  "fingerprint": "e77f5ab32ee2"
+ },
+ "realme X2 Pro": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:00:58.000Z",
+  "values": {
+   "display": 18720,
+   "back_panel": 2200,
+   "battery": 3980,
+   "rear_camera": 3490,
+   "front_camera": 630,
+   "speaker": 200
+  },
+  "fingerprint": "6d185ea06077"
+ },
+ "realme X2": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:01:01.000Z",
+  "values": {
+   "display": 8490,
+   "back_panel": 750,
+   "battery": 2450,
+   "rear_camera": 2018,
+   "front_camera": 1170,
+   "speaker": 300
+  },
+  "fingerprint": "a979b3c71e26"
+ },
+ "realme XT": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:01:03.000Z",
+  "values": {
+   "display": 8490,
+   "back_panel": 750,
+   "battery": 2450,
+   "rear_camera": 2018,
+   "front_camera": 589,
+   "speaker": 300
+  },
+  "fingerprint": "c2cb38733faa"
+ },
+ "realme X": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:01:06.000Z",
+  "values": {
+   "display": 4700,
+   "back_panel": 550,
+   "battery": 825,
+   "rear_camera": 1410,
+   "front_camera": 3600,
+   "speaker": 200
+  },
+  "fingerprint": "11c3712482cf"
+ },
+ "realme U1": {
+  "source_url": "https://www.realme.com/in/support/spare-parts-price",
+  "observed_at": "2026-11-14T17:01:10.000Z",
+  "values": {
+   "display": 1518,
+   "back_panel": 1000,
+   "battery": 1200,
+   "rear_camera": 353,
+   "front_camera": 620,
+   "speaker": 200
+  },
+  "fingerprint": "368f85f0f19f"
+ }
+}

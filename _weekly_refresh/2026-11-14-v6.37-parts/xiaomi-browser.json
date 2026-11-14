@@ -1,0 +1,2001 @@
+{
+ "Mi 10": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:03.000Z",
+  "values": {
+   "display": 16999,
+   "back_panel": 2999,
+   "battery": 1999,
+   "rear_camera": 5499,
+   "front_camera": 1999,
+   "charging_port": 999,
+   "speaker": 399
+  },
+  "fingerprint": "bcc89f70eea0"
+ },
+ "Mi 10i": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:05.000Z",
+  "values": {
+   "display": 2799,
+   "back_panel": 1999,
+   "battery": 399,
+   "rear_camera": 3999,
+   "front_camera": 999,
+   "charging_port": 699,
+   "speaker": 399
+  },
+  "fingerprint": "91ea20e49eee"
+ },
+ "Mi 10T": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:07.000Z",
+  "values": {
+   "display": 3999,
+   "back_panel": 2999,
+   "battery": 399,
+   "rear_camera": 6599,
+   "front_camera": 1299,
+   "charging_port": 999,
+   "speaker": 399
+  },
+  "fingerprint": "b330b0bdd937"
+ },
+ "Mi 10T Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:09.000Z",
+  "values": {},
+  "fingerprint": "ceabb5ab059b"
+ },
+ "Mi 11 Lite": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:11.000Z",
+  "values": {
+   "display": 2999,
+   "back_panel": 1199,
+   "battery": 2399,
+   "rear_camera": 1999,
+   "front_camera": 999,
+   "charging_port": 699
+  },
+  "fingerprint": "fee71d180f20"
+ },
+ "Mi 11 Ultra": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:13.000Z",
+  "values": {
+   "display": 18999,
+   "back_panel": 8999,
+   "battery": 2899,
+   "charging_port": 999,
+   "speaker": 299
+  },
+  "fingerprint": "5da6d60d7f95"
+ },
+ "Mi 11X": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:15.000Z",
+  "values": {
+   "display": 9299,
+   "back_panel": 2399,
+   "battery": 499,
+   "rear_camera": 1999,
+   "front_camera": 1299,
+   "charging_port": 699,
+   "speaker": 299
+  },
+  "fingerprint": "8071252addb9"
+ },
+ "Mi 11X Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:17.000Z",
+  "values": {
+   "display": 9299,
+   "back_panel": 2599,
+   "battery": 499,
+   "rear_camera": 6599,
+   "charging_port": 999
+  },
+  "fingerprint": "12f1aeee948b"
+ },
+ "Mi 8": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:18.000Z",
+  "values": {
+   "display": 5999,
+   "back_panel": 1999
+  },
+  "fingerprint": "1ac0969d5eeb"
+ },
+ "Mi A1": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:20.000Z",
+  "values": {
+   "display": 2199,
+   "back_panel": 1499,
+   "battery": 999,
+   "rear_camera": 1999,
+   "speaker": 399
+  },
+  "fingerprint": "2a897a22ba6a"
+ },
+ "Mi A2": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:22.000Z",
+  "values": {
+   "display": 1999,
+   "back_panel": 999,
+   "battery": 399,
+   "rear_camera": 2499,
+   "front_camera": 1199,
+   "charging_port": 246,
+   "speaker": 299
+  },
+  "fingerprint": "58bc1edec2eb"
+ },
+ "Mi A3": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:28.000Z",
+  "values": {
+   "display": 2999,
+   "back_panel": 1199,
+   "battery": 499,
+   "rear_camera": 1799,
+   "front_camera": 1399,
+   "charging_port": 246,
+   "speaker": 299
+  },
+  "fingerprint": "41a664306617"
+ },
+ "Mi Max 2": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:34.000Z",
+  "values": {
+   "display": 4999,
+   "back_panel": 1350,
+   "battery": 999,
+   "rear_camera": 613,
+   "speaker": 330
+  },
+  "fingerprint": "6f9a1d9ebfd8"
+ },
+ "Mi Mix2S": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:40.000Z",
+  "values": {
+   "display": 6399,
+   "back_panel": 9499
+  },
+  "fingerprint": "becf5184dba1"
+ },
+ "POCO C3": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:46.000Z",
+  "values": {
+   "display": 1899,
+   "back_panel": 499
+  },
+  "fingerprint": "920e88d3860d"
+ },
+ "POCO C31": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:52.000Z",
+  "values": {
+   "display": 1699,
+   "back_panel": 499,
+   "rear_camera": 599,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "6f20ea5958c7"
+ },
+ "POCO C50": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:53:58.000Z",
+  "values": {
+   "display": 1399,
+   "back_panel": 299,
+   "battery": 699,
+   "charging_port": 299
+  },
+  "fingerprint": "3f295c7736fc"
+ },
+ "POCO C51": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:54:04.000Z",
+  "values": {
+   "display": 1499,
+   "back_panel": 299
+  },
+  "fingerprint": "1a5939a11b55"
+ },
+ "POCO C55": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:54:10.000Z",
+  "values": {
+   "display": 1299,
+   "back_panel": 299,
+   "charging_port": 299,
+   "speaker": 49
+  },
+  "fingerprint": "226174d30a14"
+ },
+ "POCO C61": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:54:16.000Z",
+  "values": {
+   "display": 1599,
+   "back_panel": 419,
+   "front_camera": 299,
+   "charging_port": 249,
+   "speaker": 99
+  },
+  "fingerprint": "8ff2f830342f"
+ },
+ "POCO C65": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:54:22.000Z",
+  "values": {
+   "display": 1399,
+   "back_panel": 299,
+   "battery": 899,
+   "rear_camera": 799,
+   "charging_port": 239,
+   "speaker": 109
+  },
+  "fingerprint": "3d9b0320e2f5"
+ },
+ "POCO C71": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:54:42.000Z",
+  "values": {
+   "display": 1999,
+   "back_panel": 599,
+   "battery": 599,
+   "rear_camera": 599,
+   "front_camera": 299,
+   "charging_port": 299
+  },
+  "fingerprint": "cd9a2a0cfbcc"
+ },
+ "POCO C75 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:54:44.000Z",
+  "values": {
+   "display": 2499,
+   "back_panel": 599,
+   "front_camera": 199,
+   "charging_port": 299
+  },
+  "fingerprint": "b12af2e7864d"
+ },
+ "POCO C81 4G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:54:46.000Z",
+  "values": {},
+  "fingerprint": "cb6202129b86"
+ },
+ "POCO C81X": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:54:47.000Z",
+  "values": {},
+  "fingerprint": "bed1e14620e4"
+ },
+ "POCO C85 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:54:49.000Z",
+  "values": {
+   "display": 2199,
+   "back_panel": 699,
+   "battery": 1099,
+   "rear_camera": 699,
+   "front_camera": 299,
+   "charging_port": 299,
+   "speaker": 99
+  },
+  "fingerprint": "9c6964208aa4"
+ },
+ "POCO F1": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:54:51.000Z",
+  "values": {
+   "display": 6999,
+   "back_panel": 1599,
+   "battery": 799,
+   "rear_camera": 1899,
+   "front_camera": 999,
+   "charging_port": 699,
+   "speaker": 299
+  },
+  "fingerprint": "7d5be746aa09"
+ },
+ "POCO F3 GT": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:54:53.000Z",
+  "values": {
+   "display": 5699,
+   "back_panel": 2399,
+   "battery": 1999,
+   "rear_camera": 2199,
+   "charging_port": 499
+  },
+  "fingerprint": "91be1f40e805"
+ },
+ "POCO F4 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:54:55.000Z",
+  "values": {
+   "display": 6999,
+   "back_panel": 1999,
+   "battery": 1599,
+   "rear_camera": 1399,
+   "front_camera": 699,
+   "charging_port": 599,
+   "speaker": 199
+  },
+  "fingerprint": "3c32792315d3"
+ },
+ "POCO F5 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:54:57.000Z",
+  "values": {
+   "display": 4499,
+   "back_panel": 1099,
+   "battery": 1599,
+   "rear_camera": 1499,
+   "front_camera": 399,
+   "charging_port": 399,
+   "speaker": 199
+  },
+  "fingerprint": "40a70641c2ef"
+ },
+ "POCO F6": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:56:23.000Z",
+  "values": {
+   "display": 4199,
+   "back_panel": 1599,
+   "battery": 1199,
+   "rear_camera": 2999,
+   "charging_port": 499,
+   "speaker": 199
+  },
+  "fingerprint": "01082cd8c0b9"
+ },
+ "POCO F7 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:56:26.000Z",
+  "values": {
+   "display": 7999,
+   "back_panel": 1999,
+   "battery": 1999,
+   "rear_camera": 1399,
+   "front_camera": 499,
+   "charging_port": 499
+  },
+  "fingerprint": "3ae5e6cf4abe"
+ },
+ "POCO M2": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:56:30.000Z",
+  "values": {
+   "display": 999,
+   "back_panel": 799,
+   "battery": 499,
+   "rear_camera": 599,
+   "front_camera": 499,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "80826f97f4b4"
+ },
+ "POCO M2 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:56:33.000Z",
+  "values": {
+   "display": 1099,
+   "back_panel": 999,
+   "battery": 499,
+   "rear_camera": 1299,
+   "front_camera": 999,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "3d7f1205c12b"
+ },
+ "POCO M3": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:56:37.000Z",
+  "values": {
+   "display": 1099,
+   "back_panel": 399,
+   "battery": 499,
+   "rear_camera": 1299,
+   "front_camera": 499,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "9e92b76275b4"
+ },
+ "POCO M3 Pro 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:56:40.000Z",
+  "values": {
+   "display": 1399,
+   "back_panel": 1199,
+   "charging_port": 299
+  },
+  "fingerprint": "49070e47b425"
+ },
+ "POCO M4 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:56:48.000Z",
+  "values": {
+   "display": 2999,
+   "back_panel": 599,
+   "charging_port": 299
+  },
+  "fingerprint": "387f4435dec3"
+ },
+ "POCO M4 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:56:55.000Z",
+  "values": {
+   "display": 3299,
+   "back_panel": 499,
+   "battery": 599,
+   "rear_camera": 999,
+   "front_camera": 799,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "ce5e4877f061"
+ },
+ "POCO M4 Pro 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:56:58.000Z",
+  "values": {
+   "display": 2699,
+   "back_panel": 499,
+   "battery": 799,
+   "rear_camera": 899,
+   "front_camera": 799,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "babba7c9f5fd"
+ },
+ "POCO M5": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:57:02.000Z",
+  "values": {
+   "display": 1999,
+   "back_panel": 449,
+   "battery": 799,
+   "rear_camera": 199,
+   "front_camera": 399,
+   "charging_port": 299,
+   "speaker": 799
+  },
+  "fingerprint": "75e9edc95b7c"
+ },
+ "POCO M6 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:57:05.000Z",
+  "values": {
+   "display": 2199,
+   "back_panel": 299,
+   "rear_camera": 1599,
+   "front_camera": 299,
+   "charging_port": 259
+  },
+  "fingerprint": "024a44721be1"
+ },
+ "POCO M6 Pro 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:57:09.000Z",
+  "values": {
+   "display": 1999,
+   "back_panel": 499,
+   "battery": 699,
+   "rear_camera": 899,
+   "front_camera": 399,
+   "charging_port": 299,
+   "speaker": 99
+  },
+  "fingerprint": "61f6e4340a76"
+ },
+ "POCO M6+ 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:57:12.000Z",
+  "values": {
+   "display": 1999,
+   "back_panel": 1199,
+   "battery": 699,
+   "rear_camera": 1499,
+   "front_camera": 599,
+   "charging_port": 299,
+   "speaker": 99
+  },
+  "fingerprint": "e674554ecd3c"
+ },
+ "POCO M7 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:57:18.000Z",
+  "values": {
+   "display": 2499,
+   "back_panel": 599,
+   "battery": 699,
+   "rear_camera": 599,
+   "front_camera": 199,
+   "charging_port": 299,
+   "speaker": 99
+  },
+  "fingerprint": "b1a478abfecd"
+ },
+ "POCO M7 Pro 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:57:26.000Z",
+  "values": {
+   "display": 5599,
+   "back_panel": 399,
+   "battery": 899,
+   "rear_camera": 1399,
+   "front_camera": 499,
+   "charging_port": 299,
+   "speaker": 99
+  },
+  "fingerprint": "6a5da8adc288"
+ },
+ "POCO M7+ 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:57:34.000Z",
+  "values": {
+   "display": 3999,
+   "back_panel": 1999,
+   "battery": 1799,
+   "rear_camera": 699,
+   "front_camera": 349,
+   "charging_port": 299,
+   "speaker": 99
+  },
+  "fingerprint": "998599ae3eae"
+ },
+ "POCO M8 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:57:42.000Z",
+  "values": {
+   "display": 5399,
+   "back_panel": 899,
+   "battery": 1699,
+   "rear_camera": 699,
+   "front_camera": 499,
+   "charging_port": 299,
+   "speaker": 149
+  },
+  "fingerprint": "9b3b2c886c02"
+ },
+ "POCO X2": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:57:50.000Z",
+  "values": {
+   "display": 1799,
+   "back_panel": 1499,
+   "battery": 499,
+   "rear_camera": 2399,
+   "front_camera": 1299,
+   "charging_port": 799,
+   "speaker": 299
+  },
+  "fingerprint": "fe627a303c81"
+ },
+ "POCO X3": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:57:58.000Z",
+  "values": {
+   "display": 1099,
+   "back_panel": 1199,
+   "battery": 399,
+   "rear_camera": 2399,
+   "charging_port": 599
+  },
+  "fingerprint": "4516e23ef959"
+ },
+ "POCO X3 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:58:06.000Z",
+  "values": {
+   "display": 1599,
+   "back_panel": 1199,
+   "battery": 399,
+   "rear_camera": 1799,
+   "front_camera": 1299,
+   "charging_port": 299,
+   "speaker": 299
+  },
+  "fingerprint": "a2288c33079a"
+ },
+ "POCO X4 Pro 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:58:14.000Z",
+  "values": {
+   "display": 4999,
+   "back_panel": 699,
+   "battery": 1399,
+   "rear_camera": 1899,
+   "front_camera": 799,
+   "charging_port": 399,
+   "speaker": 199
+  },
+  "fingerprint": "efd0216c0bcc"
+ },
+ "POCO X5 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:58:29.000Z",
+  "values": {
+   "display": 2999,
+   "back_panel": 399,
+   "battery": 1199,
+   "rear_camera": 299,
+   "front_camera": 599,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "760fa24818f5"
+ },
+ "POCO X5 Pro 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:58:32.000Z",
+  "values": {
+   "display": 2999,
+   "back_panel": 1699,
+   "battery": 1599,
+   "rear_camera": 2499,
+   "front_camera": 599,
+   "charging_port": 1699,
+   "speaker": 199
+  },
+  "fingerprint": "cdbc5b89e9de"
+ },
+ "POCO X6 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:58:36.000Z",
+  "values": {
+   "display": 4199,
+   "back_panel": 799,
+   "battery": 1099,
+   "rear_camera": 529,
+   "front_camera": 999,
+   "charging_port": 499,
+   "speaker": 99
+  },
+  "fingerprint": "09f23d9d0ae3"
+ },
+ "POCO X6 Neo 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:58:39.000Z",
+  "values": {
+   "display": 3519,
+   "back_panel": 729,
+   "battery": 1299,
+   "rear_camera": 1499,
+   "front_camera": 899,
+   "charging_port": 449,
+   "speaker": 59
+  },
+  "fingerprint": "5aef5f861122"
+ },
+ "POCO X6 Pro 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:58:43.000Z",
+  "values": {
+   "display": 6599,
+   "back_panel": 4799,
+   "battery": 1299,
+   "rear_camera": 1299,
+   "front_camera": 899,
+   "charging_port": 499,
+   "speaker": 149
+  },
+  "fingerprint": "270b400cd8ba"
+ },
+ "POCO X7 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:58:46.000Z",
+  "values": {
+   "display": 5699,
+   "back_panel": 999,
+   "battery": 999,
+   "rear_camera": 1299,
+   "front_camera": 499,
+   "charging_port": 399,
+   "speaker": 199
+  },
+  "fingerprint": "4aba664a5ee0"
+ },
+ "POCO X7 Pro 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:58:50.000Z",
+  "values": {
+   "display": 5999,
+   "back_panel": 1099,
+   "battery": 1599,
+   "rear_camera": 1399,
+   "charging_port": 499
+  },
+  "fingerprint": "e68688706991"
+ },
+ "POCO X8 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:58:53.000Z",
+  "values": {
+   "back_panel": 1999
+  },
+  "fingerprint": "7d73f1c15732"
+ },
+ "POCO X8 Pro Max": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:58:57.000Z",
+  "values": {
+   "battery": 3199
+  },
+  "fingerprint": "8ee457c33eb2"
+ },
+ "Redmi 10": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:59:00.000Z",
+  "values": {
+   "display": 1699,
+   "back_panel": 399,
+   "rear_camera": 899
+  },
+  "fingerprint": "13a29c672b1a"
+ },
+ "Redmi 10 Power": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:59:04.000Z",
+  "values": {
+   "display": 1699,
+   "back_panel": 399,
+   "battery": 799,
+   "rear_camera": 1199,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "f60f153f91b9"
+ },
+ "Redmi 10 Prime": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:59:08.000Z",
+  "values": {
+   "display": 1299,
+   "back_panel": 399,
+   "battery": 499,
+   "rear_camera": 1299,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "f06253da0d29"
+ },
+ "Redmi 10 Prime 2022": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:59:11.000Z",
+  "values": {
+   "display": 1799,
+   "back_panel": 599,
+   "battery": 1099,
+   "rear_camera": 699,
+   "front_camera": 599,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "c13e74bfd1d1"
+ },
+ "Redmi 10A": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:59:15.000Z",
+  "values": {
+   "display": 1899,
+   "back_panel": 499,
+   "rear_camera": 599,
+   "front_camera": 299,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "ce168cebe9b3"
+ },
+ "Redmi 11 Prime": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:59:21.000Z",
+  "values": {
+   "display": 1999,
+   "back_panel": 299,
+   "battery": 799,
+   "charging_port": 199
+  },
+  "fingerprint": "5e50ae0adeb0"
+ },
+ "Redmi 11 Prime 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:59:29.000Z",
+  "values": {
+   "display": 2199,
+   "back_panel": 299,
+   "rear_camera": 899,
+   "charging_port": 299
+  },
+  "fingerprint": "b9678070b0b0"
+ },
+ "Redmi 12": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:59:38.000Z",
+  "values": {
+   "display": 1999,
+   "back_panel": 299,
+   "battery": 699,
+   "rear_camera": 399,
+   "front_camera": 399,
+   "charging_port": 299
+  },
+  "fingerprint": "6f80e54e5e24"
+ },
+ "Redmi 12 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:59:46.000Z",
+  "values": {
+   "display": 1999,
+   "back_panel": 599,
+   "battery": 699,
+   "rear_camera": 399,
+   "front_camera": 399,
+   "charging_port": 299
+  },
+  "fingerprint": "66ac736dd307"
+ },
+ "Redmi 12C": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T16:59:54.000Z",
+  "values": {
+   "display": 1299,
+   "back_panel": 299,
+   "battery": 699,
+   "rear_camera": 499,
+   "charging_port": 199,
+   "speaker": 99
+  },
+  "fingerprint": "1f685d66122f"
+ },
+ "Redmi 13 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:00:04.000Z",
+  "values": {
+   "display": 1999,
+   "back_panel": 599,
+   "battery": 699,
+   "charging_port": 299
+  },
+  "fingerprint": "726025ce42e5"
+ },
+ "Redmi 13C": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:00:37.000Z",
+  "values": {
+   "display": 1399,
+   "back_panel": 299,
+   "battery": 899,
+   "rear_camera": 799
+  },
+  "fingerprint": "623c8b8642b6"
+ },
+ "Redmi 13C 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:01:52.000Z",
+  "values": {
+   "display": 2199,
+   "back_panel": 299
+  },
+  "fingerprint": "8c3af917d6ec"
+ },
+ "Redmi 14C 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:01:55.000Z",
+  "values": {
+   "display": 2499,
+   "back_panel": 599,
+   "battery": 699,
+   "rear_camera": 899
+  },
+  "fingerprint": "faa229e608fb"
+ },
+ "Redmi 15 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:01:59.000Z",
+  "values": {
+   "display": 3999,
+   "back_panel": 1499,
+   "battery": 1799,
+   "rear_camera": 699,
+   "front_camera": 349,
+   "charging_port": 299,
+   "speaker": 99
+  },
+  "fingerprint": "fbd1b341600c"
+ },
+ "Redmi 15A 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:02:02.000Z",
+  "values": {},
+  "fingerprint": "aa58a6db604b"
+ },
+ "Redmi 15C": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:02:05.000Z",
+  "values": {
+   "display": 2199,
+   "back_panel": 699,
+   "battery": 1099,
+   "rear_camera": 699,
+   "front_camera": 299,
+   "charging_port": 299,
+   "speaker": 99
+  },
+  "fingerprint": "514e0ac802a6"
+ },
+ "Redmi 5": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:02:09.000Z",
+  "values": {
+   "display": 2399,
+   "back_panel": 899,
+   "battery": 399,
+   "rear_camera": 699,
+   "front_camera": 399,
+   "charging_port": 246,
+   "speaker": 199
+  },
+  "fingerprint": "ced7d42eabdd"
+ },
+ "Redmi 5A": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:02:13.000Z",
+  "values": {
+   "display": 1499,
+   "back_panel": 249,
+   "battery": 999,
+   "rear_camera": 499,
+   "front_camera": 299
+  },
+  "fingerprint": "71a795fb4fd7"
+ },
+ "Redmi 6": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:02:16.000Z",
+  "values": {
+   "display": 999,
+   "back_panel": 299,
+   "battery": 299,
+   "rear_camera": 899,
+   "front_camera": 299,
+   "charging_port": 199,
+   "speaker": 99
+  },
+  "fingerprint": "cca8c7bb04cf"
+ },
+ "Redmi 6 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:02:20.000Z",
+  "values": {
+   "display": 3199,
+   "back_panel": 499,
+   "battery": 699,
+   "rear_camera": 999,
+   "front_camera": 399,
+   "charging_port": 199,
+   "speaker": 299
+  },
+  "fingerprint": "5bdac75b7a4e"
+ },
+ "Redmi 6A": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:02:26.000Z",
+  "values": {
+   "back_panel": 199,
+   "rear_camera": 599,
+   "charging_port": 199
+  },
+  "fingerprint": "1c7830407bc9"
+ },
+ "Redmi 7": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:02:34.000Z",
+  "values": {
+   "display": 2749,
+   "back_panel": 299,
+   "battery": 999,
+   "rear_camera": 999,
+   "front_camera": 399,
+   "charging_port": 246,
+   "speaker": 199
+  },
+  "fingerprint": "3f8db7543d4d"
+ },
+ "Redmi 7A": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:02:42.000Z",
+  "values": {
+   "display": 1649,
+   "back_panel": 399,
+   "battery": 499,
+   "rear_camera": 599,
+   "front_camera": 299,
+   "charging_port": 249,
+   "speaker": 149
+  },
+  "fingerprint": "0c851e98b808"
+ },
+ "Redmi 8": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:02:50.000Z",
+  "values": {
+   "display": 999,
+   "rear_camera": 1099
+  },
+  "fingerprint": "fecf1618bb92"
+ },
+ "Redmi 8 Dual": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:02:58.000Z",
+  "values": {
+   "display": 999,
+   "back_panel": 799,
+   "charging_port": 246
+  },
+  "fingerprint": "23ffd6687568"
+ },
+ "Redmi 8A": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:03:06.000Z",
+  "values": {
+   "display": 1899,
+   "back_panel": 299,
+   "charging_port": 246
+  },
+  "fingerprint": "08ce7ed14458"
+ },
+ "Redmi 8A Dual": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:03:14.000Z",
+  "values": {
+   "display": 1899,
+   "back_panel": 299,
+   "battery": 499,
+   "rear_camera": 1099,
+   "front_camera": 399,
+   "charging_port": 246,
+   "speaker": 149
+  },
+  "fingerprint": "6575afbddf9c"
+ },
+ "Redmi 9": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:03:22.000Z",
+  "values": {
+   "display": 1899,
+   "back_panel": 399
+  },
+  "fingerprint": "13b5b9f04b78"
+ },
+ "Redmi 9 Power": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:03:39.000Z",
+  "values": {
+   "display": 999,
+   "back_panel": 399,
+   "battery": 499,
+   "rear_camera": 599,
+   "charging_port": 299
+  },
+  "fingerprint": "52dd28c386e9"
+ },
+ "Redmi 9 Prime": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:03:43.000Z",
+  "values": {
+   "display": 1149,
+   "back_panel": 399,
+   "battery": 499,
+   "charging_port": 299
+  },
+  "fingerprint": "5f1ada607c89"
+ },
+ "Redmi 9A": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:03:46.000Z",
+  "values": {
+   "display": 1899
+  },
+  "fingerprint": "187b0309de34"
+ },
+ "Redmi 9A Sport": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:03:49.000Z",
+  "values": {
+   "back_panel": 299
+  },
+  "fingerprint": "1aa3f82a41eb"
+ },
+ "Redmi 9i": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:03:53.000Z",
+  "values": {
+   "display": 1899,
+   "back_panel": 299
+  },
+  "fingerprint": "a179acbf999e"
+ },
+ "Redmi 9i Sport": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:03:56.000Z",
+  "values": {
+   "back_panel": 399
+  },
+  "fingerprint": "e541baf0c6ce"
+ },
+ "Redmi A1": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:04:00.000Z",
+  "values": {
+   "display": 1399
+  },
+  "fingerprint": "bcf53cc2c7f7"
+ },
+ "Redmi A1+": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:04:08.000Z",
+  "values": {
+   "display": 1299,
+   "battery": 699,
+   "charging_port": 199
+  },
+  "fingerprint": "f86955483f0a"
+ },
+ "Redmi A2": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:04:16.000Z",
+  "values": {
+   "display": 1499,
+   "back_panel": 299,
+   "battery": 599,
+   "rear_camera": 299,
+   "front_camera": 199,
+   "charging_port": 199,
+   "speaker": 99
+  },
+  "fingerprint": "adf4380c33b5"
+ },
+ "Redmi A2+": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:04:24.000Z",
+  "values": {
+   "display": 1499,
+   "back_panel": 299
+  },
+  "fingerprint": "40e99c62e96a"
+ },
+ "Redmi A3": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:04:32.000Z",
+  "values": {
+   "back_panel": 419,
+   "charging_port": 299
+  },
+  "fingerprint": "c0ddf3b5b5c2"
+ },
+ "Redmi A3x": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:04:40.000Z",
+  "values": {
+   "display": 1699,
+   "back_panel": 549,
+   "battery": 599,
+   "rear_camera": 399,
+   "front_camera": 199,
+   "charging_port": 299,
+   "speaker": 59
+  },
+  "fingerprint": "0496de351b8d"
+ },
+ "Redmi A4 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:04:46.000Z",
+  "values": {
+   "display": 2499,
+   "back_panel": 399
+  },
+  "fingerprint": "8f36b0edfbef"
+ },
+ "Redmi A5": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:04:49.000Z",
+  "values": {
+   "display": 1999,
+   "back_panel": 599,
+   "battery": 599,
+   "rear_camera": 599,
+   "front_camera": 299,
+   "charging_port": 299,
+   "speaker": 99
+  },
+  "fingerprint": "e7dd7a4326df"
+ },
+ "Redmi A7": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:04:53.000Z",
+  "values": {},
+  "fingerprint": "bed1e14620e4"
+ },
+ "Redmi A7 Pro 4G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:04:56.000Z",
+  "values": {},
+  "fingerprint": "cb6202129b86"
+ },
+ "Redmi A7 Pro 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:05:00.000Z",
+  "values": {},
+  "fingerprint": "7746f6d0f037"
+ },
+ "Redmi Go": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:05:03.000Z",
+  "values": {
+   "display": 699,
+   "back_panel": 199,
+   "battery": 299,
+   "rear_camera": 349,
+   "front_camera": 299,
+   "charging_port": 246,
+   "speaker": 149
+  },
+  "fingerprint": "24b0aecc2b4f"
+ },
+ "Redmi K20": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:05:10.000Z",
+  "values": {
+   "display": 7999,
+   "back_panel": 2399,
+   "battery": 799,
+   "rear_camera": 2999,
+   "front_camera": 1999,
+   "charging_port": 799,
+   "speaker": 399
+  },
+  "fingerprint": "c26f42dfa591"
+ },
+ "Redmi K20 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:05:18.000Z",
+  "values": {
+   "display": 7999,
+   "back_panel": 2399,
+   "battery": 499,
+   "rear_camera": 3999,
+   "front_camera": 1999,
+   "charging_port": 999,
+   "speaker": 399
+  },
+  "fingerprint": "f6bee87951ba"
+ },
+ "Redmi K50i": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:05:26.000Z",
+  "values": {
+   "display": 6699,
+   "back_panel": 799,
+   "battery": 1499,
+   "rear_camera": 1599,
+   "front_camera": 799,
+   "charging_port": 499,
+   "speaker": 199
+  },
+  "fingerprint": "4c91ab2e64ef"
+ },
+ "Redmi Note 10": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:05:30.000Z",
+  "values": {
+   "display": 1999,
+   "back_panel": 1199,
+   "battery": 899,
+   "rear_camera": 1399,
+   "front_camera": 799,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "02ded37a170f"
+ },
+ "Redmi Note 10 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:05:33.000Z",
+  "values": {
+   "display": 3799,
+   "back_panel": 1199,
+   "battery": 499,
+   "rear_camera": 1899,
+   "front_camera": 999,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "330d4435c001"
+ },
+ "Redmi Note 10 Pro Max": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:05:37.000Z",
+  "values": {
+   "display": 3799,
+   "back_panel": 799,
+   "battery": 499,
+   "rear_camera": 3999
+  },
+  "fingerprint": "d1c42a2b20b4"
+ },
+ "Redmi Note 10S": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:05:40.000Z",
+  "values": {
+   "display": 1999,
+   "back_panel": 599,
+   "battery": 899,
+   "rear_camera": 1199,
+   "front_camera": 799
+  },
+  "fingerprint": "b836563c10e0"
+ },
+ "Redmi Note 10T": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:05:44.000Z",
+  "values": {
+   "display": 1299,
+   "back_panel": 1199,
+   "battery": 499,
+   "rear_camera": 1299,
+   "front_camera": 599,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "269955187a1a"
+ },
+ "Redmi Note 11": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:05:47.000Z",
+  "values": {
+   "display": 2799,
+   "back_panel": 699,
+   "battery": 599,
+   "rear_camera": 499,
+   "front_camera": 899,
+   "charging_port": 399
+  },
+  "fingerprint": "8a13397a2940"
+ },
+ "Redmi Note 11 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:05:51.000Z",
+  "values": {
+   "display": 7999,
+   "back_panel": 699,
+   "battery": 1399,
+   "rear_camera": 1999,
+   "front_camera": 999,
+   "charging_port": 399
+  },
+  "fingerprint": "aeac258ee4f7"
+ },
+ "Redmi Note 11 Pro+ 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:05:54.000Z",
+  "values": {
+   "display": 7999,
+   "back_panel": 1299,
+   "battery": 1399,
+   "rear_camera": 1999,
+   "front_camera": 799,
+   "charging_port": 599
+  },
+  "fingerprint": "d6214b8af7cb"
+ },
+ "Redmi Note 11S": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:05:58.000Z",
+  "values": {
+   "display": 3299,
+   "back_panel": 999,
+   "battery": 599,
+   "rear_camera": 1999,
+   "front_camera": 799,
+   "charging_port": 399
+  },
+  "fingerprint": "a5a125232670"
+ },
+ "Redmi Note 11SE": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:01.000Z",
+  "values": {
+   "display": 1999,
+   "back_panel": 799,
+   "battery": 899,
+   "rear_camera": 1599,
+   "front_camera": 999,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "e070ab23191a"
+ },
+ "Redmi Note 11T 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:05.000Z",
+  "values": {
+   "display": 2399,
+   "back_panel": 1199,
+   "battery": 799,
+   "front_camera": 899,
+   "charging_port": 599
+  },
+  "fingerprint": "71bd464c7b28"
+ },
+ "Redmi Note 12": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:08.000Z",
+  "values": {
+   "display": 2699,
+   "back_panel": 399,
+   "battery": 799,
+   "rear_camera": 899,
+   "front_camera": 499,
+   "charging_port": 299,
+   "speaker": 99
+  },
+  "fingerprint": "66b54bf70d17"
+ },
+ "Redmi Note 12 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:12.000Z",
+  "values": {
+   "display": 3999,
+   "back_panel": 1099,
+   "battery": 1199,
+   "charging_port": 299
+  },
+  "fingerprint": "0834a442f5a5"
+ },
+ "Redmi Note 12 Pro 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:15.000Z",
+  "values": {
+   "display": 4999,
+   "back_panel": 2299,
+   "battery": 1599,
+   "rear_camera": 2499,
+   "charging_port": 499
+  },
+  "fingerprint": "98faa9f64903"
+ },
+ "Redmi Note 12 Pro+ 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:18.000Z",
+  "values": {
+   "display": 4199,
+   "back_panel": 1049,
+   "battery": 1599,
+   "rear_camera": 2899,
+   "charging_port": 499,
+   "speaker": 199
+  },
+  "fingerprint": "0db663810268"
+ },
+ "Redmi Note 13 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:22.000Z",
+  "values": {
+   "display": 3199,
+   "back_panel": 399,
+   "battery": 1299,
+   "front_camera": 899,
+   "charging_port": 299
+  },
+  "fingerprint": "44506b476b31"
+ },
+ "Redmi Note 13 Pro 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:25.000Z",
+  "values": {
+   "display": 3999,
+   "back_panel": 899,
+   "battery": 1099,
+   "rear_camera": 2699,
+   "front_camera": 599,
+   "charging_port": 599
+  },
+  "fingerprint": "7e4f1e6a72c4"
+ },
+ "Redmi Note 13 Pro+ 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:29.000Z",
+  "values": {
+   "display": 5999,
+   "back_panel": 2449,
+   "battery": 1499,
+   "charging_port": 699,
+   "speaker": 199
+  },
+  "fingerprint": "262bc9cd5d5d"
+ },
+ "Redmi Note 14 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:32.000Z",
+  "values": {
+   "display": 3199,
+   "back_panel": 699,
+   "battery": 899,
+   "rear_camera": 399,
+   "front_camera": 499,
+   "charging_port": 899
+  },
+  "fingerprint": "b832df786ddd"
+ },
+ "Redmi Note 14 Pro 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:35.000Z",
+  "values": {
+   "display": 4999,
+   "back_panel": 799,
+   "battery": 999,
+   "rear_camera": 1499,
+   "charging_port": 299
+  },
+  "fingerprint": "31e6efa00b21"
+ },
+ "Redmi Note 14 Pro+ 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:39.000Z",
+  "values": {
+   "display": 5299,
+   "back_panel": 1099,
+   "battery": 1499,
+   "rear_camera": 1699,
+   "charging_port": 499,
+   "speaker": 99
+  },
+  "fingerprint": "5a20e0f31a87"
+ },
+ "Redmi Note 15": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:42.000Z",
+  "values": {
+   "display": 4299,
+   "back_panel": 899,
+   "battery": 1699,
+   "rear_camera": 1999,
+   "front_camera": 499,
+   "charging_port": 299,
+   "speaker": 149
+  },
+  "fingerprint": "37127213ab94"
+ },
+ "Redmi Note 15 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:46.000Z",
+  "values": {
+   "display": 4999,
+   "back_panel": 1499,
+   "battery": 1499,
+   "rear_camera": 2999,
+   "front_camera": 399,
+   "charging_port": 299
+  },
+  "fingerprint": "c5e6db54d577"
+ },
+ "Redmi Note 15 Pro+": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:49.000Z",
+  "values": {
+   "display": 5999,
+   "back_panel": 1499,
+   "battery": 1799,
+   "rear_camera": 3299,
+   "front_camera": 499,
+   "charging_port": 499,
+   "speaker": 149
+  },
+  "fingerprint": "ba483857b422"
+ },
+ "Redmi Note 15 SE 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:53.000Z",
+  "values": {
+   "display": 5199
+  },
+  "fingerprint": "24379d8cf172"
+ },
+ "Redmi Note 5": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:06:56.000Z",
+  "values": {
+   "display": 1599,
+   "back_panel": 549,
+   "battery": 799,
+   "rear_camera": 999,
+   "front_camera": 399,
+   "charging_port": 199,
+   "speaker": 199
+  },
+  "fingerprint": "3b1f37f7f48e"
+ },
+ "Redmi Note 5 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:00.000Z",
+  "values": {
+   "display": 1799,
+   "back_panel": 699,
+   "battery": 799,
+   "rear_camera": 1199,
+   "front_camera": 1099,
+   "charging_port": 199,
+   "speaker": 199
+  },
+  "fingerprint": "bc7e3d2d8eca"
+ },
+ "Redmi Note 6 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:03.000Z",
+  "values": {
+   "display": 1499,
+   "back_panel": 699,
+   "battery": 799,
+   "rear_camera": 1599,
+   "front_camera": 1099,
+   "charging_port": 199,
+   "speaker": 199
+  },
+  "fingerprint": "c25b2708c7d5"
+ },
+ "Redmi Note 7": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:07.000Z",
+  "values": {
+   "display": 2649,
+   "back_panel": 799,
+   "battery": 1299
+  },
+  "fingerprint": "21e22eb906d0"
+ },
+ "Redmi Note 7 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:10.000Z",
+  "values": {
+   "display": 2649,
+   "back_panel": 999,
+   "battery": 1299,
+   "charging_port": 246
+  },
+  "fingerprint": "961771099606"
+ },
+ "Redmi Note 7S": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:14.000Z",
+  "values": {
+   "display": 2649,
+   "back_panel": 999,
+   "battery": 1299,
+   "rear_camera": 1699,
+   "front_camera": 499,
+   "charging_port": 246,
+   "speaker": 199
+  },
+  "fingerprint": "4097512c47b6"
+ },
+ "Redmi Note 8": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:17.000Z",
+  "values": {
+   "display": 2949,
+   "back_panel": 799,
+   "battery": 499,
+   "rear_camera": 1399,
+   "front_camera": 599,
+   "charging_port": 246,
+   "speaker": 199
+  },
+  "fingerprint": "3ff78f314a09"
+ },
+ "Redmi Note 8 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:21.000Z",
+  "values": {
+   "display": 3199,
+   "back_panel": 1199,
+   "battery": 499,
+   "rear_camera": 2299,
+   "front_camera": 999,
+   "charging_port": 246,
+   "speaker": 199
+  },
+  "fingerprint": "b6860387735b"
+ },
+ "Redmi Note 9": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:24.000Z",
+  "values": {
+   "display": 1199,
+   "back_panel": 899,
+   "battery": 499,
+   "rear_camera": 1399,
+   "front_camera": 599,
+   "charging_port": 299,
+   "speaker": 199
+  },
+  "fingerprint": "196c924f62a0"
+ },
+ "Redmi Note 9 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:28.000Z",
+  "values": {
+   "display": 2499,
+   "back_panel": 1199,
+   "battery": 599,
+   "charging_port": 299
+  },
+  "fingerprint": "a63ad4422186"
+ },
+ "Redmi Note 9 Pro Max": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:31.000Z",
+  "values": {
+   "display": 2399,
+   "back_panel": 1299,
+   "battery": 499,
+   "rear_camera": 2199,
+   "front_camera": 999,
+   "charging_port": 299
+  },
+  "fingerprint": "18a77ec0b979"
+ },
+ "REDMI Turbo 5": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:35.000Z",
+  "values": {},
+  "fingerprint": "c351c7c9c3a7"
+ },
+ "Redmi Y1": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:38.000Z",
+  "values": {
+   "display": 2399,
+   "back_panel": 799,
+   "battery": 999,
+   "rear_camera": 799,
+   "front_camera": 899,
+   "speaker": 290
+  },
+  "fingerprint": "e08950567e57"
+ },
+ "Redmi Y1S": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:42.000Z",
+  "values": {
+   "display": 2399,
+   "back_panel": 799,
+   "battery": 999,
+   "rear_camera": 799,
+   "front_camera": 499,
+   "speaker": 290
+  },
+  "fingerprint": "09d4c0ac5987"
+ },
+ "Redmi Y2": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:45.000Z",
+  "values": {
+   "display": 1499,
+   "back_panel": 399,
+   "battery": 999,
+   "rear_camera": 999,
+   "front_camera": 699,
+   "charging_port": 246,
+   "speaker": 199
+  },
+  "fingerprint": "51ba4f738109"
+ },
+ "Redmi Y3": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:49.000Z",
+  "values": {
+   "display": 1499,
+   "back_panel": 399,
+   "battery": 999,
+   "rear_camera": 999,
+   "front_camera": 999,
+   "charging_port": 246
+  },
+  "fingerprint": "060eed3769f7"
+ },
+ "Xiaomi 11 Lite NE 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:52.000Z",
+  "values": {
+   "display": 2899,
+   "back_panel": 1699,
+   "battery": 2399,
+   "rear_camera": 1999,
+   "front_camera": 1999,
+   "charging_port": 699,
+   "speaker": 299
+  },
+  "fingerprint": "c0bb1036a171"
+ },
+ "Xiaomi 11i 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:56.000Z",
+  "values": {
+   "display": 5999,
+   "back_panel": 1699,
+   "battery": 1599,
+   "rear_camera": 3999,
+   "front_camera": 2999,
+   "charging_port": 699,
+   "speaker": 299
+  },
+  "fingerprint": "8347c4f208e6"
+ },
+ "Xiaomi 11i HyperCharge 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:07:59.000Z",
+  "values": {
+   "display": 5999,
+   "battery": 1999,
+   "rear_camera": 2999,
+   "front_camera": 799,
+   "charging_port": 699
+  },
+  "fingerprint": "c48a7065396f"
+ },
+ "Xiaomi 11T Pro 5G": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:08:03.000Z",
+  "values": {
+   "display": 5699,
+   "back_panel": 2599,
+   "battery": 2299,
+   "rear_camera": 3999,
+   "front_camera": 999,
+   "charging_port": 699,
+   "speaker": 399
+  },
+  "fingerprint": "fe9614a8818a"
+ },
+ "Xiaomi 12 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:08:06.000Z",
+  "values": {
+   "display": 15999,
+   "back_panel": 6699,
+   "battery": 2699,
+   "rear_camera": 6999,
+   "front_camera": 1199,
+   "charging_port": 699,
+   "speaker": 399
+  },
+  "fingerprint": "fe04361a91b8"
+ },
+ "Xiaomi 13 Pro": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:08:10.000Z",
+  "values": {
+   "display": 19499,
+   "back_panel": 11599,
+   "battery": 1999,
+   "rear_camera": 10999,
+   "charging_port": 1999,
+   "speaker": 399
+  },
+  "fingerprint": "c741b1e5efd4"
+ },
+ "Xiaomi 14": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:08:13.000Z",
+  "values": {
+   "display": 8999,
+   "back_panel": 3999,
+   "battery": 1459,
+   "rear_camera": 5999,
+   "front_camera": 629,
+   "charging_port": 1999,
+   "speaker": 399
+  },
+  "fingerprint": "bc7af467bc9c"
+ },
+ "Xiaomi 14 Civi": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:08:17.000Z",
+  "values": {
+   "display": 6999,
+   "back_panel": 1999,
+   "battery": 1099,
+   "rear_camera": 1949,
+   "front_camera": 899,
+   "charging_port": 799,
+   "speaker": 399
+  },
+  "fingerprint": "c44fc2478dc9"
+ },
+ "Xiaomi 14 Ultra": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:08:21.000Z",
+  "values": {
+   "display": 14999,
+   "back_panel": 1999,
+   "battery": 2599,
+   "rear_camera": 15999,
+   "front_camera": 999,
+   "charging_port": 499,
+   "speaker": 489
+  },
+  "fingerprint": "78fec99e0dfa"
+ },
+ "Xiaomi 15": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:08:24.000Z",
+  "values": {
+   "display": 9999,
+   "back_panel": 2999,
+   "battery": 1999,
+   "rear_camera": 1499,
+   "front_camera": 1099,
+   "charging_port": 1199
+  },
+  "fingerprint": "40d2652710a9"
+ },
+ "Xiaomi 15 Ultra": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:08:27.000Z",
+  "values": {
+   "display": 15999,
+   "back_panel": 3599,
+   "battery": 2999,
+   "rear_camera": 12499,
+   "front_camera": 1099
+  },
+  "fingerprint": "01b5cc2672e6"
+ },
+ "Xiaomi 17": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:08:31.000Z",
+  "values": {
+   "display": 9999,
+   "rear_camera": 3999,
+   "front_camera": 999
+  },
+  "fingerprint": "50da7946fef6"
+ },
+ "Xiaomi 17 Ultra": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:08:35.000Z",
+  "values": {
+   "display": 15999,
+   "rear_camera": 12999,
+   "front_camera": 999
+  },
+  "fingerprint": "791d9c2d4578"
+ },
+ "Xiaomi 17T": {
+  "source_url": "https://www.mi.com/in/support/spare-part-prices/",
+  "observed_at": "2026-11-14T17:08:38.000Z",
+  "values": {
+   "display": 6999,
+   "battery": 2099
+  },
+  "fingerprint": "402eee4993eb"
+ }
+}

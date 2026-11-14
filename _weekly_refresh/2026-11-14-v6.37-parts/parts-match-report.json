@@ -1,0 +1,1125 @@
+{
+ "records": 920,
+ "variants_priced": 1362,
+ "changed": 1362,
+ "unmatched_brand": [
+  {
+   "brand": "vivo",
+   "model": "vivo V23e 5G",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo V21",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo X70 Pro +",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo X60",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo X60 Pro+",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo X60 Pro",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y21G",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y72 5G",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y15s",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y15s 2022 3G+64G",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y21e",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y75 5G",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y33T",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y21T",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y28",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y3s",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "realme",
+   "model": "realme 11 4G",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "realme",
+   "model": "realme C75x",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Mi 10T Pro",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "POCO C81 4G",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "POCO C81X",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi 15A 5G",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi A7",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi A7 Pro 4G",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi A7 Pro 5G",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "REDMI Turbo 5",
+   "reason": "no mappable parts"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO F35 5G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO F7 Pro",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO F7",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO K14 Plus 5G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO K3",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO K1",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO Reno8 T 5G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO Reno6 Pro Diwali Edition",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO Reno",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO Find X",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO A6x",
+   "reason": "ambiguous 4G/5G or duplicate family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO A5x",
+   "reason": "ambiguous 4G/5G or duplicate family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO A3x",
+   "reason": "ambiguous 4G/5G or duplicate family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO A59 5G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO A79 5G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO A78",
+   "reason": "ambiguous 4G/5G or duplicate family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO A33",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO A9",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO A83",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO A71L",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO A57",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO Find N3 Flip",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO Find N2 Flip",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO R15 Pro",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO R17",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "OPPO",
+   "model": "OPPO R17 Pro",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo T1 44W",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo U20",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo U10",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo V9 Pro",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo V11 Pro",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo V11",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo V9 Youth",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo V9",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo V7+",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo V7",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo V5Plus",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo V5s",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo V5",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo V3 Max",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo V3",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo V1Max",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo V1",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo X21",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo X5Max",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo X5Pro",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y18t",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y18i",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y200 Pro",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y02t",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y71i",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y100A",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y01A",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y02",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y01",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y75",
+   "reason": "ambiguous 4G/5G or duplicate family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y15C",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y21G 64G+4G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y15s 2022 3G+32G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y33T 128G+8G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y21e 64G+3G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y21 Jio(4+64G) 4+64G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y12G (3+64)",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y12G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y3s 32G+2G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y21 (2021)",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y53i",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y27L",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y31 (2021)",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y31 (2015)",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y1s",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y51",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y20i",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y15 (2019)",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y11 (2015)",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y11 (2019)",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y15 (2015)",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y81i",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y83 Pro",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y83",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y81",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y71",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y69",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y66",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y55L",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y55s",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y53",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y51L",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y31L",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y21L",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Y21(2016)",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Z1X",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Z1Pro",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo Z10",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "vivo",
+   "model": "vivo NEX",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Samsung",
+   "model": "Samsung Galaxy A08",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Samsung",
+   "model": "Samsung Galaxy A27 5G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Samsung",
+   "model": "Samsung Galaxy A14",
+   "reason": "ambiguous 4G/5G or duplicate family"
+  },
+  {
+   "brand": "Samsung",
+   "model": "Samsung Galaxy A22 6GB",
+   "reason": "ambiguous 4G/5G or duplicate family"
+  },
+  {
+   "brand": "Samsung",
+   "model": "Samsung Galaxy A32",
+   "reason": "ambiguous 4G/5G or duplicate family"
+  },
+  {
+   "brand": "Samsung",
+   "model": "Samsung Galaxy M08",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Samsung",
+   "model": "Samsung Galaxy M14",
+   "reason": "ambiguous 4G/5G or duplicate family"
+  },
+  {
+   "brand": "Samsung",
+   "model": "Samsung Galaxy M21 2021 Edition",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Samsung",
+   "model": "Samsung Galaxy F08",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Samsung",
+   "model": "Samsung Galaxy F14",
+   "reason": "ambiguous 4G/5G or duplicate family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme GT 8 Pro Dream Edition",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme 15 Lite 5G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme 14 Pro Lite 5G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme 10 Pro 5G Coca-Cola Edition",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme 9i 5G",
+   "reason": "ambiguous 4G/5G or duplicate family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme 3i",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme 3 Pro",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme 3",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme 2 Pro",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme 2",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme 1",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme P1 Speed 5G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme narzo 60x 5G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme narzo 30 5G",
+   "reason": "ambiguous 4G/5G or duplicate family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme C33 2023",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme C15 Qualcomm Edition",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme GT Neo3 150W",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme GT Neo2",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme X7 Pro",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme X7",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme XT",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "realme",
+   "model": "realme U1",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Mi 8",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Mi A1",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Mi A2",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Mi Max 2",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Mi Mix2S",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi 10 Prime 2022",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi 13C",
+   "reason": "ambiguous 4G/5G or duplicate family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi 5",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi 5A",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi 6",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi 6 Pro",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi 6A",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi 7",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi 7A",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi 8 Dual",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi 9A Sport",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi 9i Sport",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi A2+",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi Go",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi K50i",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi Note 12",
+   "reason": "ambiguous 4G/5G or duplicate family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi Note 5",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi Note 5 Pro",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi Note 6 Pro",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi Y1",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi Y1S",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi Y2",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Redmi Y3",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Xiaomi 11i 5G",
+   "reason": "no catalogue family"
+  },
+  {
+   "brand": "Xiaomi",
+   "model": "Xiaomi 11i HyperCharge 5G",
+   "reason": "no catalogue family"
+  }
+ ],
+ "unmatched_catalogue_families": [
+  "OPPO Pad 5 5G",
+  "OPPO Pad 5 WiFi",
+  "OnePlus 13T",
+  "OnePlus 5",
+  "OnePlus 5T",
+  "OnePlus 6",
+  "OnePlus 6T",
+  "OnePlus 7",
+  "OnePlus 7 Pro",
+  "OnePlus 7T",
+  "OnePlus 7T Pro",
+  "OnePlus 8",
+  "OnePlus N6 Lite",
+  "OnePlus Nord",
+  "OnePlus Nord CE 3",
+  "OnePlus Nord N10 5G",
+  "OnePlus Pad Lite WiFi",
+  "Oppo A33 (2020)",
+  "Oppo A39",
+  "Oppo A57 (2022)",
+  "Oppo A60",
+  "Oppo A74",
+  "Oppo A95",
+  "Oppo F9 Pro",
+  "Oppo Find N5",
+  "Oppo Find X10",
+  "Oppo Find X10 Pro Max",
+  "Oppo Find X3 Pro",
+  "Oppo Find X5 Pro",
+  "Oppo Find X7 Ultra",
+  "Oppo K12 5G",
+  "Oppo Reno (2019)",
+  "Oppo Reno 8z 5G",
+  "Poco C40",
+  "Poco C75",
+  "Poco C81",
+  "Poco C81x",
+  "Poco C85x 5G",
+  "Poco F4 GT",
+  "Poco F5 Pro 5G",
+  "Poco F7 Ultra 5G",
+  "Poco M5s",
+  "Poco M6 4G",
+  "Poco M8 Power 5G",
+  "Poco M8x 5G",
+  "Poco X8 5G",
+  "Poco X8 Power 5G",
+  "Realme 10 5G",
+  "Realme 10 Pro",
+  "Realme 11 4G",
+  "Realme 14 5G",
+  "Realme 9 SE 5G",
+  "Realme C17",
+  "Realme C20A",
+  "Realme C65",
+  "Realme C67 4G",
+  "Realme GT Neo 5",
+  "Realme Narzo 80 5G",
+  "Realme Narzo Power 5G",
+  "Realme P2 5G",
+  "Redmi 10C",
+  "Redmi 14C 4G",
+  "Redmi 17 5G",
+  "Redmi 9 Activ",
+  "Redmi A7 4G",
+  "Redmi A7 Pro 4G",
+  "Redmi Note 10 Lite",
+  "Redmi Note 10 Prime",
+  "Redmi Note 12 4G",
+  "Redmi Note 14 SE 5G",
+  "Redmi Note 17 5G",
+  "Redmi Note 17 Pro 5G",
+  "Redmi Note 17 Pro Max 5G",
+  "Redmi Turbo 5",
+  "Samsung Galaxy A02s",
+  "Samsung Galaxy A03 Core",
+  "Samsung Galaxy A10",
+  "Samsung Galaxy A10s",
+  "Samsung Galaxy A13 5G",
+  "Samsung Galaxy A20",
+  "Samsung Galaxy A20s",
+  "Samsung Galaxy A21s",
+  "Samsung Galaxy A22 4G",
+  "Samsung Galaxy A24 4G",
+  "Samsung Galaxy A30",
+  "Samsung Galaxy A30s",
+  "Samsung Galaxy A31",
+  "Samsung Galaxy A32 4G",
+  "Samsung Galaxy A32 5G",
+  "Samsung Galaxy A50",
+  "Samsung Galaxy A50s",
+  "Samsung Galaxy A51",
+  "Samsung Galaxy A52 5G",
+  "Samsung Galaxy A70",
+  "Samsung Galaxy A71",
+  "Samsung Galaxy F05",
+  "Samsung Galaxy F35 5G",
+  "Samsung Galaxy F41",
+  "Samsung Galaxy Fold",
+  "Samsung Galaxy M01",
+  "Samsung Galaxy M01s",
+  "Samsung Galaxy M02s",
+  "Samsung Galaxy M10",
+  "Samsung Galaxy M11",
+  "Samsung Galaxy M14 4G",
+  "Samsung Galaxy M20",
+  "Samsung Galaxy M21",
+  "Samsung Galaxy M21s",
+  "Samsung Galaxy M22",
+  "Samsung Galaxy M23 5G",
+  "Samsung Galaxy M30",
+  "Samsung Galaxy M30s",
+  "Samsung Galaxy M31",
+  "Samsung Galaxy M31s",
+  "Samsung Galaxy M40",
+  "Samsung Galaxy M51",
+  "Samsung Galaxy M62",
+  "Samsung Galaxy Note 10",
+  "Samsung Galaxy Note 10 Lite",
+  "Samsung Galaxy Note 10+",
+  "Samsung Galaxy Note 20",
+  "Samsung Galaxy Note 20 Ultra",
+  "Samsung Galaxy Note 8",
+  "Samsung Galaxy Note 9",
+  "Samsung Galaxy S10",
+  "Samsung Galaxy S10 Lite",
+  "Samsung Galaxy S10+",
+  "Samsung Galaxy S10e",
+  "Samsung Galaxy S20",
+  "Samsung Galaxy S20 FE",
+  "Samsung Galaxy S20 Ultra",
+  "Samsung Galaxy S20+",
+  "Samsung Galaxy S8",
+  "Samsung Galaxy S8+",
+  "Samsung Galaxy S9",
+  "Samsung Galaxy S9+",
+  "Samsung Galaxy Z Flip",
+  "Samsung Galaxy Z Fold 2",
+  "Vivo V21 5G",
+  "Vivo V25 5G",
+  "Vivo V25e",
+  "Vivo V50 Lite 5G",
+  "Vivo Y11",
+  "Vivo Y15",
+  "Vivo Y15A",
+  "Vivo Y15s",
+  "Vivo Y18s",
+  "Vivo Y19s",
+  "Vivo Y19s Pro",
+  "Vivo Y21",
+  "Vivo Y22s",
+  "Vivo Y28 4G",
+  "Vivo Y31",
+  "Vivo Y36 5G",
+  "Vivo Y51 (2020)",
+  "Vivo Y55 5G",
+  "Vivo Y75 4G",
+  "Vivo Y76 5G",
+  "Vivo Y78 5G",
+  "Vivo Y91c",
+  "Xiaomi 11T",
+  "Xiaomi 12 Lite",
+  "Xiaomi 13",
+  "Xiaomi 13 Ultra",
+  "Xiaomi 14 Pro",
+  "Xiaomi Mi 10T Pro",
+  "Xiaomi Mi 11i",
+  "Xiaomi Mi Mix 2",
+  "iPhone 11 Pro",
+  "iPhone 11 Pro Max",
+  "iPhone 6",
+  "iPhone 6 Plus",
+  "iPhone 6S",
+  "iPhone 6S Plus",
+  "iPhone 7",
+  "iPhone 7 Plus",
+  "iPhone 8",
+  "iPhone 8 Plus",
+  "iPhone SE (2016)",
+  "iPhone X",
+  "iPhone XR",
+  "iPhone XS",
+  "iPhone XS Max"
+ ],
+ "by_brand": {
+  "OnePlus": 38,
+  "OPPO": 139,
+  "vivo": 231,
+  "Samsung": 134,
+  "realme": 181,
+  "Xiaomi": 165,
+  "Apple": 32
+ },
+ "keys": {
+  "display": 1351,
+  "back_panel": 1336,
+  "battery": 1310,
+  "front_camera": 948,
+  "rear_camera": 1038,
+  "charging_port": 464,
+  "speaker": 410
+ }
+}

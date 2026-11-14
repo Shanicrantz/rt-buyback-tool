@@ -1,0 +1,348 @@
+{
+ "iPhone Duo": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:10.000Z",
+  "values": {
+   "display": 149900,
+   "back_panel": 20900,
+   "battery": 24900,
+   "rear_camera": 26900
+  },
+  "fingerprint": "58f14b78b68e"
+ },
+ "iPhone 18 Pro Max": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:12.000Z",
+  "values": {
+   "display": 42900,
+   "back_panel": 16900,
+   "battery": 13900,
+   "rear_camera": 28900
+  },
+  "fingerprint": "9c0fc4e7e6c6"
+ },
+ "iPhone 18 Pro": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:14.000Z",
+  "values": {
+   "display": 36900,
+   "back_panel": 16900,
+   "battery": 13900,
+   "rear_camera": 28900
+  },
+  "fingerprint": "4efccc9ac7c2"
+ },
+ "iPhone Air": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:16.000Z",
+  "values": {
+   "display": 36900,
+   "back_panel": 16900,
+   "battery": 12900,
+   "rear_camera": 18900
+  },
+  "fingerprint": "698bb8a5272e"
+ },
+ "iPhone 17 Pro Max": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:19.000Z",
+  "values": {
+   "display": 42900,
+   "back_panel": 16900,
+   "battery": 12900,
+   "rear_camera": 28900
+  },
+  "fingerprint": "a5436936d0b0"
+ },
+ "iPhone 17 Pro": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:20.000Z",
+  "values": {
+   "display": 36900,
+   "back_panel": 16900,
+   "battery": 12900,
+   "rear_camera": 28900
+  },
+  "fingerprint": "592e3cefee69"
+ },
+ "iPhone 17": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:21.000Z",
+  "values": {
+   "display": 36900,
+   "back_panel": 16900,
+   "battery": 10900,
+   "rear_camera": 18900
+  },
+  "fingerprint": "e807aed88dcc"
+ },
+ "iPhone 17e": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:23.000Z",
+  "values": {
+   "display": 27900,
+   "back_panel": 16900,
+   "battery": 10900,
+   "rear_camera": 15900
+  },
+  "fingerprint": "ebebc3b09183"
+ },
+ "iPhone 16 Pro Max": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:25.000Z",
+  "values": {
+   "display": 42900,
+   "back_panel": 16900,
+   "battery": 12900,
+   "rear_camera": 28900
+  },
+  "fingerprint": "679b3e8849e9"
+ },
+ "iPhone 16 Pro": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:27.000Z",
+  "values": {
+   "display": 36900,
+   "back_panel": 16900,
+   "battery": 12900,
+   "rear_camera": 28900
+  },
+  "fingerprint": "3414f59cb954"
+ },
+ "iPhone 16 Plus": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:28.000Z",
+  "values": {
+   "display": 36900,
+   "back_panel": 16900,
+   "battery": 10900,
+   "rear_camera": 18900
+  },
+  "fingerprint": "f0d1004a68f1"
+ },
+ "iPhone 16": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:29.000Z",
+  "values": {
+   "display": 27900,
+   "back_panel": 16900,
+   "battery": 10900,
+   "rear_camera": 18900
+  },
+  "fingerprint": "732e397aa21b"
+ },
+ "iPhone 16e": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:31.000Z",
+  "values": {
+   "display": 27900,
+   "back_panel": 16900,
+   "battery": 10900,
+   "rear_camera": 15900
+  },
+  "fingerprint": "90d39a6998b4"
+ },
+ "iPhone 15 Pro Max": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:33.000Z",
+  "values": {
+   "display": 42900,
+   "back_panel": 16900,
+   "battery": 10900,
+   "rear_camera": 28900
+  },
+  "fingerprint": "e9cb18539885"
+ },
+ "iPhone 15 Pro": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:34.000Z",
+  "values": {
+   "display": 36900,
+   "back_panel": 16900,
+   "battery": 10900,
+   "rear_camera": 22900
+  },
+  "fingerprint": "ca227ee99072"
+ },
+ "iPhone 15 Plus": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:36.000Z",
+  "values": {
+   "display": 36900,
+   "back_panel": 16900,
+   "battery": 10900,
+   "rear_camera": 18900
+  },
+  "fingerprint": "182b86e7a860"
+ },
+ "iPhone 15": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:37.000Z",
+  "values": {
+   "display": 27900,
+   "back_panel": 16900,
+   "battery": 10900,
+   "rear_camera": 18900
+  },
+  "fingerprint": "990939c2b7de"
+ },
+ "iPhone 14 Pro Max": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:39.000Z",
+  "values": {
+   "display": 42900,
+   "back_panel": 72900,
+   "battery": 10900,
+   "rear_camera": 22900
+  },
+  "fingerprint": "6a00eea2cfc0"
+ },
+ "iPhone 14 Pro": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:41.000Z",
+  "values": {
+   "display": 36900,
+   "back_panel": 65900,
+   "battery": 10900,
+   "rear_camera": 22900
+  },
+  "fingerprint": "c9028c7cbaa7"
+ },
+ "iPhone 14 Plus": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:42.000Z",
+  "values": {
+   "display": 36900,
+   "back_panel": 16900,
+   "battery": 10900,
+   "rear_camera": 18900
+  },
+  "fingerprint": "182b86e7a860"
+ },
+ "iPhone 14": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:43.000Z",
+  "values": {
+   "display": 27900,
+   "back_panel": 16900,
+   "battery": 10900,
+   "rear_camera": 18900
+  },
+  "fingerprint": "98a15be15b47"
+ },
+ "iPhone 13 Pro Max": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:46.000Z",
+  "values": {
+   "display": 36900,
+   "back_panel": 65900,
+   "battery": 9900,
+   "rear_camera": 21900
+  },
+  "fingerprint": "69724242f3ad"
+ },
+ "iPhone 13 Pro": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:47.000Z",
+  "values": {
+   "display": 27900,
+   "back_panel": 53900,
+   "battery": 9900,
+   "rear_camera": 21900
+  },
+  "fingerprint": "e1c18b6c7ea3"
+ },
+ "iPhone 13": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:49.000Z",
+  "values": {
+   "display": 27900,
+   "back_panel": 41900,
+   "battery": 9900,
+   "rear_camera": 18900
+  },
+  "fingerprint": "b430ef5c4c07"
+ },
+ "iPhone 13 mini": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:51.000Z",
+  "values": {
+   "display": 22900,
+   "back_panel": 38900,
+   "battery": 9900,
+   "rear_camera": 18900
+  },
+  "fingerprint": "4970c9f5957b"
+ },
+ "iPhone 12 Pro Max": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:54.000Z",
+  "values": {
+   "display": 36900,
+   "back_panel": 58900,
+   "battery": 9900,
+   "rear_camera": 21900
+  },
+  "fingerprint": "e082bc0e94e6"
+ },
+ "iPhone 12 Pro": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:55.000Z",
+  "values": {
+   "display": 27900,
+   "back_panel": 47900,
+   "battery": 9900,
+   "rear_camera": 21900
+  },
+  "fingerprint": "f5d41ff2289d"
+ },
+ "iPhone 12": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:56.000Z",
+  "values": {
+   "display": 27900,
+   "back_panel": 35900,
+   "battery": 9900,
+   "rear_camera": 18900
+  },
+  "fingerprint": "024508cd3333"
+ },
+ "iPhone 12 mini": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:03:58.000Z",
+  "values": {
+   "display": 22900,
+   "back_panel": 32900,
+   "battery": 9900,
+   "rear_camera": 18900
+  },
+  "fingerprint": "76220d067954"
+ },
+ "iPhone 11": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:04:00.000Z",
+  "values": {
+   "display": 18900,
+   "battery": 9900
+  },
+  "fingerprint": "60744de19bb9"
+ },
+ "iPhone SE (2022)": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:04:04.000Z",
+  "values": {
+   "display": 14900,
+   "battery": 7900
+  },
+  "fingerprint": "4454dd1c8d88"
+ },
+ "iPhone SE (2020)": {
+  "source_url": "https://support.apple.com/en-in/iphone/repair/screen-replacement",
+  "observed_at": "2026-11-14T17:04:05.000Z",
+  "values": {
+   "display": 14900,
+   "battery": 7900
+  },
+  "fingerprint": "30f255027f1e"
+ }
+}

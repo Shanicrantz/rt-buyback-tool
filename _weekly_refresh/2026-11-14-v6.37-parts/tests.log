@@ -1,0 +1,13 @@
+test_age_formula.cjs [exit 0] }
+test_age_resale_bound.cjs [exit 0] {"passed":true,"checks":16,"comparisons":33120}
+test_cashify_policy.cjs [exit 0] {"passed":true,"checks":28,"javascript_syntax":true,"shared_final_amount":true}
+test_costing.cjs [exit 0] {"passed":true,"checks":10,"calculations":58188}
+test_load_performance.cjs [exit 0] {"passed":true,"checks":9}
+test_market_refresh.cjs [exit 0] {"passed":true,"checks":11}
+test_optional_quote.cjs [exit 0] {"passed":true,"checks":9,"catalogueChecks":2484}
+test_part_prices.cjs [exit 0] {"passed":true,"checks":6,"priced":1362}
+test_quote_safety.cjs [exit 0] {"passed":true,"checks":7}
+test_resolve_quote_safety.cjs [exit 0] {"passed":true,"checks":11}
+test_variant_search.cjs [exit 0] PASS: T2 exact India RAM variants, X200 FE mixed-RAM variants, X60 Pro+ aliases, compact search, and model-family isolation.
+test_warranty_policy.cjs [exit 0] {"passed":true,"checks":9,"comparisons":19812,"cases":["ordinary phones get the old 13 percent scaled premium without requiring age entry","
+SUITES 12 FAILED 0
