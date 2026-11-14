@@ -58,6 +58,8 @@ Damage deductions now use the brand's own India out-of-warranty spare-part price
 Official prices mostly **raise** deductions, so damaged phones get lower offers. This is the conservative direction. Foldable inner screens rise the most (e.g. Z Fold4 display ₹10,900 → ₹54,800; OnePlus Open ₹14,500 → ₹79,400).
 
 ## For Shane to review
+**Decision, 14 Nov 2026:** Shane chose to keep the official prices as they are, with no floor at the old percentage estimate.
+
 1. **13 display deductions fall below half the old estimate.** These are the official prices, so I used them as listed:
 
    | Model | Old | New |
