@@ -1,4 +1,4 @@
-const C = "rt-buyback-cache-v6-40-iphone-market-parts-20261119";
+const C = "rt-buyback-cache-v6-41-foxconn-battery-20261119";
 const PREFIX = "rt-buyback-cache-";
 const NETWORK_WAIT_MS = 1000;
 self.addEventListener("install", e => e.waitUntil(self.skipWaiting()));

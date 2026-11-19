@@ -1,0 +1,331 @@
+[
+ {
+  "key": "iphone_7_32",
+  "model": "iPhone 7 32GB",
+  "pct_estimate_v639": 200,
+  "original_v640": 2700,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_7_128",
+  "model": "iPhone 7 128GB",
+  "pct_estimate_v639": 300,
+  "original_v640": 2700,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_7_plus_32",
+  "model": "iPhone 7 Plus 32GB",
+  "pct_estimate_v639": 400,
+  "original_v640": 3000,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_7_plus_128",
+  "model": "iPhone 7 Plus 128GB",
+  "pct_estimate_v639": 500,
+  "original_v640": 3000,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_8_64",
+  "model": "iPhone 8 64GB",
+  "pct_estimate_v639": 500,
+  "original_v640": 2900,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_8_256",
+  "model": "iPhone 8 256GB",
+  "pct_estimate_v639": 500,
+  "original_v640": 2900,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_8_plus_64",
+  "model": "iPhone 8 Plus 64GB",
+  "pct_estimate_v639": 600,
+  "original_v640": 3000,
+  "foxconn_v641": 1200
+ },
+ {
+  "key": "iphone_8_plus_256",
+  "model": "iPhone 8 Plus 256GB",
+  "pct_estimate_v639": 700,
+  "original_v640": 3000,
+  "foxconn_v641": 1200
+ },
+ {
+  "key": "iphone_x_64",
+  "model": "iPhone X 64GB",
+  "pct_estimate_v639": 800,
+  "original_v640": 4400,
+  "foxconn_v641": 1200
+ },
+ {
+  "key": "iphone_x_256",
+  "model": "iPhone X 256GB",
+  "pct_estimate_v639": 900,
+  "original_v640": 4400,
+  "foxconn_v641": 1200
+ },
+ {
+  "key": "iphone_xr_64",
+  "model": "iPhone XR 64GB",
+  "pct_estimate_v639": 700,
+  "original_v640": 3200,
+  "foxconn_v641": 1300
+ },
+ {
+  "key": "iphone_xr_128",
+  "model": "iPhone XR 128GB",
+  "pct_estimate_v639": 800,
+  "original_v640": 3200,
+  "foxconn_v641": 1300
+ },
+ {
+  "key": "iphone_xr_256",
+  "model": "iPhone XR 256GB",
+  "pct_estimate_v639": 800,
+  "original_v640": 3200,
+  "foxconn_v641": 1300
+ },
+ {
+  "key": "iphone_xs_64",
+  "model": "iPhone XS 64GB",
+  "pct_estimate_v639": 900,
+  "original_v640": 3400,
+  "foxconn_v641": 1200
+ },
+ {
+  "key": "iphone_xs_256",
+  "model": "iPhone XS 256GB",
+  "pct_estimate_v639": 1100,
+  "original_v640": 3400,
+  "foxconn_v641": 1200
+ },
+ {
+  "key": "iphone_xs_512",
+  "model": "iPhone XS 512GB",
+  "pct_estimate_v639": 1100,
+  "original_v640": 3400,
+  "foxconn_v641": 1200
+ },
+ {
+  "key": "iphone_xs_max_64",
+  "model": "iPhone XS Max 64GB",
+  "pct_estimate_v639": 1100,
+  "original_v640": 5300,
+  "foxconn_v641": 1300
+ },
+ {
+  "key": "iphone_xs_max_256",
+  "model": "iPhone XS Max 256GB",
+  "pct_estimate_v639": 1200,
+  "original_v640": 5300,
+  "foxconn_v641": 1300
+ },
+ {
+  "key": "iphone_xs_max_512",
+  "model": "iPhone XS Max 512GB",
+  "pct_estimate_v639": 1200,
+  "original_v640": 5300,
+  "foxconn_v641": 1300
+ },
+ {
+  "key": "iphone_11_pro_64",
+  "model": "iPhone 11 Pro 64GB",
+  "pct_estimate_v639": 1000,
+  "original_v640": 4600,
+  "foxconn_v641": 1300
+ },
+ {
+  "key": "iphone_11_pro_256",
+  "model": "iPhone 11 Pro 256GB",
+  "pct_estimate_v639": 1100,
+  "original_v640": 4600,
+  "foxconn_v641": 1300
+ },
+ {
+  "key": "iphone_11_pro_512",
+  "model": "iPhone 11 Pro 512GB",
+  "pct_estimate_v639": 1300,
+  "original_v640": 4600,
+  "foxconn_v641": 1300
+ },
+ {
+  "key": "iphone_11_pro_max_64",
+  "model": "iPhone 11 Pro Max 64GB",
+  "pct_estimate_v639": 1100,
+  "original_v640": 4800,
+  "foxconn_v641": 1600
+ },
+ {
+  "key": "iphone_11_pro_max_256",
+  "model": "iPhone 11 Pro Max 256GB",
+  "pct_estimate_v639": 1300,
+  "original_v640": 4800,
+  "foxconn_v641": 1600
+ },
+ {
+  "key": "iphone_11_pro_max_512",
+  "model": "iPhone 11 Pro Max 512GB",
+  "pct_estimate_v639": 1400,
+  "original_v640": 4800,
+  "foxconn_v641": 1600
+ },
+ {
+  "key": "iphone_6_16",
+  "model": "iPhone 6 16GB",
+  "pct_estimate_v639": 400,
+  "original_v640": 3000,
+  "foxconn_v641": 1000
+ },
+ {
+  "key": "iphone_6_32",
+  "model": "iPhone 6 32GB",
+  "pct_estimate_v639": 400,
+  "original_v640": 3000,
+  "foxconn_v641": 1000
+ },
+ {
+  "key": "iphone_6_64",
+  "model": "iPhone 6 64GB",
+  "pct_estimate_v639": 400,
+  "original_v640": 3000,
+  "foxconn_v641": 1000
+ },
+ {
+  "key": "iphone_6_128",
+  "model": "iPhone 6 128GB",
+  "pct_estimate_v639": 500,
+  "original_v640": 3000,
+  "foxconn_v641": 1000
+ },
+ {
+  "key": "iphone_6_plus_16",
+  "model": "iPhone 6 Plus 16GB",
+  "pct_estimate_v639": 400,
+  "original_v640": 3000,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_6_plus_32",
+  "model": "iPhone 6 Plus 32GB",
+  "pct_estimate_v639": 500,
+  "original_v640": 3000,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_6_plus_64",
+  "model": "iPhone 6 Plus 64GB",
+  "pct_estimate_v639": 500,
+  "original_v640": 3000,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_6_plus_128",
+  "model": "iPhone 6 Plus 128GB",
+  "pct_estimate_v639": 600,
+  "original_v640": 3000,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_6s_16",
+  "model": "iPhone 6S 16GB",
+  "pct_estimate_v639": 400,
+  "original_v640": 3000,
+  "foxconn_v641": 1000
+ },
+ {
+  "key": "iphone_6s_32",
+  "model": "iPhone 6S 32GB",
+  "pct_estimate_v639": 400,
+  "original_v640": 3000,
+  "foxconn_v641": 1000
+ },
+ {
+  "key": "iphone_6s_64",
+  "model": "iPhone 6S 64GB",
+  "pct_estimate_v639": 500,
+  "original_v640": 3000,
+  "foxconn_v641": 1000
+ },
+ {
+  "key": "iphone_6s_128",
+  "model": "iPhone 6S 128GB",
+  "pct_estimate_v639": 500,
+  "original_v640": 3000,
+  "foxconn_v641": 1000
+ },
+ {
+  "key": "iphone_6s_plus_16",
+  "model": "iPhone 6S Plus 16GB",
+  "pct_estimate_v639": 400,
+  "original_v640": 3000,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_6s_plus_32",
+  "model": "iPhone 6S Plus 32GB",
+  "pct_estimate_v639": 500,
+  "original_v640": 3000,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_6s_plus_64",
+  "model": "iPhone 6S Plus 64GB",
+  "pct_estimate_v639": 600,
+  "original_v640": 3000,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_6s_plus_128",
+  "model": "iPhone 6S Plus 128GB",
+  "pct_estimate_v639": 600,
+  "original_v640": 3000,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_se_2016_16",
+  "model": "iPhone SE (2016) 16GB",
+  "pct_estimate_v639": 300,
+  "original_v640": 2100,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_se_2016_32",
+  "model": "iPhone SE (2016) 32GB",
+  "pct_estimate_v639": 300,
+  "original_v640": 2100,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_se_2016_64",
+  "model": "iPhone SE (2016) 64GB",
+  "pct_estimate_v639": 400,
+  "original_v640": 2100,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_se_2016_128",
+  "model": "iPhone SE (2016) 128GB",
+  "pct_estimate_v639": 400,
+  "original_v640": 2100,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_7_256",
+  "model": "iPhone 7 256GB",
+  "pct_estimate_v639": 300,
+  "original_v640": 2700,
+  "foxconn_v641": 1100
+ },
+ {
+  "key": "iphone_7_plus_256",
+  "model": "iPhone 7 Plus 256GB",
+  "pct_estimate_v639": 500,
+  "original_v640": 3000,
+  "foxconn_v641": 1100
+ }
+]

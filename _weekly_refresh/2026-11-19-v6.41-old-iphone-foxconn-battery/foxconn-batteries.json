@@ -1,0 +1,481 @@
+{
+ "models": {
+  "iPhone 6": {
+   "amount": 1000,
+   "out_of_stock_fallback": false,
+   "quotes": [
+    {
+     "seller": "abest.in",
+     "title": "REPLACEMENT FOR IPHONE 6G FOXCONN BATTERY",
+     "url": "https://abest.in/replacement-for-iphone-6g-foxconn-battery",
+     "price_inr": 499.0,
+     "in_stock": true,
+     "observed_at": "2026-11-19T12:51:27Z",
+     "sha256": "e511d0b9db50",
+     "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+    }
+   ]
+  },
+  "iPhone 6 Plus": {
+   "amount": 1100,
+   "out_of_stock_fallback": false,
+   "quotes": [
+    {
+     "seller": "abest.in",
+     "title": "REPLACEMENT FOR IPHONE 6 PLUS FOXCONN BATTERY",
+     "url": "https://abest.in/replacement-for-iphone-6-plus-foxconn-battery",
+     "price_inr": 525.0,
+     "in_stock": true,
+     "observed_at": "2026-11-19T12:51:26Z",
+     "sha256": "6c2d10fd168d",
+     "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+    }
+   ]
+  },
+  "iPhone 6s": {
+   "amount": 1000,
+   "out_of_stock_fallback": false,
+   "quotes": [
+    {
+     "seller": "abest.in",
+     "title": "REPLACEMENT FOR IPHONE 6S FOXCONN BATTERY",
+     "url": "https://abest.in/replacement-for-iphone-6s-foxconn-battery",
+     "price_inr": 499.0,
+     "in_stock": true,
+     "observed_at": "2026-11-19T12:51:28Z",
+     "sha256": "87c7254dcaf2",
+     "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+    }
+   ]
+  },
+  "iPhone 6s Plus": {
+   "amount": 1100,
+   "out_of_stock_fallback": false,
+   "quotes": [
+    {
+     "seller": "abest.in",
+     "title": "REPLACEMENT FOR IPHONE 6S PLUS FOXCONN BATTERY",
+     "url": "https://abest.in/replacement-for-iphone-6s-plus-foxconn-battery",
+     "price_inr": 525.0,
+     "in_stock": true,
+     "observed_at": "2026-11-19T12:51:29Z",
+     "sha256": "b5e8246e3ae1",
+     "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+    }
+   ]
+  },
+  "iPhone SE (2016)": {
+   "amount": 1100,
+   "out_of_stock_fallback": false,
+   "quotes": [
+    {
+     "seller": "abest.in",
+     "title": "REPLACEMENT FOR IPHONE 5SE FOXCONN BATTERY",
+     "url": "https://abest.in/replacement-for-iphone-5se-foxconn-battery",
+     "price_inr": 550.0,
+     "in_stock": true,
+     "observed_at": "2026-11-19T14:43:35Z",
+     "sha256": "822b7b3490f0",
+     "evidence_dir": "2026-11-19-v6.41-old-iphone-foxconn-battery/research/abest"
+    }
+   ]
+  },
+  "iPhone 7": {
+   "amount": 1100,
+   "out_of_stock_fallback": false,
+   "quotes": [
+    {
+     "seller": "abest.in",
+     "title": "REPLACEMENT FOR IPHONE 7G FOXCONN BATTERY",
+     "url": "https://abest.in/replacement-for-iphone-7g-foxconn-battery",
+     "price_inr": 525.0,
+     "in_stock": true,
+     "observed_at": "2026-11-19T12:51:31Z",
+     "sha256": "95757d782437",
+     "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+    }
+   ]
+  },
+  "iPhone 7 Plus": {
+   "amount": 1100,
+   "out_of_stock_fallback": false,
+   "quotes": [
+    {
+     "seller": "abest.in",
+     "title": "REPLACEMENT FOR IPHONE 7 PLUS FOXCONN BATTERY",
+     "url": "https://abest.in/replacement-for-iphone-7-plus-foxconn-battery",
+     "price_inr": 549.0,
+     "in_stock": true,
+     "observed_at": "2026-11-19T12:51:30Z",
+     "sha256": "45c409a8db39",
+     "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+    }
+   ]
+  },
+  "iPhone 8": {
+   "amount": 1100,
+   "out_of_stock_fallback": false,
+   "quotes": [
+    {
+     "seller": "abest.in",
+     "title": "REPLACEMENT FOR IPHONE 8G FOXCONN BATTERY",
+     "url": "https://abest.in/replacement-for-iphone-8g-foxconn-battery",
+     "price_inr": 549.0,
+     "in_stock": true,
+     "observed_at": "2026-11-19T12:51:33Z",
+     "sha256": "fdb307f41521",
+     "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+    }
+   ]
+  },
+  "iPhone 8 Plus": {
+   "amount": 1200,
+   "out_of_stock_fallback": false,
+   "quotes": [
+    {
+     "seller": "abest.in",
+     "title": "REPLACEMENT FOR IPHONE 8 PLUS FOXCONN BATTERY",
+     "url": "https://abest.in/replacement-for-iphone-8-plus-foxconn-battery",
+     "price_inr": 625.0,
+     "in_stock": true,
+     "observed_at": "2026-11-19T12:51:32Z",
+     "sha256": "64dc43f55cdb",
+     "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+    }
+   ]
+  },
+  "iPhone X": {
+   "amount": 1200,
+   "out_of_stock_fallback": false,
+   "quotes": [
+    {
+     "seller": "abest.in",
+     "title": "REPLACEMENT FOR IPHONE X FOXCONN BATTERY",
+     "url": "https://abest.in/replacement-for-iphone-x-foxconn-battery",
+     "price_inr": 650.0,
+     "in_stock": true,
+     "observed_at": "2026-11-19T12:51:36Z",
+     "sha256": "3161411943d4",
+     "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+    }
+   ]
+  },
+  "iPhone XR": {
+   "amount": 1300,
+   "out_of_stock_fallback": false,
+   "quotes": [
+    {
+     "seller": "abest.in",
+     "title": "REPLACEMENT FOR IPHONE XR FOXCONN BATTERY",
+     "url": "https://abest.in/replacement-for-iphone-xr-foxconn-battery",
+     "price_inr": 800.0,
+     "in_stock": true,
+     "observed_at": "2026-11-19T12:51:37Z",
+     "sha256": "056f1a325d69",
+     "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+    }
+   ]
+  },
+  "iPhone XS": {
+   "amount": 1200,
+   "out_of_stock_fallback": true,
+   "quotes": [
+    {
+     "seller": "abest.in",
+     "title": "REPLACEMENT FOR IPHONE XS FOXCONN BATTERY",
+     "url": "https://abest.in/replacement-for-iphone-xs-foxconn-battery",
+     "price_inr": 650.0,
+     "in_stock": false,
+     "observed_at": "2026-11-19T14:43:38Z",
+     "sha256": "4b8c43f2b588",
+     "evidence_dir": "2026-11-19-v6.41-old-iphone-foxconn-battery/research/abest"
+    }
+   ]
+  },
+  "iPhone XS Max": {
+   "amount": 1300,
+   "out_of_stock_fallback": false,
+   "quotes": [
+    {
+     "seller": "abest.in",
+     "title": "REPLACEMENT FOR IPHONE XS MAX FOXCONN BATTERY",
+     "url": "https://abest.in/replacement-for-iphone-xs-max-foxconn-battery",
+     "price_inr": 749.0,
+     "in_stock": true,
+     "observed_at": "2026-11-19T12:51:40Z",
+     "sha256": "7c4666531a2c",
+     "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+    }
+   ]
+  },
+  "iPhone 11 Pro": {
+   "amount": 1300,
+   "out_of_stock_fallback": false,
+   "quotes": [
+    {
+     "seller": "abest.in",
+     "title": "REPLACEMENT FOR IPHONE 11 PRO FOXCONN BATTERY",
+     "url": "https://abest.in/replacement-for-iphone-11-pro-foxconn-battery",
+     "price_inr": 730.0,
+     "in_stock": true,
+     "observed_at": "2026-11-19T12:51:20Z",
+     "sha256": "b53d0712b552",
+     "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+    }
+   ]
+  },
+  "iPhone 11 Pro Max": {
+   "amount": 1600,
+   "out_of_stock_fallback": false,
+   "quotes": [
+    {
+     "seller": "abest.in",
+     "title": "REPLACEMENT FOR IPHONE 11 PRO MAX FOXCONN BATTERY",
+     "url": "https://abest.in/replacement-for-iphone-11-pro-max-foxconn-battery",
+     "price_inr": 1050.0,
+     "in_stock": true,
+     "observed_at": "2026-11-19T12:51:21Z",
+     "sha256": "2b2d5bce235a",
+     "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+    }
+   ]
+  }
+ },
+ "variants": [
+  [
+   "iphone_7_32",
+   2700,
+   1100
+  ],
+  [
+   "iphone_7_128",
+   2700,
+   1100
+  ],
+  [
+   "iphone_7_plus_32",
+   3000,
+   1100
+  ],
+  [
+   "iphone_7_plus_128",
+   3000,
+   1100
+  ],
+  [
+   "iphone_8_64",
+   2900,
+   1100
+  ],
+  [
+   "iphone_8_256",
+   2900,
+   1100
+  ],
+  [
+   "iphone_8_plus_64",
+   3000,
+   1200
+  ],
+  [
+   "iphone_8_plus_256",
+   3000,
+   1200
+  ],
+  [
+   "iphone_x_64",
+   4400,
+   1200
+  ],
+  [
+   "iphone_x_256",
+   4400,
+   1200
+  ],
+  [
+   "iphone_xr_64",
+   3200,
+   1300
+  ],
+  [
+   "iphone_xr_128",
+   3200,
+   1300
+  ],
+  [
+   "iphone_xr_256",
+   3200,
+   1300
+  ],
+  [
+   "iphone_xs_64",
+   3400,
+   1200
+  ],
+  [
+   "iphone_xs_256",
+   3400,
+   1200
+  ],
+  [
+   "iphone_xs_512",
+   3400,
+   1200
+  ],
+  [
+   "iphone_xs_max_64",
+   5300,
+   1300
+  ],
+  [
+   "iphone_xs_max_256",
+   5300,
+   1300
+  ],
+  [
+   "iphone_xs_max_512",
+   5300,
+   1300
+  ],
+  [
+   "iphone_11_pro_64",
+   4600,
+   1300
+  ],
+  [
+   "iphone_11_pro_256",
+   4600,
+   1300
+  ],
+  [
+   "iphone_11_pro_512",
+   4600,
+   1300
+  ],
+  [
+   "iphone_11_pro_max_64",
+   4800,
+   1600
+  ],
+  [
+   "iphone_11_pro_max_256",
+   4800,
+   1600
+  ],
+  [
+   "iphone_11_pro_max_512",
+   4800,
+   1600
+  ],
+  [
+   "iphone_6_16",
+   3000,
+   1000
+  ],
+  [
+   "iphone_6_32",
+   3000,
+   1000
+  ],
+  [
+   "iphone_6_64",
+   3000,
+   1000
+  ],
+  [
+   "iphone_6_128",
+   3000,
+   1000
+  ],
+  [
+   "iphone_6_plus_16",
+   3000,
+   1100
+  ],
+  [
+   "iphone_6_plus_32",
+   3000,
+   1100
+  ],
+  [
+   "iphone_6_plus_64",
+   3000,
+   1100
+  ],
+  [
+   "iphone_6_plus_128",
+   3000,
+   1100
+  ],
+  [
+   "iphone_6s_16",
+   3000,
+   1000
+  ],
+  [
+   "iphone_6s_32",
+   3000,
+   1000
+  ],
+  [
+   "iphone_6s_64",
+   3000,
+   1000
+  ],
+  [
+   "iphone_6s_128",
+   3000,
+   1000
+  ],
+  [
+   "iphone_6s_plus_16",
+   3000,
+   1100
+  ],
+  [
+   "iphone_6s_plus_32",
+   3000,
+   1100
+  ],
+  [
+   "iphone_6s_plus_64",
+   3000,
+   1100
+  ],
+  [
+   "iphone_6s_plus_128",
+   3000,
+   1100
+  ],
+  [
+   "iphone_se_2016_16",
+   2100,
+   1100
+  ],
+  [
+   "iphone_se_2016_32",
+   2100,
+   1100
+  ],
+  [
+   "iphone_se_2016_64",
+   2100,
+   1100
+  ],
+  [
+   "iphone_se_2016_128",
+   2100,
+   1100
+  ],
+  [
+   "iphone_7_256",
+   2700,
+   1100
+  ],
+  [
+   "iphone_7_plus_256",
+   3000,
+   1100
+  ]
+ ]
+}
