@@ -39,4 +39,23 @@ test('no part price above 1.5x the phone\'s own launch new price (unit / scrapin
  for(const [k,e] of priced){const np=e.current_new_price?.amount_inr||e.net_new_inr;if(!np)continue;
   for(const [dk,r] of Object.entries(e.part_prices))assert.ok(r.amount_inr<=np*1.5,k+' '+dk+' '+r.amount_inr+' vs new '+np);}
 });
-console.log(JSON.stringify({passed:true,checks,priced:priced.length}));
+// v6.39: iPhone market rates (original-grade part + fitting) replace the Apple service estimate where cheaper.
+const market=[];for(const [k,e] of priced)for(const [dk,r] of Object.entries(e.part_prices))if(r.market)market.push([k,dk,r]);
+test('market part prices are iPhone-only, original grade, fitted, cheaper than Apple and sourced',()=>{
+ assert.ok(market.length>=200,'expected iPhone market part prices');
+ for(const [k,dk,r] of market){
+  assert.equal(r.brand,'Market',k);assert.ok(/^iPhone /.test(r.brand_model),k+' '+r.brand_model);
+  assert.equal(r.grade,'Original/OG',k);
+  assert.equal(r.labour_inr,dk==='back_panel'?2000:500,k+' '+dk+' fitting');
+  assert.ok(r.amount_inr%100===0,k+' '+dk+' rounded');
+  assert.ok(Number.isFinite(r.apple_official_inr)&&r.amount_inr<r.apple_official_inr,k+' '+dk+' not below Apple');
+  assert.ok(typeof r.sources==='string'&&/Rs\d/.test(r.sources),k+' '+dk+' sources');
+ }
+});
+test('a model never mixes Apple and market prices for the same part across its storage variants',()=>{
+ const seen={};for(const [k,e] of priced)for(const [dk,r] of Object.entries(e.part_prices)){if(r.brand!=='Apple'&&r.brand!=='Market')continue;
+  const id=r.brand_model+'|'+dk;(seen[id]??=new Set()).add(r.brand+':'+r.amount_inr);}
+ for(const [id,s] of Object.entries(seen))assert.equal(s.size,1,id+' '+[...s]);
+});
+test('policy text names the iPhone market rule',()=>assert.match(db._meta.part_price_policy,/market rate for an ORIGINAL-grade part/));
+console.log(JSON.stringify({passed:true,checks,priced:priced.length,market:market.length}));

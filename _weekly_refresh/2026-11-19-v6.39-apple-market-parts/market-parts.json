@@ -1,0 +1,3015 @@
+[
+ {
+  "model": "iPhone 11",
+  "part": "display",
+  "apple_inr": 18900,
+  "market_inr": 4000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "Display for iPhone 11 100 Percent Original Screen Replacement",
+    "url": "https://abest.in/display-for-iphone-11-100-percent-original-screen-replacement",
+    "price_inr": 2150.0,
+    "all_in_inr": 2650,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:48:00Z",
+    "sha256": "da66efa541d3"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 11 - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-11-display-glass-combo-folder",
+    "price_inr": 5800.0,
+    "all_in_inr": 6300,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:00Z",
+    "sha256": "b0617ed2d902"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 11 Display and Touch Screen Replacement  – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/iphone-11-display-combo.html",
+    "price_inr": 3490.0,
+    "all_in_inr": 3990,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:56:13Z",
+    "sha256": "fc0e25a0e645"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11",
+  "part": "battery",
+  "apple_inr": 9900,
+  "market_inr": 3500,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 11",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-11",
+    "price_inr": 3950.0,
+    "all_in_inr": 4450,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:48Z",
+    "sha256": "61279a8dd6e7"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "100% Original Apple iPhone 11 Battery 616-00641 – 3110 mAh",
+    "url": "https://www.touchlcdbaba.com/apple/apple-iphone-11-battery-616-00641.html",
+    "price_inr": 1950.0,
+    "all_in_inr": 2450,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:59Z",
+    "sha256": "01216ae2a38d"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12",
+  "part": "display",
+  "apple_inr": 27900,
+  "market_inr": 8500,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD Touch Screen for iPhone 12 100 Percent Original High Clarity Display",
+    "url": "https://abest.in/lcd-touch-screen-for-iphone-12-100-percent-original-high-clarity-display",
+    "price_inr": 4799.0,
+    "all_in_inr": 5299,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:31Z",
+    "sha256": "f811e7007885"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 12 - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-12-display-glass-combo-folderv2",
+    "price_inr": 8500.0,
+    "all_in_inr": 9000,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:15Z",
+    "sha256": "3729021bae89"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 12 Display and Touch Screen Replacement  – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/iphone-12-display-original.html",
+    "price_inr": 7990.0,
+    "all_in_inr": 8490,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:57Z",
+    "sha256": "461ac6405ddc"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12",
+  "part": "battery",
+  "apple_inr": 9900,
+  "market_inr": 4600,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 12",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-12",
+    "price_inr": 5800.0,
+    "all_in_inr": 6300,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:50Z",
+    "sha256": "b4324c5aa494"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "100% Original Apple iPhone 12 Battery A2479 – 2815 mAh",
+    "url": "https://www.touchlcdbaba.com/apple/apple-iphone-12-battery-A2479.html",
+    "price_inr": 2350.0,
+    "all_in_inr": 2850,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:56:21Z",
+    "sha256": "49a472ad870e"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12",
+  "part": "back_panel",
+  "apple_inr": 35900,
+  "market_inr": 2700,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 12",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-12",
+    "price_inr": 890.0,
+    "all_in_inr": 2890,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:53Z",
+    "sha256": "3ad9b9154c8f"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 12 series row: ₹2,499 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 2499,
+    "all_in_inr": 2499,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12",
+  "part": "rear_camera",
+  "apple_inr": 18900,
+  "market_inr": 3100,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 12 (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-12-main-camerav2",
+    "price_inr": 2600.0,
+    "all_in_inr": 3100,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:55Z",
+    "sha256": "5069b8ed446e"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 Pro",
+  "part": "display",
+  "apple_inr": 27900,
+  "market_inr": 11000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD Display for iPhone 12 Pro Original Bright Retina No Error Replacement",
+    "url": "https://abest.in/lcd-display-for-iphone-12-pro-original-bright-retina-no-error-replacement",
+    "price_inr": 4799.0,
+    "all_in_inr": 5299,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:16Z",
+    "sha256": "b394ad660363"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 12 Pro - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-12-pro-display-glass-combo-folderv2",
+    "price_inr": 10500.0,
+    "all_in_inr": 11000,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:58Z",
+    "sha256": "927a0981aa5d"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 12 Pro Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-12-pro-display-combo.html",
+    "price_inr": 16990.0,
+    "all_in_inr": 17490,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:24Z",
+    "sha256": "4f22b6100d89"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 Pro",
+  "part": "battery",
+  "apple_inr": 9900,
+  "market_inr": 4600,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 12 pro",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-12-pro",
+    "price_inr": 5800.0,
+    "all_in_inr": 6300,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:31Z",
+    "sha256": "d119b67b1d2c"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "100% Original Apple iPhone 12 Pro Battery A2479 – 2815 mAh",
+    "url": "https://www.touchlcdbaba.com/apple/apple-iphone-12-pro-battery-A2479.html",
+    "price_inr": 2350.0,
+    "all_in_inr": 2850,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:43Z",
+    "sha256": "04df5c51afb3"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 Pro",
+  "part": "back_panel",
+  "apple_inr": 47900,
+  "market_inr": 2700,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 12 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-12-pro",
+    "price_inr": 850.0,
+    "all_in_inr": 2850,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:26Z",
+    "sha256": "1f7a4e126f22"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 12 series row: ₹2,499 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 2499,
+    "all_in_inr": 2499,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 Pro",
+  "part": "rear_camera",
+  "apple_inr": 21900,
+  "market_inr": 7100,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 12 Pro (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-12-pro-main-camera",
+    "price_inr": 6600.0,
+    "all_in_inr": 7100,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:13Z",
+    "sha256": "f85e4a4a2968"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 Pro Max",
+  "part": "display",
+  "apple_inr": 36900,
+  "market_inr": 14500,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "Display for iPhone 12 Pro Max Original Super Retina No Error Screen",
+    "url": "https://abest.in/display-for-iphone-12-pro-max-original-super-retina-no-error-screen",
+    "price_inr": 11799.0,
+    "all_in_inr": 12299,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:48:03Z",
+    "sha256": "e64dcb0003e2"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 12 Pro Max - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-12-pro-max-display-glass-combo-folderv2v1",
+    "price_inr": 13999.0,
+    "all_in_inr": 14499,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:08Z",
+    "sha256": "c258d51d5c9f"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 12 Pro Max Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-12-pro-max-combo.html",
+    "price_inr": 16990.0,
+    "all_in_inr": 17490,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:09Z",
+    "sha256": "6306a710f352"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 Pro Max",
+  "part": "battery",
+  "apple_inr": 9900,
+  "market_inr": 6400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 12 pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-12-pro-max",
+    "price_inr": 5850.0,
+    "all_in_inr": 6350,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:05Z",
+    "sha256": "570afc1eb5e0"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 Pro Max",
+  "part": "back_panel",
+  "apple_inr": 58900,
+  "market_inr": 2700,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 12 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-12-pro-max",
+    "price_inr": 850.0,
+    "all_in_inr": 2850,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:03Z",
+    "sha256": "de09290afeb0"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 12 series row: ₹2,499 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 2499,
+    "all_in_inr": 2499,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 Pro Max",
+  "part": "rear_camera",
+  "apple_inr": 21900,
+  "market_inr": 7100,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 12 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-12-pro-max",
+    "price_inr": 6600.0,
+    "all_in_inr": 7100,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:08Z",
+    "sha256": "e6272c3d97d9"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 mini",
+  "part": "display",
+  "apple_inr": 22900,
+  "market_inr": 7900,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "Display for iPhone 12 Mini Original Clear Vision Touch Screen Replacement",
+    "url": "https://abest.in/display-for-iphone-12-mini-original-clear-vision-touch-screen-replacement",
+    "price_inr": 5899.0,
+    "all_in_inr": 6399,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:48:02Z",
+    "sha256": "66b3344b43b6"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 12 mini - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-12-mini-display-glass-combo-folderv1",
+    "price_inr": 8799.0,
+    "all_in_inr": 9299,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:31Z",
+    "sha256": "4da46b7a5eab"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 mini",
+  "part": "battery",
+  "apple_inr": 9900,
+  "market_inr": 5700,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 12 Mini",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-12-mini",
+    "price_inr": 5200.0,
+    "all_in_inr": 5700,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:39Z",
+    "sha256": "bdfc5ee8a2c2"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 mini",
+  "part": "back_panel",
+  "apple_inr": 32900,
+  "market_inr": 2700,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Glass Battery Cover for iPhone 12 Mini",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-12-miniv1",
+    "price_inr": 850.0,
+    "all_in_inr": 2850,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:40Z",
+    "sha256": "1fa9166fd106"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 12 series row: ₹2,499 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 2499,
+    "all_in_inr": 2499,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 mini",
+  "part": "rear_camera",
+  "apple_inr": 18900,
+  "market_inr": 5000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 12 Mini (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-12-mini-main-camerav2",
+    "price_inr": 4499.0,
+    "all_in_inr": 4999,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:41Z",
+    "sha256": "7d63c0c1adda"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13",
+  "part": "display",
+  "apple_inr": 27900,
+  "market_inr": 9500,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD Original Display  for iPhone 13 Face ID Supported Screen",
+    "url": "https://abest.in/lcd-original-display-for-iphone-13-face-id-supported-screen",
+    "price_inr": 6699.0,
+    "all_in_inr": 7199,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:23Z",
+    "sha256": "c617b5d47203"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 13 - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-13-display-glass-combo-folderv1",
+    "price_inr": 10750.0,
+    "all_in_inr": 11250,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:45Z",
+    "sha256": "87e4d905f847"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 13 Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-13-display-combo.html",
+    "price_inr": 8990.0,
+    "all_in_inr": 9490,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:28Z",
+    "sha256": "1626bd247ea9"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13",
+  "part": "battery",
+  "apple_inr": 9900,
+  "market_inr": 5100,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 13",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-13v1",
+    "price_inr": 6800.0,
+    "all_in_inr": 7300,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:20Z",
+    "sha256": "480c2b39f9d9"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "100% Original Apple iPhone 13 Battery A2655 – 3227mAh",
+    "url": "https://www.touchlcdbaba.com/apple/apple-iphone-13-battery.html",
+    "price_inr": 2399.0,
+    "all_in_inr": 2899,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:56:19Z",
+    "sha256": "1a2b7f7c5907"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13",
+  "part": "back_panel",
+  "apple_inr": 41900,
+  "market_inr": 3100,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 13",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-13",
+    "price_inr": 1110.0,
+    "all_in_inr": 3110,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:18Z",
+    "sha256": "2e0c433f34da"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 13 series row: ₹2,999 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 2999,
+    "all_in_inr": 2999,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13",
+  "part": "rear_camera",
+  "apple_inr": 18900,
+  "market_inr": 3400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 13 (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-13-main-camera",
+    "price_inr": 2900.0,
+    "all_in_inr": 3400,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:16Z",
+    "sha256": "dd654886cbdb"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 Pro",
+  "part": "display",
+  "apple_inr": 27900,
+  "market_inr": 13000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD Original Display with Sensor Flex for iPhone 13 Pro Screen Replacement",
+    "url": "https://abest.in/lcd-original-display-with-sensor-flex-for-iphone-13-pro-screen-replacement",
+    "price_inr": 6499.0,
+    "all_in_inr": 6999,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:26Z",
+    "sha256": "c6cccbf494f8"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 13 Pro - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-13-pro-display-glass-combo-folder",
+    "price_inr": 12500.0,
+    "all_in_inr": 13000,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:23Z",
+    "sha256": "2a65ba4da84f"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 13 Pro Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-13-pro-display-combo.html",
+    "price_inr": 14900.0,
+    "all_in_inr": 15400,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:11Z",
+    "sha256": "8c58154ac603"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 Pro",
+  "part": "battery",
+  "apple_inr": 9900,
+  "market_inr": 5700,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 13 pro",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-13-pro",
+    "price_inr": 6900.0,
+    "all_in_inr": 7400,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:33Z",
+    "sha256": "a7f5be280d50"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "100% Original Apple iPhone 13 Pro Battery A2656 – 3095mAh",
+    "url": "https://www.touchlcdbaba.com/apple/apple-iphone-13-pro-battery.html",
+    "price_inr": 3450.0,
+    "all_in_inr": 3950,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:56:11Z",
+    "sha256": "6aa3c91c5858"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 Pro",
+  "part": "back_panel",
+  "apple_inr": 53900,
+  "market_inr": 3000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 13 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-13-prov1",
+    "price_inr": 890.0,
+    "all_in_inr": 2890,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:28Z",
+    "sha256": "51cb03624cb5"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 13 series row: ₹2,999 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 2999,
+    "all_in_inr": 2999,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 Pro",
+  "part": "rear_camera",
+  "apple_inr": 21900,
+  "market_inr": 9300,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 13 Pro (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/replacement-back-camera-for-apple-iphone-13-pro-main-camerav1",
+    "price_inr": 8800.0,
+    "all_in_inr": 9300,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:02Z",
+    "sha256": "7fb047853f27"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 Pro Max",
+  "part": "display",
+  "apple_inr": 36900,
+  "market_inr": 17200,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 13 Pro Max - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-13-pro-max-display-glass-combo-folderv2v2",
+    "price_inr": 16500.0,
+    "all_in_inr": 17000,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:36Z",
+    "sha256": "9b66ca79f6cc"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 13 Pro Max Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-13-pro-max-display-combo.html",
+    "price_inr": 16800.0,
+    "all_in_inr": 17300,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:54:54Z",
+    "sha256": "29aefe96b59a"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 Pro Max",
+  "part": "battery",
+  "apple_inr": 9900,
+  "market_inr": 7400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 13 pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-13-pro-maxv1",
+    "price_inr": 6900.0,
+    "all_in_inr": 7400,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:40Z",
+    "sha256": "b96b50c2e753"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 Pro Max",
+  "part": "back_panel",
+  "apple_inr": 65900,
+  "market_inr": 3200,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 13 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-13-pro-maxv1",
+    "price_inr": 1299.0,
+    "all_in_inr": 3299,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:38Z",
+    "sha256": "5391eacd3dc5"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 13 series row: ₹2,999 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 2999,
+    "all_in_inr": 2999,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 Pro Max",
+  "part": "rear_camera",
+  "apple_inr": 21900,
+  "market_inr": 7000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "REPLACEMENT FOR APPLE IPHONE 13 PRO MAX BACK CAMERA (ORIGINAL)",
+    "url": "https://abest.in/replacement-for-apple-iphone-13-pro-max-back-camera-original",
+    "price_inr": 4199.0,
+    "all_in_inr": 4699,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:51:05Z",
+    "sha256": "8df21d839a23"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 13 Pro Max (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-13-pro-max-main-camera",
+    "price_inr": 8800.0,
+    "all_in_inr": 9300,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:26Z",
+    "sha256": "3579c8b40bb2"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 mini",
+  "part": "display",
+  "apple_inr": 22900,
+  "market_inr": 14300,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 13 mini - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-13-mini-display-glass-combo-folderv2",
+    "price_inr": 18600.0,
+    "all_in_inr": 19100,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:11Z",
+    "sha256": "c33330833ae1"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 13 Mini Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-13-mini-display-combo.html",
+    "price_inr": 8990.0,
+    "all_in_inr": 9490,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:55Z",
+    "sha256": "ab9e1a674733"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 mini",
+  "part": "battery",
+  "apple_inr": 9900,
+  "market_inr": 7000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 13 Mini",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-13-mini",
+    "price_inr": 6500.0,
+    "all_in_inr": 7000,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:13Z",
+    "sha256": "fb8962a33b83"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 mini",
+  "part": "back_panel",
+  "apple_inr": 38900,
+  "market_inr": 2900,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Glass Battery Cover for iPhone 13 Mini",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-13-mini",
+    "price_inr": 800.0,
+    "all_in_inr": 2800,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:37Z",
+    "sha256": "41889fca2f24"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 13 series row: ₹2,999 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 2999,
+    "all_in_inr": 2999,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 mini",
+  "part": "rear_camera",
+  "apple_inr": 18900,
+  "market_inr": 2700,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 13 Mini (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-13-mini-main-camera",
+    "price_inr": 2200.0,
+    "all_in_inr": 2700,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:11Z",
+    "sha256": "c5c3a9f12efd"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14",
+  "part": "display",
+  "apple_inr": 27900,
+  "market_inr": 10000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "Set Removed Original LCD with Flex for iPhone 14 Display Replacement",
+    "url": "https://abest.in/set-removed-original-lcd-with-flex-for-iphone-14-display-replacement",
+    "price_inr": 6800.0,
+    "all_in_inr": 7300,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:51:44Z",
+    "sha256": "0a3b2a0e33bf"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 14 - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-14-display-glass-combo-folderv2",
+    "price_inr": 9500.0,
+    "all_in_inr": 10000,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:42Z",
+    "sha256": "2cd3866d245d"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 14 Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-14-display-combo.html",
+    "price_inr": 9990.0,
+    "all_in_inr": 10490,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:56:03Z",
+    "sha256": "825aa7bb6f8a"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14",
+  "part": "battery",
+  "apple_inr": 10900,
+  "market_inr": 6600,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 14",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-14",
+    "price_inr": 6050.0,
+    "all_in_inr": 6550,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:48Z",
+    "sha256": "23fd4d64490d"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": 3400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 14",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-14v1",
+    "price_inr": 1250.0,
+    "all_in_inr": 3250,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:44Z",
+    "sha256": "0c8d8e873937"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 14 series row: ₹3,499 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 3499,
+    "all_in_inr": 3499,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14",
+  "part": "rear_camera",
+  "apple_inr": 18900,
+  "market_inr": 4400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "REPLACEMENT FOR APPLE IPHONE 14 BACK CAMERA (ORIGINAL)",
+    "url": "https://abest.in/replacement-for-apple-iphone-14-back-camera-original",
+    "price_inr": 2850.0,
+    "all_in_inr": 3350,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:51:06Z",
+    "sha256": "d9183a6d0a3c"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 14 (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-14-main-camera",
+    "price_inr": 4800.0,
+    "all_in_inr": 5300,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:18Z",
+    "sha256": "b0282cb25532"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Plus",
+  "part": "display",
+  "apple_inr": 36900,
+  "market_inr": 16500,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD Original Display for iPhone 14 Plus Replacement Screen",
+    "url": "https://abest.in/lcd-original-display-for-iphone-14-plus-replacement-screen",
+    "price_inr": 9799.0,
+    "all_in_inr": 10299,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:24Z",
+    "sha256": "14fb967d5210"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 14 Plus - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-14-plus-display-glass-combo-folderv2v2",
+    "price_inr": 16000.0,
+    "all_in_inr": 16500,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:19Z",
+    "sha256": "1e7005962da2"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 14 Plus Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-14-plus-display-combo.html",
+    "price_inr": 19500.0,
+    "all_in_inr": 20000,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:54:52Z",
+    "sha256": "dfc9597829ac"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Plus",
+  "part": "battery",
+  "apple_inr": 10900,
+  "market_inr": 6600,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 14 Plus",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-14-plus",
+    "price_inr": 6100.0,
+    "all_in_inr": 6600,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:56Z",
+    "sha256": "505066aba79c"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Plus",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": 3400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 14 plus",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-14-plus",
+    "price_inr": 1250.0,
+    "all_in_inr": 3250,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:53Z",
+    "sha256": "d47e8037e1f9"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 14 series row: ₹3,499 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 3499,
+    "all_in_inr": 3499,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Plus",
+  "part": "rear_camera",
+  "apple_inr": 18900,
+  "market_inr": 5000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 14 Plus (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-14-plus-main-camera",
+    "price_inr": 4500.0,
+    "all_in_inr": 5000,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:21Z",
+    "sha256": "93a0aece674c"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Pro",
+  "part": "display",
+  "apple_inr": 36900,
+  "market_inr": 19000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "Set Removed Original LCD for iPhone 14 Pro Display Replacement",
+    "url": "https://abest.in/set-removed-original-lcd-for-iphone-14-pro-display-replacement",
+    "price_inr": 11999.0,
+    "all_in_inr": 12499,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:51:42Z",
+    "sha256": "5e7e1df7cd2a"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 14 Pro - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-14-pro-display-glass-combo-folderv2v2",
+    "price_inr": 18500.0,
+    "all_in_inr": 19000,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:58Z",
+    "sha256": "43a118bde63f"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 14 Pro Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-14-pro-display-combo.html",
+    "price_inr": 21900.0,
+    "all_in_inr": 22400,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:54:56Z",
+    "sha256": "124085a0ea54"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Pro",
+  "part": "battery",
+  "apple_inr": 10900,
+  "market_inr": 5900,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 14 pro",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-14-prov1",
+    "price_inr": 6800.0,
+    "all_in_inr": 7300,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:03Z",
+    "sha256": "24c815a39c80"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "100% Original Apple iPhone 14 Pro Battery A2866 – 3200mAh",
+    "url": "https://www.touchlcdbaba.com/apple/apple-iphone-14-pro-battery.html",
+    "price_inr": 3990.0,
+    "all_in_inr": 4490,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:56:08Z",
+    "sha256": "b6707c8170f2"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Pro",
+  "part": "back_panel",
+  "apple_inr": 65900,
+  "market_inr": 3400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 14 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-14-prov2",
+    "price_inr": 1290.0,
+    "all_in_inr": 3290,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:00Z",
+    "sha256": "9762899d07a9"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 14 series row: ₹3,499 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 3499,
+    "all_in_inr": 3499,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Pro",
+  "part": "rear_camera",
+  "apple_inr": 22900,
+  "market_inr": 7400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 14 Pro (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-14-pro-main-camera",
+    "price_inr": 6900.0,
+    "all_in_inr": 7400,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:57:57Z",
+    "sha256": "a74b0781bd11"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Pro Max",
+  "part": "display",
+  "apple_inr": 42900,
+  "market_inr": 20000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD Touch Original Screen for iPhone 14 Pro Max with Sensor Flex for Smooth Touch",
+    "url": "https://abest.in/lcd-touch-original-screen-for-iphone-14-pro-max-with-sensor-flex-for-smooth-touch",
+    "price_inr": 13799.0,
+    "all_in_inr": 14299,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:29Z",
+    "sha256": "74746235464a"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 14 Pro Max - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-14-pro-max-display-glass-combo-folderv2v2v1",
+    "price_inr": 21500.0,
+    "all_in_inr": 22000,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:05Z",
+    "sha256": "a20c75a8c2d0"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "iPhone 14 Pro Max display - Pulled Original Display ₹17,500; Optional Fitting ₹500 (With Fitting ₹18,000)",
+    "url": "https://ifonewala.com/product/iphone-14-pro-max-display/",
+    "price_inr": 17500,
+    "all_in_inr": 18000,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "a04ca3763d5e"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 14 Pro Max Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-14-pro-max-display-combo.html",
+    "price_inr": 27800.0,
+    "all_in_inr": 28300,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:26Z",
+    "sha256": "24bf9dcce524"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Pro Max",
+  "part": "battery",
+  "apple_inr": 10900,
+  "market_inr": 5000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 14 pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-14-pro-maxv2",
+    "price_inr": 6950.0,
+    "all_in_inr": 7450,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:10Z",
+    "sha256": "b7f5506fce07"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "iPhone 14 Pro Max battery - Genuine Part Battery ₹1,990",
+    "url": "https://ifonewala.com/product/iphone-14-pro-max-battery-replacement/",
+    "price_inr": 1990,
+    "all_in_inr": 2490,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "0d1ba26332b1"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Pro Max",
+  "part": "back_panel",
+  "apple_inr": 72900,
+  "market_inr": 3400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 14 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-14-pro-maxv2",
+    "price_inr": 1290.0,
+    "all_in_inr": 3290,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:07Z",
+    "sha256": "3ff8c7ffe0d8"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 14 series row: ₹3,499 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 3499,
+    "all_in_inr": 3499,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Pro Max",
+  "part": "rear_camera",
+  "apple_inr": 22900,
+  "market_inr": 6200,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "REPLACEMENT FOR APPLE IPHONE 14 PRO MAX BACK CAMERA (ORIGINAL)",
+    "url": "https://abest.in/replacement-for-apple-iphone-14-pro-max-back-camera-original",
+    "price_inr": 4399.0,
+    "all_in_inr": 4899,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:51:07Z",
+    "sha256": "d66839350171"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 14 Pro Max (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-14-pro-max-main-camera",
+    "price_inr": 6900.0,
+    "all_in_inr": 7400,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:23Z",
+    "sha256": "ad1538d8b453"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15",
+  "part": "display",
+  "apple_inr": 27900,
+  "market_inr": 15300,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "Set Removed Original LCD with Flex for iPhone 15 Display Replacement",
+    "url": "https://abest.in/set-removed-original-lcd-with-flex-for-iphone-15-display-replacement",
+    "price_inr": 10999.0,
+    "all_in_inr": 11499,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:51:47Z",
+    "sha256": "7c8954356f5e"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 15 - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-15-display-glass-combo-folderv2v1",
+    "price_inr": 14800.0,
+    "all_in_inr": 15300,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:12Z",
+    "sha256": "8d31d8d8c973"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 15 Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-15-display-combo.html",
+    "price_inr": 17900.0,
+    "all_in_inr": 18400,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:34Z",
+    "sha256": "9924dab1d1f1"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15",
+  "part": "battery",
+  "apple_inr": 10900,
+  "market_inr": 6400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 15",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-15v1",
+    "price_inr": 5900.0,
+    "all_in_inr": 6400,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:17Z",
+    "sha256": "32aefb0590a4"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": 4000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 15",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-15v2",
+    "price_inr": 1499.0,
+    "all_in_inr": 3499,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:15Z",
+    "sha256": "877e249aea2d"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 15 series row: ₹4,499 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 4499,
+    "all_in_inr": 4499,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15",
+  "part": "rear_camera",
+  "apple_inr": 18900,
+  "market_inr": 6300,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 15 (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-15-main-camera",
+    "price_inr": 5800.0,
+    "all_in_inr": 6300,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:28Z",
+    "sha256": "390daadadbaa"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Plus",
+  "part": "display",
+  "apple_inr": 36900,
+  "market_inr": 15900,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD Original Display with Sensor Flex for iPhone 15 Plus Screen Replacement",
+    "url": "https://abest.in/lcd-original-display-with-sensor-flex-for-iphone-15-plus-screen-replacement",
+    "price_inr": 13890.0,
+    "all_in_inr": 14390,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:27Z",
+    "sha256": "2172d0a0e307"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 15 Plus - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-15-plus-display-glass-combo-folderv2v1",
+    "price_inr": 15350.0,
+    "all_in_inr": 15850,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:59:51Z",
+    "sha256": "e45b5cf5b0b5"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 15 Plus Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-15-plus-display-combo.html",
+    "price_inr": 26500.0,
+    "all_in_inr": 27000,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:54:47Z",
+    "sha256": "5be283329b48"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Plus",
+  "part": "battery",
+  "apple_inr": 10900,
+  "market_inr": 7300,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 15 plus",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-15-plus",
+    "price_inr": 6800.0,
+    "all_in_inr": 7300,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:24Z",
+    "sha256": "a502bf42f5a8"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Plus",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": 4000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 15 plus",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-15-plusv2v1",
+    "price_inr": 1450.0,
+    "all_in_inr": 3450,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:22Z",
+    "sha256": "f40aa00d815d"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 15 series row: ₹4,499 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 4499,
+    "all_in_inr": 4499,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Plus",
+  "part": "rear_camera",
+  "apple_inr": 18900,
+  "market_inr": 5900,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 15 Plus (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-15-plus-main-camera",
+    "price_inr": 5400.0,
+    "all_in_inr": 5900,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:32Z",
+    "sha256": "98f8ab1ffdf0"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Pro",
+  "part": "display",
+  "apple_inr": 36900,
+  "market_inr": 22300,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "Set Removed Original LCD with Flex for iPhone 15 Pro Display Replacement",
+    "url": "https://abest.in/set-removed-original-lcd-with-flex-for-iphone-15-pro-display-replacement",
+    "price_inr": 16899.0,
+    "all_in_inr": 17399,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:51:47Z",
+    "sha256": "47ada7be969c"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 15 Pro - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-15-pro-display-glass-combo-folderv2v2v1",
+    "price_inr": 21800.0,
+    "all_in_inr": 22300,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:26Z",
+    "sha256": "f6b0dcab9a2c"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 15 Pro Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-15-pro-display-combo.html",
+    "price_inr": 26500.0,
+    "all_in_inr": 27000,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:30Z",
+    "sha256": "4af6060ee72d"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Pro",
+  "part": "battery",
+  "apple_inr": 10900,
+  "market_inr": 8100,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 15 pro",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-15-prov2",
+    "price_inr": 7550.0,
+    "all_in_inr": 8050,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:31Z",
+    "sha256": "b7cba26ace12"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Pro",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": 3900,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 15 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-15-prov2v1",
+    "price_inr": 1290.0,
+    "all_in_inr": 3290,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:28Z",
+    "sha256": "7c9f7af253d9"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 15 series row: ₹4,499 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 4499,
+    "all_in_inr": 4499,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Pro",
+  "part": "rear_camera",
+  "apple_inr": 22900,
+  "market_inr": 7400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 15 Pro (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-15-pro-main-camera",
+    "price_inr": 6900.0,
+    "all_in_inr": 7400,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:34Z",
+    "sha256": "b71f58842672"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Pro Max",
+  "part": "display",
+  "apple_inr": 42900,
+  "market_inr": 21500,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "Set Removed Original LCD with Flex for iPhone 15 Pro Max Display Replacement",
+    "url": "https://abest.in/set-removed-original-lcd-with-flex-for-iphone-15-pro-max-display-replacement",
+    "price_inr": 19499.0,
+    "all_in_inr": 19999,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:51:49Z",
+    "sha256": "049965104251"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 15 Pro Max - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-15-pro-max-display-glass-combo-folderv2v2v2",
+    "price_inr": 22500.0,
+    "all_in_inr": 23000,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:33Z",
+    "sha256": "c7c16f871786"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "iPhone 15 Pro Max screen replacement - Pulled Original Display ₹16,000; Optional Fitting ₹500 (With Fitting ₹16,500)",
+    "url": "https://ifonewala.com/product/iphone-15-pro-max-screen-replacement-delhi/",
+    "price_inr": 16000,
+    "all_in_inr": 16500,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "35ad30aa4529"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 15 Pro Max Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-15-pro-max-display-combo.html",
+    "price_inr": 34500.0,
+    "all_in_inr": 35000,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:54:58Z",
+    "sha256": "e0d7cc875b9a"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Pro Max",
+  "part": "battery",
+  "apple_inr": 10900,
+  "market_inr": 8300,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 15 pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-15-pro-maxv2v1",
+    "price_inr": 7800.0,
+    "all_in_inr": 8300,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:38Z",
+    "sha256": "b9b53bdb50ef"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Pro Max",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": 3900,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 15 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-15-pro-maxv2v2",
+    "price_inr": 1290.0,
+    "all_in_inr": 3290,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:36Z",
+    "sha256": "11ee00e6eecd"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 15 series row: ₹4,499 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 4499,
+    "all_in_inr": 4499,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Pro Max",
+  "part": "rear_camera",
+  "apple_inr": 28900,
+  "market_inr": 7400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 15 Pro Max (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-15-pro-max-main-camera",
+    "price_inr": 6900.0,
+    "all_in_inr": 7400,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:36Z",
+    "sha256": "16f270c6aa75"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16",
+  "part": "display",
+  "apple_inr": 27900,
+  "market_inr": 21000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "Set Removed Original LCD for iPhone 16 Display Replacement",
+    "url": "https://abest.in/set-removed-original-lcd-for-iphone-16-display-replacement",
+    "price_inr": 12199.0,
+    "all_in_inr": 12699,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:51:43Z",
+    "sha256": "5501cb376f33"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 16 - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-16-display-glass-combo-folderv2v2",
+    "price_inr": 20500.0,
+    "all_in_inr": 21000,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:42Z",
+    "sha256": "188e42e251ea"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 16 Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-16-display-combo.html",
+    "price_inr": 28900.0,
+    "all_in_inr": 29400,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:07Z",
+    "sha256": "b42a6367c1d9"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16",
+  "part": "battery",
+  "apple_inr": 10900,
+  "market_inr": 5600,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 16",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-16v2",
+    "price_inr": 5100.0,
+    "all_in_inr": 5600,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:45Z",
+    "sha256": "2d5fe163912d"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": 6600,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple iPhone 16 - Back Rear Glass With Wireless NFC Charging with Flashlight",
+    "url": "https://www.appleproductsfix.com/product/original-apple-iphone-16-back-rear-glass-with-wireless-nfc-charging-with-flashlight",
+    "price_inr": 5700.0,
+    "all_in_inr": 7700,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:31Z",
+    "sha256": "aa1caec65ca3"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 16 series row: ₹5,500 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 5500,
+    "all_in_inr": 5500,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16",
+  "part": "rear_camera",
+  "apple_inr": 18900,
+  "market_inr": 6300,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 16 (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-16-main-camera",
+    "price_inr": 5800.0,
+    "all_in_inr": 6300,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:39Z",
+    "sha256": "580d35632cae"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Plus",
+  "part": "display",
+  "apple_inr": 36900,
+  "market_inr": 19000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD Original Display for iPhone 16 Plus Replacement Screen",
+    "url": "https://abest.in/lcd-original-display-for-iphone-16-plus-replacement-screen",
+    "price_inr": 14490.0,
+    "all_in_inr": 14990,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:25Z",
+    "sha256": "24b8e868977a"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 16 Plus - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-16-plus-display-glass-combo-folderv2v2v1",
+    "price_inr": 18500.0,
+    "all_in_inr": 19000,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:49Z",
+    "sha256": "217af32da3d1"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 16 Plus Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-16-plus-display-combo.html",
+    "price_inr": 21900.0,
+    "all_in_inr": 22400,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:14Z",
+    "sha256": "f0d743a1c772"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Plus",
+  "part": "battery",
+  "apple_inr": 10900,
+  "market_inr": 7100,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 16 Plus",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-16v2v1",
+    "price_inr": 6600.0,
+    "all_in_inr": 7100,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:54Z",
+    "sha256": "52eecab493ea"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Plus",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": 7000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 16 plus",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-16plusv2v2",
+    "price_inr": 6500.0,
+    "all_in_inr": 8500,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:52Z",
+    "sha256": "609aa66a4815"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 16 series row: ₹5,500 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 5500,
+    "all_in_inr": 5500,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Plus",
+  "part": "rear_camera",
+  "apple_inr": 18900,
+  "market_inr": 6800,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 16 Plus (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-16-plus-main-camera",
+    "price_inr": 6300.0,
+    "all_in_inr": 6800,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:42Z",
+    "sha256": "ceb1145be951"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Pro",
+  "part": "display",
+  "apple_inr": 36900,
+  "market_inr": 25300,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "Set Removed Original LCD with Flex for iPhone 16 Pro Display Replacement",
+    "url": "https://abest.in/set-removed-original-lcd-with-flex-for-iphone-16-pro-display-replacement",
+    "price_inr": 18499.0,
+    "all_in_inr": 18999,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:51:50Z",
+    "sha256": "5b5a7647209e"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 16 Pro - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-16-pro-display-glass-combo-folderv2v2v2",
+    "price_inr": 28000.0,
+    "all_in_inr": 28500,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:55Z",
+    "sha256": "187e032c6759"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 16 Pro Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-16-pro-display-combo.html",
+    "price_inr": 24800.0,
+    "all_in_inr": 25300,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:05Z",
+    "sha256": "2ed4cbfd6cfc"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Pro",
+  "part": "battery",
+  "apple_inr": 12900,
+  "market_inr": 10400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 16 pro",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-16-prov2v1",
+    "price_inr": 9900.0,
+    "all_in_inr": 10400,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:00Z",
+    "sha256": "7b91aaadd5d8"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Pro",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": 5600,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 16 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-16-prov2v2",
+    "price_inr": 3600.0,
+    "all_in_inr": 5600,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:00:57Z",
+    "sha256": "e61ff9b4239c"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 16 series row: ₹5,500 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 5500,
+    "all_in_inr": 5500,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Pro",
+  "part": "rear_camera",
+  "apple_inr": 28900,
+  "market_inr": 9400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 16 Pro (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-16-pro-main-camera",
+    "price_inr": 8900.0,
+    "all_in_inr": 9400,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:44Z",
+    "sha256": "9c98078906f7"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Pro Max",
+  "part": "display",
+  "apple_inr": 42900,
+  "market_inr": 29000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "Set Removed Original LCD with Flex for iPhone 16 Pro Max Display Replacement",
+    "url": "https://abest.in/set-removed-original-lcd-with-flex-for-iphone-16-pro-max-display-replacement",
+    "price_inr": 23499.0,
+    "all_in_inr": 23999,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:51:51Z",
+    "sha256": "350945a2a1f2"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 16 Pro Max - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-16-pro-max-display-glass-combo-folderv2v2v2v1",
+    "price_inr": 28500.0,
+    "all_in_inr": 29000,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:02Z",
+    "sha256": "3bc5c8f88180"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 16 Pro Max Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-16-pro-max-display-combo.html",
+    "price_inr": 35400.0,
+    "all_in_inr": 35900,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:00Z",
+    "sha256": "488aea29b7a1"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Pro Max",
+  "part": "battery",
+  "apple_inr": 12900,
+  "market_inr": 8700,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 16 pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-16-pro-maxv2v2",
+    "price_inr": 8150.0,
+    "all_in_inr": 8650,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:06Z",
+    "sha256": "d0addb2fa7b8"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Pro Max",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": 6000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 16 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-16-pro-max",
+    "price_inr": 4350.0,
+    "all_in_inr": 6350,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:04Z",
+    "sha256": "077967706eac"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 16 series row: ₹5,500 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 5500,
+    "all_in_inr": 5500,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Pro Max",
+  "part": "rear_camera",
+  "apple_inr": 28900,
+  "market_inr": 9400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 16 Pro Max (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-16-pro-max-main-camera",
+    "price_inr": 8900.0,
+    "all_in_inr": 9400,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:47Z",
+    "sha256": "91feef483fff"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16e",
+  "part": "display",
+  "apple_inr": 27900,
+  "market_inr": 16200,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 16e - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-16e-display-glass-combo-folder",
+    "price_inr": 11500.0,
+    "all_in_inr": 12000,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:01Z",
+    "sha256": "b50d712d00fe"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 16e Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-16e-display-combo.html",
+    "price_inr": 19900.0,
+    "all_in_inr": 20400,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:18Z",
+    "sha256": "a26af65c8cd2"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16e",
+  "part": "battery",
+  "apple_inr": 10900,
+  "market_inr": 5600,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 16e",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-16e",
+    "price_inr": 5100.0,
+    "all_in_inr": 5600,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:06Z",
+    "sha256": "3365ff06ac4b"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16e",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": 4700,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original iPhone 16e Battery Back Cover with Camera Lens Cover",
+    "url": "https://www.appleproductsfix.com/product/original-iphone-16e-battery-back-cover-with-camera-lens-cover",
+    "price_inr": 2700.0,
+    "all_in_inr": 4700,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:03Z",
+    "sha256": "28fb234d2844"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16e",
+  "part": "rear_camera",
+  "apple_inr": 15900,
+  "market_inr": 7300,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 16 e (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-16-e-main-camera",
+    "price_inr": 6800.0,
+    "all_in_inr": 7300,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:08Z",
+    "sha256": "6d4e2c2329ad"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17",
+  "part": "display",
+  "apple_inr": 36900,
+  "market_inr": 28300,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 17 - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-17-display-glass-combo-folder",
+    "price_inr": 27999.0,
+    "all_in_inr": 28499,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:38Z",
+    "sha256": "b731cdd08b54"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 17 Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-17-display-combo.html",
+    "price_inr": 27500.0,
+    "all_in_inr": 28000,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:54:50Z",
+    "sha256": "2f16d74d5527"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17",
+  "part": "battery",
+  "apple_inr": 10900,
+  "market_inr": 7700,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "iPhone 17 Original Battery",
+    "url": "https://www.appleproductsfix.com/product/iphone-17-original-battery",
+    "price_inr": 7200.0,
+    "all_in_inr": 7700,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:03:05Z",
+    "sha256": "56f1413fdad6"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": 4800,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original iPhone 17 Glass Battery Back Cover",
+    "url": "https://www.appleproductsfix.com/product/original-iphone-17-glass-battery-back-cover",
+    "price_inr": 2800.0,
+    "all_in_inr": 4800,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:13Z",
+    "sha256": "03b08f85b153"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17",
+  "part": "rear_camera",
+  "apple_inr": 18900,
+  "market_inr": 8300,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 17 (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-17-main-camera",
+    "price_inr": 7800.0,
+    "all_in_inr": 8300,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:14Z",
+    "sha256": "2462184c0ca6"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17 Pro",
+  "part": "display",
+  "apple_inr": 36900,
+  "market_inr": 35000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 17 Pro - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-17-pro-display-glass-combo-folder",
+    "price_inr": 34999.0,
+    "all_in_inr": 35499,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:42Z",
+    "sha256": "657d6cfd804f"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 17 Pro Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-17-pro-display-combo.html",
+    "price_inr": 33900.0,
+    "all_in_inr": 34400,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:16Z",
+    "sha256": "0de9d1b2f84d"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17 Pro",
+  "part": "battery",
+  "apple_inr": 12900,
+  "market_inr": 14400,
+  "use_market": false,
+  "reason": "market not below Apple: Apple kept",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 17 pro",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-17-pro",
+    "price_inr": 13900.0,
+    "all_in_inr": 14400,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:26Z",
+    "sha256": "143381fa84a0"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17 Pro",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": 6600,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "iPhone 17 Pro Original Glass Back Battery Cover",
+    "url": "https://www.appleproductsfix.com/product/iphone-17-pro-original-glass-back-battery-cover",
+    "price_inr": 4600.0,
+    "all_in_inr": 6600,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:24Z",
+    "sha256": "8f68e018b905"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17 Pro",
+  "part": "rear_camera",
+  "apple_inr": 28900,
+  "market_inr": 10400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 17 Pro (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-17-pro-main-camera",
+    "price_inr": 9900.0,
+    "all_in_inr": 10400,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:28Z",
+    "sha256": "948b41597767"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17 Pro Max",
+  "part": "display",
+  "apple_inr": 42900,
+  "market_inr": 36000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 17 Pro Max - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-17-pro-max-display-glass-combo-folder",
+    "price_inr": 35500.0,
+    "all_in_inr": 36000,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:44Z",
+    "sha256": "060cb8f6b9fc"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17 Pro Max",
+  "part": "battery",
+  "apple_inr": 12900,
+  "market_inr": 15400,
+  "use_market": false,
+  "reason": "market not below Apple: Apple kept",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 17 pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-17-pro-max",
+    "price_inr": 14900.0,
+    "all_in_inr": 15400,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:36Z",
+    "sha256": "6bd26db7e0c6"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17 Pro Max",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": 6600,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "iPhone 17 Pro Max Original Glass Back Battery Cover",
+    "url": "https://www.appleproductsfix.com/product/iphone-17-pro-max-original-glass-back-battery-cover",
+    "price_inr": 4600.0,
+    "all_in_inr": 6600,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:21Z",
+    "sha256": "ed7805bfe440"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17 Pro Max",
+  "part": "rear_camera",
+  "apple_inr": 28900,
+  "market_inr": 10400,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 17 Pro Max (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-17-pro-max-main-camera",
+    "price_inr": 9900.0,
+    "all_in_inr": 10400,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:33Z",
+    "sha256": "ca219b0e2ec3"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17e",
+  "part": "display",
+  "apple_inr": 27900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 17e",
+  "part": "battery",
+  "apple_inr": 10900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 17e",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 17e",
+  "part": "rear_camera",
+  "apple_inr": 15900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 18 Pro",
+  "part": "display",
+  "apple_inr": 36900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 18 Pro",
+  "part": "battery",
+  "apple_inr": 13900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 18 Pro",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 18 Pro",
+  "part": "rear_camera",
+  "apple_inr": 28900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 18 Pro Max",
+  "part": "display",
+  "apple_inr": 42900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 18 Pro Max",
+  "part": "battery",
+  "apple_inr": 13900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 18 Pro Max",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 18 Pro Max",
+  "part": "rear_camera",
+  "apple_inr": 28900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone Air",
+  "part": "display",
+  "apple_inr": 36900,
+  "market_inr": 33000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 17 Air - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-17-air-display-glass-combo-folder",
+    "price_inr": 35499.0,
+    "all_in_inr": 35999,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:40Z",
+    "sha256": "df43a2630309"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone Air Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-air-display-combo.html",
+    "price_inr": 29500.0,
+    "all_in_inr": 30000,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:22Z",
+    "sha256": "5e44a09e5046"
+   }
+  ]
+ },
+ {
+  "model": "iPhone Air",
+  "part": "battery",
+  "apple_inr": 12900,
+  "market_inr": 9700,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "iPhone 17 Air Original Battery",
+    "url": "https://www.appleproductsfix.com/product/iphone-17-air-original-battery",
+    "price_inr": 9200.0,
+    "all_in_inr": 9700,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:03:08Z",
+    "sha256": "187f4ffcde7e"
+   }
+  ]
+ },
+ {
+  "model": "iPhone Air",
+  "part": "back_panel",
+  "apple_inr": 16900,
+  "market_inr": 11800,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "iPhone 17 Air Original Glass Battery Back Cover",
+    "url": "https://www.appleproductsfix.com/product/iphone-17-air-original-glass-battery-back-cover",
+    "price_inr": 9800.0,
+    "all_in_inr": 11800,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:17Z",
+    "sha256": "62c9632dd2c0"
+   }
+  ]
+ },
+ {
+  "model": "iPhone Air",
+  "part": "rear_camera",
+  "apple_inr": 18900,
+  "market_inr": 10300,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 17 Air (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-17-air-main-camera",
+    "price_inr": 9800.0,
+    "all_in_inr": 10300,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:02:19Z",
+    "sha256": "564c1eff818a"
+   }
+  ]
+ },
+ {
+  "model": "iPhone Duo",
+  "part": "display",
+  "apple_inr": 149900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone Duo",
+  "part": "battery",
+  "apple_inr": 24900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone Duo",
+  "part": "back_panel",
+  "apple_inr": 20900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone Duo",
+  "part": "rear_camera",
+  "apple_inr": 26900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ },
+ {
+  "model": "iPhone SE (2020)",
+  "part": "display",
+  "apple_inr": 14900,
+  "market_inr": 4000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone SE 2 2020 - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-se-2-2020-display-glass-combo-folderv1",
+    "price_inr": 3400.0,
+    "all_in_inr": 3900,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:44Z",
+    "sha256": "1f3b1195cc78"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone SE2 Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-se2-display-combo.html",
+    "price_inr": 3490.0,
+    "all_in_inr": 3990,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:56:01Z",
+    "sha256": "e928b591f66c"
+   }
+  ]
+ },
+ {
+  "model": "iPhone SE (2020)",
+  "part": "battery",
+  "apple_inr": 7900,
+  "market_inr": 4100,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone SE 2 2020",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-se-2-2020",
+    "price_inr": 3599.0,
+    "all_in_inr": 4099,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:07Z",
+    "sha256": "574a7fea1a49"
+   }
+  ]
+ },
+ {
+  "model": "iPhone SE (2022)",
+  "part": "display",
+  "apple_inr": 14900,
+  "market_inr": 4000,
+  "use_market": true,
+  "reason": "market median below Apple",
+  "quotes": [
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone SE3 Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-se3-display-combo.html",
+    "price_inr": 3490.0,
+    "all_in_inr": 3990,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:50Z",
+    "sha256": "47d5c2328ace"
+   }
+  ]
+ },
+ {
+  "model": "iPhone SE (2022)",
+  "part": "battery",
+  "apple_inr": 7900,
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote",
+  "quotes": []
+ }
+]

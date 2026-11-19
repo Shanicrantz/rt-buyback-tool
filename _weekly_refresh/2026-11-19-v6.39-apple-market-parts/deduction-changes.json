@@ -1,0 +1,3982 @@
+[
+ {
+  "key": "iphone_11_64",
+  "model": "iPhone 11 64GB",
+  "part": "display",
+  "before": 18900,
+  "after": 4000,
+  "diff": -14900,
+  "now": "Market",
+  "sources": "abest.in Rs2,150 · appleproductsfix.com Rs5,800 · touchlcdbaba.com Rs3,490"
+ },
+ {
+  "key": "iphone_11_64",
+  "model": "iPhone 11 64GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 3500,
+  "diff": -6400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,950 · touchlcdbaba.com Rs1,950"
+ },
+ {
+  "key": "iphone_11_128",
+  "model": "iPhone 11 128GB",
+  "part": "display",
+  "before": 18900,
+  "after": 4000,
+  "diff": -14900,
+  "now": "Market",
+  "sources": "abest.in Rs2,150 · appleproductsfix.com Rs5,800 · touchlcdbaba.com Rs3,490"
+ },
+ {
+  "key": "iphone_11_128",
+  "model": "iPhone 11 128GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 3500,
+  "diff": -6400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,950 · touchlcdbaba.com Rs1,950"
+ },
+ {
+  "key": "iphone_12_64",
+  "model": "iPhone 12 64GB",
+  "part": "display",
+  "before": 27900,
+  "after": 8500,
+  "diff": -19400,
+  "now": "Market",
+  "sources": "abest.in Rs4,799 · appleproductsfix.com Rs8,500 · touchlcdbaba.com Rs7,990"
+ },
+ {
+  "key": "iphone_12_64",
+  "model": "iPhone 12 64GB",
+  "part": "back_panel",
+  "before": 35900,
+  "after": 2700,
+  "diff": -33200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890 · ifonewala.com Rs2,499 all-in"
+ },
+ {
+  "key": "iphone_12_64",
+  "model": "iPhone 12 64GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 4600,
+  "diff": -5300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,800 · touchlcdbaba.com Rs2,350"
+ },
+ {
+  "key": "iphone_12_64",
+  "model": "iPhone 12 64GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 3100,
+  "diff": -15800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,600"
+ },
+ {
+  "key": "iphone_12_128",
+  "model": "iPhone 12 128GB",
+  "part": "display",
+  "before": 27900,
+  "after": 8500,
+  "diff": -19400,
+  "now": "Market",
+  "sources": "abest.in Rs4,799 · appleproductsfix.com Rs8,500 · touchlcdbaba.com Rs7,990"
+ },
+ {
+  "key": "iphone_12_128",
+  "model": "iPhone 12 128GB",
+  "part": "back_panel",
+  "before": 35900,
+  "after": 2700,
+  "diff": -33200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890 · ifonewala.com Rs2,499 all-in"
+ },
+ {
+  "key": "iphone_12_128",
+  "model": "iPhone 12 128GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 4600,
+  "diff": -5300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,800 · touchlcdbaba.com Rs2,350"
+ },
+ {
+  "key": "iphone_12_128",
+  "model": "iPhone 12 128GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 3100,
+  "diff": -15800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,600"
+ },
+ {
+  "key": "iphone_12_mini_64",
+  "model": "iPhone 12 mini 64GB",
+  "part": "display",
+  "before": 22900,
+  "after": 7900,
+  "diff": -15000,
+  "now": "Market",
+  "sources": "abest.in Rs5,899 · appleproductsfix.com Rs8,799"
+ },
+ {
+  "key": "iphone_12_mini_64",
+  "model": "iPhone 12 mini 64GB",
+  "part": "back_panel",
+  "before": 32900,
+  "after": 2700,
+  "diff": -30200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850 · ifonewala.com Rs2,499 all-in"
+ },
+ {
+  "key": "iphone_12_mini_64",
+  "model": "iPhone 12 mini 64GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 5700,
+  "diff": -4200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,200"
+ },
+ {
+  "key": "iphone_12_mini_64",
+  "model": "iPhone 12 mini 64GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 5000,
+  "diff": -13900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,499"
+ },
+ {
+  "key": "iphone_12_pro_128",
+  "model": "iPhone 12 Pro 128GB",
+  "part": "display",
+  "before": 27900,
+  "after": 11000,
+  "diff": -16900,
+  "now": "Market",
+  "sources": "abest.in Rs4,799 · appleproductsfix.com Rs10,500 · touchlcdbaba.com Rs16,990"
+ },
+ {
+  "key": "iphone_12_pro_128",
+  "model": "iPhone 12 Pro 128GB",
+  "part": "back_panel",
+  "before": 47900,
+  "after": 2700,
+  "diff": -45200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850 · ifonewala.com Rs2,499 all-in"
+ },
+ {
+  "key": "iphone_12_pro_128",
+  "model": "iPhone 12 Pro 128GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 4600,
+  "diff": -5300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,800 · touchlcdbaba.com Rs2,350"
+ },
+ {
+  "key": "iphone_12_pro_128",
+  "model": "iPhone 12 Pro 128GB",
+  "part": "rear_camera",
+  "before": 21900,
+  "after": 7100,
+  "diff": -14800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,600"
+ },
+ {
+  "key": "iphone_12_pro_max_128",
+  "model": "iPhone 12 Pro Max 128GB",
+  "part": "display",
+  "before": 36900,
+  "after": 14500,
+  "diff": -22400,
+  "now": "Market",
+  "sources": "abest.in Rs11,799 · appleproductsfix.com Rs13,999 · touchlcdbaba.com Rs16,990"
+ },
+ {
+  "key": "iphone_12_pro_max_128",
+  "model": "iPhone 12 Pro Max 128GB",
+  "part": "back_panel",
+  "before": 58900,
+  "after": 2700,
+  "diff": -56200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850 · ifonewala.com Rs2,499 all-in"
+ },
+ {
+  "key": "iphone_12_pro_max_128",
+  "model": "iPhone 12 Pro Max 128GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 6400,
+  "diff": -3500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,850"
+ },
+ {
+  "key": "iphone_12_pro_max_128",
+  "model": "iPhone 12 Pro Max 128GB",
+  "part": "rear_camera",
+  "before": 21900,
+  "after": 7100,
+  "diff": -14800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,600"
+ },
+ {
+  "key": "iphone_13_128",
+  "model": "iPhone 13 128GB",
+  "part": "display",
+  "before": 27900,
+  "after": 9500,
+  "diff": -18400,
+  "now": "Market",
+  "sources": "abest.in Rs6,699 · appleproductsfix.com Rs10,750 · touchlcdbaba.com Rs8,990"
+ },
+ {
+  "key": "iphone_13_128",
+  "model": "iPhone 13 128GB",
+  "part": "back_panel",
+  "before": 41900,
+  "after": 3100,
+  "diff": -38800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,110 · ifonewala.com Rs2,999 all-in"
+ },
+ {
+  "key": "iphone_13_128",
+  "model": "iPhone 13 128GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 5100,
+  "diff": -4800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,800 · touchlcdbaba.com Rs2,399"
+ },
+ {
+  "key": "iphone_13_128",
+  "model": "iPhone 13 128GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 3400,
+  "diff": -15500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,900"
+ },
+ {
+  "key": "iphone_13_256",
+  "model": "iPhone 13 256GB",
+  "part": "display",
+  "before": 27900,
+  "after": 9500,
+  "diff": -18400,
+  "now": "Market",
+  "sources": "abest.in Rs6,699 · appleproductsfix.com Rs10,750 · touchlcdbaba.com Rs8,990"
+ },
+ {
+  "key": "iphone_13_256",
+  "model": "iPhone 13 256GB",
+  "part": "back_panel",
+  "before": 41900,
+  "after": 3100,
+  "diff": -38800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,110 · ifonewala.com Rs2,999 all-in"
+ },
+ {
+  "key": "iphone_13_256",
+  "model": "iPhone 13 256GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 5100,
+  "diff": -4800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,800 · touchlcdbaba.com Rs2,399"
+ },
+ {
+  "key": "iphone_13_256",
+  "model": "iPhone 13 256GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 3400,
+  "diff": -15500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,900"
+ },
+ {
+  "key": "iphone_13_mini_128",
+  "model": "iPhone 13 mini 128GB",
+  "part": "display",
+  "before": 22900,
+  "after": 14300,
+  "diff": -8600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs18,600 · touchlcdbaba.com Rs8,990"
+ },
+ {
+  "key": "iphone_13_mini_128",
+  "model": "iPhone 13 mini 128GB",
+  "part": "back_panel",
+  "before": 38900,
+  "after": 2900,
+  "diff": -36000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs800 · ifonewala.com Rs2,999 all-in"
+ },
+ {
+  "key": "iphone_13_mini_128",
+  "model": "iPhone 13 mini 128GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 7000,
+  "diff": -2900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,500"
+ },
+ {
+  "key": "iphone_13_mini_128",
+  "model": "iPhone 13 mini 128GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 2700,
+  "diff": -16200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,200"
+ },
+ {
+  "key": "iphone_13_pro_128",
+  "model": "iPhone 13 Pro 128GB",
+  "part": "display",
+  "before": 27900,
+  "after": 13000,
+  "diff": -14900,
+  "now": "Market",
+  "sources": "abest.in Rs6,499 · appleproductsfix.com Rs12,500 · touchlcdbaba.com Rs14,900"
+ },
+ {
+  "key": "iphone_13_pro_128",
+  "model": "iPhone 13 Pro 128GB",
+  "part": "back_panel",
+  "before": 53900,
+  "after": 3000,
+  "diff": -50900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890 · ifonewala.com Rs2,999 all-in"
+ },
+ {
+  "key": "iphone_13_pro_128",
+  "model": "iPhone 13 Pro 128GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 5700,
+  "diff": -4200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900 · touchlcdbaba.com Rs3,450"
+ },
+ {
+  "key": "iphone_13_pro_128",
+  "model": "iPhone 13 Pro 128GB",
+  "part": "rear_camera",
+  "before": 21900,
+  "after": 9300,
+  "diff": -12600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,800"
+ },
+ {
+  "key": "iphone_13_pro_256",
+  "model": "iPhone 13 Pro 256GB",
+  "part": "display",
+  "before": 27900,
+  "after": 13000,
+  "diff": -14900,
+  "now": "Market",
+  "sources": "abest.in Rs6,499 · appleproductsfix.com Rs12,500 · touchlcdbaba.com Rs14,900"
+ },
+ {
+  "key": "iphone_13_pro_256",
+  "model": "iPhone 13 Pro 256GB",
+  "part": "back_panel",
+  "before": 53900,
+  "after": 3000,
+  "diff": -50900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890 · ifonewala.com Rs2,999 all-in"
+ },
+ {
+  "key": "iphone_13_pro_256",
+  "model": "iPhone 13 Pro 256GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 5700,
+  "diff": -4200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900 · touchlcdbaba.com Rs3,450"
+ },
+ {
+  "key": "iphone_13_pro_256",
+  "model": "iPhone 13 Pro 256GB",
+  "part": "rear_camera",
+  "before": 21900,
+  "after": 9300,
+  "diff": -12600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,800"
+ },
+ {
+  "key": "iphone_13_pro_max_128",
+  "model": "iPhone 13 Pro Max 128GB",
+  "part": "display",
+  "before": 36900,
+  "after": 17200,
+  "diff": -19700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs16,500 · touchlcdbaba.com Rs16,800"
+ },
+ {
+  "key": "iphone_13_pro_max_128",
+  "model": "iPhone 13 Pro Max 128GB",
+  "part": "back_panel",
+  "before": 65900,
+  "after": 3200,
+  "diff": -62700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,299 · ifonewala.com Rs2,999 all-in"
+ },
+ {
+  "key": "iphone_13_pro_max_128",
+  "model": "iPhone 13 Pro Max 128GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 7400,
+  "diff": -2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_13_pro_max_128",
+  "model": "iPhone 13 Pro Max 128GB",
+  "part": "rear_camera",
+  "before": 21900,
+  "after": 7000,
+  "diff": -14900,
+  "now": "Market",
+  "sources": "abest.in Rs4,199 · appleproductsfix.com Rs8,800"
+ },
+ {
+  "key": "iphone_13_pro_max_256",
+  "model": "iPhone 13 Pro Max 256GB",
+  "part": "display",
+  "before": 36900,
+  "after": 17200,
+  "diff": -19700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs16,500 · touchlcdbaba.com Rs16,800"
+ },
+ {
+  "key": "iphone_13_pro_max_256",
+  "model": "iPhone 13 Pro Max 256GB",
+  "part": "back_panel",
+  "before": 65900,
+  "after": 3200,
+  "diff": -62700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,299 · ifonewala.com Rs2,999 all-in"
+ },
+ {
+  "key": "iphone_13_pro_max_256",
+  "model": "iPhone 13 Pro Max 256GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 7400,
+  "diff": -2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_13_pro_max_256",
+  "model": "iPhone 13 Pro Max 256GB",
+  "part": "rear_camera",
+  "before": 21900,
+  "after": 7000,
+  "diff": -14900,
+  "now": "Market",
+  "sources": "abest.in Rs4,199 · appleproductsfix.com Rs8,800"
+ },
+ {
+  "key": "iphone_14_128",
+  "model": "iPhone 14 128GB",
+  "part": "display",
+  "before": 27900,
+  "after": 10000,
+  "diff": -17900,
+  "now": "Market",
+  "sources": "abest.in Rs6,800 · appleproductsfix.com Rs9,500 · touchlcdbaba.com Rs9,990"
+ },
+ {
+  "key": "iphone_14_128",
+  "model": "iPhone 14 128GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 3400,
+  "diff": -13500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250 · ifonewala.com Rs3,499 all-in"
+ },
+ {
+  "key": "iphone_14_128",
+  "model": "iPhone 14 128GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 6600,
+  "diff": -4300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,050"
+ },
+ {
+  "key": "iphone_14_128",
+  "model": "iPhone 14 128GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 4400,
+  "diff": -14500,
+  "now": "Market",
+  "sources": "abest.in Rs2,850 · appleproductsfix.com Rs4,800"
+ },
+ {
+  "key": "iphone_14_256",
+  "model": "iPhone 14 256GB",
+  "part": "display",
+  "before": 27900,
+  "after": 10000,
+  "diff": -17900,
+  "now": "Market",
+  "sources": "abest.in Rs6,800 · appleproductsfix.com Rs9,500 · touchlcdbaba.com Rs9,990"
+ },
+ {
+  "key": "iphone_14_256",
+  "model": "iPhone 14 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 3400,
+  "diff": -13500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250 · ifonewala.com Rs3,499 all-in"
+ },
+ {
+  "key": "iphone_14_256",
+  "model": "iPhone 14 256GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 6600,
+  "diff": -4300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,050"
+ },
+ {
+  "key": "iphone_14_256",
+  "model": "iPhone 14 256GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 4400,
+  "diff": -14500,
+  "now": "Market",
+  "sources": "abest.in Rs2,850 · appleproductsfix.com Rs4,800"
+ },
+ {
+  "key": "iphone_14_plus_128",
+  "model": "iPhone 14 Plus 128GB",
+  "part": "display",
+  "before": 36900,
+  "after": 16500,
+  "diff": -20400,
+  "now": "Market",
+  "sources": "abest.in Rs9,799 · appleproductsfix.com Rs16,000 · touchlcdbaba.com Rs19,500"
+ },
+ {
+  "key": "iphone_14_plus_128",
+  "model": "iPhone 14 Plus 128GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 3400,
+  "diff": -13500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250 · ifonewala.com Rs3,499 all-in"
+ },
+ {
+  "key": "iphone_14_plus_128",
+  "model": "iPhone 14 Plus 128GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 6600,
+  "diff": -4300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,100"
+ },
+ {
+  "key": "iphone_14_plus_128",
+  "model": "iPhone 14 Plus 128GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 5000,
+  "diff": -13900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,500"
+ },
+ {
+  "key": "iphone_14_pro_128",
+  "model": "iPhone 14 Pro 128GB",
+  "part": "display",
+  "before": 36900,
+  "after": 19000,
+  "diff": -17900,
+  "now": "Market",
+  "sources": "abest.in Rs11,999 · appleproductsfix.com Rs18,500 · touchlcdbaba.com Rs21,900"
+ },
+ {
+  "key": "iphone_14_pro_128",
+  "model": "iPhone 14 Pro 128GB",
+  "part": "back_panel",
+  "before": 65900,
+  "after": 3400,
+  "diff": -62500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,290 · ifonewala.com Rs3,499 all-in"
+ },
+ {
+  "key": "iphone_14_pro_128",
+  "model": "iPhone 14 Pro 128GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 5900,
+  "diff": -5000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,800 · touchlcdbaba.com Rs3,990"
+ },
+ {
+  "key": "iphone_14_pro_128",
+  "model": "iPhone 14 Pro 128GB",
+  "part": "rear_camera",
+  "before": 22900,
+  "after": 7400,
+  "diff": -15500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_14_pro_256",
+  "model": "iPhone 14 Pro 256GB",
+  "part": "display",
+  "before": 36900,
+  "after": 19000,
+  "diff": -17900,
+  "now": "Market",
+  "sources": "abest.in Rs11,999 · appleproductsfix.com Rs18,500 · touchlcdbaba.com Rs21,900"
+ },
+ {
+  "key": "iphone_14_pro_256",
+  "model": "iPhone 14 Pro 256GB",
+  "part": "back_panel",
+  "before": 65900,
+  "after": 3400,
+  "diff": -62500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,290 · ifonewala.com Rs3,499 all-in"
+ },
+ {
+  "key": "iphone_14_pro_256",
+  "model": "iPhone 14 Pro 256GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 5900,
+  "diff": -5000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,800 · touchlcdbaba.com Rs3,990"
+ },
+ {
+  "key": "iphone_14_pro_256",
+  "model": "iPhone 14 Pro 256GB",
+  "part": "rear_camera",
+  "before": 22900,
+  "after": 7400,
+  "diff": -15500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_14_pro_max_128",
+  "model": "iPhone 14 Pro Max 128GB",
+  "part": "display",
+  "before": 42900,
+  "after": 20000,
+  "diff": -22900,
+  "now": "Market",
+  "sources": "abest.in Rs13,799 · appleproductsfix.com Rs21,500 · ifonewala.com Rs17,500 · touchlcdbaba.com Rs27,800"
+ },
+ {
+  "key": "iphone_14_pro_max_128",
+  "model": "iPhone 14 Pro Max 128GB",
+  "part": "back_panel",
+  "before": 72900,
+  "after": 3400,
+  "diff": -69500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,290 · ifonewala.com Rs3,499 all-in"
+ },
+ {
+  "key": "iphone_14_pro_max_128",
+  "model": "iPhone 14 Pro Max 128GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 5000,
+  "diff": -5900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,950 · ifonewala.com Rs1,990"
+ },
+ {
+  "key": "iphone_14_pro_max_128",
+  "model": "iPhone 14 Pro Max 128GB",
+  "part": "rear_camera",
+  "before": 22900,
+  "after": 6200,
+  "diff": -16700,
+  "now": "Market",
+  "sources": "abest.in Rs4,399 · appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_14_pro_max_256",
+  "model": "iPhone 14 Pro Max 256GB",
+  "part": "display",
+  "before": 42900,
+  "after": 20000,
+  "diff": -22900,
+  "now": "Market",
+  "sources": "abest.in Rs13,799 · appleproductsfix.com Rs21,500 · ifonewala.com Rs17,500 · touchlcdbaba.com Rs27,800"
+ },
+ {
+  "key": "iphone_14_pro_max_256",
+  "model": "iPhone 14 Pro Max 256GB",
+  "part": "back_panel",
+  "before": 72900,
+  "after": 3400,
+  "diff": -69500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,290 · ifonewala.com Rs3,499 all-in"
+ },
+ {
+  "key": "iphone_14_pro_max_256",
+  "model": "iPhone 14 Pro Max 256GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 5000,
+  "diff": -5900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,950 · ifonewala.com Rs1,990"
+ },
+ {
+  "key": "iphone_14_pro_max_256",
+  "model": "iPhone 14 Pro Max 256GB",
+  "part": "rear_camera",
+  "before": 22900,
+  "after": 6200,
+  "diff": -16700,
+  "now": "Market",
+  "sources": "abest.in Rs4,399 · appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_15_128",
+  "model": "iPhone 15 128GB",
+  "part": "display",
+  "before": 27900,
+  "after": 15300,
+  "diff": -12600,
+  "now": "Market",
+  "sources": "abest.in Rs10,999 · appleproductsfix.com Rs14,800 · touchlcdbaba.com Rs17,900"
+ },
+ {
+  "key": "iphone_15_128",
+  "model": "iPhone 15 128GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 4000,
+  "diff": -12900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,499 · ifonewala.com Rs4,499 all-in"
+ },
+ {
+  "key": "iphone_15_128",
+  "model": "iPhone 15 128GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 6400,
+  "diff": -4500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,900"
+ },
+ {
+  "key": "iphone_15_128",
+  "model": "iPhone 15 128GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 6300,
+  "diff": -12600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,800"
+ },
+ {
+  "key": "iphone_15_256",
+  "model": "iPhone 15 256GB",
+  "part": "display",
+  "before": 27900,
+  "after": 15300,
+  "diff": -12600,
+  "now": "Market",
+  "sources": "abest.in Rs10,999 · appleproductsfix.com Rs14,800 · touchlcdbaba.com Rs17,900"
+ },
+ {
+  "key": "iphone_15_256",
+  "model": "iPhone 15 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 4000,
+  "diff": -12900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,499 · ifonewala.com Rs4,499 all-in"
+ },
+ {
+  "key": "iphone_15_256",
+  "model": "iPhone 15 256GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 6400,
+  "diff": -4500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,900"
+ },
+ {
+  "key": "iphone_15_256",
+  "model": "iPhone 15 256GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 6300,
+  "diff": -12600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,800"
+ },
+ {
+  "key": "iphone_15_plus_128",
+  "model": "iPhone 15 Plus 128GB",
+  "part": "display",
+  "before": 36900,
+  "after": 15900,
+  "diff": -21000,
+  "now": "Market",
+  "sources": "abest.in Rs13,890 · appleproductsfix.com Rs15,350 · touchlcdbaba.com Rs26,500"
+ },
+ {
+  "key": "iphone_15_plus_128",
+  "model": "iPhone 15 Plus 128GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 4000,
+  "diff": -12900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,450 · ifonewala.com Rs4,499 all-in"
+ },
+ {
+  "key": "iphone_15_plus_128",
+  "model": "iPhone 15 Plus 128GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 7300,
+  "diff": -3600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,800"
+ },
+ {
+  "key": "iphone_15_plus_128",
+  "model": "iPhone 15 Plus 128GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 5900,
+  "diff": -13000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,400"
+ },
+ {
+  "key": "iphone_15_pro_128",
+  "model": "iPhone 15 Pro 128GB",
+  "part": "display",
+  "before": 36900,
+  "after": 22300,
+  "diff": -14600,
+  "now": "Market",
+  "sources": "abest.in Rs16,899 · appleproductsfix.com Rs21,800 · touchlcdbaba.com Rs26,500"
+ },
+ {
+  "key": "iphone_15_pro_128",
+  "model": "iPhone 15 Pro 128GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 3900,
+  "diff": -13000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,290 · ifonewala.com Rs4,499 all-in"
+ },
+ {
+  "key": "iphone_15_pro_128",
+  "model": "iPhone 15 Pro 128GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 8100,
+  "diff": -2800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs7,550"
+ },
+ {
+  "key": "iphone_15_pro_128",
+  "model": "iPhone 15 Pro 128GB",
+  "part": "rear_camera",
+  "before": 22900,
+  "after": 7400,
+  "diff": -15500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_15_pro_256",
+  "model": "iPhone 15 Pro 256GB",
+  "part": "display",
+  "before": 36900,
+  "after": 22300,
+  "diff": -14600,
+  "now": "Market",
+  "sources": "abest.in Rs16,899 · appleproductsfix.com Rs21,800 · touchlcdbaba.com Rs26,500"
+ },
+ {
+  "key": "iphone_15_pro_256",
+  "model": "iPhone 15 Pro 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 3900,
+  "diff": -13000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,290 · ifonewala.com Rs4,499 all-in"
+ },
+ {
+  "key": "iphone_15_pro_256",
+  "model": "iPhone 15 Pro 256GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 8100,
+  "diff": -2800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs7,550"
+ },
+ {
+  "key": "iphone_15_pro_256",
+  "model": "iPhone 15 Pro 256GB",
+  "part": "rear_camera",
+  "before": 22900,
+  "after": 7400,
+  "diff": -15500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_15_pro_max_256",
+  "model": "iPhone 15 Pro Max 256GB",
+  "part": "display",
+  "before": 42900,
+  "after": 21500,
+  "diff": -21400,
+  "now": "Market",
+  "sources": "abest.in Rs19,499 · appleproductsfix.com Rs22,500 · ifonewala.com Rs16,000 · touchlcdbaba.com Rs34,500"
+ },
+ {
+  "key": "iphone_15_pro_max_256",
+  "model": "iPhone 15 Pro Max 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 3900,
+  "diff": -13000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,290 · ifonewala.com Rs4,499 all-in"
+ },
+ {
+  "key": "iphone_15_pro_max_256",
+  "model": "iPhone 15 Pro Max 256GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 8300,
+  "diff": -2600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs7,800"
+ },
+ {
+  "key": "iphone_15_pro_max_256",
+  "model": "iPhone 15 Pro Max 256GB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 7400,
+  "diff": -21500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_16_128",
+  "model": "iPhone 16 128GB",
+  "part": "display",
+  "before": 27900,
+  "after": 21000,
+  "diff": -6900,
+  "now": "Market",
+  "sources": "abest.in Rs12,199 · appleproductsfix.com Rs20,500 · touchlcdbaba.com Rs28,900"
+ },
+ {
+  "key": "iphone_16_128",
+  "model": "iPhone 16 128GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 6600,
+  "diff": -10300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,700 · ifonewala.com Rs5,500 all-in"
+ },
+ {
+  "key": "iphone_16_128",
+  "model": "iPhone 16 128GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 5600,
+  "diff": -5300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,100"
+ },
+ {
+  "key": "iphone_16_128",
+  "model": "iPhone 16 128GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 6300,
+  "diff": -12600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,800"
+ },
+ {
+  "key": "iphone_16_256",
+  "model": "iPhone 16 256GB",
+  "part": "display",
+  "before": 27900,
+  "after": 21000,
+  "diff": -6900,
+  "now": "Market",
+  "sources": "abest.in Rs12,199 · appleproductsfix.com Rs20,500 · touchlcdbaba.com Rs28,900"
+ },
+ {
+  "key": "iphone_16_256",
+  "model": "iPhone 16 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 6600,
+  "diff": -10300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,700 · ifonewala.com Rs5,500 all-in"
+ },
+ {
+  "key": "iphone_16_256",
+  "model": "iPhone 16 256GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 5600,
+  "diff": -5300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,100"
+ },
+ {
+  "key": "iphone_16_256",
+  "model": "iPhone 16 256GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 6300,
+  "diff": -12600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,800"
+ },
+ {
+  "key": "iphone_16_plus_128",
+  "model": "iPhone 16 Plus 128GB",
+  "part": "display",
+  "before": 36900,
+  "after": 19000,
+  "diff": -17900,
+  "now": "Market",
+  "sources": "abest.in Rs14,490 · appleproductsfix.com Rs18,500 · touchlcdbaba.com Rs21,900"
+ },
+ {
+  "key": "iphone_16_plus_128",
+  "model": "iPhone 16 Plus 128GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 7000,
+  "diff": -9900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,500 · ifonewala.com Rs5,500 all-in"
+ },
+ {
+  "key": "iphone_16_plus_128",
+  "model": "iPhone 16 Plus 128GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 7100,
+  "diff": -3800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,600"
+ },
+ {
+  "key": "iphone_16_plus_128",
+  "model": "iPhone 16 Plus 128GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 6800,
+  "diff": -12100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,300"
+ },
+ {
+  "key": "iphone_16_pro_128",
+  "model": "iPhone 16 Pro 128GB",
+  "part": "display",
+  "before": 36900,
+  "after": 25300,
+  "diff": -11600,
+  "now": "Market",
+  "sources": "abest.in Rs18,499 · appleproductsfix.com Rs28,000 · touchlcdbaba.com Rs24,800"
+ },
+ {
+  "key": "iphone_16_pro_128",
+  "model": "iPhone 16 Pro 128GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 5600,
+  "diff": -11300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,600 · ifonewala.com Rs5,500 all-in"
+ },
+ {
+  "key": "iphone_16_pro_128",
+  "model": "iPhone 16 Pro 128GB",
+  "part": "battery",
+  "before": 12900,
+  "after": 10400,
+  "diff": -2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,900"
+ },
+ {
+  "key": "iphone_16_pro_128",
+  "model": "iPhone 16 Pro 128GB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 9400,
+  "diff": -19500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,900"
+ },
+ {
+  "key": "iphone_16_pro_max_256",
+  "model": "iPhone 16 Pro Max 256GB",
+  "part": "display",
+  "before": 42900,
+  "after": 29000,
+  "diff": -13900,
+  "now": "Market",
+  "sources": "abest.in Rs23,499 · appleproductsfix.com Rs28,500 · touchlcdbaba.com Rs35,400"
+ },
+ {
+  "key": "iphone_16_pro_max_256",
+  "model": "iPhone 16 Pro Max 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 6000,
+  "diff": -10900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,350 · ifonewala.com Rs5,500 all-in"
+ },
+ {
+  "key": "iphone_16_pro_max_256",
+  "model": "iPhone 16 Pro Max 256GB",
+  "part": "battery",
+  "before": 12900,
+  "after": 8700,
+  "diff": -4200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,150"
+ },
+ {
+  "key": "iphone_16_pro_max_256",
+  "model": "iPhone 16 Pro Max 256GB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 9400,
+  "diff": -19500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,900"
+ },
+ {
+  "key": "iphone_16e_128",
+  "model": "iPhone 16e 128GB",
+  "part": "display",
+  "before": 27900,
+  "after": 16200,
+  "diff": -11700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs11,500 · touchlcdbaba.com Rs19,900"
+ },
+ {
+  "key": "iphone_16e_128",
+  "model": "iPhone 16e 128GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 4700,
+  "diff": -12200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,700"
+ },
+ {
+  "key": "iphone_16e_128",
+  "model": "iPhone 16e 128GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 5600,
+  "diff": -5300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,100"
+ },
+ {
+  "key": "iphone_16e_128",
+  "model": "iPhone 16e 128GB",
+  "part": "rear_camera",
+  "before": 15900,
+  "after": 7300,
+  "diff": -8600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,800"
+ },
+ {
+  "key": "iphone_17_256",
+  "model": "iPhone 17 256GB",
+  "part": "display",
+  "before": 36900,
+  "after": 28300,
+  "diff": -8600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs27,999 · touchlcdbaba.com Rs27,500"
+ },
+ {
+  "key": "iphone_17_256",
+  "model": "iPhone 17 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 4800,
+  "diff": -12100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_17_256",
+  "model": "iPhone 17 256GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 7700,
+  "diff": -3200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs7,200"
+ },
+ {
+  "key": "iphone_17_256",
+  "model": "iPhone 17 256GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 8300,
+  "diff": -10600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs7,800"
+ },
+ {
+  "key": "iphone_17_pro_256",
+  "model": "iPhone 17 Pro 256GB",
+  "part": "display",
+  "before": 36900,
+  "after": 35000,
+  "diff": -1900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs34,999 · touchlcdbaba.com Rs33,900"
+ },
+ {
+  "key": "iphone_17_pro_256",
+  "model": "iPhone 17 Pro 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 6600,
+  "diff": -10300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,600"
+ },
+ {
+  "key": "iphone_17_pro_256",
+  "model": "iPhone 17 Pro 256GB",
+  "part": "battery",
+  "before": 12900,
+  "after": 12900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_17_pro_256",
+  "model": "iPhone 17 Pro 256GB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 10400,
+  "diff": -18500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,900"
+ },
+ {
+  "key": "iphone_17_pro_max_256",
+  "model": "iPhone 17 Pro Max 256GB",
+  "part": "display",
+  "before": 42900,
+  "after": 36000,
+  "diff": -6900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs35,500"
+ },
+ {
+  "key": "iphone_17_pro_max_256",
+  "model": "iPhone 17 Pro Max 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 6600,
+  "diff": -10300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,600"
+ },
+ {
+  "key": "iphone_17_pro_max_256",
+  "model": "iPhone 17 Pro Max 256GB",
+  "part": "battery",
+  "before": 12900,
+  "after": 12900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_17_pro_max_256",
+  "model": "iPhone 17 Pro Max 256GB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 10400,
+  "diff": -18500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,900"
+ },
+ {
+  "key": "iphone_air_256",
+  "model": "iPhone Air 256GB",
+  "part": "display",
+  "before": 36900,
+  "after": 33000,
+  "diff": -3900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs35,499 · touchlcdbaba.com Rs29,500"
+ },
+ {
+  "key": "iphone_air_256",
+  "model": "iPhone Air 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 11800,
+  "diff": -5100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,800"
+ },
+ {
+  "key": "iphone_air_256",
+  "model": "iPhone Air 256GB",
+  "part": "battery",
+  "before": 12900,
+  "after": 9700,
+  "diff": -3200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,200"
+ },
+ {
+  "key": "iphone_air_256",
+  "model": "iPhone Air 256GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 10300,
+  "diff": -8600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,800"
+ },
+ {
+  "key": "iphone_15_plus_256",
+  "model": "iPhone 15 Plus 256GB",
+  "part": "display",
+  "before": 36900,
+  "after": 15900,
+  "diff": -21000,
+  "now": "Market",
+  "sources": "abest.in Rs13,890 · appleproductsfix.com Rs15,350 · touchlcdbaba.com Rs26,500"
+ },
+ {
+  "key": "iphone_15_plus_256",
+  "model": "iPhone 15 Plus 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 4000,
+  "diff": -12900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,450 · ifonewala.com Rs4,499 all-in"
+ },
+ {
+  "key": "iphone_15_plus_256",
+  "model": "iPhone 15 Plus 256GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 7300,
+  "diff": -3600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,800"
+ },
+ {
+  "key": "iphone_15_plus_256",
+  "model": "iPhone 15 Plus 256GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 5900,
+  "diff": -13000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,400"
+ },
+ {
+  "key": "iphone_15_pro_max_512",
+  "model": "iPhone 15 Pro Max 512GB",
+  "part": "display",
+  "before": 42900,
+  "after": 21500,
+  "diff": -21400,
+  "now": "Market",
+  "sources": "abest.in Rs19,499 · appleproductsfix.com Rs22,500 · ifonewala.com Rs16,000 · touchlcdbaba.com Rs34,500"
+ },
+ {
+  "key": "iphone_15_pro_max_512",
+  "model": "iPhone 15 Pro Max 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 3900,
+  "diff": -13000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,290 · ifonewala.com Rs4,499 all-in"
+ },
+ {
+  "key": "iphone_15_pro_max_512",
+  "model": "iPhone 15 Pro Max 512GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 8300,
+  "diff": -2600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs7,800"
+ },
+ {
+  "key": "iphone_15_pro_max_512",
+  "model": "iPhone 15 Pro Max 512GB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 7400,
+  "diff": -21500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_15_pro_512",
+  "model": "iPhone 15 Pro 512GB",
+  "part": "display",
+  "before": 36900,
+  "after": 22300,
+  "diff": -14600,
+  "now": "Market",
+  "sources": "abest.in Rs16,899 · appleproductsfix.com Rs21,800 · touchlcdbaba.com Rs26,500"
+ },
+ {
+  "key": "iphone_15_pro_512",
+  "model": "iPhone 15 Pro 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 3900,
+  "diff": -13000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,290 · ifonewala.com Rs4,499 all-in"
+ },
+ {
+  "key": "iphone_15_pro_512",
+  "model": "iPhone 15 Pro 512GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 8100,
+  "diff": -2800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs7,550"
+ },
+ {
+  "key": "iphone_15_pro_512",
+  "model": "iPhone 15 Pro 512GB",
+  "part": "rear_camera",
+  "before": 22900,
+  "after": 7400,
+  "diff": -15500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_15_pro_1tb",
+  "model": "iPhone 15 Pro 1TB",
+  "part": "display",
+  "before": 36900,
+  "after": 22300,
+  "diff": -14600,
+  "now": "Market",
+  "sources": "abest.in Rs16,899 · appleproductsfix.com Rs21,800 · touchlcdbaba.com Rs26,500"
+ },
+ {
+  "key": "iphone_15_pro_1tb",
+  "model": "iPhone 15 Pro 1TB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 3900,
+  "diff": -13000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,290 · ifonewala.com Rs4,499 all-in"
+ },
+ {
+  "key": "iphone_15_pro_1tb",
+  "model": "iPhone 15 Pro 1TB",
+  "part": "battery",
+  "before": 10900,
+  "after": 8100,
+  "diff": -2800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs7,550"
+ },
+ {
+  "key": "iphone_15_pro_1tb",
+  "model": "iPhone 15 Pro 1TB",
+  "part": "rear_camera",
+  "before": 22900,
+  "after": 7400,
+  "diff": -15500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_15_512",
+  "model": "iPhone 15 512GB",
+  "part": "display",
+  "before": 27900,
+  "after": 15300,
+  "diff": -12600,
+  "now": "Market",
+  "sources": "abest.in Rs10,999 · appleproductsfix.com Rs14,800 · touchlcdbaba.com Rs17,900"
+ },
+ {
+  "key": "iphone_15_512",
+  "model": "iPhone 15 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 4000,
+  "diff": -12900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,499 · ifonewala.com Rs4,499 all-in"
+ },
+ {
+  "key": "iphone_15_512",
+  "model": "iPhone 15 512GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 6400,
+  "diff": -4500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,900"
+ },
+ {
+  "key": "iphone_15_512",
+  "model": "iPhone 15 512GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 6300,
+  "diff": -12600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,800"
+ },
+ {
+  "key": "iphone_14_pro_max_512",
+  "model": "iPhone 14 Pro Max 512GB",
+  "part": "display",
+  "before": 42900,
+  "after": 20000,
+  "diff": -22900,
+  "now": "Market",
+  "sources": "abest.in Rs13,799 · appleproductsfix.com Rs21,500 · ifonewala.com Rs17,500 · touchlcdbaba.com Rs27,800"
+ },
+ {
+  "key": "iphone_14_pro_max_512",
+  "model": "iPhone 14 Pro Max 512GB",
+  "part": "back_panel",
+  "before": 72900,
+  "after": 3400,
+  "diff": -69500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,290 · ifonewala.com Rs3,499 all-in"
+ },
+ {
+  "key": "iphone_14_pro_max_512",
+  "model": "iPhone 14 Pro Max 512GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 5000,
+  "diff": -5900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,950 · ifonewala.com Rs1,990"
+ },
+ {
+  "key": "iphone_14_pro_max_512",
+  "model": "iPhone 14 Pro Max 512GB",
+  "part": "rear_camera",
+  "before": 22900,
+  "after": 6200,
+  "diff": -16700,
+  "now": "Market",
+  "sources": "abest.in Rs4,399 · appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_14_pro_max_1tb",
+  "model": "iPhone 14 Pro Max 1TB",
+  "part": "display",
+  "before": 42900,
+  "after": 20000,
+  "diff": -22900,
+  "now": "Market",
+  "sources": "abest.in Rs13,799 · appleproductsfix.com Rs21,500 · ifonewala.com Rs17,500 · touchlcdbaba.com Rs27,800"
+ },
+ {
+  "key": "iphone_14_pro_max_1tb",
+  "model": "iPhone 14 Pro Max 1TB",
+  "part": "back_panel",
+  "before": 72900,
+  "after": 3400,
+  "diff": -69500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,290 · ifonewala.com Rs3,499 all-in"
+ },
+ {
+  "key": "iphone_14_pro_max_1tb",
+  "model": "iPhone 14 Pro Max 1TB",
+  "part": "battery",
+  "before": 10900,
+  "after": 5000,
+  "diff": -5900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,950 · ifonewala.com Rs1,990"
+ },
+ {
+  "key": "iphone_14_pro_max_1tb",
+  "model": "iPhone 14 Pro Max 1TB",
+  "part": "rear_camera",
+  "before": 22900,
+  "after": 6200,
+  "diff": -16700,
+  "now": "Market",
+  "sources": "abest.in Rs4,399 · appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_12_256",
+  "model": "iPhone 12 256GB",
+  "part": "display",
+  "before": 27900,
+  "after": 8500,
+  "diff": -19400,
+  "now": "Market",
+  "sources": "abest.in Rs4,799 · appleproductsfix.com Rs8,500 · touchlcdbaba.com Rs7,990"
+ },
+ {
+  "key": "iphone_12_256",
+  "model": "iPhone 12 256GB",
+  "part": "back_panel",
+  "before": 35900,
+  "after": 2700,
+  "diff": -33200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890 · ifonewala.com Rs2,499 all-in"
+ },
+ {
+  "key": "iphone_12_256",
+  "model": "iPhone 12 256GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 4600,
+  "diff": -5300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,800 · touchlcdbaba.com Rs2,350"
+ },
+ {
+  "key": "iphone_12_256",
+  "model": "iPhone 12 256GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 3100,
+  "diff": -15800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,600"
+ },
+ {
+  "key": "iphone_13_pro_max_512",
+  "model": "iPhone 13 Pro Max 512GB",
+  "part": "display",
+  "before": 36900,
+  "after": 17200,
+  "diff": -19700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs16,500 · touchlcdbaba.com Rs16,800"
+ },
+ {
+  "key": "iphone_13_pro_max_512",
+  "model": "iPhone 13 Pro Max 512GB",
+  "part": "back_panel",
+  "before": 65900,
+  "after": 3200,
+  "diff": -62700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,299 · ifonewala.com Rs2,999 all-in"
+ },
+ {
+  "key": "iphone_13_pro_max_512",
+  "model": "iPhone 13 Pro Max 512GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 7400,
+  "diff": -2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_13_pro_max_512",
+  "model": "iPhone 13 Pro Max 512GB",
+  "part": "rear_camera",
+  "before": 21900,
+  "after": 7000,
+  "diff": -14900,
+  "now": "Market",
+  "sources": "abest.in Rs4,199 · appleproductsfix.com Rs8,800"
+ },
+ {
+  "key": "iphone_13_pro_max_1tb",
+  "model": "iPhone 13 Pro Max 1TB",
+  "part": "display",
+  "before": 36900,
+  "after": 17200,
+  "diff": -19700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs16,500 · touchlcdbaba.com Rs16,800"
+ },
+ {
+  "key": "iphone_13_pro_max_1tb",
+  "model": "iPhone 13 Pro Max 1TB",
+  "part": "back_panel",
+  "before": 65900,
+  "after": 3200,
+  "diff": -62700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,299 · ifonewala.com Rs2,999 all-in"
+ },
+ {
+  "key": "iphone_13_pro_max_1tb",
+  "model": "iPhone 13 Pro Max 1TB",
+  "part": "battery",
+  "before": 9900,
+  "after": 7400,
+  "diff": -2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_13_pro_max_1tb",
+  "model": "iPhone 13 Pro Max 1TB",
+  "part": "rear_camera",
+  "before": 21900,
+  "after": 7000,
+  "diff": -14900,
+  "now": "Market",
+  "sources": "abest.in Rs4,199 · appleproductsfix.com Rs8,800"
+ },
+ {
+  "key": "iphone_15_pro_max_1tb",
+  "model": "iPhone 15 Pro Max 1TB",
+  "part": "display",
+  "before": 42900,
+  "after": 21500,
+  "diff": -21400,
+  "now": "Market",
+  "sources": "abest.in Rs19,499 · appleproductsfix.com Rs22,500 · ifonewala.com Rs16,000 · touchlcdbaba.com Rs34,500"
+ },
+ {
+  "key": "iphone_15_pro_max_1tb",
+  "model": "iPhone 15 Pro Max 1TB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 3900,
+  "diff": -13000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,290 · ifonewala.com Rs4,499 all-in"
+ },
+ {
+  "key": "iphone_15_pro_max_1tb",
+  "model": "iPhone 15 Pro Max 1TB",
+  "part": "battery",
+  "before": 10900,
+  "after": 8300,
+  "diff": -2600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs7,800"
+ },
+ {
+  "key": "iphone_15_pro_max_1tb",
+  "model": "iPhone 15 Pro Max 1TB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 7400,
+  "diff": -21500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_14_pro_512",
+  "model": "iPhone 14 Pro 512GB",
+  "part": "display",
+  "before": 36900,
+  "after": 19000,
+  "diff": -17900,
+  "now": "Market",
+  "sources": "abest.in Rs11,999 · appleproductsfix.com Rs18,500 · touchlcdbaba.com Rs21,900"
+ },
+ {
+  "key": "iphone_14_pro_512",
+  "model": "iPhone 14 Pro 512GB",
+  "part": "back_panel",
+  "before": 65900,
+  "after": 3400,
+  "diff": -62500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,290 · ifonewala.com Rs3,499 all-in"
+ },
+ {
+  "key": "iphone_14_pro_512",
+  "model": "iPhone 14 Pro 512GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 5900,
+  "diff": -5000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,800 · touchlcdbaba.com Rs3,990"
+ },
+ {
+  "key": "iphone_14_pro_512",
+  "model": "iPhone 14 Pro 512GB",
+  "part": "rear_camera",
+  "before": 22900,
+  "after": 7400,
+  "diff": -15500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_14_pro_1tb",
+  "model": "iPhone 14 Pro 1TB",
+  "part": "display",
+  "before": 36900,
+  "after": 19000,
+  "diff": -17900,
+  "now": "Market",
+  "sources": "abest.in Rs11,999 · appleproductsfix.com Rs18,500 · touchlcdbaba.com Rs21,900"
+ },
+ {
+  "key": "iphone_14_pro_1tb",
+  "model": "iPhone 14 Pro 1TB",
+  "part": "back_panel",
+  "before": 65900,
+  "after": 3400,
+  "diff": -62500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,290 · ifonewala.com Rs3,499 all-in"
+ },
+ {
+  "key": "iphone_14_pro_1tb",
+  "model": "iPhone 14 Pro 1TB",
+  "part": "battery",
+  "before": 10900,
+  "after": 5900,
+  "diff": -5000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,800 · touchlcdbaba.com Rs3,990"
+ },
+ {
+  "key": "iphone_14_pro_1tb",
+  "model": "iPhone 14 Pro 1TB",
+  "part": "rear_camera",
+  "before": 22900,
+  "after": 7400,
+  "diff": -15500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_12_pro_256",
+  "model": "iPhone 12 Pro 256GB",
+  "part": "display",
+  "before": 27900,
+  "after": 11000,
+  "diff": -16900,
+  "now": "Market",
+  "sources": "abest.in Rs4,799 · appleproductsfix.com Rs10,500 · touchlcdbaba.com Rs16,990"
+ },
+ {
+  "key": "iphone_12_pro_256",
+  "model": "iPhone 12 Pro 256GB",
+  "part": "back_panel",
+  "before": 47900,
+  "after": 2700,
+  "diff": -45200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850 · ifonewala.com Rs2,499 all-in"
+ },
+ {
+  "key": "iphone_12_pro_256",
+  "model": "iPhone 12 Pro 256GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 4600,
+  "diff": -5300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,800 · touchlcdbaba.com Rs2,350"
+ },
+ {
+  "key": "iphone_12_pro_256",
+  "model": "iPhone 12 Pro 256GB",
+  "part": "rear_camera",
+  "before": 21900,
+  "after": 7100,
+  "diff": -14800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,600"
+ },
+ {
+  "key": "iphone_12_pro_512",
+  "model": "iPhone 12 Pro 512GB",
+  "part": "display",
+  "before": 27900,
+  "after": 11000,
+  "diff": -16900,
+  "now": "Market",
+  "sources": "abest.in Rs4,799 · appleproductsfix.com Rs10,500 · touchlcdbaba.com Rs16,990"
+ },
+ {
+  "key": "iphone_12_pro_512",
+  "model": "iPhone 12 Pro 512GB",
+  "part": "back_panel",
+  "before": 47900,
+  "after": 2700,
+  "diff": -45200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850 · ifonewala.com Rs2,499 all-in"
+ },
+ {
+  "key": "iphone_12_pro_512",
+  "model": "iPhone 12 Pro 512GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 4600,
+  "diff": -5300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,800 · touchlcdbaba.com Rs2,350"
+ },
+ {
+  "key": "iphone_12_pro_512",
+  "model": "iPhone 12 Pro 512GB",
+  "part": "rear_camera",
+  "before": 21900,
+  "after": 7100,
+  "diff": -14800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,600"
+ },
+ {
+  "key": "iphone_16_512",
+  "model": "iPhone 16 512GB",
+  "part": "display",
+  "before": 27900,
+  "after": 21000,
+  "diff": -6900,
+  "now": "Market",
+  "sources": "abest.in Rs12,199 · appleproductsfix.com Rs20,500 · touchlcdbaba.com Rs28,900"
+ },
+ {
+  "key": "iphone_16_512",
+  "model": "iPhone 16 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 6600,
+  "diff": -10300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,700 · ifonewala.com Rs5,500 all-in"
+ },
+ {
+  "key": "iphone_16_512",
+  "model": "iPhone 16 512GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 5600,
+  "diff": -5300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,100"
+ },
+ {
+  "key": "iphone_16_512",
+  "model": "iPhone 16 512GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 6300,
+  "diff": -12600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,800"
+ },
+ {
+  "key": "iphone_16_pro_256",
+  "model": "iPhone 16 Pro 256GB",
+  "part": "display",
+  "before": 36900,
+  "after": 25300,
+  "diff": -11600,
+  "now": "Market",
+  "sources": "abest.in Rs18,499 · appleproductsfix.com Rs28,000 · touchlcdbaba.com Rs24,800"
+ },
+ {
+  "key": "iphone_16_pro_256",
+  "model": "iPhone 16 Pro 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 5600,
+  "diff": -11300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,600 · ifonewala.com Rs5,500 all-in"
+ },
+ {
+  "key": "iphone_16_pro_256",
+  "model": "iPhone 16 Pro 256GB",
+  "part": "battery",
+  "before": 12900,
+  "after": 10400,
+  "diff": -2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,900"
+ },
+ {
+  "key": "iphone_16_pro_256",
+  "model": "iPhone 16 Pro 256GB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 9400,
+  "diff": -19500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,900"
+ },
+ {
+  "key": "iphone_16_pro_512",
+  "model": "iPhone 16 Pro 512GB",
+  "part": "display",
+  "before": 36900,
+  "after": 25300,
+  "diff": -11600,
+  "now": "Market",
+  "sources": "abest.in Rs18,499 · appleproductsfix.com Rs28,000 · touchlcdbaba.com Rs24,800"
+ },
+ {
+  "key": "iphone_16_pro_512",
+  "model": "iPhone 16 Pro 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 5600,
+  "diff": -11300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,600 · ifonewala.com Rs5,500 all-in"
+ },
+ {
+  "key": "iphone_16_pro_512",
+  "model": "iPhone 16 Pro 512GB",
+  "part": "battery",
+  "before": 12900,
+  "after": 10400,
+  "diff": -2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,900"
+ },
+ {
+  "key": "iphone_16_pro_512",
+  "model": "iPhone 16 Pro 512GB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 9400,
+  "diff": -19500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,900"
+ },
+ {
+  "key": "iphone_16_pro_1tb",
+  "model": "iPhone 16 Pro 1TB",
+  "part": "display",
+  "before": 36900,
+  "after": 25300,
+  "diff": -11600,
+  "now": "Market",
+  "sources": "abest.in Rs18,499 · appleproductsfix.com Rs28,000 · touchlcdbaba.com Rs24,800"
+ },
+ {
+  "key": "iphone_16_pro_1tb",
+  "model": "iPhone 16 Pro 1TB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 5600,
+  "diff": -11300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,600 · ifonewala.com Rs5,500 all-in"
+ },
+ {
+  "key": "iphone_16_pro_1tb",
+  "model": "iPhone 16 Pro 1TB",
+  "part": "battery",
+  "before": 12900,
+  "after": 10400,
+  "diff": -2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,900"
+ },
+ {
+  "key": "iphone_16_pro_1tb",
+  "model": "iPhone 16 Pro 1TB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 9400,
+  "diff": -19500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,900"
+ },
+ {
+  "key": "iphone_14_512",
+  "model": "iPhone 14 512GB",
+  "part": "display",
+  "before": 27900,
+  "after": 10000,
+  "diff": -17900,
+  "now": "Market",
+  "sources": "abest.in Rs6,800 · appleproductsfix.com Rs9,500 · touchlcdbaba.com Rs9,990"
+ },
+ {
+  "key": "iphone_14_512",
+  "model": "iPhone 14 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 3400,
+  "diff": -13500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250 · ifonewala.com Rs3,499 all-in"
+ },
+ {
+  "key": "iphone_14_512",
+  "model": "iPhone 14 512GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 6600,
+  "diff": -4300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,050"
+ },
+ {
+  "key": "iphone_14_512",
+  "model": "iPhone 14 512GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 4400,
+  "diff": -14500,
+  "now": "Market",
+  "sources": "abest.in Rs2,850 · appleproductsfix.com Rs4,800"
+ },
+ {
+  "key": "iphone_13_pro_512",
+  "model": "iPhone 13 Pro 512GB",
+  "part": "display",
+  "before": 27900,
+  "after": 13000,
+  "diff": -14900,
+  "now": "Market",
+  "sources": "abest.in Rs6,499 · appleproductsfix.com Rs12,500 · touchlcdbaba.com Rs14,900"
+ },
+ {
+  "key": "iphone_13_pro_512",
+  "model": "iPhone 13 Pro 512GB",
+  "part": "back_panel",
+  "before": 53900,
+  "after": 3000,
+  "diff": -50900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890 · ifonewala.com Rs2,999 all-in"
+ },
+ {
+  "key": "iphone_13_pro_512",
+  "model": "iPhone 13 Pro 512GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 5700,
+  "diff": -4200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900 · touchlcdbaba.com Rs3,450"
+ },
+ {
+  "key": "iphone_13_pro_512",
+  "model": "iPhone 13 Pro 512GB",
+  "part": "rear_camera",
+  "before": 21900,
+  "after": 9300,
+  "diff": -12600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,800"
+ },
+ {
+  "key": "iphone_13_pro_1tb",
+  "model": "iPhone 13 Pro 1TB",
+  "part": "display",
+  "before": 27900,
+  "after": 13000,
+  "diff": -14900,
+  "now": "Market",
+  "sources": "abest.in Rs6,499 · appleproductsfix.com Rs12,500 · touchlcdbaba.com Rs14,900"
+ },
+ {
+  "key": "iphone_13_pro_1tb",
+  "model": "iPhone 13 Pro 1TB",
+  "part": "back_panel",
+  "before": 53900,
+  "after": 3000,
+  "diff": -50900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890 · ifonewala.com Rs2,999 all-in"
+ },
+ {
+  "key": "iphone_13_pro_1tb",
+  "model": "iPhone 13 Pro 1TB",
+  "part": "battery",
+  "before": 9900,
+  "after": 5700,
+  "diff": -4200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900 · touchlcdbaba.com Rs3,450"
+ },
+ {
+  "key": "iphone_13_pro_1tb",
+  "model": "iPhone 13 Pro 1TB",
+  "part": "rear_camera",
+  "before": 21900,
+  "after": 9300,
+  "diff": -12600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,800"
+ },
+ {
+  "key": "iphone_17_pro_max_512",
+  "model": "iPhone 17 Pro Max 512GB",
+  "part": "display",
+  "before": 42900,
+  "after": 36000,
+  "diff": -6900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs35,500"
+ },
+ {
+  "key": "iphone_17_pro_max_512",
+  "model": "iPhone 17 Pro Max 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 6600,
+  "diff": -10300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,600"
+ },
+ {
+  "key": "iphone_17_pro_max_512",
+  "model": "iPhone 17 Pro Max 512GB",
+  "part": "battery",
+  "before": 12900,
+  "after": 12900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_17_pro_max_512",
+  "model": "iPhone 17 Pro Max 512GB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 10400,
+  "diff": -18500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,900"
+ },
+ {
+  "key": "iphone_17_pro_max_1tb",
+  "model": "iPhone 17 Pro Max 1TB",
+  "part": "display",
+  "before": 42900,
+  "after": 36000,
+  "diff": -6900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs35,500"
+ },
+ {
+  "key": "iphone_17_pro_max_1tb",
+  "model": "iPhone 17 Pro Max 1TB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 6600,
+  "diff": -10300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,600"
+ },
+ {
+  "key": "iphone_17_pro_max_1tb",
+  "model": "iPhone 17 Pro Max 1TB",
+  "part": "battery",
+  "before": 12900,
+  "after": 12900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_17_pro_max_1tb",
+  "model": "iPhone 17 Pro Max 1TB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 10400,
+  "diff": -18500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,900"
+ },
+ {
+  "key": "iphone_17_pro_max_2tb",
+  "model": "iPhone 17 Pro Max 2TB",
+  "part": "display",
+  "before": 42900,
+  "after": 36000,
+  "diff": -6900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs35,500"
+ },
+ {
+  "key": "iphone_17_pro_max_2tb",
+  "model": "iPhone 17 Pro Max 2TB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 6600,
+  "diff": -10300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,600"
+ },
+ {
+  "key": "iphone_17_pro_max_2tb",
+  "model": "iPhone 17 Pro Max 2TB",
+  "part": "battery",
+  "before": 12900,
+  "after": 12900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_17_pro_max_2tb",
+  "model": "iPhone 17 Pro Max 2TB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 10400,
+  "diff": -18500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,900"
+ },
+ {
+  "key": "iphone_16_plus_256",
+  "model": "iPhone 16 Plus 256GB",
+  "part": "display",
+  "before": 36900,
+  "after": 19000,
+  "diff": -17900,
+  "now": "Market",
+  "sources": "abest.in Rs14,490 · appleproductsfix.com Rs18,500 · touchlcdbaba.com Rs21,900"
+ },
+ {
+  "key": "iphone_16_plus_256",
+  "model": "iPhone 16 Plus 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 7000,
+  "diff": -9900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,500 · ifonewala.com Rs5,500 all-in"
+ },
+ {
+  "key": "iphone_16_plus_256",
+  "model": "iPhone 16 Plus 256GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 7100,
+  "diff": -3800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,600"
+ },
+ {
+  "key": "iphone_16_plus_256",
+  "model": "iPhone 16 Plus 256GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 6800,
+  "diff": -12100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,300"
+ },
+ {
+  "key": "iphone_16_plus_512",
+  "model": "iPhone 16 Plus 512GB",
+  "part": "display",
+  "before": 36900,
+  "after": 19000,
+  "diff": -17900,
+  "now": "Market",
+  "sources": "abest.in Rs14,490 · appleproductsfix.com Rs18,500 · touchlcdbaba.com Rs21,900"
+ },
+ {
+  "key": "iphone_16_plus_512",
+  "model": "iPhone 16 Plus 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 7000,
+  "diff": -9900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,500 · ifonewala.com Rs5,500 all-in"
+ },
+ {
+  "key": "iphone_16_plus_512",
+  "model": "iPhone 16 Plus 512GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 7100,
+  "diff": -3800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,600"
+ },
+ {
+  "key": "iphone_16_plus_512",
+  "model": "iPhone 16 Plus 512GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 6800,
+  "diff": -12100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,300"
+ },
+ {
+  "key": "iphone_16_pro_max_512",
+  "model": "iPhone 16 Pro Max 512GB",
+  "part": "display",
+  "before": 42900,
+  "after": 29000,
+  "diff": -13900,
+  "now": "Market",
+  "sources": "abest.in Rs23,499 · appleproductsfix.com Rs28,500 · touchlcdbaba.com Rs35,400"
+ },
+ {
+  "key": "iphone_16_pro_max_512",
+  "model": "iPhone 16 Pro Max 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 6000,
+  "diff": -10900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,350 · ifonewala.com Rs5,500 all-in"
+ },
+ {
+  "key": "iphone_16_pro_max_512",
+  "model": "iPhone 16 Pro Max 512GB",
+  "part": "battery",
+  "before": 12900,
+  "after": 8700,
+  "diff": -4200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,150"
+ },
+ {
+  "key": "iphone_16_pro_max_512",
+  "model": "iPhone 16 Pro Max 512GB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 9400,
+  "diff": -19500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,900"
+ },
+ {
+  "key": "iphone_16_pro_max_1tb",
+  "model": "iPhone 16 Pro Max 1TB",
+  "part": "display",
+  "before": 42900,
+  "after": 29000,
+  "diff": -13900,
+  "now": "Market",
+  "sources": "abest.in Rs23,499 · appleproductsfix.com Rs28,500 · touchlcdbaba.com Rs35,400"
+ },
+ {
+  "key": "iphone_16_pro_max_1tb",
+  "model": "iPhone 16 Pro Max 1TB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 6000,
+  "diff": -10900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,350 · ifonewala.com Rs5,500 all-in"
+ },
+ {
+  "key": "iphone_16_pro_max_1tb",
+  "model": "iPhone 16 Pro Max 1TB",
+  "part": "battery",
+  "before": 12900,
+  "after": 8700,
+  "diff": -4200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,150"
+ },
+ {
+  "key": "iphone_16_pro_max_1tb",
+  "model": "iPhone 16 Pro Max 1TB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 9400,
+  "diff": -19500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,900"
+ },
+ {
+  "key": "iphone_air_512",
+  "model": "iPhone Air 512GB",
+  "part": "display",
+  "before": 36900,
+  "after": 33000,
+  "diff": -3900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs35,499 · touchlcdbaba.com Rs29,500"
+ },
+ {
+  "key": "iphone_air_512",
+  "model": "iPhone Air 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 11800,
+  "diff": -5100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,800"
+ },
+ {
+  "key": "iphone_air_512",
+  "model": "iPhone Air 512GB",
+  "part": "battery",
+  "before": 12900,
+  "after": 9700,
+  "diff": -3200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,200"
+ },
+ {
+  "key": "iphone_air_512",
+  "model": "iPhone Air 512GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 10300,
+  "diff": -8600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,800"
+ },
+ {
+  "key": "iphone_15_plus_512",
+  "model": "iPhone 15 Plus 512GB",
+  "part": "display",
+  "before": 36900,
+  "after": 15900,
+  "diff": -21000,
+  "now": "Market",
+  "sources": "abest.in Rs13,890 · appleproductsfix.com Rs15,350 · touchlcdbaba.com Rs26,500"
+ },
+ {
+  "key": "iphone_15_plus_512",
+  "model": "iPhone 15 Plus 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 4000,
+  "diff": -12900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,450 · ifonewala.com Rs4,499 all-in"
+ },
+ {
+  "key": "iphone_15_plus_512",
+  "model": "iPhone 15 Plus 512GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 7300,
+  "diff": -3600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,800"
+ },
+ {
+  "key": "iphone_15_plus_512",
+  "model": "iPhone 15 Plus 512GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 5900,
+  "diff": -13000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,400"
+ },
+ {
+  "key": "iphone_11_256",
+  "model": "iPhone 11 256GB",
+  "part": "display",
+  "before": 18900,
+  "after": 4000,
+  "diff": -14900,
+  "now": "Market",
+  "sources": "abest.in Rs2,150 · appleproductsfix.com Rs5,800 · touchlcdbaba.com Rs3,490"
+ },
+ {
+  "key": "iphone_11_256",
+  "model": "iPhone 11 256GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 3500,
+  "diff": -6400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,950 · touchlcdbaba.com Rs1,950"
+ },
+ {
+  "key": "iphone_17_512",
+  "model": "iPhone 17 512GB",
+  "part": "display",
+  "before": 36900,
+  "after": 28300,
+  "diff": -8600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs27,999 · touchlcdbaba.com Rs27,500"
+ },
+ {
+  "key": "iphone_17_512",
+  "model": "iPhone 17 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 4800,
+  "diff": -12100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_17_512",
+  "model": "iPhone 17 512GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 7700,
+  "diff": -3200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs7,200"
+ },
+ {
+  "key": "iphone_17_512",
+  "model": "iPhone 17 512GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 8300,
+  "diff": -10600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs7,800"
+ },
+ {
+  "key": "iphone_16e_256",
+  "model": "iPhone 16e 256GB",
+  "part": "display",
+  "before": 27900,
+  "after": 16200,
+  "diff": -11700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs11,500 · touchlcdbaba.com Rs19,900"
+ },
+ {
+  "key": "iphone_16e_256",
+  "model": "iPhone 16e 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 4700,
+  "diff": -12200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,700"
+ },
+ {
+  "key": "iphone_16e_256",
+  "model": "iPhone 16e 256GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 5600,
+  "diff": -5300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,100"
+ },
+ {
+  "key": "iphone_16e_256",
+  "model": "iPhone 16e 256GB",
+  "part": "rear_camera",
+  "before": 15900,
+  "after": 7300,
+  "diff": -8600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,800"
+ },
+ {
+  "key": "iphone_16e_512",
+  "model": "iPhone 16e 512GB",
+  "part": "display",
+  "before": 27900,
+  "after": 16200,
+  "diff": -11700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs11,500 · touchlcdbaba.com Rs19,900"
+ },
+ {
+  "key": "iphone_16e_512",
+  "model": "iPhone 16e 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 4700,
+  "diff": -12200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,700"
+ },
+ {
+  "key": "iphone_16e_512",
+  "model": "iPhone 16e 512GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 5600,
+  "diff": -5300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,100"
+ },
+ {
+  "key": "iphone_16e_512",
+  "model": "iPhone 16e 512GB",
+  "part": "rear_camera",
+  "before": 15900,
+  "after": 7300,
+  "diff": -8600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,800"
+ },
+ {
+  "key": "iphone_13_512",
+  "model": "iPhone 13 512GB",
+  "part": "display",
+  "before": 27900,
+  "after": 9500,
+  "diff": -18400,
+  "now": "Market",
+  "sources": "abest.in Rs6,699 · appleproductsfix.com Rs10,750 · touchlcdbaba.com Rs8,990"
+ },
+ {
+  "key": "iphone_13_512",
+  "model": "iPhone 13 512GB",
+  "part": "back_panel",
+  "before": 41900,
+  "after": 3100,
+  "diff": -38800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,110 · ifonewala.com Rs2,999 all-in"
+ },
+ {
+  "key": "iphone_13_512",
+  "model": "iPhone 13 512GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 5100,
+  "diff": -4800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,800 · touchlcdbaba.com Rs2,399"
+ },
+ {
+  "key": "iphone_13_512",
+  "model": "iPhone 13 512GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 3400,
+  "diff": -15500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,900"
+ },
+ {
+  "key": "iphone_17_pro_512",
+  "model": "iPhone 17 Pro 512GB",
+  "part": "display",
+  "before": 36900,
+  "after": 35000,
+  "diff": -1900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs34,999 · touchlcdbaba.com Rs33,900"
+ },
+ {
+  "key": "iphone_17_pro_512",
+  "model": "iPhone 17 Pro 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 6600,
+  "diff": -10300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,600"
+ },
+ {
+  "key": "iphone_17_pro_512",
+  "model": "iPhone 17 Pro 512GB",
+  "part": "battery",
+  "before": 12900,
+  "after": 12900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_17_pro_512",
+  "model": "iPhone 17 Pro 512GB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 10400,
+  "diff": -18500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,900"
+ },
+ {
+  "key": "iphone_17_pro_1tb",
+  "model": "iPhone 17 Pro 1TB",
+  "part": "display",
+  "before": 36900,
+  "after": 35000,
+  "diff": -1900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs34,999 · touchlcdbaba.com Rs33,900"
+ },
+ {
+  "key": "iphone_17_pro_1tb",
+  "model": "iPhone 17 Pro 1TB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 6600,
+  "diff": -10300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,600"
+ },
+ {
+  "key": "iphone_17_pro_1tb",
+  "model": "iPhone 17 Pro 1TB",
+  "part": "battery",
+  "before": 12900,
+  "after": 12900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_17_pro_1tb",
+  "model": "iPhone 17 Pro 1TB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 10400,
+  "diff": -18500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,900"
+ },
+ {
+  "key": "iphone_12_pro_max_256",
+  "model": "iPhone 12 Pro Max 256GB",
+  "part": "display",
+  "before": 36900,
+  "after": 14500,
+  "diff": -22400,
+  "now": "Market",
+  "sources": "abest.in Rs11,799 · appleproductsfix.com Rs13,999 · touchlcdbaba.com Rs16,990"
+ },
+ {
+  "key": "iphone_12_pro_max_256",
+  "model": "iPhone 12 Pro Max 256GB",
+  "part": "back_panel",
+  "before": 58900,
+  "after": 2700,
+  "diff": -56200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850 · ifonewala.com Rs2,499 all-in"
+ },
+ {
+  "key": "iphone_12_pro_max_256",
+  "model": "iPhone 12 Pro Max 256GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 6400,
+  "diff": -3500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,850"
+ },
+ {
+  "key": "iphone_12_pro_max_256",
+  "model": "iPhone 12 Pro Max 256GB",
+  "part": "rear_camera",
+  "before": 21900,
+  "after": 7100,
+  "diff": -14800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,600"
+ },
+ {
+  "key": "iphone_12_pro_max_512",
+  "model": "iPhone 12 Pro Max 512GB",
+  "part": "display",
+  "before": 36900,
+  "after": 14500,
+  "diff": -22400,
+  "now": "Market",
+  "sources": "abest.in Rs11,799 · appleproductsfix.com Rs13,999 · touchlcdbaba.com Rs16,990"
+ },
+ {
+  "key": "iphone_12_pro_max_512",
+  "model": "iPhone 12 Pro Max 512GB",
+  "part": "back_panel",
+  "before": 58900,
+  "after": 2700,
+  "diff": -56200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850 · ifonewala.com Rs2,499 all-in"
+ },
+ {
+  "key": "iphone_12_pro_max_512",
+  "model": "iPhone 12 Pro Max 512GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 6400,
+  "diff": -3500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,850"
+ },
+ {
+  "key": "iphone_12_pro_max_512",
+  "model": "iPhone 12 Pro Max 512GB",
+  "part": "rear_camera",
+  "before": 21900,
+  "after": 7100,
+  "diff": -14800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,600"
+ },
+ {
+  "key": "iphone_13_mini_256",
+  "model": "iPhone 13 mini 256GB",
+  "part": "display",
+  "before": 22900,
+  "after": 14300,
+  "diff": -8600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs18,600 · touchlcdbaba.com Rs8,990"
+ },
+ {
+  "key": "iphone_13_mini_256",
+  "model": "iPhone 13 mini 256GB",
+  "part": "back_panel",
+  "before": 38900,
+  "after": 2900,
+  "diff": -36000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs800 · ifonewala.com Rs2,999 all-in"
+ },
+ {
+  "key": "iphone_13_mini_256",
+  "model": "iPhone 13 mini 256GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 7000,
+  "diff": -2900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,500"
+ },
+ {
+  "key": "iphone_13_mini_256",
+  "model": "iPhone 13 mini 256GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 2700,
+  "diff": -16200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,200"
+ },
+ {
+  "key": "iphone_13_mini_512",
+  "model": "iPhone 13 mini 512GB",
+  "part": "display",
+  "before": 22900,
+  "after": 14300,
+  "diff": -8600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs18,600 · touchlcdbaba.com Rs8,990"
+ },
+ {
+  "key": "iphone_13_mini_512",
+  "model": "iPhone 13 mini 512GB",
+  "part": "back_panel",
+  "before": 38900,
+  "after": 2900,
+  "diff": -36000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs800 · ifonewala.com Rs2,999 all-in"
+ },
+ {
+  "key": "iphone_13_mini_512",
+  "model": "iPhone 13 mini 512GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 7000,
+  "diff": -2900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,500"
+ },
+ {
+  "key": "iphone_13_mini_512",
+  "model": "iPhone 13 mini 512GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 2700,
+  "diff": -16200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,200"
+ },
+ {
+  "key": "iphone_14_plus_256",
+  "model": "iPhone 14 Plus 256GB",
+  "part": "display",
+  "before": 36900,
+  "after": 16500,
+  "diff": -20400,
+  "now": "Market",
+  "sources": "abest.in Rs9,799 · appleproductsfix.com Rs16,000 · touchlcdbaba.com Rs19,500"
+ },
+ {
+  "key": "iphone_14_plus_256",
+  "model": "iPhone 14 Plus 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 3400,
+  "diff": -13500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250 · ifonewala.com Rs3,499 all-in"
+ },
+ {
+  "key": "iphone_14_plus_256",
+  "model": "iPhone 14 Plus 256GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 6600,
+  "diff": -4300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,100"
+ },
+ {
+  "key": "iphone_14_plus_256",
+  "model": "iPhone 14 Plus 256GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 5000,
+  "diff": -13900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,500"
+ },
+ {
+  "key": "iphone_14_plus_512",
+  "model": "iPhone 14 Plus 512GB",
+  "part": "display",
+  "before": 36900,
+  "after": 16500,
+  "diff": -20400,
+  "now": "Market",
+  "sources": "abest.in Rs9,799 · appleproductsfix.com Rs16,000 · touchlcdbaba.com Rs19,500"
+ },
+ {
+  "key": "iphone_14_plus_512",
+  "model": "iPhone 14 Plus 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 3400,
+  "diff": -13500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250 · ifonewala.com Rs3,499 all-in"
+ },
+ {
+  "key": "iphone_14_plus_512",
+  "model": "iPhone 14 Plus 512GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 6600,
+  "diff": -4300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,100"
+ },
+ {
+  "key": "iphone_14_plus_512",
+  "model": "iPhone 14 Plus 512GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 5000,
+  "diff": -13900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,500"
+ },
+ {
+  "key": "iphone_se_2020_64",
+  "model": "iPhone SE (2020) 64GB",
+  "part": "display",
+  "before": 14900,
+  "after": 4000,
+  "diff": -10900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,400 · touchlcdbaba.com Rs3,490"
+ },
+ {
+  "key": "iphone_se_2020_64",
+  "model": "iPhone SE (2020) 64GB",
+  "part": "battery",
+  "before": 7900,
+  "after": 4100,
+  "diff": -3800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,599"
+ },
+ {
+  "key": "iphone_se_2020_128",
+  "model": "iPhone SE (2020) 128GB",
+  "part": "display",
+  "before": 14900,
+  "after": 4000,
+  "diff": -10900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,400 · touchlcdbaba.com Rs3,490"
+ },
+ {
+  "key": "iphone_se_2020_128",
+  "model": "iPhone SE (2020) 128GB",
+  "part": "battery",
+  "before": 7900,
+  "after": 4100,
+  "diff": -3800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,599"
+ },
+ {
+  "key": "iphone_se_2020_256",
+  "model": "iPhone SE (2020) 256GB",
+  "part": "display",
+  "before": 14900,
+  "after": 4000,
+  "diff": -10900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,400 · touchlcdbaba.com Rs3,490"
+ },
+ {
+  "key": "iphone_se_2020_256",
+  "model": "iPhone SE (2020) 256GB",
+  "part": "battery",
+  "before": 7900,
+  "after": 4100,
+  "diff": -3800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,599"
+ },
+ {
+  "key": "iphone_se_2022_64",
+  "model": "iPhone SE (2022) 64GB",
+  "part": "display",
+  "before": 14900,
+  "after": 4000,
+  "diff": -10900,
+  "now": "Market",
+  "sources": "touchlcdbaba.com Rs3,490"
+ },
+ {
+  "key": "iphone_se_2022_64",
+  "model": "iPhone SE (2022) 64GB",
+  "part": "battery",
+  "before": 7900,
+  "after": 7900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_se_2022_128",
+  "model": "iPhone SE (2022) 128GB",
+  "part": "display",
+  "before": 14900,
+  "after": 4000,
+  "diff": -10900,
+  "now": "Market",
+  "sources": "touchlcdbaba.com Rs3,490"
+ },
+ {
+  "key": "iphone_se_2022_128",
+  "model": "iPhone SE (2022) 128GB",
+  "part": "battery",
+  "before": 7900,
+  "after": 7900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_se_2022_256",
+  "model": "iPhone SE (2022) 256GB",
+  "part": "display",
+  "before": 14900,
+  "after": 4000,
+  "diff": -10900,
+  "now": "Market",
+  "sources": "touchlcdbaba.com Rs3,490"
+ },
+ {
+  "key": "iphone_se_2022_256",
+  "model": "iPhone SE (2022) 256GB",
+  "part": "battery",
+  "before": 7900,
+  "after": 7900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_12_mini_128",
+  "model": "iPhone 12 mini 128GB",
+  "part": "display",
+  "before": 22900,
+  "after": 7900,
+  "diff": -15000,
+  "now": "Market",
+  "sources": "abest.in Rs5,899 · appleproductsfix.com Rs8,799"
+ },
+ {
+  "key": "iphone_12_mini_128",
+  "model": "iPhone 12 mini 128GB",
+  "part": "back_panel",
+  "before": 32900,
+  "after": 2700,
+  "diff": -30200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850 · ifonewala.com Rs2,499 all-in"
+ },
+ {
+  "key": "iphone_12_mini_128",
+  "model": "iPhone 12 mini 128GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 5700,
+  "diff": -4200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,200"
+ },
+ {
+  "key": "iphone_12_mini_128",
+  "model": "iPhone 12 mini 128GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 5000,
+  "diff": -13900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,499"
+ },
+ {
+  "key": "iphone_12_mini_256",
+  "model": "iPhone 12 mini 256GB",
+  "part": "display",
+  "before": 22900,
+  "after": 7900,
+  "diff": -15000,
+  "now": "Market",
+  "sources": "abest.in Rs5,899 · appleproductsfix.com Rs8,799"
+ },
+ {
+  "key": "iphone_12_mini_256",
+  "model": "iPhone 12 mini 256GB",
+  "part": "back_panel",
+  "before": 32900,
+  "after": 2700,
+  "diff": -30200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850 · ifonewala.com Rs2,499 all-in"
+ },
+ {
+  "key": "iphone_12_mini_256",
+  "model": "iPhone 12 mini 256GB",
+  "part": "battery",
+  "before": 9900,
+  "after": 5700,
+  "diff": -4200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,200"
+ },
+ {
+  "key": "iphone_12_mini_256",
+  "model": "iPhone 12 mini 256GB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 5000,
+  "diff": -13900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,499"
+ },
+ {
+  "key": "iphone_air_1tb",
+  "model": "iPhone Air 1TB",
+  "part": "display",
+  "before": 36900,
+  "after": 33000,
+  "diff": -3900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs35,499 · touchlcdbaba.com Rs29,500"
+ },
+ {
+  "key": "iphone_air_1tb",
+  "model": "iPhone Air 1TB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 11800,
+  "diff": -5100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,800"
+ },
+ {
+  "key": "iphone_air_1tb",
+  "model": "iPhone Air 1TB",
+  "part": "battery",
+  "before": 12900,
+  "after": 9700,
+  "diff": -3200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,200"
+ },
+ {
+  "key": "iphone_air_1tb",
+  "model": "iPhone Air 1TB",
+  "part": "rear_camera",
+  "before": 18900,
+  "after": 10300,
+  "diff": -8600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs9,800"
+ },
+ {
+  "key": "iphone_17e_256",
+  "model": "iPhone 17e 256GB",
+  "part": "display",
+  "before": 27900,
+  "after": 27900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_17e_256",
+  "model": "iPhone 17e 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 16900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_17e_256",
+  "model": "iPhone 17e 256GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 10900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_17e_256",
+  "model": "iPhone 17e 256GB",
+  "part": "rear_camera",
+  "before": 15900,
+  "after": 15900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_17e_512",
+  "model": "iPhone 17e 512GB",
+  "part": "display",
+  "before": 27900,
+  "after": 27900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_17e_512",
+  "model": "iPhone 17e 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 16900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_17e_512",
+  "model": "iPhone 17e 512GB",
+  "part": "battery",
+  "before": 10900,
+  "after": 10900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_17e_512",
+  "model": "iPhone 17e 512GB",
+  "part": "rear_camera",
+  "before": 15900,
+  "after": 15900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_256",
+  "model": "iPhone 18 Pro 256GB",
+  "part": "display",
+  "before": 36900,
+  "after": 36900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_256",
+  "model": "iPhone 18 Pro 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 16900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_256",
+  "model": "iPhone 18 Pro 256GB",
+  "part": "battery",
+  "before": 13900,
+  "after": 13900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_256",
+  "model": "iPhone 18 Pro 256GB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 28900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_512",
+  "model": "iPhone 18 Pro 512GB",
+  "part": "display",
+  "before": 36900,
+  "after": 36900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_512",
+  "model": "iPhone 18 Pro 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 16900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_512",
+  "model": "iPhone 18 Pro 512GB",
+  "part": "battery",
+  "before": 13900,
+  "after": 13900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_512",
+  "model": "iPhone 18 Pro 512GB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 28900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_1tb",
+  "model": "iPhone 18 Pro 1TB",
+  "part": "display",
+  "before": 36900,
+  "after": 36900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_1tb",
+  "model": "iPhone 18 Pro 1TB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 16900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_1tb",
+  "model": "iPhone 18 Pro 1TB",
+  "part": "battery",
+  "before": 13900,
+  "after": 13900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_1tb",
+  "model": "iPhone 18 Pro 1TB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 28900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_2tb",
+  "model": "iPhone 18 Pro 2TB",
+  "part": "display",
+  "before": 36900,
+  "after": 36900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_2tb",
+  "model": "iPhone 18 Pro 2TB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 16900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_2tb",
+  "model": "iPhone 18 Pro 2TB",
+  "part": "battery",
+  "before": 13900,
+  "after": 13900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_2tb",
+  "model": "iPhone 18 Pro 2TB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 28900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_256",
+  "model": "iPhone 18 Pro Max 256GB",
+  "part": "display",
+  "before": 42900,
+  "after": 42900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_256",
+  "model": "iPhone 18 Pro Max 256GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 16900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_256",
+  "model": "iPhone 18 Pro Max 256GB",
+  "part": "battery",
+  "before": 13900,
+  "after": 13900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_256",
+  "model": "iPhone 18 Pro Max 256GB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 28900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_512",
+  "model": "iPhone 18 Pro Max 512GB",
+  "part": "display",
+  "before": 42900,
+  "after": 42900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_512",
+  "model": "iPhone 18 Pro Max 512GB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 16900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_512",
+  "model": "iPhone 18 Pro Max 512GB",
+  "part": "battery",
+  "before": 13900,
+  "after": 13900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_512",
+  "model": "iPhone 18 Pro Max 512GB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 28900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_1tb",
+  "model": "iPhone 18 Pro Max 1TB",
+  "part": "display",
+  "before": 42900,
+  "after": 42900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_1tb",
+  "model": "iPhone 18 Pro Max 1TB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 16900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_1tb",
+  "model": "iPhone 18 Pro Max 1TB",
+  "part": "battery",
+  "before": 13900,
+  "after": 13900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_1tb",
+  "model": "iPhone 18 Pro Max 1TB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 28900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_2tb",
+  "model": "iPhone 18 Pro Max 2TB",
+  "part": "display",
+  "before": 42900,
+  "after": 42900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_2tb",
+  "model": "iPhone 18 Pro Max 2TB",
+  "part": "back_panel",
+  "before": 16900,
+  "after": 16900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_2tb",
+  "model": "iPhone 18 Pro Max 2TB",
+  "part": "battery",
+  "before": 13900,
+  "after": 13900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_18_pro_max_2tb",
+  "model": "iPhone 18 Pro Max 2TB",
+  "part": "rear_camera",
+  "before": 28900,
+  "after": 28900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_256",
+  "model": "iPhone Duo 256GB",
+  "part": "display",
+  "before": 149900,
+  "after": 149900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_256",
+  "model": "iPhone Duo 256GB",
+  "part": "back_panel",
+  "before": 20900,
+  "after": 20900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_256",
+  "model": "iPhone Duo 256GB",
+  "part": "battery",
+  "before": 24900,
+  "after": 24900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_256",
+  "model": "iPhone Duo 256GB",
+  "part": "rear_camera",
+  "before": 26900,
+  "after": 26900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_512",
+  "model": "iPhone Duo 512GB",
+  "part": "display",
+  "before": 149900,
+  "after": 149900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_512",
+  "model": "iPhone Duo 512GB",
+  "part": "back_panel",
+  "before": 20900,
+  "after": 20900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_512",
+  "model": "iPhone Duo 512GB",
+  "part": "battery",
+  "before": 24900,
+  "after": 24900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_512",
+  "model": "iPhone Duo 512GB",
+  "part": "rear_camera",
+  "before": 26900,
+  "after": 26900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_1tb",
+  "model": "iPhone Duo 1TB",
+  "part": "display",
+  "before": 149900,
+  "after": 149900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_1tb",
+  "model": "iPhone Duo 1TB",
+  "part": "back_panel",
+  "before": 20900,
+  "after": 20900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_1tb",
+  "model": "iPhone Duo 1TB",
+  "part": "battery",
+  "before": 24900,
+  "after": 24900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_1tb",
+  "model": "iPhone Duo 1TB",
+  "part": "rear_camera",
+  "before": 26900,
+  "after": 26900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_2tb",
+  "model": "iPhone Duo 2TB",
+  "part": "display",
+  "before": 149900,
+  "after": 149900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_2tb",
+  "model": "iPhone Duo 2TB",
+  "part": "back_panel",
+  "before": 20900,
+  "after": 20900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_2tb",
+  "model": "iPhone Duo 2TB",
+  "part": "battery",
+  "before": 24900,
+  "after": 24900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ },
+ {
+  "key": "iphone_duo_2tb",
+  "model": "iPhone Duo 2TB",
+  "part": "rear_camera",
+  "before": 26900,
+  "after": 26900,
+  "diff": 0,
+  "now": "Apple",
+  "sources": null
+ }
+]

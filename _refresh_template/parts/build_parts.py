@@ -134,6 +134,9 @@ def build(db):
         for k in fam[c]: matched.append((k, merged))
     out = json.loads(json.dumps(db)); changed = 0
     for k, ref in matched:
+        # v6.39 (Shane, 2026-11-19): iPhone market rates (original part + fitting, market:true) replace the Apple service
+        # estimate; an Apple browser walk must not overwrite them. Re-price them with the v6.39 market stage instead.
+        ref = dict(ref, **{dk: r for dk, r in (out[k].get('part_prices') or {}).items() if r.get('market')})
         if out[k].get('part_prices') != ref: changed += 1
         out[k]['part_prices'] = ref
     unmatched_db = sorted(f for (p, f) in fam if any(p in v for v in BRAND_KEYS.values()) and (p, f) not in used)
