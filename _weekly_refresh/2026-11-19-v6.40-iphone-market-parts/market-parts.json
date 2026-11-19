@@ -1,0 +1,3721 @@
+[
+ {
+  "model": "iPhone 11",
+  "part": "back_panel",
+  "market_inr": 2500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 11",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-11",
+    "price_inr": 890.0,
+    "all_in_inr": 2890,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:05Z",
+    "sha256": "ea54cc499f6b",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/appleproductsfix"
+   },
+   {
+    "seller": "ifonewala.com",
+    "title": "Back glass laser replacement, iPhone 11 series row: ₹1,999 (90 days warranty)",
+    "url": "https://ifonewala.com/back-glass-replacement/",
+    "price_inr": 1999,
+    "all_in_inr": 1999,
+    "kind": "all_in",
+    "observed_at": "2026-11-19T12:52:45Z",
+    "sha256": "fc00ccc63222",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/ifonewala"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11",
+  "part": "rear_camera",
+  "market_inr": 2300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "Main Back Camera Original Replacement for iPhone 11",
+    "url": "https://abest.in/main-back-camera-original-replacement-for-iphone-11",
+    "price_inr": 1800.0,
+    "all_in_inr": 2300,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:46Z",
+    "sha256": "b3c320e37d49",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 11 (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-11-main-camerav1",
+    "price_inr": 1700.0,
+    "all_in_inr": 2200,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:09Z",
+    "sha256": "a689829a14e2",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11",
+  "part": "front_camera",
+  "market_inr": 2000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 11 (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-11-selfie-camerav2",
+    "price_inr": 1500.0,
+    "all_in_inr": 2000,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:03Z",
+    "sha256": "0c2b91cb1d3d",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11",
+  "part": "charging_port",
+  "market_inr": 1800,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 11",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-11",
+    "price_inr": 1250.0,
+    "all_in_inr": 1750,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:08Z",
+    "sha256": "29eccc80efd8",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11",
+  "part": "speaker",
+  "market_inr": 1400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ringer / Loud Speaker for Apple iPhone 11",
+    "url": "https://www.appleproductsfix.com/product/original-ringer-loud-speaker-for-apple-iphone-11v1",
+    "price_inr": 850.0,
+    "all_in_inr": 1350,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:47Z",
+    "sha256": "cdc8fc17462c",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11 Pro",
+  "part": "display",
+  "market_inr": 8500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "Display for iPhone 11 Pro 100 Percent Original Touch Screen No Error Message",
+    "url": "https://abest.in/display-for-iphone-11-pro-100-percent-original-touch-screen-no-error-message",
+    "price_inr": 4799.0,
+    "all_in_inr": 5299,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:48:01Z",
+    "sha256": "1eb6abc0a63d",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 11 Pro - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-11-pro-display-glass-combo-folderv1",
+    "price_inr": 7999.0,
+    "all_in_inr": 8499,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:11Z",
+    "sha256": "3a30ecaa7561",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/appleproductsfix"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 11 Pro Display and Touch Screen Replacement  – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/iphone-11-pro-display-combo.html",
+    "price_inr": 8590.0,
+    "all_in_inr": 9090,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:41Z",
+    "sha256": "dbb019e885ac",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/touchlcdbaba"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11 Pro",
+  "part": "battery",
+  "market_inr": 4600,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 11 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-11-pro",
+    "price_inr": 4100.0,
+    "all_in_inr": 4600,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:16Z",
+    "sha256": "ea170585de05",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11 Pro",
+  "part": "back_panel",
+  "market_inr": 2900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Glass Battery Cover for iPhone 11 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-11-prov1",
+    "price_inr": 849.0,
+    "all_in_inr": 2849,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:13Z",
+    "sha256": "bdb59c72de3b",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11 Pro",
+  "part": "rear_camera",
+  "market_inr": 4500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 11 Pro (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-11-pro-main-camerav2",
+    "price_inr": 3999.0,
+    "all_in_inr": 4499,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:19Z",
+    "sha256": "967ac3b68c33",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11 Pro",
+  "part": "front_camera",
+  "market_inr": 1600,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 11 Pro (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-11-pro-selfie-camerav1",
+    "price_inr": 1100.0,
+    "all_in_inr": 1600,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:00Z",
+    "sha256": "594b6be9beaf",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11 Pro",
+  "part": "charging_port",
+  "market_inr": 3300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 11 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-11-pro",
+    "price_inr": 2750.0,
+    "all_in_inr": 3250,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:11Z",
+    "sha256": "cafa9d416df3",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11 Pro",
+  "part": "speaker",
+  "market_inr": 1700,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "FOR IPHONE 11 PRO SPEAKER FLEX (ORIGINAL)",
+    "url": "https://abest.in/apple-iphone-11-pro-speaker-flex",
+    "price_inr": 1500.0,
+    "all_in_inr": 2000,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:46:44Z",
+    "sha256": "d0238044c0da",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 11 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-11-pro-v1",
+    "price_inr": 850.0,
+    "all_in_inr": 1350,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:43Z",
+    "sha256": "768d0048033f",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11 Pro Max",
+  "part": "display",
+  "market_inr": 9100,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD Touch Screen for iPhone 11 Pro Max Original Display Replacement",
+    "url": "https://abest.in/lcd-touch-screen-for-iphone-11-pro-max-original-display-replacement",
+    "price_inr": 5950.0,
+    "all_in_inr": 6450,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:30Z",
+    "sha256": "932fd6dc9162",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone 11 Pro Max - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-11-pro-max-display-glass-combo-folderv2",
+    "price_inr": 8999.0,
+    "all_in_inr": 9499,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:21Z",
+    "sha256": "6517993b7d15",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/appleproductsfix"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 11 Pro Max Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/iphone-11-pro-max-display-original.html",
+    "price_inr": 8590.0,
+    "all_in_inr": 9090,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:20Z",
+    "sha256": "f6fa69d04a34",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/touchlcdbaba"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11 Pro Max",
+  "part": "battery",
+  "market_inr": 4800,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone 11 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-11-pro-max",
+    "price_inr": 4300.0,
+    "all_in_inr": 4800,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:24Z",
+    "sha256": "84a5fbf9cf9e",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11 Pro Max",
+  "part": "back_panel",
+  "market_inr": 2900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Glass Battery Cover for iPhone 11 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-11-pro-max",
+    "price_inr": 879.0,
+    "all_in_inr": 2879,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:26Z",
+    "sha256": "b80461cec8c2",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11 Pro Max",
+  "part": "rear_camera",
+  "market_inr": 4500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 11 Pro Max (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-11-pro-max-main-camerav2v1",
+    "price_inr": 3999.0,
+    "all_in_inr": 4499,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:58:28Z",
+    "sha256": "c994851d612b",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11 Pro Max",
+  "part": "front_camera",
+  "market_inr": 1600,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 11 Pro Max (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-11-pro-max-selfie-camerav2",
+    "price_inr": 1050.0,
+    "all_in_inr": 1550,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:57Z",
+    "sha256": "95ca8783c6c8",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11 Pro Max",
+  "part": "charging_port",
+  "market_inr": 3500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable with Board for Apple iPhone 11 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-11-pro-maxv1",
+    "price_inr": 2950.0,
+    "all_in_inr": 3450,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:16Z",
+    "sha256": "bc30b90256c1",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 11 Pro Max",
+  "part": "speaker",
+  "market_inr": 1500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ringer / Loud Speaker for Apple iPhone 11 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-ringer-loud-speaker-for-apple-iphone-11-pro-max",
+    "price_inr": 950.0,
+    "all_in_inr": 1450,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:45Z",
+    "sha256": "23d537dd7649",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12",
+  "part": "front_camera",
+  "market_inr": 2400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 12 (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-12-selfie-camerav2v1",
+    "price_inr": 1900.0,
+    "all_in_inr": 2400,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:16Z",
+    "sha256": "f63d853e3029",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12",
+  "part": "charging_port",
+  "market_inr": 2400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 12",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-12",
+    "price_inr": 1850.0,
+    "all_in_inr": 2350,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:21Z",
+    "sha256": "c1baf0fca7d0",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12",
+  "part": "speaker",
+  "market_inr": 1400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 12",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-12",
+    "price_inr": 890.0,
+    "all_in_inr": 1390,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:45Z",
+    "sha256": "30de54b460f2",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 Pro",
+  "part": "front_camera",
+  "market_inr": 2400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 12 Pro (Selfie Camera, Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-12-pro-selfie-camera-face-id",
+    "price_inr": 1900.0,
+    "all_in_inr": 2400,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:13Z",
+    "sha256": "678d97b4e5e5",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 Pro",
+  "part": "charging_port",
+  "market_inr": 2400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 12 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-12-pro",
+    "price_inr": 1850.0,
+    "all_in_inr": 2350,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:25Z",
+    "sha256": "0e7ffac94680",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 Pro",
+  "part": "speaker",
+  "market_inr": 1400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 12 pro",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-12-pro",
+    "price_inr": 890.0,
+    "all_in_inr": 1390,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:49Z",
+    "sha256": "7c6d418ffe45",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 Pro Max",
+  "part": "front_camera",
+  "market_inr": 2300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 12 Pro Max (Selfie Camera, Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-12-pro-max-selfie-camera-face-id",
+    "price_inr": 1800.0,
+    "all_in_inr": 2300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:10Z",
+    "sha256": "b8cd7517ba90",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 Pro Max",
+  "part": "charging_port",
+  "market_inr": 2300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 12 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-12-pro-max",
+    "price_inr": 1800.0,
+    "all_in_inr": 2300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:28Z",
+    "sha256": "5f25ad15362f",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 Pro Max",
+  "part": "speaker",
+  "market_inr": 1900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ringer / Loud Speaker for Apple iPhone 12 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-ringer-loud-speaker-for-apple-iphone-12-pro-max",
+    "price_inr": 1340.0,
+    "all_in_inr": 1840,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:58Z",
+    "sha256": "c7991efb195c",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 mini",
+  "part": "front_camera",
+  "market_inr": 1800,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 12 Mini (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-12-mini-selfie-camerav2v1",
+    "price_inr": 1250.0,
+    "all_in_inr": 1750,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:07Z",
+    "sha256": "35be39917ce8",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 mini",
+  "part": "charging_port",
+  "market_inr": 1600,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 12 Mini",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-12-mini",
+    "price_inr": 1100.0,
+    "all_in_inr": 1600,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:23Z",
+    "sha256": "944cce6e0387",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 12 mini",
+  "part": "speaker",
+  "market_inr": 1400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "REPLACEMENT FOR IPHONE 12 MINI EAR SPEAKER- ORIGINAL",
+    "url": "https://abest.in/replacement-for-iphone-12-mini-ear-speaker-original",
+    "price_inr": 480.0,
+    "all_in_inr": 980,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:51:24Z",
+    "sha256": "065b5b64b582",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ringer / Loud Speaker for Apple iPhone 12 Mini",
+    "url": "https://www.appleproductsfix.com/product/original-ringer-loud-speaker-for-apple-iphone-12-mini",
+    "price_inr": 1199.0,
+    "all_in_inr": 1699,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:52Z",
+    "sha256": "aefb2e0868eb",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13",
+  "part": "front_camera",
+  "market_inr": 2500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 13 (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-13-selfie-camera",
+    "price_inr": 1950.0,
+    "all_in_inr": 2450,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:28Z",
+    "sha256": "a3f1fe919694",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13",
+  "part": "charging_port",
+  "market_inr": 1800,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 13",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-13",
+    "price_inr": 1250.0,
+    "all_in_inr": 1750,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:29Z",
+    "sha256": "ca70e65d565d",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13",
+  "part": "speaker",
+  "market_inr": 2000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ringer / Loud Speaker for Apple iPhone 13",
+    "url": "https://www.appleproductsfix.com/product/original-ringer-loud-speaker-for-apple-iphone-13",
+    "price_inr": 1499.0,
+    "all_in_inr": 1999,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:30:00Z",
+    "sha256": "d9f5ae5a1c1f",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 Pro",
+  "part": "front_camera",
+  "market_inr": 3500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 13 Pro (Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-13-pro-face-id",
+    "price_inr": 2950.0,
+    "all_in_inr": 3450,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:22Z",
+    "sha256": "e8e71d9b7e15",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 Pro",
+  "part": "charging_port",
+  "market_inr": 2500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 13 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-13-pro",
+    "price_inr": 1950.0,
+    "all_in_inr": 2450,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:34Z",
+    "sha256": "a7f73c3f9978",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 Pro",
+  "part": "speaker",
+  "market_inr": 2000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 13 pro",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-13-pro",
+    "price_inr": 1450.0,
+    "all_in_inr": 1950,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:01Z",
+    "sha256": "6b5ff99106c0",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 Pro Max",
+  "part": "front_camera",
+  "market_inr": 3300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 13 Pro Max (Selfie Camera, Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-13-pro-max-selfie-camera-face-id",
+    "price_inr": 2800.0,
+    "all_in_inr": 3300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:25Z",
+    "sha256": "b89e1d8ac548",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 Pro Max",
+  "part": "charging_port",
+  "market_inr": 3500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 13 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-13-pro-max",
+    "price_inr": 2950.0,
+    "all_in_inr": 3450,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:36Z",
+    "sha256": "d64380feb07d",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 Pro Max",
+  "part": "speaker",
+  "market_inr": 2000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ringer / Loud Speaker for Apple iPhone 13 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-ringer-loud-speaker-for-apple-iphone-13-pro-max",
+    "price_inr": 1499.0,
+    "all_in_inr": 1999,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:30:08Z",
+    "sha256": "ac530d7f474c",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 mini",
+  "part": "front_camera",
+  "market_inr": 2300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 13 Mini  (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-13-mini-selfie-camera",
+    "price_inr": 1800.0,
+    "all_in_inr": 2300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:19Z",
+    "sha256": "7e844d934e56",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 mini",
+  "part": "charging_port",
+  "market_inr": 2800,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 13 mini",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-13-mini",
+    "price_inr": 2250.0,
+    "all_in_inr": 2750,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:32Z",
+    "sha256": "60f488fcc5eb",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 13 mini",
+  "part": "speaker",
+  "market_inr": 1600,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 13 Mini",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-13-mini",
+    "price_inr": 1100.0,
+    "all_in_inr": 1600,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:58Z",
+    "sha256": "d0740e3a1e81",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14",
+  "part": "front_camera",
+  "market_inr": 3300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 14 (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-14-selfie-camera",
+    "price_inr": 2800.0,
+    "all_in_inr": 3300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:38Z",
+    "sha256": "8620ca289119",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14",
+  "part": "charging_port",
+  "market_inr": 2400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 14",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-14",
+    "price_inr": 1850.0,
+    "all_in_inr": 2350,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:39Z",
+    "sha256": "d3c778ed8cd5",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14",
+  "part": "speaker",
+  "market_inr": 1800,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 14",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-14",
+    "price_inr": 1250.0,
+    "all_in_inr": 1750,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:07Z",
+    "sha256": "153dd434f846",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Plus",
+  "part": "front_camera",
+  "market_inr": 3600,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 14 Plus (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-14-plus-selfie-camera",
+    "price_inr": 3100.0,
+    "all_in_inr": 3600,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:29Z",
+    "sha256": "b16d8a375024",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Plus",
+  "part": "charging_port",
+  "market_inr": 3300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 14 Plus",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-14-plus",
+    "price_inr": 2800.0,
+    "all_in_inr": 3300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:41Z",
+    "sha256": "f436a287ad36",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Plus",
+  "part": "speaker",
+  "market_inr": 2300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 14 plus",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-14-plus",
+    "price_inr": 1800.0,
+    "all_in_inr": 2300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:10Z",
+    "sha256": "5431c5c900d3",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Pro",
+  "part": "front_camera",
+  "market_inr": 3300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 14 Pro (Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-14-pro-face-id",
+    "price_inr": 2800.0,
+    "all_in_inr": 3300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:32Z",
+    "sha256": "9e91a6fb16b6",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Pro",
+  "part": "charging_port",
+  "market_inr": 4900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 14 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-14-pro",
+    "price_inr": 4350.0,
+    "all_in_inr": 4850,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:44Z",
+    "sha256": "7fb75394f81b",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Pro",
+  "part": "speaker",
+  "market_inr": 3400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 14 pro",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-14-pro",
+    "price_inr": 2840.0,
+    "all_in_inr": 3340,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:13Z",
+    "sha256": "09ca6af4756a",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Pro Max",
+  "part": "front_camera",
+  "market_inr": 3700,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 14 Pro Max (Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-14-pro-max-face-id",
+    "price_inr": 3199.0,
+    "all_in_inr": 3699,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:35Z",
+    "sha256": "e2695daf7a8b",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Pro Max",
+  "part": "charging_port",
+  "market_inr": 3300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 14 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-14-pro-max",
+    "price_inr": 2750.0,
+    "all_in_inr": 3250,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:46Z",
+    "sha256": "714f8bb9c6b2",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 14 Pro Max",
+  "part": "speaker",
+  "market_inr": 3400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 14 pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-14-pro-max",
+    "price_inr": 2840.0,
+    "all_in_inr": 3340,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:17Z",
+    "sha256": "dd5f219e863b",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15",
+  "part": "front_camera",
+  "market_inr": 3300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 15 (Selfie Camera/Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-15-selfie-cameraface-id",
+    "price_inr": 2800.0,
+    "all_in_inr": 3300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:50Z",
+    "sha256": "f242366b6600",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15",
+  "part": "charging_port",
+  "market_inr": 4000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 15",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-15",
+    "price_inr": 3450.0,
+    "all_in_inr": 3950,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:48Z",
+    "sha256": "c6c53c2b3b0e",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15",
+  "part": "speaker",
+  "market_inr": 2300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 15",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-15",
+    "price_inr": 1800.0,
+    "all_in_inr": 2300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:20Z",
+    "sha256": "0a4aea8a90f3",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Plus",
+  "part": "front_camera",
+  "market_inr": 3900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 15 Plus (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-15-plus-selfie-camera",
+    "price_inr": 3400.0,
+    "all_in_inr": 3900,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:41Z",
+    "sha256": "91337b6bf18a",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Plus",
+  "part": "charging_port",
+  "market_inr": 6000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 15 Plus",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-15-plus",
+    "price_inr": 5450.0,
+    "all_in_inr": 5950,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:51Z",
+    "sha256": "2f0b22c4f41f",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Plus",
+  "part": "speaker",
+  "market_inr": 2300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 15 plus",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-15-plus",
+    "price_inr": 1800.0,
+    "all_in_inr": 2300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:23Z",
+    "sha256": "f12b25faadcf",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Pro",
+  "part": "front_camera",
+  "market_inr": 4300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 15 Pro (Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-15-pro-face-id",
+    "price_inr": 3800.0,
+    "all_in_inr": 4300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:44Z",
+    "sha256": "28ce0ef7ffde",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Pro",
+  "part": "charging_port",
+  "market_inr": 4000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 15 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-15-pro",
+    "price_inr": 3450.0,
+    "all_in_inr": 3950,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:53Z",
+    "sha256": "7a7be65fe903",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Pro",
+  "part": "speaker",
+  "market_inr": 1600,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ringer / Loud Speaker for Apple iPhone 15 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-ringer-loud-speaker-for-apple-iphone-15-pro",
+    "price_inr": 1100.0,
+    "all_in_inr": 1600,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:30:26Z",
+    "sha256": "479ac0332575",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Pro Max",
+  "part": "front_camera",
+  "market_inr": 4000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 15 Pro Max (Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-15-pro-max-face-id",
+    "price_inr": 3500.0,
+    "all_in_inr": 4000,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:47Z",
+    "sha256": "c6d5caf2f178",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Pro Max",
+  "part": "charging_port",
+  "market_inr": 5100,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 15 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-15-pro-max",
+    "price_inr": 4550.0,
+    "all_in_inr": 5050,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:55Z",
+    "sha256": "48dfc3730b28",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 15 Pro Max",
+  "part": "speaker",
+  "market_inr": 2000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ringer / Loud Speaker for Apple iPhone 15 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-ringer-loud-speaker-for-apple-iphone-15-pro-max",
+    "price_inr": 1440.0,
+    "all_in_inr": 1940,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:30:29Z",
+    "sha256": "9d17ede40d93",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16",
+  "part": "front_camera",
+  "market_inr": 4300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 16 (Selfie Camera/Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-16-selfie-cameraface-id",
+    "price_inr": 3800.0,
+    "all_in_inr": 4300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:26:09Z",
+    "sha256": "a48f47d308f6",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16",
+  "part": "charging_port",
+  "market_inr": 4500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 16",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-16",
+    "price_inr": 3950.0,
+    "all_in_inr": 4450,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:57Z",
+    "sha256": "b215677b7a97",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16",
+  "part": "speaker",
+  "market_inr": 3200,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 16",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-16",
+    "price_inr": 2700.0,
+    "all_in_inr": 3200,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:31Z",
+    "sha256": "a79ff124c3c7",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Plus",
+  "part": "front_camera",
+  "market_inr": 5100,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 16 Plus (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-16-plus-selfie-camera",
+    "price_inr": 4600.0,
+    "all_in_inr": 5100,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:53Z",
+    "sha256": "30e23f6cba7c",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Plus",
+  "part": "charging_port",
+  "market_inr": 7000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 16 Plus",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-16-plus",
+    "price_inr": 6450.0,
+    "all_in_inr": 6950,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:00Z",
+    "sha256": "96af7c311af1",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Plus",
+  "part": "speaker",
+  "market_inr": 3200,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 16 plus",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-16-plus",
+    "price_inr": 2700.0,
+    "all_in_inr": 3200,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:34Z",
+    "sha256": "10c0fe5b8592",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Pro",
+  "part": "front_camera",
+  "market_inr": 5000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 16 Pro (Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-16-pro-face-id",
+    "price_inr": 4500.0,
+    "all_in_inr": 5000,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:25:57Z",
+    "sha256": "9e63e7bff2ba",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Pro",
+  "part": "charging_port",
+  "market_inr": 5800,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 16 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-16-pro",
+    "price_inr": 5250.0,
+    "all_in_inr": 5750,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:02Z",
+    "sha256": "d0ab81b6808c",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Pro",
+  "part": "speaker",
+  "market_inr": 2300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 16 pro",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-16-pro",
+    "price_inr": 1800.0,
+    "all_in_inr": 2300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:37Z",
+    "sha256": "73af5dcac24b",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Pro Max",
+  "part": "front_camera",
+  "market_inr": 7400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 16 Pro Max (Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-16-pro-max-face-id",
+    "price_inr": 6900.0,
+    "all_in_inr": 7400,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:26:03Z",
+    "sha256": "3b7eae9f8604",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Pro Max",
+  "part": "charging_port",
+  "market_inr": 7100,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 16 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-16-pro-max",
+    "price_inr": 6583.5,
+    "all_in_inr": 7083,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:04Z",
+    "sha256": "0cdbb1814b37",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16 Pro Max",
+  "part": "speaker",
+  "market_inr": 2300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 16 pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-16-pro-max",
+    "price_inr": 1800.0,
+    "all_in_inr": 2300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:40Z",
+    "sha256": "b0c258ed3a3b",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16e",
+  "part": "front_camera",
+  "market_inr": 4300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 16e (Selfie Camera/Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-16e-selfie-cameraface-id",
+    "price_inr": 3800.0,
+    "all_in_inr": 4300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:26:12Z",
+    "sha256": "501aa0180519",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16e",
+  "part": "charging_port",
+  "market_inr": 4500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 16e",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-16e",
+    "price_inr": 3950.0,
+    "all_in_inr": 4450,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:06Z",
+    "sha256": "472753ce9b7f",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 16e",
+  "part": "speaker",
+  "market_inr": 2300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 16e",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-16e",
+    "price_inr": 1800.0,
+    "all_in_inr": 2300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:43Z",
+    "sha256": "00b1035ca031",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17",
+  "part": "front_camera",
+  "market_inr": 22000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 17 (Selfie Camera/Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-17-selfie-cameraface-id",
+    "price_inr": 21500.0,
+    "all_in_inr": 22000,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:26:26Z",
+    "sha256": "9cabea040055",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17",
+  "part": "charging_port",
+  "market_inr": 7500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 17",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-17",
+    "price_inr": 6950.0,
+    "all_in_inr": 7450,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:08Z",
+    "sha256": "fc77bf663ee4",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17",
+  "part": "speaker",
+  "market_inr": 4900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 17",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-17",
+    "price_inr": 4390.0,
+    "all_in_inr": 4890,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:45Z",
+    "sha256": "6a958be7e887",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17 Pro",
+  "part": "front_camera",
+  "market_inr": 6500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 17 Pro (Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-17-pro-face-id",
+    "price_inr": 5999.0,
+    "all_in_inr": 6499,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:26:18Z",
+    "sha256": "059d1f9835a1",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17 Pro",
+  "part": "charging_port",
+  "market_inr": 8800,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 17 Pro",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-17-pro",
+    "price_inr": 8250.0,
+    "all_in_inr": 8750,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:10Z",
+    "sha256": "dc64d3fa9e47",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17 Pro",
+  "part": "speaker",
+  "market_inr": 2700,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 17 pro",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-17-pro",
+    "price_inr": 2200.0,
+    "all_in_inr": 2700,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:48Z",
+    "sha256": "27ae90d8f71c",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17 Pro Max",
+  "part": "front_camera",
+  "market_inr": 6500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 17 Pro Max (Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-17-pro-max-face-id",
+    "price_inr": 5999.0,
+    "all_in_inr": 6499,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:26:23Z",
+    "sha256": "e18586f5e46b",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17 Pro Max",
+  "part": "charging_port",
+  "market_inr": 8900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 17 Pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-17-pro-max",
+    "price_inr": 8350.0,
+    "all_in_inr": 8850,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:12Z",
+    "sha256": "d6060bf143d7",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17 Pro Max",
+  "part": "speaker",
+  "market_inr": 2800,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Ear Speaker for Apple iPhone 17 pro Max",
+    "url": "https://www.appleproductsfix.com/product/original-ear-speaker-for-apple-iphone-17-pro-max",
+    "price_inr": 2300.0,
+    "all_in_inr": 2800,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:24:51Z",
+    "sha256": "871464f16df8",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 17e",
+  "part": "front_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 17e",
+  "part": "charging_port",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 17e",
+  "part": "speaker",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 18 Pro",
+  "part": "front_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 18 Pro",
+  "part": "charging_port",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 18 Pro",
+  "part": "speaker",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 18 Pro Max",
+  "part": "front_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 18 Pro Max",
+  "part": "charging_port",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 18 Pro Max",
+  "part": "speaker",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6",
+  "part": "display",
+  "market_inr": 2200,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD Display for iPhone 6 Original Screen Replacement",
+    "url": "https://abest.in/lcd-display-for-iphone-6-original-screen-replacement",
+    "price_inr": 899.0,
+    "all_in_inr": 1399,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:17Z",
+    "sha256": "399935f1a14d",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 6 Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-6-display-combo.html",
+    "price_inr": 2350.0,
+    "all_in_inr": 2850,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:39Z",
+    "sha256": "b573d85bedd3",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/touchlcdbaba"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 6",
+  "part": "battery",
+  "market_inr": 3000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Battery for Apple iPhone 6",
+    "url": "https://www.appleproductsfix.com/product/original-apple-battery-for-apple-iphone-6",
+    "price_inr": 2500.0,
+    "all_in_inr": 3000,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:15Z",
+    "sha256": "3be164e7512e",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 6",
+  "part": "back_panel",
+  "market_inr": 3900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 6",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-6",
+    "price_inr": 1850.0,
+    "all_in_inr": 3850,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:00Z",
+    "sha256": "d932e73eb6d8",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 6",
+  "part": "rear_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6",
+  "part": "front_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6",
+  "part": "charging_port",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6",
+  "part": "speaker",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6 Plus",
+  "part": "display",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6 Plus",
+  "part": "battery",
+  "market_inr": 3000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Battery for Apple iPhone 6 Plus",
+    "url": "https://www.appleproductsfix.com/product/original-apple-battery-for-apple-iphone-6-plus",
+    "price_inr": 2500.0,
+    "all_in_inr": 3000,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:17Z",
+    "sha256": "7cde46371057",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 6 Plus",
+  "part": "back_panel",
+  "market_inr": 3900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 6 Plus",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-6-plus",
+    "price_inr": 1850.0,
+    "all_in_inr": 3850,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:03Z",
+    "sha256": "4b5c6bca6b6f",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 6 Plus",
+  "part": "rear_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6 Plus",
+  "part": "front_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6 Plus",
+  "part": "charging_port",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6 Plus",
+  "part": "speaker",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6s",
+  "part": "display",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6s",
+  "part": "battery",
+  "market_inr": 3000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Battery for Apple iPhone 6s",
+    "url": "https://www.appleproductsfix.com/product/original-apple-battery-for-apple-iphone-6s",
+    "price_inr": 2500.0,
+    "all_in_inr": 3000,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:19Z",
+    "sha256": "b0ce2d0ee5ca",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 6s",
+  "part": "back_panel",
+  "market_inr": 3900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 6s",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-6s",
+    "price_inr": 1850.0,
+    "all_in_inr": 3850,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:05Z",
+    "sha256": "eafbb674cd6e",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 6s",
+  "part": "rear_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6s",
+  "part": "front_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6s",
+  "part": "charging_port",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6s",
+  "part": "speaker",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6s Plus",
+  "part": "display",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6s Plus",
+  "part": "battery",
+  "market_inr": 3000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Battery for Apple iPhone 6s Plus",
+    "url": "https://www.appleproductsfix.com/product/original-apple-battery-for-apple-iphone-6s-plus",
+    "price_inr": 2500.0,
+    "all_in_inr": 3000,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:22Z",
+    "sha256": "54bb18a5b85c",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 6s Plus",
+  "part": "back_panel",
+  "market_inr": 3900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 6s Plus",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-6s-plus",
+    "price_inr": 1850.0,
+    "all_in_inr": 3850,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:07Z",
+    "sha256": "209d9b4961f1",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 6s Plus",
+  "part": "rear_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6s Plus",
+  "part": "front_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6s Plus",
+  "part": "charging_port",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 6s Plus",
+  "part": "speaker",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 7",
+  "part": "display",
+  "market_inr": 3200,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD WITH TOUCH SCREEN FOR IPHONE 7G - ORIGINAL",
+    "url": "https://abest.in/lcd-with-touch-screen-for-iphone-7g-original",
+    "price_inr": 1899.0,
+    "all_in_inr": 2399,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:38Z",
+    "sha256": "974116dab8f9",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 7 Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-7-display-combo.html",
+    "price_inr": 3490.0,
+    "all_in_inr": 3990,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:37Z",
+    "sha256": "8ac1e1908919",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/touchlcdbaba"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 7",
+  "part": "battery",
+  "market_inr": 2700,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Battery for Apple iPhone 7",
+    "url": "https://www.appleproductsfix.com/product/original-apple-battery-for-apple-iphone-7",
+    "price_inr": 2200.0,
+    "all_in_inr": 2700,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:24Z",
+    "sha256": "48b5f7638e3f",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 7",
+  "part": "back_panel",
+  "market_inr": 3900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 7",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-7",
+    "price_inr": 1860.0,
+    "all_in_inr": 3860,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:10Z",
+    "sha256": "5ce5ea0fd8d1",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 7",
+  "part": "rear_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 7",
+  "part": "front_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 7",
+  "part": "charging_port",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 7",
+  "part": "speaker",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 7 Plus",
+  "part": "display",
+  "market_inr": 3700,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD WITH TOUCH SCREEN FOR IPHONE 7 PLUS - ORIGINAL",
+    "url": "https://abest.in/lcd-with-touch-screen-for-iphone-7-plus-original",
+    "price_inr": 2299.0,
+    "all_in_inr": 2799,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:37Z",
+    "sha256": "1b3c962d3307",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 7 Plus Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-7-plus-display-combo.html",
+    "price_inr": 3990.0,
+    "all_in_inr": 4490,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:32Z",
+    "sha256": "61e67b3c4e1e",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/touchlcdbaba"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 7 Plus",
+  "part": "battery",
+  "market_inr": 3000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Battery for Apple iPhone 7 Plus",
+    "url": "https://www.appleproductsfix.com/product/original-apple-battery-for-apple-iphone-7-plus",
+    "price_inr": 2500.0,
+    "all_in_inr": 3000,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:26Z",
+    "sha256": "a929b18f000f",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 7 Plus",
+  "part": "back_panel",
+  "market_inr": 3900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 7 Plus",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-7-plus",
+    "price_inr": 1850.0,
+    "all_in_inr": 3850,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:12Z",
+    "sha256": "91c37d2a8787",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 7 Plus",
+  "part": "rear_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 7 Plus",
+  "part": "front_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 7 Plus",
+  "part": "charging_port",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 7 Plus",
+  "part": "speaker",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 8",
+  "part": "display",
+  "market_inr": 2700,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD with Touch Screen for iPhone 8 Original Display Replacement",
+    "url": "https://abest.in/lcd-with-touch-screen-for-iphone-8-original-display-replacement",
+    "price_inr": 899.0,
+    "all_in_inr": 1399,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:40Z",
+    "sha256": "ceab8c469ebb",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone 8 Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-8-display-combo.html",
+    "price_inr": 3490.0,
+    "all_in_inr": 3990,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:45Z",
+    "sha256": "0664e0ed2462",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/touchlcdbaba"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 8",
+  "part": "battery",
+  "market_inr": 2900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Battery for Apple iPhone 8",
+    "url": "https://www.appleproductsfix.com/product/original-apple-battery-for-apple-iphone-8",
+    "price_inr": 2400.0,
+    "all_in_inr": 2900,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:29Z",
+    "sha256": "8935e92b5a3b",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 8",
+  "part": "back_panel",
+  "market_inr": 2900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 8",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-8",
+    "price_inr": 850.0,
+    "all_in_inr": 2850,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:14Z",
+    "sha256": "df84f85cb143",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 8",
+  "part": "rear_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 8",
+  "part": "front_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 8",
+  "part": "charging_port",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 8",
+  "part": "speaker",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone 8 Plus",
+  "part": "display",
+  "market_inr": 2300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD with Touch Screen for iPhone 8 Plus Original Display Replacement",
+    "url": "https://abest.in/lcd-with-touch-screen-for-iphone-8-plus-original-display-replacement",
+    "price_inr": 1800.0,
+    "all_in_inr": 2300,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:40Z",
+    "sha256": "db944172ea4c",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 8 Plus",
+  "part": "battery",
+  "market_inr": 3000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Battery for Apple iPhone 8 Plus",
+    "url": "https://www.appleproductsfix.com/product/original-apple-battery-for-apple-iphone-8-plus",
+    "price_inr": 2500.0,
+    "all_in_inr": 3000,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:31Z",
+    "sha256": "28bea788314a",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 8 Plus",
+  "part": "back_panel",
+  "market_inr": 2900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone 8 Plus",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-8-plus",
+    "price_inr": 850.0,
+    "all_in_inr": 2850,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:17Z",
+    "sha256": "3797f8d0f202",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 8 Plus",
+  "part": "rear_camera",
+  "market_inr": 2700,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone 8 Plus (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-8-plus-main-camera",
+    "price_inr": 2200.0,
+    "all_in_inr": 2700,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:53Z",
+    "sha256": "9091d018799d",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 8 Plus",
+  "part": "front_camera",
+  "market_inr": 1400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 8 Plus (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-8-plus-selfie-camera",
+    "price_inr": 900.0,
+    "all_in_inr": 1400,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:26:29Z",
+    "sha256": "9d0f978720ea",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 8 Plus",
+  "part": "charging_port",
+  "market_inr": 1500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone 8 Plus",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-8-plus",
+    "price_inr": 960.0,
+    "all_in_inr": 1460,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:14Z",
+    "sha256": "45311d6fb6da",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone 8 Plus",
+  "part": "speaker",
+  "market_inr": 1400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Ear Speaker for Apple iPhone 8 Plus",
+    "url": "https://www.appleproductsfix.com/product/original-apple-ear-speaker-for-apple-iphone-8-plus",
+    "price_inr": 850.0,
+    "all_in_inr": 1350,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:41Z",
+    "sha256": "3fec40da2ff4",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone Air",
+  "part": "front_camera",
+  "market_inr": 6800,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone 17 Air (Selfie Camera/Face ID)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-17-air-selfie-cameraface-id",
+    "price_inr": 6300.0,
+    "all_in_inr": 6800,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:26:15Z",
+    "sha256": "6ec7f2fa7791",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone Air",
+  "part": "charging_port",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone Air",
+  "part": "speaker",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone Duo",
+  "part": "front_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone Duo",
+  "part": "charging_port",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone Duo",
+  "part": "speaker",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone SE (2016)",
+  "part": "display",
+  "market_inr": 2700,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone SE 2016 - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-se-2016-display-glass-combo-folder",
+    "price_inr": 2200.0,
+    "all_in_inr": 2700,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:53Z",
+    "sha256": "f16d409d5047",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone SE (2016)",
+  "part": "battery",
+  "market_inr": 2100,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone SE 2016",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-se-2016",
+    "price_inr": 1599.0,
+    "all_in_inr": 2099,
+    "kind": "part",
+    "observed_at": "2026-11-19T13:01:55Z",
+    "sha256": "537146c293a6",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone SE (2016)",
+  "part": "back_panel",
+  "market_inr": 4300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Full Body Housing for Apple iPhone SE 2016",
+    "url": "https://www.appleproductsfix.com/product/original-full-body-housing-for-apple-iphone-se-2016",
+    "price_inr": 2300.0,
+    "all_in_inr": 4300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:28:38Z",
+    "sha256": "a87f65a726ba",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone SE (2016)",
+  "part": "rear_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone SE (2016)",
+  "part": "front_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone SE (2016)",
+  "part": "charging_port",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone SE (2016)",
+  "part": "speaker",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone SE (2020)",
+  "part": "back_panel",
+  "market_inr": 4000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Full Body Housing for Apple iPhone SE 2020",
+    "url": "https://www.appleproductsfix.com/product/original-full-body-housing-for-apple-iphone-se-2020",
+    "price_inr": 2000.0,
+    "all_in_inr": 4000,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:28:41Z",
+    "sha256": "fc4ee9fc21a0",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone SE (2020)",
+  "part": "rear_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone SE (2020)",
+  "part": "front_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone SE (2020)",
+  "part": "charging_port",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone SE (2020)",
+  "part": "speaker",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone SE (2022)",
+  "part": "back_panel",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone SE (2022)",
+  "part": "rear_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone SE (2022)",
+  "part": "front_camera",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone SE (2022)",
+  "part": "charging_port",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone SE (2022)",
+  "part": "speaker",
+  "market_inr": null,
+  "use_market": false,
+  "reason": "no original-grade market quote: tier-% estimate kept",
+  "quotes": []
+ },
+ {
+  "model": "iPhone X",
+  "part": "display",
+  "market_inr": 7300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD Touch Screen for iPhone X Original Display Replacement",
+    "url": "https://abest.in/lcd-touch-screen-for-iphone-x-original-display-replacement",
+    "price_inr": 3600.0,
+    "all_in_inr": 4100,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:32Z",
+    "sha256": "e7f8ccd2a86f",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone X - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-x-display-glass-combo-folder",
+    "price_inr": 6800.0,
+    "all_in_inr": 7300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:25Z",
+    "sha256": "662310347c14",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone X Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/apple-iphone-x-display-combo.html",
+    "price_inr": 6990.0,
+    "all_in_inr": 7490,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:56:06Z",
+    "sha256": "ecaa52d5e9cb",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/touchlcdbaba"
+   }
+  ]
+ },
+ {
+  "model": "iPhone X",
+  "part": "battery",
+  "market_inr": 4400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Battery for Apple iPhone X",
+    "url": "https://www.appleproductsfix.com/product/original-apple-battery-for-apple-iphone-x",
+    "price_inr": 3900.0,
+    "all_in_inr": 4400,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:34Z",
+    "sha256": "29817102d2ea",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone X",
+  "part": "back_panel",
+  "market_inr": 2900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone X",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-x",
+    "price_inr": 850.0,
+    "all_in_inr": 2850,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:20Z",
+    "sha256": "0e70fb979db6",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone X",
+  "part": "rear_camera",
+  "market_inr": 2300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone X (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-x-main-camera",
+    "price_inr": 1800.0,
+    "all_in_inr": 2300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:55Z",
+    "sha256": "a59b9169b099",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone X",
+  "part": "front_camera",
+  "market_inr": 1400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone X (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-x-selfie-camera",
+    "price_inr": 900.0,
+    "all_in_inr": 1400,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:26:32Z",
+    "sha256": "b3fbe1b19589",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone X",
+  "part": "charging_port",
+  "market_inr": 1500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone X",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-x",
+    "price_inr": 960.0,
+    "all_in_inr": 1460,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:16Z",
+    "sha256": "f2baf147a7e8",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone X",
+  "part": "speaker",
+  "market_inr": 1400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Ear Speaker for Apple iPhone X",
+    "url": "https://www.appleproductsfix.com/product/original-apple-ear-speaker-for-apple-iphone-x",
+    "price_inr": 850.0,
+    "all_in_inr": 1350,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:44Z",
+    "sha256": "547829b7a45b",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XR",
+  "part": "display",
+  "market_inr": 3500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD Touch Screen for iPhone XR Original Display Replacement",
+    "url": "https://abest.in/lcd-touch-screen-for-iphone-xr-original-display-replacement",
+    "price_inr": 1980.0,
+    "all_in_inr": 2480,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:33Z",
+    "sha256": "c928e9dab6e9",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone XR - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-xr-display-glass-combo-folder",
+    "price_inr": 4200.0,
+    "all_in_inr": 4700,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:27Z",
+    "sha256": "2110ee42431b",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone XR Display and Touch Screen Replacement  – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/iphone-xr-display-replacement.html",
+    "price_inr": 2990.0,
+    "all_in_inr": 3490,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:56:17Z",
+    "sha256": "200acea81ff1",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/touchlcdbaba"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XR",
+  "part": "battery",
+  "market_inr": 3200,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Battery for Apple iPhone XR",
+    "url": "https://www.appleproductsfix.com/product/original-apple-battery-for-apple-iphone-xr",
+    "price_inr": 3450.0,
+    "all_in_inr": 3950,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:36Z",
+    "sha256": "42ebddace71c",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "100% Original Apple iPhone XR Battery 616-00471 – 2942mAh",
+    "url": "https://www.touchlcdbaba.com/apple/apple-iphone-xr-battery.html",
+    "price_inr": 1950.0,
+    "all_in_inr": 2450,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:56:23Z",
+    "sha256": "f58ed88148f4",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/touchlcdbaba"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XR",
+  "part": "back_panel",
+  "market_inr": 2900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone XR",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-xr",
+    "price_inr": 850.0,
+    "all_in_inr": 2850,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:22Z",
+    "sha256": "80c05cb4dc3d",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XR",
+  "part": "rear_camera",
+  "market_inr": 2400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone XR (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-xr-main-camera",
+    "price_inr": 1900.0,
+    "all_in_inr": 2400,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:58Z",
+    "sha256": "56a2ab985c1a",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XR",
+  "part": "front_camera",
+  "market_inr": 1900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone XR (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-xr-selfie-camera",
+    "price_inr": 1400.0,
+    "all_in_inr": 1900,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:26:35Z",
+    "sha256": "b6b80b3a68ec",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XR",
+  "part": "charging_port",
+  "market_inr": 1500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone XR",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-xr",
+    "price_inr": 960.0,
+    "all_in_inr": 1460,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:18Z",
+    "sha256": "096e8000b0cc",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XR",
+  "part": "speaker",
+  "market_inr": 1400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Ear Speaker for Apple iPhone XR",
+    "url": "https://www.appleproductsfix.com/product/original-apple-ear-speaker-for-apple-iphone-xr",
+    "price_inr": 850.0,
+    "all_in_inr": 1350,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:45Z",
+    "sha256": "deaca6619f8f",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XS",
+  "part": "display",
+  "market_inr": 7300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD Display for iPhone XS Original Touch Screen Replacement",
+    "url": "https://abest.in/lcd-display-for-iphone-xs-original-touch-screen-replacement",
+    "price_inr": 3799.0,
+    "all_in_inr": 4299,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:18Z",
+    "sha256": "490ee39ee080",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone XS - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-xs-display-glass-combo-folder",
+    "price_inr": 6800.0,
+    "all_in_inr": 7300,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:29Z",
+    "sha256": "fe6fe7919552",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone XS Display and Touch Screen Replacement  – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/iphone-xs-display-original.html",
+    "price_inr": 6990.0,
+    "all_in_inr": 7490,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:56:15Z",
+    "sha256": "b50efc7f82e3",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/touchlcdbaba"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XS",
+  "part": "battery",
+  "market_inr": 3400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Battery for Apple iPhone XS",
+    "url": "https://www.appleproductsfix.com/product/original-apple-battery-for-apple-iphone-xs",
+    "price_inr": 3750.0,
+    "all_in_inr": 4250,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:38Z",
+    "sha256": "502d80af6fff",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "100% Original Apple iPhone XS Battery 616-00512 – 2658mAh",
+    "url": "https://www.touchlcdbaba.com/apple/apple-iphone-xs-battery-666-00512.html",
+    "price_inr": 1950.0,
+    "all_in_inr": 2450,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:52Z",
+    "sha256": "fdd921175c1a",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/touchlcdbaba"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XS",
+  "part": "back_panel",
+  "market_inr": 2900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone XS",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-xs",
+    "price_inr": 850.0,
+    "all_in_inr": 2850,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:25Z",
+    "sha256": "da972edee889",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XS",
+  "part": "rear_camera",
+  "market_inr": 3400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone XS (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-xs-main-camera",
+    "price_inr": 2900.0,
+    "all_in_inr": 3400,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:01Z",
+    "sha256": "faa4818eeeda",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XS",
+  "part": "front_camera",
+  "market_inr": 2000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone XS (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-xs-selfie-camera",
+    "price_inr": 1500.0,
+    "all_in_inr": 2000,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:26:41Z",
+    "sha256": "2e368b88b355",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XS",
+  "part": "charging_port",
+  "market_inr": 1500,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone XS",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-xs",
+    "price_inr": 960.0,
+    "all_in_inr": 1460,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:20Z",
+    "sha256": "dcf484d9b477",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XS",
+  "part": "speaker",
+  "market_inr": 1600,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "FOR APPLE IPHONE XS SPEAKER FLEX (ORIGINAL)",
+    "url": "https://abest.in/apple-iphone-speaker-flex",
+    "price_inr": 1350.0,
+    "all_in_inr": 1850,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:46:58Z",
+    "sha256": "b56f78f78d01",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Ear Speaker for Apple iPhone XS",
+    "url": "https://www.appleproductsfix.com/product/original-apple-ear-speaker-for-apple-iphone-xs",
+    "price_inr": 850.0,
+    "all_in_inr": 1350,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:48Z",
+    "sha256": "f56aac6233d4",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XS Max",
+  "part": "display",
+  "market_inr": 8100,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "LCD Touch Screen for iPhone XS Max Original Display Replacement",
+    "url": "https://abest.in/lcd-touch-screen-for-iphone-xs-max-original-display-replacement",
+    "price_inr": 4799.0,
+    "all_in_inr": 5299,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:50:34Z",
+    "sha256": "4cc29c46f3ca",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Display for Apple iPhone XS Max - (display glass combo folder)",
+    "url": "https://www.appleproductsfix.com/product/original-display-for-apple-iphone-xs-max-display-glass-combo-folder",
+    "price_inr": 7990.0,
+    "all_in_inr": 8490,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:32Z",
+    "sha256": "1fe9d0b389d7",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   },
+   {
+    "seller": "touchlcdbaba.com",
+    "title": "Apple iPhone XS Max Display and Touch Screen Combo – 100% Original",
+    "url": "https://www.touchlcdbaba.com/iphone/iphone-xs-max-display-original.html",
+    "price_inr": 7590.0,
+    "all_in_inr": 8090,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:55:48Z",
+    "sha256": "695c549425f0",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/touchlcdbaba"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XS Max",
+  "part": "battery",
+  "market_inr": 5300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Battery for Apple iPhone XS Max",
+    "url": "https://www.appleproductsfix.com/product/original-battery-for-apple-iphone-xs-max",
+    "price_inr": 4750.0,
+    "all_in_inr": 5250,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:06Z",
+    "sha256": "2653b87534a9",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XS Max",
+  "part": "back_panel",
+  "market_inr": 2900,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Glass Back Battery Cover for iPhone XS Max",
+    "url": "https://www.appleproductsfix.com/product/original-glass-back-battery-cover-for-iphone-xs-max",
+    "price_inr": 850.0,
+    "all_in_inr": 2850,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:29:27Z",
+    "sha256": "4269898d4e56",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XS Max",
+  "part": "rear_camera",
+  "market_inr": 3400,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Back Camera for Apple iPhone XS Max (Main Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-back-camera-for-apple-iphone-xs-max-main-camera",
+    "price_inr": 2900.0,
+    "all_in_inr": 3400,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:22:03Z",
+    "sha256": "d4be2a60535e",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XS Max",
+  "part": "front_camera",
+  "market_inr": 2000,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Front Camera for Apple iPhone XS Max (Selfie Camera)",
+    "url": "https://www.appleproductsfix.com/product/original-front-camera-for-apple-iphone-xs-max-selfie-camera",
+    "price_inr": 1500.0,
+    "all_in_inr": 2000,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:26:38Z",
+    "sha256": "7552bd2c9e5f",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XS Max",
+  "part": "charging_port",
+  "market_inr": 1300,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "FOR APPLE IPHONE XS MAX CHARGING FLEX (ORIGINAL)",
+    "url": "https://abest.in/apple-iphone-xs-max-charging-flex",
+    "price_inr": 520.0,
+    "all_in_inr": 1020,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:47:08Z",
+    "sha256": "15f284adf0a7",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Charging Port Flex Cable for Apple iPhone XS Max",
+    "url": "https://www.appleproductsfix.com/product/original-charging-port-flex-cable-for-apple-iphone-xs-max",
+    "price_inr": 960.0,
+    "all_in_inr": 1460,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:23:22Z",
+    "sha256": "015f1c264a3b",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ },
+ {
+  "model": "iPhone XS Max",
+  "part": "speaker",
+  "market_inr": 1800,
+  "use_market": true,
+  "reason": "market median",
+  "quotes": [
+   {
+    "seller": "abest.in",
+    "title": "FOR APPLE IPHONE XS MAX SPEAKER FLEX (ORIGINAL)",
+    "url": "https://abest.in/apple-iphone-xs-max-speaker-flex",
+    "price_inr": 1599.0,
+    "all_in_inr": 2099,
+    "kind": "part",
+    "observed_at": "2026-11-19T12:47:11Z",
+    "sha256": "1414e527705c",
+    "evidence_dir": "2026-11-19-v6.39-apple-market-parts/research/abest"
+   },
+   {
+    "seller": "appleproductsfix.com",
+    "title": "Original Apple Ear Speaker for Apple iPhone XS Max",
+    "url": "https://www.appleproductsfix.com/product/original-apple-ear-speaker-for-apple-iphone-xs-max",
+    "price_inr": 850.0,
+    "all_in_inr": 1350,
+    "kind": "part",
+    "observed_at": "2026-11-19T14:21:51Z",
+    "sha256": "82924e922621",
+    "evidence_dir": "2026-11-19-v6.40-iphone-market-parts/research/appleproductsfix"
+   }
+  ]
+ }
+]

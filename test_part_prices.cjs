@@ -48,7 +48,7 @@ test('market part prices are iPhone-only, original grade, fitted, cheaper than A
   assert.equal(r.grade,'Original/OG',k);
   assert.equal(r.labour_inr,dk==='back_panel'?2000:500,k+' '+dk+' fitting');
   assert.ok(r.amount_inr%100===0,k+' '+dk+' rounded');
-  assert.ok(Number.isFinite(r.apple_official_inr)&&r.amount_inr<r.apple_official_inr,k+' '+dk+' not below Apple');
+  if(r.apple_official_inr!==undefined)assert.ok(Number.isFinite(r.apple_official_inr)&&r.amount_inr<r.apple_official_inr,k+' '+dk+' not below Apple'); // v6.40 fills (no Apple price) carry none
   assert.ok(typeof r.sources==='string'&&/Rs\d/.test(r.sources),k+' '+dk+' sources');
  }
 });
@@ -58,4 +58,10 @@ test('a model never mixes Apple and market prices for the same part across its s
  for(const [id,s] of Object.entries(seen))assert.equal(s.size,1,id+' '+[...s]);
 });
 test('policy text names the iPhone market rule',()=>assert.match(db._meta.part_price_policy,/market rate for an ORIGINAL-grade part/));
+test('v6.40: every iPhone part a seller lists is priced; older iPhones and the extra parts are covered',()=>{
+ const has=(k,dk)=>db[k]&&db[k].part_prices&&db[k].part_prices[dk]&&db[k].part_prices[dk].market;
+ for(const [k,dk] of [['iphone_x_64','display'],['iphone_xr_64','battery'],['iphone_xs_max_256','rear_camera'],['iphone_11_pro_64','display'],['iphone_11_128','back_panel'],
+   ['iphone_13_128','charging_port'],['iphone_15_pro_256','front_camera'],['iphone_16_pro_max_256','speaker'],['iphone_7_32','battery'],['iphone_se_2016_32','display']])assert.ok(has(k,dk),k+' '+dk);
+ assert.ok(market.length>=700,'expected v6.39 + v6.40 market part prices');
+});
 console.log(JSON.stringify({passed:true,checks,priced:priced.length,market:market.length}));

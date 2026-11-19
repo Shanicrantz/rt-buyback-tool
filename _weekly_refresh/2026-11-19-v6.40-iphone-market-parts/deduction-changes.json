@@ -1,0 +1,4602 @@
+[
+ {
+  "key": "iphone_11_64",
+  "model": "iPhone 11 64GB",
+  "part": "back_panel",
+  "before": 1200,
+  "after": 2500,
+  "diff": 1300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890 · ifonewala.com Rs1,999 all-in"
+ },
+ {
+  "key": "iphone_11_64",
+  "model": "iPhone 11 64GB",
+  "part": "rear_camera",
+  "before": 1800,
+  "after": 2300,
+  "diff": 500,
+  "now": "Market",
+  "sources": "abest.in Rs1,800 · appleproductsfix.com Rs1,700"
+ },
+ {
+  "key": "iphone_11_64",
+  "model": "iPhone 11 64GB",
+  "part": "front_camera",
+  "before": 900,
+  "after": 2000,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,500"
+ },
+ {
+  "key": "iphone_11_64",
+  "model": "iPhone 11 64GB",
+  "part": "charging_port",
+  "before": 700,
+  "after": 1800,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250"
+ },
+ {
+  "key": "iphone_11_64",
+  "model": "iPhone 11 64GB",
+  "part": "speaker",
+  "before": 500,
+  "after": 1400,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_11_128",
+  "model": "iPhone 11 128GB",
+  "part": "back_panel",
+  "before": 1400,
+  "after": 2500,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890 · ifonewala.com Rs1,999 all-in"
+ },
+ {
+  "key": "iphone_11_128",
+  "model": "iPhone 11 128GB",
+  "part": "rear_camera",
+  "before": 2000,
+  "after": 2300,
+  "diff": 300,
+  "now": "Market",
+  "sources": "abest.in Rs1,800 · appleproductsfix.com Rs1,700"
+ },
+ {
+  "key": "iphone_11_128",
+  "model": "iPhone 11 128GB",
+  "part": "front_camera",
+  "before": 1000,
+  "after": 2000,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,500"
+ },
+ {
+  "key": "iphone_11_128",
+  "model": "iPhone 11 128GB",
+  "part": "charging_port",
+  "before": 800,
+  "after": 1800,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250"
+ },
+ {
+  "key": "iphone_11_128",
+  "model": "iPhone 11 128GB",
+  "part": "speaker",
+  "before": 600,
+  "after": 1400,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_12_64",
+  "model": "iPhone 12 64GB",
+  "part": "front_camera",
+  "before": 1000,
+  "after": 2400,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,900"
+ },
+ {
+  "key": "iphone_12_64",
+  "model": "iPhone 12 64GB",
+  "part": "charging_port",
+  "before": 800,
+  "after": 2400,
+  "diff": 1600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_12_64",
+  "model": "iPhone 12 64GB",
+  "part": "speaker",
+  "before": 600,
+  "after": 1400,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890"
+ },
+ {
+  "key": "iphone_12_128",
+  "model": "iPhone 12 128GB",
+  "part": "front_camera",
+  "before": 1100,
+  "after": 2400,
+  "diff": 1300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,900"
+ },
+ {
+  "key": "iphone_12_128",
+  "model": "iPhone 12 128GB",
+  "part": "charging_port",
+  "before": 900,
+  "after": 2400,
+  "diff": 1500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_12_128",
+  "model": "iPhone 12 128GB",
+  "part": "speaker",
+  "before": 700,
+  "after": 1400,
+  "diff": 700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890"
+ },
+ {
+  "key": "iphone_12_mini_64",
+  "model": "iPhone 12 mini 64GB",
+  "part": "front_camera",
+  "before": 900,
+  "after": 1800,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250"
+ },
+ {
+  "key": "iphone_12_mini_64",
+  "model": "iPhone 12 mini 64GB",
+  "part": "charging_port",
+  "before": 700,
+  "after": 1600,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,100"
+ },
+ {
+  "key": "iphone_12_mini_64",
+  "model": "iPhone 12 mini 64GB",
+  "part": "speaker",
+  "before": 500,
+  "after": 1400,
+  "diff": 900,
+  "now": "Market",
+  "sources": "abest.in Rs480 · appleproductsfix.com Rs1,199"
+ },
+ {
+  "key": "iphone_12_pro_128",
+  "model": "iPhone 12 Pro 128GB",
+  "part": "front_camera",
+  "before": 5500,
+  "after": 2400,
+  "diff": -3100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,900"
+ },
+ {
+  "key": "iphone_12_pro_128",
+  "model": "iPhone 12 Pro 128GB",
+  "part": "charging_port",
+  "before": 4400,
+  "after": 2400,
+  "diff": -2000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_12_pro_128",
+  "model": "iPhone 12 Pro 128GB",
+  "part": "speaker",
+  "before": 3300,
+  "after": 1400,
+  "diff": -1900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890"
+ },
+ {
+  "key": "iphone_12_pro_max_128",
+  "model": "iPhone 12 Pro Max 128GB",
+  "part": "front_camera",
+  "before": 1600,
+  "after": 2300,
+  "diff": 700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_12_pro_max_128",
+  "model": "iPhone 12 Pro Max 128GB",
+  "part": "charging_port",
+  "before": 1200,
+  "after": 2300,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_12_pro_max_128",
+  "model": "iPhone 12 Pro Max 128GB",
+  "part": "speaker",
+  "before": 900,
+  "after": 1900,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,340"
+ },
+ {
+  "key": "iphone_13_128",
+  "model": "iPhone 13 128GB",
+  "part": "front_camera",
+  "before": 2500,
+  "after": 2500,
+  "diff": 0,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,950"
+ },
+ {
+  "key": "iphone_13_128",
+  "model": "iPhone 13 128GB",
+  "part": "charging_port",
+  "before": 2000,
+  "after": 1800,
+  "diff": -200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250"
+ },
+ {
+  "key": "iphone_13_128",
+  "model": "iPhone 13 128GB",
+  "part": "speaker",
+  "before": 1500,
+  "after": 2000,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,499"
+ },
+ {
+  "key": "iphone_13_256",
+  "model": "iPhone 13 256GB",
+  "part": "front_camera",
+  "before": 1600,
+  "after": 2500,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,950"
+ },
+ {
+  "key": "iphone_13_256",
+  "model": "iPhone 13 256GB",
+  "part": "charging_port",
+  "before": 1200,
+  "after": 1800,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250"
+ },
+ {
+  "key": "iphone_13_256",
+  "model": "iPhone 13 256GB",
+  "part": "speaker",
+  "before": 900,
+  "after": 2000,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,499"
+ },
+ {
+  "key": "iphone_13_mini_128",
+  "model": "iPhone 13 mini 128GB",
+  "part": "front_camera",
+  "before": 1200,
+  "after": 2300,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_13_mini_128",
+  "model": "iPhone 13 mini 128GB",
+  "part": "charging_port",
+  "before": 900,
+  "after": 2800,
+  "diff": 1900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,250"
+ },
+ {
+  "key": "iphone_13_mini_128",
+  "model": "iPhone 13 mini 128GB",
+  "part": "speaker",
+  "before": 700,
+  "after": 1600,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,100"
+ },
+ {
+  "key": "iphone_13_pro_128",
+  "model": "iPhone 13 Pro 128GB",
+  "part": "front_camera",
+  "before": 2100,
+  "after": 3500,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,950"
+ },
+ {
+  "key": "iphone_13_pro_128",
+  "model": "iPhone 13 Pro 128GB",
+  "part": "charging_port",
+  "before": 1600,
+  "after": 2500,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,950"
+ },
+ {
+  "key": "iphone_13_pro_128",
+  "model": "iPhone 13 Pro 128GB",
+  "part": "speaker",
+  "before": 1200,
+  "after": 2000,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,450"
+ },
+ {
+  "key": "iphone_13_pro_256",
+  "model": "iPhone 13 Pro 256GB",
+  "part": "front_camera",
+  "before": 2300,
+  "after": 3500,
+  "diff": 1200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,950"
+ },
+ {
+  "key": "iphone_13_pro_256",
+  "model": "iPhone 13 Pro 256GB",
+  "part": "charging_port",
+  "before": 1800,
+  "after": 2500,
+  "diff": 700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,950"
+ },
+ {
+  "key": "iphone_13_pro_256",
+  "model": "iPhone 13 Pro 256GB",
+  "part": "speaker",
+  "before": 1400,
+  "after": 2000,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,450"
+ },
+ {
+  "key": "iphone_13_pro_max_128",
+  "model": "iPhone 13 Pro Max 128GB",
+  "part": "front_camera",
+  "before": 2300,
+  "after": 3300,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_13_pro_max_128",
+  "model": "iPhone 13 Pro Max 128GB",
+  "part": "charging_port",
+  "before": 1800,
+  "after": 3500,
+  "diff": 1700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,950"
+ },
+ {
+  "key": "iphone_13_pro_max_128",
+  "model": "iPhone 13 Pro Max 128GB",
+  "part": "speaker",
+  "before": 1400,
+  "after": 2000,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,499"
+ },
+ {
+  "key": "iphone_13_pro_max_256",
+  "model": "iPhone 13 Pro Max 256GB",
+  "part": "front_camera",
+  "before": 2500,
+  "after": 3300,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_13_pro_max_256",
+  "model": "iPhone 13 Pro Max 256GB",
+  "part": "charging_port",
+  "before": 2000,
+  "after": 3500,
+  "diff": 1500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,950"
+ },
+ {
+  "key": "iphone_13_pro_max_256",
+  "model": "iPhone 13 Pro Max 256GB",
+  "part": "speaker",
+  "before": 1500,
+  "after": 2000,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,499"
+ },
+ {
+  "key": "iphone_14_128",
+  "model": "iPhone 14 128GB",
+  "part": "front_camera",
+  "before": 2700,
+  "after": 3300,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_14_128",
+  "model": "iPhone 14 128GB",
+  "part": "charging_port",
+  "before": 2200,
+  "after": 2400,
+  "diff": 200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_14_128",
+  "model": "iPhone 14 128GB",
+  "part": "speaker",
+  "before": 1600,
+  "after": 1800,
+  "diff": 200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250"
+ },
+ {
+  "key": "iphone_14_256",
+  "model": "iPhone 14 256GB",
+  "part": "front_camera",
+  "before": 3100,
+  "after": 3300,
+  "diff": 200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_14_256",
+  "model": "iPhone 14 256GB",
+  "part": "charging_port",
+  "before": 2500,
+  "after": 2400,
+  "diff": -100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_14_256",
+  "model": "iPhone 14 256GB",
+  "part": "speaker",
+  "before": 1900,
+  "after": 1800,
+  "diff": -100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250"
+ },
+ {
+  "key": "iphone_14_plus_128",
+  "model": "iPhone 14 Plus 128GB",
+  "part": "front_camera",
+  "before": 1800,
+  "after": 3600,
+  "diff": 1800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,100"
+ },
+ {
+  "key": "iphone_14_plus_128",
+  "model": "iPhone 14 Plus 128GB",
+  "part": "charging_port",
+  "before": 1400,
+  "after": 3300,
+  "diff": 1900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_14_plus_128",
+  "model": "iPhone 14 Plus 128GB",
+  "part": "speaker",
+  "before": 1100,
+  "after": 2300,
+  "diff": 1200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_14_pro_128",
+  "model": "iPhone 14 Pro 128GB",
+  "part": "front_camera",
+  "before": 2800,
+  "after": 3300,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_14_pro_128",
+  "model": "iPhone 14 Pro 128GB",
+  "part": "charging_port",
+  "before": 2200,
+  "after": 4900,
+  "diff": 2700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,350"
+ },
+ {
+  "key": "iphone_14_pro_128",
+  "model": "iPhone 14 Pro 128GB",
+  "part": "speaker",
+  "before": 1700,
+  "after": 3400,
+  "diff": 1700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,840"
+ },
+ {
+  "key": "iphone_14_pro_256",
+  "model": "iPhone 14 Pro 256GB",
+  "part": "front_camera",
+  "before": 3000,
+  "after": 3300,
+  "diff": 300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_14_pro_256",
+  "model": "iPhone 14 Pro 256GB",
+  "part": "charging_port",
+  "before": 2400,
+  "after": 4900,
+  "diff": 2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,350"
+ },
+ {
+  "key": "iphone_14_pro_256",
+  "model": "iPhone 14 Pro 256GB",
+  "part": "speaker",
+  "before": 1800,
+  "after": 3400,
+  "diff": 1600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,840"
+ },
+ {
+  "key": "iphone_14_pro_max_128",
+  "model": "iPhone 14 Pro Max 128GB",
+  "part": "front_camera",
+  "before": 3100,
+  "after": 3700,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,199"
+ },
+ {
+  "key": "iphone_14_pro_max_128",
+  "model": "iPhone 14 Pro Max 128GB",
+  "part": "charging_port",
+  "before": 2500,
+  "after": 3300,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,750"
+ },
+ {
+  "key": "iphone_14_pro_max_128",
+  "model": "iPhone 14 Pro Max 128GB",
+  "part": "speaker",
+  "before": 1900,
+  "after": 3400,
+  "diff": 1500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,840"
+ },
+ {
+  "key": "iphone_14_pro_max_256",
+  "model": "iPhone 14 Pro Max 256GB",
+  "part": "front_camera",
+  "before": 3400,
+  "after": 3700,
+  "diff": 300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,199"
+ },
+ {
+  "key": "iphone_14_pro_max_256",
+  "model": "iPhone 14 Pro Max 256GB",
+  "part": "charging_port",
+  "before": 2700,
+  "after": 3300,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,750"
+ },
+ {
+  "key": "iphone_14_pro_max_256",
+  "model": "iPhone 14 Pro Max 256GB",
+  "part": "speaker",
+  "before": 2000,
+  "after": 3400,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,840"
+ },
+ {
+  "key": "iphone_15_128",
+  "model": "iPhone 15 128GB",
+  "part": "front_camera",
+  "before": 3000,
+  "after": 3300,
+  "diff": 300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_15_128",
+  "model": "iPhone 15 128GB",
+  "part": "charging_port",
+  "before": 2400,
+  "after": 4000,
+  "diff": 1600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,450"
+ },
+ {
+  "key": "iphone_15_128",
+  "model": "iPhone 15 128GB",
+  "part": "speaker",
+  "before": 1800,
+  "after": 2300,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_15_256",
+  "model": "iPhone 15 256GB",
+  "part": "front_camera",
+  "before": 3400,
+  "after": 3300,
+  "diff": -100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_15_256",
+  "model": "iPhone 15 256GB",
+  "part": "charging_port",
+  "before": 2800,
+  "after": 4000,
+  "diff": 1200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,450"
+ },
+ {
+  "key": "iphone_15_256",
+  "model": "iPhone 15 256GB",
+  "part": "speaker",
+  "before": 2100,
+  "after": 2300,
+  "diff": 200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_15_plus_128",
+  "model": "iPhone 15 Plus 128GB",
+  "part": "front_camera",
+  "before": 3500,
+  "after": 3900,
+  "diff": 400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,400"
+ },
+ {
+  "key": "iphone_15_plus_128",
+  "model": "iPhone 15 Plus 128GB",
+  "part": "charging_port",
+  "before": 2800,
+  "after": 6000,
+  "diff": 3200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,450"
+ },
+ {
+  "key": "iphone_15_plus_128",
+  "model": "iPhone 15 Plus 128GB",
+  "part": "speaker",
+  "before": 2100,
+  "after": 2300,
+  "diff": 200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_15_pro_128",
+  "model": "iPhone 15 Pro 128GB",
+  "part": "front_camera",
+  "before": 4100,
+  "after": 4300,
+  "diff": 200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,800"
+ },
+ {
+  "key": "iphone_15_pro_128",
+  "model": "iPhone 15 Pro 128GB",
+  "part": "charging_port",
+  "before": 3300,
+  "after": 4000,
+  "diff": 700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,450"
+ },
+ {
+  "key": "iphone_15_pro_128",
+  "model": "iPhone 15 Pro 128GB",
+  "part": "speaker",
+  "before": 2500,
+  "after": 1600,
+  "diff": -900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,100"
+ },
+ {
+  "key": "iphone_15_pro_256",
+  "model": "iPhone 15 Pro 256GB",
+  "part": "front_camera",
+  "before": 4400,
+  "after": 4300,
+  "diff": -100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,800"
+ },
+ {
+  "key": "iphone_15_pro_256",
+  "model": "iPhone 15 Pro 256GB",
+  "part": "charging_port",
+  "before": 3500,
+  "after": 4000,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,450"
+ },
+ {
+  "key": "iphone_15_pro_256",
+  "model": "iPhone 15 Pro 256GB",
+  "part": "speaker",
+  "before": 2600,
+  "after": 1600,
+  "diff": -1000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,100"
+ },
+ {
+  "key": "iphone_15_pro_max_256",
+  "model": "iPhone 15 Pro Max 256GB",
+  "part": "front_camera",
+  "before": 3700,
+  "after": 4000,
+  "diff": 300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,500"
+ },
+ {
+  "key": "iphone_15_pro_max_256",
+  "model": "iPhone 15 Pro Max 256GB",
+  "part": "charging_port",
+  "before": 2900,
+  "after": 5100,
+  "diff": 2200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,550"
+ },
+ {
+  "key": "iphone_15_pro_max_256",
+  "model": "iPhone 15 Pro Max 256GB",
+  "part": "speaker",
+  "before": 2200,
+  "after": 2000,
+  "diff": -200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,440"
+ },
+ {
+  "key": "iphone_16_128",
+  "model": "iPhone 16 128GB",
+  "part": "front_camera",
+  "before": 3500,
+  "after": 4300,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,800"
+ },
+ {
+  "key": "iphone_16_128",
+  "model": "iPhone 16 128GB",
+  "part": "charging_port",
+  "before": 2800,
+  "after": 4500,
+  "diff": 1700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,950"
+ },
+ {
+  "key": "iphone_16_128",
+  "model": "iPhone 16 128GB",
+  "part": "speaker",
+  "before": 2100,
+  "after": 3200,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,700"
+ },
+ {
+  "key": "iphone_16_256",
+  "model": "iPhone 16 256GB",
+  "part": "front_camera",
+  "before": 3800,
+  "after": 4300,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,800"
+ },
+ {
+  "key": "iphone_16_256",
+  "model": "iPhone 16 256GB",
+  "part": "charging_port",
+  "before": 3100,
+  "after": 4500,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,950"
+ },
+ {
+  "key": "iphone_16_256",
+  "model": "iPhone 16 256GB",
+  "part": "speaker",
+  "before": 2300,
+  "after": 3200,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,700"
+ },
+ {
+  "key": "iphone_16_plus_128",
+  "model": "iPhone 16 Plus 128GB",
+  "part": "front_camera",
+  "before": 4000,
+  "after": 5100,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,600"
+ },
+ {
+  "key": "iphone_16_plus_128",
+  "model": "iPhone 16 Plus 128GB",
+  "part": "charging_port",
+  "before": 3200,
+  "after": 7000,
+  "diff": 3800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,450"
+ },
+ {
+  "key": "iphone_16_plus_128",
+  "model": "iPhone 16 Plus 128GB",
+  "part": "speaker",
+  "before": 2400,
+  "after": 3200,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,700"
+ },
+ {
+  "key": "iphone_16_pro_128",
+  "model": "iPhone 16 Pro 128GB",
+  "part": "front_camera",
+  "before": 4000,
+  "after": 5000,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,500"
+ },
+ {
+  "key": "iphone_16_pro_128",
+  "model": "iPhone 16 Pro 128GB",
+  "part": "charging_port",
+  "before": 3200,
+  "after": 5800,
+  "diff": 2600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,250"
+ },
+ {
+  "key": "iphone_16_pro_128",
+  "model": "iPhone 16 Pro 128GB",
+  "part": "speaker",
+  "before": 2400,
+  "after": 2300,
+  "diff": -100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_16_pro_max_256",
+  "model": "iPhone 16 Pro Max 256GB",
+  "part": "front_camera",
+  "before": 6800,
+  "after": 7400,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_16_pro_max_256",
+  "model": "iPhone 16 Pro Max 256GB",
+  "part": "charging_port",
+  "before": 5400,
+  "after": 7100,
+  "diff": 1700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,583"
+ },
+ {
+  "key": "iphone_16_pro_max_256",
+  "model": "iPhone 16 Pro Max 256GB",
+  "part": "speaker",
+  "before": 4100,
+  "after": 2300,
+  "diff": -1800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_16e_128",
+  "model": "iPhone 16e 128GB",
+  "part": "front_camera",
+  "before": 3000,
+  "after": 4300,
+  "diff": 1300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,800"
+ },
+ {
+  "key": "iphone_16e_128",
+  "model": "iPhone 16e 128GB",
+  "part": "charging_port",
+  "before": 2400,
+  "after": 4500,
+  "diff": 2100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,950"
+ },
+ {
+  "key": "iphone_16e_128",
+  "model": "iPhone 16e 128GB",
+  "part": "speaker",
+  "before": 1800,
+  "after": 2300,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_17_256",
+  "model": "iPhone 17 256GB",
+  "part": "front_camera",
+  "before": 4500,
+  "after": 22000,
+  "diff": 17500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs21,500"
+ },
+ {
+  "key": "iphone_17_256",
+  "model": "iPhone 17 256GB",
+  "part": "charging_port",
+  "before": 3600,
+  "after": 7500,
+  "diff": 3900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,950"
+ },
+ {
+  "key": "iphone_17_256",
+  "model": "iPhone 17 256GB",
+  "part": "speaker",
+  "before": 2700,
+  "after": 4900,
+  "diff": 2200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,390"
+ },
+ {
+  "key": "iphone_17_pro_256",
+  "model": "iPhone 17 Pro 256GB",
+  "part": "front_camera",
+  "before": 6400,
+  "after": 6500,
+  "diff": 100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,999"
+ },
+ {
+  "key": "iphone_17_pro_256",
+  "model": "iPhone 17 Pro 256GB",
+  "part": "charging_port",
+  "before": 5100,
+  "after": 8800,
+  "diff": 3700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,250"
+ },
+ {
+  "key": "iphone_17_pro_256",
+  "model": "iPhone 17 Pro 256GB",
+  "part": "speaker",
+  "before": 3800,
+  "after": 2700,
+  "diff": -1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,200"
+ },
+ {
+  "key": "iphone_17_pro_max_256",
+  "model": "iPhone 17 Pro Max 256GB",
+  "part": "front_camera",
+  "before": 7000,
+  "after": 6500,
+  "diff": -500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,999"
+ },
+ {
+  "key": "iphone_17_pro_max_256",
+  "model": "iPhone 17 Pro Max 256GB",
+  "part": "charging_port",
+  "before": 5600,
+  "after": 8900,
+  "diff": 3300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,350"
+ },
+ {
+  "key": "iphone_17_pro_max_256",
+  "model": "iPhone 17 Pro Max 256GB",
+  "part": "speaker",
+  "before": 4200,
+  "after": 2800,
+  "diff": -1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,300"
+ },
+ {
+  "key": "iphone_air_256",
+  "model": "iPhone Air 256GB",
+  "part": "front_camera",
+  "before": 4700,
+  "after": 6800,
+  "diff": 2100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,300"
+ },
+ {
+  "key": "iphone_15_plus_256",
+  "model": "iPhone 15 Plus 256GB",
+  "part": "front_camera",
+  "before": 4100,
+  "after": 3900,
+  "diff": -200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,400"
+ },
+ {
+  "key": "iphone_15_plus_256",
+  "model": "iPhone 15 Plus 256GB",
+  "part": "charging_port",
+  "before": 3300,
+  "after": 6000,
+  "diff": 2700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,450"
+ },
+ {
+  "key": "iphone_15_plus_256",
+  "model": "iPhone 15 Plus 256GB",
+  "part": "speaker",
+  "before": 2500,
+  "after": 2300,
+  "diff": -200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_15_pro_max_512",
+  "model": "iPhone 15 Pro Max 512GB",
+  "part": "front_camera",
+  "before": 4000,
+  "after": 4000,
+  "diff": 0,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,500"
+ },
+ {
+  "key": "iphone_15_pro_max_512",
+  "model": "iPhone 15 Pro Max 512GB",
+  "part": "charging_port",
+  "before": 3200,
+  "after": 5100,
+  "diff": 1900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,550"
+ },
+ {
+  "key": "iphone_15_pro_max_512",
+  "model": "iPhone 15 Pro Max 512GB",
+  "part": "speaker",
+  "before": 2400,
+  "after": 2000,
+  "diff": -400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,440"
+ },
+ {
+  "key": "iphone_15_pro_512",
+  "model": "iPhone 15 Pro 512GB",
+  "part": "front_camera",
+  "before": 5100,
+  "after": 4300,
+  "diff": -800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,800"
+ },
+ {
+  "key": "iphone_15_pro_512",
+  "model": "iPhone 15 Pro 512GB",
+  "part": "charging_port",
+  "before": 4100,
+  "after": 4000,
+  "diff": -100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,450"
+ },
+ {
+  "key": "iphone_15_pro_512",
+  "model": "iPhone 15 Pro 512GB",
+  "part": "speaker",
+  "before": 3100,
+  "after": 1600,
+  "diff": -1500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,100"
+ },
+ {
+  "key": "iphone_15_pro_1tb",
+  "model": "iPhone 15 Pro 1TB",
+  "part": "front_camera",
+  "before": 6100,
+  "after": 4300,
+  "diff": -1800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,800"
+ },
+ {
+  "key": "iphone_15_pro_1tb",
+  "model": "iPhone 15 Pro 1TB",
+  "part": "charging_port",
+  "before": 4800,
+  "after": 4000,
+  "diff": -800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,450"
+ },
+ {
+  "key": "iphone_15_pro_1tb",
+  "model": "iPhone 15 Pro 1TB",
+  "part": "speaker",
+  "before": 3600,
+  "after": 1600,
+  "diff": -2000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,100"
+ },
+ {
+  "key": "iphone_15_512",
+  "model": "iPhone 15 512GB",
+  "part": "front_camera",
+  "before": 4400,
+  "after": 3300,
+  "diff": -1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_15_512",
+  "model": "iPhone 15 512GB",
+  "part": "charging_port",
+  "before": 3600,
+  "after": 4000,
+  "diff": 400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,450"
+ },
+ {
+  "key": "iphone_15_512",
+  "model": "iPhone 15 512GB",
+  "part": "speaker",
+  "before": 2700,
+  "after": 2300,
+  "diff": -400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_14_pro_max_512",
+  "model": "iPhone 14 Pro Max 512GB",
+  "part": "front_camera",
+  "before": 3700,
+  "after": 3700,
+  "diff": 0,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,199"
+ },
+ {
+  "key": "iphone_14_pro_max_512",
+  "model": "iPhone 14 Pro Max 512GB",
+  "part": "charging_port",
+  "before": 3000,
+  "after": 3300,
+  "diff": 300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,750"
+ },
+ {
+  "key": "iphone_14_pro_max_512",
+  "model": "iPhone 14 Pro Max 512GB",
+  "part": "speaker",
+  "before": 2200,
+  "after": 3400,
+  "diff": 1200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,840"
+ },
+ {
+  "key": "iphone_14_pro_max_1tb",
+  "model": "iPhone 14 Pro Max 1TB",
+  "part": "front_camera",
+  "before": 4100,
+  "after": 3700,
+  "diff": -400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,199"
+ },
+ {
+  "key": "iphone_14_pro_max_1tb",
+  "model": "iPhone 14 Pro Max 1TB",
+  "part": "charging_port",
+  "before": 3200,
+  "after": 3300,
+  "diff": 100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,750"
+ },
+ {
+  "key": "iphone_14_pro_max_1tb",
+  "model": "iPhone 14 Pro Max 1TB",
+  "part": "speaker",
+  "before": 2400,
+  "after": 3400,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,840"
+ },
+ {
+  "key": "iphone_12_256",
+  "model": "iPhone 12 256GB",
+  "part": "front_camera",
+  "before": 1300,
+  "after": 2400,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,900"
+ },
+ {
+  "key": "iphone_12_256",
+  "model": "iPhone 12 256GB",
+  "part": "charging_port",
+  "before": 1000,
+  "after": 2400,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_12_256",
+  "model": "iPhone 12 256GB",
+  "part": "speaker",
+  "before": 800,
+  "after": 1400,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890"
+ },
+ {
+  "key": "iphone_13_pro_max_512",
+  "model": "iPhone 13 Pro Max 512GB",
+  "part": "front_camera",
+  "before": 2800,
+  "after": 3300,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_13_pro_max_512",
+  "model": "iPhone 13 Pro Max 512GB",
+  "part": "charging_port",
+  "before": 2200,
+  "after": 3500,
+  "diff": 1300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,950"
+ },
+ {
+  "key": "iphone_13_pro_max_512",
+  "model": "iPhone 13 Pro Max 512GB",
+  "part": "speaker",
+  "before": 1700,
+  "after": 2000,
+  "diff": 300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,499"
+ },
+ {
+  "key": "iphone_13_pro_max_1tb",
+  "model": "iPhone 13 Pro Max 1TB",
+  "part": "front_camera",
+  "before": 3100,
+  "after": 3300,
+  "diff": 200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_13_pro_max_1tb",
+  "model": "iPhone 13 Pro Max 1TB",
+  "part": "charging_port",
+  "before": 2500,
+  "after": 3500,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,950"
+ },
+ {
+  "key": "iphone_13_pro_max_1tb",
+  "model": "iPhone 13 Pro Max 1TB",
+  "part": "speaker",
+  "before": 1900,
+  "after": 2000,
+  "diff": 100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,499"
+ },
+ {
+  "key": "iphone_15_pro_max_1tb",
+  "model": "iPhone 15 Pro Max 1TB",
+  "part": "front_camera",
+  "before": 10000,
+  "after": 4000,
+  "diff": -6000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,500"
+ },
+ {
+  "key": "iphone_15_pro_max_1tb",
+  "model": "iPhone 15 Pro Max 1TB",
+  "part": "charging_port",
+  "before": 8000,
+  "after": 5100,
+  "diff": -2900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,550"
+ },
+ {
+  "key": "iphone_15_pro_max_1tb",
+  "model": "iPhone 15 Pro Max 1TB",
+  "part": "speaker",
+  "before": 6000,
+  "after": 2000,
+  "diff": -4000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,440"
+ },
+ {
+  "key": "iphone_14_pro_512",
+  "model": "iPhone 14 Pro 512GB",
+  "part": "front_camera",
+  "before": 3400,
+  "after": 3300,
+  "diff": -100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_14_pro_512",
+  "model": "iPhone 14 Pro 512GB",
+  "part": "charging_port",
+  "before": 2700,
+  "after": 4900,
+  "diff": 2200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,350"
+ },
+ {
+  "key": "iphone_14_pro_512",
+  "model": "iPhone 14 Pro 512GB",
+  "part": "speaker",
+  "before": 2000,
+  "after": 3400,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,840"
+ },
+ {
+  "key": "iphone_14_pro_1tb",
+  "model": "iPhone 14 Pro 1TB",
+  "part": "front_camera",
+  "before": 3700,
+  "after": 3300,
+  "diff": -400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_14_pro_1tb",
+  "model": "iPhone 14 Pro 1TB",
+  "part": "charging_port",
+  "before": 3000,
+  "after": 4900,
+  "diff": 1900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,350"
+ },
+ {
+  "key": "iphone_14_pro_1tb",
+  "model": "iPhone 14 Pro 1TB",
+  "part": "speaker",
+  "before": 2200,
+  "after": 3400,
+  "diff": 1200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,840"
+ },
+ {
+  "key": "iphone_12_pro_256",
+  "model": "iPhone 12 Pro 256GB",
+  "part": "front_camera",
+  "before": 1500,
+  "after": 2400,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,900"
+ },
+ {
+  "key": "iphone_12_pro_256",
+  "model": "iPhone 12 Pro 256GB",
+  "part": "charging_port",
+  "before": 1200,
+  "after": 2400,
+  "diff": 1200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_12_pro_256",
+  "model": "iPhone 12 Pro 256GB",
+  "part": "speaker",
+  "before": 900,
+  "after": 1400,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890"
+ },
+ {
+  "key": "iphone_12_pro_512",
+  "model": "iPhone 12 Pro 512GB",
+  "part": "front_camera",
+  "before": 1800,
+  "after": 2400,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,900"
+ },
+ {
+  "key": "iphone_12_pro_512",
+  "model": "iPhone 12 Pro 512GB",
+  "part": "charging_port",
+  "before": 1400,
+  "after": 2400,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_12_pro_512",
+  "model": "iPhone 12 Pro 512GB",
+  "part": "speaker",
+  "before": 1100,
+  "after": 1400,
+  "diff": 300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890"
+ },
+ {
+  "key": "iphone_16_512",
+  "model": "iPhone 16 512GB",
+  "part": "front_camera",
+  "before": 4800,
+  "after": 4300,
+  "diff": -500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,800"
+ },
+ {
+  "key": "iphone_16_512",
+  "model": "iPhone 16 512GB",
+  "part": "charging_port",
+  "before": 3900,
+  "after": 4500,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,950"
+ },
+ {
+  "key": "iphone_16_512",
+  "model": "iPhone 16 512GB",
+  "part": "speaker",
+  "before": 2900,
+  "after": 3200,
+  "diff": 300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,700"
+ },
+ {
+  "key": "iphone_16_pro_256",
+  "model": "iPhone 16 Pro 256GB",
+  "part": "front_camera",
+  "before": 4300,
+  "after": 5000,
+  "diff": 700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,500"
+ },
+ {
+  "key": "iphone_16_pro_256",
+  "model": "iPhone 16 Pro 256GB",
+  "part": "charging_port",
+  "before": 3400,
+  "after": 5800,
+  "diff": 2400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,250"
+ },
+ {
+  "key": "iphone_16_pro_256",
+  "model": "iPhone 16 Pro 256GB",
+  "part": "speaker",
+  "before": 2600,
+  "after": 2300,
+  "diff": -300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_16_pro_512",
+  "model": "iPhone 16 Pro 512GB",
+  "part": "front_camera",
+  "before": 4700,
+  "after": 5000,
+  "diff": 300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,500"
+ },
+ {
+  "key": "iphone_16_pro_512",
+  "model": "iPhone 16 Pro 512GB",
+  "part": "charging_port",
+  "before": 3800,
+  "after": 5800,
+  "diff": 2000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,250"
+ },
+ {
+  "key": "iphone_16_pro_512",
+  "model": "iPhone 16 Pro 512GB",
+  "part": "speaker",
+  "before": 2800,
+  "after": 2300,
+  "diff": -500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_16_pro_1tb",
+  "model": "iPhone 16 Pro 1TB",
+  "part": "front_camera",
+  "before": 5200,
+  "after": 5000,
+  "diff": -200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,500"
+ },
+ {
+  "key": "iphone_16_pro_1tb",
+  "model": "iPhone 16 Pro 1TB",
+  "part": "charging_port",
+  "before": 4100,
+  "after": 5800,
+  "diff": 1700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,250"
+ },
+ {
+  "key": "iphone_16_pro_1tb",
+  "model": "iPhone 16 Pro 1TB",
+  "part": "speaker",
+  "before": 3100,
+  "after": 2300,
+  "diff": -800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_14_512",
+  "model": "iPhone 14 512GB",
+  "part": "front_camera",
+  "before": 4100,
+  "after": 3300,
+  "diff": -800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_14_512",
+  "model": "iPhone 14 512GB",
+  "part": "charging_port",
+  "before": 3300,
+  "after": 2400,
+  "diff": -900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_14_512",
+  "model": "iPhone 14 512GB",
+  "part": "speaker",
+  "before": 2500,
+  "after": 1800,
+  "diff": -700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250"
+ },
+ {
+  "key": "iphone_13_pro_512",
+  "model": "iPhone 13 Pro 512GB",
+  "part": "front_camera",
+  "before": 2600,
+  "after": 3500,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,950"
+ },
+ {
+  "key": "iphone_13_pro_512",
+  "model": "iPhone 13 Pro 512GB",
+  "part": "charging_port",
+  "before": 2000,
+  "after": 2500,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,950"
+ },
+ {
+  "key": "iphone_13_pro_512",
+  "model": "iPhone 13 Pro 512GB",
+  "part": "speaker",
+  "before": 1500,
+  "after": 2000,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,450"
+ },
+ {
+  "key": "iphone_13_pro_1tb",
+  "model": "iPhone 13 Pro 1TB",
+  "part": "front_camera",
+  "before": 2900,
+  "after": 3500,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,950"
+ },
+ {
+  "key": "iphone_13_pro_1tb",
+  "model": "iPhone 13 Pro 1TB",
+  "part": "charging_port",
+  "before": 2300,
+  "after": 2500,
+  "diff": 200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,950"
+ },
+ {
+  "key": "iphone_13_pro_1tb",
+  "model": "iPhone 13 Pro 1TB",
+  "part": "speaker",
+  "before": 1700,
+  "after": 2000,
+  "diff": 300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,450"
+ },
+ {
+  "key": "iphone_17_pro_max_512",
+  "model": "iPhone 17 Pro Max 512GB",
+  "part": "front_camera",
+  "before": 8300,
+  "after": 6500,
+  "diff": -1800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,999"
+ },
+ {
+  "key": "iphone_17_pro_max_512",
+  "model": "iPhone 17 Pro Max 512GB",
+  "part": "charging_port",
+  "before": 6600,
+  "after": 8900,
+  "diff": 2300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,350"
+ },
+ {
+  "key": "iphone_17_pro_max_512",
+  "model": "iPhone 17 Pro Max 512GB",
+  "part": "speaker",
+  "before": 5000,
+  "after": 2800,
+  "diff": -2200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,300"
+ },
+ {
+  "key": "iphone_17_pro_max_1tb",
+  "model": "iPhone 17 Pro Max 1TB",
+  "part": "front_camera",
+  "before": 9300,
+  "after": 6500,
+  "diff": -2800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,999"
+ },
+ {
+  "key": "iphone_17_pro_max_1tb",
+  "model": "iPhone 17 Pro Max 1TB",
+  "part": "charging_port",
+  "before": 7400,
+  "after": 8900,
+  "diff": 1500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,350"
+ },
+ {
+  "key": "iphone_17_pro_max_1tb",
+  "model": "iPhone 17 Pro Max 1TB",
+  "part": "speaker",
+  "before": 5600,
+  "after": 2800,
+  "diff": -2800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,300"
+ },
+ {
+  "key": "iphone_17_pro_max_2tb",
+  "model": "iPhone 17 Pro Max 2TB",
+  "part": "front_camera",
+  "before": 11200,
+  "after": 6500,
+  "diff": -4700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,999"
+ },
+ {
+  "key": "iphone_17_pro_max_2tb",
+  "model": "iPhone 17 Pro Max 2TB",
+  "part": "charging_port",
+  "before": 9000,
+  "after": 8900,
+  "diff": -100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,350"
+ },
+ {
+  "key": "iphone_17_pro_max_2tb",
+  "model": "iPhone 17 Pro Max 2TB",
+  "part": "speaker",
+  "before": 6700,
+  "after": 2800,
+  "diff": -3900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,300"
+ },
+ {
+  "key": "iphone_16_plus_256",
+  "model": "iPhone 16 Plus 256GB",
+  "part": "front_camera",
+  "before": 4500,
+  "after": 5100,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,600"
+ },
+ {
+  "key": "iphone_16_plus_256",
+  "model": "iPhone 16 Plus 256GB",
+  "part": "charging_port",
+  "before": 3600,
+  "after": 7000,
+  "diff": 3400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,450"
+ },
+ {
+  "key": "iphone_16_plus_256",
+  "model": "iPhone 16 Plus 256GB",
+  "part": "speaker",
+  "before": 2700,
+  "after": 3200,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,700"
+ },
+ {
+  "key": "iphone_16_plus_512",
+  "model": "iPhone 16 Plus 512GB",
+  "part": "front_camera",
+  "before": 5100,
+  "after": 5100,
+  "diff": 0,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,600"
+ },
+ {
+  "key": "iphone_16_plus_512",
+  "model": "iPhone 16 Plus 512GB",
+  "part": "charging_port",
+  "before": 4100,
+  "after": 7000,
+  "diff": 2900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,450"
+ },
+ {
+  "key": "iphone_16_plus_512",
+  "model": "iPhone 16 Plus 512GB",
+  "part": "speaker",
+  "before": 3100,
+  "after": 3200,
+  "diff": 100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,700"
+ },
+ {
+  "key": "iphone_16_pro_max_512",
+  "model": "iPhone 16 Pro Max 512GB",
+  "part": "front_camera",
+  "before": 6000,
+  "after": 7400,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_16_pro_max_512",
+  "model": "iPhone 16 Pro Max 512GB",
+  "part": "charging_port",
+  "before": 4800,
+  "after": 7100,
+  "diff": 2300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,583"
+ },
+ {
+  "key": "iphone_16_pro_max_512",
+  "model": "iPhone 16 Pro Max 512GB",
+  "part": "speaker",
+  "before": 3600,
+  "after": 2300,
+  "diff": -1300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_16_pro_max_1tb",
+  "model": "iPhone 16 Pro Max 1TB",
+  "part": "front_camera",
+  "before": 7000,
+  "after": 7400,
+  "diff": 400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,900"
+ },
+ {
+  "key": "iphone_16_pro_max_1tb",
+  "model": "iPhone 16 Pro Max 1TB",
+  "part": "charging_port",
+  "before": 5600,
+  "after": 7100,
+  "diff": 1500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,583"
+ },
+ {
+  "key": "iphone_16_pro_max_1tb",
+  "model": "iPhone 16 Pro Max 1TB",
+  "part": "speaker",
+  "before": 4200,
+  "after": 2300,
+  "diff": -1900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_air_512",
+  "model": "iPhone Air 512GB",
+  "part": "front_camera",
+  "before": 7000,
+  "after": 6800,
+  "diff": -200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,300"
+ },
+ {
+  "key": "iphone_15_plus_512",
+  "model": "iPhone 15 Plus 512GB",
+  "part": "front_camera",
+  "before": 4700,
+  "after": 3900,
+  "diff": -800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,400"
+ },
+ {
+  "key": "iphone_15_plus_512",
+  "model": "iPhone 15 Plus 512GB",
+  "part": "charging_port",
+  "before": 3800,
+  "after": 6000,
+  "diff": 2200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,450"
+ },
+ {
+  "key": "iphone_15_plus_512",
+  "model": "iPhone 15 Plus 512GB",
+  "part": "speaker",
+  "before": 2800,
+  "after": 2300,
+  "diff": -500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_11_256",
+  "model": "iPhone 11 256GB",
+  "part": "back_panel",
+  "before": 1600,
+  "after": 2500,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs890 · ifonewala.com Rs1,999 all-in"
+ },
+ {
+  "key": "iphone_11_256",
+  "model": "iPhone 11 256GB",
+  "part": "rear_camera",
+  "before": 2400,
+  "after": 2300,
+  "diff": -100,
+  "now": "Market",
+  "sources": "abest.in Rs1,800 · appleproductsfix.com Rs1,700"
+ },
+ {
+  "key": "iphone_11_256",
+  "model": "iPhone 11 256GB",
+  "part": "front_camera",
+  "before": 1200,
+  "after": 2000,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,500"
+ },
+ {
+  "key": "iphone_11_256",
+  "model": "iPhone 11 256GB",
+  "part": "charging_port",
+  "before": 900,
+  "after": 1800,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250"
+ },
+ {
+  "key": "iphone_11_256",
+  "model": "iPhone 11 256GB",
+  "part": "speaker",
+  "before": 700,
+  "after": 1400,
+  "diff": 700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_17_512",
+  "model": "iPhone 17 512GB",
+  "part": "front_camera",
+  "before": 5100,
+  "after": 22000,
+  "diff": 16900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs21,500"
+ },
+ {
+  "key": "iphone_17_512",
+  "model": "iPhone 17 512GB",
+  "part": "charging_port",
+  "before": 4100,
+  "after": 7500,
+  "diff": 3400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,950"
+ },
+ {
+  "key": "iphone_17_512",
+  "model": "iPhone 17 512GB",
+  "part": "speaker",
+  "before": 3100,
+  "after": 4900,
+  "diff": 1800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,390"
+ },
+ {
+  "key": "iphone_16e_256",
+  "model": "iPhone 16e 256GB",
+  "part": "front_camera",
+  "before": 3500,
+  "after": 4300,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,800"
+ },
+ {
+  "key": "iphone_16e_256",
+  "model": "iPhone 16e 256GB",
+  "part": "charging_port",
+  "before": 2800,
+  "after": 4500,
+  "diff": 1700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,950"
+ },
+ {
+  "key": "iphone_16e_256",
+  "model": "iPhone 16e 256GB",
+  "part": "speaker",
+  "before": 2100,
+  "after": 2300,
+  "diff": 200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_16e_512",
+  "model": "iPhone 16e 512GB",
+  "part": "front_camera",
+  "before": 3900,
+  "after": 4300,
+  "diff": 400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,800"
+ },
+ {
+  "key": "iphone_16e_512",
+  "model": "iPhone 16e 512GB",
+  "part": "charging_port",
+  "before": 3100,
+  "after": 4500,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,950"
+ },
+ {
+  "key": "iphone_16e_512",
+  "model": "iPhone 16e 512GB",
+  "part": "speaker",
+  "before": 2300,
+  "after": 2300,
+  "diff": 0,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_13_512",
+  "model": "iPhone 13 512GB",
+  "part": "front_camera",
+  "before": 1800,
+  "after": 2500,
+  "diff": 700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,950"
+ },
+ {
+  "key": "iphone_13_512",
+  "model": "iPhone 13 512GB",
+  "part": "charging_port",
+  "before": 1400,
+  "after": 1800,
+  "diff": 400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250"
+ },
+ {
+  "key": "iphone_13_512",
+  "model": "iPhone 13 512GB",
+  "part": "speaker",
+  "before": 1100,
+  "after": 2000,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,499"
+ },
+ {
+  "key": "iphone_17_pro_512",
+  "model": "iPhone 17 Pro 512GB",
+  "part": "front_camera",
+  "before": 7600,
+  "after": 6500,
+  "diff": -1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,999"
+ },
+ {
+  "key": "iphone_17_pro_512",
+  "model": "iPhone 17 Pro 512GB",
+  "part": "charging_port",
+  "before": 6100,
+  "after": 8800,
+  "diff": 2700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,250"
+ },
+ {
+  "key": "iphone_17_pro_512",
+  "model": "iPhone 17 Pro 512GB",
+  "part": "speaker",
+  "before": 4600,
+  "after": 2700,
+  "diff": -1900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,200"
+ },
+ {
+  "key": "iphone_17_pro_1tb",
+  "model": "iPhone 17 Pro 1TB",
+  "part": "front_camera",
+  "before": 8600,
+  "after": 6500,
+  "diff": -2100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs5,999"
+ },
+ {
+  "key": "iphone_17_pro_1tb",
+  "model": "iPhone 17 Pro 1TB",
+  "part": "charging_port",
+  "before": 6900,
+  "after": 8800,
+  "diff": 1900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs8,250"
+ },
+ {
+  "key": "iphone_17_pro_1tb",
+  "model": "iPhone 17 Pro 1TB",
+  "part": "speaker",
+  "before": 5100,
+  "after": 2700,
+  "diff": -2400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,200"
+ },
+ {
+  "key": "iphone_12_pro_max_256",
+  "model": "iPhone 12 Pro Max 256GB",
+  "part": "front_camera",
+  "before": 1800,
+  "after": 2300,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_12_pro_max_256",
+  "model": "iPhone 12 Pro Max 256GB",
+  "part": "charging_port",
+  "before": 1400,
+  "after": 2300,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_12_pro_max_256",
+  "model": "iPhone 12 Pro Max 256GB",
+  "part": "speaker",
+  "before": 1100,
+  "after": 1900,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,340"
+ },
+ {
+  "key": "iphone_12_pro_max_512",
+  "model": "iPhone 12 Pro Max 512GB",
+  "part": "front_camera",
+  "before": 2000,
+  "after": 2300,
+  "diff": 300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_12_pro_max_512",
+  "model": "iPhone 12 Pro Max 512GB",
+  "part": "charging_port",
+  "before": 1600,
+  "after": 2300,
+  "diff": 700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_12_pro_max_512",
+  "model": "iPhone 12 Pro Max 512GB",
+  "part": "speaker",
+  "before": 1200,
+  "after": 1900,
+  "diff": 700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,340"
+ },
+ {
+  "key": "iphone_13_mini_256",
+  "model": "iPhone 13 mini 256GB",
+  "part": "front_camera",
+  "before": 1300,
+  "after": 2300,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_13_mini_256",
+  "model": "iPhone 13 mini 256GB",
+  "part": "charging_port",
+  "before": 1100,
+  "after": 2800,
+  "diff": 1700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,250"
+ },
+ {
+  "key": "iphone_13_mini_256",
+  "model": "iPhone 13 mini 256GB",
+  "part": "speaker",
+  "before": 800,
+  "after": 1600,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,100"
+ },
+ {
+  "key": "iphone_13_mini_512",
+  "model": "iPhone 13 mini 512GB",
+  "part": "front_camera",
+  "before": 1600,
+  "after": 2300,
+  "diff": 700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_13_mini_512",
+  "model": "iPhone 13 mini 512GB",
+  "part": "charging_port",
+  "before": 1200,
+  "after": 2800,
+  "diff": 1600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,250"
+ },
+ {
+  "key": "iphone_13_mini_512",
+  "model": "iPhone 13 mini 512GB",
+  "part": "speaker",
+  "before": 900,
+  "after": 1600,
+  "diff": 700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,100"
+ },
+ {
+  "key": "iphone_14_plus_256",
+  "model": "iPhone 14 Plus 256GB",
+  "part": "front_camera",
+  "before": 2000,
+  "after": 3600,
+  "diff": 1600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,100"
+ },
+ {
+  "key": "iphone_14_plus_256",
+  "model": "iPhone 14 Plus 256GB",
+  "part": "charging_port",
+  "before": 1600,
+  "after": 3300,
+  "diff": 1700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_14_plus_256",
+  "model": "iPhone 14 Plus 256GB",
+  "part": "speaker",
+  "before": 1200,
+  "after": 2300,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_14_plus_512",
+  "model": "iPhone 14 Plus 512GB",
+  "part": "front_camera",
+  "before": 2300,
+  "after": 3600,
+  "diff": 1300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,100"
+ },
+ {
+  "key": "iphone_14_plus_512",
+  "model": "iPhone 14 Plus 512GB",
+  "part": "charging_port",
+  "before": 1900,
+  "after": 3300,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,800"
+ },
+ {
+  "key": "iphone_14_plus_512",
+  "model": "iPhone 14 Plus 512GB",
+  "part": "speaker",
+  "before": 1400,
+  "after": 2300,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_7_32",
+  "model": "iPhone 7 32GB",
+  "part": "display",
+  "before": 1000,
+  "after": 3200,
+  "diff": 2200,
+  "now": "Market",
+  "sources": "abest.in Rs1,899 · touchlcdbaba.com Rs3,490"
+ },
+ {
+  "key": "iphone_7_32",
+  "model": "iPhone 7 32GB",
+  "part": "battery",
+  "before": 200,
+  "after": 2700,
+  "diff": 2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,200"
+ },
+ {
+  "key": "iphone_7_32",
+  "model": "iPhone 7 32GB",
+  "part": "back_panel",
+  "before": 300,
+  "after": 3900,
+  "diff": 3600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,860"
+ },
+ {
+  "key": "iphone_7_128",
+  "model": "iPhone 7 128GB",
+  "part": "display",
+  "before": 1200,
+  "after": 3200,
+  "diff": 2000,
+  "now": "Market",
+  "sources": "abest.in Rs1,899 · touchlcdbaba.com Rs3,490"
+ },
+ {
+  "key": "iphone_7_128",
+  "model": "iPhone 7 128GB",
+  "part": "battery",
+  "before": 300,
+  "after": 2700,
+  "diff": 2400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,200"
+ },
+ {
+  "key": "iphone_7_128",
+  "model": "iPhone 7 128GB",
+  "part": "back_panel",
+  "before": 400,
+  "after": 3900,
+  "diff": 3500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,860"
+ },
+ {
+  "key": "iphone_7_plus_32",
+  "model": "iPhone 7 Plus 32GB",
+  "part": "display",
+  "before": 1800,
+  "after": 3700,
+  "diff": 1900,
+  "now": "Market",
+  "sources": "abest.in Rs2,299 · touchlcdbaba.com Rs3,990"
+ },
+ {
+  "key": "iphone_7_plus_32",
+  "model": "iPhone 7 Plus 32GB",
+  "part": "battery",
+  "before": 400,
+  "after": 3000,
+  "diff": 2600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_7_plus_32",
+  "model": "iPhone 7 Plus 32GB",
+  "part": "back_panel",
+  "before": 600,
+  "after": 3900,
+  "diff": 3300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_7_plus_128",
+  "model": "iPhone 7 Plus 128GB",
+  "part": "display",
+  "before": 2100,
+  "after": 3700,
+  "diff": 1600,
+  "now": "Market",
+  "sources": "abest.in Rs2,299 · touchlcdbaba.com Rs3,990"
+ },
+ {
+  "key": "iphone_7_plus_128",
+  "model": "iPhone 7 Plus 128GB",
+  "part": "battery",
+  "before": 500,
+  "after": 3000,
+  "diff": 2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_7_plus_128",
+  "model": "iPhone 7 Plus 128GB",
+  "part": "back_panel",
+  "before": 700,
+  "after": 3900,
+  "diff": 3200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_8_64",
+  "model": "iPhone 8 64GB",
+  "part": "display",
+  "before": 2000,
+  "after": 2700,
+  "diff": 700,
+  "now": "Market",
+  "sources": "abest.in Rs899 · touchlcdbaba.com Rs3,490"
+ },
+ {
+  "key": "iphone_8_64",
+  "model": "iPhone 8 64GB",
+  "part": "battery",
+  "before": 500,
+  "after": 2900,
+  "diff": 2400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,400"
+ },
+ {
+  "key": "iphone_8_64",
+  "model": "iPhone 8 64GB",
+  "part": "back_panel",
+  "before": 600,
+  "after": 2900,
+  "diff": 2300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_8_256",
+  "model": "iPhone 8 256GB",
+  "part": "display",
+  "before": 2200,
+  "after": 2700,
+  "diff": 500,
+  "now": "Market",
+  "sources": "abest.in Rs899 · touchlcdbaba.com Rs3,490"
+ },
+ {
+  "key": "iphone_8_256",
+  "model": "iPhone 8 256GB",
+  "part": "battery",
+  "before": 500,
+  "after": 2900,
+  "diff": 2400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,400"
+ },
+ {
+  "key": "iphone_8_256",
+  "model": "iPhone 8 256GB",
+  "part": "back_panel",
+  "before": 700,
+  "after": 2900,
+  "diff": 2200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_8_plus_64",
+  "model": "iPhone 8 Plus 64GB",
+  "part": "display",
+  "before": 2600,
+  "after": 2300,
+  "diff": -300,
+  "now": "Market",
+  "sources": "abest.in Rs1,800"
+ },
+ {
+  "key": "iphone_8_plus_64",
+  "model": "iPhone 8 Plus 64GB",
+  "part": "battery",
+  "before": 600,
+  "after": 3000,
+  "diff": 2400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_8_plus_64",
+  "model": "iPhone 8 Plus 64GB",
+  "part": "back_panel",
+  "before": 800,
+  "after": 2900,
+  "diff": 2100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_8_plus_64",
+  "model": "iPhone 8 Plus 64GB",
+  "part": "rear_camera",
+  "before": 1200,
+  "after": 2700,
+  "diff": 1500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,200"
+ },
+ {
+  "key": "iphone_8_plus_64",
+  "model": "iPhone 8 Plus 64GB",
+  "part": "front_camera",
+  "before": 600,
+  "after": 1400,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs900"
+ },
+ {
+  "key": "iphone_8_plus_64",
+  "model": "iPhone 8 Plus 64GB",
+  "part": "charging_port",
+  "before": 500,
+  "after": 1500,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs960"
+ },
+ {
+  "key": "iphone_8_plus_64",
+  "model": "iPhone 8 Plus 64GB",
+  "part": "speaker",
+  "before": 300,
+  "after": 1400,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_8_plus_256",
+  "model": "iPhone 8 Plus 256GB",
+  "part": "display",
+  "before": 2900,
+  "after": 2300,
+  "diff": -600,
+  "now": "Market",
+  "sources": "abest.in Rs1,800"
+ },
+ {
+  "key": "iphone_8_plus_256",
+  "model": "iPhone 8 Plus 256GB",
+  "part": "battery",
+  "before": 700,
+  "after": 3000,
+  "diff": 2300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_8_plus_256",
+  "model": "iPhone 8 Plus 256GB",
+  "part": "back_panel",
+  "before": 900,
+  "after": 2900,
+  "diff": 2000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_8_plus_256",
+  "model": "iPhone 8 Plus 256GB",
+  "part": "rear_camera",
+  "before": 1300,
+  "after": 2700,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,200"
+ },
+ {
+  "key": "iphone_8_plus_256",
+  "model": "iPhone 8 Plus 256GB",
+  "part": "front_camera",
+  "before": 700,
+  "after": 1400,
+  "diff": 700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs900"
+ },
+ {
+  "key": "iphone_8_plus_256",
+  "model": "iPhone 8 Plus 256GB",
+  "part": "charging_port",
+  "before": 500,
+  "after": 1500,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs960"
+ },
+ {
+  "key": "iphone_8_plus_256",
+  "model": "iPhone 8 Plus 256GB",
+  "part": "speaker",
+  "before": 400,
+  "after": 1400,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_x_64",
+  "model": "iPhone X 64GB",
+  "part": "display",
+  "before": 3600,
+  "after": 7300,
+  "diff": 3700,
+  "now": "Market",
+  "sources": "abest.in Rs3,600 · appleproductsfix.com Rs6,800 · touchlcdbaba.com Rs6,990"
+ },
+ {
+  "key": "iphone_x_64",
+  "model": "iPhone X 64GB",
+  "part": "battery",
+  "before": 800,
+  "after": 4400,
+  "diff": 3600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,900"
+ },
+ {
+  "key": "iphone_x_64",
+  "model": "iPhone X 64GB",
+  "part": "back_panel",
+  "before": 1200,
+  "after": 2900,
+  "diff": 1700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_x_64",
+  "model": "iPhone X 64GB",
+  "part": "rear_camera",
+  "before": 1700,
+  "after": 2300,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_x_64",
+  "model": "iPhone X 64GB",
+  "part": "front_camera",
+  "before": 800,
+  "after": 1400,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs900"
+ },
+ {
+  "key": "iphone_x_64",
+  "model": "iPhone X 64GB",
+  "part": "charging_port",
+  "before": 700,
+  "after": 1500,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs960"
+ },
+ {
+  "key": "iphone_x_64",
+  "model": "iPhone X 64GB",
+  "part": "speaker",
+  "before": 500,
+  "after": 1400,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_x_256",
+  "model": "iPhone X 256GB",
+  "part": "display",
+  "before": 4100,
+  "after": 7300,
+  "diff": 3200,
+  "now": "Market",
+  "sources": "abest.in Rs3,600 · appleproductsfix.com Rs6,800 · touchlcdbaba.com Rs6,990"
+ },
+ {
+  "key": "iphone_x_256",
+  "model": "iPhone X 256GB",
+  "part": "battery",
+  "before": 900,
+  "after": 4400,
+  "diff": 3500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,900"
+ },
+ {
+  "key": "iphone_x_256",
+  "model": "iPhone X 256GB",
+  "part": "back_panel",
+  "before": 1300,
+  "after": 2900,
+  "diff": 1600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_x_256",
+  "model": "iPhone X 256GB",
+  "part": "rear_camera",
+  "before": 1900,
+  "after": 2300,
+  "diff": 400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,800"
+ },
+ {
+  "key": "iphone_x_256",
+  "model": "iPhone X 256GB",
+  "part": "front_camera",
+  "before": 900,
+  "after": 1400,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs900"
+ },
+ {
+  "key": "iphone_x_256",
+  "model": "iPhone X 256GB",
+  "part": "charging_port",
+  "before": 700,
+  "after": 1500,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs960"
+ },
+ {
+  "key": "iphone_x_256",
+  "model": "iPhone X 256GB",
+  "part": "speaker",
+  "before": 600,
+  "after": 1400,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xr_64",
+  "model": "iPhone XR 64GB",
+  "part": "display",
+  "before": 3200,
+  "after": 3500,
+  "diff": 300,
+  "now": "Market",
+  "sources": "abest.in Rs1,980 · appleproductsfix.com Rs4,200 · touchlcdbaba.com Rs2,990"
+ },
+ {
+  "key": "iphone_xr_64",
+  "model": "iPhone XR 64GB",
+  "part": "battery",
+  "before": 700,
+  "after": 3200,
+  "diff": 2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,450 · touchlcdbaba.com Rs1,950"
+ },
+ {
+  "key": "iphone_xr_64",
+  "model": "iPhone XR 64GB",
+  "part": "back_panel",
+  "before": 1000,
+  "after": 2900,
+  "diff": 1900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xr_64",
+  "model": "iPhone XR 64GB",
+  "part": "rear_camera",
+  "before": 1500,
+  "after": 2400,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,900"
+ },
+ {
+  "key": "iphone_xr_64",
+  "model": "iPhone XR 64GB",
+  "part": "front_camera",
+  "before": 700,
+  "after": 1900,
+  "diff": 1200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,400"
+ },
+ {
+  "key": "iphone_xr_64",
+  "model": "iPhone XR 64GB",
+  "part": "charging_port",
+  "before": 600,
+  "after": 1500,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs960"
+ },
+ {
+  "key": "iphone_xr_64",
+  "model": "iPhone XR 64GB",
+  "part": "speaker",
+  "before": 400,
+  "after": 1400,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xr_128",
+  "model": "iPhone XR 128GB",
+  "part": "display",
+  "before": 3600,
+  "after": 3500,
+  "diff": -100,
+  "now": "Market",
+  "sources": "abest.in Rs1,980 · appleproductsfix.com Rs4,200 · touchlcdbaba.com Rs2,990"
+ },
+ {
+  "key": "iphone_xr_128",
+  "model": "iPhone XR 128GB",
+  "part": "battery",
+  "before": 800,
+  "after": 3200,
+  "diff": 2400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,450 · touchlcdbaba.com Rs1,950"
+ },
+ {
+  "key": "iphone_xr_128",
+  "model": "iPhone XR 128GB",
+  "part": "back_panel",
+  "before": 1100,
+  "after": 2900,
+  "diff": 1800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xr_128",
+  "model": "iPhone XR 128GB",
+  "part": "rear_camera",
+  "before": 1600,
+  "after": 2400,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,900"
+ },
+ {
+  "key": "iphone_xr_128",
+  "model": "iPhone XR 128GB",
+  "part": "front_camera",
+  "before": 800,
+  "after": 1900,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,400"
+ },
+ {
+  "key": "iphone_xr_128",
+  "model": "iPhone XR 128GB",
+  "part": "charging_port",
+  "before": 600,
+  "after": 1500,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs960"
+ },
+ {
+  "key": "iphone_xr_128",
+  "model": "iPhone XR 128GB",
+  "part": "speaker",
+  "before": 500,
+  "after": 1400,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xr_256",
+  "model": "iPhone XR 256GB",
+  "part": "display",
+  "before": 3700,
+  "after": 3500,
+  "diff": -200,
+  "now": "Market",
+  "sources": "abest.in Rs1,980 · appleproductsfix.com Rs4,200 · touchlcdbaba.com Rs2,990"
+ },
+ {
+  "key": "iphone_xr_256",
+  "model": "iPhone XR 256GB",
+  "part": "battery",
+  "before": 800,
+  "after": 3200,
+  "diff": 2400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,450 · touchlcdbaba.com Rs1,950"
+ },
+ {
+  "key": "iphone_xr_256",
+  "model": "iPhone XR 256GB",
+  "part": "back_panel",
+  "before": 1200,
+  "after": 2900,
+  "diff": 1700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xr_256",
+  "model": "iPhone XR 256GB",
+  "part": "rear_camera",
+  "before": 1700,
+  "after": 2400,
+  "diff": 700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,900"
+ },
+ {
+  "key": "iphone_xr_256",
+  "model": "iPhone XR 256GB",
+  "part": "front_camera",
+  "before": 800,
+  "after": 1900,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,400"
+ },
+ {
+  "key": "iphone_xr_256",
+  "model": "iPhone XR 256GB",
+  "part": "charging_port",
+  "before": 700,
+  "after": 1500,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs960"
+ },
+ {
+  "key": "iphone_xr_256",
+  "model": "iPhone XR 256GB",
+  "part": "speaker",
+  "before": 500,
+  "after": 1400,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xs_64",
+  "model": "iPhone XS 64GB",
+  "part": "display",
+  "before": 4100,
+  "after": 7300,
+  "diff": 3200,
+  "now": "Market",
+  "sources": "abest.in Rs3,799 · appleproductsfix.com Rs6,800 · touchlcdbaba.com Rs6,990"
+ },
+ {
+  "key": "iphone_xs_64",
+  "model": "iPhone XS 64GB",
+  "part": "battery",
+  "before": 900,
+  "after": 3400,
+  "diff": 2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,750 · touchlcdbaba.com Rs1,950"
+ },
+ {
+  "key": "iphone_xs_64",
+  "model": "iPhone XS 64GB",
+  "part": "back_panel",
+  "before": 1300,
+  "after": 2900,
+  "diff": 1600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xs_64",
+  "model": "iPhone XS 64GB",
+  "part": "rear_camera",
+  "before": 1900,
+  "after": 3400,
+  "diff": 1500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,900"
+ },
+ {
+  "key": "iphone_xs_64",
+  "model": "iPhone XS 64GB",
+  "part": "front_camera",
+  "before": 900,
+  "after": 2000,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,500"
+ },
+ {
+  "key": "iphone_xs_64",
+  "model": "iPhone XS 64GB",
+  "part": "charging_port",
+  "before": 700,
+  "after": 1500,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs960"
+ },
+ {
+  "key": "iphone_xs_64",
+  "model": "iPhone XS 64GB",
+  "part": "speaker",
+  "before": 600,
+  "after": 1600,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "abest.in Rs1,350 · appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xs_256",
+  "model": "iPhone XS 256GB",
+  "part": "display",
+  "before": 4700,
+  "after": 7300,
+  "diff": 2600,
+  "now": "Market",
+  "sources": "abest.in Rs3,799 · appleproductsfix.com Rs6,800 · touchlcdbaba.com Rs6,990"
+ },
+ {
+  "key": "iphone_xs_256",
+  "model": "iPhone XS 256GB",
+  "part": "battery",
+  "before": 1100,
+  "after": 3400,
+  "diff": 2300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,750 · touchlcdbaba.com Rs1,950"
+ },
+ {
+  "key": "iphone_xs_256",
+  "model": "iPhone XS 256GB",
+  "part": "back_panel",
+  "before": 1500,
+  "after": 2900,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xs_256",
+  "model": "iPhone XS 256GB",
+  "part": "rear_camera",
+  "before": 2100,
+  "after": 3400,
+  "diff": 1300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,900"
+ },
+ {
+  "key": "iphone_xs_256",
+  "model": "iPhone XS 256GB",
+  "part": "front_camera",
+  "before": 1100,
+  "after": 2000,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,500"
+ },
+ {
+  "key": "iphone_xs_256",
+  "model": "iPhone XS 256GB",
+  "part": "charging_port",
+  "before": 900,
+  "after": 1500,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs960"
+ },
+ {
+  "key": "iphone_xs_256",
+  "model": "iPhone XS 256GB",
+  "part": "speaker",
+  "before": 600,
+  "after": 1600,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "abest.in Rs1,350 · appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xs_512",
+  "model": "iPhone XS 512GB",
+  "part": "display",
+  "before": 4800,
+  "after": 7300,
+  "diff": 2500,
+  "now": "Market",
+  "sources": "abest.in Rs3,799 · appleproductsfix.com Rs6,800 · touchlcdbaba.com Rs6,990"
+ },
+ {
+  "key": "iphone_xs_512",
+  "model": "iPhone XS 512GB",
+  "part": "battery",
+  "before": 1100,
+  "after": 3400,
+  "diff": 2300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,750 · touchlcdbaba.com Rs1,950"
+ },
+ {
+  "key": "iphone_xs_512",
+  "model": "iPhone XS 512GB",
+  "part": "back_panel",
+  "before": 1500,
+  "after": 2900,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xs_512",
+  "model": "iPhone XS 512GB",
+  "part": "rear_camera",
+  "before": 2200,
+  "after": 3400,
+  "diff": 1200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,900"
+ },
+ {
+  "key": "iphone_xs_512",
+  "model": "iPhone XS 512GB",
+  "part": "front_camera",
+  "before": 1100,
+  "after": 2000,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,500"
+ },
+ {
+  "key": "iphone_xs_512",
+  "model": "iPhone XS 512GB",
+  "part": "charging_port",
+  "before": 900,
+  "after": 1500,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs960"
+ },
+ {
+  "key": "iphone_xs_512",
+  "model": "iPhone XS 512GB",
+  "part": "speaker",
+  "before": 700,
+  "after": 1600,
+  "diff": 900,
+  "now": "Market",
+  "sources": "abest.in Rs1,350 · appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xs_max_64",
+  "model": "iPhone XS Max 64GB",
+  "part": "display",
+  "before": 4700,
+  "after": 8100,
+  "diff": 3400,
+  "now": "Market",
+  "sources": "abest.in Rs4,799 · appleproductsfix.com Rs7,990 · touchlcdbaba.com Rs7,590"
+ },
+ {
+  "key": "iphone_xs_max_64",
+  "model": "iPhone XS Max 64GB",
+  "part": "battery",
+  "before": 1100,
+  "after": 5300,
+  "diff": 4200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,750"
+ },
+ {
+  "key": "iphone_xs_max_64",
+  "model": "iPhone XS Max 64GB",
+  "part": "back_panel",
+  "before": 1500,
+  "after": 2900,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xs_max_64",
+  "model": "iPhone XS Max 64GB",
+  "part": "rear_camera",
+  "before": 2100,
+  "after": 3400,
+  "diff": 1300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,900"
+ },
+ {
+  "key": "iphone_xs_max_64",
+  "model": "iPhone XS Max 64GB",
+  "part": "front_camera",
+  "before": 1100,
+  "after": 2000,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,500"
+ },
+ {
+  "key": "iphone_xs_max_64",
+  "model": "iPhone XS Max 64GB",
+  "part": "charging_port",
+  "before": 800,
+  "after": 1300,
+  "diff": 500,
+  "now": "Market",
+  "sources": "abest.in Rs520 · appleproductsfix.com Rs960"
+ },
+ {
+  "key": "iphone_xs_max_64",
+  "model": "iPhone XS Max 64GB",
+  "part": "speaker",
+  "before": 600,
+  "after": 1800,
+  "diff": 1200,
+  "now": "Market",
+  "sources": "abest.in Rs1,599 · appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xs_max_256",
+  "model": "iPhone XS Max 256GB",
+  "part": "display",
+  "before": 5300,
+  "after": 8100,
+  "diff": 2800,
+  "now": "Market",
+  "sources": "abest.in Rs4,799 · appleproductsfix.com Rs7,990 · touchlcdbaba.com Rs7,590"
+ },
+ {
+  "key": "iphone_xs_max_256",
+  "model": "iPhone XS Max 256GB",
+  "part": "battery",
+  "before": 1200,
+  "after": 5300,
+  "diff": 4100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,750"
+ },
+ {
+  "key": "iphone_xs_max_256",
+  "model": "iPhone XS Max 256GB",
+  "part": "back_panel",
+  "before": 1700,
+  "after": 2900,
+  "diff": 1200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xs_max_256",
+  "model": "iPhone XS Max 256GB",
+  "part": "rear_camera",
+  "before": 2400,
+  "after": 3400,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,900"
+ },
+ {
+  "key": "iphone_xs_max_256",
+  "model": "iPhone XS Max 256GB",
+  "part": "front_camera",
+  "before": 1200,
+  "after": 2000,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,500"
+ },
+ {
+  "key": "iphone_xs_max_256",
+  "model": "iPhone XS Max 256GB",
+  "part": "charging_port",
+  "before": 1000,
+  "after": 1300,
+  "diff": 300,
+  "now": "Market",
+  "sources": "abest.in Rs520 · appleproductsfix.com Rs960"
+ },
+ {
+  "key": "iphone_xs_max_256",
+  "model": "iPhone XS Max 256GB",
+  "part": "speaker",
+  "before": 700,
+  "after": 1800,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "abest.in Rs1,599 · appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xs_max_512",
+  "model": "iPhone XS Max 512GB",
+  "part": "display",
+  "before": 5400,
+  "after": 8100,
+  "diff": 2700,
+  "now": "Market",
+  "sources": "abest.in Rs4,799 · appleproductsfix.com Rs7,990 · touchlcdbaba.com Rs7,590"
+ },
+ {
+  "key": "iphone_xs_max_512",
+  "model": "iPhone XS Max 512GB",
+  "part": "battery",
+  "before": 1200,
+  "after": 5300,
+  "diff": 4100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,750"
+ },
+ {
+  "key": "iphone_xs_max_512",
+  "model": "iPhone XS Max 512GB",
+  "part": "back_panel",
+  "before": 1700,
+  "after": 2900,
+  "diff": 1200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_xs_max_512",
+  "model": "iPhone XS Max 512GB",
+  "part": "rear_camera",
+  "before": 2500,
+  "after": 3400,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,900"
+ },
+ {
+  "key": "iphone_xs_max_512",
+  "model": "iPhone XS Max 512GB",
+  "part": "front_camera",
+  "before": 1200,
+  "after": 2000,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,500"
+ },
+ {
+  "key": "iphone_xs_max_512",
+  "model": "iPhone XS Max 512GB",
+  "part": "charging_port",
+  "before": 1000,
+  "after": 1300,
+  "diff": 300,
+  "now": "Market",
+  "sources": "abest.in Rs520 · appleproductsfix.com Rs960"
+ },
+ {
+  "key": "iphone_xs_max_512",
+  "model": "iPhone XS Max 512GB",
+  "part": "speaker",
+  "before": 700,
+  "after": 1800,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "abest.in Rs1,599 · appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_se_2020_64",
+  "model": "iPhone SE (2020) 64GB",
+  "part": "back_panel",
+  "before": 900,
+  "after": 4000,
+  "diff": 3100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,000"
+ },
+ {
+  "key": "iphone_se_2020_128",
+  "model": "iPhone SE (2020) 128GB",
+  "part": "back_panel",
+  "before": 1000,
+  "after": 4000,
+  "diff": 3000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,000"
+ },
+ {
+  "key": "iphone_se_2020_256",
+  "model": "iPhone SE (2020) 256GB",
+  "part": "back_panel",
+  "before": 1200,
+  "after": 4000,
+  "diff": 2800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,000"
+ },
+ {
+  "key": "iphone_11_pro_64",
+  "model": "iPhone 11 Pro 64GB",
+  "part": "display",
+  "before": 4200,
+  "after": 8500,
+  "diff": 4300,
+  "now": "Market",
+  "sources": "abest.in Rs4,799 · appleproductsfix.com Rs7,999 · touchlcdbaba.com Rs8,590"
+ },
+ {
+  "key": "iphone_11_pro_64",
+  "model": "iPhone 11 Pro 64GB",
+  "part": "battery",
+  "before": 1000,
+  "after": 4600,
+  "diff": 3600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,100"
+ },
+ {
+  "key": "iphone_11_pro_64",
+  "model": "iPhone 11 Pro 64GB",
+  "part": "back_panel",
+  "before": 1300,
+  "after": 2900,
+  "diff": 1600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs849"
+ },
+ {
+  "key": "iphone_11_pro_64",
+  "model": "iPhone 11 Pro 64GB",
+  "part": "rear_camera",
+  "before": 1900,
+  "after": 4500,
+  "diff": 2600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,999"
+ },
+ {
+  "key": "iphone_11_pro_64",
+  "model": "iPhone 11 Pro 64GB",
+  "part": "front_camera",
+  "before": 1000,
+  "after": 1600,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,100"
+ },
+ {
+  "key": "iphone_11_pro_64",
+  "model": "iPhone 11 Pro 64GB",
+  "part": "charging_port",
+  "before": 800,
+  "after": 3300,
+  "diff": 2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,750"
+ },
+ {
+  "key": "iphone_11_pro_64",
+  "model": "iPhone 11 Pro 64GB",
+  "part": "speaker",
+  "before": 600,
+  "after": 1700,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "abest.in Rs1,500 · appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_11_pro_256",
+  "model": "iPhone 11 Pro 256GB",
+  "part": "display",
+  "before": 5000,
+  "after": 8500,
+  "diff": 3500,
+  "now": "Market",
+  "sources": "abest.in Rs4,799 · appleproductsfix.com Rs7,999 · touchlcdbaba.com Rs8,590"
+ },
+ {
+  "key": "iphone_11_pro_256",
+  "model": "iPhone 11 Pro 256GB",
+  "part": "battery",
+  "before": 1100,
+  "after": 4600,
+  "diff": 3500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,100"
+ },
+ {
+  "key": "iphone_11_pro_256",
+  "model": "iPhone 11 Pro 256GB",
+  "part": "back_panel",
+  "before": 1600,
+  "after": 2900,
+  "diff": 1300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs849"
+ },
+ {
+  "key": "iphone_11_pro_256",
+  "model": "iPhone 11 Pro 256GB",
+  "part": "rear_camera",
+  "before": 2300,
+  "after": 4500,
+  "diff": 2200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,999"
+ },
+ {
+  "key": "iphone_11_pro_256",
+  "model": "iPhone 11 Pro 256GB",
+  "part": "front_camera",
+  "before": 1100,
+  "after": 1600,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,100"
+ },
+ {
+  "key": "iphone_11_pro_256",
+  "model": "iPhone 11 Pro 256GB",
+  "part": "charging_port",
+  "before": 900,
+  "after": 3300,
+  "diff": 2400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,750"
+ },
+ {
+  "key": "iphone_11_pro_256",
+  "model": "iPhone 11 Pro 256GB",
+  "part": "speaker",
+  "before": 700,
+  "after": 1700,
+  "diff": 1000,
+  "now": "Market",
+  "sources": "abest.in Rs1,500 · appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_11_pro_512",
+  "model": "iPhone 11 Pro 512GB",
+  "part": "display",
+  "before": 5600,
+  "after": 8500,
+  "diff": 2900,
+  "now": "Market",
+  "sources": "abest.in Rs4,799 · appleproductsfix.com Rs7,999 · touchlcdbaba.com Rs8,590"
+ },
+ {
+  "key": "iphone_11_pro_512",
+  "model": "iPhone 11 Pro 512GB",
+  "part": "battery",
+  "before": 1300,
+  "after": 4600,
+  "diff": 3300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,100"
+ },
+ {
+  "key": "iphone_11_pro_512",
+  "model": "iPhone 11 Pro 512GB",
+  "part": "back_panel",
+  "before": 1800,
+  "after": 2900,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs849"
+ },
+ {
+  "key": "iphone_11_pro_512",
+  "model": "iPhone 11 Pro 512GB",
+  "part": "rear_camera",
+  "before": 2600,
+  "after": 4500,
+  "diff": 1900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,999"
+ },
+ {
+  "key": "iphone_11_pro_512",
+  "model": "iPhone 11 Pro 512GB",
+  "part": "front_camera",
+  "before": 1300,
+  "after": 1600,
+  "diff": 300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,100"
+ },
+ {
+  "key": "iphone_11_pro_512",
+  "model": "iPhone 11 Pro 512GB",
+  "part": "charging_port",
+  "before": 1000,
+  "after": 3300,
+  "diff": 2300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,750"
+ },
+ {
+  "key": "iphone_11_pro_512",
+  "model": "iPhone 11 Pro 512GB",
+  "part": "speaker",
+  "before": 800,
+  "after": 1700,
+  "diff": 900,
+  "now": "Market",
+  "sources": "abest.in Rs1,500 · appleproductsfix.com Rs850"
+ },
+ {
+  "key": "iphone_11_pro_max_64",
+  "model": "iPhone 11 Pro Max 64GB",
+  "part": "display",
+  "before": 4800,
+  "after": 9100,
+  "diff": 4300,
+  "now": "Market",
+  "sources": "abest.in Rs5,950 · appleproductsfix.com Rs8,999 · touchlcdbaba.com Rs8,590"
+ },
+ {
+  "key": "iphone_11_pro_max_64",
+  "model": "iPhone 11 Pro Max 64GB",
+  "part": "battery",
+  "before": 1100,
+  "after": 4800,
+  "diff": 3700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,300"
+ },
+ {
+  "key": "iphone_11_pro_max_64",
+  "model": "iPhone 11 Pro Max 64GB",
+  "part": "back_panel",
+  "before": 1500,
+  "after": 2900,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs879"
+ },
+ {
+  "key": "iphone_11_pro_max_64",
+  "model": "iPhone 11 Pro Max 64GB",
+  "part": "rear_camera",
+  "before": 2200,
+  "after": 4500,
+  "diff": 2300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,999"
+ },
+ {
+  "key": "iphone_11_pro_max_64",
+  "model": "iPhone 11 Pro Max 64GB",
+  "part": "front_camera",
+  "before": 1100,
+  "after": 1600,
+  "diff": 500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,050"
+ },
+ {
+  "key": "iphone_11_pro_max_64",
+  "model": "iPhone 11 Pro Max 64GB",
+  "part": "charging_port",
+  "before": 900,
+  "after": 3500,
+  "diff": 2600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,950"
+ },
+ {
+  "key": "iphone_11_pro_max_64",
+  "model": "iPhone 11 Pro Max 64GB",
+  "part": "speaker",
+  "before": 700,
+  "after": 1500,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs950"
+ },
+ {
+  "key": "iphone_11_pro_max_256",
+  "model": "iPhone 11 Pro Max 256GB",
+  "part": "display",
+  "before": 5600,
+  "after": 9100,
+  "diff": 3500,
+  "now": "Market",
+  "sources": "abest.in Rs5,950 · appleproductsfix.com Rs8,999 · touchlcdbaba.com Rs8,590"
+ },
+ {
+  "key": "iphone_11_pro_max_256",
+  "model": "iPhone 11 Pro Max 256GB",
+  "part": "battery",
+  "before": 1300,
+  "after": 4800,
+  "diff": 3500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,300"
+ },
+ {
+  "key": "iphone_11_pro_max_256",
+  "model": "iPhone 11 Pro Max 256GB",
+  "part": "back_panel",
+  "before": 1800,
+  "after": 2900,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs879"
+ },
+ {
+  "key": "iphone_11_pro_max_256",
+  "model": "iPhone 11 Pro Max 256GB",
+  "part": "rear_camera",
+  "before": 2600,
+  "after": 4500,
+  "diff": 1900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,999"
+ },
+ {
+  "key": "iphone_11_pro_max_256",
+  "model": "iPhone 11 Pro Max 256GB",
+  "part": "front_camera",
+  "before": 1300,
+  "after": 1600,
+  "diff": 300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,050"
+ },
+ {
+  "key": "iphone_11_pro_max_256",
+  "model": "iPhone 11 Pro Max 256GB",
+  "part": "charging_port",
+  "before": 1000,
+  "after": 3500,
+  "diff": 2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,950"
+ },
+ {
+  "key": "iphone_11_pro_max_256",
+  "model": "iPhone 11 Pro Max 256GB",
+  "part": "speaker",
+  "before": 800,
+  "after": 1500,
+  "diff": 700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs950"
+ },
+ {
+  "key": "iphone_11_pro_max_512",
+  "model": "iPhone 11 Pro Max 512GB",
+  "part": "display",
+  "before": 6300,
+  "after": 9100,
+  "diff": 2800,
+  "now": "Market",
+  "sources": "abest.in Rs5,950 · appleproductsfix.com Rs8,999 · touchlcdbaba.com Rs8,590"
+ },
+ {
+  "key": "iphone_11_pro_max_512",
+  "model": "iPhone 11 Pro Max 512GB",
+  "part": "battery",
+  "before": 1400,
+  "after": 4800,
+  "diff": 3400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs4,300"
+ },
+ {
+  "key": "iphone_11_pro_max_512",
+  "model": "iPhone 11 Pro Max 512GB",
+  "part": "back_panel",
+  "before": 2000,
+  "after": 2900,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs879"
+ },
+ {
+  "key": "iphone_11_pro_max_512",
+  "model": "iPhone 11 Pro Max 512GB",
+  "part": "rear_camera",
+  "before": 2900,
+  "after": 4500,
+  "diff": 1600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs3,999"
+ },
+ {
+  "key": "iphone_11_pro_max_512",
+  "model": "iPhone 11 Pro Max 512GB",
+  "part": "front_camera",
+  "before": 1400,
+  "after": 1600,
+  "diff": 200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,050"
+ },
+ {
+  "key": "iphone_11_pro_max_512",
+  "model": "iPhone 11 Pro Max 512GB",
+  "part": "charging_port",
+  "before": 1100,
+  "after": 3500,
+  "diff": 2400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,950"
+ },
+ {
+  "key": "iphone_11_pro_max_512",
+  "model": "iPhone 11 Pro Max 512GB",
+  "part": "speaker",
+  "before": 900,
+  "after": 1500,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs950"
+ },
+ {
+  "key": "iphone_12_mini_128",
+  "model": "iPhone 12 mini 128GB",
+  "part": "front_camera",
+  "before": 1000,
+  "after": 1800,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250"
+ },
+ {
+  "key": "iphone_12_mini_128",
+  "model": "iPhone 12 mini 128GB",
+  "part": "charging_port",
+  "before": 800,
+  "after": 1600,
+  "diff": 800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,100"
+ },
+ {
+  "key": "iphone_12_mini_128",
+  "model": "iPhone 12 mini 128GB",
+  "part": "speaker",
+  "before": 600,
+  "after": 1400,
+  "diff": 800,
+  "now": "Market",
+  "sources": "abest.in Rs480 · appleproductsfix.com Rs1,199"
+ },
+ {
+  "key": "iphone_12_mini_256",
+  "model": "iPhone 12 mini 256GB",
+  "part": "front_camera",
+  "before": 1200,
+  "after": 1800,
+  "diff": 600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,250"
+ },
+ {
+  "key": "iphone_12_mini_256",
+  "model": "iPhone 12 mini 256GB",
+  "part": "charging_port",
+  "before": 900,
+  "after": 1600,
+  "diff": 700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,100"
+ },
+ {
+  "key": "iphone_12_mini_256",
+  "model": "iPhone 12 mini 256GB",
+  "part": "speaker",
+  "before": 700,
+  "after": 1400,
+  "diff": 700,
+  "now": "Market",
+  "sources": "abest.in Rs480 · appleproductsfix.com Rs1,199"
+ },
+ {
+  "key": "iphone_air_1tb",
+  "model": "iPhone Air 1TB",
+  "part": "front_camera",
+  "before": 8000,
+  "after": 6800,
+  "diff": -1200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs6,300"
+ },
+ {
+  "key": "iphone_6_16",
+  "model": "iPhone 6 16GB",
+  "part": "display",
+  "before": 1600,
+  "after": 2200,
+  "diff": 600,
+  "now": "Market",
+  "sources": "abest.in Rs899 · touchlcdbaba.com Rs2,350"
+ },
+ {
+  "key": "iphone_6_16",
+  "model": "iPhone 6 16GB",
+  "part": "battery",
+  "before": 400,
+  "after": 3000,
+  "diff": 2600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6_16",
+  "model": "iPhone 6 16GB",
+  "part": "back_panel",
+  "before": 500,
+  "after": 3900,
+  "diff": 3400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_6_32",
+  "model": "iPhone 6 32GB",
+  "part": "display",
+  "before": 1800,
+  "after": 2200,
+  "diff": 400,
+  "now": "Market",
+  "sources": "abest.in Rs899 · touchlcdbaba.com Rs2,350"
+ },
+ {
+  "key": "iphone_6_32",
+  "model": "iPhone 6 32GB",
+  "part": "battery",
+  "before": 400,
+  "after": 3000,
+  "diff": 2600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6_32",
+  "model": "iPhone 6 32GB",
+  "part": "back_panel",
+  "before": 600,
+  "after": 3900,
+  "diff": 3300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_6_64",
+  "model": "iPhone 6 64GB",
+  "part": "display",
+  "before": 1900,
+  "after": 2200,
+  "diff": 300,
+  "now": "Market",
+  "sources": "abest.in Rs899 · touchlcdbaba.com Rs2,350"
+ },
+ {
+  "key": "iphone_6_64",
+  "model": "iPhone 6 64GB",
+  "part": "battery",
+  "before": 400,
+  "after": 3000,
+  "diff": 2600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6_64",
+  "model": "iPhone 6 64GB",
+  "part": "back_panel",
+  "before": 600,
+  "after": 3900,
+  "diff": 3300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_6_128",
+  "model": "iPhone 6 128GB",
+  "part": "display",
+  "before": 2200,
+  "after": 2200,
+  "diff": 0,
+  "now": "Market",
+  "sources": "abest.in Rs899 · touchlcdbaba.com Rs2,350"
+ },
+ {
+  "key": "iphone_6_128",
+  "model": "iPhone 6 128GB",
+  "part": "battery",
+  "before": 500,
+  "after": 3000,
+  "diff": 2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6_128",
+  "model": "iPhone 6 128GB",
+  "part": "back_panel",
+  "before": 700,
+  "after": 3900,
+  "diff": 3200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_6_plus_16",
+  "model": "iPhone 6 Plus 16GB",
+  "part": "battery",
+  "before": 400,
+  "after": 3000,
+  "diff": 2600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6_plus_16",
+  "model": "iPhone 6 Plus 16GB",
+  "part": "back_panel",
+  "before": 600,
+  "after": 3900,
+  "diff": 3300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_6_plus_32",
+  "model": "iPhone 6 Plus 32GB",
+  "part": "battery",
+  "before": 500,
+  "after": 3000,
+  "diff": 2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6_plus_32",
+  "model": "iPhone 6 Plus 32GB",
+  "part": "back_panel",
+  "before": 700,
+  "after": 3900,
+  "diff": 3200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_6_plus_64",
+  "model": "iPhone 6 Plus 64GB",
+  "part": "battery",
+  "before": 500,
+  "after": 3000,
+  "diff": 2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6_plus_64",
+  "model": "iPhone 6 Plus 64GB",
+  "part": "back_panel",
+  "before": 700,
+  "after": 3900,
+  "diff": 3200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_6_plus_128",
+  "model": "iPhone 6 Plus 128GB",
+  "part": "battery",
+  "before": 600,
+  "after": 3000,
+  "diff": 2400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6_plus_128",
+  "model": "iPhone 6 Plus 128GB",
+  "part": "back_panel",
+  "before": 900,
+  "after": 3900,
+  "diff": 3000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_6s_16",
+  "model": "iPhone 6S 16GB",
+  "part": "battery",
+  "before": 400,
+  "after": 3000,
+  "diff": 2600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6s_16",
+  "model": "iPhone 6S 16GB",
+  "part": "back_panel",
+  "before": 600,
+  "after": 3900,
+  "diff": 3300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_6s_32",
+  "model": "iPhone 6S 32GB",
+  "part": "battery",
+  "before": 400,
+  "after": 3000,
+  "diff": 2600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6s_32",
+  "model": "iPhone 6S 32GB",
+  "part": "back_panel",
+  "before": 600,
+  "after": 3900,
+  "diff": 3300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_6s_64",
+  "model": "iPhone 6S 64GB",
+  "part": "battery",
+  "before": 500,
+  "after": 3000,
+  "diff": 2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6s_64",
+  "model": "iPhone 6S 64GB",
+  "part": "back_panel",
+  "before": 700,
+  "after": 3900,
+  "diff": 3200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_6s_128",
+  "model": "iPhone 6S 128GB",
+  "part": "battery",
+  "before": 500,
+  "after": 3000,
+  "diff": 2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6s_128",
+  "model": "iPhone 6S 128GB",
+  "part": "back_panel",
+  "before": 800,
+  "after": 3900,
+  "diff": 3100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_6s_plus_16",
+  "model": "iPhone 6S Plus 16GB",
+  "part": "battery",
+  "before": 400,
+  "after": 3000,
+  "diff": 2600,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6s_plus_16",
+  "model": "iPhone 6S Plus 16GB",
+  "part": "back_panel",
+  "before": 600,
+  "after": 3900,
+  "diff": 3300,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_6s_plus_32",
+  "model": "iPhone 6S Plus 32GB",
+  "part": "battery",
+  "before": 500,
+  "after": 3000,
+  "diff": 2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6s_plus_32",
+  "model": "iPhone 6S Plus 32GB",
+  "part": "back_panel",
+  "before": 700,
+  "after": 3900,
+  "diff": 3200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_6s_plus_64",
+  "model": "iPhone 6S Plus 64GB",
+  "part": "battery",
+  "before": 600,
+  "after": 3000,
+  "diff": 2400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6s_plus_64",
+  "model": "iPhone 6S Plus 64GB",
+  "part": "back_panel",
+  "before": 800,
+  "after": 3900,
+  "diff": 3100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_6s_plus_128",
+  "model": "iPhone 6S Plus 128GB",
+  "part": "battery",
+  "before": 600,
+  "after": 3000,
+  "diff": 2400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_6s_plus_128",
+  "model": "iPhone 6S Plus 128GB",
+  "part": "back_panel",
+  "before": 900,
+  "after": 3900,
+  "diff": 3000,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ },
+ {
+  "key": "iphone_se_2016_16",
+  "model": "iPhone SE (2016) 16GB",
+  "part": "display",
+  "before": 1300,
+  "after": 2700,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,200"
+ },
+ {
+  "key": "iphone_se_2016_16",
+  "model": "iPhone SE (2016) 16GB",
+  "part": "battery",
+  "before": 300,
+  "after": 2100,
+  "diff": 1800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,599"
+ },
+ {
+  "key": "iphone_se_2016_16",
+  "model": "iPhone SE (2016) 16GB",
+  "part": "back_panel",
+  "before": 400,
+  "after": 4300,
+  "diff": 3900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,300"
+ },
+ {
+  "key": "iphone_se_2016_32",
+  "model": "iPhone SE (2016) 32GB",
+  "part": "display",
+  "before": 1500,
+  "after": 2700,
+  "diff": 1200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,200"
+ },
+ {
+  "key": "iphone_se_2016_32",
+  "model": "iPhone SE (2016) 32GB",
+  "part": "battery",
+  "before": 300,
+  "after": 2100,
+  "diff": 1800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,599"
+ },
+ {
+  "key": "iphone_se_2016_32",
+  "model": "iPhone SE (2016) 32GB",
+  "part": "back_panel",
+  "before": 500,
+  "after": 4300,
+  "diff": 3800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,300"
+ },
+ {
+  "key": "iphone_se_2016_64",
+  "model": "iPhone SE (2016) 64GB",
+  "part": "display",
+  "before": 1600,
+  "after": 2700,
+  "diff": 1100,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,200"
+ },
+ {
+  "key": "iphone_se_2016_64",
+  "model": "iPhone SE (2016) 64GB",
+  "part": "battery",
+  "before": 400,
+  "after": 2100,
+  "diff": 1700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,599"
+ },
+ {
+  "key": "iphone_se_2016_64",
+  "model": "iPhone SE (2016) 64GB",
+  "part": "back_panel",
+  "before": 500,
+  "after": 4300,
+  "diff": 3800,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,300"
+ },
+ {
+  "key": "iphone_se_2016_128",
+  "model": "iPhone SE (2016) 128GB",
+  "part": "display",
+  "before": 1800,
+  "after": 2700,
+  "diff": 900,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,200"
+ },
+ {
+  "key": "iphone_se_2016_128",
+  "model": "iPhone SE (2016) 128GB",
+  "part": "battery",
+  "before": 400,
+  "after": 2100,
+  "diff": 1700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,599"
+ },
+ {
+  "key": "iphone_se_2016_128",
+  "model": "iPhone SE (2016) 128GB",
+  "part": "back_panel",
+  "before": 600,
+  "after": 4300,
+  "diff": 3700,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,300"
+ },
+ {
+  "key": "iphone_7_256",
+  "model": "iPhone 7 256GB",
+  "part": "display",
+  "before": 1300,
+  "after": 3200,
+  "diff": 1900,
+  "now": "Market",
+  "sources": "abest.in Rs1,899 · touchlcdbaba.com Rs3,490"
+ },
+ {
+  "key": "iphone_7_256",
+  "model": "iPhone 7 256GB",
+  "part": "battery",
+  "before": 300,
+  "after": 2700,
+  "diff": 2400,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,200"
+ },
+ {
+  "key": "iphone_7_256",
+  "model": "iPhone 7 256GB",
+  "part": "back_panel",
+  "before": 400,
+  "after": 3900,
+  "diff": 3500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,860"
+ },
+ {
+  "key": "iphone_7_plus_256",
+  "model": "iPhone 7 Plus 256GB",
+  "part": "display",
+  "before": 2300,
+  "after": 3700,
+  "diff": 1400,
+  "now": "Market",
+  "sources": "abest.in Rs2,299 · touchlcdbaba.com Rs3,990"
+ },
+ {
+  "key": "iphone_7_plus_256",
+  "model": "iPhone 7 Plus 256GB",
+  "part": "battery",
+  "before": 500,
+  "after": 3000,
+  "diff": 2500,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs2,500"
+ },
+ {
+  "key": "iphone_7_plus_256",
+  "model": "iPhone 7 Plus 256GB",
+  "part": "back_panel",
+  "before": 700,
+  "after": 3900,
+  "diff": 3200,
+  "now": "Market",
+  "sources": "appleproductsfix.com Rs1,850"
+ }
+]
