@@ -1,0 +1,82 @@
+{
+  "oneplus_6t_128": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "oneplus_7_pro_256": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "redmi_9_power_128": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "xiaomi_mi_11_lite_ne_128": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "redmi_note_10s_128": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "redmi_note_10_lite_128": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "poco_x3_pro_128": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "poco_m3_64": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "oneplus_10t_256": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "oneplus_nord_ce_2_128": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "redmi_note_11_64": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "redmi_note_11s_128": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "redmi_note_11_pro_128": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "redmi_note_11_pro_plus_128": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "redmi_note_11t_5g_128": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "poco_m4_pro_5g_64": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "poco_m4_pro_5g_128": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "moto_edge_30_128": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "moto_g82_128": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  },
+  "moto_g62_5g_128": {
+    "reason": "Legacy catalogue row does not specify RAM, while current primary retailer discovery shows multiple RAM variants at this storage. Do not import a selected RAM price as exact.",
+    "variants": []
+  }
+}

@@ -1,4 +1,4 @@
-const C = "rt-buyback-cache-v6-37-parts-20261114";
+const C = "rt-buyback-cache-v6-38-weekly-20261119";
 const PREFIX = "rt-buyback-cache-";
 const NETWORK_WAIT_MS = 1000;
 self.addEventListener("install", e => e.waitUntil(self.skipWaiting()));

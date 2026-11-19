@@ -1,0 +1,9 @@
+{
+ "version": "6.38",
+ "previous_version": "6.37",
+ "date": "2026-11-19",
+ "date_label": "19 November",
+ "old_cache": "rt-buyback-cache-v6-37-parts-20261114",
+ "new_cache": "rt-buyback-cache-v6-38-weekly-20261119",
+ "git_head": "faa9d296"
+}
