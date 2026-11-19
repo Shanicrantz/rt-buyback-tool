@@ -142,11 +142,13 @@ def build(models):
 if __name__ == '__main__':
     base = json.loads((W / 'baseline/phone_db.json').read_text())
     need = {}
+    # pairs Shane chose to keep on the tier-% estimate (v6.42+: iPhone 17 front camera) are never re-priced
+    excl = {(x['model'], x['part']) for x in base['_meta'].get('part_price_market_exclusions', [])}
     for k, e in base.items():
         if k == '_meta' or not k.startswith('iphone') or e.get('international') or e.get('category', 'phone') != 'phone': continue
         m = db_model(e['display_name'])
         for p in PARTS:
-            if p not in (e.get('part_prices') or {}): need.setdefault(m, set()).add(p)
+            if p not in (e.get('part_prices') or {}) and (m, p) not in excl: need.setdefault(m, set()).add(p)
     rows, usable, result = build(sorted(need))
     table = []
     for m in sorted(need):

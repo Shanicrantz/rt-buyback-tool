@@ -75,5 +75,8 @@ Rules:
 Shane: "parts ke rates apple ki jagah market ke laga do". iPhones use the India market rate for an **original-grade** part (pulled or new original; never copy / soft-OLED / GX / Foxconn / "OEM grade") **plus fitting**, not Apple's service estimate. These records carry `market: true` and `brand: "Market"`, and `build_parts.py` keeps them even when an Apple browser walk is re-run. To re-price them, copy `_weekly_refresh/2026-11-19-v6.39-apple-market-parts/` (scripts `fetch_abest.sh`, `parse_*.py`, `build_market.py`, `prepare_candidate.py`, `compare_market.cjs`; see its REPORT.md) into a new dated folder, re-fetch the seller pages, and re-run.
 - Rate = median over sellers of (that seller's highest in-stock original-grade listing + fitting), rounded up to ₹100. Fitting: display ₹500 and back glass ₹2,000 as listed by iFonewala (Gaffar Market); battery and camera ₹500.
 - Apple's estimate stays where no original-grade market part is listed or the market is not cheaper (new launches).
+- v6.40 (`_weekly_refresh/2026-11-19-v6.40-iphone-market-parts/`) extends this to every iPhone part, including front camera, charging port, speaker and older models. Its `build_market.py` fills only parts with no saved price.
+- v6.41: batteries on older iPhones (6 → XS Max, SE 2016, 11 Pro / Pro Max) use the **Foxconn** grade (Shane). Keep that when re-pricing.
+- `_meta.part_price_market_exclusions` lists the (model, part) pairs Shane wants on the tier-% estimate. From v6.42 that is the iPhone 17 front camera, whose only listing looked serialised. Never re-price these pairs.
 
 Known stale test: `test_quote_safety_solver.py` is hard-wired to `/Volumes/my1tb` and asserts the pre-2026-11-06 "-21% must block" rule. It is not part of the gate.

@@ -65,6 +65,11 @@ test('v6.41: every older-iPhone battery is Foxconn grade and cheaper than its or
   else assert.equal(r.grade,'Original/OG',k);}
  assert.match(db._meta.part_price_policy,/Foxconn-grade battery/);
 });
+test('v6.42: pairs Shane keeps on the tier-% estimate carry no market price',()=>{
+ const ex=db._meta.part_price_market_exclusions||[];assert.ok(ex.some(x=>x.model==='iPhone 17'&&x.part==='front_camera'),'iPhone 17 front camera exclusion');
+ for(const [k,e] of priced)for(const x of ex){const r=e.part_prices[x.part];assert.ok(!(r&&r.market&&r.brand_model===x.model),k+' '+x.part);}
+ assert.equal(partCost(db.iphone_17_256,'front_camera',82900),Math.round(82900*DAMAGE_PARTS.front_camera.pct[db.iphone_17_256.tier]/100)*100);
+});
 test('policy text names the iPhone market rule',()=>assert.match(db._meta.part_price_policy,/market rate for an ORIGINAL-grade part/));
 test('v6.40: every iPhone part a seller lists is priced; older iPhones and the extra parts are covered',()=>{
  const has=(k,dk)=>db[k]&&db[k].part_prices&&db[k].part_prices[dk]&&db[k].part_prices[dk].market;

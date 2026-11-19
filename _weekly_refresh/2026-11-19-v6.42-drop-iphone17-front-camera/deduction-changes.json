@@ -1,0 +1,16 @@
+[
+ {
+  "key": "iphone_17_256",
+  "model": "iPhone 17 256GB",
+  "part": "front_camera",
+  "before": 22000,
+  "after": 4500
+ },
+ {
+  "key": "iphone_17_512",
+  "model": "iPhone 17 512GB",
+  "part": "front_camera",
+  "before": 22000,
+  "after": 5100
+ }
+]
