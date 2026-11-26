@@ -1,0 +1,9 @@
+{
+ "version": "6.43",
+ "previous_version": "6.42",
+ "date": "2026-11-26",
+ "date_label": "26 November",
+ "old_cache": "rt-buyback-cache-v6-42-drop-17-front-cam-20261119",
+ "new_cache": "rt-buyback-cache-v6-43-weekly-20261126",
+ "git_head": "d5f7e0c6"
+}

@@ -1,0 +1,65 @@
+{
+ "ok": true,
+ "version": "6.43",
+ "checks": {
+  "candidate pair identical": {
+   "ok": true,
+   "detail": ""
+  },
+  "version": {
+   "ok": true,
+   "detail": "6.43"
+  },
+  "html outside DB line unchanged": {
+   "ok": true,
+   "detail": ""
+  },
+  "same catalogue keys": {
+   "ok": true,
+   "detail": "2484 records"
+  },
+  "production unchanged since baseline": {
+   "ok": true,
+   "detail": ""
+  },
+  "all JS suites pass": {
+   "ok": true,
+   "detail": "SUITES 12 FAILED 0"
+  },
+  "full-catalogue coverage": {
+   "ok": true,
+   "detail": ""
+  },
+  "verified new prices >= 450 (sources not blocked)": {
+   "ok": true,
+   "detail": "569 verified / 2469"
+  },
+  "no numeric inversions": {
+   "ok": true,
+   "detail": "0"
+  },
+  "no-age quote changes <= 40": {
+   "ok": true,
+   "detail": "1 changed"
+  },
+  "no no-age quote rises above 8%": {
+   "ok": true,
+   "detail": ""
+  },
+  "no model lost its no-age quote": {
+   "ok": true,
+   "detail": ""
+  },
+  "no new counter blocks": {
+   "ok": true,
+   "detail": "0 -> 0"
+  }
+ },
+ "no_age_changes": [
+  {
+   "model": "Redmi Pad 4GB/128GB",
+   "old_quick_estimate": 9200,
+   "new_quick_estimate": 9100
+  }
+ ]
+}
